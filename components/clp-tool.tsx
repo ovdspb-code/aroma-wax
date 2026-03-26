@@ -26,6 +26,7 @@ export function ClpTool() {
   const [selectedVariantId, setSelectedVariantId] = useState("");
   const [formData, setFormData] = useState<LabelFormData>(emptyForm);
   const [sourceFormData, setSourceFormData] = useState<LabelFormData>(emptyForm);
+  const [previewScale, setPreviewScale] = useState<1 | 2>(2);
 
   useEffect(() => {
     startTransition(async () => {
@@ -187,6 +188,28 @@ export function ClpTool() {
               </label>
 
               <label className="block text-sm font-medium">
+                Preview scale
+                <div className="mt-2 flex gap-2">
+                  {[1, 2].map((scale) => (
+                    <button
+                      key={scale}
+                      type="button"
+                      onClick={() => setPreviewScale(scale as 1 | 2)}
+                      className={`rounded-full border px-3 py-2 text-sm transition ${
+                        previewScale === scale
+                          ? "border-[var(--accent-strong)] bg-[var(--accent-strong)] text-white"
+                          : "border-[var(--line)] bg-white text-[var(--foreground)]"
+                      }`}
+                    >
+                      {scale === 1 ? "Original size" : "2x preview"}
+                    </button>
+                  ))}
+                </div>
+              </label>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-2">
+              <label className="block text-sm font-medium">
                 Label size
                 <select
                   value={formData.sizePreset}
@@ -280,10 +303,31 @@ export function ClpTool() {
               </label>
 
               <label className="block text-sm font-medium">
+                Business name
+                <input
+                  value={formData.businessName}
+                  onChange={(event) => updateField("businessName", event.target.value)}
+                  className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
+                />
+              </label>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-2">
+              <label className="block text-sm font-medium">
                 SKU
                 <input
                   value={formData.sku}
                   onChange={(event) => updateField("sku", event.target.value)}
+                  className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
+                />
+              </label>
+
+              <label className="block text-sm font-medium">
+                Business address
+                <textarea
+                  value={formData.businessAddress}
+                  onChange={(event) => updateField("businessAddress", event.target.value)}
+                  rows={3}
                   className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
                 />
               </label>
@@ -346,8 +390,6 @@ export function ClpTool() {
               ["pStatements", "Precautionary statements"],
               ["euhStatements", "Additional statements"],
               ["extraWarning", "Extra warning"],
-              ["supplierDetails", "Supplier details"],
-              ["responsiblePerson", "Responsible person"],
             ].map(([key, label]) => (
               <label key={key} className="block text-sm font-medium">
                 {label}
@@ -380,9 +422,9 @@ export function ClpTool() {
           </div>
         </section>
 
-        <section className="print-stage flex min-h-[70vh] items-start justify-center rounded-[30px] border border-[var(--line)] bg-[#efe7db] p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] md:p-8">
+        <section className="print-stage flex min-h-[70vh] items-start justify-center overflow-auto rounded-[30px] border border-[var(--line)] bg-[#efe7db] p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] md:p-8">
           <div data-print-area="true">
-            <LabelPreview formData={formData} />
+            <LabelPreview formData={formData} previewScale={previewScale} />
           </div>
         </section>
       </div>

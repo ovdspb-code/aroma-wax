@@ -4,7 +4,7 @@ export const mockProductsFixture: ShopifyProduct[] = [
   {
     id: "mock-product-candle",
     title: "Black Pomegranate & Smoked Cedar Luxury Candle Fragrance",
-    vendor: "AROMA + WAX",
+    vendor: "Private Label Demo",
     description: "Mock candle product for CLP label testing.",
     tags: ["luxury", "candle", "autumn", "long-name-test"],
     metafields: {
@@ -32,7 +32,7 @@ export const mockProductsFixture: ShopifyProduct[] = [
       pictograms: ["GHS07", "GHS09"],
       netQuantityDefault: "220 g",
       netWeightGrams: "220",
-      supplierDetails: "AROMA + WAX\naromawax.eu\nMadrid, Spain",
+      supplierDetails: "",
       extraWarning:
         "Always remove packaging before burning. Never leave a burning candle unattended.",
     },
@@ -65,7 +65,7 @@ export const mockProductsFixture: ShopifyProduct[] = [
   {
     id: "mock-product-diffuser",
     title: "Neroli Blossom Reed Diffuser Base Blend",
-    vendor: "AROMA + WAX",
+    vendor: "Private Label Demo",
     description: "Mock diffuser product for CLP label testing.",
     tags: ["diffuser", "fresh", "citrus"],
     metafields: {
@@ -95,7 +95,7 @@ export const mockProductsFixture: ShopifyProduct[] = [
       pictograms: ["GHS02", "GHS07", "GHS09"],
       netQuantityDefault: "100 ml",
       netWeightGrams: "100",
-      supplierDetails: "AROMA + WAX\naromawax.eu\nMadrid, Spain",
+      supplierDetails: "",
       extraWarning: "Do not place directly on polished, painted or synthetic surfaces.",
     },
     variants: [
@@ -113,7 +113,7 @@ export const mockProductsFixture: ShopifyProduct[] = [
   {
     id: "mock-product-roomspray",
     title: "White Tea & Linen Room Spray",
-    vendor: "AROMA + WAX",
+    vendor: "Private Label Demo",
     description: "Mock room spray product for CLP label testing.",
     tags: ["room spray", "clean", "linen"],
     metafields: {
@@ -136,7 +136,7 @@ export const mockProductsFixture: ShopifyProduct[] = [
       pictograms: ["GHS02", "GHS07"],
       netQuantityDefault: "100 ml",
       netWeightGrams: "100",
-      supplierDetails: "AROMA + WAX\naromawax.eu\nMadrid, Spain",
+      supplierDetails: "",
       extraWarning: "Avoid spraying directly onto fabrics, pets or skin.",
     },
     variants: [

@@ -45,7 +45,6 @@ export function buildInitialFormData(
 
   return {
     productTitle: product?.title ?? "",
-    vendor: product?.vendor ?? "AROMA + WAX",
     templateType,
     sizePreset: templateSizePresets[templateType].medium.key,
     fragranceType: metafields.fragranceType ?? "",
@@ -62,8 +61,8 @@ export function buildInitialFormData(
     netWeightGrams: metafields.netWeightGrams ?? "",
     extraWarning: metafields.extraWarning ?? "",
     batchCode: "",
-    responsiblePerson: metafields.supplierDetails ?? "AROMA + WAX\naromawax.eu",
-    supplierDetails: metafields.supplierDetails ?? "AROMA + WAX\naromawax.eu",
+    businessName: "",
+    businessAddress: "",
     scentNotes: product?.tags.join(", ") ?? "",
     sku: variant?.sku ?? "",
   };

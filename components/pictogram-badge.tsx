@@ -75,9 +75,21 @@ const pictogramIcons: Record<string, React.ReactNode> = {
   GHS09: <EnvironmentIcon />,
 };
 
-export function PictogramBadge({ code }: { code: string }) {
+export function PictogramBadge({
+  code,
+  sizeMm = 12,
+}: {
+  code: string;
+  sizeMm?: number;
+}) {
   return (
-    <div className="h-[18mm] w-[18mm] shrink-0">
+    <div
+      className="shrink-0"
+      style={{
+        width: `${sizeMm}mm`,
+        height: `${sizeMm}mm`,
+      }}
+    >
       {pictogramIcons[code] ?? (
         <div className="flex h-full w-full items-center justify-center border border-[#d7d0c8] bg-white text-center text-[2.4mm] font-semibold uppercase">
           {code}

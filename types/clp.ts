@@ -38,7 +38,6 @@ export type ShopifyProduct = {
 
 export type LabelFormData = {
   productTitle: string;
-  vendor: string;
   templateType: TemplateType;
   sizePreset: SizePreset;
   fragranceType: string;
@@ -55,8 +54,8 @@ export type LabelFormData = {
   netWeightGrams: string;
   extraWarning: string;
   batchCode: string;
-  responsiblePerson: string;
-  supplierDetails: string;
+  businessName: string;
+  businessAddress: string;
   scentNotes: string;
   sku: string;
 };
