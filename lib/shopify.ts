@@ -1,6 +1,7 @@
 import { getOptionalServerEnv, getServerEnv, isMockModeEnabled } from "@/lib/env";
 import { mockProductsFixture } from "@/fixtures/mock-products";
 import { ClpMetafields, ShopifyProduct, TemplateType } from "@/types/clp";
+import { ClpTableRow, parseJsonArrayCell, readClpTable } from "@/scripts/lib/clp-table";
 
 type ShopifyGraphQLResponse<T> = {
   data?: T;
@@ -29,51 +30,41 @@ const productQuery = `
         vendor
         description
         tags
-        metafields(identifiers: [
-          { namespace: "clp", key: "template_type" }
-          { namespace: "clp", key: "fragrance_type" }
-          { namespace: "clp", key: "concentration_percent" }
-          { namespace: "clp", key: "ufi_code" }
-          { namespace: "clp", key: "product_identifier" }
-          { namespace: "clp", key: "signal_word" }
-          { namespace: "clp", key: "contains" }
-          { namespace: "clp", key: "h_statements" }
-          { namespace: "clp", key: "p_statements" }
-          { namespace: "clp", key: "euh_statements" }
-          { namespace: "clp", key: "pictograms" }
-          { namespace: "clp", key: "net_quantity_default" }
-          { namespace: "clp", key: "net_weight_grams" }
-          { namespace: "clp", key: "supplier_details" }
-          { namespace: "clp", key: "extra_warning" }
-        ]) {
-          key
-          value
-        }
+        template_type: metafield(namespace: "clp", key: "template_type") { value }
+        fragrance_type: metafield(namespace: "clp", key: "fragrance_type") { value }
+        concentration_percent: metafield(namespace: "clp", key: "concentration_percent") { value }
+        ufi_code: metafield(namespace: "clp", key: "ufi_code") { value }
+        product_identifier: metafield(namespace: "clp", key: "product_identifier") { value }
+        signal_word: metafield(namespace: "clp", key: "signal_word") { value }
+        contains: metafield(namespace: "clp", key: "contains") { value }
+        h_statements: metafield(namespace: "clp", key: "h_statements") { value }
+        p_statements: metafield(namespace: "clp", key: "p_statements") { value }
+        euh_statements: metafield(namespace: "clp", key: "euh_statements") { value }
+        pictograms: metafield(namespace: "clp", key: "pictograms") { value }
+        net_quantity_default: metafield(namespace: "clp", key: "net_quantity_default") { value }
+        net_weight_grams: metafield(namespace: "clp", key: "net_weight_grams") { value }
+        supplier_details: metafield(namespace: "clp", key: "supplier_details") { value }
+        extra_warning: metafield(namespace: "clp", key: "extra_warning") { value }
         variants(first: 50) {
           nodes {
             id
             title
             sku
-            metafields(identifiers: [
-              { namespace: "clp", key: "template_type" }
-              { namespace: "clp", key: "fragrance_type" }
-              { namespace: "clp", key: "concentration_percent" }
-              { namespace: "clp", key: "ufi_code" }
-              { namespace: "clp", key: "product_identifier" }
-              { namespace: "clp", key: "signal_word" }
-              { namespace: "clp", key: "contains" }
-              { namespace: "clp", key: "h_statements" }
-              { namespace: "clp", key: "p_statements" }
-              { namespace: "clp", key: "euh_statements" }
-              { namespace: "clp", key: "pictograms" }
-              { namespace: "clp", key: "net_quantity_default" }
-              { namespace: "clp", key: "net_weight_grams" }
-              { namespace: "clp", key: "supplier_details" }
-              { namespace: "clp", key: "extra_warning" }
-            ]) {
-              key
-              value
-            }
+            template_type: metafield(namespace: "clp", key: "template_type") { value }
+            fragrance_type: metafield(namespace: "clp", key: "fragrance_type") { value }
+            concentration_percent: metafield(namespace: "clp", key: "concentration_percent") { value }
+            ufi_code: metafield(namespace: "clp", key: "ufi_code") { value }
+            product_identifier: metafield(namespace: "clp", key: "product_identifier") { value }
+            signal_word: metafield(namespace: "clp", key: "signal_word") { value }
+            contains: metafield(namespace: "clp", key: "contains") { value }
+            h_statements: metafield(namespace: "clp", key: "h_statements") { value }
+            p_statements: metafield(namespace: "clp", key: "p_statements") { value }
+            euh_statements: metafield(namespace: "clp", key: "euh_statements") { value }
+            pictograms: metafield(namespace: "clp", key: "pictograms") { value }
+            net_quantity_default: metafield(namespace: "clp", key: "net_quantity_default") { value }
+            net_weight_grams: metafield(namespace: "clp", key: "net_weight_grams") { value }
+            supplier_details: metafield(namespace: "clp", key: "supplier_details") { value }
+            extra_warning: metafield(namespace: "clp", key: "extra_warning") { value }
           }
         }
       }
@@ -98,13 +89,13 @@ function parseJsonArray(value?: string): string[] {
 }
 
 function parseMetafields(
-  metafields: Array<{ key: string; value: string | null } | null> | null | undefined,
+  metafields: Record<string, { value: string | null } | null> | null | undefined,
 ): ClpMetafields {
   const byKey = new Map<string, string>();
 
-  for (const metafield of metafields ?? []) {
-    if (metafield?.key && metafield.value) {
-      byKey.set(metafield.key, metafield.value);
+  for (const [key, metafield] of Object.entries(metafields ?? {})) {
+    if (metafield?.value) {
+      byKey.set(key, metafield.value);
     }
   }
 
@@ -125,6 +116,106 @@ function parseMetafields(
     supplierDetails: byKey.get("supplier_details"),
     extraWarning: byKey.get("extra_warning"),
   };
+}
+
+function hasMeaningfulTableValue(value?: string) {
+  return Boolean(value?.trim());
+}
+
+function hasMeaningfulTableArray(value?: string) {
+  return parseJsonArrayCell(value ?? "").length > 0;
+}
+
+function rowHasClpData(row: ClpTableRow) {
+  return (
+    hasMeaningfulTableValue(row.template_type) ||
+    hasMeaningfulTableValue(row.fragrance_type) ||
+    hasMeaningfulTableValue(row.concentration_percent) ||
+    hasMeaningfulTableValue(row.ufi_code) ||
+    hasMeaningfulTableValue(row.product_identifier) ||
+    hasMeaningfulTableValue(row.signal_word) ||
+    hasMeaningfulTableValue(row.net_quantity_default) ||
+    hasMeaningfulTableValue(row.net_weight_grams) ||
+    hasMeaningfulTableValue(row.extra_warning) ||
+    hasMeaningfulTableValue(row.source_product_url) ||
+    hasMeaningfulTableValue(row.source_sds_url) ||
+    hasMeaningfulTableValue(row.source_ifra_url) ||
+    hasMeaningfulTableValue(row.source_usage_candle) ||
+    hasMeaningfulTableValue(row.source_usage_reed_diffuser) ||
+    hasMeaningfulTableValue(row.source_usage_room_spray) ||
+    hasMeaningfulTableValue(row.notes) ||
+    hasMeaningfulTableArray(row.pictograms) ||
+    hasMeaningfulTableArray(row.contains) ||
+    hasMeaningfulTableArray(row.h_statements) ||
+    hasMeaningfulTableArray(row.p_statements) ||
+    hasMeaningfulTableArray(row.euh_statements)
+  );
+}
+
+function tableRowToMetafields(row?: ClpTableRow): ClpMetafields {
+  if (!row || !rowHasClpData(row)) {
+    return {};
+  }
+
+  const pictograms = parseJsonArrayCell(row.pictograms);
+  const contains = parseJsonArrayCell(row.contains);
+  const hStatements = parseJsonArrayCell(row.h_statements);
+  const pStatements = parseJsonArrayCell(row.p_statements);
+  const euhStatements = parseJsonArrayCell(row.euh_statements);
+
+  return {
+    templateType: (row.template_type as TemplateType | "") || undefined,
+    fragranceType: row.fragrance_type || undefined,
+    concentrationPercent: row.concentration_percent || undefined,
+    ufiCode: row.ufi_code || undefined,
+    productIdentifier: row.product_identifier || undefined,
+    signalWord: row.signal_word || undefined,
+    contains: contains.length ? contains : undefined,
+    hStatements: hStatements.length ? hStatements : undefined,
+    pStatements: pStatements.length ? pStatements : undefined,
+    euhStatements: euhStatements.length ? euhStatements : undefined,
+    pictograms: pictograms.length ? pictograms : undefined,
+    netQuantityDefault: row.net_quantity_default || undefined,
+    netWeightGrams: row.net_weight_grams || undefined,
+    extraWarning: row.extra_warning || undefined,
+  };
+}
+
+function mergeRuntimeMetafields(base: ClpMetafields, override?: ClpMetafields): ClpMetafields {
+  return {
+    templateType: override?.templateType ?? base.templateType,
+    fragranceType: override?.fragranceType ?? base.fragranceType,
+    concentrationPercent: override?.concentrationPercent ?? base.concentrationPercent,
+    ufiCode: override?.ufiCode ?? base.ufiCode,
+    productIdentifier: override?.productIdentifier ?? base.productIdentifier,
+    signalWord: override?.signalWord ?? base.signalWord,
+    contains: override?.contains ?? base.contains,
+    hStatements: override?.hStatements ?? base.hStatements,
+    pStatements: override?.pStatements ?? base.pStatements,
+    euhStatements: override?.euhStatements ?? base.euhStatements,
+    pictograms: override?.pictograms ?? base.pictograms,
+    netQuantityDefault: override?.netQuantityDefault ?? base.netQuantityDefault,
+    netWeightGrams: override?.netWeightGrams ?? base.netWeightGrams,
+    supplierDetails: override?.supplierDetails ?? base.supplierDetails,
+    extraWarning: override?.extraWarning ?? base.extraWarning,
+  };
+}
+
+async function getTableRowsBySku() {
+  const rows = await readClpTable().catch(() => [] as ClpTableRow[]);
+  const rowsBySku = new Map<string, ClpTableRow>();
+
+  for (const row of rows) {
+    const sku = row.variant_sku.trim();
+
+    if (!sku) {
+      continue;
+    }
+
+    rowsBySku.set(sku, row);
+  }
+
+  return rowsBySku;
 }
 
 async function getAccessToken() {
@@ -213,13 +304,41 @@ type ProductQueryResult = {
       vendor: string;
       description: string;
       tags: string[];
-      metafields: Array<{ key: string; value: string | null } | null>;
+      template_type: { value: string | null } | null;
+      fragrance_type: { value: string | null } | null;
+      concentration_percent: { value: string | null } | null;
+      ufi_code: { value: string | null } | null;
+      product_identifier: { value: string | null } | null;
+      signal_word: { value: string | null } | null;
+      contains: { value: string | null } | null;
+      h_statements: { value: string | null } | null;
+      p_statements: { value: string | null } | null;
+      euh_statements: { value: string | null } | null;
+      pictograms: { value: string | null } | null;
+      net_quantity_default: { value: string | null } | null;
+      net_weight_grams: { value: string | null } | null;
+      supplier_details: { value: string | null } | null;
+      extra_warning: { value: string | null } | null;
       variants: {
         nodes: Array<{
           id: string;
           title: string;
           sku: string;
-          metafields: Array<{ key: string; value: string | null } | null>;
+          template_type: { value: string | null } | null;
+          fragrance_type: { value: string | null } | null;
+          concentration_percent: { value: string | null } | null;
+          ufi_code: { value: string | null } | null;
+          product_identifier: { value: string | null } | null;
+          signal_word: { value: string | null } | null;
+          contains: { value: string | null } | null;
+          h_statements: { value: string | null } | null;
+          p_statements: { value: string | null } | null;
+          euh_statements: { value: string | null } | null;
+          pictograms: { value: string | null } | null;
+          net_quantity_default: { value: string | null } | null;
+          net_weight_grams: { value: string | null } | null;
+          supplier_details: { value: string | null } | null;
+          extra_warning: { value: string | null } | null;
         }>;
       };
     }>;
@@ -244,6 +363,7 @@ export async function searchProducts(search: string): Promise<ShopifyProduct[]> 
   const query = search.trim() ? `title:*${search.trim()}* OR sku:*${search.trim()}*` : "status:active";
   try {
     const data = await shopifyAdminFetch<ProductQueryResult>(productQuery, { query });
+    const tableRowsBySku = await getTableRowsBySku();
 
     return data.products.nodes.map((product) => ({
       id: product.id,
@@ -251,12 +371,47 @@ export async function searchProducts(search: string): Promise<ShopifyProduct[]> 
       vendor: product.vendor,
       description: product.description,
       tags: product.tags,
-      metafields: parseMetafields(product.metafields),
+      metafields: parseMetafields({
+        template_type: product.template_type,
+        fragrance_type: product.fragrance_type,
+        concentration_percent: product.concentration_percent,
+        ufi_code: product.ufi_code,
+        product_identifier: product.product_identifier,
+        signal_word: product.signal_word,
+        contains: product.contains,
+        h_statements: product.h_statements,
+        p_statements: product.p_statements,
+        euh_statements: product.euh_statements,
+        pictograms: product.pictograms,
+        net_quantity_default: product.net_quantity_default,
+        net_weight_grams: product.net_weight_grams,
+        supplier_details: product.supplier_details,
+        extra_warning: product.extra_warning,
+      }),
       variants: product.variants.nodes.map((variant) => ({
         id: variant.id,
         title: variant.title,
         sku: variant.sku,
-        metafields: parseMetafields(variant.metafields),
+        metafields: mergeRuntimeMetafields(
+          parseMetafields({
+            template_type: variant.template_type,
+            fragrance_type: variant.fragrance_type,
+            concentration_percent: variant.concentration_percent,
+            ufi_code: variant.ufi_code,
+            product_identifier: variant.product_identifier,
+            signal_word: variant.signal_word,
+            contains: variant.contains,
+            h_statements: variant.h_statements,
+            p_statements: variant.p_statements,
+            euh_statements: variant.euh_statements,
+            pictograms: variant.pictograms,
+            net_quantity_default: variant.net_quantity_default,
+            net_weight_grams: variant.net_weight_grams,
+            supplier_details: variant.supplier_details,
+            extra_warning: variant.extra_warning,
+          }),
+          tableRowToMetafields(tableRowsBySku.get(variant.sku)),
+        ),
       })),
     }));
   } catch (error) {

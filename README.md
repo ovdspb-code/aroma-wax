@@ -5,7 +5,8 @@ Private CLP label generator for `labels.aromawax.eu`.
 ## What it does
 
 - Reads products and variants from Shopify through the GraphQL Admin API
-- Pulls CLP data from metafields in namespace `clp`
+- Uses Shopify as the product catalog and merges CLP print data from `data/clp_master_table.tsv`
+- Falls back to Shopify metafields in namespace `clp` when a table row is missing
 - Lets the user search products, choose a variant, edit label fields, preview the label, and print it
 - Uses browser print for production-friendly label output and Save as PDF
 - Supports `small / medium / large` size presets per template
@@ -92,6 +93,43 @@ It is safe to re-run. Existing definitions are skipped.
 ```bash
 npm run build
 ```
+
+## CLP table workflow
+
+Export Shopify catalog into the editable CLP master table:
+
+```bash
+npm run clp:export
+```
+
+Refresh catalog columns later without losing manual CLP edits:
+
+```bash
+npm run clp:refresh
+```
+
+Autofill site-derived CLP values from live AROMA + WAX product pages and linked PDFs:
+
+```bash
+npm run clp:autofill
+```
+
+Import CLP values from the table back into Shopify:
+
+```bash
+npm run clp:import
+```
+
+Run the full CLP sync cycle in one command:
+
+```bash
+npm run clp:sync
+```
+
+Details:
+
+- [CLP table workflow](/Users/ovd/Documents/AROMA_AND_WAX/docs/CLP_TABLE_WORKFLOW.md)
+- [Deploy clp-print.aromawax.eu](/Users/ovd/Documents/AROMA_AND_WAX/docs/DEPLOY_CLP_PRINT.md)
 
 ## Deploy to Vercel
 

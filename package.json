@@ -6,11 +6,18 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
-    "shopify:bootstrap": "tsx scripts/bootstrap-metafields.ts"
+    "shopify:bootstrap": "tsx scripts/bootstrap-metafields.ts",
+    "clp:export": "tsx scripts/export-clp-table.ts",
+    "clp:refresh": "tsx scripts/refresh-clp-table.ts",
+    "clp:import": "tsx scripts/import-clp-table.ts",
+    "clp:autofill": "tsx scripts/autofill-clp-from-site.ts",
+    "clp:sync": "npm run clp:refresh && npm run clp:autofill && npm run clp:import"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
     "clsx": "^2.1.1",
     "next": "^16.0.1",
+    "pdf-parse": "^2.4.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "zod": "^4.1.11"
