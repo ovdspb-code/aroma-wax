@@ -9,6 +9,10 @@ export const mockProductsFixture: ShopifyProduct[] = [
     tags: ["luxury", "candle", "autumn", "long-name-test"],
     metafields: {
       templateType: "candle",
+      fragranceType: "Fragrance oil",
+      concentrationPercent: "10",
+      ufiCode: "PQ20-40F2-K00J-7R8A",
+      productIdentifier: "Black Pomegranate & Smoked Cedar Candle",
       signalWord: "Warning",
       contains: [
         "Linalool",
@@ -27,6 +31,8 @@ export const mockProductsFixture: ShopifyProduct[] = [
       euhStatements: ["EUH208 Contains linalool. May produce an allergic reaction."],
       pictograms: ["GHS07", "GHS09"],
       netQuantityDefault: "220 g",
+      netWeightGrams: "220",
+      supplierDetails: "AROMA + WAX\naromawax.eu\nMadrid, Spain",
       extraWarning:
         "Always remove packaging before burning. Never leave a burning candle unattended.",
     },
@@ -37,6 +43,7 @@ export const mockProductsFixture: ShopifyProduct[] = [
         sku: "MOCK-CAN-220",
         metafields: {
           netQuantityDefault: "220 g",
+          netWeightGrams: "220",
         },
       },
       {
@@ -45,6 +52,7 @@ export const mockProductsFixture: ShopifyProduct[] = [
         sku: "MOCK-CAN-500",
         metafields: {
           netQuantityDefault: "500 g",
+          netWeightGrams: "500",
           pStatements: [
             "P101 If medical advice is needed, have product container or label at hand.",
             "P102 Keep out of reach of children.",
@@ -62,6 +70,10 @@ export const mockProductsFixture: ShopifyProduct[] = [
     tags: ["diffuser", "fresh", "citrus"],
     metafields: {
       templateType: "diffuser",
+      fragranceType: "Fragrance oil",
+      concentrationPercent: "25",
+      ufiCode: "0M10-90F2-Y00J-QT4K",
+      productIdentifier: "Neroli Blossom Reed Diffuser",
       signalWord: "Danger",
       contains: [
         "Citral",
@@ -82,6 +94,8 @@ export const mockProductsFixture: ShopifyProduct[] = [
       euhStatements: [],
       pictograms: ["GHS02", "GHS07", "GHS09"],
       netQuantityDefault: "100 ml",
+      netWeightGrams: "100",
+      supplierDetails: "AROMA + WAX\naromawax.eu\nMadrid, Spain",
       extraWarning: "Do not place directly on polished, painted or synthetic surfaces.",
     },
     variants: [
@@ -91,6 +105,7 @@ export const mockProductsFixture: ShopifyProduct[] = [
         sku: "MOCK-DIF-100",
         metafields: {
           netQuantityDefault: "100 ml",
+          netWeightGrams: "100",
         },
       },
     ],
@@ -103,6 +118,10 @@ export const mockProductsFixture: ShopifyProduct[] = [
     tags: ["room spray", "clean", "linen"],
     metafields: {
       templateType: "room_spray",
+      fragranceType: "Fragrance oil",
+      concentrationPercent: "18",
+      ufiCode: "7R10-20A4-D00F-NK2P",
+      productIdentifier: "White Tea & Linen Room Spray",
       signalWord: "Warning",
       contains: ["Limonene", "Hexyl cinnamal"],
       hStatements: [
@@ -116,6 +135,8 @@ export const mockProductsFixture: ShopifyProduct[] = [
       euhStatements: ["EUH208 Contains limonene. May produce an allergic reaction."],
       pictograms: ["GHS02", "GHS07"],
       netQuantityDefault: "100 ml",
+      netWeightGrams: "100",
+      supplierDetails: "AROMA + WAX\naromawax.eu\nMadrid, Spain",
       extraWarning: "Avoid spraying directly onto fabrics, pets or skin.",
     },
     variants: [
@@ -125,6 +146,7 @@ export const mockProductsFixture: ShopifyProduct[] = [
         sku: "MOCK-RS-100",
         metafields: {
           netQuantityDefault: "100 ml",
+          netWeightGrams: "100",
         },
       },
     ],

@@ -3,6 +3,10 @@ export type SizePreset = "small" | "medium" | "large";
 
 export type ClpMetafields = {
   templateType?: TemplateType;
+  fragranceType?: string;
+  concentrationPercent?: string;
+  ufiCode?: string;
+  productIdentifier?: string;
   signalWord?: string;
   contains?: string[];
   hStatements?: string[];
@@ -10,6 +14,8 @@ export type ClpMetafields = {
   euhStatements?: string[];
   pictograms?: string[];
   netQuantityDefault?: string;
+  netWeightGrams?: string;
+  supplierDetails?: string;
   extraWarning?: string;
 };
 
@@ -35,6 +41,10 @@ export type LabelFormData = {
   vendor: string;
   templateType: TemplateType;
   sizePreset: SizePreset;
+  fragranceType: string;
+  concentrationPercent: string;
+  ufiCode: string;
+  productIdentifier: string;
   signalWord: string;
   contains: string;
   hStatements: string;
@@ -42,9 +52,11 @@ export type LabelFormData = {
   euhStatements: string;
   pictograms: string[];
   netQuantity: string;
+  netWeightGrams: string;
   extraWarning: string;
   batchCode: string;
   responsiblePerson: string;
+  supplierDetails: string;
   scentNotes: string;
   sku: string;
 };

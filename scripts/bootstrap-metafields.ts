@@ -15,6 +15,30 @@ const definitions = [
     description: "CLP label template type",
   },
   {
+    key: "fragrance_type",
+    name: "Fragrance Type",
+    type: "single_line_text_field",
+    description: "Fragrance oil or essential oil type",
+  },
+  {
+    key: "concentration_percent",
+    name: "Concentration Percent",
+    type: "single_line_text_field",
+    description: "Fragrance concentration in product, percent",
+  },
+  {
+    key: "ufi_code",
+    name: "UFI Code",
+    type: "single_line_text_field",
+    description: "Unique Formula Identifier",
+  },
+  {
+    key: "product_identifier",
+    name: "Product Identifier",
+    type: "single_line_text_field",
+    description: "CLP product identifier",
+  },
+  {
     key: "signal_word",
     name: "Signal Word",
     type: "single_line_text_field",
@@ -55,6 +79,18 @@ const definitions = [
     name: "Net Quantity Default",
     type: "single_line_text_field",
     description: "Default label quantity",
+  },
+  {
+    key: "net_weight_grams",
+    name: "Net Weight Grams",
+    type: "single_line_text_field",
+    description: "Net weight in grams",
+  },
+  {
+    key: "supplier_details",
+    name: "Supplier Details",
+    type: "multi_line_text_field",
+    description: "Supplier name and address block",
   },
   {
     key: "extra_warning",

@@ -44,6 +44,10 @@ Use one auth mode:
 Namespace: `clp`
 
 - `clp.template_type`
+- `clp.fragrance_type`
+- `clp.concentration_percent`
+- `clp.ufi_code`
+- `clp.product_identifier`
 - `clp.signal_word`
 - `clp.contains`
 - `clp.h_statements`
@@ -51,6 +55,8 @@ Namespace: `clp`
 - `clp.euh_statements`
 - `clp.pictograms`
 - `clp.net_quantity_default`
+- `clp.net_weight_grams`
+- `clp.supplier_details`
 - `clp.extra_warning`
 
 Recommended values:

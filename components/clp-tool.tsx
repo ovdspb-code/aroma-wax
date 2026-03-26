@@ -209,10 +209,61 @@ export function ClpTool() {
 
             <div className="grid gap-4 md:grid-cols-2">
               <label className="block text-sm font-medium">
+                Fragrance type
+                <input
+                  value={formData.fragranceType}
+                  onChange={(event) => updateField("fragranceType", event.target.value)}
+                  placeholder="Fragrance oil / Essential oil"
+                  className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
+                />
+              </label>
+
+              <label className="block text-sm font-medium">
+                Concentration %
+                <input
+                  value={formData.concentrationPercent}
+                  onChange={(event) => updateField("concentrationPercent", event.target.value)}
+                  placeholder="10"
+                  className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
+                />
+              </label>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-2">
+              <label className="block text-sm font-medium">
+                UFI code
+                <input
+                  value={formData.ufiCode}
+                  onChange={(event) => updateField("ufiCode", event.target.value)}
+                  className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
+                />
+              </label>
+
+              <label className="block text-sm font-medium">
+                Product identifier
+                <input
+                  value={formData.productIdentifier}
+                  onChange={(event) => updateField("productIdentifier", event.target.value)}
+                  className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
+                />
+              </label>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-2">
+              <label className="block text-sm font-medium">
                 Net quantity
                 <input
                   value={formData.netQuantity}
                   onChange={(event) => updateField("netQuantity", event.target.value)}
+                  className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
+                />
+              </label>
+
+              <label className="block text-sm font-medium">
+                Net weight, g
+                <input
+                  value={formData.netWeightGrams}
+                  onChange={(event) => updateField("netWeightGrams", event.target.value)}
                   className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
                 />
               </label>
@@ -295,6 +346,7 @@ export function ClpTool() {
               ["pStatements", "Precautionary statements"],
               ["euhStatements", "Additional statements"],
               ["extraWarning", "Extra warning"],
+              ["supplierDetails", "Supplier details"],
               ["responsiblePerson", "Responsible person"],
             ].map(([key, label]) => (
               <label key={key} className="block text-sm font-medium">

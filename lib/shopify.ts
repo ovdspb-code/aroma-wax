@@ -31,6 +31,10 @@ const productQuery = `
         tags
         metafields(identifiers: [
           { namespace: "clp", key: "template_type" }
+          { namespace: "clp", key: "fragrance_type" }
+          { namespace: "clp", key: "concentration_percent" }
+          { namespace: "clp", key: "ufi_code" }
+          { namespace: "clp", key: "product_identifier" }
           { namespace: "clp", key: "signal_word" }
           { namespace: "clp", key: "contains" }
           { namespace: "clp", key: "h_statements" }
@@ -38,6 +42,8 @@ const productQuery = `
           { namespace: "clp", key: "euh_statements" }
           { namespace: "clp", key: "pictograms" }
           { namespace: "clp", key: "net_quantity_default" }
+          { namespace: "clp", key: "net_weight_grams" }
+          { namespace: "clp", key: "supplier_details" }
           { namespace: "clp", key: "extra_warning" }
         ]) {
           key
@@ -50,6 +56,10 @@ const productQuery = `
             sku
             metafields(identifiers: [
               { namespace: "clp", key: "template_type" }
+              { namespace: "clp", key: "fragrance_type" }
+              { namespace: "clp", key: "concentration_percent" }
+              { namespace: "clp", key: "ufi_code" }
+              { namespace: "clp", key: "product_identifier" }
               { namespace: "clp", key: "signal_word" }
               { namespace: "clp", key: "contains" }
               { namespace: "clp", key: "h_statements" }
@@ -57,6 +67,8 @@ const productQuery = `
               { namespace: "clp", key: "euh_statements" }
               { namespace: "clp", key: "pictograms" }
               { namespace: "clp", key: "net_quantity_default" }
+              { namespace: "clp", key: "net_weight_grams" }
+              { namespace: "clp", key: "supplier_details" }
               { namespace: "clp", key: "extra_warning" }
             ]) {
               key
@@ -98,6 +110,10 @@ function parseMetafields(
 
   return {
     templateType: (byKey.get("template_type") as TemplateType | undefined) ?? undefined,
+    fragranceType: byKey.get("fragrance_type"),
+    concentrationPercent: byKey.get("concentration_percent"),
+    ufiCode: byKey.get("ufi_code"),
+    productIdentifier: byKey.get("product_identifier"),
     signalWord: byKey.get("signal_word"),
     contains: parseJsonArray(byKey.get("contains")),
     hStatements: parseJsonArray(byKey.get("h_statements")),
@@ -105,6 +121,8 @@ function parseMetafields(
     euhStatements: parseJsonArray(byKey.get("euh_statements")),
     pictograms: parseJsonArray(byKey.get("pictograms")),
     netQuantityDefault: byKey.get("net_quantity_default"),
+    netWeightGrams: byKey.get("net_weight_grams"),
+    supplierDetails: byKey.get("supplier_details"),
     extraWarning: byKey.get("extra_warning"),
   };
 }

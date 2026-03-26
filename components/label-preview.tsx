@@ -34,6 +34,14 @@ export function LabelPreview({ formData }: { formData: LabelFormData }) {
   const hStatements = splitTextareaLines(formData.hStatements);
   const pStatements = splitTextareaLines(formData.pStatements);
   const euhStatements = splitTextareaLines(formData.euhStatements);
+  const productFacts = [
+    formData.productIdentifier ? `Product identifier: ${formData.productIdentifier}` : "",
+    formData.fragranceType ? `Fragrance type: ${formData.fragranceType}` : "",
+    formData.concentrationPercent ? `Concentration: ${formData.concentrationPercent}%` : "",
+    formData.ufiCode ? `UFI: ${formData.ufiCode}` : "",
+    formData.netQuantity ? `Nominal quantity: ${formData.netQuantity}` : "",
+    formData.netWeightGrams ? `Net weight: ${formData.netWeightGrams} g` : "",
+  ].filter(Boolean);
 
   return (
     <div
@@ -66,6 +74,8 @@ export function LabelPreview({ formData }: { formData: LabelFormData }) {
           </div>
 
           <div className="min-h-0 space-y-[1.8mm] overflow-hidden">
+            <Section title="Product details" items={productFacts} />
+
             {formData.signalWord ? (
               <p className="text-[2.9mm] font-bold uppercase tracking-[0.06em] break-words">
                 Signal word: {formData.signalWord}
@@ -87,7 +97,10 @@ export function LabelPreview({ formData }: { formData: LabelFormData }) {
 
         <footer className="mt-auto space-y-[1.2mm] border-t border-[#d7d0c8] pt-[2mm] text-[2.3mm] leading-[1.25] text-[#59463a]">
           {formData.batchCode ? <p>Batch: {formData.batchCode}</p> : null}
-          {formData.responsiblePerson ? (
+          {formData.supplierDetails ? (
+            <p className="whitespace-pre-line break-words">{formData.supplierDetails}</p>
+          ) : null}
+          {formData.responsiblePerson && formData.responsiblePerson !== formData.supplierDetails ? (
             <p className="whitespace-pre-line break-words">{formData.responsiblePerson}</p>
           ) : null}
         </footer>
