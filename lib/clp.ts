@@ -1,5 +1,11 @@
-import { templatePresets } from "@/lib/constants";
-import { ClpMetafields, LabelFormData, ShopifyProduct, ShopifyVariant, TemplateType } from "@/types/clp";
+import { templateSizePresets } from "@/lib/constants";
+import {
+  ClpMetafields,
+  LabelFormData,
+  ShopifyProduct,
+  ShopifyVariant,
+  TemplateType,
+} from "@/types/clp";
 
 const toLines = (value?: string[]) => (value ?? []).join("\n");
 
@@ -26,12 +32,13 @@ export function buildInitialFormData(
   variant?: ShopifyVariant,
 ): LabelFormData {
   const metafields = mergeClpMetafields(product?.metafields ?? {}, variant?.metafields);
+  const templateType = (metafields.templateType ?? "candle") as TemplateType;
 
   return {
     productTitle: product?.title ?? "",
     vendor: product?.vendor ?? "AROMA + WAX",
-    templateType: (metafields.templateType ?? "candle") as TemplateType,
-    sizePreset: templatePresets[(metafields.templateType ?? "candle") as TemplateType].key,
+    templateType,
+    sizePreset: templateSizePresets[templateType].medium.key,
     signalWord: metafields.signalWord ?? "",
     contains: toLines(metafields.contains),
     hStatements: toLines(metafields.hStatements),

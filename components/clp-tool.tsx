@@ -2,7 +2,12 @@
 
 import { useEffect, useState, useTransition } from "react";
 import { buildInitialFormData } from "@/lib/clp";
-import { pictogramOptions, templateOptions, templatePresets } from "@/lib/constants";
+import {
+  pictogramOptions,
+  sizePresetOptions,
+  templateOptions,
+  templateSizePresets,
+} from "@/lib/constants";
 import { LabelFormData, ShopifyProduct } from "@/types/clp";
 import { LabelPreview } from "@/components/label-preview";
 
@@ -20,6 +25,7 @@ export function ClpTool() {
   const [selectedProductId, setSelectedProductId] = useState("");
   const [selectedVariantId, setSelectedVariantId] = useState("");
   const [formData, setFormData] = useState<LabelFormData>(emptyForm);
+  const [sourceFormData, setSourceFormData] = useState<LabelFormData>(emptyForm);
 
   useEffect(() => {
     startTransition(async () => {
@@ -37,6 +43,7 @@ export function ClpTool() {
         if (!products.length) {
           setSelectedProductId("");
           setSelectedVariantId("");
+          setSourceFormData(emptyForm);
           setFormData(emptyForm);
           return;
         }
@@ -47,9 +54,11 @@ export function ClpTool() {
           nextProduct.variants.find((variant) => variant.id === selectedVariantId) ??
           nextProduct.variants[0];
 
+        const nextFormData = buildInitialFormData(nextProduct, nextVariant);
         setSelectedProductId(nextProduct.id);
         setSelectedVariantId(nextVariant?.id ?? "");
-        setFormData(buildInitialFormData(nextProduct, nextVariant));
+        setSourceFormData(nextFormData);
+        setFormData(nextFormData);
       } catch (error) {
         setLoadState({
           products: [],
@@ -65,14 +74,20 @@ export function ClpTool() {
   function syncForm(productId: string, variantId?: string) {
     const product = loadState.products.find((entry) => entry.id === productId);
     const variant = product?.variants.find((entry) => entry.id === variantId) ?? product?.variants[0];
+    const nextFormData = buildInitialFormData(product, variant);
 
     setSelectedProductId(product?.id ?? "");
     setSelectedVariantId(variant?.id ?? "");
-    setFormData(buildInitialFormData(product, variant));
+    setSourceFormData(nextFormData);
+    setFormData(nextFormData);
   }
 
   function updateField<Key extends keyof LabelFormData>(key: Key, value: LabelFormData[Key]) {
     setFormData((current) => ({ ...current, [key]: value }));
+  }
+
+  function resetToSourceValues() {
+    setFormData(sourceFormData);
   }
 
   return (
@@ -87,13 +102,22 @@ export function ClpTool() {
               <p className="text-xs uppercase tracking-[0.32em] text-[var(--muted)]">Internal tool</p>
               <h1 className="mt-2 text-3xl font-semibold">CLP Label Generator</h1>
             </div>
-            <button
-              type="button"
-              onClick={() => window.print()}
-              className="rounded-2xl bg-[var(--accent-strong)] px-4 py-3 text-sm font-medium text-white transition hover:bg-[var(--accent)]"
-            >
-              Print
-            </button>
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={resetToSourceValues}
+                className="rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm font-medium text-[var(--foreground)] transition hover:border-[var(--accent)]"
+              >
+                Reset to Shopify values
+              </button>
+              <button
+                type="button"
+                onClick={() => window.print()}
+                className="rounded-2xl bg-[var(--accent-strong)] px-4 py-3 text-sm font-medium text-white transition hover:bg-[var(--accent)]"
+              >
+                Print
+              </button>
+            </div>
           </div>
 
           <div className="mt-6 space-y-5">
@@ -144,9 +168,14 @@ export function ClpTool() {
                 Template
                 <select
                   value={formData.templateType}
-                  onChange={(event) =>
-                    updateField("templateType", event.target.value as LabelFormData["templateType"])
-                  }
+                  onChange={(event) => {
+                    const nextTemplate = event.target.value as LabelFormData["templateType"];
+                    setFormData((current) => ({
+                      ...current,
+                      templateType: nextTemplate,
+                      sizePreset: "medium",
+                    }));
+                  }}
                   className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
                 >
                   {templateOptions.map((option) => (
@@ -159,11 +188,22 @@ export function ClpTool() {
 
               <label className="block text-sm font-medium">
                 Label size
-                <input
-                  value={templatePresets[formData.templateType].label}
-                  readOnly
-                  className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-stone-50 px-4 py-3 text-[var(--muted)] outline-none"
-                />
+                <select
+                  value={formData.sizePreset}
+                  onChange={(event) =>
+                    updateField("sizePreset", event.target.value as LabelFormData["sizePreset"])
+                  }
+                  className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
+                >
+                  {sizePresetOptions.map((option) => {
+                    const size = templateSizePresets[formData.templateType][option.value];
+                    return (
+                      <option key={option.value} value={option.value}>
+                        {option.label} ({size.widthMm} x {size.heightMm} mm)
+                      </option>
+                    );
+                  })}
+                </select>
               </label>
             </div>
 
@@ -277,8 +317,8 @@ export function ClpTool() {
                 <span>
                   Loaded <strong>{selectedProduct.title}</strong>
                   {selectedVariant ? ` / ${selectedVariant.title}` : ""}. Print size:{" "}
-                  {templatePresets[formData.templateType].widthMm}mm x{" "}
-                  {templatePresets[formData.templateType].heightMm}mm.
+                  {templateSizePresets[formData.templateType][formData.sizePreset].widthMm}mm x{" "}
+                  {templateSizePresets[formData.templateType][formData.sizePreset].heightMm}mm.
                 </span>
               ) : null}
               {!isPending && !loadState.error && selectedProduct?.id.startsWith("mock-") ? (

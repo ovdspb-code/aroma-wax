@@ -1,5 +1,5 @@
 import { PictogramBadge } from "@/components/pictogram-badge";
-import { templatePresets } from "@/lib/constants";
+import { templateSizePresets } from "@/lib/constants";
 import { splitTextareaLines } from "@/lib/clp";
 import { LabelFormData } from "@/types/clp";
 
@@ -29,7 +29,7 @@ function Section({
 }
 
 export function LabelPreview({ formData }: { formData: LabelFormData }) {
-  const preset = templatePresets[formData.templateType];
+  const preset = templateSizePresets[formData.templateType][formData.sizePreset];
   const contains = splitTextareaLines(formData.contains);
   const hStatements = splitTextareaLines(formData.hStatements);
   const pStatements = splitTextareaLines(formData.pStatements);

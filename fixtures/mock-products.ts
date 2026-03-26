@@ -1,6 +1,6 @@
 import { ShopifyProduct } from "@/types/clp";
 
-export const mockProducts: ShopifyProduct[] = [
+export const mockProductsFixture: ShopifyProduct[] = [
   {
     id: "mock-product-candle",
     title: "Black Pomegranate & Smoked Cedar Luxury Candle Fragrance",

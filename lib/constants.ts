@@ -4,21 +4,29 @@ export const templateOptions = [
   { value: "room_spray", label: "Room Spray" },
 ] as const;
 
-export const templatePresets = {
-  candle: { key: "jar_front_70x50", label: "Jar Front 70 x 50 mm", widthMm: 70, heightMm: 50 },
+export const sizePresetOptions = [
+  { value: "small", label: "Small" },
+  { value: "medium", label: "Medium" },
+  { value: "large", label: "Large" },
+] as const;
+
+export const templateSizePresets = {
+  candle: {
+    small: { key: "small", label: "Small", widthMm: 60, heightMm: 40 },
+    medium: { key: "medium", label: "Medium", widthMm: 70, heightMm: 50 },
+    large: { key: "large", label: "Large", widthMm: 80, heightMm: 60 },
+  },
   diffuser: {
-    key: "diffuser_body_90x60",
-    label: "Diffuser Body 90 x 60 mm",
-    widthMm: 90,
-    heightMm: 60,
+    small: { key: "small", label: "Small", widthMm: 80, heightMm: 50 },
+    medium: { key: "medium", label: "Medium", widthMm: 90, heightMm: 60 },
+    large: { key: "large", label: "Large", widthMm: 100, heightMm: 70 },
   },
   room_spray: {
-    key: "spray_body_95x55",
-    label: "Spray Body 95 x 55 mm",
-    widthMm: 95,
-    heightMm: 55,
+    small: { key: "small", label: "Small", widthMm: 85, heightMm: 45 },
+    medium: { key: "medium", label: "Medium", widthMm: 95, heightMm: 55 },
+    large: { key: "large", label: "Large", widthMm: 105, heightMm: 65 },
   },
-};
+} as const;
 
 export const pictogramOptions = [
   "GHS02",

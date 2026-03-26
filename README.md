@@ -8,6 +8,7 @@ Private CLP label generator for `labels.aromawax.eu`.
 - Pulls CLP data from metafields in namespace `clp`
 - Lets the user search products, choose a variant, edit label fields, preview the label, and print it
 - Uses browser print for production-friendly label output and Save as PDF
+- Supports `small / medium / large` size presets per template
 
 ## Stack
 
@@ -68,7 +69,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-If Shopify auth is not ready yet, keep `USE_MOCK_DATA=1` in `.env.local`. The app will load three realistic demo products with long CLP statements for print testing.
+If Shopify auth is not ready yet, keep `USE_MOCK_DATA=1` in `.env.local`. The app will load three realistic demo products from [fixtures/mock-products.ts](/Users/ovd/Documents/AROMA_AND_WAX/fixtures/mock-products.ts) with long CLP statements for print testing.
 
 ## Bootstrap metafields
 

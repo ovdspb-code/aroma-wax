@@ -1,4 +1,5 @@
 export type TemplateType = "candle" | "diffuser" | "room_spray";
+export type SizePreset = "small" | "medium" | "large";
 
 export type ClpMetafields = {
   templateType?: TemplateType;
@@ -33,7 +34,7 @@ export type LabelFormData = {
   productTitle: string;
   vendor: string;
   templateType: TemplateType;
-  sizePreset: string;
+  sizePreset: SizePreset;
   signalWord: string;
   contains: string;
   hStatements: string;

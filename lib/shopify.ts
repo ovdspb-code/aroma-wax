@@ -1,5 +1,5 @@
 import { getOptionalServerEnv, getServerEnv, isMockModeEnabled } from "@/lib/env";
-import { mockProducts } from "@/lib/mock-data";
+import { mockProductsFixture } from "@/fixtures/mock-products";
 import { ClpMetafields, ShopifyProduct, TemplateType } from "@/types/clp";
 
 type ShopifyGraphQLResponse<T> = {
@@ -211,7 +211,7 @@ type ProductQueryResult = {
 export async function searchProducts(search: string): Promise<ShopifyProduct[]> {
   if (isMockModeEnabled()) {
     const term = search.trim().toLowerCase();
-    return mockProducts.filter((product) => {
+    return mockProductsFixture.filter((product) => {
       if (!term) {
         return true;
       }
@@ -244,7 +244,7 @@ export async function searchProducts(search: string): Promise<ShopifyProduct[]> 
   } catch (error) {
     if (process.env.NODE_ENV !== "production") {
       console.warn("Falling back to mock product data:", error);
-      return mockProducts;
+      return mockProductsFixture;
     }
 
     throw error;
