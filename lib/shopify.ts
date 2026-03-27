@@ -201,6 +201,16 @@ function mergeRuntimeMetafields(base: ClpMetafields, override?: ClpMetafields): 
   };
 }
 
+function shouldPreferBundledTableData() {
+  return process.env.VERCEL !== "1" && process.env.NODE_ENV !== "production";
+}
+
+function mergeRuntimeSourceMetafields(shopifyMetafields: ClpMetafields, tableMetafields?: ClpMetafields) {
+  return shouldPreferBundledTableData()
+    ? mergeRuntimeMetafields(shopifyMetafields, tableMetafields)
+    : mergeRuntimeMetafields(tableMetafields ?? {}, shopifyMetafields);
+}
+
 async function getTableRowsBySku() {
   const rows = await readClpTable().catch(() => [] as ClpTableRow[]);
   const rowsBySku = new Map<string, ClpTableRow>();
@@ -392,7 +402,7 @@ export async function searchProducts(search: string): Promise<ShopifyProduct[]> 
         id: variant.id,
         title: variant.title,
         sku: variant.sku,
-        metafields: mergeRuntimeMetafields(
+        metafields: mergeRuntimeSourceMetafields(
           parseMetafields({
             template_type: variant.template_type,
             fragrance_type: variant.fragrance_type,

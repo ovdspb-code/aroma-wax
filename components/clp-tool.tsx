@@ -16,50 +16,59 @@ type LoadState = {
   error: string;
 };
 
+type SyncState = {
+  status: "idle" | "pending" | "success" | "error";
+  message: string;
+};
+
 const emptyForm = buildInitialFormData();
 
 export function ClpTool() {
   const [search, setSearch] = useState("");
   const [isPending, startTransition] = useTransition();
+  const [isSyncPending, startSyncTransition] = useTransition();
   const [loadState, setLoadState] = useState<LoadState>({ products: [], error: "" });
   const [selectedProductId, setSelectedProductId] = useState("");
   const [selectedVariantId, setSelectedVariantId] = useState("");
   const [formData, setFormData] = useState<LabelFormData>(emptyForm);
   const [sourceFormData, setSourceFormData] = useState<LabelFormData>(emptyForm);
   const [previewScale, setPreviewScale] = useState<1 | 2>(2);
+  const [syncState, setSyncState] = useState<SyncState>({ status: "idle", message: "" });
+
+  async function loadProducts(searchTerm: string, productId = selectedProductId, variantId = selectedVariantId) {
+    const response = await fetch(`/api/products?search=${encodeURIComponent(searchTerm)}`);
+    const payload = (await response.json()) as { products?: ShopifyProduct[]; error?: string };
+
+    if (!response.ok) {
+      throw new Error(payload.error ?? "Could not load products");
+    }
+
+    const products = payload.products ?? [];
+    setLoadState({ products, error: "" });
+
+    if (!products.length) {
+      setSelectedProductId("");
+      setSelectedVariantId("");
+      setSourceFormData(emptyForm);
+      setFormData(emptyForm);
+      return;
+    }
+
+    const nextProduct = products.find((product) => product.id === productId) ?? products[0];
+    const nextVariant =
+      nextProduct.variants.find((variant) => variant.id === variantId) ?? nextProduct.variants[0];
+
+    const nextFormData = buildInitialFormData(nextProduct, nextVariant);
+    setSelectedProductId(nextProduct.id);
+    setSelectedVariantId(nextVariant?.id ?? "");
+    setSourceFormData(nextFormData);
+    setFormData(nextFormData);
+  }
 
   useEffect(() => {
     startTransition(async () => {
       try {
-        const response = await fetch(`/api/products?search=${encodeURIComponent(search)}`);
-        const payload = (await response.json()) as { products?: ShopifyProduct[]; error?: string };
-
-        if (!response.ok) {
-          throw new Error(payload.error ?? "Could not load products");
-        }
-
-        const products = payload.products ?? [];
-        setLoadState({ products, error: "" });
-
-        if (!products.length) {
-          setSelectedProductId("");
-          setSelectedVariantId("");
-          setSourceFormData(emptyForm);
-          setFormData(emptyForm);
-          return;
-        }
-
-        const nextProduct =
-          products.find((product) => product.id === selectedProductId) ?? products[0];
-        const nextVariant =
-          nextProduct.variants.find((variant) => variant.id === selectedVariantId) ??
-          nextProduct.variants[0];
-
-        const nextFormData = buildInitialFormData(nextProduct, nextVariant);
-        setSelectedProductId(nextProduct.id);
-        setSelectedVariantId(nextVariant?.id ?? "");
-        setSourceFormData(nextFormData);
-        setFormData(nextFormData);
+        await loadProducts(search, selectedProductId, selectedVariantId);
       } catch (error) {
         setLoadState({
           products: [],
@@ -91,6 +100,52 @@ export function ClpTool() {
     setFormData(sourceFormData);
   }
 
+  function syncCurrentSku() {
+    if (!selectedVariant?.sku) {
+      return;
+    }
+
+    setSyncState({
+      status: "pending",
+      message: `Syncing ${selectedVariant.sku} from AROMA + WAX source documents...`,
+    });
+
+    startSyncTransition(async () => {
+      try {
+        const response = await fetch("/api/clp-sync", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ sku: selectedVariant.sku }),
+        });
+        const payload = (await response.json()) as {
+          familyKey?: string;
+          importedMetafields?: number;
+          updatedRows?: number;
+          error?: string;
+        };
+
+        if (!response.ok) {
+          throw new Error(payload.error ?? "Sync failed");
+        }
+
+        await loadProducts(search, selectedProductId, selectedVariantId);
+        setSyncState({
+          status: "success",
+          message: `Synced FO-${payload.familyKey} (${payload.updatedRows} rows, ${payload.importedMetafields} metafields imported).`,
+        });
+      } catch (error) {
+        setSyncState({
+          status: "error",
+          message: error instanceof Error ? error.message : "Unknown sync error",
+        });
+      }
+    });
+  }
+
+  const canSyncSku = /^(?:S)?FO-\d+/i.test(selectedVariant?.sku ?? "");
+
   return (
     <main className="min-h-screen p-4 md:p-6">
       <div className="mx-auto grid max-w-[1600px] gap-6 lg:grid-cols-[440px_minmax(0,1fr)]">
@@ -104,6 +159,14 @@ export function ClpTool() {
               <h1 className="mt-2 text-3xl font-semibold">CLP Label Generator</h1>
             </div>
             <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={syncCurrentSku}
+                disabled={!canSyncSku || isSyncPending}
+                className="rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm font-medium text-[var(--foreground)] transition hover:border-[var(--accent)] disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                {isSyncPending ? "Syncing CLP..." : "Sync CLP"}
+              </button>
               <button
                 type="button"
                 onClick={resetToSourceValues}
@@ -405,6 +468,19 @@ export function ClpTool() {
             ))}
 
             <div className="rounded-2xl border border-dashed border-[var(--line)] bg-white/70 p-4 text-sm text-[var(--muted)]">
+              {syncState.message ? (
+                <p
+                  className={
+                    syncState.status === "error"
+                      ? "mb-2 text-[#8b2f2f]"
+                      : syncState.status === "success"
+                        ? "mb-2 text-[#2f6f4f]"
+                        : "mb-2"
+                  }
+                >
+                  {syncState.message}
+                </p>
+              ) : null}
               {isPending ? "Loading products from Shopify..." : null}
               {loadState.error ? loadState.error : null}
               {!isPending && !loadState.error && selectedProduct ? (
