@@ -161,14 +161,6 @@ export function ClpTool() {
             <div className="flex flex-wrap gap-2">
               <button
                 type="button"
-                onClick={syncCurrentSku}
-                disabled={!canSyncSku || isSyncPending}
-                className="rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm font-medium text-[var(--foreground)] transition hover:border-[var(--accent)] disabled:cursor-not-allowed disabled:opacity-50"
-              >
-                {isSyncPending ? "Syncing CLP..." : "Sync CLP"}
-              </button>
-              <button
-                type="button"
                 onClick={resetToSourceValues}
                 className="rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm font-medium text-[var(--foreground)] transition hover:border-[var(--accent)]"
               >
@@ -494,6 +486,21 @@ export function ClpTool() {
               {!isPending && !loadState.error && selectedProduct?.id.startsWith("mock-") ? (
                 <span> Using mock data mode.</span>
               ) : null}
+            </div>
+
+            <div className="rounded-2xl border border-dashed border-[var(--line)] bg-white/55 p-4 text-sm text-[var(--muted)]">
+              <p className="text-xs uppercase tracking-[0.24em] text-[var(--muted)]">Maintenance</p>
+              <p className="mt-2">
+                Re-import CLP metafields for the selected fragrance SKU from the master table.
+              </p>
+              <button
+                type="button"
+                onClick={syncCurrentSku}
+                disabled={!canSyncSku || isSyncPending}
+                className="mt-3 rounded-2xl border border-[var(--line)] bg-white px-4 py-3 text-sm font-medium text-[var(--foreground)] transition hover:border-[var(--accent)] disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                {isSyncPending ? "Syncing CLP..." : "Sync CLP"}
+              </button>
             </div>
           </div>
         </section>
