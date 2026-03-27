@@ -1,5 +1,13 @@
+import { createRequire } from "node:module";
 import { load } from "cheerio";
-import { PDFParse } from "pdf-parse";
+
+const require = createRequire(import.meta.url);
+const { PDFParse } = require("pdf-parse") as {
+  PDFParse: new (input: { url: string }) => {
+    getText: () => Promise<{ text: string }>;
+    destroy: () => Promise<void>;
+  };
+};
 
 const AROMAWAX_PRODUCT_BASE_URL = "https://aromawax.eu/products/";
 
