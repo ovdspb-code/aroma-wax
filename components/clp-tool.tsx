@@ -107,7 +107,7 @@ export function ClpTool() {
 
     setSyncState({
       status: "pending",
-      message: `Syncing ${selectedVariant.sku} from AROMA + WAX source documents...`,
+      message: `Syncing ${selectedVariant.sku} from the CLP master table into Shopify...`,
     });
 
     startSyncTransition(async () => {
@@ -133,7 +133,7 @@ export function ClpTool() {
         await loadProducts(search, selectedProductId, selectedVariantId);
         setSyncState({
           status: "success",
-          message: `Synced FO-${payload.familyKey} (${payload.updatedRows} rows, ${payload.importedMetafields} metafields imported).`,
+          message: `Synced FO-${payload.familyKey} from the CLP table (${payload.updatedRows} rows, ${payload.importedMetafields} metafields imported).`,
         });
       } catch (error) {
         setSyncState({

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { hasAccess } from "@/lib/password";
-import { syncClpForSku } from "@/lib/clp-sync";
+import { syncClpFromTableForSku } from "@/lib/clp-sync-import";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "SKU is required." }, { status: 400 });
     }
 
-    const result = await syncClpForSku(sku);
+    const result = await syncClpFromTableForSku(sku);
     return NextResponse.json(result);
   } catch (error) {
     return NextResponse.json(
