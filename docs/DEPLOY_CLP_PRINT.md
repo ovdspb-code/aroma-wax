@@ -32,6 +32,8 @@ Use one auth mode:
 - preferred: `SHOPIFY_CLIENT_ID` + `SHOPIFY_CLIENT_SECRET`
 - fallback: `SHOPIFY_ACCESS_TOKEN`
 
+If hosted token generation misbehaves, keep `SHOPIFY_ACCESS_TOKEN` set and redeploy. The runtime prefers the static token over client-credentials auth.
+
 ## First deploy
 
 ```bash
