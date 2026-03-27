@@ -1,13 +1,44 @@
 import { createRequire } from "node:module";
 import { load } from "cheerio";
 
-const require = createRequire(import.meta.url);
-const { PDFParse } = require("pdf-parse") as {
-  PDFParse: new (input: { url: string }) => {
-    getText: () => Promise<{ text: string }>;
-    destroy: () => Promise<void>;
-  };
+type PdfParseConstructor = new (input: { url: string }) => {
+  getText: () => Promise<{ text: string }>;
+  destroy: () => Promise<void>;
 };
+
+let PDFParseConstructor: PdfParseConstructor | undefined;
+
+function getPdfParseConstructor() {
+  if (PDFParseConstructor) {
+    return PDFParseConstructor;
+  }
+
+  const runtimeRequire = createRequire(import.meta.url);
+  const canvas = runtimeRequire("@napi-rs/canvas") as {
+    DOMMatrix?: typeof globalThis.DOMMatrix;
+    ImageData?: typeof globalThis.ImageData;
+    Path2D?: typeof globalThis.Path2D;
+  };
+
+  if (!globalThis.DOMMatrix && canvas.DOMMatrix) {
+    globalThis.DOMMatrix = canvas.DOMMatrix;
+  }
+
+  if (!globalThis.ImageData && canvas.ImageData) {
+    globalThis.ImageData = canvas.ImageData;
+  }
+
+  if (!globalThis.Path2D && canvas.Path2D) {
+    globalThis.Path2D = canvas.Path2D;
+  }
+
+  const { PDFParse } = runtimeRequire("pdf-parse") as {
+    PDFParse: PdfParseConstructor;
+  };
+
+  PDFParseConstructor = PDFParse;
+  return PDFParseConstructor;
+}
 
 const AROMAWAX_PRODUCT_BASE_URL = "https://aromawax.eu/products/";
 
@@ -180,7 +211,7 @@ async function extractPdfText(url: string) {
   }
 
   const pending = (async () => {
-    const parser = new PDFParse({ url });
+    const parser = new (getPdfParseConstructor())({ url });
 
     try {
       const result = await parser.getText();
