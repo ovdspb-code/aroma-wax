@@ -1,5 +1,6 @@
 "use client";
 
+import type React from "react";
 import { useDeferredValue, useEffect, useState, useTransition } from "react";
 import { buildInitialFormData } from "@/lib/clp";
 import {
@@ -31,6 +32,27 @@ type SearchSuggestion = {
 
 const emptyForm = buildInitialFormData();
 
+function escapeRegExp(value: string) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function splitHighlightedText(value: string, query: string) {
+  const normalizedQuery = query.trim();
+
+  if (!normalizedQuery) {
+    return [{ value, match: false }];
+  }
+
+  const pattern = new RegExp(`(${escapeRegExp(normalizedQuery)})`, "ig");
+  return value
+    .split(pattern)
+    .filter(Boolean)
+    .map((part) => ({
+      value: part,
+      match: part.toLowerCase() === normalizedQuery.toLowerCase(),
+    }));
+}
+
 export function ClpTool() {
   const [search, setSearch] = useState("");
   const deferredSearch = useDeferredValue(search);
@@ -44,6 +66,7 @@ export function ClpTool() {
   const [previewScale, setPreviewScale] = useState<1 | 2>(2);
   const [syncState, setSyncState] = useState<SyncState>({ status: "idle", message: "" });
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const [activeSuggestionIndex, setActiveSuggestionIndex] = useState(0);
 
   async function loadProducts(searchTerm: string, productId = selectedProductId, variantId = selectedVariantId) {
     const response = await fetch(`/api/products?search=${encodeURIComponent(searchTerm)}`);
@@ -104,6 +127,10 @@ export function ClpTool() {
         .slice(0, 8)
     : [];
 
+  useEffect(() => {
+    setActiveSuggestionIndex(0);
+  }, [deferredSearch, suggestions.length]);
+
   function syncForm(productId: string, variantId?: string) {
     const product = loadState.products.find((entry) => entry.id === productId);
     const variant = product?.variants.find((entry) => entry.id === variantId) ?? product?.variants[0];
@@ -119,6 +146,34 @@ export function ClpTool() {
     setSearch(suggestion.sku || suggestion.productTitle);
     setShowSuggestions(false);
     syncForm(suggestion.productId, suggestion.variantId);
+  }
+
+  function handleSearchKeyDown(event: React.KeyboardEvent<HTMLInputElement>) {
+    if (!showSuggestions || !suggestions.length) {
+      return;
+    }
+
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      setActiveSuggestionIndex((current) => (current + 1) % suggestions.length);
+      return;
+    }
+
+    if (event.key === "ArrowUp") {
+      event.preventDefault();
+      setActiveSuggestionIndex((current) => (current - 1 + suggestions.length) % suggestions.length);
+      return;
+    }
+
+    if (event.key === "Enter") {
+      event.preventDefault();
+      chooseSuggestion(suggestions[activeSuggestionIndex] ?? suggestions[0]);
+      return;
+    }
+
+    if (event.key === "Escape") {
+      setShowSuggestions(false);
+    }
   }
 
   function updateField<Key extends keyof LabelFormData>(key: Key, value: LabelFormData[Key]) {
@@ -215,6 +270,7 @@ export function ClpTool() {
                     setSearch(event.target.value);
                     setShowSuggestions(true);
                   }}
+                  onKeyDown={handleSearchKeyDown}
                   onFocus={() => setShowSuggestions(true)}
                   onBlur={() => {
                     window.setTimeout(() => setShowSuggestions(false), 150);
@@ -224,22 +280,43 @@ export function ClpTool() {
                 />
                 {showSuggestions && suggestions.length ? (
                   <div className="absolute z-20 mt-2 w-full overflow-hidden rounded-2xl border border-[var(--line)] bg-white shadow-[0_18px_40px_rgba(77,52,37,0.16)]">
-                    {suggestions.map((suggestion) => (
+                    {suggestions.map((suggestion, index) => (
                       <button
                         key={suggestion.variantId}
                         type="button"
                         onMouseDown={() => chooseSuggestion(suggestion)}
-                        className="flex w-full items-start justify-between gap-3 border-b border-[var(--line)] px-4 py-3 text-left transition last:border-b-0 hover:bg-[var(--panel)]"
+                        onMouseEnter={() => setActiveSuggestionIndex(index)}
+                        className={`flex w-full items-start justify-between gap-3 border-b border-[var(--line)] px-4 py-3 text-left transition last:border-b-0 ${
+                          activeSuggestionIndex === index
+                            ? "bg-[var(--panel)]"
+                            : "hover:bg-[var(--panel)]"
+                        }`}
                       >
                         <span>
                           <span className="block text-sm font-medium text-[var(--foreground)]">
-                            {suggestion.productTitle}
+                            {splitHighlightedText(suggestion.productTitle, deferredSearch).map((part, partIndex) => (
+                              <span
+                                key={`${suggestion.variantId}-title-${partIndex}`}
+                                className={part.match ? "rounded bg-[rgba(188,118,60,0.18)] px-0.5" : ""}
+                              >
+                                {part.value}
+                              </span>
+                            ))}
                           </span>
                           <span className="mt-1 block text-xs text-[var(--muted)]">
                             {suggestion.variantTitle}
                           </span>
                         </span>
-                        <span className="text-xs font-medium text-[var(--muted)]">{suggestion.sku}</span>
+                        <span className="text-xs font-medium text-[var(--muted)]">
+                          {splitHighlightedText(suggestion.sku, deferredSearch).map((part, partIndex) => (
+                            <span
+                              key={`${suggestion.variantId}-sku-${partIndex}`}
+                              className={part.match ? "rounded bg-[rgba(188,118,60,0.18)] px-0.5" : ""}
+                            >
+                              {part.value}
+                            </span>
+                          ))}
+                        </span>
                       </button>
                     ))}
                   </div>
