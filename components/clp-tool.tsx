@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useTransition } from "react";
+import { useDeferredValue, useEffect, useState, useTransition } from "react";
 import { buildInitialFormData } from "@/lib/clp";
 import {
   pictogramOptions,
@@ -21,10 +21,19 @@ type SyncState = {
   message: string;
 };
 
+type SearchSuggestion = {
+  productId: string;
+  productTitle: string;
+  variantId: string;
+  variantTitle: string;
+  sku: string;
+};
+
 const emptyForm = buildInitialFormData();
 
 export function ClpTool() {
   const [search, setSearch] = useState("");
+  const deferredSearch = useDeferredValue(search);
   const [isPending, startTransition] = useTransition();
   const [isSyncPending, startSyncTransition] = useTransition();
   const [loadState, setLoadState] = useState<LoadState>({ products: [], error: "" });
@@ -34,6 +43,7 @@ export function ClpTool() {
   const [sourceFormData, setSourceFormData] = useState<LabelFormData>(emptyForm);
   const [previewScale, setPreviewScale] = useState<1 | 2>(2);
   const [syncState, setSyncState] = useState<SyncState>({ status: "idle", message: "" });
+  const [showSuggestions, setShowSuggestions] = useState(false);
 
   async function loadProducts(searchTerm: string, productId = selectedProductId, variantId = selectedVariantId) {
     const response = await fetch(`/api/products?search=${encodeURIComponent(searchTerm)}`);
@@ -68,7 +78,7 @@ export function ClpTool() {
   useEffect(() => {
     startTransition(async () => {
       try {
-        await loadProducts(search, selectedProductId, selectedVariantId);
+        await loadProducts(deferredSearch, selectedProductId, selectedVariantId);
       } catch (error) {
         setLoadState({
           products: [],
@@ -76,10 +86,23 @@ export function ClpTool() {
         });
       }
     });
-  }, [search]);
+  }, [deferredSearch]);
 
   const selectedProduct = loadState.products.find((product) => product.id === selectedProductId);
   const selectedVariant = selectedProduct?.variants.find((variant) => variant.id === selectedVariantId);
+  const suggestions: SearchSuggestion[] = deferredSearch.trim()
+    ? loadState.products
+        .flatMap((product) =>
+          product.variants.map((variant) => ({
+            productId: product.id,
+            productTitle: product.title,
+            variantId: variant.id,
+            variantTitle: variant.title || "Default",
+            sku: variant.sku,
+          })),
+        )
+        .slice(0, 8)
+    : [];
 
   function syncForm(productId: string, variantId?: string) {
     const product = loadState.products.find((entry) => entry.id === productId);
@@ -90,6 +113,12 @@ export function ClpTool() {
     setSelectedVariantId(variant?.id ?? "");
     setSourceFormData(nextFormData);
     setFormData(nextFormData);
+  }
+
+  function chooseSuggestion(suggestion: SearchSuggestion) {
+    setSearch(suggestion.sku || suggestion.productTitle);
+    setShowSuggestions(false);
+    syncForm(suggestion.productId, suggestion.variantId);
   }
 
   function updateField<Key extends keyof LabelFormData>(key: Key, value: LabelFormData[Key]) {
@@ -179,12 +208,43 @@ export function ClpTool() {
           <div className="mt-6 space-y-5">
             <label className="block text-sm font-medium">
               Product search
-              <input
-                value={search}
-                onChange={(event) => setSearch(event.target.value)}
-                placeholder="Search by title or SKU"
-                className="mt-2 w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
-              />
+              <div className="relative mt-2">
+                <input
+                  value={search}
+                  onChange={(event) => {
+                    setSearch(event.target.value);
+                    setShowSuggestions(true);
+                  }}
+                  onFocus={() => setShowSuggestions(true)}
+                  onBlur={() => {
+                    window.setTimeout(() => setShowSuggestions(false), 150);
+                  }}
+                  placeholder="Search by title or SKU"
+                  className="w-full rounded-2xl border border-[var(--line)] bg-white px-4 py-3 outline-none transition focus:border-[var(--accent)]"
+                />
+                {showSuggestions && suggestions.length ? (
+                  <div className="absolute z-20 mt-2 w-full overflow-hidden rounded-2xl border border-[var(--line)] bg-white shadow-[0_18px_40px_rgba(77,52,37,0.16)]">
+                    {suggestions.map((suggestion) => (
+                      <button
+                        key={suggestion.variantId}
+                        type="button"
+                        onMouseDown={() => chooseSuggestion(suggestion)}
+                        className="flex w-full items-start justify-between gap-3 border-b border-[var(--line)] px-4 py-3 text-left transition last:border-b-0 hover:bg-[var(--panel)]"
+                      >
+                        <span>
+                          <span className="block text-sm font-medium text-[var(--foreground)]">
+                            {suggestion.productTitle}
+                          </span>
+                          <span className="mt-1 block text-xs text-[var(--muted)]">
+                            {suggestion.variantTitle}
+                          </span>
+                        </span>
+                        <span className="text-xs font-medium text-[var(--muted)]">{suggestion.sku}</span>
+                      </button>
+                    ))}
+                  </div>
+                ) : null}
+              </div>
             </label>
 
             <div className="grid gap-4 md:grid-cols-2">

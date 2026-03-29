@@ -21,6 +21,8 @@ let cachedToken:
     }
   | undefined;
 
+type AccessTokenMode = "default" | "fresh";
+
 const productQuery = `
   query SearchProducts($query: String!) {
     products(first: 20, query: $query, sortKey: TITLE) {
@@ -229,9 +231,16 @@ async function getTableRowsBySku() {
 }
 
 async function getAccessToken() {
-  const staticToken = getOptionalServerEnv("SHOPIFY_ACCESS_TOKEN");
+  return getAccessTokenForMode("default");
+}
 
-  if (staticToken) {
+async function getAccessTokenForMode(mode: AccessTokenMode) {
+  const domain = getServerEnv("SHOPIFY_STORE_DOMAIN");
+  const staticToken = getOptionalServerEnv("SHOPIFY_ACCESS_TOKEN");
+  const clientId = getOptionalServerEnv("SHOPIFY_CLIENT_ID");
+  const clientSecret = getOptionalServerEnv("SHOPIFY_CLIENT_SECRET");
+
+  if (mode === "default" && staticToken) {
     return staticToken;
   }
 
@@ -239,14 +248,12 @@ async function getAccessToken() {
     return cachedToken.accessToken;
   }
 
-  const domain = getServerEnv("SHOPIFY_STORE_DOMAIN");
-  const clientId = getOptionalServerEnv("SHOPIFY_CLIENT_ID");
-  const clientSecret = getOptionalServerEnv("SHOPIFY_CLIENT_SECRET");
-
   if (!clientId || !clientSecret) {
-    throw new Error(
-      "Set SHOPIFY_ACCESS_TOKEN or both SHOPIFY_CLIENT_ID and SHOPIFY_CLIENT_SECRET.",
-    );
+    if (staticToken) {
+      return staticToken;
+    }
+
+    throw new Error("Set SHOPIFY_ACCESS_TOKEN or both SHOPIFY_CLIENT_ID and SHOPIFY_CLIENT_SECRET.");
   }
 
   const response = await fetch(`https://${domain}/admin/oauth/access_token`, {
@@ -278,8 +285,8 @@ async function getAccessToken() {
 
 async function shopifyAdminFetch<T>(query: string, variables?: Record<string, unknown>) {
   const domain = getServerEnv("SHOPIFY_STORE_DOMAIN");
-  const accessToken = await getAccessToken();
-  const response = await fetch(`https://${domain}/admin/api/2026-01/graphql.json`, {
+  let accessToken = await getAccessToken();
+  let response = await fetch(`https://${domain}/admin/api/2026-01/graphql.json`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -288,6 +295,24 @@ async function shopifyAdminFetch<T>(query: string, variables?: Record<string, un
     body: JSON.stringify({ query, variables }),
     cache: "no-store",
   });
+
+  if (response.status === 401) {
+    cachedToken = undefined;
+    const refreshedToken = await getAccessTokenForMode("fresh");
+
+    if (refreshedToken !== accessToken) {
+      accessToken = refreshedToken;
+      response = await fetch(`https://${domain}/admin/api/2026-01/graphql.json`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-Shopify-Access-Token": accessToken,
+        },
+        body: JSON.stringify({ query, variables }),
+        cache: "no-store",
+      });
+    }
+  }
 
   if (!response.ok) {
     throw new Error(`Shopify GraphQL request failed with ${response.status}`);

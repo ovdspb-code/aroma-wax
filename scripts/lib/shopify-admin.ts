@@ -23,6 +23,8 @@ let cachedToken:
 
 let envLoaded = false;
 
+type AccessTokenMode = "default" | "fresh";
+
 function applyEnvFile(filePath: string) {
   if (!fs.existsSync(filePath)) {
     return;
@@ -76,9 +78,13 @@ export function getScriptEnv() {
 }
 
 export async function getAccessToken() {
+  return getAccessTokenForMode("default");
+}
+
+async function getAccessTokenForMode(mode: AccessTokenMode) {
   const env = getScriptEnv();
 
-  if (env.SHOPIFY_ACCESS_TOKEN) {
+  if (mode === "default" && env.SHOPIFY_ACCESS_TOKEN) {
     return env.SHOPIFY_ACCESS_TOKEN;
   }
 
@@ -87,6 +93,10 @@ export async function getAccessToken() {
   }
 
   if (!env.SHOPIFY_CLIENT_ID || !env.SHOPIFY_CLIENT_SECRET) {
+    if (env.SHOPIFY_ACCESS_TOKEN) {
+      return env.SHOPIFY_ACCESS_TOKEN;
+    }
+
     throw new Error(
       "Set SHOPIFY_ACCESS_TOKEN or both SHOPIFY_CLIENT_ID and SHOPIFY_CLIENT_SECRET.",
     );
@@ -120,9 +130,8 @@ export async function getAccessToken() {
 
 export async function shopifyAdminFetch<T>(query: string, variables?: Record<string, unknown>) {
   const env = getScriptEnv();
-  const accessToken = await getAccessToken();
-
-  const response = await fetch(`https://${env.SHOPIFY_STORE_DOMAIN}/admin/api/2026-01/graphql.json`, {
+  let accessToken = await getAccessToken();
+  let response = await fetch(`https://${env.SHOPIFY_STORE_DOMAIN}/admin/api/2026-01/graphql.json`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -130,6 +139,23 @@ export async function shopifyAdminFetch<T>(query: string, variables?: Record<str
     },
     body: JSON.stringify({ query, variables }),
   });
+
+  if (response.status === 401) {
+    cachedToken = undefined;
+    const refreshedToken = await getAccessTokenForMode("fresh");
+
+    if (refreshedToken !== accessToken) {
+      accessToken = refreshedToken;
+      response = await fetch(`https://${env.SHOPIFY_STORE_DOMAIN}/admin/api/2026-01/graphql.json`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-Shopify-Access-Token": accessToken,
+        },
+        body: JSON.stringify({ query, variables }),
+      });
+    }
+  }
 
   if (!response.ok) {
     throw new Error(`Shopify GraphQL request failed with ${response.status}`);
