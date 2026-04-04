@@ -230,6 +230,76 @@ async function getTableRowsBySku() {
   return rowsBySku;
 }
 
+async function getFallbackProductsFromTable(search: string): Promise<ShopifyProduct[]> {
+  const rows = await readClpTable().catch(() => [] as ClpTableRow[]);
+  const term = search.trim().toLowerCase();
+  const filteredRows = rows.filter((row) => {
+    if (row.product_status && row.product_status !== "ACTIVE") {
+      return false;
+    }
+
+    if (!term) {
+      return true;
+    }
+
+    return (
+      row.product_title.toLowerCase().includes(term) ||
+      row.product_handle.toLowerCase().includes(term) ||
+      row.variant_title.toLowerCase().includes(term) ||
+      row.variant_sku.toLowerCase().includes(term)
+    );
+  });
+
+  const productsById = new Map<string, ShopifyProduct>();
+
+  for (const row of filteredRows) {
+    const productKey = row.product_id || row.product_handle || row.product_title;
+
+    if (!productKey) {
+      continue;
+    }
+
+    const existingProduct = productsById.get(productKey);
+    const variantMetafields = tableRowToMetafields(row);
+
+    if (!existingProduct) {
+      productsById.set(productKey, {
+        id: row.product_id || productKey,
+        title: row.product_title || row.product_identifier || "Untitled product",
+        vendor: row.product_vendor || "",
+        description: "",
+        tags: [],
+        metafields: {},
+        variants: [
+          {
+            id: row.variant_id || row.owner_id || `${productKey}:${row.variant_sku}`,
+            title: row.variant_title || row.variant_sku || "Default variant",
+            sku: row.variant_sku,
+            metafields: variantMetafields,
+          },
+        ],
+      });
+      continue;
+    }
+
+    if (!existingProduct.variants.some((variant) => variant.sku === row.variant_sku)) {
+      existingProduct.variants.push({
+        id: row.variant_id || row.owner_id || `${productKey}:${row.variant_sku}`,
+        title: row.variant_title || row.variant_sku || "Default variant",
+        sku: row.variant_sku,
+        metafields: variantMetafields,
+      });
+    }
+  }
+
+  return Array.from(productsById.values())
+    .map((product) => ({
+      ...product,
+      variants: product.variants.sort((left, right) => left.title.localeCompare(right.title)),
+    }))
+    .sort((left, right) => left.title.localeCompare(right.title));
+}
+
 async function getAccessToken() {
   return getAccessTokenForMode("default");
 }
@@ -450,6 +520,13 @@ export async function searchProducts(search: string): Promise<ShopifyProduct[]> 
       })),
     }));
   } catch (error) {
+    const fallbackProducts = await getFallbackProductsFromTable(search);
+
+    if (fallbackProducts.length > 0) {
+      console.warn("Falling back to CLP table data:", error);
+      return fallbackProducts;
+    }
+
     if (process.env.NODE_ENV !== "production") {
       console.warn("Falling back to mock product data:", error);
       return mockProductsFixture;
