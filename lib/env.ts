@@ -1,7 +1,7 @@
 const requiredServerEnv = ["SHOPIFY_STORE_DOMAIN", "APP_PASSWORD"] as const;
 
 export function getServerEnv(name: (typeof requiredServerEnv)[number]) {
-  const value = process.env[name];
+  const value = process.env[name]?.trim();
 
   if (!value) {
     throw new Error(`Missing environment variable: ${name}`);
@@ -11,7 +11,7 @@ export function getServerEnv(name: (typeof requiredServerEnv)[number]) {
 }
 
 export function getOptionalServerEnv(name: string) {
-  return process.env[name];
+  return process.env[name]?.trim();
 }
 
 export function isMockModeEnabled() {
