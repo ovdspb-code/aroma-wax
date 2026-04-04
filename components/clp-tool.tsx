@@ -26,6 +26,11 @@ type SyncState = {
   message: string;
 };
 
+type AuthDiagnosticsState = {
+  status: "idle" | "loading" | "ready" | "error";
+  message: string;
+};
+
 type SearchSuggestion = {
   productId: string;
   productTitle: string;
@@ -75,6 +80,10 @@ export function ClpTool() {
   const [sourceFormData, setSourceFormData] = useState<LabelFormData>(emptyForm);
   const [previewScale, setPreviewScale] = useState<1 | 2>(2);
   const [syncState, setSyncState] = useState<SyncState>({ status: "idle", message: "" });
+  const [authDiagnostics, setAuthDiagnostics] = useState<AuthDiagnosticsState>({
+    status: "idle",
+    message: "",
+  });
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [activeSuggestionIndex, setActiveSuggestionIndex] = useState(0);
 
@@ -135,6 +144,59 @@ export function ClpTool() {
       }
     });
   }, [deferredSearch]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadAuthDiagnostics() {
+      setAuthDiagnostics({ status: "loading", message: "Checking Shopify auth status..." });
+
+      try {
+        const response = await fetch("/api/shopify-auth-status", { cache: "no-store" });
+        const payload = (await response.json()) as {
+          hasStaticToken?: boolean;
+          hasClientCredentials?: boolean;
+          staticGraphql?: string;
+          clientCredentialsToken?: string;
+          freshGraphql?: string;
+          error?: string;
+        };
+
+        if (!response.ok) {
+          throw new Error(payload.error ?? "Could not check Shopify auth");
+        }
+
+        const parts = [
+          `Static token: ${payload.hasStaticToken ? payload.staticGraphql : "missing"}`,
+          `Client credentials: ${payload.hasClientCredentials ? payload.clientCredentialsToken : "missing"}`,
+        ];
+
+        if (payload.hasClientCredentials) {
+          parts.push(`Fresh token GraphQL: ${payload.freshGraphql}`);
+        }
+
+        if (!cancelled) {
+          setAuthDiagnostics({
+            status: "ready",
+            message: parts.join(" • "),
+          });
+        }
+      } catch (error) {
+        if (!cancelled) {
+          setAuthDiagnostics({
+            status: "error",
+            message: error instanceof Error ? error.message : "Unknown diagnostics error",
+          });
+        }
+      }
+    }
+
+    loadAuthDiagnostics();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const selectedProduct = loadState.products.find((product) => product.id === selectedProductId);
   const selectedVariant = selectedProduct?.variants.find((variant) => variant.id === selectedVariantId);
@@ -669,6 +731,15 @@ export function ClpTool() {
               <p className="mt-2">
                 Re-import CLP metafields for the selected fragrance SKU from the master table.
               </p>
+              {authDiagnostics.message ? (
+                <p
+                  className={`mt-2 ${
+                    authDiagnostics.status === "error" ? "text-[#8b2f2f]" : "text-[var(--muted)]"
+                  }`}
+                >
+                  Auth diagnostics: {authDiagnostics.message}
+                </p>
+              ) : null}
               {!loadState.syncAvailable ? (
                 <p className="mt-2 text-[#8b6a2f]">
                   Shopify write auth is unavailable on this deployment right now, so sync is disabled.
