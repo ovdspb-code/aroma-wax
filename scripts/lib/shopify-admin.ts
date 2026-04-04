@@ -72,9 +72,15 @@ function ensureLocalEnvLoaded() {
   envLoaded = true;
 }
 
+function trimEnvEntries(source: NodeJS.ProcessEnv) {
+  return Object.fromEntries(
+    Object.entries(source).map(([key, value]) => [key, typeof value === "string" ? value.trim() : value]),
+  );
+}
+
 export function getScriptEnv() {
   ensureLocalEnvLoaded();
-  return envSchema.parse(process.env);
+  return envSchema.parse(trimEnvEntries(process.env));
 }
 
 export async function getAccessToken() {

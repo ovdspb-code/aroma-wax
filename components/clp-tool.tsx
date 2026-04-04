@@ -9,12 +9,16 @@ import {
   templateOptions,
   templateSizePresets,
 } from "@/lib/constants";
+import { ProductCatalogSource } from "@/lib/shopify";
 import { LabelFormData, ShopifyProduct } from "@/types/clp";
 import { LabelPreview } from "@/components/label-preview";
 
 type LoadState = {
   products: ShopifyProduct[];
   error: string;
+  source: ProductCatalogSource;
+  syncAvailable: boolean;
+  warning: string;
 };
 
 type SyncState = {
@@ -58,7 +62,13 @@ export function ClpTool() {
   const deferredSearch = useDeferredValue(search);
   const [isPending, startTransition] = useTransition();
   const [isSyncPending, startSyncTransition] = useTransition();
-  const [loadState, setLoadState] = useState<LoadState>({ products: [], error: "" });
+  const [loadState, setLoadState] = useState<LoadState>({
+    products: [],
+    error: "",
+    source: "shopify",
+    syncAvailable: true,
+    warning: "",
+  });
   const [selectedProductId, setSelectedProductId] = useState("");
   const [selectedVariantId, setSelectedVariantId] = useState("");
   const [formData, setFormData] = useState<LabelFormData>(emptyForm);
@@ -70,14 +80,26 @@ export function ClpTool() {
 
   async function loadProducts(searchTerm: string, productId = selectedProductId, variantId = selectedVariantId) {
     const response = await fetch(`/api/products?search=${encodeURIComponent(searchTerm)}`);
-    const payload = (await response.json()) as { products?: ShopifyProduct[]; error?: string };
+    const payload = (await response.json()) as {
+      products?: ShopifyProduct[];
+      source?: ProductCatalogSource;
+      syncAvailable?: boolean;
+      warning?: string;
+      error?: string;
+    };
 
     if (!response.ok) {
       throw new Error(payload.error ?? "Could not load products");
     }
 
     const products = payload.products ?? [];
-    setLoadState({ products, error: "" });
+    setLoadState({
+      products,
+      error: "",
+      source: payload.source ?? "shopify",
+      syncAvailable: payload.syncAvailable ?? true,
+      warning: payload.warning ?? "",
+    });
 
     if (!products.length) {
       setSelectedProductId("");
@@ -106,6 +128,9 @@ export function ClpTool() {
         setLoadState({
           products: [],
           error: error instanceof Error ? error.message : "Unknown error",
+          source: "shopify",
+          syncAvailable: false,
+          warning: "",
         });
       }
     });
@@ -228,7 +253,14 @@ export function ClpTool() {
     });
   }
 
-  const canSyncSku = /^(?:S)?FO-\d+/i.test(selectedVariant?.sku ?? "");
+  const canSyncSku = /^(?:S)?FO-\d+/i.test(selectedVariant?.sku ?? "") && loadState.syncAvailable;
+
+  const catalogSourceLabel =
+    loadState.source === "shopify"
+      ? "Shopify live data"
+      : loadState.source === "clp_table"
+        ? "CLP master table fallback"
+        : "Mock fixture";
 
   return (
     <main className="min-h-screen p-4 md:p-6">
@@ -597,6 +629,13 @@ export function ClpTool() {
             ))}
 
             <div className="rounded-2xl border border-dashed border-[var(--line)] bg-white/70 p-4 text-sm text-[var(--muted)]">
+              <p className="mb-2 text-xs uppercase tracking-[0.24em] text-[var(--muted)]">Catalog source</p>
+              <p className="mb-2">
+                <strong>{catalogSourceLabel}</strong>
+              </p>
+              {loadState.warning ? (
+                <p className="mb-2 text-[#8b6a2f]">{loadState.warning}</p>
+              ) : null}
               {syncState.message ? (
                 <p
                   className={
@@ -630,6 +669,11 @@ export function ClpTool() {
               <p className="mt-2">
                 Re-import CLP metafields for the selected fragrance SKU from the master table.
               </p>
+              {!loadState.syncAvailable ? (
+                <p className="mt-2 text-[#8b6a2f]">
+                  Shopify write auth is unavailable on this deployment right now, so sync is disabled.
+                </p>
+              ) : null}
               <button
                 type="button"
                 onClick={syncCurrentSku}

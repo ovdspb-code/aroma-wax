@@ -1,12 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
-import { searchProducts } from "@/lib/shopify";
+import { searchProductsWithDiagnostics } from "@/lib/shopify";
 
 export async function GET(request: NextRequest) {
   const search = request.nextUrl.searchParams.get("search") ?? "";
 
   try {
-    const products = await searchProducts(search);
-    return NextResponse.json({ products });
+    const result = await searchProductsWithDiagnostics(search);
+    return NextResponse.json(result);
   } catch (error) {
     return NextResponse.json(
       {

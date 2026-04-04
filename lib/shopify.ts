@@ -14,6 +14,15 @@ type TokenResponse = {
   token_type: string;
 };
 
+export type ProductCatalogSource = "shopify" | "clp_table" | "mock";
+
+export type ProductSearchResult = {
+  products: ShopifyProduct[];
+  source: ProductCatalogSource;
+  syncAvailable: boolean;
+  warning?: string;
+};
+
 let cachedToken:
   | {
       accessToken: string;
@@ -450,10 +459,10 @@ type ProductQueryResult = {
   };
 };
 
-export async function searchProducts(search: string): Promise<ShopifyProduct[]> {
+export async function searchProductsWithDiagnostics(search: string): Promise<ProductSearchResult> {
   if (isMockModeEnabled()) {
     const term = search.trim().toLowerCase();
-    return mockProductsFixture.filter((product) => {
+    const products = mockProductsFixture.filter((product) => {
       if (!term) {
         return true;
       }
@@ -463,6 +472,12 @@ export async function searchProducts(search: string): Promise<ShopifyProduct[]> 
         product.variants.some((variant) => variant.sku.toLowerCase().includes(term))
       );
     });
+
+    return {
+      products,
+      source: "mock",
+      syncAvailable: false,
+    };
   }
 
   const query = search.trim() ? `title:*${search.trim()}* OR sku:*${search.trim()}*` : "status:active";
@@ -470,7 +485,7 @@ export async function searchProducts(search: string): Promise<ShopifyProduct[]> 
     const data = await shopifyAdminFetch<ProductQueryResult>(productQuery, { query });
     const tableRowsBySku = await getTableRowsBySku();
 
-    return data.products.nodes.map((product) => ({
+    const products = data.products.nodes.map((product) => ({
       id: product.id,
       title: product.title,
       vendor: product.vendor,
@@ -519,19 +534,40 @@ export async function searchProducts(search: string): Promise<ShopifyProduct[]> 
         ),
       })),
     }));
+
+    return {
+      products,
+      source: "shopify",
+      syncAvailable: true,
+    };
   } catch (error) {
     const fallbackProducts = await getFallbackProductsFromTable(search);
 
     if (fallbackProducts.length > 0) {
       console.warn("Falling back to CLP table data:", error);
-      return fallbackProducts;
+      return {
+        products: fallbackProducts,
+        source: "clp_table",
+        syncAvailable: false,
+        warning: "Shopify live catalog is unavailable on this deployment, so product search is using the CLP master table. Printing still works, but Shopify sync is temporarily disabled.",
+      };
     }
 
     if (process.env.NODE_ENV !== "production") {
       console.warn("Falling back to mock product data:", error);
-      return mockProductsFixture;
+      return {
+        products: mockProductsFixture,
+        source: "mock",
+        syncAvailable: false,
+        warning: error instanceof Error ? error.message : "Unknown Shopify error",
+      };
     }
 
     throw error;
   }
+}
+
+export async function searchProducts(search: string): Promise<ShopifyProduct[]> {
+  const result = await searchProductsWithDiagnostics(search);
+  return result.products;
 }

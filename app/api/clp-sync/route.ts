@@ -21,11 +21,19 @@ export async function POST(request: NextRequest) {
     const result = await syncClpFromTableForSku(sku);
     return NextResponse.json(result);
   } catch (error) {
+    const message = error instanceof Error ? error.message : "Unknown sync error";
+    const isAuthIssue =
+      message.includes("Shopify token request failed") ||
+      message.includes("Shopify GraphQL request failed with 401") ||
+      message.includes("Invalid API key or access token");
+
     return NextResponse.json(
       {
-        error: error instanceof Error ? error.message : "Unknown sync error",
+        error: isAuthIssue
+          ? "Shopify write auth is unavailable on this deployment right now. Please refresh deployment credentials before syncing."
+          : message,
       },
-      { status: 500 },
+      { status: isAuthIssue ? 503 : 500 },
     );
   }
 }
