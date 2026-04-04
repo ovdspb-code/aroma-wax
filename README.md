@@ -130,6 +130,7 @@ Details:
 
 - [CLP table workflow](/Users/ovd/Documents/AROMA_AND_WAX/docs/CLP_TABLE_WORKFLOW.md)
 - [Deploy clp-print.aromawax.eu](/Users/ovd/Documents/AROMA_AND_WAX/docs/DEPLOY_CLP_PRINT.md)
+- [Admin handoff](/Users/ovd/Documents/AROMA_AND_WAX/docs/ADMIN_HANDOFF.md)
 
 ## Deploy to Vercel
 
