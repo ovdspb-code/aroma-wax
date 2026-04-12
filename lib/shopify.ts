@@ -99,6 +99,11 @@ function parseJsonArray(value?: string): string[] {
   }
 }
 
+function parseOptionalJsonArray(value?: string) {
+  const parsed = parseJsonArray(value);
+  return parsed.length ? parsed : undefined;
+}
+
 function parseMetafields(
   metafields: Record<string, { value: string | null } | null> | null | undefined,
 ): ClpMetafields {
@@ -117,11 +122,11 @@ function parseMetafields(
     ufiCode: byKey.get("ufi_code"),
     productIdentifier: byKey.get("product_identifier"),
     signalWord: byKey.get("signal_word"),
-    contains: parseJsonArray(byKey.get("contains")),
-    hStatements: parseJsonArray(byKey.get("h_statements")),
-    pStatements: parseJsonArray(byKey.get("p_statements")),
-    euhStatements: parseJsonArray(byKey.get("euh_statements")),
-    pictograms: parseJsonArray(byKey.get("pictograms")),
+    contains: parseOptionalJsonArray(byKey.get("contains")),
+    hStatements: parseOptionalJsonArray(byKey.get("h_statements")),
+    pStatements: parseOptionalJsonArray(byKey.get("p_statements")),
+    euhStatements: parseOptionalJsonArray(byKey.get("euh_statements")),
+    pictograms: parseOptionalJsonArray(byKey.get("pictograms")),
     netQuantityDefault: byKey.get("net_quantity_default"),
     netWeightGrams: byKey.get("net_weight_grams"),
     supplierDetails: byKey.get("supplier_details"),
@@ -193,22 +198,27 @@ function tableRowToMetafields(row?: ClpTableRow): ClpMetafields {
 }
 
 function mergeRuntimeMetafields(base: ClpMetafields, override?: ClpMetafields): ClpMetafields {
+  const preferString = (next?: string, fallback?: string) =>
+    next?.trim() ? next : fallback;
+  const preferArray = (next?: string[], fallback?: string[]) =>
+    next?.length ? next : fallback;
+
   return {
     templateType: override?.templateType ?? base.templateType,
-    fragranceType: override?.fragranceType ?? base.fragranceType,
-    concentrationPercent: override?.concentrationPercent ?? base.concentrationPercent,
-    ufiCode: override?.ufiCode ?? base.ufiCode,
-    productIdentifier: override?.productIdentifier ?? base.productIdentifier,
-    signalWord: override?.signalWord ?? base.signalWord,
-    contains: override?.contains ?? base.contains,
-    hStatements: override?.hStatements ?? base.hStatements,
-    pStatements: override?.pStatements ?? base.pStatements,
-    euhStatements: override?.euhStatements ?? base.euhStatements,
-    pictograms: override?.pictograms ?? base.pictograms,
-    netQuantityDefault: override?.netQuantityDefault ?? base.netQuantityDefault,
-    netWeightGrams: override?.netWeightGrams ?? base.netWeightGrams,
-    supplierDetails: override?.supplierDetails ?? base.supplierDetails,
-    extraWarning: override?.extraWarning ?? base.extraWarning,
+    fragranceType: preferString(override?.fragranceType, base.fragranceType),
+    concentrationPercent: preferString(override?.concentrationPercent, base.concentrationPercent),
+    ufiCode: preferString(override?.ufiCode, base.ufiCode),
+    productIdentifier: preferString(override?.productIdentifier, base.productIdentifier),
+    signalWord: preferString(override?.signalWord, base.signalWord),
+    contains: preferArray(override?.contains, base.contains),
+    hStatements: preferArray(override?.hStatements, base.hStatements),
+    pStatements: preferArray(override?.pStatements, base.pStatements),
+    euhStatements: preferArray(override?.euhStatements, base.euhStatements),
+    pictograms: preferArray(override?.pictograms, base.pictograms),
+    netQuantityDefault: preferString(override?.netQuantityDefault, base.netQuantityDefault),
+    netWeightGrams: preferString(override?.netWeightGrams, base.netWeightGrams),
+    supplierDetails: preferString(override?.supplierDetails, base.supplierDetails),
+    extraWarning: preferString(override?.extraWarning, base.extraWarning),
   };
 }
 

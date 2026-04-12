@@ -9,30 +9,35 @@ import {
 
 const toLines = (value?: string[]) => (value ?? []).join("\n");
 
+const preferString = (next?: string, fallback?: string) =>
+  next?.trim() ? next : fallback;
+const preferArray = (next?: string[], fallback?: string[]) =>
+  next?.length ? next : fallback;
+
 export function mergeClpMetafields(
   productMetafields: ClpMetafields,
   variantMetafields?: ClpMetafields,
 ): ClpMetafields {
   return {
     templateType: variantMetafields?.templateType ?? productMetafields.templateType ?? "candle",
-    fragranceType: variantMetafields?.fragranceType ?? productMetafields.fragranceType ?? "",
+    fragranceType: preferString(variantMetafields?.fragranceType, productMetafields.fragranceType) ?? "",
     concentrationPercent:
-      variantMetafields?.concentrationPercent ?? productMetafields.concentrationPercent ?? "",
-    ufiCode: variantMetafields?.ufiCode ?? productMetafields.ufiCode ?? "",
+      preferString(variantMetafields?.concentrationPercent, productMetafields.concentrationPercent) ?? "",
+    ufiCode: preferString(variantMetafields?.ufiCode, productMetafields.ufiCode) ?? "",
     productIdentifier:
-      variantMetafields?.productIdentifier ?? productMetafields.productIdentifier ?? "",
-    signalWord: variantMetafields?.signalWord ?? productMetafields.signalWord ?? "",
-    contains: variantMetafields?.contains ?? productMetafields.contains ?? [],
-    hStatements: variantMetafields?.hStatements ?? productMetafields.hStatements ?? [],
-    pStatements: variantMetafields?.pStatements ?? productMetafields.pStatements ?? [],
-    euhStatements: variantMetafields?.euhStatements ?? productMetafields.euhStatements ?? [],
-    pictograms: variantMetafields?.pictograms ?? productMetafields.pictograms ?? [],
+      preferString(variantMetafields?.productIdentifier, productMetafields.productIdentifier) ?? "",
+    signalWord: preferString(variantMetafields?.signalWord, productMetafields.signalWord) ?? "",
+    contains: preferArray(variantMetafields?.contains, productMetafields.contains) ?? [],
+    hStatements: preferArray(variantMetafields?.hStatements, productMetafields.hStatements) ?? [],
+    pStatements: preferArray(variantMetafields?.pStatements, productMetafields.pStatements) ?? [],
+    euhStatements: preferArray(variantMetafields?.euhStatements, productMetafields.euhStatements) ?? [],
+    pictograms: preferArray(variantMetafields?.pictograms, productMetafields.pictograms) ?? [],
     netQuantityDefault:
-      variantMetafields?.netQuantityDefault ?? productMetafields.netQuantityDefault ?? "",
-    netWeightGrams: variantMetafields?.netWeightGrams ?? productMetafields.netWeightGrams ?? "",
+      preferString(variantMetafields?.netQuantityDefault, productMetafields.netQuantityDefault) ?? "",
+    netWeightGrams: preferString(variantMetafields?.netWeightGrams, productMetafields.netWeightGrams) ?? "",
     supplierDetails:
-      variantMetafields?.supplierDetails ?? productMetafields.supplierDetails ?? "",
-    extraWarning: variantMetafields?.extraWarning ?? productMetafields.extraWarning ?? "",
+      preferString(variantMetafields?.supplierDetails, productMetafields.supplierDetails) ?? "",
+    extraWarning: preferString(variantMetafields?.extraWarning, productMetafields.extraWarning) ?? "",
   };
 }
 
