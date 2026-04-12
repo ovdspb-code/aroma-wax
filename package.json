@@ -7,6 +7,7 @@
     "build": "next build --webpack",
     "start": "next start",
     "shopify:bootstrap": "tsx scripts/bootstrap-metafields.ts",
+    "i18n:export": "tsx scripts/export-storefront-translation-pack.ts",
     "clp:export": "tsx scripts/export-clp-table.ts",
     "clp:refresh": "tsx scripts/refresh-clp-table.ts",
     "clp:import": "tsx scripts/import-clp-table.ts",
