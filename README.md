@@ -132,6 +132,26 @@ Details:
 - [Deploy clp-print.aromawax.eu](/Users/ovd/Documents/AROMA_AND_WAX/docs/DEPLOY_CLP_PRINT.md)
 - [Admin handoff](/Users/ovd/Documents/AROMA_AND_WAX/docs/ADMIN_HANDOFF.md)
 
+## Trio Review
+
+This repo now supports local Trio review for high-risk decisions through the
+shared external harness at `/Users/ovd/Documents/TRIO_ORCHESTRATION`.
+
+Project-specific memory and artifact layout live under:
+
+- [AGENTS.md](/Users/ovd/Documents/AROMA_AND_WAX/AGENTS.md)
+- [CLAUDE.md](/Users/ovd/Documents/AROMA_AND_WAX/CLAUDE.md)
+- [GEMINI.md](/Users/ovd/Documents/AROMA_AND_WAX/GEMINI.md)
+- [00_META/AI_GOVERNANCE/README.md](/Users/ovd/Documents/AROMA_AND_WAX/00_META/AI_GOVERNANCE/README.md)
+
+## Operator handoff
+
+For a second operator or another Codex instance, start here:
+
+- [Operator handoff pack](docs/operator-handoff/README.md)
+- [First prompt for the next Codex](docs/operator-handoff/FIRST_PROMPT_FOR_NEW_CODEX.md)
+- [Local setup checklist](docs/operator-handoff/LOCAL_SETUP_CHECKLIST.md)
+
 ## Deploy to Vercel
 
 1. Create a new Vercel project from this repository.

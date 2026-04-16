@@ -230,7 +230,7 @@ async function registerResource(resourceId: string, entries: SnapshotEntry[]) {
     return { registered: 0, userErrors: [] as Array<{ field: string[] | null; message: string }> };
   }
 
-  const data = await shopifyAdminFetch<RegisterResult>(translationsRegisterMutation, {
+  const data: RegisterResult = await shopifyAdminFetch<RegisterResult>(translationsRegisterMutation, {
     resourceId,
     translations: entries.map((entry) => ({
       locale: LOCALE,
@@ -251,7 +251,7 @@ async function removeTranslations(resourceId: string, entries: SnapshotEntry[]) 
     return { removed: 0, userErrors: [] as Array<{ field: string[] | null; message: string }> };
   }
 
-  const data = await shopifyAdminFetch<RemoveResult>(translationsRemoveMutation, {
+  const data: RemoveResult = await shopifyAdminFetch<RemoveResult>(translationsRemoveMutation, {
     resourceId,
     translationKeys: entries.map((entry) => entry.key),
     locales: [LOCALE],

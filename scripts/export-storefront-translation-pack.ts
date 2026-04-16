@@ -278,7 +278,7 @@ async function fetchAllProducts() {
   let hasNextPage = true;
 
   while (hasNextPage) {
-    const data = await shopifyAdminFetch<ProductsPageResponse>(productQuery, { cursor });
+    const data: ProductsPageResponse = await shopifyAdminFetch<ProductsPageResponse>(productQuery, { cursor });
 
     for (const product of data.products.nodes) {
       products.push({
@@ -305,7 +305,7 @@ async function fetchAllCollections() {
   let hasNextPage = true;
 
   while (hasNextPage) {
-    const data = await shopifyAdminFetch<CollectionsPageResponse>(collectionQuery, { cursor });
+    const data: CollectionsPageResponse = await shopifyAdminFetch<CollectionsPageResponse>(collectionQuery, { cursor });
 
     for (const collection of data.collections.nodes) {
       collections.push({

@@ -125,7 +125,7 @@ function parseArgs(argv: string[]) {
 }
 
 async function fetchProductByHandle(handle: string) {
-  const data = await shopifyAdminFetch<ProductLookupResponse>(productLookupQuery, {
+  const data: ProductLookupResponse = await shopifyAdminFetch<ProductLookupResponse>(productLookupQuery, {
     query: `handle:${handle}`,
   });
   const product = data.products.nodes.find((node) => node.handle === handle);

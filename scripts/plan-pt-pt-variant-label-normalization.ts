@@ -172,7 +172,7 @@ async function loadOptionValueContext() {
   let hasNextPage = true;
 
   while (hasNextPage) {
-    const data = await shopifyAdminFetch<ProductVariantsPage>(productVariantsQuery, { cursor });
+    const data: ProductVariantsPage = await shopifyAdminFetch<ProductVariantsPage>(productVariantsQuery, { cursor });
 
     for (const variant of data.productVariants.nodes) {
       for (const selected of variant.selectedOptions) {
@@ -203,7 +203,7 @@ async function loadOptionValueCandidates() {
   let hasNextPage = true;
 
   while (hasNextPage) {
-    const data = await shopifyAdminFetch<TranslatableResourcesPage>(productOptionValueResourcesQuery, { cursor });
+    const data: TranslatableResourcesPage = await shopifyAdminFetch<TranslatableResourcesPage>(productOptionValueResourcesQuery, { cursor });
 
     for (const node of data.translatableResources.nodes) {
       const sourceEntry = node.translatableContent.find((entry) => entry.key === "name");

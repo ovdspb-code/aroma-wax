@@ -322,10 +322,10 @@ async function fetchAllProducts() {
   let hasNextPage = true;
 
   while (hasNextPage) {
-    const data = await shopifyAdminFetch<ProductsPage>(productsQuery, { cursor });
-    products.push(...data.products.nodes);
-    hasNextPage = data.products.pageInfo.hasNextPage;
-    cursor = data.products.pageInfo.endCursor;
+    const page: ProductsPage = await shopifyAdminFetch<ProductsPage>(productsQuery, { cursor });
+    products.push(...page.products.nodes);
+    hasNextPage = page.products.pageInfo.hasNextPage;
+    cursor = page.products.pageInfo.endCursor;
   }
 
   return products;

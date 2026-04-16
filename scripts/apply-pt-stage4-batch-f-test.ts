@@ -92,7 +92,7 @@ function replaceOnce(content: string, searchValue: string, replaceValue: string,
 }
 
 async function readThemeFile(themeId: string, filename: string) {
-  const data = await shopifyAdminFetch<ThemeFilesResponse>(themeFilesQuery, {
+  const data: ThemeFilesResponse = await shopifyAdminFetch<ThemeFilesResponse>(themeFilesQuery, {
     themeId,
     filenames: [filename],
   });

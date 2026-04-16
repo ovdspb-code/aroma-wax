@@ -54,7 +54,7 @@ async function fetchProductByHandle(handle: string) {
     }
   }`;
 
-  const data = await shopifyAdminFetch<{ products: { nodes: ProductNode[] } }>(query, {
+  const data: { products: { nodes: ProductNode[] } } = await shopifyAdminFetch<{ products: { nodes: ProductNode[] } }>(query, {
     query: `handle:${handle}`,
   });
 

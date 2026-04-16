@@ -157,7 +157,7 @@ async function fetchAllProducts() {
   let hasNextPage = true;
 
   while (hasNextPage) {
-    const data = await shopifyAdminFetch<ProductsResponse>(productsQuery, { cursor });
+    const data: ProductsResponse = await shopifyAdminFetch<ProductsResponse>(productsQuery, { cursor });
 
     for (const product of data.products.nodes) {
       products.set(product.id, product);
@@ -176,7 +176,7 @@ async function fetchTranslatableProducts() {
   let hasNextPage = true;
 
   while (hasNextPage) {
-    const data = await shopifyAdminFetch<TranslatableResourcesResponse>(translatableProductsQuery, {
+    const data: TranslatableResourcesResponse = await shopifyAdminFetch<TranslatableResourcesResponse>(translatableProductsQuery, {
       cursor,
     });
 

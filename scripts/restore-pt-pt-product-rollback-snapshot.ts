@@ -184,7 +184,7 @@ ${resultRows || "| n/a | n/a | 0 | 0 | n/a |"}
 }
 
 async function registerResource(resourceId: string, entries: SnapshotEntry[]) {
-  const data = await shopifyAdminFetch<RegisterResult>(translationsRegisterMutation, {
+  const data: RegisterResult = await shopifyAdminFetch<RegisterResult>(translationsRegisterMutation, {
     resourceId,
     translations: entries.map((entry) => ({
       locale: LOCALE,

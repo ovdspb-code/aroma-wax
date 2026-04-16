@@ -99,7 +99,7 @@ async function loadAuditRowsFromShopify() {
   let hasNextPage = true;
 
   while (hasNextPage) {
-    const data = await shopifyAdminFetch<VariantAuditPage>(productVariantsQuery, { cursor });
+    const data: VariantAuditPage = await shopifyAdminFetch<VariantAuditPage>(productVariantsQuery, { cursor });
 
     for (const variant of data.productVariants.nodes) {
       const ptOptionTranslation = variant.translations.find(

@@ -448,7 +448,7 @@ function normalizeWhitespace(text: string) {
   return text.replace(/\s+/g, " ").trim();
 }
 
-function splitOutsideParentheses(text: string, separator: "," | " and " | " or ") {
+function splitOutsideParentheses(text: string, separator: "," | " and " | " or " | " e " | " ou ") {
   const parts: string[] = [];
   let current = "";
   let depth = 0;
@@ -590,11 +590,11 @@ function renderFragment($: cheerio.CheerioAPI) {
 }
 
 function transformHtml(value: string) {
-  const $ = cheerio.load(value, { decodeEntities: false }, false);
+  const $ = cheerio.load(value, {}, false);
   const root = $.root()[0];
   let changed = false;
 
-  function visit(node: cheerio.AnyNode, insideLabel = false) {
+  function visit(node: any, insideLabel = false) {
     if (node.type === "text") {
       const parentNode = node.parent;
       const isListItemLabel =

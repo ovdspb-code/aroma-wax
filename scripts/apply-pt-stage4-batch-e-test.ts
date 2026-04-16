@@ -92,7 +92,7 @@ function replaceOnce(content: string, searchValue: string, replaceValue: string,
 }
 
 async function readThemeFile(themeId: string, filename: string) {
-  const data = await shopifyAdminFetch<ThemeFilesResponse>(themeFilesQuery, {
+  const data: ThemeFilesResponse = await shopifyAdminFetch<ThemeFilesResponse>(themeFilesQuery, {
     themeId,
     filenames: [filename],
   });
@@ -238,7 +238,7 @@ function ensureDir(dirPath: string) {
 }
 
 async function upsertThemeFile(themeId: string, filename: string, content: string) {
-  const data = await shopifyAdminFetch<ThemeFilesUpsertResponse>(themeFilesUpsertMutation, {
+  const data: ThemeFilesUpsertResponse = await shopifyAdminFetch<ThemeFilesUpsertResponse>(themeFilesUpsertMutation, {
     themeId,
     files: [
       {

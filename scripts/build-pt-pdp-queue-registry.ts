@@ -154,7 +154,7 @@ async function fetchProducts() {
       throw new Error("shopifyAdminFetch is not available from ./lib/shopify-admin");
     }
 
-    const data = await shopifyAdminFetch<any>(query, { cursor });
+    const data: any = await shopifyAdminFetch<any>(query, { cursor });
     all.push(...data.products.nodes);
 
     if (!data.products.pageInfo.hasNextPage) {

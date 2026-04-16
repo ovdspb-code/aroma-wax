@@ -157,7 +157,7 @@ type CandidateTranslation = {
   digest: string;
   source: string;
   target: string;
-  packet: PacketName;
+  packet: LocalSourceName;
   packetLine: number;
   productHandle?: string;
   productTitle?: string;
@@ -516,7 +516,7 @@ function collectLocalPairs() {
 }
 
 function buildStructuredReplacementRules(localPairs: TranslationPair[]) {
-  const grouped = new Map<string, { target: string; packet: PacketName; line: number }>();
+  const grouped = new Map<string, { target: string; packet: LocalSourceName; line: number }>();
   const conflicts = new Set<string>();
 
   for (const pair of localPairs) {
@@ -553,7 +553,11 @@ function buildStructuredReplacementRules(localPairs: TranslationPair[]) {
 
 async function fetchScopeReport(): Promise<ScopeReport> {
   try {
-    const data = await shopifyAdminFetch<{
+    const data: {
+      currentAppInstallation: {
+        accessScopes: Array<{ handle: string }>;
+      };
+    } = await shopifyAdminFetch<{
       currentAppInstallation: {
         accessScopes: Array<{ handle: string }>;
       };
@@ -584,7 +588,7 @@ async function fetchResourceType(resourceType: ResourceType) {
   let hasNextPage = true;
 
   while (hasNextPage) {
-    const data = await shopifyAdminFetch<TranslatableResourcesResponse>(translatableResourcesQuery, {
+    const data: TranslatableResourcesResponse = await shopifyAdminFetch<TranslatableResourcesResponse>(translatableResourcesQuery, {
       type: resourceType,
       cursor,
     });
@@ -630,7 +634,7 @@ async function fetchAllProducts() {
   let hasNextPage = true;
 
   while (hasNextPage) {
-    const data = await shopifyAdminFetch<ProductsResponse>(productsQuery, { cursor });
+    const data: ProductsResponse = await shopifyAdminFetch<ProductsResponse>(productsQuery, { cursor });
 
     for (const product of data.products.nodes) {
       products.set(product.id, product);

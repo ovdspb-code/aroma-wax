@@ -2911,7 +2911,7 @@ function transformFile(filename: string, content: string) {
 }
 
 async function getMainTheme() {
-  const data = await shopifyAdminFetch<ThemeListResponse>(mainThemeQuery);
+  const data: ThemeListResponse = await shopifyAdminFetch<ThemeListResponse>(mainThemeQuery);
   const theme = data.themes.nodes[0];
 
   if (!theme) {
@@ -2922,7 +2922,7 @@ async function getMainTheme() {
 }
 
 async function getThemeFiles(themeId: string, filenames: string[]) {
-  const data = await shopifyAdminFetch<ThemeFilesResponse>(themeFilesQuery, {
+  const data: ThemeFilesResponse = await shopifyAdminFetch<ThemeFilesResponse>(themeFilesQuery, {
     themeId,
     filenames,
   });
