@@ -227,14 +227,14 @@
 - Black Pepper, Sandalwood and Tonka deliver a bold, layered scent where sweet tonka merges with spicy black pepper and warm sandalwood, creating an irresistible draw. A touch of juicy pear and soft floral notes adds depth, making this top-selling fragrance a crowd-pleaser that hooks everyone.
   Pimenta-preta, sândalo e fava-tonka oferece um aroma ousado e em camadas, onde a tonka doce se funde com pimenta-preta especiada e sândalo quente, criando uma atração irresistível. Um toque de pera suculenta e notas florais suaves acrescenta profundidade, fazendo desta fragrância mais vendida uma escolha envolvente e muito apreciada.
 
-### 15. `black-coconut-fragrance-oil-1`
+### 15. `black-pepper-sandalwood-tonka-fragrance-oil-1`
 **Title**
 - Black pepper, sandalwood and tonka fragrance oil
-  Óleo de fragrância coco preto
+  Óleo de fragrância pimenta-preta, sândalo e fava-tonka
 
 **SEO title**
-- Black Coconut Fragrance Oil
-  Óleo de fragrância coco preto
+- Black Pepper, Sandalwood & Tonka Fragrance Oil | AROMA + WAX
+  Óleo de fragrância pimenta-preta, sândalo e fava-tonka | AROMA + WAX
 
 ### 16. `braded-cotton-wicks`
 **Title**
@@ -779,8 +779,6 @@
 - Experience tranquility with our Lavender & Peppermint Fragrance Oil. Perfectly balanced scents to relax and invigorate. Ideal for your home or spa.
   Experimente tranquilidade com Óleo de fragrância lavanda e hortelã-pimenta. Aromas perfeitamente equilibrados para relaxar e revigorar. Ideal para a sua casa ou spa.
 
-## Batch 03 - Products 51-75 from source export
-
 ### 51. `lemongrass-and-honey-fragrance-oil`
 **Title**
 - Lemongrass & Honey Fragrance Oil
@@ -928,8 +926,8 @@
   Disponíveis em preto, branco, prateado, dourado e bronze, estas tampas preservam a fragrância e protegem a cera. Desde 1,19 €. Qualidade profissional. Descontos por volume.
 
 **Description**
-- Available in five finishes, these aluminium screw caps are designed for sealing 73-mm-diameter glass or metal candle containers. Each cap is coated with a protective food-safe lacquer on the inside and a rich lacquer on the outside for a sophisticated and polished look. Not only do these candle caps add a touch of modern design or a rustic aesthetic to your products, but they also serve as a practical solution for preserving the quality and scent of your candles. By securely sealing the container, you can prevent any dirt from contaminating the wax and keep your candles fresh for longer periods of time. Supplied loosely packed in PE-bags within sturdy boxes.
-  Disponíveis em cinco acabamentos, estas tampas de rosca em alumínio foram concebidas para fechar recipientes de vidro ou metal para velas com 73 mm de diâmetro. Cada tampa tem no interior um revestimento protetor apto para contacto alimentar e, no exterior, um lacado rico para um aspeto sofisticado e polido. Além de acrescentarem um toque de design moderno ou uma estética mais rústica aos seus produtos, estas tampas para velas também funcionam como uma solução prática para preservar a qualidade e o aroma das velas. Ao fechar o recipiente de forma segura, ajudam a evitar que sujidade contamine a cera e mantêm as velas frescas durante mais tempo. Fornecidas soltas em sacos de PE, dentro de caixas resistentes.
+- Available in five finishes, these aluminium screw caps are designed for sealing 70-mm-diameter glass or metal candle containers. Each cap is coated with a protective food-safe lacquer on the inside and a rich lacquer on the outside for a sophisticated and polished look. Not only do these candle caps add a touch of modern design or a rustic aesthetic to your products, but they also serve as a practical solution for preserving the quality and scent of your candles. By securely sealing the container, you can prevent any dirt from contaminating the wax and keep your candles fresh for longer periods of time. Supplied loosely packed in PE-bags within sturdy boxes.
+  Disponíveis em cinco acabamentos, estas tampas de rosca em alumínio foram concebidas para fechar recipientes de vidro ou metal para velas com 70 mm de diâmetro. Cada tampa tem no interior um revestimento protetor apto para contacto alimentar e, no exterior, um lacado rico para um aspeto sofisticado e polido. Além de acrescentarem um toque de design moderno ou uma estética mais rústica aos seus produtos, estas tampas para velas também funcionam como uma solução prática para preservar a qualidade e o aroma das velas. Ao fechar o recipiente de forma segura, ajudam a evitar que sujidade contamine a cera e mantêm as velas frescas durante mais tempo. Fornecidas soltas em sacos de PE, dentro de caixas resistentes.
 
 ### 61. `metal-screw-cap-tin-10-ml`
 **Title**
@@ -937,11 +935,11 @@
   Lata metálica com tampa de rosca, 10 ml
 
 **SEO title**
-- Metal Screw Cap Tin 100 ml – Candle & Balm Container | AROMA + WAX
+- Metal Screw Cap Tin 10 ml - Candle & Balm Container | AROMA + WAX
   Lata metálica com tampa de rosca, 10 ml - recipiente para velas e bálsamos | AROMA + WAX
 
 **SEO description**
-- 100 ml silver metal screw cap tin for candles, balms and solid perfumes. Durable aluminium container with secure lid. Starts from €32,64 for a pack of 50.
+- 10 ml silver metal screw cap tin for candles, balms and solid perfumes. Durable aluminium container with secure lid. Starts from €32,64 for a pack of 50.
   Lata metálica prateada de 10 ml com tampa de rosca para velas, bálsamos e perfumes sólidos. Recipiente durável em alumínio com tampa segura. Desde 32,64 € por embalagem de 50.
 
 **Description**
@@ -1440,10 +1438,14 @@
 - Buy Siberian Cedar & Bergamot Fragrance Oil from just €2.95. Fresh, woody aroma perfect for candles, diffusers, and DIY projects. Premium quality, eco-friendly scent. Order now at Aroma + Wax!
   Compre Óleo de fragrância cedro siberiano e bergamota desde 2,95 €. Aroma fresco e amadeirado para velas, difusores e projetos criativos.
 
-### 96. `winter-pines-velvet-petals-fragrance-oil-1`
+### 96. `sicilian-neroli-cashmere-fragrance-oil-1`
 **Title**
 - Sicilian neroli & cashmere fragrance oil
-  Óleo de fragrância pinheiros de inverno e pétalas aveludadas
+  Óleo de fragrância néroli siciliano e caxemira
+
+**SEO title**
+- Sicilian Neroli & Cashmere Fragrance Oil for Candles | AROMA + WAX
+  Óleo de fragrância néroli siciliano e caxemira para velas | AROMA + WAX
 
 ### 97. `sicilian-neroli-cashmere-fragrance-oil`
 **Title**
@@ -1504,8 +1506,6 @@
 **SEO title**
 - Smoky Myrrh & Sage Fragrance Oil
   Óleo de fragrância mirra fumada e sálvia
-
-## Batch 05 - Products 101-125 from source export
 
 ### 101. `solubilizer-polysorbate-20`
 **Title**
@@ -2154,15 +2154,3 @@
 **Title**
 - Winter pines & velvet petals fragrance oil
   Óleo de fragrância pinheiros de inverno e pétalas aveludadas
-
-## Packet 04 status
-- Batch 01 drafted locally: products 1-25 from `storefront-source.json`.
-- Batch 02 drafted locally: products 26-50 from `storefront-source.json`.
-- Batch 03 drafted locally: products 51-75 from `storefront-source.json`.
-- Batch 04 drafted locally: products 76-100 from `storefront-source.json`.
-- Batch 05 drafted locally: products 101-125 from `storefront-source.json`.
-- Batch 06 drafted locally: products 126-142 from `storefront-source.json`.
-- Remaining: none. Packet 04 product draft covers all exported products.
-- Not imported to Shopify.
-- Portuguese not published.
-

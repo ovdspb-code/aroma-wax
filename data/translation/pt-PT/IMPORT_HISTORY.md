@@ -297,3 +297,138 @@ Current implication:
 - Translation import is complete for the homepage SEO keys.
 - The remaining issue is storefront resolution of homepage SEO for the regional locale `pt-PT`, not missing translation data.
 - The current app token does not include `write_themes`, so a theme-level fallback cannot be patched from the repo tooling yet.
+
+## 2026-04-16 - Product Catalog Anomaly Audit + Live Import Prep
+
+Catalog audit outputs created:
+
+- `data/incidents/PT_PT_CATALOG_ANOMALY_SKU_AUDIT_2026-04-16.md`
+- `data/incidents/PT_PT_CATALOG_SOURCE_FIELD_CONFLICT_QUEUE_2026-04-16.md`
+- `data/incidents/PT_PT_CATALOG_HANDLE_CLEANUP_QUEUE_2026-04-16.md`
+
+Audit result:
+
+- `19` registry-flagged anomaly SKU rows reviewed against live Shopify product fields
+- `4` source-level blockers:
+  - `black-coconut-fragrance-oil-1`
+  - `winter-pines-velvet-petals-fragrance-oil-1`
+  - `metal-screw-cap-70mm`
+  - `metal-screw-cap-tin-10-ml`
+- `15` handle-cleanup / family / character-set items separated into a non-blocking catalog queue
+
+Wave 06 note:
+
+- Wave 06 had already been verified separately; a targeted PRODUCT title import was previously applied only for:
+  - `black-coconut-fragrance-oil-1`
+  - `winter-pines-velvet-petals-fragrance-oil-1`
+
+Live import prep scope for this pass:
+
+- product translations for Waves 01-05 only
+- excluded the two Wave 04 source-field blockers:
+  - `metal-screw-cap-70mm`
+  - `metal-screw-cap-tin-10-ml`
+
+Planner command shape:
+
+```bash
+npm run i18n:plan-import -- --resource-types=PRODUCT --handles="$HANDLES"
+```
+
+First guard dry-run:
+
+```bash
+npm run i18n:import-pt-pt -- --resource-types=PRODUCT --handles="$HANDLES"
+```
+
+Result:
+
+- `380` total candidates across `95` product handles
+- `95` eligible candidates
+- all `95` eligible entries were `PRODUCT.body_html`
+- this was a formatting-only delta because Shopify already stored wrapped `<p>...</p>` values
+
+Live-safe guard dry-run:
+
+```bash
+npm run i18n:import-pt-pt -- --resource-types=PRODUCT --handles="$HANDLES" --wrap-html-targets
+```
+
+Final result:
+
+- `0` eligible translations
+- `0` grouped Shopify resources
+- no product live write is currently needed for the Wave 01-05 live-ready handle set
+
+Saved prep reports:
+
+- `data/translation/pt-PT/live-product-import-prep-candidates-2026-04-16.json`
+- `data/translation/pt-PT/live-product-import-prep-dry-run-report-2026-04-16.md`
+- `data/translation/pt-PT/live-product-import-prep-guard-report-2026-04-16.md`
+- `data/translation/pt-PT/live-product-import-ready-guard-report-2026-04-16.md`
+- `data/translation/pt-PT/PRODUCT_LIVE_IMPORT_PREP_2026-04-16.md`
+
+## 2026-04-16 - Source Blocker Fix 01
+
+Applied live product source fixes:
+
+```bash
+npm run catalog:fix-source-blockers -- --apply --yes
+```
+
+Source changes applied:
+
+- `metal-screw-cap-70mm`
+  - corrected live English `descriptionHtml` from `73-mm-diameter` to `70-mm-diameter`
+- `metal-screw-cap-tin-10-ml`
+  - corrected live English SEO title/description from `100 ml` to `10 ml`
+- `black-coconut-fragrance-oil-1`
+  - migrated handle to `black-pepper-sandalwood-tonka-fragrance-oil-1`
+  - updated live SEO title to `Black Pepper, Sandalwood & Tonka Fragrance Oil | AROMA + WAX`
+  - old handle now redirects to the new handle
+- `winter-pines-velvet-petals-fragrance-oil-1`
+  - migrated handle to `sicilian-neroli-cashmere-fragrance-oil-1`
+  - updated live SEO title to `Sicilian Neroli & Cashmere Fragrance Oil for Candles | AROMA + WAX`
+  - old handle now redirects to the new handle
+
+Verification:
+
+- redirect checks confirmed:
+  - `/products/black-coconut-fragrance-oil-1` -> `/products/black-pepper-sandalwood-tonka-fragrance-oil-1`
+  - `/products/winter-pines-velvet-petals-fragrance-oil-1` -> `/products/sicilian-neroli-cashmere-fragrance-oil-1`
+- fresh capture written to:
+  - `data/incidents/PT_PT_SOURCE_BLOCKER_FIX_CAPTURE_2026-04-16.md`
+
+pt-PT refresh after source changes:
+
+```bash
+npm run i18n:plan-import -- --resource-types=PRODUCT --handles=metal-screw-cap-70mm,metal-screw-cap-tin-10-ml,black-pepper-sandalwood-tonka-fragrance-oil-1,sicilian-neroli-cashmere-fragrance-oil-1
+npm run i18n:import-pt-pt -- --resource-types=PRODUCT --handles=metal-screw-cap-70mm,metal-screw-cap-tin-10-ml,black-pepper-sandalwood-tonka-fragrance-oil-1,sicilian-neroli-cashmere-fragrance-oil-1 --wrap-html-targets --apply --yes
+```
+
+Result:
+
+- `5` pt-PT translation entries refreshed across `4` product resources
+- all affected pt-PT product translations now report `outdated: false`
+
+Post-fix anomaly audit:
+
+- `data/incidents/PT_PT_CATALOG_SOURCE_FIELD_CONFLICT_QUEUE_2026-04-16.md` now has `0` rows
+- `data/incidents/PT_PT_CATALOG_HANDLE_CLEANUP_QUEUE_2026-04-16.md` remains with `15` non-blocking catalog cleanup items
+
+Final Waves 01-06 product live-safe dry-run:
+
+```bash
+npm run i18n:plan-import -- --resource-types=PRODUCT --handles="$ALL_HANDLES"
+npm run i18n:import-pt-pt -- --resource-types=PRODUCT --handles="$ALL_HANDLES" --wrap-html-targets
+```
+
+Result:
+
+- `0` eligible translations
+- `0` grouped Shopify resources
+
+Saved post-fix reports:
+
+- `data/translation/pt-PT/product-wave-01-06-post-blocker-fix-dry-run-report-2026-04-16.md`
+- `data/translation/pt-PT/product-wave-01-06-post-blocker-fix-guard-report-2026-04-16.md`

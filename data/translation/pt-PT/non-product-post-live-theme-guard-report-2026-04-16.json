@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-04-16T10:37:05.972Z",
+  "locale": "pt-PT",
+  "mode": "dry-run",
+  "candidateFile": "data/translation/pt-PT/import-candidates.json",
+  "totalCandidates": 1136,
+  "eligibleCandidates": 0,
+  "skippedCandidates": 1136,
+  "groupedResourceCount": 0,
+  "options": {
+    "apply": false,
+    "yes": false,
+    "includeRisky": true,
+    "resourceTypes": [
+      "ONLINE_STORE_THEME",
+      "ONLINE_STORE_THEME_APP_EMBED",
+      "ONLINE_STORE_THEME_JSON_TEMPLATE",
+      "ONLINE_STORE_THEME_LOCALE_CONTENT",
+      "ONLINE_STORE_THEME_SECTION_GROUP",
+      "ONLINE_STORE_THEME_SETTINGS_DATA_SECTIONS"
+    ],
+    "skipSourceHtml": false,
+    "htmlTargetMode": "wrap-paragraph",
+    "sourceHtmlProfile": "all"
+  },
+  "eligibleByResourceType": [],
+  "skippedRiskyByResourceType": [
+    {
+      "resourceType": "ONLINE_STORE_THEME",
+      "count": 442
+    },
+    {
+      "resourceType": "ONLINE_STORE_THEME_JSON_TEMPLATE",
+      "count": 208
+    },
+    {
+      "resourceType": "ONLINE_STORE_THEME_LOCALE_CONTENT",
+      "count": 224
+    },
+    {
+      "resourceType": "ONLINE_STORE_THEME_SECTION_GROUP",
+      "count": 10
+    },
+    {
+      "resourceType": "PAGE",
+      "count": 56
+    }
+  ],
+  "sampleEligible": [],
+  "applyResults": []
+}

@@ -217,6 +217,19 @@ Use this style:
 - keep AROMA + WAX as the brand name
 - localize storefront product and fragrance names into pt-PT; keep handles/SKUs in English for searchability
 
+## 8. Storefront size-label format
+
+Use this format for storefront variant/picker labels:
+
+- abbreviated metric units with a space
+- `10 g`, `450 g`, `2 kg`, `250 ml`
+- avoid `10g`, `2kg`, `1 quilograma`, `16 quilogramas`
+
+Rationale:
+
+- the picker labels need to stay short and visually consistent across PDP, quick-buy and collection filters
+- the approved canon is the compact abbreviated format exemplified by `450 g / 2 kg`
+
 Examples:
 
 - `Explore our quality candle and diffuser-making products` -> `Explore os nossos produtos para fabrico de velas e difusores`

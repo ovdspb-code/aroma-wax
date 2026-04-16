@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-04-16T07:22:55.598Z",
+  "locale": "pt-PT",
+  "mode": "apply",
+  "candidateFile": "data/translation/pt-PT/import-candidates.json",
+  "totalCandidates": 103,
+  "eligibleCandidates": 2,
+  "skippedCandidates": 101,
+  "groupedResourceCount": 2,
+  "options": {
+    "apply": true,
+    "yes": true,
+    "includeRisky": false,
+    "handles": [
+      "black-coconut-fragrance-oil-1",
+      "winter-pines-velvet-petals-fragrance-oil-1"
+    ],
+    "resourceTypes": [
+      "PRODUCT"
+    ],
+    "skipSourceHtml": false,
+    "htmlTargetMode": "plain",
+    "sourceHtmlProfile": "all"
+  },
+  "eligibleByResourceType": [
+    {
+      "resourceType": "PRODUCT",
+      "count": 2
+    }
+  ],
+  "skippedRiskyByResourceType": [],
+  "sampleEligible": [
+    {
+      "resourceType": "PRODUCT",
+      "resourceId": "gid://shopify/Product/10762741121355",
+      "key": "title",
+      "digest": "86d9e1b6e608677f3defbc7738ab7c4c2db3b47a37686bfd457703aade19d337",
+      "source": "Black pepper, sandalwood and tonka fragrance oil",
+      "target": "Óleo de fragrância pimenta-preta, sândalo e fava-tonka",
+      "packet": "packet-04-products-pt-PT.md",
+      "packetLine": 232,
+      "productHandle": "black-coconut-fragrance-oil-1",
+      "productTitle": "Black pepper, sandalwood and tonka fragrance oil",
+      "existingValue": "Óleo de fragrância coco preto",
+      "existingOutdated": false,
+      "matchMode": "exact"
+    },
+    {
+      "resourceType": "PRODUCT",
+      "resourceId": "gid://shopify/Product/14793700540747",
+      "key": "title",
+      "digest": "bb953c8049511846aef313dedafdb77768952958490c9843a322f4eff7380dfb",
+      "source": "Sicilian neroli & cashmere fragrance oil",
+      "target": "Óleo de fragrância néroli siciliano e caxemira",
+      "packet": "packet-04-products-pt-PT.md",
+      "packetLine": 1443,
+      "productHandle": "winter-pines-velvet-petals-fragrance-oil-1",
+      "productTitle": "Sicilian neroli & cashmere fragrance oil",
+      "existingValue": "Óleo de fragrância pinheiros de inverno e pétalas aveludadas",
+      "existingOutdated": false,
+      "matchMode": "exact"
+    }
+  ],
+  "applyResults": [
+    {
+      "resourceId": "gid://shopify/Product/10762741121355",
+      "resourceType": "PRODUCT",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Product/14793700540747",
+      "resourceType": "PRODUCT",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    }
+  ]
+}

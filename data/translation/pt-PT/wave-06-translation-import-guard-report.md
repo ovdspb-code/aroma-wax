@@ -1,27 +1,26 @@
 # pt-PT Translation Import Guard Report
 
-Generated at: 2026-04-16T10:54:18.866Z
+Generated at: 2026-04-16T07:22:55.598Z
 
-Mode: dry-run
+Mode: apply
 
 Candidate source: `data/translation/pt-PT/import-candidates.json`
 
 ## Summary
 
-- Total candidates: 194
-- Eligible candidates: 0
-- Skipped candidates: 194
-- Grouped Shopify resources: 0
-- Apply requested: false
-- Explicit yes: false
-- Include risky resource types: true
-- Product handle filter: none
-- Resource ID filter: none
-- Resource type filter: LINK, MENU, METAFIELD, SHOP, SHOP_POLICY
+- Total candidates: 103
+- Eligible candidates: 2
+- Skipped candidates: 101
+- Grouped Shopify resources: 2
+- Apply requested: true
+- Explicit yes: true
+- Include risky resource types: false
+- Product handle filter: black-coconut-fragrance-oil-1, winter-pines-velvet-petals-fragrance-oil-1
+- Resource type filter: PRODUCT
 - Key include filter: none
 - Key exclude filter: none
 - Skip source HTML: false
-- HTML target mode: wrap-paragraph
+- HTML target mode: plain
 - Source HTML profile: all
 - Limit: none
 
@@ -29,7 +28,7 @@ Candidate source: `data/translation/pt-PT/import-candidates.json`
 
 | Resource type | Candidates |
 | --- | ---: |
-| n/a | 0 |
+| PRODUCT | 2 |
 
 ## Skipped risky resource types
 
@@ -41,13 +40,15 @@ Candidate source: `data/translation/pt-PT/import-candidates.json`
 
 | Resource type | Shopify key | Local packet | Target preview |
 | --- | --- | --- | --- |
-| n/a | n/a | n/a | n/a |
+| PRODUCT | title | packet-04-products-pt-PT.md:232 | Óleo de fragrância pimenta-preta, sândalo e fava-tonka |
+| PRODUCT | title | packet-04-products-pt-PT.md:1443 | Óleo de fragrância néroli siciliano e caxemira |
 
 ## Apply results
 
 | Resource type | Resource ID | Attempted | Registered | User errors |
 | --- | --- | ---: | ---: | --- |
-| n/a | n/a | 0 | 0 | n/a |
+| PRODUCT | gid://shopify/Product/10762741121355 | 1 | 1 |  |
+| PRODUCT | gid://shopify/Product/14793700540747 | 1 | 1 |  |
 
 ## Safety
 

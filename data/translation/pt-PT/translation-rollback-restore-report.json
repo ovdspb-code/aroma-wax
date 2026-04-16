@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-04-16T10:34:35.792Z",
+  "snapshot": "data/translation/pt-PT/non-product-live-rollback-snapshot-2026-04-16.json",
+  "mode": "dry-run",
+  "resourceIdFilter": [],
+  "resourceTypeFilter": [],
+  "totalEntries": 2,
+  "groupedResources": 2,
+  "registerableEntries": 2,
+  "removableEntries": 0,
+  "applyResults": []
+}

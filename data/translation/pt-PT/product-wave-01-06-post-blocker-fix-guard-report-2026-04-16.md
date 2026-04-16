@@ -1,0 +1,53 @@
+# pt-PT Translation Import Guard Report
+
+Generated at: 2026-04-16T09:10:34.686Z
+
+Mode: dry-run
+
+Candidate source: `data/translation/pt-PT/import-candidates.json`
+
+## Summary
+
+- Total candidates: 492
+- Eligible candidates: 0
+- Skipped candidates: 492
+- Grouped Shopify resources: 0
+- Apply requested: false
+- Explicit yes: false
+- Include risky resource types: false
+- Product handle filter: agarwood-noble-incense-fragrance-oil, agarwood-noble-incense-fragrance-oil-1, all-seasons-classics-fragrance-oils-kit, apothecary-diffuser-bottle-and-metal-screw-cap-60-ml, apothecary-room-spray-bottle-and-sprayer-125-ml, augeo-diffuser-base, autumn-and-holidays-fragrance-oils-2025-kit, black-cherry-and-corsican-almond-fragrance-oil-1, black-cherry-and-corsican-almond-fragrance-oil-2, black-pepper-and-velvet-orchid-fragrance-oil, black-pepper-sandalwood-tonka-fragrance-oil, black-pepper-sandalwood-tonka-fragrance-oil-1, black-pepper-velvet-orchid-fragrance-oil-1, braded-cotton-wicks, by-the-fireplace-fragrance-oil, by-the-fireside-fragrance-oil, candle-business-starter-kit, cashmere-wood-and-tonka-fragrance-oil, cashmere-wood-tonka-fragrance-oil, christmas-hearth-fragrance-oil, christmas-hearth-fragrance-oil-1, classic-reed-diffuser-bottles-100-ml, classic-reed-diffuser-bottles-50-ml, diffuser-bottle-and-metal-screw-cap-125-ml, dubai-pistachio-cream-fragrance-oil, ecoolive™-pillar-wax, ecosoya™-cb-advanced-container-wax, ecosoya™-pillarblend-wax, fiber-diffuser-reeds, fresh-cotton-and-green-tea-fragrance-oil, fresh-cotton-green-tea-fragrance-oil-1, fresh-cut-grass-fragrance-oil, fresh-cut-grass-fragrance-oil-1, fresh-cut-peony-fragrance-oil, fresh-cut-peony-fragrance-oil-1, glass-jar-metal-screw-cap-200-ml, golden-waxtm-464-container-soy-wax, golden-wax™-r45-сontainer-wax, golden-wax™-y50-wax-melts-wax, green-cardamom-eucalyptus-fragrance-oil, green-cardamom-eucalyptus-fragrance-oil-1, green-fig-and-wild-mushroom, green-fig-and-wild-mushroom-fragrance-oil-1, home-fragrances-business-starter-kit, jasmine-fragrance-oil, kerasoy™-pillar-wax-4120, kyoto-matcha-and-coconut-cloud-fragrance-oil, kyoto-matcha-coconut-cloud-fragrance-oil-1, lavender-and-peppermint-fragrance-oil, lavender-peppermint-fragrance-oil, lemongrass-and-honey-fragrance-oil, lemongrass-honey-fragrance-oil, luscious-lime-and-basil-fragrance-oil, luscious-lime-basil-fragrance-oil-1, magnolia-and-peach-blossom-fragrance-oil, magnolia-peach-blossom-fragrance-oil, mango-fragrance-oil, metal-can-lid-200-ml, metal-can-lid-500-ml, metal-lever-lid-can-250-ml, metal-screw-cap-70mm, metal-screw-cap-tin-10-ml, metal-screw-cap-tin-100-ml, modern-gentleman-fougere-fragrance-oil, modern-gentleman-fougere-fragrance-oil-1, moroccan-cedar-and-saffron-fragrance-oil, moroccan-cedar-saffron-fragrance-oil, muscat-and-fig-fragrance-oil, muscat-fig-fragrance-oil, my-first-collection-fragrance-oils-kit, naturewax™-c-3-container-soy-wax, nutmeg-ginger-spice-fragrance-oil, nutmeg-ginger-spice-fragrance-oil-1, opium-and-musk-fragrance-oil, opium-musk-fragrance-oil-1, oud-wood-and-sweet-jasmin-fragrance-oil, oud-wood-sweet-jasmin-fragrance-oil, palo-santo-de-marabi-fragrance-oil, palo-santo-de-marabi-fragrance-oil-1, patchouli-vetiver-fragrance-oil, patchouli-vetiver-fragrance-oil-1, pineapple-creamy-coconut-fragrance-oil, pineapple-creamy-coconut-fragrance-oil-2, pure-jasmine-fragrance-oil, rattan-diffuser-reeds, room-spray-classic-bottle-125-ml, room-spray-classic-bottle-250-ml, rooom-spray-bottle-and-sprayer-60ml, rose-champagne-fragrance-oil, rose-champagne-fragrance-oil-2, ruby-grapefruit-fragrance-oil, ruby-grapefruit-fragrance-oil-1, sage-seasalt-fragrance-oil, sage-seasalt-fragrance-oil-1, siberian-cedar-and-bergamot-fragrance-oil, siberian-cedar-bergamot-fragrance-oil, sicilian-neroli-cashmere-fragrance-oil, sicilian-neroli-cashmere-fragrance-oil-1, simply-delicious-fragrances-kit, smoky-myrrh-sage-fragrance-oil, smoky-myrrh-sage-fragrance-oil-1, solubilizer-polysorbate-20, spiced-apple-cinnamon-fragrance-oil, spiced-apple-cinnamon-fragrance-oil-2, suede-leather-orris-fragrance-oil, suede-leather-orris-fragrance-oil-1, summer-2026-fragrance-oils-kit, sweet-amber-and-smoke-fragrance-oil, sweet-amber-smoke-fragrance-oil, tcr-series-cotton-wicks, tefacid®-stearic-acid, tobacco-vanilla-fragrance-oil, tobacco-vanilla-fragrance-oil-1, tomato-leaf-fragrance-oil, tomato-leaf-fragrance-oil-1, vanilla-and-patchouli-fragrance-oil, vanilla-cream-fragrance-oil, vanilla-cream-fragrance-oil-1, vanilla-patchouli-fragrance-oil, very-gingerbread-fragrance-oil, very-gingerbread-fragrance-oil-1, very-mango-fragrance-oil, vibrant-black-liquid-dye, vibrant-blue-liquid-dye, vibrant-brown-liquid-dye, vibrant-burgundy-liquid-dye, vibrant-green-liquid-dye, vibrant-magenta-liquid-dye, vibrant-navy-liquid-dye, vibrant-olive-green-liquid-dye, vibrant-orange-liquid-dye, vibrant-purple-liquid-dye, vibrant-red-liquid-dye, vibrant-yellow-liquid-dye, wild-fern-moss-fragrance-oil, wild-fern-moss-fragrance-oil-1, wild-strawberry-cream-silk, wild-strawberry-cream-silk-fragrance-oil, winter-fragrances-kit, winter-pines-velvet-petals, winter-pines-velvet-petals-fragrance-oil, wk-st-stabilo-series-cotton-wicks
+- Resource type filter: PRODUCT
+- Key include filter: none
+- Key exclude filter: none
+- Skip source HTML: false
+- HTML target mode: wrap-paragraph
+- Source HTML profile: all
+- Limit: none
+
+## Eligible by resource type
+
+| Resource type | Candidates |
+| --- | ---: |
+| n/a | 0 |
+
+## Skipped risky resource types
+
+| Resource type | Candidates |
+| --- | ---: |
+| n/a | 0 |
+
+## Sample eligible candidates
+
+| Resource type | Shopify key | Local packet | Target preview |
+| --- | --- | --- | --- |
+| n/a | n/a | n/a | n/a |
+
+## Apply results
+
+| Resource type | Resource ID | Attempted | Registered | User errors |
+| --- | --- | ---: | ---: | --- |
+| n/a | n/a | 0 | 0 | n/a |
+
+## Safety
+
+Default mode is dry-run. To write translations, run with `--apply --yes` after explicit approval. Do not publish Portuguese from this script.

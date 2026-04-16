@@ -40,6 +40,8 @@ type CandidateTranslation = {
   target: string;
   packet: string;
   packetLine: number;
+  productHandle?: string;
+  productTitle?: string;
   existingValue?: string;
   existingOutdated?: boolean;
 };
@@ -55,6 +57,8 @@ type CliOptions = {
   apply: boolean;
   yes: boolean;
   includeRisky: boolean;
+  handles?: Set<string>;
+  resourceIds?: Set<string>;
   resourceTypes?: Set<string>;
   keys?: Set<string>;
   excludeKeys?: Set<string>;
@@ -68,6 +72,8 @@ type ReportOptions = {
   apply: boolean;
   yes: boolean;
   includeRisky: boolean;
+  handles?: string[];
+  resourceIds?: string[];
   resourceTypes?: string[];
   keys?: string[];
   excludeKeys?: string[];
@@ -181,6 +187,28 @@ function parseArgs(argv: string[]): CliOptions {
       continue;
     }
 
+    if (arg.startsWith("--handles=")) {
+      options.handles = new Set(
+        arg
+          .slice("--handles=".length)
+          .split(",")
+          .map((value) => value.trim())
+          .filter(Boolean),
+      );
+      continue;
+    }
+
+    if (arg.startsWith("--resource-ids=")) {
+      options.resourceIds = new Set(
+        arg
+          .slice("--resource-ids=".length)
+          .split(",")
+          .map((value) => value.trim())
+          .filter(Boolean),
+      );
+      continue;
+    }
+
     if (arg.startsWith("--keys=")) {
       options.keys = new Set(
         arg
@@ -225,6 +253,8 @@ function toReportOptions(options: CliOptions): ReportOptions {
     apply: options.apply,
     yes: options.yes,
     includeRisky: options.includeRisky,
+    handles: options.handles ? [...options.handles].sort() : undefined,
+    resourceIds: options.resourceIds ? [...options.resourceIds].sort() : undefined,
     resourceTypes: options.resourceTypes ? [...options.resourceTypes].sort() : undefined,
     keys: options.keys ? [...options.keys].sort() : undefined,
     excludeKeys: options.excludeKeys ? [...options.excludeKeys].sort() : undefined,
@@ -358,6 +388,20 @@ function isRetryableError(error: unknown) {
 }
 
 function isEligible(candidate: CandidateTranslation, options: CliOptions) {
+  if (options.handles) {
+    if (candidate.resourceType !== "PRODUCT") {
+      return false;
+    }
+
+    if (!candidate.productHandle || !options.handles.has(candidate.productHandle)) {
+      return false;
+    }
+  }
+
+  if (options.resourceIds && !options.resourceIds.has(candidate.resourceId)) {
+    return false;
+  }
+
   if (options.resourceTypes && !options.resourceTypes.has(candidate.resourceType)) {
     return false;
   }
@@ -390,7 +434,11 @@ function isEligible(candidate: CandidateTranslation, options: CliOptions) {
 
   const targetValue = toTranslationValue(candidate, options);
 
-  if (!targetValue || existingValueMatches(candidate, targetValue)) {
+  if (!targetValue) {
+    return false;
+  }
+
+  if (existingValueMatches(candidate, targetValue) && !candidate.existingOutdated) {
     return false;
   }
 
@@ -492,6 +540,8 @@ Candidate source: \`${report.candidateFile}\`
 - Apply requested: ${report.options.apply}
 - Explicit yes: ${report.options.yes}
 - Include risky resource types: ${report.options.includeRisky}
+- Product handle filter: ${formatFilter(report.options.handles)}
+- Resource ID filter: ${formatFilter(report.options.resourceIds)}
 - Resource type filter: ${formatFilter(report.options.resourceTypes)}
 - Key include filter: ${formatFilter(report.options.keys)}
 - Key exclude filter: ${formatFilter(report.options.excludeKeys)}

@@ -1,0 +1,534 @@
+{
+  "generatedAt": "2026-04-16T07:26:43.214Z",
+  "locale": "pt-PT",
+  "noWriteOperations": true,
+  "scopeReport": {
+    "status": "ok",
+    "current": [
+      "read_content",
+      "read_legal_policies",
+      "read_locales",
+      "read_markets",
+      "read_products",
+      "read_themes",
+      "read_translations",
+      "write_locales",
+      "write_markets",
+      "write_products",
+      "write_themes",
+      "write_translations"
+    ],
+    "missingRecommended": []
+  },
+  "recommendedScopes": [
+    {
+      "handle": "read_translations",
+      "reason": "Read Shopify translation keys, source values and digests through translatableResources."
+    },
+    {
+      "handle": "write_translations",
+      "reason": "Register pt-PT translations later with translationsRegister after explicit approval."
+    },
+    {
+      "handle": "read_locales",
+      "reason": "Verify Portuguese locale status before and after publication."
+    },
+    {
+      "handle": "write_locales",
+      "reason": "Publish Portuguese later with shopLocaleUpdate after explicit approval."
+    },
+    {
+      "handle": "read_content",
+      "reason": "Read pages and blog/article content for source verification."
+    },
+    {
+      "handle": "read_legal_policies",
+      "reason": "Read shop policies such as refund, shipping and privacy policy."
+    },
+    {
+      "handle": "read_themes",
+      "reason": "Read theme resources and locale content for Packet 06 verification."
+    }
+  ],
+  "sourceSnapshot": {
+    "exportedAt": "2026-04-12T15:06:01.665Z",
+    "counts": {
+      "products": 142,
+      "collections": 45,
+      "pages": 36,
+      "blogs": 16
+    }
+  },
+  "localPackets": [
+    {
+      "packet": "packet-01-core-pt-PT.md",
+      "pairCount": 94
+    },
+    {
+      "packet": "packet-02-service-pages-pt-PT.md",
+      "pairCount": 173
+    },
+    {
+      "packet": "packet-03-collections-pt-PT.md",
+      "pairCount": 148
+    },
+    {
+      "packet": "packet-04-products-pt-PT.md",
+      "pairCount": 491
+    },
+    {
+      "packet": "packet-05-blog-pt-PT.md",
+      "pairCount": 1100
+    },
+    {
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "pairCount": 400
+    }
+  ],
+  "localPairCount": 2406,
+  "shopifyResources": [
+    {
+      "resourceType": "PRODUCT",
+      "status": "ok",
+      "resourceCount": 142,
+      "contentCount": 775,
+      "existingTranslationCount": 535
+    }
+  ],
+  "mapping": {
+    "candidateCount": 103,
+    "ambiguousSourceCount": 0,
+    "unmatchedRemoteContentCount": 90,
+    "candidateFile": "data/translation/pt-PT/import-candidates.json",
+    "sampleCandidates": [
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762064167243",
+        "key": "title",
+        "digest": "3752d4beb1053119c62b93f002d0b6d06f6b22420200b58fa80d27637fad514f",
+        "source": "Sage & seasalt fragrance oil",
+        "target": "Óleo de fragrância sálvia e sal marinho",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1400,
+        "productHandle": "sage-seasalt-fragrance-oil-1",
+        "productTitle": "Sage & seasalt fragrance oil",
+        "existingValue": "Óleo de fragrância sálvia e sal marinho",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762064167243",
+        "key": "meta_title",
+        "digest": "dd83ed6c1c209c8626d52b1146b0013dbb20f8cc23adc53f3c29c6c377f385b2",
+        "source": "Sage & Seasalt Fragrance Oil",
+        "target": "Óleo de fragrância sálvia e sal marinho",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1383,
+        "productHandle": "sage-seasalt-fragrance-oil-1",
+        "productTitle": "Sage & seasalt fragrance oil",
+        "existingValue": "Óleo de fragrância sálvia e sal marinho",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762064167243",
+        "key": "meta_description",
+        "digest": "27a467e5f1bfe110b0c6c619a99f79911649eebfe73ea01907f243fa9275867d",
+        "source": "Discover the refreshing essence of Sage & Seasalt Fragrance Oil. Infuse your space with this invigorating blend, evoking coastal breezes and natural serenity.",
+        "target": "Descubra a essência refrescante de Óleo de fragrância sálvia e sal marinho. Perfume o seu espaço com esta mistura revigorante, que evoca brisas costeiras e serenidade natural.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1408,
+        "productHandle": "sage-seasalt-fragrance-oil-1",
+        "productTitle": "Sage & seasalt fragrance oil",
+        "existingValue": "Descubra a essência refrescante de Óleo de fragrância sálvia e sal marinho. Perfume o seu espaço com esta mistura revigorante, que evoca brisas costeiras e serenidade natural.",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762064298315",
+        "key": "title",
+        "digest": "19de35fa31d41dd08bf0779d9170705d30e50243700b3c7417d472c5f86403eb",
+        "source": "Lavender & peppermint fragrance oil",
+        "target": "Óleo de fragrância lavanda e hortelã-pimenta",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 771,
+        "productHandle": "lavender-peppermint-fragrance-oil",
+        "productTitle": "Lavender & peppermint fragrance oil",
+        "existingValue": "Óleo de fragrância lavanda e hortelã-pimenta",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762064298315",
+        "key": "meta_title",
+        "digest": "16cb08c7dea54dd99dea64e57a7a7719ade12a13f68d374c2a852d7f3d44bc0f",
+        "source": "Lavender & Peppermint Fragrance Oil",
+        "target": "Óleo de fragrância lavanda e hortelã-pimenta",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 754,
+        "productHandle": "lavender-peppermint-fragrance-oil",
+        "productTitle": "Lavender & peppermint fragrance oil",
+        "existingValue": "Óleo de fragrância lavanda e hortelã-pimenta",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762064298315",
+        "key": "meta_description",
+        "digest": "93a4155f7f7b3764dce9e856a6cab3e8cd4020715ccb7c936f048b82dda14d43",
+        "source": "Experience tranquility with our Lavender & Peppermint Fragrance Oil. Perfectly balanced scents to relax and invigorate. Ideal for your home or spa.",
+        "target": "Experimente tranquilidade com Óleo de fragrância lavanda e hortelã-pimenta. Aromas perfeitamente equilibrados para relaxar e revigorar. Ideal para a sua casa ou spa.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 779,
+        "productHandle": "lavender-peppermint-fragrance-oil",
+        "productTitle": "Lavender & peppermint fragrance oil",
+        "existingValue": "Experimente tranquilidade com Óleo de fragrância lavanda e hortelã-pimenta. Aromas perfeitamente equilibrados para relaxar e revigorar. Ideal para a sua casa ou spa.",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762740957515",
+        "key": "title",
+        "digest": "be460a80f74ec0f08a641caf4e02470d7b178eb50fea72025c479acd1c756be1",
+        "source": "Patchouli & vetiver fragrance oil",
+        "target": "Óleo de fragrância patchouli e vetiver",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1207,
+        "productHandle": "patchouli-vetiver-fragrance-oil-1",
+        "productTitle": "Patchouli & vetiver fragrance oil",
+        "existingValue": "Óleo de fragrância patchouli e vetiver",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762740957515",
+        "key": "meta_title",
+        "digest": "bf06c315d71d3c3f66751d293dd30e9d1ba0f2bb1de7c2252903b121ecb84744",
+        "source": "Patchouli & Vetiver Fragrance Oil",
+        "target": "Óleo de fragrância patchouli e vetiver",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1190,
+        "productHandle": "patchouli-vetiver-fragrance-oil-1",
+        "productTitle": "Patchouli & vetiver fragrance oil",
+        "existingValue": "Óleo de fragrância patchouli e vetiver",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762740957515",
+        "key": "meta_description",
+        "digest": "0dcde66c5fd6ef64e91b176a4a81e73214a0b3dae6ce7e7ea6748dce555f3a51",
+        "source": "Immerse in the rich, earthy aroma of Patchouli & Vetiver Fragrance Oil — perfect for scenting your space with a natural, calming touch.",
+        "target": "Envolva-se no aroma rico e terroso de Óleo de fragrância patchouli e vetiver - perfeito para perfumar o seu espaço com um toque natural e calmante.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1215,
+        "productHandle": "patchouli-vetiver-fragrance-oil-1",
+        "productTitle": "Patchouli & vetiver fragrance oil",
+        "existingValue": "Envolva-se no aroma rico e terroso de Óleo de fragrância patchouli e vetiver - perfeito para perfumar o seu espaço com um toque natural e calmante.",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762740990283",
+        "key": "title",
+        "digest": "0a87a09f4021101a2dfdbae2ee06ab8a12574b8f3e756dfb85840f0957bd7e3c",
+        "source": "Fresh cut peony fragrance oil",
+        "target": "Óleo de fragrância peónia recém-cortada",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 569,
+        "productHandle": "fresh-cut-peony-fragrance-oil-1",
+        "productTitle": "Fresh cut peony fragrance oil",
+        "existingValue": "Óleo de fragrância peónia recém-cortada",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762740990283",
+        "key": "meta_title",
+        "digest": "b11646c4ea290c70ecf1eb729cddcecaffe46de124defa793dcf0203099b7b60",
+        "source": "Fresh Cut Peony Fragrance Oil",
+        "target": "Óleo de fragrância peónia recém-cortada",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 552,
+        "productHandle": "fresh-cut-peony-fragrance-oil-1",
+        "productTitle": "Fresh cut peony fragrance oil",
+        "existingValue": "Óleo de fragrância peónia recém-cortada",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762740990283",
+        "key": "meta_description",
+        "digest": "b6403d42373d00906af169dd094177cdf7ff73ccdadfabd583522df298e86997",
+        "source": "Experience the enchanting aroma of Fresh Cut Peony Fragrance Oil; perfect for adding a floral touch to your home fragrance business or DIY projects.",
+        "target": "Experimente o aroma encantador de Óleo de fragrância peónia recém-cortada; perfeito para acrescentar um toque floral ao seu negócio de perfumaria para a casa ou aos seus projetos criativos.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 577,
+        "productHandle": "fresh-cut-peony-fragrance-oil-1",
+        "productTitle": "Fresh cut peony fragrance oil",
+        "existingValue": "Experimente o aroma encantador de Óleo de fragrância peónia recém-cortada; perfeito para acrescentar um toque floral ao seu negócio de perfumaria para a casa ou aos seus projetos criativos.",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741023051",
+        "key": "title",
+        "digest": "305ca5d3ad63fd6bb5bbdd95637402e1413ff1c49adbba9f6a25c78d3a76c57c",
+        "source": "Very gingerbread fragrance oil",
+        "target": "Óleo de fragrância pão de gengibre intenso",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1816,
+        "productHandle": "very-gingerbread-fragrance-oil-1",
+        "productTitle": "Very gingerbread fragrance oil",
+        "existingValue": "Óleo de fragrância pão de gengibre intenso",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741023051",
+        "key": "meta_title",
+        "digest": "235ebb3029a225665cc553cf20dced0e6b5631dc46a2b17e23ad828f925594fa",
+        "source": "Very Gingerbread Fragrance Oil",
+        "target": "Óleo de fragrância pão de gengibre intenso",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1799,
+        "productHandle": "very-gingerbread-fragrance-oil-1",
+        "productTitle": "Very gingerbread fragrance oil",
+        "existingValue": "Óleo de fragrância pão de gengibre intenso",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741023051",
+        "key": "meta_description",
+        "digest": "ee68d2d909ec3b7baee3619f2693a45fbc4ff78f0a3b627506647b7080e83d00",
+        "source": "Indulge in the warm, spicy aroma of gingerbread with Very Gingerbread Fragrance Oil. Perfect for a cozy holiday atmosphere and sweet seasonal vibes!",
+        "target": "Deixe-se envolver pelo aroma quente e especiado de pão de gengibre com óleo de fragrância pão de gengibre intenso. Perfeito para uma atmosfera festiva acolhedora e um toque doce de estação.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1824,
+        "productHandle": "very-gingerbread-fragrance-oil-1",
+        "productTitle": "Very gingerbread fragrance oil",
+        "existingValue": "Deixe-se envolver pelo aroma quente e especiado de pão de gengibre com óleo de fragrância pão de gengibre intenso. Perfeito para uma atmosfera festiva acolhedora e um toque doce de estação.",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741055819",
+        "key": "title",
+        "digest": "a150adca9250bec2d1f4854ff346f9a33f47837e28e8e8cf0ddf8aa4494fcbd8",
+        "source": "Fresh cotton & green tea fragrance oil",
+        "target": "Óleo de fragrância algodão fresco e chá verde",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 509,
+        "productHandle": "fresh-cotton-green-tea-fragrance-oil-1",
+        "productTitle": "Fresh cotton & green tea fragrance oil",
+        "existingValue": "Óleo de fragrância algodão fresco e chá verde",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741055819",
+        "key": "meta_title",
+        "digest": "6901f67f66f6631bfd93fca8567835ffcccef65bb0f29e4c3303c5d9f36f0d4a",
+        "source": "Fresh Cotton & Green Tea Fragrance Oil",
+        "target": "Óleo de fragrância algodão fresco e chá verde",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 492,
+        "productHandle": "fresh-cotton-green-tea-fragrance-oil-1",
+        "productTitle": "Fresh cotton & green tea fragrance oil",
+        "existingValue": "Óleo de fragrância algodão fresco e chá verde",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741055819",
+        "key": "meta_description",
+        "digest": "9484c8402a0eae387497eb389e4846d529c2448ed77b419bc438635b3e466428",
+        "source": "Revitalize your home fragrances collection with our Fresh Cotton & Green Tea Fragrance Oil. It's a refreshing scent that blends purity with tranquility.",
+        "target": "Revitalize a sua coleção de perfumaria para a casa com Óleo de fragrância algodão fresco e chá verde. É um aroma refrescante que combina pureza e tranquilidade.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 517,
+        "productHandle": "fresh-cotton-green-tea-fragrance-oil-1",
+        "productTitle": "Fresh cotton & green tea fragrance oil",
+        "existingValue": "Revitalize a sua coleção de perfumaria para a casa com Óleo de fragrância algodão fresco e chá verde. É um aroma refrescante que combina pureza e tranquilidade.",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741088587",
+        "key": "title",
+        "digest": "9c8a7968f62b1a8f6b3d4d6d95004afae8b735337bb7dfb83543fc9fb1e68b83",
+        "source": "Pure jasmine fragrance oil",
+        "target": "Óleo de fragrância jasmim puro",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1267,
+        "productHandle": "pure-jasmine-fragrance-oil",
+        "productTitle": "Pure jasmine fragrance oil",
+        "existingValue": "Óleo de fragrância jasmim puro",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741088587",
+        "key": "meta_title",
+        "digest": "72073374b8a0d9bc0a4da902960462c8ca83efe57387c5c19db91cb41bc9217d",
+        "source": "Pure Jasmine Fragrance Oil",
+        "target": "Óleo de fragrância jasmim puro",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1250,
+        "productHandle": "pure-jasmine-fragrance-oil",
+        "productTitle": "Pure jasmine fragrance oil",
+        "existingValue": "Óleo de fragrância jasmim puro",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      }
+    ],
+    "sampleAmbiguousSources": [],
+    "sampleUnmatchedRemoteContent": [
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762064167243",
+        "key": "handle",
+        "value": "sage-seasalt-fragrance-oil-1"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762064167243",
+        "key": "product_type",
+        "value": "SAMPLE PRODUCT"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762064298315",
+        "key": "handle",
+        "value": "lavender-peppermint-fragrance-oil"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762064298315",
+        "key": "product_type",
+        "value": "SAMPLE PRODUCT"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762740957515",
+        "key": "handle",
+        "value": "patchouli-vetiver-fragrance-oil-1"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762740957515",
+        "key": "product_type",
+        "value": "SAMPLE PRODUCT"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762740990283",
+        "key": "handle",
+        "value": "fresh-cut-peony-fragrance-oil-1"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762740990283",
+        "key": "product_type",
+        "value": "SAMPLE PRODUCT"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741023051",
+        "key": "handle",
+        "value": "very-gingerbread-fragrance-oil-1"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741023051",
+        "key": "product_type",
+        "value": "SAMPLE PRODUCT"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741055819",
+        "key": "handle",
+        "value": "fresh-cotton-green-tea-fragrance-oil-1"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741055819",
+        "key": "product_type",
+        "value": "SAMPLE PRODUCT"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741088587",
+        "key": "handle",
+        "value": "pure-jasmine-fragrance-oil"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741088587",
+        "key": "product_type",
+        "value": "SAMPLE PRODUCT"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741121355",
+        "key": "handle",
+        "value": "black-coconut-fragrance-oil-1"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741121355",
+        "key": "product_type",
+        "value": "SAMPLE PRODUCT"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741154123",
+        "key": "handle",
+        "value": "very-mango-fragrance-oil"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741154123",
+        "key": "product_type",
+        "value": "SAMPLE PRODUCT"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741186891",
+        "key": "handle",
+        "value": "smoky-myrrh-sage-fragrance-oil-1"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10762741186891",
+        "key": "product_type",
+        "value": "SAMPLE PRODUCT"
+      }
+    ]
+  },
+  "blockers": [
+    "Do not import Packet 02 refund policy while the source still contains [INSERT RETURN ADDRESS].",
+    "Do not import Private label or Wholesale signup form body copy until authoritative page/app source is available.",
+    "Verify Packet 06 checkout/account/theme locale strings against Shopify theme locale resources before import."
+  ]
+}

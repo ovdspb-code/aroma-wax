@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-04-16T10:15:37.189Z",
+  "snapshot": "data/translation/pt-PT/product-live-rollback-snapshot-2026-04-16.json",
+  "mode": "dry-run",
+  "handleFilter": [],
+  "totalEntries": 316,
+  "restorableEntries": 316,
+  "groupedResources": 79,
+  "applyResults": []
+}

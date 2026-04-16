@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-04-16T10:19:42.232Z",
+  "mode": "dry-run",
+  "totalCandidates": 0,
+  "eligibleCandidates": 0,
+  "groupedResourceCount": 0,
+  "candidateFile": "data/translation/pt-PT/variant-label-normalization-candidates.json",
+  "sampleEligible": [],
+  "applyResults": []
+}

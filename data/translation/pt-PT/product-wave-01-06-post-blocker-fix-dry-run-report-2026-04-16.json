@@ -1,0 +1,534 @@
+{
+  "generatedAt": "2026-04-16T09:10:33.921Z",
+  "locale": "pt-PT",
+  "noWriteOperations": true,
+  "scopeReport": {
+    "status": "ok",
+    "current": [
+      "read_content",
+      "read_legal_policies",
+      "read_locales",
+      "read_markets",
+      "read_products",
+      "read_themes",
+      "read_translations",
+      "write_locales",
+      "write_markets",
+      "write_products",
+      "write_themes",
+      "write_translations"
+    ],
+    "missingRecommended": []
+  },
+  "recommendedScopes": [
+    {
+      "handle": "read_translations",
+      "reason": "Read Shopify translation keys, source values and digests through translatableResources."
+    },
+    {
+      "handle": "write_translations",
+      "reason": "Register pt-PT translations later with translationsRegister after explicit approval."
+    },
+    {
+      "handle": "read_locales",
+      "reason": "Verify Portuguese locale status before and after publication."
+    },
+    {
+      "handle": "write_locales",
+      "reason": "Publish Portuguese later with shopLocaleUpdate after explicit approval."
+    },
+    {
+      "handle": "read_content",
+      "reason": "Read pages and blog/article content for source verification."
+    },
+    {
+      "handle": "read_legal_policies",
+      "reason": "Read shop policies such as refund, shipping and privacy policy."
+    },
+    {
+      "handle": "read_themes",
+      "reason": "Read theme resources and locale content for Packet 06 verification."
+    }
+  ],
+  "sourceSnapshot": {
+    "exportedAt": "2026-04-12T15:06:01.665Z",
+    "counts": {
+      "products": 142,
+      "collections": 45,
+      "pages": 36,
+      "blogs": 16
+    }
+  },
+  "localPackets": [
+    {
+      "packet": "packet-01-core-pt-PT.md",
+      "pairCount": 94
+    },
+    {
+      "packet": "packet-02-service-pages-pt-PT.md",
+      "pairCount": 173
+    },
+    {
+      "packet": "packet-03-collections-pt-PT.md",
+      "pairCount": 148
+    },
+    {
+      "packet": "packet-04-products-pt-PT.md",
+      "pairCount": 492
+    },
+    {
+      "packet": "packet-05-blog-pt-PT.md",
+      "pairCount": 1100
+    },
+    {
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "pairCount": 400
+    }
+  ],
+  "localPairCount": 2407,
+  "shopifyResources": [
+    {
+      "resourceType": "PRODUCT",
+      "status": "ok",
+      "resourceCount": 142,
+      "contentCount": 776,
+      "existingTranslationCount": 536
+    }
+  ],
+  "mapping": {
+    "candidateCount": 492,
+    "ambiguousSourceCount": 0,
+    "unmatchedRemoteContentCount": 284,
+    "candidateFile": "data/translation/pt-PT/import-candidates.json",
+    "sampleCandidates": [
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10517616001355",
+        "key": "title",
+        "digest": "9ef3b9f7c53c28c1e4676614fc5d2ba629f86f6d2de8cdd1ed1d3bb489908ae8",
+        "source": "Spiced Apple & Cinnamon Fragrance Oil",
+        "target": "Óleo de fragrância maçã especiada e canela",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1535,
+        "productHandle": "spiced-apple-cinnamon-fragrance-oil",
+        "productTitle": "Spiced Apple & Cinnamon Fragrance Oil",
+        "existingValue": "Óleo de fragrância maçã especiada e canela",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10517616001355",
+        "key": "body_html",
+        "digest": "a7e420655e5ea4306aadd5a63afe047d49e351723d5bab8e5702681f829f629f",
+        "source": "<p dir=\"ltr\" id=\"docs-internal-guid-eec7ba24-7fff-d614-cdc0-53c022a94788\"><meta charset=\"utf-8\"><span id=\"docs-internal-guid-83770208-7fff-d81c-d0df-67c3e7f7400b\">The irresistible aroma of s</span><span>piced apples and cinnamon</span><span> perfectly mirrors the scent of a freshly baked homemade apple pie, spiced with cinnamon and served warm on a chilly winter day. This universally adored scent blends the richness of spice and sweetness, making it a beloved favourite for any season.</span></p>",
+        "target": "O aroma irresistível de maçãs especiadas e canela recria na perfeição o cheiro de uma tarte de maçã caseira acabada de sair do forno, aromatizada com canela e servida quente num dia frio de inverno. Este aroma universalmente apreciado combina a riqueza das especiarias e da doçura, tornando-se um favorito querido em qualquer estação.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1547,
+        "productHandle": "spiced-apple-cinnamon-fragrance-oil",
+        "productTitle": "Spiced Apple & Cinnamon Fragrance Oil",
+        "existingValue": "<p>O aroma irresistível de maçãs especiadas e canela recria na perfeição o cheiro de uma tarte de maçã caseira acabada de sair do forno, aromatizada com canela e servida quente num dia frio de inverno. Este aroma universalmente apreciado combina a riqueza das especiarias e da doçura, tornando-se um favorito querido em qualquer estação.</p>",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10517616001355",
+        "key": "meta_title",
+        "digest": "06bfbfa23727814a8e36fff61bad08f111b1f3eb68197fc9611648088db2aaa5",
+        "source": "Spiced Apple & Cinnamon Fragrance Oil - Candle Fragrance | AROMA + WAX",
+        "target": "Óleo de fragrância maçã especiada e canela - fragrância para velas | AROMA + WAX",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1539,
+        "productHandle": "spiced-apple-cinnamon-fragrance-oil",
+        "productTitle": "Spiced Apple & Cinnamon Fragrance Oil",
+        "existingValue": "Óleo de fragrância maçã especiada e canela - fragrância para velas | AROMA + WAX",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10517616001355",
+        "key": "meta_description",
+        "digest": "4b6836d77a039926d21954d97dc156a0d62737a869f70245c2592747ef940aff",
+        "source": "Sweet apple with soft bakery spice notes. Professional fragrance oil for candles, wax melts, soap, diffusers and room sprays. From €3.05, with volume discounts.",
+        "target": "Maçã doce com notas suaves de especiarias de pastelaria. Fragrância profissional para velas, wax melts, sabonetes, difusores e sprays de ambiente. Desde 3,05 €, com descontos por volume.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1543,
+        "productHandle": "spiced-apple-cinnamon-fragrance-oil",
+        "productTitle": "Spiced Apple & Cinnamon Fragrance Oil",
+        "existingValue": "Maçã doce com notas suaves de especiarias de pastelaria. Fragrância profissional para velas, wax melts, sabonetes, difusores e sprays de ambiente. Desde 3,05 €, com descontos por volume.",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10623858606411",
+        "key": "title",
+        "digest": "aa62ad452b750357e51739d8545ace1a59899611797f65da898ab75077a5c579",
+        "source": "Golden Wax™ 464 Сontainer Wax",
+        "target": "Cera Golden Wax™ 464 para velas em recipiente",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 599,
+        "productHandle": "golden-waxtm-464-container-soy-wax",
+        "productTitle": "Golden Wax™ 464 Сontainer Wax",
+        "existingValue": "Cera Golden Wax™ 464 para velas em recipiente",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10623858606411",
+        "key": "body_html",
+        "digest": "2a6f6747abedd0cad3de412309d7962b28553c86604b2084200c3b672abbe4b0",
+        "source": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><span id=\"docs-internal-guid-7fd7ca6b-7fff-22b1-f433-487dc8cbc21d\">Golden Wax™</span><span> 464</span><span> stands as the world’s go-to soy wax for container candles, crafted by Swedish-Danish </span><span>AAK</span><span> Group in Sweden for unmatched stability and performance. This 100% natural, premium soy wax delivers flawless results, ensuring smooth, vibrant candles with excellent scent throw. At AROMA+WAX, we use it to create our own candles and highly recommend it for yours. Sold in pastilles.</span><br></p>",
+        "target": "Golden Wax™ 464 é uma das ceras de soja de referência mundial para velas em recipiente, produzida na Suécia pelo grupo sueco-dinamarquês AAK para oferecer estabilidade e desempenho excecional. Esta cera de soja premium, 100% natural, proporciona resultados impecáveis, ajudando a criar velas lisas e vibrantes, com excelente difusão do aroma. Na AROMA + WAX, usamos esta cera para criar as nossas próprias velas e recomendamos vivamente a sua utilização nas suas. Vendida em pastilhas.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 611,
+        "productHandle": "golden-waxtm-464-container-soy-wax",
+        "productTitle": "Golden Wax™ 464 Сontainer Wax",
+        "existingValue": "<p>Golden Wax™ 464 é uma das ceras de soja de referência mundial para velas em recipiente, produzida na Suécia pelo grupo sueco-dinamarquês AAK para oferecer estabilidade e desempenho excecional. Esta cera de soja premium, 100% natural, proporciona resultados impecáveis, ajudando a criar velas lisas e vibrantes, com excelente difusão do aroma. Na AROMA + WAX, usamos esta cera para criar as nossas próprias velas e recomendamos vivamente a sua utilização nas suas. Vendida em pastilhas.</p>",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10623858606411",
+        "key": "meta_title",
+        "digest": "512d63aea3b1109b056778c8dc43fedad0af4b04a0a9388562868f5ce3ec5b53",
+        "source": "Golden Wax™ 464 Soy Wax for Container Candles | AROMA + WAX",
+        "target": "Cera de soja Golden Wax™ 464 para velas em recipiente | AROMA + WAX",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 603,
+        "productHandle": "golden-waxtm-464-container-soy-wax",
+        "productTitle": "Golden Wax™ 464 Сontainer Wax",
+        "existingValue": "Cera de soja Golden Wax™ 464 para velas em recipiente | AROMA + WAX",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10623858606411",
+        "key": "meta_description",
+        "digest": "11c34617834c830212520578daf7aaf2ead64dfc31753542593a73501b6c7c1d",
+        "source": "100% natural soy wax. Smooth top, excellent scent throw, ideal for container candles. Starting from €6.80, with volume discounts for professional candle makers.",
+        "target": "Cera de soja 100% natural. Superfície lisa, excelente difusão do aroma, ideal para velas em recipiente. Desde 6,80 €, com descontos por volume para fabricantes profissionais de velas.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 607,
+        "productHandle": "golden-waxtm-464-container-soy-wax",
+        "productTitle": "Golden Wax™ 464 Сontainer Wax",
+        "existingValue": "Cera de soja 100% natural. Superfície lisa, excelente difusão do aroma, ideal para velas em recipiente. Desde 6,80 €, com descontos por volume para fabricantes profissionais de velas.",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624223314251",
+        "key": "title",
+        "digest": "b9f0e17bace35b38b91b4942695e1403017fefd4ae413015816c42e4837d812a",
+        "source": "Siberian Cedar & Bergamot Fragrance Oil",
+        "target": "Óleo de fragrância cedro siberiano e bergamota",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1413,
+        "productHandle": "siberian-cedar-and-bergamot-fragrance-oil",
+        "productTitle": "Siberian Cedar & Bergamot Fragrance Oil",
+        "existingValue": "Óleo de fragrância cedro siberiano e bergamota",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624223314251",
+        "key": "body_html",
+        "digest": "817db7716158fcac16ad04cabe8905f150c4fb4b8a17671772b01e46ce2c4d5a",
+        "source": "<p id=\"docs-internal-guid-eec7ba24-7fff-d614-cdc0-53c022a94788\" dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><span id=\"docs-internal-guid-5090c029-7fff-ed9e-a249-7ce78cea5cb2\">Step into the heart of a Siberian pine forest with </span><span>Siberian Cedar and Bergamot</span><span>, a fragrance that blends the deep, woody richness of cedar to create a warm, festive glow perfect for winter evenings. A bright splash of bergamot adds a refreshing lift, ensuring this scent shines just as brilliantly in any season.</span><br></p>",
+        "target": "Entre no coração de uma floresta siberiana de pinheiros com cedro siberiano e bergamota, uma fragrância que combina a riqueza profunda e amadeirada do cedro para criar um brilho quente e festivo, perfeito para noites de inverno. Um toque luminoso de bergamota acrescenta uma elevação refrescante, garantindo que este aroma brilhe com a mesma intensidade em qualquer estação.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1425,
+        "productHandle": "siberian-cedar-and-bergamot-fragrance-oil",
+        "productTitle": "Siberian Cedar & Bergamot Fragrance Oil",
+        "existingValue": "<p>Entre no coração de uma floresta siberiana de pinheiros com cedro siberiano e bergamota, uma fragrância que combina a riqueza profunda e amadeirada do cedro para criar um brilho quente e festivo, perfeito para noites de inverno. Um toque luminoso de bergamota acrescenta uma elevação refrescante, garantindo que este aroma brilhe com a mesma intensidade em qualquer estação.</p>",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624223314251",
+        "key": "meta_title",
+        "digest": "f888b0e52205f42158dbd444b923347b3bf56fc256f470b8f635637693cd69f2",
+        "source": "Siberian Cedar & Bergamot Fragrance Oil for Candles | AROMA + WAX",
+        "target": "Óleo de fragrância cedro siberiano e bergamota para velas | AROMA + WAX",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1417,
+        "productHandle": "siberian-cedar-and-bergamot-fragrance-oil",
+        "productTitle": "Siberian Cedar & Bergamot Fragrance Oil",
+        "existingValue": "Óleo de fragrância cedro siberiano e bergamota para velas | AROMA + WAX",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624223314251",
+        "key": "meta_description",
+        "digest": "cd1ac6ba6bcfe8ad0cb788869931b5843b1f1cf72fdf08c4eb1801a8da096a57",
+        "source": "Crisp dry cedarwood and fresh citrus notes. Professional fragrance oil for candles, wax melts, soaps, diffusers and sprays. From €3.54, with volume discounts.",
+        "target": "Madeira de cedro seca e nítida com notas cítricas frescas. Fragrância profissional para velas, wax melts, sabonetes, difusores e sprays. Desde 3,54 €, com descontos por volume.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1421,
+        "productHandle": "siberian-cedar-and-bergamot-fragrance-oil",
+        "productTitle": "Siberian Cedar & Bergamot Fragrance Oil",
+        "existingValue": "Madeira de cedro seca e nítida com notas cítricas frescas. Fragrância profissional para velas, wax melts, sabonetes, difusores e sprays. Desde 3,54 €, com descontos por volume.",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624278593867",
+        "key": "title",
+        "digest": "22f24b2d93b4f17126243661db5ef316a49addefe50c36177f99bd98f44cafc1",
+        "source": "Palo Santo de Marabi Fragrance Oil",
+        "target": "Óleo de fragrância Palo Santo de Marabi",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1160,
+        "productHandle": "palo-santo-de-marabi-fragrance-oil",
+        "productTitle": "Palo Santo de Marabi Fragrance Oil",
+        "existingValue": "Óleo de fragrância Palo Santo de Marabi",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624278593867",
+        "key": "body_html",
+        "digest": "e266d2ff2be5263b8ce6ad052111ee93095f1ebb391d6a063bf71875e75cff00",
+        "source": "<p id=\"docs-internal-guid-eec7ba24-7fff-d614-cdc0-53c022a94788\" dir=\"ltr\"><meta charset=\"utf-8\"><meta charset=\"utf-8\"><span id=\"docs-internal-guid-e22ed354-7fff-6505-4af0-b2b4119c46a9\">Our version of the popular fragrance is a combination of sacred palo santo, mingling with the warm spice of cardamom and a hint of crushed clove. The base unfurls with the soulful trio of palo santo, chiffon musk, and crystallized amber, delivering a velvety, resinous embrace.</span><br></p>",
+        "target": "A nossa versão desta fragrância popular combina palo santo sagrado com a especiaria quente do cardamomo e uma nuance de cravinho esmagado. A base desdobra-se num trio envolvente de palo santo, almíscar chiffon e âmbar cristalizado, criando um abraço aveludado e resinoso.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1172,
+        "productHandle": "palo-santo-de-marabi-fragrance-oil",
+        "productTitle": "Palo Santo de Marabi Fragrance Oil",
+        "existingValue": "<p>A nossa versão desta fragrância popular combina palo santo sagrado com a especiaria quente do cardamomo e uma nuance de cravinho esmagado. A base desdobra-se num trio envolvente de palo santo, almíscar chiffon e âmbar cristalizado, criando um abraço aveludado e resinoso.</p>",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624278593867",
+        "key": "meta_title",
+        "digest": "f173a2fa3d888bdf95d8826b1752215a1f60763d06aa32a1e522047873043bd5",
+        "source": "Palo Santo de Marabi Fragrance Oil – Candle Fragrance | AROMA + WAX",
+        "target": "Óleo de fragrância Palo Santo de Marabi - fragrância para velas | AROMA + WAX",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1164,
+        "productHandle": "palo-santo-de-marabi-fragrance-oil",
+        "productTitle": "Palo Santo de Marabi Fragrance Oil",
+        "existingValue": "Óleo de fragrância Palo Santo de Marabi - fragrância para velas | AROMA + WAX",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624278593867",
+        "key": "meta_description",
+        "digest": "5103b04512890f7869919839588898a3ad4ae2c2cf31c6716d78212287e52982",
+        "source": "Sacred palo santo wood with warm resinous and smoky notes. Professional fragrance oil for candles, wax melts and room sprays. From €3.70 with volume discounts.",
+        "target": "Madeira sagrada de palo santo com notas quentes, resinosas e fumadas. Fragrância profissional para velas, wax melts e sprays de ambiente. Desde 3,70 €, com descontos por volume.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 1168,
+        "productHandle": "palo-santo-de-marabi-fragrance-oil",
+        "productTitle": "Palo Santo de Marabi Fragrance Oil",
+        "existingValue": "Madeira sagrada de palo santo com notas quentes, resinosas e fumadas. Fragrância profissional para velas, wax melts e sprays de ambiente. Desde 3,70 €, com descontos por volume.",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624495452491",
+        "key": "title",
+        "digest": "281161e2fc4f6db9dadd782af384469c7eb3686e1b48ab5cd5d1eeeccee4fb3f",
+        "source": "Metal Screw-cap Tin, 100 ml",
+        "target": "Lata metálica com tampa de rosca, 100 ml",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 951,
+        "productHandle": "metal-screw-cap-tin-100-ml",
+        "productTitle": "Metal Screw-cap Tin, 100 ml",
+        "existingValue": "Lata metálica com tampa de rosca, 100 ml",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624495452491",
+        "key": "body_html",
+        "digest": "e37171449a18639e6a77c41e0deb8838471427a2fbb311f8fee3ab295b21c8c1",
+        "source": "<p><meta charset=\"utf-8\"><span id=\"docs-internal-guid-a97df68c-7fff-da6b-f1ae-0c3cf55a91b4\">These screw-cap tins, crafted from rust-resistant aluminium with a colorless protective lacquer inside and out, are the perfect classic candle jars, offering a small, round design ideal for packaging candles with a large opening for easy residual emptying. Food-safe and equipped with a screw-cap featuring a glued-in EPE liner for enhanced sealing, they ensure your candle creations stay pristine without sticking to the lid, blending durability with a sleek, timeless look. Supplied complete with screw-caps, these tins come in silver and black colors and provide a reliable, stylish solution for candle makers seeking quality and convenience.</span></p>",
+        "target": "Estas latas com tampa de rosca, produzidas em alumínio resistente à ferrugem e com lacado protetor incolor no interior e no exterior, são recipientes clássicos ideais para velas. Têm um design pequeno e redondo, perfeito para embalar velas, e uma abertura ampla que facilita a remoção de resíduos. Aptas para contacto alimentar e equipadas com tampa de rosca com liner EPE colado para maior estanquidade, ajudam a manter as suas criações impecáveis e sem aderir à tampa, combinando durabilidade com um aspeto elegante e intemporal. Fornecidas completas com tampas de rosca, estas latas estão disponíveis em prateado e preto e oferecem uma solução fiável e sofisticada para fabricantes de velas que procuram qualidade e praticidade.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 963,
+        "productHandle": "metal-screw-cap-tin-100-ml",
+        "productTitle": "Metal Screw-cap Tin, 100 ml",
+        "existingValue": "<p>Estas latas com tampa de rosca, produzidas em alumínio resistente à ferrugem e com lacado protetor incolor no interior e no exterior, são recipientes clássicos ideais para velas. Têm um design pequeno e redondo, perfeito para embalar velas, e uma abertura ampla que facilita a remoção de resíduos. Aptas para contacto alimentar e equipadas com tampa de rosca com liner EPE colado para maior estanquidade, ajudam a manter as suas criações impecáveis e sem aderir à tampa, combinando durabilidade com um aspeto elegante e intemporal. Fornecidas completas com tampas de rosca, estas latas estão disponíveis em prateado e preto e oferecem uma solução fiável e sofisticada para fabricantes de velas que procuram qualidade e praticidade.</p>",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624495452491",
+        "key": "meta_title",
+        "digest": "25b5eb880d9e5fdb654593dd2e654e234d8794e3c79ae7738fdbc0486b40ee79",
+        "source": "Metal Screw Cap Tin 100 ml – Candle Tin Container | AROMA + WAX",
+        "target": "Lata metálica com tampa de rosca, 100 ml - lata para velas | AROMA + WAX",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 955,
+        "productHandle": "metal-screw-cap-tin-100-ml",
+        "productTitle": "Metal Screw-cap Tin, 100 ml",
+        "existingValue": "Lata metálica com tampa de rosca, 100 ml - lata para velas | AROMA + WAX",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624495452491",
+        "key": "meta_description",
+        "digest": "a45927eac02f2f4e3add4c457f6ab4a813b86bfd225408d6ac6b61493dfff65e",
+        "source": "100 ml metal tin with screw cap for candles, balms and solid perfumes. Silver and black. Durable reusable container from €1.82 with volume discounts available.",
+        "target": "Lata metálica de 100 ml com tampa de rosca para velas, bálsamos e perfumes sólidos. Prateado e preto. Recipiente durável e reutilizável desde 1,82 €, com descontos por volume.",
+        "packet": "packet-04-products-pt-PT.md",
+        "packetLine": 959,
+        "productHandle": "metal-screw-cap-tin-100-ml",
+        "productTitle": "Metal Screw-cap Tin, 100 ml",
+        "existingValue": "Lata metálica de 100 ml com tampa de rosca para velas, bálsamos e perfumes sólidos. Prateado e preto. Recipiente durável e reutilizável desde 1,82 €, com descontos por volume.",
+        "existingOutdated": false,
+        "matchMode": "exact"
+      }
+    ],
+    "sampleAmbiguousSources": [],
+    "sampleUnmatchedRemoteContent": [
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10517616001355",
+        "key": "handle",
+        "value": "spiced-apple-cinnamon-fragrance-oil"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10517616001355",
+        "key": "product_type",
+        "value": ""
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10623858606411",
+        "key": "handle",
+        "value": "golden-waxtm-464-container-soy-wax"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10623858606411",
+        "key": "product_type",
+        "value": ""
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624223314251",
+        "key": "handle",
+        "value": "siberian-cedar-and-bergamot-fragrance-oil"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624223314251",
+        "key": "product_type",
+        "value": ""
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624278593867",
+        "key": "handle",
+        "value": "palo-santo-de-marabi-fragrance-oil"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624278593867",
+        "key": "product_type",
+        "value": ""
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624495452491",
+        "key": "handle",
+        "value": "metal-screw-cap-tin-100-ml"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10624495452491",
+        "key": "product_type",
+        "value": ""
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10625354694987",
+        "key": "handle",
+        "value": "wk-st-stabilo-series-cotton-wicks"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10625354694987",
+        "key": "product_type",
+        "value": ""
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10625385333067",
+        "key": "handle",
+        "value": "vibrant-red-liquid-dye"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10625385333067",
+        "key": "product_type",
+        "value": ""
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10625449165131",
+        "key": "handle",
+        "value": "tobacco-vanilla-fragrance-oil"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10625449165131",
+        "key": "product_type",
+        "value": ""
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10625458700619",
+        "key": "handle",
+        "value": "sage-seasalt-fragrance-oil"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10625458700619",
+        "key": "product_type",
+        "value": ""
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10625463058763",
+        "key": "handle",
+        "value": "luscious-lime-and-basil-fragrance-oil"
+      },
+      {
+        "resourceType": "PRODUCT",
+        "resourceId": "gid://shopify/Product/10625463058763",
+        "key": "product_type",
+        "value": ""
+      }
+    ]
+  },
+  "blockers": [
+    "Do not import Packet 02 refund policy while the source still contains [INSERT RETURN ADDRESS].",
+    "Do not import Private label or Wholesale signup form body copy until authoritative page/app source is available.",
+    "Verify Packet 06 checkout/account/theme locale strings against Shopify theme locale resources before import."
+  ]
+}

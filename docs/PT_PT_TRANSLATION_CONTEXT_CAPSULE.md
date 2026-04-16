@@ -21,6 +21,20 @@ Use this file to continue the Portuguese translation project in a new thread wit
   - the exposed `et_shop_locale` payload includes `pt-PT`
 - Collection SEO and collection body content are live in pt-PT on `/pt/collections/...`.
 - Policy pages are live in pt-PT as well; note that the published Portuguese refund-policy text still reflects the earlier publication state, while the local working Packet 02 draft now contains a cleaned blocker-free version that has not been redeployed.
+- Storefront size-label canon for future PT cleanup is now fixed as abbreviated metric units with a space: `450 g`, `2 kg`, `250 ml`. Mixed forms such as `450g`, `2kg`, `1 quilograma` and `16 quilogramas` are defects, not accepted copy.
+- On 2026-04-16 a dedicated catalog anomaly audit split the product issues into:
+  - `data/incidents/PT_PT_CATALOG_SOURCE_FIELD_CONFLICT_QUEUE_2026-04-16.md`
+  - `data/incidents/PT_PT_CATALOG_HANDLE_CLEANUP_QUEUE_2026-04-16.md`
+- The same 2026-04-16 pass also prepared the Wave 01-05 product live import set. After excluding the two Wave 04 source-field blockers and re-running the guard in `--wrap-html-targets` mode, the live-safe dry-run result was `0` eligible product writes. Current remaining work is catalog remediation, not a pending product translation import batch.
+- Later on 2026-04-16 the 4 source blockers were fixed in Shopify:
+  - `metal-screw-cap-70mm`
+  - `metal-screw-cap-tin-10-ml`
+  - `black-pepper-sandalwood-tonka-fragrance-oil-1` (migrated from `black-coconut-fragrance-oil-1`)
+  - `sicilian-neroli-cashmere-fragrance-oil-1` (migrated from `winter-pines-velvet-petals-fragrance-oil-1`)
+- The affected pt-PT translations were then refreshed, redirect checks passed for the two migrated sample handles, and the refreshed anomaly audit now shows:
+  - source-field conflict queue: `0`
+  - handle cleanup queue: `15`
+- After those fixes, the full Waves 01-06 product live-safe dry-run with `--wrap-html-targets` also returned `0` eligible translations.
 - Homepage SEO remains the only live localization gap:
   - Shopify `TranslatableResourceType.SHOP` now contains pt-PT `meta_title` and `meta_description`
   - those translations were imported successfully

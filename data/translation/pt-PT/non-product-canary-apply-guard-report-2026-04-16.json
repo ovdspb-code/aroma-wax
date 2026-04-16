@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-04-16T10:35:02.502Z",
+  "locale": "pt-PT",
+  "mode": "apply",
+  "candidateFile": "data/translation/pt-PT/import-candidates.json",
+  "totalCandidates": 1136,
+  "eligibleCandidates": 1,
+  "skippedCandidates": 1135,
+  "groupedResourceCount": 1,
+  "options": {
+    "apply": true,
+    "yes": true,
+    "includeRisky": true,
+    "resourceIds": [
+      "gid://shopify/Collection/647487848779"
+    ],
+    "resourceTypes": [
+      "ARTICLE",
+      "BLOG",
+      "COLLECTION",
+      "ONLINE_STORE_THEME",
+      "ONLINE_STORE_THEME_APP_EMBED",
+      "ONLINE_STORE_THEME_JSON_TEMPLATE",
+      "ONLINE_STORE_THEME_LOCALE_CONTENT",
+      "ONLINE_STORE_THEME_SECTION_GROUP",
+      "ONLINE_STORE_THEME_SETTINGS_DATA_SECTIONS",
+      "PAGE"
+    ],
+    "skipSourceHtml": false,
+    "htmlTargetMode": "wrap-paragraph",
+    "sourceHtmlProfile": "all"
+  },
+  "eligibleByResourceType": [
+    {
+      "resourceType": "COLLECTION",
+      "count": 1
+    }
+  ],
+  "skippedRiskyByResourceType": [
+    {
+      "resourceType": "ONLINE_STORE_THEME",
+      "count": 442
+    },
+    {
+      "resourceType": "ONLINE_STORE_THEME_JSON_TEMPLATE",
+      "count": 208
+    },
+    {
+      "resourceType": "ONLINE_STORE_THEME_LOCALE_CONTENT",
+      "count": 224
+    },
+    {
+      "resourceType": "ONLINE_STORE_THEME_SECTION_GROUP",
+      "count": 10
+    },
+    {
+      "resourceType": "PAGE",
+      "count": 56
+    }
+  ],
+  "sampleEligible": [
+    {
+      "resourceType": "COLLECTION",
+      "resourceId": "gid://shopify/Collection/647487848779",
+      "key": "body_html",
+      "digest": "1272dd26d55c8374794e548a1f34da8e93f2a941d68812874928eaabca6eb336",
+      "source": "<p data-end=\"507\" data-start=\"264\" style=\"text-align: left;\">Explore fragrance oil sample kits created to help makers and brands compare scents before ordering larger bottles. These practical sets make it easier to shortlist fragrances, test new ideas and choose the right aromas for product development. <strong>Each kit brings together carefully selected fragrance oils from popular scent families and best-selling collections</strong>, giving you a convenient way to evaluate scent character, performance and suitability across different applications. Small-format testing helps reduce guesswork, save materials and select fragrances more confidently before scaling production.</p>\n<p data-end=\"1133\" data-start=\"869\" style=\"text-align: left;\">AROMA + WAX fragrance oils are suitable for candles, wax melts, reed diffusers, room sprays, soaps and other home fragrance products. Sample kits are a practical way to explore the range, compare multiple options side by side and build collections with greater precision.</p>",
+      "target": "Explore kits de amostras de fragrâncias, criados para ajudar criadores e marcas a comparar aromas antes de encomendar frascos maiores. Estes conjuntos práticos facilitam a seleção de fragrâncias, o teste de novas ideias e a escolha dos aromas certos para o desenvolvimento de produto. Cada kit reúne fragrâncias cuidadosamente escolhidas de famílias olfativas populares e coleções mais vendidas, oferecendo uma forma conveniente de avaliar o carácter do aroma, a performance e a adequação a diferentes aplicações. Testar em formato pequeno ajuda a reduzir a incerteza, poupar materiais e escolher fragrâncias com mais confiança antes de aumentar a produção. As fragrâncias AROMA + WAX são adequadas para velas, wax melts, difusores de varetas, sprays de ambiente, sabonetes e outros produtos de perfumaria para a casa. Os kits de amostras são uma forma prática de explorar a gama, comparar várias opções lado a lado e criar coleções com maior precisão.",
+      "packet": "packet-03-collections-pt-PT.md",
+      "packetLine": 371,
+      "existingValue": "<p align=\"left\">Explore kits de amostras de fragrâncias, criados para ajudar criadores e marcas a comparar aromas antes de encomendar frascos maiores. Estes conjuntos práticos facilitam a seleção de fragrâncias, o teste de novas ideias e a escolha dos aromas certos para o desenvolvimento de produto. Cada kit reúne fragrâncias cuidadosamente escolhidas de famílias olfativas populares e coleções mais vendidas, oferecendo uma forma conveniente de avaliar o carácter do aroma, a performance e a adequação a diferentes aplicações. Testar em formato pequeno ajuda a reduzir a incerteza, poupar materiais e escolher fragrâncias com mais confiança antes de aumentar a produção. As fragrâncias AROMA + WAX são adequadas para velas, wax melts, difusores de varetas, sprays de ambiente, sabonetes e outros produtos de perfumaria para a casa. Os kits de amostras são uma forma prática de explorar a gama, comparar várias opções lado a lado e criar coleções com maior precisão.</p>",
+      "existingOutdated": false,
+      "matchMode": "exact"
+    }
+  ],
+  "applyResults": [
+    {
+      "resourceId": "gid://shopify/Collection/647487848779",
+      "resourceType": "COLLECTION",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    }
+  ]
+}

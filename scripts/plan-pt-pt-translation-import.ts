@@ -15,10 +15,20 @@ const PACKET_FILES = [
   "packet-01-core-pt-PT.md",
   "packet-02-service-pages-pt-PT.md",
   "packet-03-collections-pt-PT.md",
-  "packet-04-products-pt-PT.md",
   "packet-05-blog-pt-PT.md",
   "packet-06-theme-ui-pt-PT.md",
 ] as const;
+
+const WAVE_FILES = [
+  "pdp-wave-01-1to1-rewrite.md",
+  "pdp-wave-02-1to1-rewrite.md",
+  "pdp-wave-03-1to1-rewrite.md",
+  "pdp-wave-04-1to1-rewrite.md",
+  "pdp-wave-05-1to1-rewrite.md",
+  "pdp-wave-06-1to1-rewrite.md",
+] as const;
+
+const LOCAL_SOURCE_FILES = [...PACKET_FILES, ...WAVE_FILES] as const;
 
 const RESOURCE_TYPES = [
   "SHOP",
@@ -70,7 +80,7 @@ const RECOMMENDED_SCOPES = [
   },
 ] as const;
 
-type PacketName = (typeof PACKET_FILES)[number];
+type LocalSourceName = (typeof LOCAL_SOURCE_FILES)[number];
 type ResourceType = (typeof RESOURCE_TYPES)[number];
 
 type SourceSnapshot = {
@@ -79,7 +89,7 @@ type SourceSnapshot = {
 };
 
 type TranslationPair = {
-  packet: PacketName;
+  packet: LocalSourceName;
   file: string;
   section: string;
   field: string;
@@ -149,15 +159,38 @@ type CandidateTranslation = {
   target: string;
   packet: PacketName;
   packetLine: number;
+  productHandle?: string;
+  productTitle?: string;
   existingValue?: string;
   existingOutdated?: boolean;
   matchMode?: "exact" | "structured";
 };
 
+type ProductNode = {
+  id: string;
+  handle: string;
+  title: string;
+};
+
+type ProductsResponse = {
+  products: {
+    nodes: ProductNode[];
+    pageInfo: {
+      hasNextPage: boolean;
+      endCursor: string | null;
+    };
+  };
+};
+
+type PlannerOptions = {
+  resourceTypes?: Set<ResourceType>;
+  handles?: Set<string>;
+};
+
 type StructuredReplacementRule = {
   source: string;
   target: string;
-  packet: PacketName;
+  packet: LocalSourceName;
   line: number;
 };
 
@@ -198,8 +231,30 @@ const currentScopesQuery = `
   }
 `;
 
+const productsQuery = `
+  query PtPtProducts($cursor: String) {
+    products(first: 100, after: $cursor) {
+      nodes {
+        id
+        handle
+        title
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+`;
+
 function normalizeWhitespace(value: string) {
-  return value.replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
+  return value
+    .replace(/[\u2018\u2019]/g, "'")
+    .replace(/[\u201C\u201D]/g, '"')
+    .replace(/[\u2013\u2014]/g, "-")
+    .replace(/\u00a0/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function decodeAndStripHtml(value: string | null | undefined) {
@@ -214,6 +269,38 @@ function decodeAndStripHtml(value: string | null | undefined) {
   return $.root().text();
 }
 
+function parseArgs(argv: string[]): PlannerOptions {
+  const options: PlannerOptions = {};
+
+  for (const arg of argv) {
+    if (arg.startsWith("--resource-types=")) {
+      options.resourceTypes = new Set(
+        arg
+          .slice("--resource-types=".length)
+          .split(",")
+          .map((value) => value.trim().toUpperCase())
+          .filter((value): value is ResourceType => RESOURCE_TYPES.includes(value as ResourceType)),
+      );
+      continue;
+    }
+
+    if (arg.startsWith("--handles=")) {
+      options.handles = new Set(
+        arg
+          .slice("--handles=".length)
+          .split(",")
+          .map((value) => value.trim())
+          .filter(Boolean),
+      );
+      continue;
+    }
+
+    throw new Error(`Unknown argument: ${arg}`);
+  }
+
+  return options;
+}
+
 function normalizeForMatch(value: string | null | undefined) {
   return normalizeWhitespace(decodeAndStripHtml(value));
 }
@@ -226,7 +313,7 @@ function readSourceSnapshot() {
   return JSON.parse(fs.readFileSync(SOURCE_FILE, "utf8")) as SourceSnapshot;
 }
 
-function parsePacketFile(packet: PacketName) {
+function parsePacketFile(packet: (typeof PACKET_FILES)[number]) {
   const file = path.join(OUTPUT_DIR, packet);
 
   if (!fs.existsSync(file)) {
@@ -278,8 +365,154 @@ function parsePacketFile(packet: PacketName) {
   return pairs;
 }
 
+function localizePtStorefrontLinks(value: string) {
+  return value
+    .split("https://aromawax.eu/blogs/")
+    .join("https://aromawax.eu/pt/blogs/")
+    .split("https://aromawax.eu/pages/")
+    .join("https://aromawax.eu/pt/pages/")
+    .split("https://aromawax.eu/products/")
+    .join("https://aromawax.eu/pt/products/")
+    .split("https://aromawax.eu/collections/")
+    .join("https://aromawax.eu/pt/collections/")
+    .split("https://aromawax.eu/policies/")
+    .join("https://aromawax.eu/pt/policies/")
+    .split('href="/blogs/')
+    .join('href="/pt/blogs/')
+    .split('href="/pages/')
+    .join('href="/pt/pages/')
+    .split('href="/products/')
+    .join('href="/pt/products/')
+    .split('href="/collections/')
+    .join('href="/pt/collections/')
+    .split('href="/policies/')
+    .join('href="/pt/policies/');
+}
+
+function extractCodeBlock(lines: string[], startIndex: number) {
+  if (lines[startIndex] !== "```html") {
+    return null;
+  }
+
+  const blockLines: string[] = [];
+  let endIndex = startIndex + 1;
+
+  while (endIndex < lines.length && lines[endIndex] !== "```") {
+    blockLines.push(lines[endIndex]);
+    endIndex += 1;
+  }
+
+  if (endIndex >= lines.length) {
+    return null;
+  }
+
+  return {
+    value: blockLines.join("\n").trim(),
+    endIndex,
+  };
+}
+
+function parseWaveFile(packet: (typeof WAVE_FILES)[number]) {
+  const file = path.join(OUTPUT_DIR, packet);
+
+  if (!fs.existsSync(file)) {
+    return [] satisfies TranslationPair[];
+  }
+
+  const lines = fs.readFileSync(file, "utf8").split(/\r?\n/);
+  const pairs: TranslationPair[] = [];
+  let section = "";
+  let field = "";
+  let pendingHtmlSource: { value: string; line: number } | null = null;
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index];
+    const sectionMatch = line.match(/^##\s+(.+)$/);
+    const fieldMatch = line.match(/^\*\*(.+)\*\*$/);
+
+    if (sectionMatch) {
+      section = sectionMatch[1];
+      field = "";
+      pendingHtmlSource = null;
+      continue;
+    }
+
+    if (fieldMatch) {
+      field = fieldMatch[1];
+      continue;
+    }
+
+    if (line.startsWith("- ") && lines[index + 1]?.startsWith("  ")) {
+      const source = line.slice(2).trim();
+      const target = lines[index + 1].trim();
+
+      if (!source || !target) {
+        continue;
+      }
+
+      pairs.push({
+        packet,
+        file: path.relative(process.cwd(), file),
+        section,
+        field,
+        source,
+        target,
+        line: index + 1,
+      });
+      continue;
+    }
+
+    if (field === "Description HTML - source") {
+      const sourceBlock = extractCodeBlock(lines, index);
+
+      if (!sourceBlock) {
+        continue;
+      }
+
+      pendingHtmlSource = {
+        value: sourceBlock.value === "(blank)" ? "" : sourceBlock.value,
+        line: index + 1,
+      };
+      index = sourceBlock.endIndex;
+      continue;
+    }
+
+    if (field === "Description HTML - target") {
+      const targetBlock = extractCodeBlock(lines, index);
+
+      if (!targetBlock) {
+        continue;
+      }
+
+      const target = targetBlock.value === "(blank)" ? "" : localizePtStorefrontLinks(targetBlock.value);
+
+      if (pendingHtmlSource?.value && target) {
+        pairs.push({
+          packet,
+          file: path.relative(process.cwd(), file),
+          section,
+          field: "Description",
+          source: pendingHtmlSource.value,
+          target,
+          line: pendingHtmlSource.line,
+        });
+      }
+
+      index = targetBlock.endIndex;
+    }
+  }
+
+  return pairs;
+}
+
 function collectLocalPairs() {
-  return PACKET_FILES.flatMap((packet) => parsePacketFile(packet));
+  return LOCAL_SOURCE_FILES.flatMap((sourceFile) => {
+    if (WAVE_FILES.includes(sourceFile as (typeof WAVE_FILES)[number])) {
+      return parseWaveFile(sourceFile as (typeof WAVE_FILES)[number]);
+    }
+
+    return parsePacketFile(sourceFile as (typeof PACKET_FILES)[number]);
+  });
 }
 
 function buildStructuredReplacementRules(localPairs: TranslationPair[]) {
@@ -364,11 +597,11 @@ async function fetchResourceType(resourceType: ResourceType) {
   return nodes;
 }
 
-async function fetchAllTranslatableResources() {
+async function fetchAllTranslatableResources(resourceTypes: ResourceType[]) {
   const reports: ResourceFetchReport[] = [];
   const resources = new Map<ResourceType, TranslatableResourceNode[]>();
 
-  for (const resourceType of RESOURCE_TYPES) {
+  for (const resourceType of resourceTypes) {
     try {
       const nodes = await fetchResourceType(resourceType);
       resources.set(resourceType, nodes);
@@ -389,6 +622,25 @@ async function fetchAllTranslatableResources() {
   }
 
   return { reports, resources };
+}
+
+async function fetchAllProducts() {
+  const products = new Map<string, ProductNode>();
+  let cursor: string | undefined;
+  let hasNextPage = true;
+
+  while (hasNextPage) {
+    const data = await shopifyAdminFetch<ProductsResponse>(productsQuery, { cursor });
+
+    for (const product of data.products.nodes) {
+      products.set(product.id, product);
+    }
+
+    hasNextPage = data.products.pageInfo.hasNextPage;
+    cursor = data.products.pageInfo.endCursor ?? undefined;
+  }
+
+  return products;
 }
 
 function uniqueTargets(pairs: TranslationPair[]) {
@@ -480,15 +732,7 @@ function applyStructuredReplacement(value: string, rule: StructuredReplacementRu
 }
 
 function applyPtLocaleInternalLinks(value: string) {
-  return value
-    .split("https://aromawax.eu/blogs/")
-    .join("https://aromawax.eu/pt/blogs/")
-    .split("https://aromawax.eu/pages/")
-    .join("https://aromawax.eu/pt/pages/")
-    .split('href="/blogs/')
-    .join('href="/pt/blogs/')
-    .split('href="/pages/')
-    .join('href="/pt/pages/');
+  return localizePtStorefrontLinks(value);
 }
 
 function applyWeightInfoPatterns(value: string) {
@@ -586,6 +830,8 @@ function buildStructuredCandidate(
 function buildCandidateMap(
   resources: Map<ResourceType, TranslatableResourceNode[]>,
   localPairs: TranslationPair[],
+  productsById: Map<string, ProductNode>,
+  options: PlannerOptions,
 ) {
   const pairsBySource = new Map<string, TranslationPair[]>();
   const structuredReplacementRules = buildStructuredReplacementRules(localPairs);
@@ -617,6 +863,18 @@ function buildCandidateMap(
 
   for (const [resourceType, nodes] of resources) {
     for (const node of nodes) {
+      const productContext = resourceType === "PRODUCT" ? productsById.get(node.resourceId) : undefined;
+
+      if (options.handles) {
+        if (resourceType !== "PRODUCT") {
+          continue;
+        }
+
+        if (!productContext || !options.handles.has(productContext.handle)) {
+          continue;
+        }
+      }
+
       const existingTranslations = new Map(node.translations.map((translation) => [translation.key, translation]));
 
       for (const content of node.translatableContent) {
@@ -632,6 +890,14 @@ function buildCandidateMap(
           );
 
           if (structuredCandidate) {
+            if (
+              resourceType === "METAFIELD" &&
+              existingTranslation?.value &&
+              !existingTranslation.outdated
+            ) {
+              continue;
+            }
+
             candidates.push({
               resourceType,
               resourceId: node.resourceId,
@@ -641,6 +907,8 @@ function buildCandidateMap(
               target: structuredCandidate.target,
               packet: structuredCandidate.packet,
               packetLine: structuredCandidate.packetLine,
+              productHandle: productContext?.handle,
+              productTitle: productContext?.title,
               existingValue: existingTranslation?.value,
               existingOutdated: existingTranslation?.outdated,
               matchMode: "structured",
@@ -684,6 +952,8 @@ function buildCandidateMap(
           target: targets[0],
           packet: pair.packet,
           packetLine: pair.line,
+          productHandle: productContext?.handle,
+          productTitle: productContext?.title,
           existingValue: existingTranslation?.value,
           existingOutdated: existingTranslation?.outdated,
           matchMode: "exact",
@@ -794,12 +1064,19 @@ Do not call \`translationsRegister\` or publish Portuguese until explicitly appr
 async function main() {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
+  const options = parseArgs(process.argv.slice(2));
+  const resourceTypes = options.resourceTypes
+    ? [...options.resourceTypes]
+    : options.handles
+      ? (["PRODUCT"] as ResourceType[])
+      : [...RESOURCE_TYPES];
   const sourceSnapshot = readSourceSnapshot();
   const localPairs = collectLocalPairs();
   const scopeReport = await fetchScopeReport();
-  const { reports: shopifyResources, resources } = await fetchAllTranslatableResources();
-  const mapping = buildCandidateMap(resources, localPairs);
-  const localPackets = PACKET_FILES.map((packet) => ({
+  const { reports: shopifyResources, resources } = await fetchAllTranslatableResources(resourceTypes);
+  const productsById = await fetchAllProducts();
+  const mapping = buildCandidateMap(resources, localPairs, productsById, options);
+  const localPackets = LOCAL_SOURCE_FILES.map((packet) => ({
     packet,
     pairCount: localPairs.filter((pair) => pair.packet === packet).length,
   }));

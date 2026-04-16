@@ -1,6 +1,6 @@
 # pt-PT Translation Import Guard Report
 
-Generated at: 2026-04-16T10:54:18.866Z
+Generated at: 2026-04-16T10:37:18.049Z
 
 Mode: dry-run
 
@@ -8,16 +8,16 @@ Candidate source: `data/translation/pt-PT/import-candidates.json`
 
 ## Summary
 
-- Total candidates: 194
+- Total candidates: 1136
 - Eligible candidates: 0
-- Skipped candidates: 194
+- Skipped candidates: 1136
 - Grouped Shopify resources: 0
 - Apply requested: false
 - Explicit yes: false
 - Include risky resource types: true
 - Product handle filter: none
 - Resource ID filter: none
-- Resource type filter: LINK, MENU, METAFIELD, SHOP, SHOP_POLICY
+- Resource type filter: ARTICLE, BLOG, COLLECTION, ONLINE_STORE_THEME, ONLINE_STORE_THEME_APP_EMBED, ONLINE_STORE_THEME_JSON_TEMPLATE, ONLINE_STORE_THEME_LOCALE_CONTENT, ONLINE_STORE_THEME_SECTION_GROUP, ONLINE_STORE_THEME_SETTINGS_DATA_SECTIONS, PAGE
 - Key include filter: none
 - Key exclude filter: none
 - Skip source HTML: false
@@ -35,7 +35,11 @@ Candidate source: `data/translation/pt-PT/import-candidates.json`
 
 | Resource type | Candidates |
 | --- | ---: |
-| n/a | 0 |
+| ONLINE_STORE_THEME | 442 |
+| ONLINE_STORE_THEME_JSON_TEMPLATE | 208 |
+| ONLINE_STORE_THEME_LOCALE_CONTENT | 224 |
+| ONLINE_STORE_THEME_SECTION_GROUP | 10 |
+| PAGE | 56 |
 
 ## Sample eligible candidates
 

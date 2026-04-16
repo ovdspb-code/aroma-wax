@@ -1,6 +1,6 @@
 # Wave 06 PDP 1:1 Rewrite - pt-PT
 
-Status: local working file only. No Shopify import. No test theme writes. No live writes.
+Status: local 1:1 rewrite complete. Targeted Shopify PRODUCT title import completed on 2026-04-16 for the two original catalog-anomaly sample rows; the source blockers were then resolved in Shopify on 2026-04-16 by migrating them to `black-pepper-sandalwood-tonka-fragrance-oil-1` and `sicilian-neroli-cashmere-fragrance-oil-1`. No theme writes.
 
 Scope:
 
@@ -92,15 +92,15 @@ Scope:
 **QA notes**
 - Live source description is blank; target kept blank intentionally
 
-## 4. `black-coconut-fragrance-oil-1`
+## 4. `black-pepper-sandalwood-tonka-fragrance-oil-1`
 
 **Title**
 - Black pepper, sandalwood and tonka fragrance oil
-  Óleo de fragrância coco preto
+  Óleo de fragrância pimenta-preta, sândalo e fava-tonka
 
 **SEO title**
-- Black Coconut Fragrance Oil
-  Óleo de fragrância coco preto
+- Black Pepper, Sandalwood & Tonka Fragrance Oil | AROMA + WAX
+  Óleo de fragrância pimenta-preta, sândalo e fava-tonka | AROMA + WAX
 
 **SEO description**
 - (blank)
@@ -118,7 +118,8 @@ Scope:
 
 **QA notes**
 - Live source description is blank; target kept blank intentionally
-- Live source SEO is partially or fully blank; target kept blank where source is blank
+- Live source SEO description is blank; target kept blank intentionally
+- Live source handle/title/SEO were aligned in Shopify on 2026-04-16
 
 ## 5. `by-the-fireplace-fragrance-oil`
 
@@ -858,15 +859,15 @@ Scope:
 **QA notes**
 - Live source description is blank; target kept blank intentionally
 
-## 32. `winter-pines-velvet-petals-fragrance-oil-1`
+## 32. `sicilian-neroli-cashmere-fragrance-oil-1`
 
 **Title**
 - Sicilian neroli & cashmere fragrance oil
-  Óleo de fragrância pinheiros de inverno e pétalas aveludadas
+  Óleo de fragrância néroli siciliano e caxemira
 
 **SEO title**
-- (blank)
-  (blank)
+- Sicilian Neroli & Cashmere Fragrance Oil for Candles | AROMA + WAX
+  Óleo de fragrância néroli siciliano e caxemira para velas | AROMA + WAX
 
 **SEO description**
 - (blank)
@@ -884,7 +885,8 @@ Scope:
 
 **QA notes**
 - Live source description is blank; target kept blank intentionally
-- Live source SEO is partially or fully blank; target kept blank where source is blank
+- Live source SEO description is blank; target kept blank intentionally
+- Live source handle/title/SEO were aligned in Shopify on 2026-04-16
 
 ## 33. `smoky-myrrh-sage-fragrance-oil-1`
 

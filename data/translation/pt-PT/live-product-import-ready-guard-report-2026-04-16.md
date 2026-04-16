@@ -1,0 +1,53 @@
+# pt-PT Translation Import Guard Report
+
+Generated at: 2026-04-16T07:53:12.272Z
+
+Mode: dry-run
+
+Candidate source: `data/translation/pt-PT/import-candidates.json`
+
+## Summary
+
+- Total candidates: 380
+- Eligible candidates: 0
+- Skipped candidates: 380
+- Grouped Shopify resources: 0
+- Apply requested: false
+- Explicit yes: false
+- Include risky resource types: false
+- Product handle filter: agarwood-noble-incense-fragrance-oil, all-seasons-classics-fragrance-oils-kit, apothecary-diffuser-bottle-and-metal-screw-cap-60-ml, apothecary-room-spray-bottle-and-sprayer-125-ml, augeo-diffuser-base, autumn-and-holidays-fragrance-oils-2025-kit, black-cherry-and-corsican-almond-fragrance-oil-1, black-pepper-and-velvet-orchid-fragrance-oil, black-pepper-sandalwood-tonka-fragrance-oil, braded-cotton-wicks, by-the-fireside-fragrance-oil, candle-business-starter-kit, cashmere-wood-and-tonka-fragrance-oil, christmas-hearth-fragrance-oil, classic-reed-diffuser-bottles-100-ml, classic-reed-diffuser-bottles-50-ml, diffuser-bottle-and-metal-screw-cap-125-ml, dubai-pistachio-cream-fragrance-oil, ecoolive™-pillar-wax, ecosoya™-cb-advanced-container-wax, ecosoya™-pillarblend-wax, fiber-diffuser-reeds, fresh-cotton-and-green-tea-fragrance-oil, fresh-cut-grass-fragrance-oil, fresh-cut-peony-fragrance-oil, glass-jar-metal-screw-cap-200-ml, golden-waxtm-464-container-soy-wax, golden-wax™-r45-сontainer-wax, golden-wax™-y50-wax-melts-wax, green-cardamom-eucalyptus-fragrance-oil, green-fig-and-wild-mushroom, home-fragrances-business-starter-kit, jasmine-fragrance-oil, kerasoy™-pillar-wax-4120, kyoto-matcha-and-coconut-cloud-fragrance-oil, lavender-and-peppermint-fragrance-oil, lemongrass-and-honey-fragrance-oil, luscious-lime-and-basil-fragrance-oil, magnolia-and-peach-blossom-fragrance-oil, mango-fragrance-oil, metal-can-lid-200-ml, metal-can-lid-500-ml, metal-lever-lid-can-250-ml, metal-screw-cap-tin-100-ml, modern-gentleman-fougere-fragrance-oil, moroccan-cedar-and-saffron-fragrance-oil, muscat-and-fig-fragrance-oil, my-first-collection-fragrance-oils-kit, naturewax™-c-3-container-soy-wax, nutmeg-ginger-spice-fragrance-oil, opium-and-musk-fragrance-oil, oud-wood-and-sweet-jasmin-fragrance-oil, palo-santo-de-marabi-fragrance-oil, patchouli-vetiver-fragrance-oil, pineapple-creamy-coconut-fragrance-oil-2, rattan-diffuser-reeds, room-spray-classic-bottle-125-ml, room-spray-classic-bottle-250-ml, rooom-spray-bottle-and-sprayer-60ml, rose-champagne-fragrance-oil, ruby-grapefruit-fragrance-oil, sage-seasalt-fragrance-oil, siberian-cedar-and-bergamot-fragrance-oil, sicilian-neroli-cashmere-fragrance-oil, simply-delicious-fragrances-kit, smoky-myrrh-sage-fragrance-oil, solubilizer-polysorbate-20, spiced-apple-cinnamon-fragrance-oil, suede-leather-orris-fragrance-oil, summer-2026-fragrance-oils-kit, sweet-amber-and-smoke-fragrance-oil, tcr-series-cotton-wicks, tefacid®-stearic-acid, tobacco-vanilla-fragrance-oil, tomato-leaf-fragrance-oil, vanilla-and-patchouli-fragrance-oil, vanilla-cream-fragrance-oil, very-gingerbread-fragrance-oil, vibrant-black-liquid-dye, vibrant-blue-liquid-dye, vibrant-brown-liquid-dye, vibrant-burgundy-liquid-dye, vibrant-green-liquid-dye, vibrant-magenta-liquid-dye, vibrant-navy-liquid-dye, vibrant-olive-green-liquid-dye, vibrant-orange-liquid-dye, vibrant-purple-liquid-dye, vibrant-red-liquid-dye, vibrant-yellow-liquid-dye, wild-fern-moss-fragrance-oil, wild-strawberry-cream-silk, winter-fragrances-kit, winter-pines-velvet-petals, wk-st-stabilo-series-cotton-wicks
+- Resource type filter: PRODUCT
+- Key include filter: none
+- Key exclude filter: none
+- Skip source HTML: false
+- HTML target mode: wrap-paragraph
+- Source HTML profile: all
+- Limit: none
+
+## Eligible by resource type
+
+| Resource type | Candidates |
+| --- | ---: |
+| n/a | 0 |
+
+## Skipped risky resource types
+
+| Resource type | Candidates |
+| --- | ---: |
+| n/a | 0 |
+
+## Sample eligible candidates
+
+| Resource type | Shopify key | Local packet | Target preview |
+| --- | --- | --- | --- |
+| n/a | n/a | n/a | n/a |
+
+## Apply results
+
+| Resource type | Resource ID | Attempted | Registered | User errors |
+| --- | --- | ---: | ---: | --- |
+| n/a | n/a | 0 | 0 | n/a |
+
+## Safety
+
+Default mode is dry-run. To write translations, run with `--apply --yes` after explicit approval. Do not publish Portuguese from this script.
