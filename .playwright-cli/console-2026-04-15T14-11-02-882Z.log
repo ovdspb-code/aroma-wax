@@ -1,0 +1,205 @@
+[     562ms] [WARNING] An import map rule for specifier '@app/main' was removed, as it conflicted with an existing rule. @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     590ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:5023
+[     590ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:5023
+[     590ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:5023
+[     590ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:5023
+[     644ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     644ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     644ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     644ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     644ms] [INFO] [HotReload] CLI hot reload disabled - No hot reload port specified. @ https://aromawax.eu/cdn/shopifycloud/theme-hot-reload/theme-hot-reload.js:316
+[     652ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://cdn.shopify.com/shopifycloud/preview-bar/preview-bar-modules.js:0
+[     652ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://cdn.shopify.com/shopifycloud/preview-bar/preview-bar-modules.js:0
+[     652ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://cdn.shopify.com/shopifycloud/preview-bar/preview-bar-modules.js:0
+[     652ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://cdn.shopify.com/shopifycloud/preview-bar/preview-bar-modules.js:0
+[     662ms] [LOG] %cCustomer Accounts Deluxe font-size: 18px; font-weight: bold; color: #fff; background: linear-gradient(90deg, #007bff, #00c6ff); padding: 6px 12px; border-radius: 5px; text-align: center; @ webpack://customer-account-deluxe/./extensions/customer-page/assets/cad_base.js?:39
+[     662ms] [LOG] 
+ 🔵 Seamless Shopify Integration
+
+ 🔵 Enhance Customer Experience with Custom Features
+
+ 🔵 Loyalty, Rewards, Social Login, Wishlist, Returns & Exchanges, Store Credits and Much More
+
+
+ Learn more at: https://apps.shopify.com/customer-account-deluxe
+
+ @ webpack://customer-account-deluxe/./extensions/customer-page/assets/cad_base.js?:40
+[     701ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     701ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     701ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     701ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     701ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     701ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     705ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     705ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     705ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     705ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     705ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     705ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     731ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     731ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     731ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     731ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     731ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     731ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     737ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     737ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     737ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     737ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     737ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     737ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     737ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     737ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     737ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     737ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     746ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     746ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     746ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     746ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     746ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     746ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     746ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     746ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[     815ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ :2
+[     815ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ :2
+[     815ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ :2
+[     815ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ :2
+[     815ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ :2
+[     815ms] [WARNING] OTS parsing error: BASE: misaligned table @ :2
+[     815ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ :2
+[     815ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ :2
+[     927ms] [LOG] existingToggle null @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1202
+[     927ms] [LOG] existingToggle null @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1202
+[    1985ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    1985ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    1985ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    1985ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    1985ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    1985ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    1985ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    1985ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2052ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ :2
+[    2052ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ :2
+[    2052ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ :2
+[    2052ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ :2
+[    2052ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ :2
+[    2052ms] [WARNING] OTS parsing error: BASE: misaligned table @ :2
+[    2052ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ :2
+[    2052ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ :2
+[    2324ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2324ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2324ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2324ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2324ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2324ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2324ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2324ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2329ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2329ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2329ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2329ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2329ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2329ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2329ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2329ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2495ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2495ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2495ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2495ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2495ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2495ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2495ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2495ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2623ms] [INFO] Clear-Site-Data header on 'https://aromawax.eu/pt/cart/add.js': Cleared data types: "prefetchCache", "prerenderCache". @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2703ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2703ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2703ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2703ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2703ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2703ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2703ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    2703ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8328ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8328ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8328ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8328ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8328ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8328ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8328ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8328ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8500ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8500ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8500ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8500ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8500ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8500ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8500ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8500ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8531ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8531ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8531ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8531ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8531ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8531ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8531ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8531ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8546ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://js.intercomcdn.com/app-modern.d6ee1dfa.js:186
+[    8546ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/app-modern.d6ee1dfa.js:186
+[    8546ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://js.intercomcdn.com/app-modern.d6ee1dfa.js:186
+[    8546ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/app-modern.d6ee1dfa.js:186
+[    8546ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://js.intercomcdn.com/app-modern.d6ee1dfa.js:186
+[    8546ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/app-modern.d6ee1dfa.js:186
+[    8546ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://js.intercomcdn.com/app-modern.d6ee1dfa.js:186
+[    8546ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/app-modern.d6ee1dfa.js:186
+[    8554ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8554ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8554ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8554ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8554ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8554ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8554ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8554ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8559ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8559ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8559ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8559ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8559ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8559ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8559ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8559ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8961ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8961ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8961ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8961ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8961ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8961ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8961ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[    8961ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   14145ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15330ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15330ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15330ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15330ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15330ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15330ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15330ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15330ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15334ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15334ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15334ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15334ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15334ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15334ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15334ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15334ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15736ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15736ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15737ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15737ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15737ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15737ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15737ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/30/assets/AvenirLTStd-Black.eot?v=61293692641208295061772533890 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   15737ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   19144ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   24123ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0
+[   29143ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/pt/products/summer-2026-fragrance-oils-kit:0

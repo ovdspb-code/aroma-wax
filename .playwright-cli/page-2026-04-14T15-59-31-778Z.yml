@@ -1,0 +1,293 @@
+- generic [active] [ref=e1]:
+  - link "Ir para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e3]:
+    - paragraph [ref=e9]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e10]:
+    - generic [ref=e13]:
+      - navigation [ref=e16]:
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - group [ref=e19]:
+              - generic "comprar tudo" [ref=e20] [cursor=pointer]: comprar tudo
+          - listitem [ref=e22]:
+            - group [ref=e23]:
+              - generic "fabrico de velas" [ref=e24] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e26]:
+            - group [ref=e27]:
+              - generic "fragrâncias" [ref=e28] [cursor=pointer]: fragrâncias
+          - listitem [ref=e30]:
+            - group [ref=e31]:
+              - generic "fabrico de difusores" [ref=e32] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e34]:
+            - group [ref=e35]:
+              - generic "fabrico de sprays de ambiente" [ref=e36] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e38]:
+            - group [ref=e39]:
+              - generic "aprendizagem" [ref=e40] [cursor=pointer]: aprendizagem
+          - listitem [ref=e42]:
+            - link "grossista" [ref=e43] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e44] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e45]: Aroma + Wax
+      - list [ref=e47]:
+        - listitem [ref=e48]:
+          - link "Pesquisar" [ref=e49] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e50]: Pesquisar
+        - listitem [ref=e53]:
+          - link "Iniciar sessão" [ref=e54] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e55]: Iniciar sessão
+        - listitem [ref=e58]:
+          - link "Abrir lista de desejos" [ref=e59] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e60]: Abrir lista de desejos
+            - generic [ref=e64]: "0"
+        - listitem [ref=e65]:
+          - link "Carrinho 0 Unid" [ref=e66] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e67]: Carrinho
+            - img [ref=e68]
+            - generic [ref=e72]:
+              - generic:
+                - generic [ref=e73]: 0 Unid
+                - text: "0"
+  - main [ref=e74]:
+    - navigation "breadcrumbs" [ref=e78]:
+      - link "Início" [ref=e79] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e80]: /
+      - link "comprar tudo" [ref=e81] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e82]: /
+      - link "kits" [ref=e83] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e84]: /
+      - link "kits de amostras de fragrâncias" [ref=e85] [cursor=pointer]:
+        - /url: /pt/collections/fragrance-oils-sample-kits
+      - generic [ref=e86]: /
+      - generic [ref=e87]: Kit de fragrâncias clássicas para todas as estações
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e95]:
+          - img "All Seasons Classics fragrance oil test kit with 10 scents for candle and home fragrance makers" [ref=e97]
+          - img "Ten fragrance oils from the All Seasons Classics test kit for candles, wax melts and diffusers" [ref=e99]
+        - generic [ref=e101]:
+          - button "Ir para o item 1" [ref=e102] [cursor=pointer]:
+            - img "All Seasons Classics fragrance oil test kit with 10 scents for candle and home fragrance makers" [ref=e103]
+          - button "Ir para o item 2" [ref=e104] [cursor=pointer]:
+            - img "Ten fragrance oils from the All Seasons Classics test kit for candles, wax melts and diffusers" [ref=e105]
+      - generic [ref=e106]:
+        - heading "Kit de fragrâncias clássicas para todas as estações" [level=1] [ref=e108]
+        - generic [ref=e112] [cursor=pointer]:
+          - button "5.00 stars" [ref=e113]:
+            - generic [ref=e114]: 
+            - generic [ref=e115]: 
+            - generic [ref=e116]: 
+            - generic [ref=e117]: 
+            - generic [ref=e118]: 
+          - text: 3 avaliações
+        - separator [ref=e120]
+        - paragraph [ref=e124]: "Apresentamos com orgulho uma seleção de fragrâncias que pode servir de base a qualquer coleção profissional ou amadora. A gama inclui aromas especiados, amadeirados, frescos, florais, frutados e gourmand: perfis intemporais, apreciados pelo nosso público durante todo o ano, que cativam com bouquets olfativos intrigantes. A coleção é uma escolha ideal para fabrico de velas, sprays de ambiente e de almofada, sabonetes sólidos e líquidos, e algumas fragrâncias também são adequadas para criar difusores. Dez frascos de 10 g cada. Lima suculenta e manjericão, madeira de oud e jasmim doce, sálvia e sal marinho, Palo Santo de Marabi, creme de baunilha, patchouli e vetiver, cedro siberiano e bergamota, moscatel e figo, ópio e almíscar e rosa e champanhe."
+        - generic [ref=e127]:
+          - generic [ref=e128] [cursor=pointer]: Quantidade
+          - generic [ref=e129]:
+            - button "Diminuir quantidade" [ref=e130] [cursor=pointer]
+            - spinbutton "Quantidade" [ref=e132]: "1"
+            - button "Aumentar quantidade" [ref=e133] [cursor=pointer]
+        - generic [ref=e139]:
+          - generic [ref=e140]: Preço de venda
+          - generic [ref=e142]: €34,90 EUR
+        - button "Adicionar ao carrinho" [ref=e148] [cursor=pointer]:
+          - generic [ref=e149]: Adicionar ao carrinho
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - heading "Avaliações de clientes" [level=2] [ref=e157]
+        - generic [ref=e158]:
+          - generic [ref=e160]:
+            - img "A classificação média é de 5.00 estrelas" [ref=e161]:
+              - generic [ref=e162]: 
+              - generic [ref=e163]: 
+              - generic [ref=e164]: 
+              - generic [ref=e165]: 
+              - generic [ref=e166]: 
+              - text: 5.00 de 5
+            - generic [ref=e167]: Com base em 3 avaliações
+          - generic [ref=e168]:
+            - generic [ref=e169] [cursor=pointer]:
+              - button "100% (3) avaliações com classificação de 5 estrelas" [ref=e170]:
+                - generic [ref=e171]: 
+                - generic [ref=e172]: 
+                - generic [ref=e173]: 
+                - generic [ref=e174]: 
+                - generic [ref=e175]: 
+              - generic [ref=e178]: "3"
+            - generic:
+              - button "0% (0) avaliações com classificação de 4 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 3 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 2 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 1 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+        - generic [ref=e181]:
+          - textbox "Pesquisa" [ref=e182]
+          - text: 
+      - generic [ref=e185]:
+        - combobox "Sort dropdown" [ref=e186] [cursor=pointer]:
+          - option "Mais recentes" [selected]
+          - option "Classificação mais alta"
+          - option "Classificação mais baixa"
+          - option "Apenas fotografias"
+          - option "Fotografias primeiro"
+          - option "Vídeos Primeiro"
+          - option "Mais úteis"
+        - generic [ref=e187]: 
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - generic:    Verificado    Verificado
+        - generic [ref=e192]:
+          - heading "Avaliações noutros idiomas" [level=3] [ref=e193]
+          - generic:    Verificado
+    - generic [ref=e200]:
+      - heading "Ver produtos semelhantes Ver produtos semelhantes" [level=2] [ref=e201]:
+        - text: Ver produtos semelhantes
+        - generic [ref=e203]: Ver produtos semelhantes
+      - paragraph [ref=e204]: Explore os nossos produtos para fabrico de velas e difusores, cuidadosamente escolhidos pela sua performance excecional e fiabilidade.
+    - generic [ref=e208]:
+      - generic [ref=e209]:
+        - generic [ref=e211]:
+          - paragraph [ref=e212]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e214]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e216]:
+            - generic [ref=e217]:
+              - textbox "E-mail" [ref=e218]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e220] [cursor=pointer]:
+              - generic [ref=e221]: Subscrever
+        - generic [ref=e222]:
+          - paragraph [ref=e223]: ajuda e informações
+          - list [ref=e224]:
+            - listitem [ref=e225]:
+              - link "contacte-nos" [ref=e226] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e227]:
+              - link "estado da encomenda" [ref=e228] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e229]:
+              - link "apoio ao cliente" [ref=e230] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e231]:
+              - link "aprendizagem" [ref=e232] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e233]:
+              - link "FAQ e ajuda" [ref=e234] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e235]:
+          - paragraph [ref=e236]: as nossas lojas
+          - list [ref=e237]:
+            - listitem [ref=e238]:
+              - link "comprar em Espanha" [ref=e239] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e240]:
+              - link "loja UE em inglês" [ref=e241] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e242]:
+              - link "loja UE em francês" [ref=e243] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e244]:
+              - link "Loja UE em alemão" [ref=e245] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e246]:
+          - paragraph [ref=e247]: políticas da loja
+          - list [ref=e248]:
+            - listitem [ref=e249]:
+              - link "sobre nós" [ref=e250] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e251]:
+              - link "política de privacidade" [ref=e252] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e253]:
+              - link "política de envios e devoluções" [ref=e254] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e255]:
+              - link "termos de serviço" [ref=e256] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e258]:
+        - list [ref=e259]:
+          - listitem [ref=e260]:
+            - img "American Express" [ref=e261]
+          - listitem [ref=e270]:
+            - img "Apple Pay" [ref=e271]
+          - listitem [ref=e282]:
+            - img "Bancontact" [ref=e283]
+          - listitem [ref=e290]:
+            - img "Google Pay" [ref=e291]
+          - listitem [ref=e299]:
+            - img "iDEAL Wero" [ref=e300]
+          - listitem [ref=e315]:
+            - img "Klarna" [ref=e316]
+          - listitem [ref=e320]:
+            - img "Maestro" [ref=e321]
+          - listitem [ref=e327]:
+            - img "Mastercard" [ref=e328]
+          - listitem [ref=e334]:
+            - img "PayPal" [ref=e335]
+          - listitem [ref=e341]:
+            - img "Shop Pay" [ref=e342]
+          - listitem [ref=e346]:
+            - img "Union Pay" [ref=e347]
+          - listitem [ref=e353]:
+            - img "Visa" [ref=e354]
+        - generic [ref=e358]:
+          - paragraph [ref=e359]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e360] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e361]:
+            - listitem [ref=e362]:
+              - link "Política de privacidade" [ref=e363] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e364]:
+              - text: •
+              - link "Política de devoluções" [ref=e365] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e366]:
+              - text: •
+              - link "Termos de serviço" [ref=e367] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e368]:
+              - text: •
+              - link "Política de envios" [ref=e369] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e370]:
+              - text: •
+              - link "Preferências de cookies" [ref=e371] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

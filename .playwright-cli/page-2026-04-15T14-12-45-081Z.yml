@@ -1,0 +1,289 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - generic [ref=e18]:
+      - paragraph
+  - banner [ref=e19]:
+    - generic [ref=e22]:
+      - navigation [ref=e25]:
+        - list [ref=e26]:
+          - listitem [ref=e27]:
+            - group [ref=e28]:
+              - generic "comprar tudo" [ref=e29] [cursor=pointer]: comprar tudo
+          - listitem [ref=e31]:
+            - group [ref=e32]:
+              - generic "fabrico de velas" [ref=e33] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e35]:
+            - group [ref=e36]:
+              - generic "fragrâncias" [ref=e37] [cursor=pointer]: fragrâncias
+          - listitem [ref=e39]:
+            - group [ref=e40]:
+              - generic "fabrico de difusores" [ref=e41] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e43]:
+            - group [ref=e44]:
+              - generic "fabrico de sprays de ambiente" [ref=e45] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e47]:
+            - group [ref=e48]:
+              - generic "aprendizagem" [ref=e49] [cursor=pointer]: aprendizagem
+          - listitem [ref=e51]:
+            - link "grossista" [ref=e52] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e53] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e54]: Aroma + Wax
+      - list [ref=e56]:
+        - listitem [ref=e57]:
+          - link "Pesquisar" [ref=e58] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e59]: Pesquisar
+        - listitem [ref=e62]:
+          - link "Iniciar sessão" [ref=e63] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e64]: Iniciar sessão
+        - listitem [ref=e67]:
+          - link "Abrir lista de desejos" [ref=e68] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e69]: Abrir lista de desejos
+            - generic [ref=e73]: "0"
+        - listitem [ref=e74]:
+          - link "Carrinho 1 artigo" [ref=e75] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e76]: Carrinho
+            - img [ref=e77]
+            - generic [ref=e81]:
+              - generic:
+                - generic [ref=e82]: 1 artigo
+                - text: "1"
+  - generic:
+    - generic:
+      - generic: "1"
+  - main [ref=e83]:
+    - paragraph [ref=e87]: Faltam 215,10 € para obter 5% de desconto!
+    - generic [ref=e91]:
+      - heading "Bem-vindo ao seu carrinho." [level=1] [ref=e93]
+      - generic [ref=e94]:
+        - table [ref=e96]:
+          - rowgroup [ref=e97]:
+            - row "Produto Quantidade Total" [ref=e98]:
+              - columnheader "Produto" [ref=e99]
+              - columnheader "Quantidade" [ref=e100]
+              - columnheader "Total" [ref=e101]
+          - rowgroup [ref=e102]:
+            - row "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers Kit de fragrâncias de verão Preço de venda €34,90 1 Remover Kit de fragrâncias de verão €34,90" [ref=e103]:
+              - cell "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers Kit de fragrâncias de verão Preço de venda €34,90" [ref=e104]:
+                - generic [ref=e105]:
+                  - img "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers" [ref=e107]
+                  - generic [ref=e109]:
+                    - link "Kit de fragrâncias de verão" [ref=e110] [cursor=pointer]:
+                      - /url: /pt/products/summer-2026-fragrance-oils-kit?variant=51862011937099
+                    - generic [ref=e113]:
+                      - generic [ref=e114]: Preço de venda
+                      - generic [ref=e116]: €34,90
+              - cell "1 Remover Kit de fragrâncias de verão" [ref=e117]:
+                - generic [ref=e118]:
+                  - spinbutton "Alterar quantidade" [ref=e119]: "1"
+                  - link "Remover Kit de fragrâncias de verão" [ref=e121] [cursor=pointer]:
+                    - /url: /pt/cart/change?id=51862011937099:0f1ba5b70ae231763cf2109e1b7b7213&quantity=0
+                    - text: Remover
+              - cell "€34,90" [ref=e122]:
+                - generic [ref=e124]: €34,90
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - generic [ref=e128]:
+                - generic [ref=e129]: Subtotal
+                - generic [ref=e132]: €34,90
+              - generic [ref=e133]:
+                - generic [ref=e134]: Total
+                - generic [ref=e137]: €34,90 EUR
+              - generic [ref=e138]:
+                - text: IVA incluído.
+                - link "Envio" [ref=e139] [cursor=pointer]:
+                  - /url: /pt/policies/shipping-policy
+                - text: calculado na finalização da compra.
+            - generic [ref=e141]:
+              - textbox "Nota do pedido" [ref=e142]:
+                - /placeholder: " "
+              - generic: Nota do pedido
+            - paragraph [ref=e144]:
+              - strong [ref=e145]: Se é uma empresa da UE
+              - text: Introduza o seu número de IVA para remover o IVA no checkout. Deixe em branco se não for aplicável.
+            - generic [ref=e147]:
+              - generic [ref=e148]:
+                - textbox "Enter VAT number" [ref=e149]
+                - generic [ref=e150] [cursor=pointer]: Clear
+              - button "Validate VAT number" [ref=e151] [cursor=pointer]
+            - button "Finalizar compra" [ref=e152] [cursor=pointer]:
+              - generic [ref=e154]: Finalizar compra
+          - generic [ref=e158]:
+            - generic [ref=e159]: Nós aceitamos
+            - list [ref=e160]:
+              - listitem [ref=e161]:
+                - img "American Express" [ref=e162]
+              - listitem [ref=e171]:
+                - img "Apple Pay" [ref=e172]
+              - listitem [ref=e183]:
+                - img "Bancontact" [ref=e184]
+              - listitem [ref=e191]:
+                - img "Google Pay" [ref=e192]
+              - listitem [ref=e200]:
+                - img "iDEAL Wero" [ref=e201]
+              - listitem [ref=e216]:
+                - img "Klarna" [ref=e217]
+              - listitem [ref=e221]:
+                - img "Maestro" [ref=e222]
+              - listitem [ref=e228]:
+                - img "Mastercard" [ref=e229]
+              - listitem [ref=e235]:
+                - img "PayPal" [ref=e236]
+              - listitem [ref=e242]:
+                - img "Shop Pay" [ref=e243]
+              - listitem [ref=e247]:
+                - img "Union Pay" [ref=e248]
+              - listitem [ref=e254]:
+                - img "Visa" [ref=e255]
+    - generic [ref=e262]:
+      - generic [ref=e263]:
+        - generic [ref=e265]:
+          - paragraph [ref=e266]: Seja o primeiro a saber das nossas novidades e receba dicas de artesanato e negócios!
+          - paragraph [ref=e268]: Subscreva a nossa newsletter e receba as melhores ofertas!
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - textbox "E-mail" [ref=e272]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e274] [cursor=pointer]:
+              - generic [ref=e275]: Subscrever
+        - generic [ref=e276]:
+          - paragraph [ref=e277]: ajuda e informações
+          - list [ref=e278]:
+            - listitem [ref=e279]:
+              - link "contacte-nos" [ref=e280] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e281]:
+              - link "estado da encomenda" [ref=e282] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e283]:
+              - link "apoio ao cliente" [ref=e284] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e285]:
+              - link "aprendizagem" [ref=e286] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e287]:
+              - link "FAQ e ajuda" [ref=e288] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e289]:
+          - paragraph [ref=e290]: as nossas lojas
+          - list [ref=e291]:
+            - listitem [ref=e292]:
+              - link "comprar em Espanha" [ref=e293] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e294]:
+              - link "loja UE em inglês" [ref=e295] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e296]:
+              - link "loja UE em francês" [ref=e297] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e298]:
+              - link "Loja UE em alemão" [ref=e299] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e300]:
+          - paragraph [ref=e301]: políticas da loja
+          - list [ref=e302]:
+            - listitem [ref=e303]:
+              - link "sobre nós" [ref=e304] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e305]:
+              - link "política de privacidade" [ref=e306] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e307]:
+              - link "política de envios e devoluções" [ref=e308] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e309]:
+              - link "termos de serviço" [ref=e310] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e312]:
+        - list [ref=e313]:
+          - listitem [ref=e314]:
+            - img "American Express" [ref=e315]
+          - listitem [ref=e324]:
+            - img "Apple Pay" [ref=e325]
+          - listitem [ref=e336]:
+            - img "Bancontact" [ref=e337]
+          - listitem [ref=e344]:
+            - img "Google Pay" [ref=e345]
+          - listitem [ref=e353]:
+            - img "iDEAL Wero" [ref=e354]
+          - listitem [ref=e369]:
+            - img "Klarna" [ref=e370]
+          - listitem [ref=e374]:
+            - img "Maestro" [ref=e375]
+          - listitem [ref=e381]:
+            - img "Mastercard" [ref=e382]
+          - listitem [ref=e388]:
+            - img "PayPal" [ref=e389]
+          - listitem [ref=e395]:
+            - img "Shop Pay" [ref=e396]
+          - listitem [ref=e400]:
+            - img "Union Pay" [ref=e401]
+          - listitem [ref=e407]:
+            - img "Visa" [ref=e408]
+        - generic [ref=e412]:
+          - paragraph [ref=e413]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e414] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e415]:
+            - listitem [ref=e416]:
+              - link "Política de privacidade" [ref=e417] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e418]:
+              - text: •
+              - link "Política de devoluções" [ref=e419] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e420]:
+              - text: •
+              - link "Termos de serviço" [ref=e421] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e422]:
+              - text: •
+              - link "Política de envios" [ref=e423] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e424]:
+              - text: •
+              - link "Preferências de cookies" [ref=e425] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner
+  - iframe [ref=e427]:
+    - generic [ref=f4e4]:
+      - button [ref=f4e7] [cursor=pointer]:
+        - img [ref=f4e9]
+        - img [ref=f4e12]
+      - generic [ref=f4e15]:
+        - generic [ref=f4e18]:
+          - link "Logo" [ref=f4e19] [cursor=pointer]:
+            - /url: https://admin.shopify.com/store/3rcue2-me
+            - img "Logo" [ref=f4e20]
+          - generic [ref=f4e22]:
+            - generic [ref=f4e23]: Copy of Copy of Updated copy of Impact
+            - generic [ref=f4e24]: Draft
+        - generic [ref=f4e26]:
+          - button "Hide bar" [ref=f4e28] [cursor=pointer]:
+            - generic [ref=f4e29]: Hide bar
+          - button "Exit preview" [ref=f4e31] [cursor=pointer]:
+            - generic [ref=f4e32]: Exit preview
+          - button "Copy link" [ref=f4e35] [cursor=pointer]:
+            - img [ref=f4e39]
+            - generic [ref=f4e41]: Copy link

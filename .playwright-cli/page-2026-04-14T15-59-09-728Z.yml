@@ -1,0 +1,674 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: Iniciar sessão
+      - button [ref=e7] [cursor=pointer]
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: Enviaremos um código único (OTP) para o seu email para um login seguro.
+      - generic [ref=e12]:
+        - textbox "E-mail" [ref=e13]
+        - generic: E-mail
+      - button "Continuar" [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]: Continuar
+      - link "Criar conta" [ref=e16] [cursor=pointer]:
+        - /url: /pt/apps/deluxe/account/register
+  - alertdialog "Consentimento de cookies" [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Consentimento de cookies" [level=2] [ref=e20]
+        - paragraph [ref=e21]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e22] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e23]:
+        - button "Gerir preferências" [ref=e24] [cursor=pointer]
+        - button "Aceitar" [ref=e25] [cursor=pointer]
+        - button "Rejeitar" [ref=e26] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e27] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e28]:
+    - paragraph [ref=e34]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e35]:
+    - generic [ref=e38]:
+      - navigation [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - group [ref=e44]:
+              - generic "comprar tudo" [ref=e45] [cursor=pointer]: comprar tudo
+          - listitem [ref=e47]:
+            - group [ref=e48]:
+              - generic "fabrico de velas" [ref=e49] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e51]:
+            - group [ref=e52]:
+              - generic "fragrâncias" [ref=e53] [cursor=pointer]: fragrâncias
+          - listitem [ref=e55]:
+            - group [ref=e56]:
+              - generic "fabrico de difusores" [ref=e57] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e59]:
+            - group [ref=e60]:
+              - generic "fabrico de sprays de ambiente" [ref=e61] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e63]:
+            - group [ref=e64]:
+              - generic "aprendizagem" [ref=e65] [cursor=pointer]: aprendizagem
+          - listitem [ref=e67]:
+            - link "grossista" [ref=e68] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e69] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e70]: Aroma + Wax
+      - list [ref=e72]:
+        - listitem [ref=e73]:
+          - link "Pesquisar" [ref=e74] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e75]: Pesquisar
+        - listitem [ref=e78]:
+          - link "Iniciar sessão" [ref=e79] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e80]: Iniciar sessão
+        - listitem [ref=e83]:
+          - link "Abrir lista de desejos" [ref=e84] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e85]: Abrir lista de desejos
+            - generic [ref=e89]: "0"
+        - listitem [ref=e90]:
+          - link "Carrinho 0 Unid" [ref=e91] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e92]: Carrinho
+            - img [ref=e93]
+            - generic [ref=e97]:
+              - generic:
+                - generic [ref=e98]: 0 Unid
+                - text: "0"
+  - main [ref=e99]:
+    - navigation "breadcrumbs" [ref=e103]:
+      - link "Início" [ref=e104] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e105]: /
+      - link "comprar tudo" [ref=e106] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e107]: /
+      - link "novidades" [ref=e108] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e109]: /
+      - link "materiais para fabrico de velas" [ref=e110] [cursor=pointer]:
+        - /url: /pt/collections/candle-making-supplies
+      - generic [ref=e111]: /
+      - generic [ref=e112]: Corante líquido Vibrant vermelho
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e120]:
+          - img "Vibrant Red liquid candle dye" [ref=e122]
+          - img "Corante líquido Vibrant vermelho" [ref=e124]
+        - generic [ref=e126]:
+          - button "Ir para o item 1" [ref=e127] [cursor=pointer]:
+            - img "Vibrant Red liquid candle dye" [ref=e128]
+          - button "Ir para o item 2" [ref=e129] [cursor=pointer]:
+            - img "Corante líquido Vibrant vermelho" [ref=e130]
+      - generic [ref=e131]:
+        - heading "Corante líquido Vibrant vermelho" [level=1] [ref=e133]
+        - generic [ref=e137] [cursor=pointer]:
+          - button "5.00 stars" [ref=e138]:
+            - generic [ref=e139]: 
+            - generic [ref=e140]: 
+            - generic [ref=e141]: 
+            - generic [ref=e142]: 
+            - generic [ref=e143]: 
+          - text: 7 avaliações
+        - separator [ref=e145]
+        - paragraph [ref=e149]: Este corante líquido Vibrant vermelho, solúvel em óleo, é produzido com um solvente natural e sustentável, permitindo uma mistura fácil em cera vegetal e parafina com apenas 0,1% de utilização. Cria uma variedade de tonalidades, de tons claros a vermelhos profundos, dependendo do tipo de cera e da quantidade de corante aplicada. Em cera de soja, normalmente alcança tons claros a médios, enquanto a parafina permite uma gama mais ampla, desde tons suaves até cores intensas. Recomendamos testar diferentes combinações para encontrar a cor perfeita.
+        - group [ref=e153]:
+          - generic [ref=e155]:
+            - generic [ref=e156]: Tamanho
+            - generic [ref=e157]: 30 gr
+          - generic [ref=e159]:
+            - radio "30 gr" [checked] [ref=e160] [cursor=pointer]
+            - generic [ref=e162] [cursor=pointer]: 30 gr
+            - radio "100g" [ref=e163] [cursor=pointer]
+            - generic [ref=e165] [cursor=pointer]: 100g
+        - generic [ref=e168]:
+          - generic [ref=e169] [cursor=pointer]: Quantidade
+          - generic [ref=e170]:
+            - button "Diminuir quantidade" [ref=e171] [cursor=pointer]
+            - spinbutton "Quantidade" [ref=e173]: "1"
+            - button "Aumentar quantidade" [ref=e174] [cursor=pointer]
+        - generic [ref=e180]:
+          - generic [ref=e181]: Preço de venda
+          - generic [ref=e184]:
+            - generic [ref=e185]: €6,66 EUR IVA incl.
+            - generic [ref=e186]: €5,50 EUR IVA excl.
+        - button "Adicionar ao carrinho" [ref=e192] [cursor=pointer]:
+          - generic [ref=e193]: Adicionar ao carrinho
+        - generic [ref=e195]:
+          - generic [ref=e196]: Detalhes ecológicos e de segurança
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - img [ref=e199]
+              - text: Transporte terrestre
+            - generic [ref=e200]:
+              - img [ref=e201]
+              - text: Sem carcinogéneos
+            - generic [ref=e202]:
+              - img [ref=e203]
+              - text: Sem OGM
+            - generic [ref=e204]:
+              - img [ref=e205]
+              - text: Vegan
+            - generic [ref=e206]:
+              - img [ref=e207]
+              - text: Sem ftalatos
+            - generic [ref=e208]:
+              - img [ref=e209]
+              - text: Não testado em animais
+            - generic [ref=e210]:
+              - img [ref=e211]
+              - text: Não tóxico
+        - generic [ref=e214]:
+          - heading "Detalhes do produto" [level=3] [ref=e215]
+          - paragraph [ref=e217]:
+            - link "Ficha de Dados de Segurança" [ref=e218] [cursor=pointer]:
+              - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/SDS_EU_VIBRANT_RED_LIQUID_DYE_DV-101.pdf?v=1748895346
+        - generic [ref=e221]:
+          - generic [ref=e222]: Propriedades
+          - list [ref=e223]:
+            - listitem [ref=e224]:
+              - generic [ref=e225]: Norma de segurança
+              - generic [ref=e226]: REACH/RAL
+            - listitem [ref=e227]:
+              - generic [ref=e228]: Ponto de inflamação
+              - generic [ref=e229]: 93˚C
+            - listitem [ref=e230]:
+              - generic [ref=e231]: Nível de dificuldade
+              - generic [ref=e232]: Líquido fácil de usar
+            - listitem [ref=e233]:
+              - generic [ref=e234]: Capacidade de mistura
+              - generic [ref=e235]: Mistura simples para cores personalizadas
+        - generic [ref=e238]:
+          - generic [ref=e239]: Utilização recomendada
+          - list [ref=e240]:
+            - listitem [ref=e241]:
+              - generic [ref=e242]: Aplicação
+              - generic [ref=e243]: Velas, outros produtos de cera e difusores
+            - listitem [ref=e244]:
+              - generic [ref=e245]: Cera vegetal e parafina
+              - generic [ref=e246]: Cores esbranquiçadas e claras - 0,02% Cores médias - 0,1% Cores escuras - 0,3%
+            - listitem [ref=e247]:
+              - generic [ref=e248]: Revestimento por imersão
+              - generic [ref=e249]: Não recomendado
+            - listitem [ref=e250]:
+              - generic [ref=e251]: "Opacidade da cera e aditivos da cera (ex.: ácido esteárico, polímeros)"
+              - generic [ref=e252]: pode exigir percentagens diferentes de corante
+        - heading "Guias Práticos" [level=3] [ref=e256]
+    - generic [ref=e262]:
+      - generic [ref=e263]:
+        - heading "Avaliações de clientes" [level=2] [ref=e264]
+        - generic [ref=e265]:
+          - generic [ref=e267]:
+            - img "A classificação média é de 5.00 estrelas" [ref=e268]:
+              - generic [ref=e269]: 
+              - generic [ref=e270]: 
+              - generic [ref=e271]: 
+              - generic [ref=e272]: 
+              - generic [ref=e273]: 
+              - text: 5.00 de 5
+            - generic [ref=e274]:
+              - text: Com base em 7 avaliações
+              - img "Verified Checkmark" [ref=e275]
+          - generic [ref=e276]:
+            - generic [ref=e277] [cursor=pointer]:
+              - button "100% (7) avaliações com classificação de 5 estrelas" [ref=e278]:
+                - generic [ref=e279]: 
+                - generic [ref=e280]: 
+                - generic [ref=e281]: 
+                - generic [ref=e282]: 
+                - generic [ref=e283]: 
+              - generic [ref=e286]: "7"
+            - generic:
+              - button "0% (0) avaliações com classificação de 4 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 3 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 2 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 1 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+        - generic [ref=e289]:
+          - textbox "Pesquisa" [ref=e290]
+          - text: 
+      - generic [ref=e293]:
+        - combobox "Sort dropdown" [ref=e294] [cursor=pointer]:
+          - option "Mais recentes" [selected]
+          - option "Classificação mais alta"
+          - option "Classificação mais baixa"
+          - option "Apenas fotografias"
+          - option "Fotografias primeiro"
+          - option "Vídeos Primeiro"
+          - option "Mais úteis"
+        - generic [ref=e295]: 
+      - generic [ref=e297]:
+        - heading "Avaliações noutros idiomas" [level=3] [ref=e298]
+        - generic [ref=e299]:
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - generic [ref=e302]:
+                - generic [ref=e303]:
+                  - img "avaliação de 5 estrelas" [ref=e304]:
+                    - generic [ref=e305]: 
+                    - generic [ref=e306]: 
+                    - generic [ref=e307]: 
+                    - generic [ref=e308]: 
+                    - generic [ref=e309]: 
+                  - generic [ref=e310]: 17/02/2026
+                - generic [ref=e311]:
+                  - generic [ref=e312]:  
+                  - generic [ref=e313]:
+                    - text: Svitlana Melnychenko
+                    - generic [ref=e315]: Verificado
+              - paragraph [ref=e319]: Gute Farbe
+              - button "Traduzir avaliação para português europeu" [ref=e322] [cursor=pointer]
+            - generic [ref=e323]:
+              - generic [ref=e324]:
+                - generic [ref=e325]:
+                  - img "avaliação de 5 estrelas" [ref=e326]:
+                    - generic [ref=e327]: 
+                    - generic [ref=e328]: 
+                    - generic [ref=e329]: 
+                    - generic [ref=e330]: 
+                    - generic [ref=e331]: 
+                  - generic [ref=e332]: 04/02/2026
+                - generic [ref=e333]:
+                  - generic [ref=e334]:  
+                  - generic [ref=e335]:
+                    - text: Laura MR
+                    - generic [ref=e337]: Verificado
+              - paragraph [ref=e341]: Con este colorante por fin he conseguido el rojo que quería para mis flores
+              - button "Traduzir avaliação para português europeu" [ref=e344] [cursor=pointer]
+            - generic [ref=e345]:
+              - generic [ref=e346]:
+                - generic [ref=e347]:
+                  - img "avaliação de 5 estrelas" [ref=e348]:
+                    - generic [ref=e349]: 
+                    - generic [ref=e350]: 
+                    - generic [ref=e351]: 
+                    - generic [ref=e352]: 
+                    - generic [ref=e353]: 
+                  - generic [ref=e354]: 12/01/2026
+                - generic [ref=e355]:
+                  - generic [ref=e356]:  
+                  - generic [ref=e357]:
+                    - text: Graziella Cardona Mills
+                    - generic [ref=e359]: Verificado
+              - paragraph [ref=e363]: Nice color sure will buy again
+              - button "Traduzir avaliação para português europeu" [ref=e366] [cursor=pointer]
+          - generic [ref=e367]:
+            - button "Page 1": "1"
+            - button "Page 2" [ref=e368] [cursor=pointer]: "2"
+            - button "Page 3" [ref=e369] [cursor=pointer]: "3"
+            - button "Page 2" [ref=e370] [cursor=pointer]: 
+            - button "Page 3" [ref=e371] [cursor=pointer]: 
+    - generic [ref=e374]:
+      - generic [ref=e376]:
+        - heading "Ver produtos semelhantes Ver produtos semelhantes" [level=2] [ref=e377]:
+          - text: Ver produtos semelhantes
+          - generic [ref=e379]: Ver produtos semelhantes
+        - paragraph [ref=e380]: Explore os nossos produtos para fabrico de velas e difusores, cuidadosamente escolhidos pela sua performance excecional e fiabilidade.
+      - generic [ref=e382]:
+        - generic [ref=e385]:
+          - generic [ref=e386]:
+            - generic [ref=e387]:
+              - link "Vibrant Green liquid candle dye Vibrant Green liquid candle dye in bottles of different sizes" [ref=e388] [cursor=pointer]:
+                - /url: /pt/products/vibrant-green-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626569666891&pr_ref_pid=10625385333067&pr_seq=uniform
+                - img "Vibrant Green liquid candle dye" [ref=e389]
+                - img "Vibrant Green liquid candle dye in bottles of different sizes" [ref=e390]
+              - checkbox "Add to wishlist button" [ref=e391] [cursor=pointer]:
+                - img [ref=e392]
+            - generic [ref=e395]:
+              - generic [ref=e396]:
+                - link "Corante líquido Vibrant verde" [ref=e398] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-green-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626569666891&pr_ref_pid=10625385333067&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e399] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-green-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626569666891&pr_ref_pid=10625385333067&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e400]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e401]
+              - generic [ref=e405]:
+                - generic [ref=e406]: Preço de venda
+                - text: A partir de
+                - generic [ref=e409]:
+                  - generic [ref=e410]: €6,66 EUR IVA incl.
+                  - generic [ref=e411]: €5,50 EUR IVA excl.
+          - generic [ref=e412]:
+            - generic [ref=e413]:
+              - link "Vibrant Yellow liquid candle dye Vibrant Yellow liquid candle dye bottles" [ref=e414] [cursor=pointer]:
+                - /url: /pt/products/vibrant-yellow-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626552234315&pr_ref_pid=10625385333067&pr_seq=uniform
+                - img "Vibrant Yellow liquid candle dye" [ref=e415]
+                - img "Vibrant Yellow liquid candle dye bottles" [ref=e416]
+              - checkbox "Add to wishlist button" [ref=e417] [cursor=pointer]:
+                - img [ref=e418]
+            - generic [ref=e421]:
+              - generic [ref=e422]:
+                - link "Corante líquido Vibrant amarelo" [ref=e424] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-yellow-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626552234315&pr_ref_pid=10625385333067&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e425] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-yellow-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626552234315&pr_ref_pid=10625385333067&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e426]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e427]
+              - generic [ref=e431]:
+                - generic [ref=e432]: Preço de venda
+                - text: A partir de
+                - generic [ref=e435]:
+                  - generic [ref=e436]: €6,66 EUR IVA incl.
+                  - generic [ref=e437]: €5,50 EUR IVA excl.
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - link "Vibrant Blue liquid candle dye Vibrant Blue liquid candle dye in bottles of different sizes" [ref=e440] [cursor=pointer]:
+                - /url: /pt/products/vibrant-blue-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626571567435&pr_ref_pid=10625385333067&pr_seq=uniform
+                - img "Vibrant Blue liquid candle dye" [ref=e441]
+                - img "Vibrant Blue liquid candle dye in bottles of different sizes" [ref=e442]
+              - checkbox "Add to wishlist button" [ref=e443] [cursor=pointer]:
+                - img [ref=e444]
+            - generic [ref=e447]:
+              - generic [ref=e448]:
+                - link "Corante líquido Vibrant azul" [ref=e450] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-blue-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626571567435&pr_ref_pid=10625385333067&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e451] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-blue-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626571567435&pr_ref_pid=10625385333067&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e452]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e453]
+              - generic [ref=e457]:
+                - generic [ref=e458]: Preço de venda
+                - text: A partir de
+                - generic [ref=e461]:
+                  - generic [ref=e462]: €6,66 EUR IVA incl.
+                  - generic [ref=e463]: €5,50 EUR IVA excl.
+          - generic [ref=e464]:
+            - generic [ref=e465]:
+              - link "Vibrant Orange liquid candle dye Vibrant Orange liquid candle dye bottles of different sizes" [ref=e466] [cursor=pointer]:
+                - /url: /pt/products/vibrant-orange-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626566259019&pr_ref_pid=10625385333067&pr_seq=uniform
+                - img "Vibrant Orange liquid candle dye" [ref=e467]
+                - img "Vibrant Orange liquid candle dye bottles of different sizes" [ref=e468]
+              - checkbox "Add to wishlist button" [ref=e469] [cursor=pointer]:
+                - img [ref=e470]
+            - generic [ref=e473]:
+              - generic [ref=e474]:
+                - link "Corante líquido Vibrant laranja" [ref=e476] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-orange-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626566259019&pr_ref_pid=10625385333067&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e477] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-orange-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626566259019&pr_ref_pid=10625385333067&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e478]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e479]
+              - generic [ref=e483]:
+                - generic [ref=e484]: Preço de venda
+                - text: A partir de
+                - generic [ref=e487]:
+                  - generic [ref=e488]: €6,66 EUR IVA incl.
+                  - generic [ref=e489]: €5,50 EUR IVA excl.
+          - generic [ref=e490]:
+            - generic [ref=e491]:
+              - link "Vibrant Black liquid candle dye Vibrant liquid candle dyes in bottles of different sizes" [ref=e492] [cursor=pointer]:
+                - /url: /pt/products/vibrant-black-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626572026187&pr_ref_pid=10625385333067&pr_seq=uniform
+                - img "Vibrant Black liquid candle dye" [ref=e493]
+                - img "Vibrant liquid candle dyes in bottles of different sizes" [ref=e494]
+              - checkbox "Add to wishlist button" [ref=e495] [cursor=pointer]:
+                - img [ref=e496]
+            - generic [ref=e499]:
+              - generic [ref=e500]:
+                - link "Corante líquido Vibrant preto" [ref=e502] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-black-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626572026187&pr_ref_pid=10625385333067&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e503] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-black-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626572026187&pr_ref_pid=10625385333067&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e504]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e505]
+              - generic [ref=e509]:
+                - generic [ref=e510]: Preço de venda
+                - text: A partir de
+                - generic [ref=e513]:
+                  - generic [ref=e514]: €6,66 EUR IVA incl.
+                  - generic [ref=e515]: €5,50 EUR IVA excl.
+          - generic [ref=e516]:
+            - generic [ref=e517]:
+              - link "Vibrant Brown liquid candle dye Vibrant Brown liquid candle dye in bottles of different sizes" [ref=e518] [cursor=pointer]:
+                - /url: /pt/products/vibrant-brown-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626570715467&pr_ref_pid=10625385333067&pr_seq=uniform
+                - img "Vibrant Brown liquid candle dye" [ref=e519]
+                - img "Vibrant Brown liquid candle dye in bottles of different sizes" [ref=e520]
+              - checkbox "Add to wishlist button" [ref=e521] [cursor=pointer]:
+                - img [ref=e522]
+            - generic [ref=e525]:
+              - generic [ref=e526]:
+                - link "Corante líquido Vibrant castanho" [ref=e528] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-brown-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626570715467&pr_ref_pid=10625385333067&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e529] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-brown-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626570715467&pr_ref_pid=10625385333067&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e530]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e531]
+              - generic [ref=e535]:
+                - generic [ref=e536]: Preço de venda
+                - text: A partir de
+                - generic [ref=e539]:
+                  - generic [ref=e540]: €6,66 EUR IVA incl.
+                  - generic [ref=e541]: €5,50 EUR IVA excl.
+          - generic [ref=e542]:
+            - generic [ref=e543]:
+              - link "Vibrant Burgundy liquid candle dye Vibrant Burgundy liquid candle dye in bottles of different sizes" [ref=e544] [cursor=pointer]:
+                - /url: /pt/products/vibrant-burgundy-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626570191179&pr_ref_pid=10625385333067&pr_seq=uniform
+                - img "Vibrant Burgundy liquid candle dye" [ref=e545]
+                - img "Vibrant Burgundy liquid candle dye in bottles of different sizes" [ref=e546]
+              - checkbox "Add to wishlist button" [ref=e547] [cursor=pointer]:
+                - img [ref=e548]
+            - generic [ref=e551]:
+              - generic [ref=e552]:
+                - link "Corante líquido Vibrant bordeaux" [ref=e554] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-burgundy-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626570191179&pr_ref_pid=10625385333067&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e555] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-burgundy-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626570191179&pr_ref_pid=10625385333067&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e556]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e557]
+              - generic [ref=e561]:
+                - generic [ref=e562]: Preço de venda
+                - text: A partir de
+                - generic [ref=e565]:
+                  - generic [ref=e566]: €6,66 EUR IVA incl.
+                  - generic [ref=e567]: €5,50 EUR IVA excl.
+          - generic [ref=e568]:
+            - generic [ref=e569]:
+              - link "Vibrant Olive Green liquid candle dye Vibrant Olive Green liquid candle dye bottles" [ref=e570] [cursor=pointer]:
+                - /url: /pt/products/vibrant-olive-green-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626565341515&pr_ref_pid=10625385333067&pr_seq=uniform
+                - img "Vibrant Olive Green liquid candle dye" [ref=e571]
+                - img "Vibrant Olive Green liquid candle dye bottles" [ref=e572]
+              - checkbox "Add to wishlist button" [ref=e573] [cursor=pointer]:
+                - img [ref=e574]
+            - generic [ref=e577]:
+              - generic [ref=e578]:
+                - link "Corante líquido Vibrant verde-oliva" [ref=e580] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-olive-green-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626565341515&pr_ref_pid=10625385333067&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e581] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-olive-green-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626565341515&pr_ref_pid=10625385333067&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e582]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e583]
+              - generic [ref=e587]:
+                - generic [ref=e588]: Preço de venda
+                - text: A partir de
+                - generic [ref=e591]:
+                  - generic [ref=e592]: €6,66 EUR IVA incl.
+                  - generic [ref=e593]: €5,50 EUR IVA excl.
+          - generic [ref=e594]:
+            - generic [ref=e595]:
+              - link "Vibrant Magenta liquid candle dye Vibrant Magenta liquid candle dye in bottles of different sizes" [ref=e596] [cursor=pointer]:
+                - /url: /pt/products/vibrant-magenta-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626568388939&pr_ref_pid=10625385333067&pr_seq=uniform
+                - img "Vibrant Magenta liquid candle dye" [ref=e597]
+                - img "Vibrant Magenta liquid candle dye in bottles of different sizes" [ref=e598]
+              - checkbox "Add to wishlist button" [ref=e599] [cursor=pointer]:
+                - img [ref=e600]
+            - generic [ref=e603]:
+              - generic [ref=e604]:
+                - link "Corante líquido Vibrant magenta" [ref=e606] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-magenta-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626568388939&pr_ref_pid=10625385333067&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e607] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-magenta-liquid-dye?pr_prod_strat=jac&pr_rec_id=615c3503c&pr_rec_pid=10626568388939&pr_ref_pid=10625385333067&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e608]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e609]
+              - generic [ref=e613]:
+                - generic [ref=e614]: Preço de venda
+                - text: A partir de
+                - generic [ref=e617]:
+                  - generic [ref=e618]: €6,66 EUR IVA incl.
+                  - generic [ref=e619]: €5,50 EUR IVA excl.
+          - generic [ref=e620]:
+            - generic [ref=e621]:
+              - link "Vibrant Navy liquid candle dye Vibrant Navy liquid candle dye in bottles of different sizes" [ref=e622] [cursor=pointer]:
+                - /url: /pt/products/vibrant-navy-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626567962955&pr_ref_pid=10625385333067&pr_seq=uniform
+                - img "Vibrant Navy liquid candle dye" [ref=e623]
+                - img "Vibrant Navy liquid candle dye in bottles of different sizes" [ref=e624]
+              - checkbox "Add to wishlist button" [ref=e625] [cursor=pointer]:
+                - img [ref=e626]
+            - generic [ref=e629]:
+              - generic [ref=e630]:
+                - link "Corante líquido Vibrant azul-marinho" [ref=e632] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-navy-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626567962955&pr_ref_pid=10625385333067&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e633] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-navy-liquid-dye?pr_prod_strat=e5_desc&pr_rec_id=615c3503c&pr_rec_pid=10626567962955&pr_ref_pid=10625385333067&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e634]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e635]
+              - generic [ref=e639]:
+                - generic [ref=e640]: Preço de venda
+                - text: A partir de
+                - generic [ref=e643]:
+                  - generic [ref=e644]: €6,66 EUR IVA incl.
+                  - generic [ref=e645]: €5,50 EUR IVA excl.
+        - generic [ref=e648]:
+          - button "Anterior" [disabled]:
+            - generic: Anterior
+          - button "Seguinte" [ref=e649] [cursor=pointer]:
+            - generic [ref=e650]: Seguinte
+    - generic [ref=e654]:
+      - generic [ref=e655]:
+        - generic [ref=e657]:
+          - paragraph [ref=e658]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e660]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e662]:
+            - generic [ref=e663]:
+              - textbox "E-mail" [ref=e664]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e666] [cursor=pointer]:
+              - generic [ref=e667]: Subscrever
+        - generic [ref=e668]:
+          - paragraph [ref=e669]: ajuda e informações
+          - list [ref=e670]:
+            - listitem [ref=e671]:
+              - link "contacte-nos" [ref=e672] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e673]:
+              - link "estado da encomenda" [ref=e674] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e675]:
+              - link "apoio ao cliente" [ref=e676] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e677]:
+              - link "aprendizagem" [ref=e678] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e679]:
+              - link "FAQ e ajuda" [ref=e680] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e681]:
+          - paragraph [ref=e682]: as nossas lojas
+          - list [ref=e683]:
+            - listitem [ref=e684]:
+              - link "comprar em Espanha" [ref=e685] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e686]:
+              - link "loja UE em inglês" [ref=e687] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e688]:
+              - link "loja UE em francês" [ref=e689] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e690]:
+              - link "Loja UE em alemão" [ref=e691] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e692]:
+          - paragraph [ref=e693]: políticas da loja
+          - list [ref=e694]:
+            - listitem [ref=e695]:
+              - link "sobre nós" [ref=e696] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e697]:
+              - link "política de privacidade" [ref=e698] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e699]:
+              - link "política de envios e devoluções" [ref=e700] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e701]:
+              - link "termos de serviço" [ref=e702] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e704]:
+        - list [ref=e705]:
+          - listitem [ref=e706]:
+            - img "American Express" [ref=e707]
+          - listitem [ref=e716]:
+            - img "Apple Pay" [ref=e717]
+          - listitem [ref=e728]:
+            - img "Bancontact" [ref=e729]
+          - listitem [ref=e736]:
+            - img "Google Pay" [ref=e737]
+          - listitem [ref=e745]:
+            - img "iDEAL Wero" [ref=e746]
+          - listitem [ref=e761]:
+            - img "Klarna" [ref=e762]
+          - listitem [ref=e766]:
+            - img "Maestro" [ref=e767]
+          - listitem [ref=e773]:
+            - img "Mastercard" [ref=e774]
+          - listitem [ref=e780]:
+            - img "PayPal" [ref=e781]
+          - listitem [ref=e787]:
+            - img "Shop Pay" [ref=e788]
+          - listitem [ref=e792]:
+            - img "Union Pay" [ref=e793]
+          - listitem [ref=e799]:
+            - img "Visa" [ref=e800]
+        - generic [ref=e804]:
+          - paragraph [ref=e805]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e806] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e807]:
+            - listitem [ref=e808]:
+              - link "Política de privacidade" [ref=e809] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e810]:
+              - text: •
+              - link "Política de devoluções" [ref=e811] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e812]:
+              - text: •
+              - link "Termos de serviço" [ref=e813] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e814]:
+              - text: •
+              - link "Política de envios" [ref=e815] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e816]:
+              - text: •
+              - link "Preferências de cookies" [ref=e817] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

@@ -1,0 +1,280 @@
+[    1549ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:7319
+[    1549ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:7319
+[    1599ms] [WARNING] An import map rule for specifier '@app/main' was removed, as it conflicted with an existing rule. @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    1605ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/cdn/shop/t/29/assets/theme.js?v=13159901232634706651771850553:44
+[    1605ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/cdn/shop/t/29/assets/theme.js?v=13159901232634706651771850553:44
+[    1636ms] [LOG] %cCustomer Accounts Deluxe font-size: 18px; font-weight: bold; color: #fff; background: linear-gradient(90deg, #007bff, #00c6ff); padding: 6px 12px; border-radius: 5px; text-align: center; @ webpack://customer-account-deluxe/./extensions/customer-page/assets/cad_base.js?:39
+[    1636ms] [LOG] 
+ 🔵 Seamless Shopify Integration
+
+ 🔵 Enhance Customer Experience with Custom Features
+
+ 🔵 Loyalty, Rewards, Social Login, Wishlist, Returns & Exchanges, Store Credits and Much More
+
+
+ Learn more at: https://apps.shopify.com/customer-account-deluxe
+
+ @ webpack://customer-account-deluxe/./extensions/customer-page/assets/cad_base.js?:40
+[    1641ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    1641ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    1641ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    1641ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2032ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2033ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2033ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2033ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2054ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2054ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2054ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2054ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2054ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2054ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2080ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2080ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2080ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2080ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2080ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2080ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2102ms] [LOG] existingToggle null @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1202
+[    2102ms] [LOG] existingToggle null @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1202
+[    2106ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2106ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2106ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2106ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2106ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2106ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2106ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2106ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2168ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js:2
+[    2168ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js:2
+[    2168ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js:2
+[    2168ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js:2
+[    2168ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js:2
+[    2168ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js:2
+[    2168ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js:2
+[    2168ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js:2
+[    2239ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-hierba-de-limon-y-miel.js:0
+[    2239ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-hierba-de-limon-y-miel: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 4)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2241ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-hogar-navideno.js:0
+[    2241ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-hogar-navideno: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 25)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2242ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-pimienta-negra-y-orquidea-de-terciopelo.js:0
+[    2242ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-pimienta-negra-y-orquidea-de-terciopelo: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 21)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2243ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-helecho-silvestre-y-musgo.js:0
+[    2243ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-helecho-silvestre-y-musgo: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 31)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2244ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-magnolia-y-melocoton-flor.js:0
+[    2244ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-magnolia-y-melocoton-flor: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 20)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2249ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2249ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2249ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2249ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2249ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2249ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2249ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2249ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    2259ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-muy-mango.js:0
+[    2259ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-muy-mango: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 7)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2260ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-madera-de-oud-y-jazmin-dulce.js:0
+[    2260ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-madera-de-oud-y-jazmin-dulce: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 27)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2270ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-cesped-cortado-fresco.js:0
+[    2270ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-cesped-cortado-fresco: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 29)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2388ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-junto-a-la-chimenea.js:0
+[    2388ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-junto-a-la-chimenea: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 23)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2389ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-rosa-y-champan.js:0
+[    2389ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-rosa-y-champan: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 5)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2389ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-rosa-y-champan: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 24)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2390ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-vainilla-y-pachuli.js:0
+[    2390ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-vainilla-y-pachuli: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 22)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2390ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-ambar-dulce-humo.js:0
+[    2391ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-ambar-dulce-humo: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 30)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2391ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-muscat-y-higo.js:0
+[    2391ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-muscat-y-higo: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 26)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2392ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-peonia-cortada-fresca.js:0
+[    2392ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-peonia-cortada-fresca: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 2)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2393ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://aromawax.eu/products/fragancia-cedro-marroqui-y-azafran.js:0
+[    2393ms] [WARNING] [Final Price] Failed to fetch product data for fragancia-cedro-marroqui-y-azafran: TypeError: Cannot read properties of null (reading 'gift_card')
+    at processPriceElement (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1106:42)
+    at async Promise.all (index 28)
+    at async window.FinalPriceProcessSub (https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1145:5) @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:13
+[    2422ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ :4
+[    2422ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ :4
+[    2422ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ :4
+[    2422ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ :4
+[    2422ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ :4
+[    2422ms] [WARNING] OTS parsing error: BASE: misaligned table @ :4
+[    2422ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ :4
+[    2422ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ :4
+[    3444ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    3444ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    3444ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    3444ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    3444ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    3444ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    3444ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    3444ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    3544ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    3544ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    3544ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    3544ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    3544ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    3544ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    3544ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    3544ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    3560ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3561ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3561ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3561ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3561ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3561ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3561ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3561ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3720ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3720ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3720ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3720ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3720ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3720ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3720ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3720ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3868ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3868ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3868ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3868ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3868ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3869ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3869ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    3869ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9547ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9547ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9547ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9547ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9547ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9547ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9547ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9547ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9694ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9694ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9694ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9694ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9694ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9694ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9694ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9695ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9739ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    9739ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    9739ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    9739ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    9739ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    9739ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    9739ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    9739ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/frame-modern.8ae715d8.js:0
+[    9751ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9751ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9751ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9751ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9751ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9751ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9751ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9751ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9760ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    9760ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    9760ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    9760ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    9760ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    9760ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    9760ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    9760ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    9770ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9770ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9770ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9770ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9770ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9770ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9770ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[    9770ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   10173ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   10173ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   10173ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   10173ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   10173ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   10173ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   10173ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   10173ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   15321ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16550ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   16550ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   16550ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   16550ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   16550ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   16550ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   16550ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   16550ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   16553ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16553ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16553ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16553ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16553ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16553ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16553ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16553ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16956ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16956ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16956ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16956ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16956ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16956ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16956ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   16956ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   20292ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   25301ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   30368ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   36329ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   40286ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   45299ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   50295ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   55303ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0
+[   60323ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/es/collections/fragancias-para-sprays-ambientales:0

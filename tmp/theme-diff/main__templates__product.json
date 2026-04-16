@@ -1,0 +1,426 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "17500974283d6a209a": {
+      "type": "apps",
+      "blocks": {
+        "ph_breadcrumbs_app_block_XrNKVy": {
+          "type": "shopify://apps/ph-breadcrumbs/blocks/app-block/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#3f322d",
+            "horizontal_alignment": "left",
+            "fontsize": 16,
+            "breadcrumb_font": "figtree_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": true,
+            "show_last_crumb": true,
+            "home_page": "Home",
+            "home_url": "/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span aria-hidden=\"true\" class=\"bls__breadcrumb-separator pr-4\">/</span>",
+            "css_tablet": "/* font-family: Helvetica; */",
+            "css_mobile": "/* font-family: Helvetica; */",
+            "custom_css": "font-family: 'Avenir', sans-serif;\n    font-weight: 400;\n    font-size: 16px;\n    color: #3F322D;",
+            "css_last_crumb": "/* font-weight: medium; */",
+            "css_hover": "/* text-decoration-line: underline; */",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "ph_breadcrumbs_app_block_XrNKVy"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h5"
+          }
+        },
+        "judge_me_reviews_preview_badge_AHBMLB": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "liquid_DMnwQ7": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"683db1b42eb7cb9db7b7b0f9\" data-style-height=\"24px\" data-style-width=\"100%\">\n  <a href=\"https://uk.trustpilot.com/review/aromawax.eu\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_qqEdKk": {
+          "type": "separator",
+          "settings": {}
+        },
+        "text_8MQRJL": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.description }}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "block_swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "button_daXJYW": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/wholesale",
+            "text": "Contact us to order more than 1 kg",
+            "size": "base",
+            "style": "outline",
+            "stretch": true,
+            "background": "#ffffff",
+            "text_color": "#3f322d"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#3f322d",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#3f322d",
+            "payment_button_text_color": "#ffffff"
+          }
+        },
+        "liquid_LqDE9z": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span class=\"h3\">{% if request.locale.iso_code == 'pt-PT' or request.locale.iso_code == 'pt' %}Detalhes ecológicos e de segurança{% else %}Eco and safety details{% endif %}</span>\n<span class=\"mb20-old\"></span>\n<div class=\"info-blocks\">\n{{ product.metafields.custom.eco_and_safety_details }}\n</div>"
+          }
+        },
+        "text_fdcJJQ": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Product details</h3>{{ product.metafields.custom.product_details | metafield_tag }}"
+          }
+        },
+        "liquid_fkVqCd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"p-info-wrapper\">\n<span class=\"h3\">Fragrance Notes</span>\n{{ product.metafields.custom._fragrance_notes }}\n</div>"
+          }
+        },
+        "liquid_KLQ3hi": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"p-info-wrapper\">\n<span class=\"h3\">{% if request.locale.iso_code == 'pt-PT' or request.locale.iso_code == 'pt' %}Propriedades{% else %}Properties{% endif %}</span>\n{{ product.metafields.custom.properties }}\n</div>"
+          }
+        },
+        "liquid_XDf6bw": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"p-info-wrapper\">\n<span class=\"h3\">{% if request.locale.iso_code == 'pt-PT' or request.locale.iso_code == 'pt' %}Utilização recomendada{% else %}Recommended Usage{% endif %}</span>\n{{ product.metafields.custom.recommended_usage }}\n</div>"
+          }
+        },
+        "text_pMWFdw": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Practical Guides</h3>{{ product.metafields.custom.practical_guides | metafield_tag }}"
+          }
+        },
+        "text_BBaEfC": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.weight_info | metafield_tag }}<p></p>"
+          }
+        },
+        "badges_eGQYTN": {
+          "type": "badges",
+          "disabled": true,
+          "settings": {}
+        },
+        "volume_pricing_LP3EBb": {
+          "type": "volume_pricing",
+          "disabled": true,
+          "settings": {}
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 16,
+            "collapse_content": false
+          }
+        },
+        "liquid_BJjyYY": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "shop_shop_login_button_app_block_J9dPAK": {
+          "type": "shopify://apps/shop/blocks/shop-login-button-app-block/7cab7c4a-1dfc-4b7e-8e53-31f104f2fa4e",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "judge_me_reviews_preview_badge_AHBMLB",
+        "liquid_DMnwQ7",
+        "rating",
+        "separator_qqEdKk",
+        "text_8MQRJL",
+        "variant_picker",
+        "button_daXJYW",
+        "quantity_selector",
+        "price",
+        "buy_buttons",
+        "liquid_LqDE9z",
+        "text_fdcJJQ",
+        "liquid_fkVqCd",
+        "liquid_KLQ3hi",
+        "liquid_XDf6bw",
+        "text_pMWFdw",
+        "text_BBaEfC",
+        "badges_eGQYTN",
+        "volume_pricing_LP3EBb",
+        "payment_terms",
+        "description",
+        "liquid_BJjyYY",
+        "shop_shop_login_button_app_block_J9dPAK"
+      ],
+      "custom_css": [
+        ".icon-row {display: flex; flex-direction: row; justify-content: flex-start; gap: 5px; padding: 10px 0 0 0; flex-wrap: wrap; background: transparent; align-items: flex-start;}",
+        ".icon-item {display: flex; flex-direction: column; align-items: center; gap: 5px; width: calc(33.33% - 3.33px); box-sizing: border-box;}",
+        ".icon-label {font-size: 14px; color: #333; text-align: center; white-space: nowrap; text-transform: lowercase;}",
+        ".icon-row img {width: 35px; height: 35px; object-fit: contain; margin: 0; display: block;}",
+        ".tp-widget-wrapper a {text-align: left;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 4,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_html_rL3x4d": {
+      "type": "custom-html",
+      "disabled": true,
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<!-- TrustBox widget - Mini -->\n<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"53aa8807dec7e10d38f59f32\" data-businessunit-id=\"683db1b42eb7cb9db7b7b0f9\" data-style-height=\"150px\" data-style-width=\"100%\">\n  <a href=\"https://uk.trustpilot.com/review/aromawax.eu\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_C7xDqy": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_YdVQnb": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_qGXUPp": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 5,
+            "author": "",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_raLHL7": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_icthtq": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial 4",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_KiDbPT": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial 5",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_YdVQnb",
+        "testimonial_qGXUPp",
+        "testimonial_raLHL7",
+        "testimonial_icthtq",
+        "testimonial_KiDbPT"
+      ],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Reviews",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "#faf8ee",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "1749643995b7b54de0": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_cwriXX": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_cwriXX"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 10,
+        "products": [],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Shop similar",
+        "content": "<p>Explore our quality candle and diffuser-making products, carefully selected for their exceptional performance and reliability.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "17500974283d6a209a",
+    "main",
+    "custom_html_rL3x4d",
+    "testimonials_C7xDqy",
+    "1749643995b7b54de0",
+    "related-products"
+  ]
+}

@@ -19,8 +19,15 @@ The repository already contains:
 - `data/translation/pt-PT/GLOSSARY_DRAFT.md`
 - `data/translation/pt-PT/TERMINOLOGY_RESEARCH_PT_PT.md`
 - `data/translation/pt-PT/PRIORITY_QUEUE.md`
+- `data/translation/pt-PT/PUBLICATION_READINESS_AUDIT.md`
+- `docs/PT_PT_SHOPIFY_TRANSLATION_SCOPES.md`
 - `scripts/export-storefront-translation-pack.ts`
+- `scripts/plan-pt-pt-translation-import.ts`
+- `scripts/import-pt-pt-translations.ts`
 - `npm run i18n:export`
+- `npm run i18n:plan-import`
+- `npm run i18n:import-pt-pt`
+- `data/translation/pt-PT/IMPORT_HISTORY.md`
 
 The Portuguese language exists in Shopify as `Portuguese (Portugal)` and must remain unpublished until the translation has been reviewed.
 
@@ -43,8 +50,8 @@ Use that file as the working source of truth for:
 Core decisions:
 
 - Use `pt-PT`, not Brazilian Portuguese.
-- `fragrance oil` -> `óleo aromático`.
-- `fragrance oils` -> `óleos aromáticos`.
+- `fragrance oil` -> `fragrância` in category/product copy; `óleo de fragrância` when the oil form is technically important.
+- `fragrance oils` -> `fragrâncias` in category/product copy; `óleos de fragrância` when the oil form is technically important.
 - `reed diffuser` -> `difusor de varetas`.
 - `reeds` -> `varetas`.
 - `room spray` -> `spray de ambiente`.
@@ -144,8 +151,12 @@ updated_at
 Status:
 
 - Packet 01 drafted.
-- Packet 02 partially drafted.
-- Packets 03-05 pending.
+- Packet 02 expanded with public policy/form supplemental sources and later locally resolved for the remaining source blockers in the working draft.
+- Packets 03-06 drafted locally.
+- Publication readiness audit drafted locally.
+- Dry-run import report generated locally; Shopify key/digest mapping works.
+- Guarded import dry-run generated and refreshed after each import layer.
+- Micro-import 01 and layered import 02 completed into the hidden `pt-PT` locale; Portuguese not published.
 
 Packet order:
 
@@ -162,7 +173,8 @@ Packet order:
    - shipping to EU
    - wholesale
    - discounts and rewards
-   - pending: refund policy, global shipping, policy pages
+   - supplemented: refund/return policy, global shipping, contact form strings
+   - locally resolved after initial draft: private label, wholesale signup form, refund-policy placeholder flow
 
 3. `packet-03-collections-pt-PT.md`
    - collection titles
@@ -190,6 +202,33 @@ Packet order:
    - stock status
    - error/empty states
    - theme locale strings
+   - imported: theme locale UI, non-HTML JSON/section text and granular HTML/richtext content
+   - aggregate `ONLINE_STORE_THEME` duplicates skipped in favor of granular theme resources
+
+7. `PUBLICATION_READINESS_AUDIT.md`
+   - terminology QA summary
+   - local correction log
+   - publication blockers
+   - dry-run import prerequisites
+
+8. `import-dry-run-report.md` / `import-dry-run-report.json`
+   - local packet inventory: 2247 source/target pairs
+   - Shopify translatable resource access success across checked resource types
+   - current token scopes include all recommended translation/import preparation scopes
+   - candidate translations: 1714
+   - ambiguous source matches: 0
+   - no-write dry-run report used as the source for guarded imports
+
+9. `translation-import-guard-report.md` / `translation-import-guard-report.json`
+   - guarded import dry-run after micro-import 01 and layered imports 02-03
+   - eligible candidates for mapped granular resource set: 0
+   - grouped Shopify resources: 0
+   - HTML body/richtext imports used safe paragraph wrapping
+   - Shopify uniqueness-suffixed handles such as `ceras-1` and `aditivos-1` are accepted as handle matches
+
+10. `IMPORT_HISTORY.md`
+   - micro-import 01 and layered imports 02-03 details
+   - confirms Portuguese was not published
 
 ## Phase 3. Shopify Translation Import Tooling
 
@@ -198,10 +237,13 @@ Do not rely on Langwill auto-translation. The import should use Shopify translat
 Planned Shopify Admin GraphQL flow:
 
 1. Ensure app scopes include translation/content access:
-   - likely `read_translations`
-   - likely `write_translations`
-   - possibly `read_content`
-   - possibly resource-specific read scopes for products, collections, themes/pages/blogs
+   - granted: `read_translations`
+   - granted: `write_translations`
+   - granted: `read_locales`
+   - granted: `write_locales`
+   - granted: `read_content`
+   - granted: `read_legal_policies`
+   - granted: `read_themes`
 
 2. Query `translatableResources` for resource types:
    - products
@@ -220,8 +262,8 @@ Planned Shopify Admin GraphQL flow:
 
 Known issue:
 
-- Current Shopify app token previously lacked `read_content`, causing Admin GraphQL access denial for `pagesCount` and `blogs`.
-- Either add scopes to the Shopify app and redeploy, or keep using public storefront export for source collection while using translation APIs only for resources available through current scopes.
+- Shopify scopes are now sufficient for dry-run translation mapping.
+- Remaining blockers are content/QA, not access: final hidden-locale preview and any subsequent storefront QA after the newer local Packet 02 blocker resolution.
 
 ## Phase 4. Human Review Loop
 
@@ -290,8 +332,11 @@ Only after owner approval:
 Open these files first:
 
 ```text
+data/translation/pt-PT/PUBLICATION_READINESS_AUDIT.md
+data/translation/pt-PT/import-dry-run-report.md
 data/translation/pt-PT/TERMINOLOGY_RESEARCH_PT_PT.md
 docs/PT_PT_TRANSLATION_CONTEXT_CAPSULE.md
+docs/PT_PT_SHOPIFY_TRANSLATION_SCOPES.md
 data/translation/pt-PT/storefront-source.json
 data/translation/pt-PT/packet-01-core-pt-PT.md
 data/translation/pt-PT/packet-02-service-pages-pt-PT.md
@@ -300,7 +345,7 @@ data/translation/pt-PT/packet-02-service-pages-pt-PT.md
 Then continue with:
 
 ```text
-Packet 03: collection titles, collection descriptions, SEO
+Review the refreshed `npm run i18n:import-pt-pt` guard report and `IMPORT_HISTORY.md`, then run pre-publication QA/preview for the hidden pt-PT locale. Do not publish Portuguese without explicit approval.
 ```
 
 Do not open Langwill auto-translation. Do not publish the language.

@@ -1,0 +1,637 @@
+- generic [ref=e1]:
+  - generic [ref=e599]:
+    - generic [ref=e600]:
+      - generic [ref=e601]: Iniciar sessão
+      - button [ref=e603] [cursor=pointer]
+    - generic [ref=e606]:
+      - paragraph [ref=e607]: Enviaremos um código único (OTP) para o seu e-mail para um início de sessão seguro.
+      - generic [ref=e608]:
+        - textbox "E-mail" [ref=e609]
+        - generic: E-mail
+      - button "Continuar" [ref=e610] [cursor=pointer]:
+        - generic [ref=e611]: Continuar
+      - link "Criar conta" [ref=e612] [cursor=pointer]:
+        - /url: /pt/apps/deluxe/account/register
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: /pt#main
+  - complementary [ref=e13]:
+    - paragraph [ref=e778]: As encomendas de 750 € a 2 000 € beneficiam de 10% de desconto.
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - generic [ref=e615] [cursor=pointer]:
+          - generic [ref=e617]:
+            - generic [ref=e620]: PT-PT
+            - img [ref=e622]
+          - generic [ref=e624]:
+            - list:
+              - listitem [ref=e625]:
+                - generic [ref=e628]: EN
+              - listitem [ref=e629]:
+                - generic [ref=e632]: ES
+              - listitem [ref=e633]:
+                - generic [ref=e636]: DE
+              - listitem [ref=e637]:
+                - generic [ref=e640]: FR
+              - listitem [ref=e641]:
+                - generic [ref=e644]: PT-PT
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 1" [expanded] [ref=e779] [cursor=pointer]:
+            - /url: /pt/cart?cart_build=20260415g
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic: "1"
+  - dialog [ref=e780]:
+    - generic [ref=e782]:
+      - generic [ref=e784]:
+        - generic [ref=e786]:
+          - generic [ref=e787]:
+            - paragraph [ref=e788]: Bem-vindo ao seu carrinho.
+            - generic [ref=e790]:
+              - generic: "1"
+          - button "Fechar" [ref=e791] [cursor=pointer]:
+            - generic [ref=e792]: Fechar
+        - generic [ref=e796]:
+          - img "All Seasons Classics fragrance oil test kit with 10 scents for candle and home fragrance makers" [ref=e798]
+          - generic [ref=e800]:
+            - link "Kit de fragrâncias clássicas para todas as estações" [ref=e801] [cursor=pointer]:
+              - /url: /pt/products/all-seasons-classics-fragrance-oils-kit?variant=51870055006539
+            - generic [ref=e804]:
+              - generic [ref=e805]: Preço de venda
+              - generic [ref=e808]:
+                - generic [ref=e809]: €34,90 EUR VAT incl.
+                - generic [ref=e810]: €28,84 EUR VAT excl.
+          - generic [ref=e812]:
+            - spinbutton "Alterar quantidade" [ref=e813]: "1"
+            - link "Remover Kit de fragrâncias clássicas para todas as estações" [ref=e815] [cursor=pointer]:
+              - /url: /pt/cart/change?id=51870055006539:faf9cc3d2c16e406d3bf2369ce2d8d2e&quantity=0
+              - text: Remover
+      - contentinfo [ref=e816]:
+        - generic [ref=e817]:
+          - generic [ref=e818]:
+            - generic [ref=e819]:
+              - generic [ref=e820]: Total
+              - generic [ref=e824]:
+                - generic [ref=e825]: €34,90 EUR VAT incl.
+                - generic [ref=e826]: €28,84 EUR VAT excl.
+            - paragraph [ref=e827]:
+              - text: IVA incluído.
+              - link "Envio" [ref=e828] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+              - text: calculado na finalização da compra.
+            - button "Adicionar nota de pedido" [ref=e829] [cursor=pointer]
+          - link "Ver carrinho" [ref=e831] [cursor=pointer]:
+            - /url: /pt/cart?cart_build=20260415g
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - link "comprar tudo" [ref=e91] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e92]: /
+      - link "kits" [ref=e93] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e94]: /
+      - link "kits de amostras de fragrâncias" [ref=e95] [cursor=pointer]:
+        - /url: /pt/collections/kits-de-amostras-de-fragrancias
+      - generic [ref=e96]: /
+      - generic [ref=e97]: Kit de fragrâncias clássicas para todas as estações
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e105]:
+          - img "All Seasons Classics fragrance oil test kit with 10 scents for candle and home fragrance makers" [ref=e107]
+          - img "Ten fragrance oils from the All Seasons Classics test kit for candles, wax melts and diffusers" [ref=e109]
+        - generic [ref=e111]:
+          - button "Ir para o item 1" [ref=e112] [cursor=pointer]:
+            - img "All Seasons Classics fragrance oil test kit with 10 scents for candle and home fragrance makers" [ref=e113]
+          - button "Ir para o item 2" [ref=e114] [cursor=pointer]:
+            - img "Ten fragrance oils from the All Seasons Classics test kit for candles, wax melts and diffusers" [ref=e115]
+      - generic [ref=e116]:
+        - heading "Kit de fragrâncias clássicas para todas as estações" [level=1] [ref=e118]
+        - generic [ref=e122] [cursor=pointer]:
+          - button "5.00 stars" [ref=e123]:
+            - generic [ref=e124]: 
+            - generic [ref=e125]: 
+            - generic [ref=e126]: 
+            - generic [ref=e127]: 
+            - generic [ref=e128]: 
+          - text: 3 avaliações
+        - separator [ref=e130]
+        - paragraph [ref=e134]: "Apresentamos com orgulho uma seleção de fragrâncias que pode servir de base a qualquer coleção profissional ou amadora. A gama inclui aromas especiados, amadeirados, frescos, florais, frutados e gourmand: perfis intemporais, apreciados pelo nosso público durante todo o ano, que cativam com bouquets olfativos intrigantes. A coleção é uma escolha ideal para fabrico de velas, sprays de ambiente e de almofada, sabonetes sólidos e líquidos, e algumas fragrâncias também são adequadas para criar difusores. Dez frascos de 10 g cada. Lima suculenta e manjericão, madeira de oud e jasmim doce, sálvia e sal marinho, Palo Santo de Marabi, creme de baunilha, patchouli e vetiver, cedro siberiano e bergamota, moscatel e figo, ópio e almíscar e rosa e champanhe."
+        - generic [ref=e137]:
+          - generic [ref=e138] [cursor=pointer]: Quantidade
+          - generic [ref=e139]:
+            - button "Diminuir quantidade" [ref=e140] [cursor=pointer]
+            - spinbutton "Quantidade" [ref=e142]: "1"
+            - button "Aumentar quantidade" [ref=e143] [cursor=pointer]
+        - generic [ref=e149]:
+          - generic [ref=e150]: Preço de venda
+          - generic [ref=e645]:
+            - generic [ref=e646]: €34,90 EUR IVA incl.
+            - generic [ref=e647]: €28,84 EUR IVA excl.
+        - button "Adicionar ao carrinho" [active] [ref=e158] [cursor=pointer]:
+          - generic [ref=e159]: Adicionar ao carrinho
+    - generic [ref=e165]:
+      - generic [ref=e166]:
+        - heading "Comentários de Clientes Avaliações de clientes" [level=2] [ref=e648]
+        - generic [ref=e168]:
+          - generic [ref=e170]:
+            - img "A classificação média é de 5.00 estrelas" [ref=e171]:
+              - generic [ref=e172]: 
+              - generic [ref=e173]: 
+              - generic [ref=e174]: 
+              - generic [ref=e175]: 
+              - generic [ref=e176]: 
+              - text: 5,00 de 5
+            - generic [ref=e177]:
+              - text: Com base em 3 avaliações
+              - img "Verified Checkmark" [ref=e649]
+          - generic [ref=e178]:
+            - generic [ref=e179] [cursor=pointer]:
+              - button "100% (3) avaliações com classificação de 5 estrelas" [ref=e180]:
+                - generic [ref=e181]: 
+                - generic [ref=e182]: 
+                - generic [ref=e183]: 
+                - generic [ref=e184]: 
+                - generic [ref=e185]: 
+              - generic [ref=e188]: "3"
+            - generic:
+              - button "0% (0) avaliações com classificação de 4 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 3 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 2 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 1 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+        - generic [ref=e191]:
+          - textbox "Pesquisa" [ref=e192]
+          - text: 
+      - generic [ref=e195]:
+        - combobox "Sort dropdown" [ref=e196] [cursor=pointer]:
+          - option "Mais recentes" [selected]
+          - option "Classificação mais alta"
+          - option "Classificação mais baixa"
+          - option "Apenas fotografias"
+          - option "Fotografias primeiro"
+          - option "Vídeos Primeiro"
+          - option "Mais úteis"
+        - generic [ref=e197]: 
+      - generic [ref=e198]:
+        - generic [ref=e653]:
+          - generic [ref=e654]:
+            - img "avaliação de 5 estrelas" [ref=e655]:
+              - generic [ref=e656]: 
+              - generic [ref=e657]: 
+              - generic [ref=e658]: 
+              - generic [ref=e659]: 
+              - generic [ref=e660]: 
+            - generic [ref=e661]: 15/08/2025
+          - generic [ref=e662]:
+            - generic [ref=e663]:  
+            - generic [ref=e664]:
+              - text: Marek Trojak
+              - generic [ref=e666]: Verificado
+        - generic [ref=e202]:
+          - heading "Avaliações noutros idiomas" [level=3] [ref=e203]
+          - generic [ref=e669]:
+            - generic [ref=e670]:
+              - generic [ref=e671]:
+                - generic [ref=e672]:
+                  - img "avaliação de 5 estrelas" [ref=e673]:
+                    - generic [ref=e674]: 
+                    - generic [ref=e675]: 
+                    - generic [ref=e676]: 
+                    - generic [ref=e677]: 
+                    - generic [ref=e678]: 
+                  - generic [ref=e679]: 10/08/2025
+                - generic [ref=e680]:
+                  - generic [ref=e681]:  
+                  - generic [ref=e682]:
+                    - text: Anna Kress
+                    - generic [ref=e684]: Verificado
+              - paragraph [ref=e688]: Adorei, grande seleção, gostei de todos. Vou usá-los bastante.
+              - button "Traduzir avaliação para português europeu" [ref=e691] [cursor=pointer]
+            - generic [ref=e692]:
+              - generic [ref=e693]:
+                - generic [ref=e694]:
+                  - img "avaliação de 5 estrelas" [ref=e695]:
+                    - generic [ref=e696]: 
+                    - generic [ref=e697]: 
+                    - generic [ref=e698]: 
+                    - generic [ref=e699]: 
+                    - generic [ref=e700]: 
+                  - generic [ref=e701]: 30/06/2025
+                - generic [ref=e702]:
+                  - generic [ref=e703]:  
+                  - generic [ref=e704]:
+                    - text: Laura Fischer
+                    - generic [ref=e706]: Verificado
+              - paragraph [ref=e710]: Encomendei o Kit de Fragrâncias Clássicas para todas as estações para experimentar um novo fornecedor. Selecionei sete fragrâncias que vou agora adicionar à minha coleção. A primeira impressão é excelente.
+              - button "Traduzir avaliação para português europeu" [ref=e713] [cursor=pointer]
+    - generic [ref=e208]:
+      - generic [ref=e210]:
+        - heading "Ver produtos semelhantes Ver produtos semelhantes" [level=2] [ref=e211]:
+          - text: Ver produtos semelhantes
+          - generic [ref=e213]: Ver produtos semelhantes
+        - paragraph [ref=e214]: Explore os nossos produtos para fabrico de velas e difusores, cuidadosamente escolhidos pela sua performance excecional e fiabilidade.
+      - generic [ref=e216]:
+        - generic [ref=e219]:
+          - generic [ref=e220]:
+            - generic [ref=e221]:
+              - link "My First Collection fragrance oil kit with 10 scents for candle and home fragrance makers Ten fragrance oils from the My First Collection kit for candles, wax melts, sprays and diffusers" [ref=e222] [cursor=pointer]:
+                - /url: /pt/products/my-first-collection-fragrance-oils-kit?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=10629469995339&pr_ref_pid=10629474386251&pr_seq=uniform
+                - img "My First Collection fragrance oil kit with 10 scents for candle and home fragrance makers" [ref=e223]
+                - img "Ten fragrance oils from the My First Collection kit for candles, wax melts, sprays and diffusers" [ref=e224]
+              - checkbox "Add to wishlist button" [ref=e714] [cursor=pointer]:
+                - img [ref=e715]
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - link "Kit de fragrâncias da minha primeira coleção" [ref=e230] [cursor=pointer]:
+                  - /url: /pt/products/my-first-collection-fragrance-oils-kit?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=10629469995339&pr_ref_pid=10629474386251&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e231] [cursor=pointer]:
+                  - /url: /pt/products/my-first-collection-fragrance-oils-kit?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=10629469995339&pr_ref_pid=10629474386251&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e232]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e233]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Preço de venda
+                - generic [ref=e717]:
+                  - generic [ref=e718]: €34,90 EUR IVA incl.
+                  - generic [ref=e719]: €28,84 EUR IVA excl.
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - link "Autumn and Holidays fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers Ten autumn and holiday fragrance oils from the seasonal test kit for candles, wax melts and diffusers" [ref=e243] [cursor=pointer]:
+                - /url: /pt/products/autumn-and-holidays-fragrance-oils-2025-kit?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10627766387019&pr_ref_pid=10629474386251&pr_seq=uniform
+                - img "Autumn and Holidays fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers" [ref=e244]
+                - img "Ten autumn and holiday fragrance oils from the seasonal test kit for candles, wax melts and diffusers" [ref=e245]
+              - checkbox "Add to wishlist button" [ref=e720] [cursor=pointer]:
+                - img [ref=e721]
+            - generic [ref=e248]:
+              - generic [ref=e249]:
+                - link "Kit de fragrâncias de outono e festas" [ref=e251] [cursor=pointer]:
+                  - /url: /pt/products/autumn-and-holidays-fragrance-oils-2025-kit?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10627766387019&pr_ref_pid=10629474386251&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e252] [cursor=pointer]:
+                  - /url: /pt/products/autumn-and-holidays-fragrance-oils-2025-kit?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10627766387019&pr_ref_pid=10629474386251&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e253]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e254]
+              - generic [ref=e258]:
+                - generic [ref=e259]: Preço de venda
+                - generic [ref=e723]:
+                  - generic [ref=e724]: €34,90 EUR IVA incl.
+                  - generic [ref=e725]: €28,84 EUR IVA excl.
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - link "Winter fragrance oil test kit with seasonal scents for candle and home fragrance makers Winter-themed fragrance oils from the test kit for candles, sprays and diffusers" [ref=e264] [cursor=pointer]:
+                - /url: /pt/products/winter-fragrances-kit?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=14851663167819&pr_ref_pid=10629474386251&pr_seq=uniform
+                - img "Winter fragrance oil test kit with seasonal scents for candle and home fragrance makers" [ref=e265]
+                - img "Winter-themed fragrance oils from the test kit for candles, sprays and diffusers" [ref=e266]
+              - checkbox "Add to wishlist button" [ref=e726] [cursor=pointer]:
+                - img [ref=e727]
+            - generic [ref=e269]:
+              - generic [ref=e270]:
+                - link "Kit de fragrâncias de inverno" [ref=e272] [cursor=pointer]:
+                  - /url: /pt/products/winter-fragrances-kit?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=14851663167819&pr_ref_pid=10629474386251&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e273] [cursor=pointer]:
+                  - /url: /pt/products/winter-fragrances-kit?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=14851663167819&pr_ref_pid=10629474386251&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e274]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e275]
+              - generic [ref=e279]:
+                - generic [ref=e280]: Preço de venda
+                - generic [ref=e729]:
+                  - generic [ref=e730]: €39,91 EUR IVA incl.
+                  - generic [ref=e731]: €32,98 EUR IVA excl.
+          - generic [ref=e283]:
+            - generic [ref=e284]:
+              - link "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e285] [cursor=pointer]:
+                - /url: /pt/products/summer-2026-fragrance-oils-kit?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10627781984587&pr_ref_pid=10629474386251&pr_seq=uniform
+                - img "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers" [ref=e286]
+                - img "Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e287]
+              - checkbox "Add to wishlist button" [ref=e732] [cursor=pointer]:
+                - img [ref=e733]
+            - generic [ref=e290]:
+              - generic [ref=e291]:
+                - link "Kit de fragrâncias de verão" [ref=e293] [cursor=pointer]:
+                  - /url: /pt/products/summer-2026-fragrance-oils-kit?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10627781984587&pr_ref_pid=10629474386251&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e294] [cursor=pointer]:
+                  - /url: /pt/products/summer-2026-fragrance-oils-kit?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10627781984587&pr_ref_pid=10629474386251&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e295]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e296]
+              - generic [ref=e300]:
+                - generic [ref=e301]: Preço de venda
+                - generic [ref=e735]:
+                  - generic [ref=e736]: €34,90 EUR IVA incl.
+                  - generic [ref=e737]: €28,84 EUR IVA excl.
+          - generic [ref=e304]:
+            - generic [ref=e305]:
+              - link "Simply Delicious fragrance oil test kit with 10 dessert-inspired scents for candles and home fragrance making Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e306] [cursor=pointer]:
+                - /url: /pt/products/simply-delicious-fragrances-kit?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=14833955602763&pr_ref_pid=10629474386251&pr_seq=uniform
+                - img "Simply Delicious fragrance oil test kit with 10 dessert-inspired scents for candles and home fragrance making" [ref=e307]
+                - img "Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e308]
+              - checkbox "Add to wishlist button" [ref=e738] [cursor=pointer]:
+                - img [ref=e739]
+            - generic [ref=e311]:
+              - generic [ref=e312]:
+                - link "Kit de fragrâncias deliciosas" [ref=e314] [cursor=pointer]:
+                  - /url: /pt/products/simply-delicious-fragrances-kit?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=14833955602763&pr_ref_pid=10629474386251&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e315] [cursor=pointer]:
+                  - /url: /pt/products/simply-delicious-fragrances-kit?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=14833955602763&pr_ref_pid=10629474386251&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e316]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e317]
+              - generic [ref=e321]:
+                - generic [ref=e322]: Preço de venda
+                - generic [ref=e741]:
+                  - generic [ref=e742]: €39,91 EUR IVA incl.
+                  - generic [ref=e743]: €32,98 EUR IVA excl.
+          - generic [ref=e325]:
+            - generic [ref=e326]:
+              - link "Kit de arranque para negócio de perfumaria para a casa Golden Wax 464 soy wax pellets package" [ref=e327] [cursor=pointer]:
+                - /url: /pt/products/home-fragrances-business-starter-kit?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=15631459254603&pr_ref_pid=10629474386251&pr_seq=uniform
+                - img "Kit de arranque para negócio de perfumaria para a casa" [ref=e328]
+                - img "Golden Wax 464 soy wax pellets package" [ref=e329]
+              - checkbox "Add to wishlist button" [ref=e744] [cursor=pointer]:
+                - img [ref=e745]
+            - generic [ref=e332]:
+              - link "Kit de arranque para negócio de perfumaria para a casa" [ref=e335] [cursor=pointer]:
+                - /url: /pt/products/home-fragrances-business-starter-kit?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=15631459254603&pr_ref_pid=10629474386251&pr_seq=uniform
+              - generic [ref=e338]:
+                - generic [ref=e339]: Preço de venda
+                - generic [ref=e747]:
+                  - generic [ref=e748]: €131,89 EUR IVA incl.
+                  - generic [ref=e749]: €109,00 EUR IVA excl.
+          - generic [ref=e342]:
+            - generic [ref=e343]:
+              - link "Vibrant Burgundy liquid candle dye Vibrant Burgundy liquid candle dye in bottles of different sizes" [ref=e344] [cursor=pointer]:
+                - /url: /pt/products/vibrant-burgundy-liquid-dye?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=10626570191179&pr_ref_pid=10629474386251&pr_seq=uniform
+                - img "Vibrant Burgundy liquid candle dye" [ref=e345]
+                - img "Vibrant Burgundy liquid candle dye in bottles of different sizes" [ref=e346]
+              - checkbox "Add to wishlist button" [ref=e750] [cursor=pointer]:
+                - img [ref=e751]
+            - generic [ref=e349]:
+              - generic [ref=e350]:
+                - link "Corante líquido Vibrant bordeaux" [ref=e352] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-burgundy-liquid-dye?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=10626570191179&pr_ref_pid=10629474386251&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e353] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-burgundy-liquid-dye?pr_prod_strat=jac&pr_rec_id=350c0ee1a&pr_rec_pid=10626570191179&pr_ref_pid=10629474386251&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e354]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e355]
+              - generic [ref=e359]:
+                - generic [ref=e360]: Preço de venda
+                - text: A partir de
+                - generic [ref=e753]:
+                  - generic [ref=e754]: €6,66 EUR IVA incl.
+                  - generic [ref=e755]: €5,50 EUR IVA excl.
+          - generic [ref=e363]:
+            - generic [ref=e364]:
+              - link "Luscious Lime & Basil Fragrance Oil for Candle, Soap, Perfume and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e365] [cursor=pointer]:
+                - /url: /pt/products/luscious-lime-and-basil-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10625463058763&pr_ref_pid=10629474386251&pr_seq=uniform
+                - img "Luscious Lime & Basil Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e366]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e367]
+              - checkbox "Add to wishlist button" [ref=e756] [cursor=pointer]:
+                - img [ref=e757]
+            - generic [ref=e370]:
+              - generic [ref=e371]:
+                - link "Óleo de fragrância lima suculenta e manjericão" [ref=e373] [cursor=pointer]:
+                  - /url: /pt/products/luscious-lime-and-basil-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10625463058763&pr_ref_pid=10629474386251&pr_seq=uniform
+                - link "4.8 4.8 fora de 5.0 estrelas" [ref=e374] [cursor=pointer]:
+                  - /url: /pt/products/luscious-lime-and-basil-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10625463058763&pr_ref_pid=10629474386251&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e375]: "4.8"
+                  - img "4.8 fora de 5.0 estrelas" [ref=e376]
+              - generic [ref=e380]:
+                - generic [ref=e381]: Preço de venda
+                - text: A partir de
+                - generic [ref=e759]:
+                  - generic [ref=e760]: €3,22 EUR IVA incl.
+                  - generic [ref=e761]: €2,66 EUR IVA excl.
+          - generic [ref=e384]:
+            - generic [ref=e385]:
+              - link "Sage & Seasalt Fragrance Oil for Candle, Soap, Perfume and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e386] [cursor=pointer]:
+                - /url: /pt/products/sage-seasalt-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10625458700619&pr_ref_pid=10629474386251&pr_seq=uniform
+                - img "Sage & Seasalt Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e387]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e388]
+              - checkbox "Add to wishlist button" [ref=e762] [cursor=pointer]:
+                - img [ref=e763]
+            - generic [ref=e391]:
+              - generic [ref=e392]:
+                - link "Óleo de fragrância sálvia e sal marinho" [ref=e394] [cursor=pointer]:
+                  - /url: /pt/products/sage-seasalt-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10625458700619&pr_ref_pid=10629474386251&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e395] [cursor=pointer]:
+                  - /url: /pt/products/sage-seasalt-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10625458700619&pr_ref_pid=10629474386251&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e396]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e397]
+              - generic [ref=e401]:
+                - generic [ref=e402]: Preço de venda
+                - text: A partir de
+                - generic [ref=e765]:
+                  - generic [ref=e766]: €3,70 EUR IVA incl.
+                  - generic [ref=e767]: €3,06 EUR IVA excl.
+          - generic [ref=e405]:
+            - generic [ref=e406]:
+              - link "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e407] [cursor=pointer]:
+                - /url: /pt/products/rose-champagne-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10627698819403&pr_ref_pid=10629474386251&pr_seq=uniform
+                - img "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e408]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e409]
+              - checkbox "Add to wishlist button" [ref=e768] [cursor=pointer]:
+                - img [ref=e769]
+            - generic [ref=e412]:
+              - generic [ref=e413]:
+                - link "Óleo de fragrância rosa e champanhe" [ref=e415] [cursor=pointer]:
+                  - /url: /pt/products/rose-champagne-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10627698819403&pr_ref_pid=10629474386251&pr_seq=uniform
+                - link "4.8 4.8 fora de 5.0 estrelas" [ref=e416] [cursor=pointer]:
+                  - /url: /pt/products/rose-champagne-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=350c0ee1a&pr_rec_pid=10627698819403&pr_ref_pid=10629474386251&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e417]: "4.8"
+                  - img "4.8 fora de 5.0 estrelas" [ref=e418]
+              - generic [ref=e422]:
+                - generic [ref=e423]: Preço de venda
+                - text: A partir de
+                - generic [ref=e771]:
+                  - generic [ref=e772]: €3,70 EUR IVA incl.
+                  - generic [ref=e773]: €3,06 EUR IVA excl.
+        - generic [ref=e428]:
+          - button "Anterior" [disabled]:
+            - generic: Anterior
+          - button "Seguinte" [ref=e429] [cursor=pointer]:
+            - generic [ref=e430]: Seguinte
+    - generic [ref=e434]:
+      - generic [ref=e435]:
+        - generic [ref=e437]:
+          - paragraph [ref=e438]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e440]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e442]:
+            - generic [ref=e443]:
+              - textbox "E-mail" [ref=e444]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e446] [cursor=pointer]:
+              - generic [ref=e447]: Subscrever
+        - generic [ref=e448]:
+          - paragraph [ref=e449]: ajuda e informações
+          - list [ref=e450]:
+            - listitem [ref=e451]:
+              - link "contacte-nos" [ref=e452] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e453]:
+              - link "estado da encomenda" [ref=e454] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e455]:
+              - link "apoio ao cliente" [ref=e456] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e457]:
+              - link "aprendizagem" [ref=e458] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e459]:
+              - link "FAQ e ajuda" [ref=e460] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e461]:
+          - paragraph [ref=e462]: as nossas lojas
+          - list [ref=e463]:
+            - listitem [ref=e464]:
+              - link "comprar em Espanha" [ref=e465] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e466]:
+              - link "loja UE em inglês" [ref=e467] [cursor=pointer]:
+                - /url: /pt
+            - listitem [ref=e468]:
+              - link "loja UE em francês" [ref=e469] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e470]:
+              - link "Loja UE em alemão" [ref=e471] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e472]:
+          - paragraph [ref=e473]: políticas da loja
+          - list [ref=e474]:
+            - listitem [ref=e475]:
+              - link "sobre nós" [ref=e476] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e477]:
+              - link "política de privacidade" [ref=e478] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e479]:
+              - link "política de envios e devoluções" [ref=e480] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e481]:
+              - link "termos de serviço" [ref=e482] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e484]:
+        - list [ref=e485]:
+          - listitem [ref=e486]:
+            - img "American Express" [ref=e487]
+          - listitem [ref=e496]:
+            - img "Apple Pay" [ref=e497]
+          - listitem [ref=e508]:
+            - img "Bancontact" [ref=e509]
+          - listitem [ref=e516]:
+            - img "Google Pay" [ref=e517]
+          - listitem [ref=e525]:
+            - img "iDEAL Wero" [ref=e526]
+          - listitem [ref=e541]:
+            - img "Klarna" [ref=e542]
+          - listitem [ref=e546]:
+            - img "Maestro" [ref=e547]
+          - listitem [ref=e553]:
+            - img "Mastercard" [ref=e554]
+          - listitem [ref=e560]:
+            - img "PayPal" [ref=e561]
+          - listitem [ref=e567]:
+            - img "Shop Pay" [ref=e568]
+          - listitem [ref=e572]:
+            - img "Union Pay" [ref=e573]
+          - listitem [ref=e579]:
+            - img "Visa" [ref=e580]
+        - generic [ref=e584]:
+          - paragraph [ref=e585]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e586] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e587]:
+            - listitem [ref=e588]:
+              - link "Política de privacidade" [ref=e589] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e590]:
+              - text: •
+              - link "Política de devoluções" [ref=e591] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e592]:
+              - text: •
+              - link "Termos de serviço" [ref=e593] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e594]:
+              - text: •
+              - link "Política de envios" [ref=e595] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e596]:
+              - text: •
+              - link "Preferências de cookies" [ref=e597] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner
+  - iframe [ref=e774]:
+    
+  - iframe [ref=e776]:
+    - generic [active] [ref=f3e1]:
+      - generic "Мессенджер":
+        - region "Мессенджер Intercom":
+          - button "Открыть службу сообщений Intercom" [ref=f3e2] [cursor=pointer]:
+            - img [ref=f3e4]
+            - img [ref=f3e7]

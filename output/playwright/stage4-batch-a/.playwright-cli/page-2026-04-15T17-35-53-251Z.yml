@@ -1,0 +1,56 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: Iniciar sessão
+      - button [ref=e7] [cursor=pointer]
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: Enviaremos um código único (OTP) para o seu e-mail para um início de sessão seguro.
+      - generic [ref=e12]:
+        - textbox "E-mail" [ref=e13]
+        - generic: E-mail
+      - button "Continuar" [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]: Continuar
+      - link "Criar conta" [ref=e16] [cursor=pointer]:
+        - /url: /pt/apps/deluxe/account/register
+  - alertdialog "Consentimento de cookies" [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Consentimento de cookies" [level=2] [ref=e20]
+        - paragraph [ref=e21]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e22] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e23]:
+        - button "Gerir preferências" [ref=e24] [cursor=pointer]
+        - button "Aceitar" [ref=e25] [cursor=pointer]
+        - button "Rejeitar" [ref=e26] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e27] [cursor=pointer]:
+    - /url: /pt#main
+  - main [ref=e28]:
+    - navigation "breadcrumbs" [ref=e32]:
+      - link "Home" [ref=e33] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e34]: /
+      - generic [ref=e35]: Marca própria
+    - heading "Marca própria" [level=1] [ref=e40]
+  - iframe [ref=e42]:
+    - generic [ref=f1e4]:
+      - button [ref=f1e7] [cursor=pointer]:
+        - img [ref=f1e9]
+        - img [ref=f1e12]
+      - generic [ref=f1e15]:
+        - generic [ref=f1e18]:
+          - link "Logo" [ref=f1e19] [cursor=pointer]:
+            - /url: https://admin.shopify.com/store/3rcue2-me
+            - img "Logo" [ref=f1e20]
+          - generic [ref=f1e22]:
+            - generic [ref=f1e23]: pt-fresh-clone-2026-04-15T12-42-06
+            - generic [ref=f1e24]: Draft
+        - generic [ref=f1e26]:
+          - button "Hide bar" [ref=f1e28] [cursor=pointer]:
+            - generic [ref=f1e29]: Hide bar
+          - button "Exit preview" [ref=f1e31] [cursor=pointer]:
+            - generic [ref=f1e32]: Exit preview
+          - button "Copy link" [ref=f1e35] [cursor=pointer]:
+            - img [ref=f1e39]
+            - generic [ref=f1e41]: Copy link

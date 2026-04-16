@@ -1,0 +1,804 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 Unid" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 Unid
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - link "comprar tudo" [ref=e91] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e92]: /
+      - link "novidades" [ref=e93] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e94]: /
+      - link "materiais para fabrico de velas" [ref=e95] [cursor=pointer]:
+        - /url: /pt/collections/candle-making-supplies
+      - generic [ref=e96]: /
+      - generic [ref=e97]: Cera Golden Wax™ 464 para velas em recipiente
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e105]:
+          - img "Golden Wax 464 soy wax pellets for container candles" [ref=e107]
+          - img "Golden Wax 464 soy wax pellets package" [ref=e109]
+        - generic [ref=e111]:
+          - button "Ir para o item 1" [ref=e112] [cursor=pointer]:
+            - img "Golden Wax 464 soy wax pellets for container candles" [ref=e113]
+          - button "Ir para o item 2" [ref=e114] [cursor=pointer]:
+            - img "Golden Wax 464 soy wax pellets package" [ref=e115]
+      - generic [ref=e116]:
+        - heading "Cera Golden Wax™ 464 para velas em recipiente" [level=1] [ref=e118]
+        - link "5.0 5.0 fora de 5.0 estrelas" [ref=e121] [cursor=pointer]:
+          - /url: "#shopify-product-reviews"
+          - generic [ref=e122]: "5.0"
+          - img "5.0 fora de 5.0 estrelas" [ref=e123]
+        - separator [ref=e126]
+        - paragraph [ref=e130]: Golden Wax™ 464 é uma das ceras de soja de referência mundial para velas em recipiente, produzida na Suécia pelo grupo sueco-dinamarquês AAK para oferecer estabilidade e desempenho excecional. Esta cera de soja premium, 100% natural, proporciona resultados impecáveis, ajudando a criar velas lisas e vibrantes, com excelente difusão do aroma. Na AROMA + WAX, usamos esta cera para criar as nossas próprias velas e recomendamos vivamente a sua utilização nas suas. Vendida em pastilhas.
+        - group [ref=e134]:
+          - generic [ref=e136]:
+            - generic [ref=e137]: Peso
+            - generic [ref=e138]: 1 quilograma
+          - generic [ref=e140]:
+            - radio "1 quilograma" [checked] [ref=e141] [cursor=pointer]
+            - generic [ref=e143] [cursor=pointer]: 1 quilograma
+            - radio "5kg" [ref=e144] [cursor=pointer]
+            - generic [ref=e146] [cursor=pointer]: 5kg
+            - radio "16 quilogramas" [ref=e147] [cursor=pointer]
+            - generic [ref=e149] [cursor=pointer]: 16 quilogramas
+        - link "Contacte-nos para encomendas acima de 100 kg." [ref=e152] [cursor=pointer]:
+          - /url: /pt/pages/grossista
+        - generic [ref=e155]:
+          - generic [ref=e156] [cursor=pointer]: Quantidade
+          - generic [ref=e157]:
+            - button "Diminuir quantidade" [ref=e158] [cursor=pointer]
+            - spinbutton "Quantidade" [ref=e160]: "1"
+            - button "Aumentar quantidade" [ref=e161] [cursor=pointer]
+        - generic [ref=e167]:
+          - generic [ref=e168]: Preço de venda
+          - generic [ref=e171]:
+            - generic [ref=e172]: €8,23 EUR IVA incl.
+            - generic [ref=e173]: €6,80 EUR IVA excl.
+        - button "Adicionar ao carrinho" [ref=e179] [cursor=pointer]:
+          - generic [ref=e180]: Adicionar ao carrinho
+        - generic [ref=e182]:
+          - generic [ref=e183]: Detalhes ecológicos e de segurança
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - img [ref=e186]
+              - text: Produto vegano
+            - generic [ref=e187]:
+              - img [ref=e188]
+              - text: Não testado em animais
+            - generic [ref=e189]:
+              - img [ref=e190]
+              - text: Não tóxico
+            - generic [ref=e191]:
+              - img [ref=e192]
+              - text: De origem vegetal
+            - generic [ref=e193]:
+              - img [ref=e194]
+              - text: Seguro para a pele
+            - generic [ref=e195]:
+              - img [ref=e196]
+              - text: Recipiente
+            - generic [ref=e197]:
+              - img [ref=e198]
+              - text: Cera de soja
+            - generic [ref=e199]:
+              - img [ref=e200]
+              - text: Pastilhas
+        - generic [ref=e203]:
+          - heading "Detalhes do produto" [level=3] [ref=e204]
+          - generic [ref=e205]:
+            - paragraph [ref=e206]:
+              - link "Ficha de Dados de Segurança" [ref=e207] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/SDS_GOLDEN_WAX_464_SE-en_v1_0.pdf?v=1764152342
+            - paragraph [ref=e208]:
+              - link "Ficha técnica do produto" [ref=e209] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/GOLDEN_WAX_464_PDS.pdf?v=1764151899
+        - generic [ref=e212]:
+          - generic [ref=e213]: Propriedades
+          - list [ref=e214]:
+            - listitem [ref=e215]:
+              - generic [ref=e216]: Tipo
+              - text: Cera de soja
+            - listitem [ref=e217]:
+              - generic [ref=e218]: Forma
+              - generic [ref=e219]: Pastilhas
+            - listitem [ref=e220]:
+              - generic [ref=e221]: Aspeto
+              - generic [ref=e222]: Cremoso, suave
+            - listitem [ref=e223]:
+              - generic [ref=e224]: Séries de pavios recomendadas
+              - generic [ref=e225]: ST, TCR, pavios de madeira
+            - listitem [ref=e226]:
+              - generic [ref=e227]: Ponto de fusão
+              - generic [ref=e228]: 50°C
+            - listitem [ref=e229]:
+              - generic [ref=e230]: Temperatura máxima de aquecimento
+              - generic [ref=e231]: 85-90°C
+            - listitem [ref=e232]:
+              - generic [ref=e233]: Temperatura de adição de fragrância e corante
+              - generic [ref=e234]: 65-75°C
+            - listitem [ref=e235]:
+              - generic [ref=e236]: Temperatura de vertimento
+              - generic [ref=e237]: 55-65°C
+            - listitem [ref=e238]:
+              - generic [ref=e239]: Teor de fragrância
+              - generic [ref=e240]: 5-12%
+            - listitem [ref=e241]:
+              - generic [ref=e242]: Teor de corante
+              - generic [ref=e243]: 0.1-0.4%
+            - listitem [ref=e244]:
+              - generic [ref=e245]: Intervalo de temperatura de armazenamento (recomendado)
+              - generic [ref=e246]: 5-35°C (18-25°C)
+        - generic [ref=e249]:
+          - generic [ref=e250]: Utilização recomendada
+          - list [ref=e251]:
+            - listitem [ref=e252]:
+              - generic [ref=e253]: Velas em recipiente
+              - generic [ref=e254]: Sim
+            - listitem [ref=e255]:
+              - generic [ref=e256]: Velas pilar
+              - generic [ref=e257]: Não
+            - listitem [ref=e258]:
+              - generic [ref=e259]: Velas tealight
+              - generic [ref=e260]: Pode exigir testes
+            - listitem [ref=e261]:
+              - generic [ref=e262]: wax melts
+              - generic [ref=e263]: Pode exigir testes
+            - listitem [ref=e264]:
+              - generic [ref=e265]: Perfume sólido em cera
+              - generic [ref=e266]: Sim (ver certificado de segurança para a pele)
+        - generic [ref=e269]:
+          - heading "Guias Práticos" [level=3] [ref=e270]
+          - generic [ref=e271]:
+            - paragraph [ref=e272]:
+              - link "Como escolher a cera" [ref=e273] [cursor=pointer]:
+                - /url: https://aromawax.eu/pt/blogs/how-to-make-candles/how-to-choose-wax
+            - paragraph [ref=e274]:
+              - link "Como escolher o pavio perfeito para a sua vela" [ref=e275] [cursor=pointer]:
+                - /url: https://aromawax.eu/pt/blogs/news/how-to-choose-the-perfect-wick-for-your-candle/
+            - paragraph [ref=e276]:
+              - link "Como fazer velas em recipiente" [ref=e277] [cursor=pointer]:
+                - /url: https://aromawax.eu/pt/blogs/how-to-make-candles/how-to-make-container-candles-candle-making-guide#
+            - paragraph [ref=e278]:
+              - link "Tabela de dimensionamento de pavios para os pavios TCR e Stabilo Series da AROMA + WAX" [ref=e279] [cursor=pointer]:
+                - /url: https://aromawax.eu/pt/pages/wick-sizing-chart-for-aroma-and-wax-tcr-and-stabilo-series-wicks
+        - generic [ref=e283]:
+          - paragraph [ref=e284]: Embalagem de 1 kg = 7,55 por quilo
+          - paragraph [ref=e285]: Embalagem de 5 kg = 6,81 por quilo
+          - paragraph [ref=e286]: Embalagem de 16 kg = 6,46 por quilo
+    - generic [ref=e292]:
+      - generic [ref=e293]:
+        - heading "Avaliações de clientes" [level=2] [ref=e294]
+        - generic [ref=e295]:
+          - generic [ref=e297]:
+            - img "A classificação média é de 5.00 estrelas" [ref=e298]:
+              - generic [ref=e299]: 
+              - generic [ref=e300]: 
+              - generic [ref=e301]: 
+              - generic [ref=e302]: 
+              - generic [ref=e303]: 
+              - text: 5.00 de 5
+            - generic [ref=e304]:
+              - text: Com base em 31 avaliações
+              - img "Verified Checkmark" [ref=e305]
+          - generic [ref=e306]:
+            - generic [ref=e307] [cursor=pointer]:
+              - button "100% (31) avaliações com classificação de 5 estrelas" [ref=e308]:
+                - generic [ref=e309]: 
+                - generic [ref=e310]: 
+                - generic [ref=e311]: 
+                - generic [ref=e312]: 
+                - generic [ref=e313]: 
+              - generic [ref=e316]: "31"
+            - generic:
+              - button "0% (0) avaliações com classificação de 4 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 3 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 2 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 1 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic "Bronze Authentic Shop. At least 80% of published reviews are verified reviews" [ref=e322]:
+              - link "Judge.me Bronze Authentic Shop medal 89.3" [ref=e323] [cursor=pointer]:
+                - /url: https://app.judge.me/reviews/medals
+                - img "Judge.me Bronze Authentic Shop medal" [ref=e325]
+                - generic [ref=e326]: "89.3"
+            - generic "Gold Transparent Shop. Published at least 95% of verified reviews received in total" [ref=e327]:
+              - link "Judge.me Gold Transparent Shop medal 96.2" [ref=e328] [cursor=pointer]:
+                - /url: https://app.judge.me/reviews/medals
+                - img "Judge.me Gold Transparent Shop medal" [ref=e330]
+                - generic [ref=e331]: "96.2"
+          - generic [ref=e332]:
+            - link "Verificado" [ref=e333] [cursor=pointer]:
+              - /url: https://app.judge.me/reviews/medals
+            - img [ref=e334]
+        - generic [ref=e337]:
+          - textbox "Pesquisa" [ref=e338]
+          - text: 
+      - generic [ref=e341]:
+        - combobox "Sort dropdown" [ref=e342] [cursor=pointer]:
+          - option "Mais recentes" [selected]
+          - option "Classificação mais alta"
+          - option "Classificação mais baixa"
+          - option "Apenas fotografias"
+          - option "Fotografias primeiro"
+          - option "Vídeos Primeiro"
+          - option "Mais úteis"
+        - generic [ref=e343]: 
+      - generic [ref=e344]:
+        - generic [ref=e346]:
+          - generic [ref=e347]:
+            - generic [ref=e349]:
+              - generic [ref=e350]:
+                - img "avaliação de 5 estrelas" [ref=e351]:
+                  - generic [ref=e352]: 
+                  - generic [ref=e353]: 
+                  - generic [ref=e354]: 
+                  - generic [ref=e355]: 
+                  - generic [ref=e356]: 
+                - generic [ref=e357]: 09/03/2026
+              - generic [ref=e358]:
+                - generic [ref=e359]:  
+                - generic [ref=e360]:
+                  - text: Miriam Rosales
+                  - generic [ref=e362]: Verificado
+            - generic [ref=e364]:
+              - generic [ref=e365]:
+                - generic [ref=e366]:
+                  - img "avaliação de 5 estrelas" [ref=e367]:
+                    - generic [ref=e368]: 
+                    - generic [ref=e369]: 
+                    - generic [ref=e370]: 
+                    - generic [ref=e371]: 
+                    - generic [ref=e372]: 
+                  - generic [ref=e373]: 02/03/2026
+                - generic [ref=e374]:
+                  - generic [ref=e375]:  
+                  - generic [ref=e376]:
+                    - text: Anônimo
+                    - generic [ref=e378]: Verificado
+              - generic [ref=e380]:
+                - paragraph [ref=e382]: Qualidade muito boa ☺️
+                - link "Link to user picture 1" [ref=e384] [cursor=pointer]:
+                  - /url: https://judgeme.imgix.net/aroma-wax/1772454677__1772454672483-img_9902__original.jpeg?auto=format&w=1024
+              - button "Traduzir avaliação para português europeu" [ref=e387] [cursor=pointer]
+            - generic [ref=e389]:
+              - generic [ref=e390]:
+                - img "avaliação de 5 estrelas" [ref=e391]:
+                  - generic [ref=e392]: 
+                  - generic [ref=e393]: 
+                  - generic [ref=e394]: 
+                  - generic [ref=e395]: 
+                  - generic [ref=e396]: 
+                - generic [ref=e397]: 13/01/2026
+              - generic [ref=e398]:
+                - generic [ref=e399]:  
+                - generic [ref=e400]:
+                  - text: Argyro Karachristou
+                  - generic [ref=e402]: Verificado
+            - generic [ref=e405]:
+              - generic [ref=e406]:
+                - img "avaliação de 5 estrelas" [ref=e407]:
+                  - generic [ref=e408]: 
+                  - generic [ref=e409]: 
+                  - generic [ref=e410]: 
+                  - generic [ref=e411]: 
+                  - generic [ref=e412]: 
+                - generic [ref=e413]: 12/12/2025
+              - generic [ref=e414]:
+                - generic [ref=e415]:  
+                - generic [ref=e416]:
+                  - text: Pilar Navarro Navarro
+                  - generic [ref=e418]: Verificado
+            - generic [ref=e421]:
+              - generic [ref=e422]:
+                - img "avaliação de 5 estrelas" [ref=e423]:
+                  - generic [ref=e424]: 
+                  - generic [ref=e425]: 
+                  - generic [ref=e426]: 
+                  - generic [ref=e427]: 
+                  - generic [ref=e428]: 
+                - generic [ref=e429]: 21/11/2025
+              - generic [ref=e430]:
+                - generic [ref=e431]:  
+                - generic [ref=e432]:
+                  - text: Olesia Komkova
+                  - generic [ref=e434]: Verificado
+          - generic [ref=e436]:
+            - button "Page 1": "1"
+            - button "Page 2" [ref=e437] [cursor=pointer]: "2"
+            - button "Page 2" [ref=e438] [cursor=pointer]: 
+            - button "Page 2" [ref=e439] [cursor=pointer]: 
+        - generic [ref=e440]:
+          - heading "Avaliações noutros idiomas" [level=3] [ref=e441]
+          - generic [ref=e442]:
+            - generic [ref=e443]:
+              - generic [ref=e444]:
+                - generic [ref=e445]:
+                  - generic [ref=e446]:
+                    - img "avaliação de 5 estrelas" [ref=e447]:
+                      - generic [ref=e448]: 
+                      - generic [ref=e449]: 
+                      - generic [ref=e450]: 
+                      - generic [ref=e451]: 
+                      - generic [ref=e452]: 
+                    - generic [ref=e453]: 30/03/2026
+                  - generic [ref=e454]:
+                    - generic [ref=e455]:  
+                    - generic [ref=e456]:
+                      - text: Elena Kotchieva
+                      - generic [ref=e458]: Verificado
+                - paragraph [ref=e462]: Пришло быстро. В герметичной упаковке. Свечки ещё не заливала...
+                - button "Traduzir avaliação para português europeu" [ref=e465] [cursor=pointer]
+              - generic [ref=e466]:
+                - generic [ref=e467]:
+                  - generic [ref=e468]:
+                    - img "avaliação de 5 estrelas" [ref=e469]:
+                      - generic [ref=e470]: 
+                      - generic [ref=e471]: 
+                      - generic [ref=e472]: 
+                      - generic [ref=e473]: 
+                      - generic [ref=e474]: 
+                    - generic [ref=e475]: 18/03/2026
+                  - generic [ref=e476]:
+                    - generic [ref=e477]:  
+                    - generic [ref=e478]:
+                      - text: Nicolek
+                      - generic [ref=e480]: Verificado
+                - paragraph [ref=e484]: Nice and creamy wax. Great results
+                - button "Traduzir avaliação para português europeu" [ref=e487] [cursor=pointer]
+              - generic [ref=e488]:
+                - generic [ref=e489]:
+                  - generic [ref=e490]:
+                    - img "avaliação de 5 estrelas" [ref=e491]:
+                      - generic [ref=e492]: 
+                      - generic [ref=e493]: 
+                      - generic [ref=e494]: 
+                      - generic [ref=e495]: 
+                      - generic [ref=e496]: 
+                    - generic [ref=e497]: 09/03/2026
+                  - generic [ref=e498]:
+                    - generic [ref=e499]:  
+                    - generic [ref=e500]:
+                      - text: Anônimo
+                      - generic [ref=e502]: Verificado
+                - paragraph [ref=e506]: Sure will buy again
+                - button "Traduzir avaliação para português europeu" [ref=e509] [cursor=pointer]
+            - generic [ref=e510]:
+              - button "Page 1": "1"
+              - button "Page 2" [ref=e511] [cursor=pointer]: "2"
+              - button "Page 3" [ref=e512] [cursor=pointer]: "3"
+              - button "Page 2" [ref=e513] [cursor=pointer]: 
+              - button "Page 8" [ref=e514] [cursor=pointer]: 
+    - generic [ref=e517]:
+      - generic [ref=e519]:
+        - heading "Ver produtos semelhantes Ver produtos semelhantes" [level=2] [ref=e520]:
+          - text: Ver produtos semelhantes
+          - generic [ref=e522]: Ver produtos semelhantes
+        - paragraph [ref=e523]: Explore os nossos produtos para fabrico de velas e difusores, cuidadosamente escolhidos pela sua performance excecional e fiabilidade.
+      - generic [ref=e525]:
+        - generic [ref=e528]:
+          - generic [ref=e529]:
+            - generic [ref=e530]:
+              - link "Stabilo series pre-waxed cotton candle wick for container candles Stabilo series cotton candle wicks with metal tabs" [ref=e531] [cursor=pointer]:
+                - /url: /pt/products/wk-st-stabilo-series-cotton-wicks?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10625354694987&pr_ref_pid=10623858606411&pr_seq=uniform
+                - img "Stabilo series pre-waxed cotton candle wick for container candles" [ref=e532]
+                - img "Stabilo series cotton candle wicks with metal tabs" [ref=e533]
+              - checkbox "Add to wishlist button" [ref=e534] [cursor=pointer]:
+                - img [ref=e535]
+            - generic [ref=e538]:
+              - generic [ref=e539]:
+                - link "Pavios de algodão da série Stabilo" [ref=e541] [cursor=pointer]:
+                  - /url: /pt/products/wk-st-stabilo-series-cotton-wicks?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10625354694987&pr_ref_pid=10623858606411&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e542] [cursor=pointer]:
+                  - /url: /pt/products/wk-st-stabilo-series-cotton-wicks?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10625354694987&pr_ref_pid=10623858606411&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e543]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e544]
+              - generic [ref=e548]:
+                - generic [ref=e549]: Preço de venda
+                - text: A partir de
+                - generic [ref=e552]:
+                  - generic [ref=e553]: €4,60 EUR IVA incl.
+                  - generic [ref=e554]: €3,80 EUR IVA excl.
+          - generic [ref=e555]:
+            - generic [ref=e556]:
+              - link "Golden Wax™ R45+ Rapeseed Сontainer Wax pastilles for professional candle making Golden Wax™ R45+ Rapeseed Сontainer Wax packaging" [ref=e557] [cursor=pointer]:
+                - /url: /pt/products/golden-wax%E2%84%A2-r45-%D1%81ontainer-wax?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=15389283877195&pr_ref_pid=10623858606411&pr_seq=uniform
+                - img "Golden Wax™ R45+ Rapeseed Сontainer Wax pastilles for professional candle making" [ref=e558]
+                - img "Golden Wax™ R45+ Rapeseed Сontainer Wax packaging" [ref=e559]
+              - checkbox "Add to wishlist button" [ref=e560] [cursor=pointer]:
+                - img [ref=e561]
+            - generic [ref=e564]:
+              - link "Cera de colza Golden Wax™ R45+ para velas em recipiente" [ref=e567] [cursor=pointer]:
+                - /url: /pt/products/golden-wax%E2%84%A2-r45-%D1%81ontainer-wax?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=15389283877195&pr_ref_pid=10623858606411&pr_seq=uniform
+              - generic [ref=e570]:
+                - generic [ref=e571]: Preço de venda
+                - text: A partir de
+                - generic [ref=e574]:
+                  - generic [ref=e575]: €8,23 EUR IVA incl.
+                  - generic [ref=e576]: €6,80 EUR IVA excl.
+          - generic [ref=e577]:
+            - generic [ref=e578]:
+              - link "TCR Series pre-waxed cotton candle wicks with metal tab TCR Series cotton candle wicks for container candles" [ref=e579] [cursor=pointer]:
+                - /url: /pt/products/tcr-series-cotton-wicks?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10635984961867&pr_ref_pid=10623858606411&pr_seq=uniform
+                - img "TCR Series pre-waxed cotton candle wicks with metal tab" [ref=e580]
+                - img "TCR Series cotton candle wicks for container candles" [ref=e581]
+              - checkbox "Add to wishlist button" [ref=e582] [cursor=pointer]:
+                - img [ref=e583]
+            - generic [ref=e586]:
+              - generic [ref=e587]:
+                - link "Pavios de algodão da série TCR" [ref=e589] [cursor=pointer]:
+                  - /url: /pt/products/tcr-series-cotton-wicks?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10635984961867&pr_ref_pid=10623858606411&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e590] [cursor=pointer]:
+                  - /url: /pt/products/tcr-series-cotton-wicks?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10635984961867&pr_ref_pid=10623858606411&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e591]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e592]
+              - generic [ref=e596]:
+                - generic [ref=e597]: Preço de venda
+                - text: A partir de
+                - generic [ref=e600]:
+                  - generic [ref=e601]: €4,48 EUR IVA incl.
+                  - generic [ref=e602]: €3,70 EUR IVA excl.
+          - generic [ref=e603]:
+            - generic [ref=e604]:
+              - link "NatureWax™ C-3 Container Soy Wax pastilles NatureWax™ C-3 Container Soy Wax packaging" [ref=e605] [cursor=pointer]:
+                - /url: /pt/products/naturewax%E2%84%A2-c-3-container-soy-wax?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=10625687093579&pr_ref_pid=10623858606411&pr_seq=uniform
+                - img "NatureWax™ C-3 Container Soy Wax pastilles" [ref=e606]
+                - img "NatureWax™ C-3 Container Soy Wax packaging" [ref=e607]
+              - checkbox "Add to wishlist button" [ref=e608] [cursor=pointer]:
+                - img [ref=e609]
+            - generic [ref=e612]:
+              - generic [ref=e613]:
+                - link "Cera de soja NatureWax™ C-3 para velas em recipiente" [ref=e615] [cursor=pointer]:
+                  - /url: /pt/products/naturewax%E2%84%A2-c-3-container-soy-wax?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=10625687093579&pr_ref_pid=10623858606411&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e616] [cursor=pointer]:
+                  - /url: /pt/products/naturewax%E2%84%A2-c-3-container-soy-wax?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=10625687093579&pr_ref_pid=10623858606411&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e617]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e618]
+              - generic [ref=e622]:
+                - generic [ref=e623]: Preço de venda
+                - text: A partir de
+                - generic [ref=e626]:
+                  - generic [ref=e627]: €9,95 EUR IVA incl.
+                  - generic [ref=e628]: €8,22 EUR IVA excl.
+          - generic [ref=e629]:
+            - generic [ref=e630]:
+              - link "Golden Wax Y50 soy wax pastilles for wax melts and home fragrance making Golden Wax™ Y50 Wax Melts packaging" [ref=e631] [cursor=pointer]:
+                - /url: /pt/products/golden-wax%E2%84%A2-y50-wax-melts-wax?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=15390657053003&pr_ref_pid=10623858606411&pr_seq=uniform
+                - img "Golden Wax Y50 soy wax pastilles for wax melts and home fragrance making" [ref=e632]
+                - img "Golden Wax™ Y50 Wax Melts packaging" [ref=e633]
+              - checkbox "Add to wishlist button" [ref=e634] [cursor=pointer]:
+                - img [ref=e635]
+            - generic [ref=e638]:
+              - generic [ref=e639]:
+                - link "Cera Golden Wax™ Y50 para wax melts" [ref=e641] [cursor=pointer]:
+                  - /url: /pt/products/golden-wax%E2%84%A2-y50-wax-melts-wax?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=15390657053003&pr_ref_pid=10623858606411&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e642] [cursor=pointer]:
+                  - /url: /pt/products/golden-wax%E2%84%A2-y50-wax-melts-wax?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=15390657053003&pr_ref_pid=10623858606411&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e643]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e644]
+              - generic [ref=e648]:
+                - generic [ref=e649]: Preço de venda
+                - text: A partir de
+                - generic [ref=e652]:
+                  - generic [ref=e653]: €8,23 EUR IVA incl.
+                  - generic [ref=e654]: €6,80 EUR IVA excl.
+          - generic [ref=e655]:
+            - generic [ref=e656]:
+              - link "EcoSoya™ CB-Advanced Container Soy Wax pastilles EcoSoya™ CB-Advanced Container Soy Wax packaging" [ref=e657] [cursor=pointer]:
+                - /url: /pt/products/ecosoya%E2%84%A2-cb-advanced-container-wax?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=10625696858443&pr_ref_pid=10623858606411&pr_seq=uniform
+                - img "EcoSoya™ CB-Advanced Container Soy Wax pastilles" [ref=e658]
+                - img "EcoSoya™ CB-Advanced Container Soy Wax packaging" [ref=e659]
+              - checkbox "Add to wishlist button" [ref=e660] [cursor=pointer]:
+                - img [ref=e661]
+            - generic [ref=e664]:
+              - generic [ref=e665]:
+                - link "Cera EcoSoya™ CB-Advanced para velas em recipiente" [ref=e667] [cursor=pointer]:
+                  - /url: /pt/products/ecosoya%E2%84%A2-cb-advanced-container-wax?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=10625696858443&pr_ref_pid=10623858606411&pr_seq=uniform
+                - link "4.9 4.9 fora de 5.0 estrelas" [ref=e668] [cursor=pointer]:
+                  - /url: /pt/products/ecosoya%E2%84%A2-cb-advanced-container-wax?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=10625696858443&pr_ref_pid=10623858606411&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e669]: "4.9"
+                  - img "4.9 fora de 5.0 estrelas" [ref=e670]
+              - generic [ref=e674]:
+                - generic [ref=e675]: Preço de venda
+                - text: A partir de
+                - generic [ref=e678]:
+                  - generic [ref=e679]: €10,87 EUR IVA incl.
+                  - generic [ref=e680]: €8,98 EUR IVA excl.
+          - generic [ref=e681]:
+            - generic [ref=e682]:
+              - link "Pineapple & Creamy Coconut Fragrance Oil for Candle, Soap, Perfume and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e683] [cursor=pointer]:
+                - /url: /pt/products/pineapple-creamy-coconut-fragrance-oil-2?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10627444867403&pr_ref_pid=10623858606411&pr_seq=uniform
+                - img "Pineapple & Creamy Coconut Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e684]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e685]
+              - checkbox "Add to wishlist button" [ref=e686] [cursor=pointer]:
+                - img [ref=e687]
+            - generic [ref=e690]:
+              - generic [ref=e691]:
+                - link "Óleo de fragrância ananás e coco cremoso" [ref=e693] [cursor=pointer]:
+                  - /url: /pt/products/pineapple-creamy-coconut-fragrance-oil-2?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10627444867403&pr_ref_pid=10623858606411&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e694] [cursor=pointer]:
+                  - /url: /pt/products/pineapple-creamy-coconut-fragrance-oil-2?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10627444867403&pr_ref_pid=10623858606411&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e695]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e696]
+              - generic [ref=e700]:
+                - generic [ref=e701]: Preço de venda
+                - text: A partir de
+                - generic [ref=e704]:
+                  - generic [ref=e705]: €3,22 EUR IVA incl.
+                  - generic [ref=e706]: €2,66 EUR IVA excl.
+          - generic [ref=e707]:
+            - generic [ref=e708]:
+              - link "KeraSoy™ Pillar Wax 4120 pastilles KeraSoy™ Pillar Wax 4120 packaging" [ref=e709] [cursor=pointer]:
+                - /url: /pt/products/kerasoy%E2%84%A2-pillar-wax-4120?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=10626040824139&pr_ref_pid=10623858606411&pr_seq=uniform
+                - img "KeraSoy™ Pillar Wax 4120 pastilles" [ref=e710]
+                - img "KeraSoy™ Pillar Wax 4120 packaging" [ref=e711]
+              - checkbox "Add to wishlist button" [ref=e712] [cursor=pointer]:
+                - img [ref=e713]
+            - generic [ref=e716]:
+              - generic [ref=e717]:
+                - link "Cera KeraSoy™ 4120 para velas pilar" [ref=e719] [cursor=pointer]:
+                  - /url: /pt/products/kerasoy%E2%84%A2-pillar-wax-4120?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=10626040824139&pr_ref_pid=10623858606411&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e720] [cursor=pointer]:
+                  - /url: /pt/products/kerasoy%E2%84%A2-pillar-wax-4120?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=10626040824139&pr_ref_pid=10623858606411&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e721]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e722]
+              - generic [ref=e726]:
+                - generic [ref=e727]: Preço de venda
+                - text: A partir de
+                - generic [ref=e730]:
+                  - generic [ref=e731]: €10,25 EUR IVA incl.
+                  - generic [ref=e732]: €8,47 EUR IVA excl.
+          - generic [ref=e733]:
+            - generic [ref=e734]:
+              - link "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e735] [cursor=pointer]:
+                - /url: /pt/products/rose-champagne-fragrance-oil?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10627698819403&pr_ref_pid=10623858606411&pr_seq=uniform
+                - img "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e736]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e737]
+              - checkbox "Add to wishlist button" [ref=e738] [cursor=pointer]:
+                - img [ref=e739]
+            - generic [ref=e742]:
+              - generic [ref=e743]:
+                - link "Óleo de fragrância rosa e champanhe" [ref=e745] [cursor=pointer]:
+                  - /url: /pt/products/rose-champagne-fragrance-oil?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10627698819403&pr_ref_pid=10623858606411&pr_seq=uniform
+                - link "4.8 4.8 fora de 5.0 estrelas" [ref=e746] [cursor=pointer]:
+                  - /url: /pt/products/rose-champagne-fragrance-oil?pr_prod_strat=jac&pr_rec_id=453db502a&pr_rec_pid=10627698819403&pr_ref_pid=10623858606411&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e747]: "4.8"
+                  - img "4.8 fora de 5.0 estrelas" [ref=e748]
+              - generic [ref=e752]:
+                - generic [ref=e753]: Preço de venda
+                - text: A partir de
+                - generic [ref=e756]:
+                  - generic [ref=e757]: €3,70 EUR IVA incl.
+                  - generic [ref=e758]: €3,06 EUR IVA excl.
+          - generic [ref=e759]:
+            - generic [ref=e760]:
+              - link "Braided cotton candle wick spool braided cotton candle wick for pillar candles" [ref=e761] [cursor=pointer]:
+                - /url: /pt/products/braded-cotton-wicks?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=14781256728907&pr_ref_pid=10623858606411&pr_seq=uniform
+                - img "Braided cotton candle wick spool" [ref=e762]
+                - img "braided cotton candle wick for pillar candles" [ref=e763]
+              - checkbox "Add to wishlist button" [ref=e764] [cursor=pointer]:
+                - img [ref=e765]
+            - generic [ref=e768]:
+              - generic [ref=e769]:
+                - link "Pavios entrançados de algodão" [ref=e771] [cursor=pointer]:
+                  - /url: /pt/products/braded-cotton-wicks?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=14781256728907&pr_ref_pid=10623858606411&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e772] [cursor=pointer]:
+                  - /url: /pt/products/braded-cotton-wicks?pr_prod_strat=e5_desc&pr_rec_id=453db502a&pr_rec_pid=14781256728907&pr_ref_pid=10623858606411&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e773]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e774]
+              - generic [ref=e778]:
+                - generic [ref=e779]: Preço de venda
+                - generic [ref=e782]:
+                  - generic [ref=e783]: €4,17 EUR IVA incl.
+                  - generic [ref=e784]: €3,45 EUR IVA excl.
+        - generic [ref=e787]:
+          - button "Anterior" [disabled]:
+            - generic: Anterior
+          - button "Seguinte" [ref=e788] [cursor=pointer]:
+            - generic [ref=e789]: Seguinte
+    - generic [ref=e793]:
+      - generic [ref=e794]:
+        - generic [ref=e796]:
+          - paragraph [ref=e797]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e799]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e801]:
+            - generic [ref=e802]:
+              - textbox "E-mail" [ref=e803]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e805] [cursor=pointer]:
+              - generic [ref=e806]: Subscrever
+        - generic [ref=e807]:
+          - paragraph [ref=e808]: ajuda e informações
+          - list [ref=e809]:
+            - listitem [ref=e810]:
+              - link "contacte-nos" [ref=e811] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e812]:
+              - link "estado da encomenda" [ref=e813] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e814]:
+              - link "apoio ao cliente" [ref=e815] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e816]:
+              - link "aprendizagem" [ref=e817] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e818]:
+              - link "FAQ e ajuda" [ref=e819] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e820]:
+          - paragraph [ref=e821]: as nossas lojas
+          - list [ref=e822]:
+            - listitem [ref=e823]:
+              - link "comprar em Espanha" [ref=e824] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e825]:
+              - link "loja UE em inglês" [ref=e826] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e827]:
+              - link "loja UE em francês" [ref=e828] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e829]:
+              - link "Loja UE em alemão" [ref=e830] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e831]:
+          - paragraph [ref=e832]: políticas da loja
+          - list [ref=e833]:
+            - listitem [ref=e834]:
+              - link "sobre nós" [ref=e835] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e836]:
+              - link "política de privacidade" [ref=e837] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e838]:
+              - link "política de envios e devoluções" [ref=e839] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e840]:
+              - link "termos de serviço" [ref=e841] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e843]:
+        - list [ref=e844]:
+          - listitem [ref=e845]:
+            - img "American Express" [ref=e846]
+          - listitem [ref=e855]:
+            - img "Apple Pay" [ref=e856]
+          - listitem [ref=e867]:
+            - img "Bancontact" [ref=e868]
+          - listitem [ref=e875]:
+            - img "Google Pay" [ref=e876]
+          - listitem [ref=e884]:
+            - img "iDEAL Wero" [ref=e885]
+          - listitem [ref=e900]:
+            - img "Klarna" [ref=e901]
+          - listitem [ref=e905]:
+            - img "Maestro" [ref=e906]
+          - listitem [ref=e912]:
+            - img "Mastercard" [ref=e913]
+          - listitem [ref=e919]:
+            - img "PayPal" [ref=e920]
+          - listitem [ref=e926]:
+            - img "Shop Pay" [ref=e927]
+          - listitem [ref=e931]:
+            - img "Union Pay" [ref=e932]
+          - listitem [ref=e938]:
+            - img "Visa" [ref=e939]
+        - generic [ref=e943]:
+          - paragraph [ref=e944]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e945] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e946]:
+            - listitem [ref=e947]:
+              - link "Política de privacidade" [ref=e948] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e949]:
+              - text: •
+              - link "Política de devoluções" [ref=e950] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e951]:
+              - text: •
+              - link "Termos de serviço" [ref=e952] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e953]:
+              - text: •
+              - link "Política de envios" [ref=e954] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e955]:
+              - text: •
+              - link "Preferências de cookies" [ref=e956] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

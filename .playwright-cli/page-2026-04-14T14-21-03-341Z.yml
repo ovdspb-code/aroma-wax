@@ -1,0 +1,214 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - 'link "Translation missing: pt-PT.header.general.open_wishlist" [ref=e69] [cursor=pointer]':
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: "Translation missing: pt-PT.header.general.open_wishlist"
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 Unid" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 Unid
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - generic [ref=e91]: Grossista
+    - generic [ref=e94]:
+      - generic [ref=e96]:
+        - heading "Grossista" [level=2] [ref=e97]
+        - paragraph [ref=e98]: Oferecemos descontos por volume em fragrâncias, cera para velas, base e frascos para difusor, recipientes e latas para velas, e frascos para spray de ambiente. Os descontos por volume são calculados automaticamente quando escolhe a quantidade pretendida. Ainda assim, contacte-nos se precisar de ajuda com encomendas grossistas, se preferir usar o seu próprio agente de transporte ou se tiver qualquer outra questão. Estamos sempre disponíveis para ajudar.
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - textbox "Nome" [ref=e105]:
+                - /placeholder: " "
+              - generic: Nome
+            - generic [ref=e106]:
+              - textbox "E-mail" [ref=e107]:
+                - /placeholder: " "
+              - generic: E-mail
+          - generic [ref=e108]:
+            - textbox "Número de telefone" [ref=e109]:
+              - /placeholder: " "
+            - generic: Número de telefone
+          - generic [ref=e110]:
+            - textbox "Nome da empresa" [ref=e111]:
+              - /placeholder: " "
+            - generic: Nome da empresa
+          - generic [ref=e112]:
+            - textbox "Mensagem" [ref=e113]:
+              - /placeholder: " "
+            - generic: Mensagem
+        - button "Enviar mensagem" [ref=e115] [cursor=pointer]:
+          - generic [ref=e116]: Enviar mensagem
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - generic [ref=e123]:
+          - paragraph [ref=e124]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e126]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - textbox "E-mail" [ref=e130]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscribe" [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: Subscribe
+        - generic [ref=e134]:
+          - paragraph [ref=e135]: ajuda e informações
+          - list [ref=e136]:
+            - listitem [ref=e137]:
+              - link "contacte-nos" [ref=e138] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e139]:
+              - link "estado da encomenda" [ref=e140] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e141]:
+              - link "apoio ao cliente" [ref=e142] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e143]:
+              - link "aprendizagem" [ref=e144] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e145]:
+              - link "FAQ e ajuda" [ref=e146] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e147]:
+          - paragraph [ref=e148]: as nossas lojas
+          - list [ref=e149]:
+            - listitem [ref=e150]:
+              - link "comprar em Espanha" [ref=e151] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e152]:
+              - link "loja UE em inglês" [ref=e153] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e154]:
+              - link "loja UE em francês" [ref=e155] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e156]:
+              - link "Loja UE em alemão" [ref=e157] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e158]:
+          - paragraph [ref=e159]: políticas da loja
+          - list [ref=e160]:
+            - listitem [ref=e161]:
+              - link "sobre nós" [ref=e162] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e163]:
+              - link "política de privacidade" [ref=e164] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e165]:
+              - link "política de envios e devoluções" [ref=e166] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e167]:
+              - link "termos de serviço" [ref=e168] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e170]:
+        - list [ref=e171]:
+          - listitem [ref=e172]:
+            - img "American Express" [ref=e173]
+          - listitem [ref=e182]:
+            - img "Apple Pay" [ref=e183]
+          - listitem [ref=e194]:
+            - img "Bancontact" [ref=e195]
+          - listitem [ref=e202]:
+            - img "Google Pay" [ref=e203]
+          - listitem [ref=e211]:
+            - img "iDEAL Wero" [ref=e212]
+          - listitem [ref=e227]:
+            - img "Klarna" [ref=e228]
+          - listitem [ref=e232]:
+            - img "Maestro" [ref=e233]
+          - listitem [ref=e239]:
+            - img "Mastercard" [ref=e240]
+          - listitem [ref=e246]:
+            - img "PayPal" [ref=e247]
+          - listitem [ref=e253]:
+            - img "Shop Pay" [ref=e254]
+          - listitem [ref=e258]:
+            - img "Union Pay" [ref=e259]
+          - listitem [ref=e265]:
+            - img "Visa" [ref=e266]
+        - generic [ref=e270]:
+          - paragraph [ref=e271]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e272] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e273]:
+            - listitem [ref=e274]:
+              - link "Política de privacidade" [ref=e275] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e276]:
+              - text: •
+              - link "Política de devoluções" [ref=e277] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e278]:
+              - text: •
+              - link "Termos de serviço" [ref=e279] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e280]:
+              - text: •
+              - link "Política de envios" [ref=e281] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e282]:
+              - text: •
+              - link "Preferências de cookies" [ref=e283] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

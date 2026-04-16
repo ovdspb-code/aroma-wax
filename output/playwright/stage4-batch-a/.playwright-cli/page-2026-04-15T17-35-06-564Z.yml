@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: Iniciar sessão
+      - button [ref=e7] [cursor=pointer]
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: Enviaremos um código único (OTP) para o seu e-mail para um início de sessão seguro.
+      - generic [ref=e12]:
+        - textbox "E-mail" [ref=e13]
+        - generic: E-mail
+      - button "Continuar" [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]: Continuar
+      - link "Criar conta" [ref=e16] [cursor=pointer]:
+        - /url: /pt/apps/deluxe/account/register
+  - alertdialog "Consentimento de cookies" [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Consentimento de cookies" [level=2] [ref=e20]
+        - paragraph [ref=e21]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e22] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e23]:
+        - button "Gerir preferências" [ref=e24] [cursor=pointer]
+        - button "Aceitar" [ref=e25] [cursor=pointer]
+        - button "Rejeitar" [ref=e26] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e27] [cursor=pointer]:
+    - /url: /pt#main
+  - main [ref=e28]:
+    - navigation "breadcrumbs" [ref=e32]:
+      - link "Home" [ref=e33] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e34]: /
+      - generic [ref=e35]: Contacto
+    - generic [ref=e46]:
+      - generic [ref=e49]:
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: Estamos aqui para ajudar!
+          - paragraph [ref=e53]
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - strong [ref=e56]: Text us
+              - text: at
+              - link "+34 614 410 662" [ref=e57] [cursor=pointer]:
+                - /url: +34 614 410 662
+              - text: for the fastest response.
+            - listitem [ref=e58]:
+              - text: Envie-nos um e-mail para
+              - link "support@aromawax.eu" [ref=e59] [cursor=pointer]:
+                - /url: mailto:support@aromawax.eu
+              - text: e responderemos no prazo de 24 horas.
+            - listitem [ref=e60]:
+              - strong [ref=e61]: Use our online chat
+              - text: on the bottom-right corner of our website for quick assistance with políticas da loja, products, your order or any other question.
+            - listitem [ref=e62]:
+              - strong [ref=e63]: Track your order
+              - text: anytime by logging into your account
+              - link "here" [ref=e64] [cursor=pointer]:
+                - /url: /pt/apps/deluxe/account/login
+              - text: .
+          - paragraph [ref=e65]:
+            - text: Can’t find what you need?
+            - strong [ref=e66]: Fill out our online form
+            - text: ", and we’ll respond as soon as possible."
+        - generic [ref=e68]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Nome *
+          - textbox "Nome *" [ref=e69]:
+            - /placeholder: ""
+        - generic [ref=e71]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Apelido *
+          - textbox "Apelido *" [ref=e72]:
+            - /placeholder: ""
+        - generic [ref=e74]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Número da encomenda (se aplicável)
+          - textbox "Número da encomenda (se aplicável)" [ref=e75]:
+            - /placeholder: ""
+        - generic [ref=e77]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: E-mail address (the one, used for logging to Aroma+Wax) *
+          - textbox "E-mail address (the one, used for logging to Aroma+Wax) *" [ref=e78]:
+            - /placeholder: ""
+        - generic [ref=e80]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Motivo do contacto
+          - combobox "Motivo do contacto" [ref=e81]:
+            - option "Selecione uma opção" [disabled] [selected]
+            - option "Ajuda com encomendas"
+            - option "Faturação"
+            - option "Alteração de envio"
+            - option "Informações sobre produtos"
+            - option "Devolução"
+            - option "Outros motivos"
+        - generic [ref=e83]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Como podemos ajudar?
+          - textbox "Como podemos ajudar?" [ref=e84]:
+            - /placeholder: ""
+        - generic [ref=e85]:
+          - generic "Procurar ficheiro" [ref=e86] [cursor=pointer]: Ficheiros anexos
+          - generic [ref=e90]:
+            - generic [ref=e91]: Escolha um ficheiro ou arraste-o para aqui.
+            - generic [ref=e92]: "Formatos suportados: PDF, JPG, JPEG, PNG, GIF, SVG"
+            - button "Procurar ficheiro" [ref=e93] [cursor=pointer]
+        - paragraph [ref=e96]: Esperamos falar consigo em breve!
+      - generic [ref=e97]:
+        - generic:
+          - paragraph
+        - button "Enviar" [ref=e98] [cursor=pointer]: Enviar
+        - paragraph
+  - iframe [ref=e100]:
+    - generic [ref=f1e4]:
+      - button [ref=f1e7] [cursor=pointer]:
+        - img [ref=f1e9]
+        - img [ref=f1e12]
+      - generic [ref=f1e15]:
+        - generic [ref=f1e18]:
+          - link "Logo" [ref=f1e19] [cursor=pointer]:
+            - /url: https://admin.shopify.com/store/3rcue2-me
+            - img "Logo" [ref=f1e20]
+          - generic [ref=f1e22]:
+            - generic [ref=f1e23]: pt-fresh-clone-2026-04-15T12-42-06
+            - generic [ref=f1e24]: Draft
+        - generic [ref=f1e26]:
+          - button "Hide bar" [ref=f1e28] [cursor=pointer]:
+            - generic [ref=f1e29]: Hide bar
+          - button "Exit preview" [ref=f1e31] [cursor=pointer]:
+            - generic [ref=f1e32]: Exit preview
+          - button "Copy link" [ref=f1e35] [cursor=pointer]:
+            - img [ref=f1e39]
+            - generic [ref=f1e41]: Copy link

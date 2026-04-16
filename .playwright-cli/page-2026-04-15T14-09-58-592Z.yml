@@ -1,0 +1,537 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link "Saltar para o conteúdo" [ref=e7] [cursor=pointer]:
+        - /url: "#checkout-main"
+      - generic [ref=e8]:
+        - banner [ref=e9]:
+          - generic [ref=e14]:
+            - link "Aroma + Wax" [ref=e18] [cursor=pointer]:
+              - /url: https://aromawax.eu/pt
+              - img "Aroma + Wax"
+            - link "Carrinho" [ref=e20] [cursor=pointer]:
+              - /url: https://aromawax.eu/pt/cart
+              - img [ref=e22]
+        - generic [ref=e25]:
+          - generic [ref=e27]:
+            - main [ref=e28]:
+              - heading "Aroma + Wax Finalizar compra" [level=1] [ref=e29]
+              - generic [ref=e31]:
+                - generic [ref=e32]:
+                  - generic [ref=e33]:
+                    - region "Finalização da compra expresso" [ref=e34]:
+                      - generic [ref=e36]:
+                        - heading "Finalização da compra expresso" [level=2] [ref=e38]
+                        - list [ref=e41]:
+                          - listitem [ref=e42]:
+                            - link "Shop" [ref=e43] [cursor=pointer]:
+                              - /url: https://aromawax.eu/checkouts/cn/hWNB3SFdA2y1EMOPrvhjMhv9/pt-pt?payment=shop_pay&checkout_queue_token=A1Byj2FSvpsGi051RZwmZ_uifeOuTKyszRBZPuBgp6DqWdeHDXHcq0wYi2FsUxXc-KkZyRdjcNO-R1hF6vJ4VFXzKuXcSlQPa3qb02JoCtaL3_UwMNDbLO9pXR7x2_oIa89A8oKUqMVfe50%3D&redirect_source=direct_checkout_checkout&preview_theme_id=197534155083
+                              - img "Shop"
+                          - listitem [ref=e44]:
+                            - iframe [ref=e46]:
+                              - generic [active] [ref=f2e1]:
+                                - button "PayPal" [ref=f2e4] [cursor=pointer]:
+                                  - img [ref=f2e5]:
+                                    - img "PayPal" [ref=f2e6]
+                                - generic:
+                                  - generic "PayPal"
+                                - generic:
+                                  - generic "PayPal"
+                                - generic:
+                                  - generic "PayPal"
+                                - generic:
+                                  - generic "PayPal"
+                          - listitem [ref=e47]:
+                            - iframe [ref=e49]:
+                              - button "Google Pay" [ref=f3e2] [cursor=pointer]:
+                                - img [ref=f3e5]
+                    - generic [ref=e52]:
+                      - paragraph [ref=e53]: OU
+                      - separator
+                  - region "Contacto" [ref=e54]:
+                    - generic [ref=e58]:
+                      - generic [ref=e59]:
+                        - heading "Contacto" [level=2] [ref=e60]
+                        - link "Iniciar sessão" [ref=e61] [cursor=pointer]:
+                          - /url: https://aromawax.eu/customer_authentication/login?locale=pt-PT&return_to=%2Fcheckouts%2Fcn%2FhWNB3SFdA2y1EMOPrvhjMhv9%2Fpt-pt%3F_r%3DAQABLNCgiT4YI50bMiDdJYXnWSoRBBVGHQEcYHJUFbw2Pu8%26auto_redirect%3Dfalse%26cart_link_id%3D0Jg0MpCf%26company_location_id%26edge_redirect%3Dtrue%26locale%3Dpt-PT%26preview_theme_id%3D197534155083%26skip_shop_pay%3Dtrue
+                      - generic [ref=e63]:
+                        - generic [ref=e68]:
+                          - generic:
+                            - generic:
+                              - generic: E-mail
+                          - textbox "E-mail" [active] [ref=e69]
+                        - generic [ref=e72]:
+                          - generic [ref=e73]:
+                            - checkbox "Enviem-me um e-mail com notícias e ofertas" [ref=e74] [cursor=pointer]
+                            - generic:
+                              - generic:
+                                - img
+                          - generic [ref=e75] [cursor=pointer]: Enviem-me um e-mail com notícias e ofertas
+                  - group "Entrega" [ref=e79]:
+                    - generic [ref=e80]:
+                      - heading "Entrega" [level=2] [ref=e82]
+                      - generic [ref=e83]:
+                        - group "Escolher um método de entrega" [ref=e84]:
+                          - generic [ref=e86]:
+                            - generic [ref=e88] [cursor=pointer]:
+                              - radio "Enviar" [checked] [ref=e90]
+                              - generic [ref=e94]:
+                                - img [ref=e96]
+                                - strong [ref=e101]: Enviar
+                            - generic [ref=e103] [cursor=pointer]:
+                              - radio "Recolha" [ref=e105]
+                              - generic [ref=e109]:
+                                - img [ref=e111]
+                                - strong [ref=e114]: Recolha
+                        - generic [ref=e117]:
+                          - generic [ref=e121]:
+                            - generic [ref=e122]:
+                              - generic [ref=e126]:
+                                - generic:
+                                  - generic:
+                                    - generic: País/região
+                                - combobox "País/região" [ref=e127]:
+                                  - option "Espanha"
+                                  - option "Malta"
+                                  - option "Portugal"
+                                  - option "Suécia"
+                                  - option "Chéquia"
+                                  - option "---"
+                                  - option "Alemanha"
+                                  - option "Áustria"
+                                  - option "Bélgica"
+                                  - option "Bulgária"
+                                  - option "Chéquia"
+                                  - option "Chipre"
+                                  - option "Croácia"
+                                  - option "Dinamarca"
+                                  - option "Emirados Árabes Unidos"
+                                  - option "Eslováquia"
+                                  - option "Eslovénia"
+                                  - option "Espanha" [selected]
+                                  - option "Estónia"
+                                  - option "Finlândia"
+                                  - option "França"
+                                  - option "Grécia"
+                                  - option "Hungria"
+                                  - option "Irlanda"
+                                  - option "Itália"
+                                  - option "Letónia"
+                                  - option "Lituânia"
+                                  - option "Luxemburgo"
+                                  - option "Malta"
+                                  - option "Noruega"
+                                  - option "Países Baixos"
+                                  - option "Polónia"
+                                  - option "Portugal"
+                                  - option "Reino Unido"
+                                  - option "Roménia"
+                                  - option "Suécia"
+                                  - option "Suíça"
+                                - generic:
+                                  - generic:
+                                    - img
+                              - generic [ref=e128]:
+                                - generic [ref=e130]:
+                                  - generic:
+                                    - generic:
+                                      - generic: Nome próprio
+                                  - textbox "Nome próprio" [ref=e131]
+                                - generic [ref=e133]:
+                                  - generic:
+                                    - generic:
+                                      - generic: Sobrenome
+                                  - textbox "Sobrenome" [ref=e134]
+                              - generic [ref=e137]:
+                                - generic:
+                                  - generic:
+                                    - generic: Empresa (opcional)
+                                - textbox "Empresa (opcional)" [ref=e138]
+                              - generic [ref=e144]:
+                                - generic:
+                                  - generic:
+                                    - generic: Morada
+                                - combobox "Morada" [ref=e145]
+                                - img [ref=e148]
+                              - generic [ref=e153]:
+                                - generic:
+                                  - generic:
+                                    - generic: Andar, fração, etc. (opcional)
+                                - textbox "Andar, fração, etc. (opcional)" [ref=e154]
+                              - generic [ref=e155]:
+                                - generic [ref=e158]:
+                                  - generic:
+                                    - generic:
+                                      - generic: Código postal
+                                  - textbox "Código postal" [ref=e159]
+                                - generic [ref=e161]:
+                                  - generic:
+                                    - generic:
+                                      - generic: Cidade
+                                  - textbox "Cidade" [ref=e162]
+                                - generic [ref=e165]:
+                                  - generic:
+                                    - generic:
+                                      - generic: Província
+                                  - combobox "Província" [ref=e166]:
+                                    - option "Corunha"
+                                    - option "Álava"
+                                    - option "Albacete"
+                                    - option "Alicante"
+                                    - option "Almeria"
+                                    - option "Asturias Province"
+                                    - option "Ávila"
+                                    - option "Badajoz (província)"
+                                    - option "Baleares"
+                                    - option "Barcelona"
+                                    - option "Burgos"
+                                    - option "Cáceres (província)"
+                                    - option "Cádis"
+                                    - option "Cantábria"
+                                    - option "Castellón"
+                                    - option "Ceuta"
+                                    - option "Cidade Real"
+                                    - option "Córdova (província da Espanha)"
+                                    - option "Cuenca"
+                                    - option "Girona"
+                                    - option "Granada"
+                                    - option "Guadalajara"
+                                    - option "Guipúscoa"
+                                    - option "Província de Huelva"
+                                    - option "Huesca"
+                                    - option "Jaén"
+                                    - option "La Rioja"
+                                    - option "Las Palmas"
+                                    - option "Leão"
+                                    - option "Província de Lérida"
+                                    - option "Lugo"
+                                    - option "Madrid Province" [selected]
+                                    - option "Málaga"
+                                    - option "Melilla"
+                                    - option "Murcia"
+                                    - option "Navarra"
+                                    - option "Ourense"
+                                    - option "Palência"
+                                    - option "Pontevedra"
+                                    - option "Salamanca"
+                                    - option "Santa Cruz de Tenerife"
+                                    - option "Segóvia"
+                                    - option "Província de Sevilha"
+                                    - option "Sória"
+                                    - option "Tarragona"
+                                    - option "Teruel (província)"
+                                    - option "Toledo"
+                                    - option "Valência (província)"
+                                    - option "Valhadolide"
+                                    - option "Biscaia"
+                                    - option "Zamora"
+                                    - option "Saragoça"
+                                  - generic:
+                                    - generic:
+                                      - img
+                              - generic [ref=e169]:
+                                - generic:
+                                  - generic:
+                                    - generic: Telefone
+                                - textbox "Telefone" [ref=e170]
+                                - button "Mais informações sobre Telefone" [ref=e173] [cursor=pointer]:
+                                  - img [ref=e175]
+                            - generic [ref=e180]:
+                              - textbox [ref=e181]
+                              - textbox [ref=e182]
+                              - textbox [ref=e183]
+                              - textbox [ref=e184]
+                              - textbox [ref=e185]
+                              - textbox [ref=e186]
+                              - textbox [ref=e187]: ES
+                              - textbox [ref=e188]: M
+                              - textbox [ref=e189]: M
+                              - textbox [ref=e190]: M
+                              - textbox [ref=e191]
+                              - textbox [ref=e192]
+                          - generic [ref=e193]:
+                            - heading "Envio" [level=2] [ref=e194]
+                            - paragraph [ref=e198]: Introduza o endereço de entrega para ver os métodos de envio disponíveis.
+                  - region "Pagamento" [ref=e200]:
+                    - group "Pagamento" [ref=e204]:
+                      - generic [ref=e205]:
+                        - heading "Pagamento" [level=2] [ref=e206]
+                        - paragraph [ref=e207]: Todas as transacções são seguras e encriptadas.
+                      - generic [ref=e209]:
+                        - generic [ref=e215]:
+                          - generic [ref=e216]:
+                            - generic [ref=e217] [cursor=pointer]:
+                              - generic [ref=e218]:
+                                - radio "Cartão de crédito" [checked] [ref=e220]
+                                - generic [ref=e221]: Cartão de crédito
+                              - generic [ref=e224]:
+                                - img "VISA" [ref=e226]
+                                - img "MAESTRO" [ref=e228]
+                                - img "MASTERCARD" [ref=e230]
+                                - button "+2 Métodos de pagamento adicionais" [ref=e231]:
+                                  - generic [ref=e232]:
+                                    - generic [ref=e233]: "+2"
+                                    - generic [ref=e234]: Métodos de pagamento adicionais
+                            - generic [ref=e241]:
+                              - generic [ref=e244]:
+                                - generic [ref=e246]:
+                                  - generic:
+                                    - generic:
+                                      - generic: Número do cartão
+                                  - generic [ref=e247]:
+                                    - iframe [ref=e249]:
+                                      - generic [ref=f4e2]:
+                                        - generic [ref=f4e3]:
+                                          - generic [ref=f4e4]: Número do cartão
+                                          - textbox "Número do cartão" [ref=f4e5]
+                                        - generic [ref=f4e8]: Name on card
+                                        - textbox [ref=f4e9]
+                                        - generic [ref=f4e10]: Expiry month
+                                        - textbox [ref=f4e11]
+                                        - generic [ref=f4e12]: Expiry year
+                                        - textbox [ref=f4e13]
+                                        - generic [ref=f4e14]: Expiry date (MM / YY)
+                                        - textbox [ref=f4e15]
+                                        - generic [ref=f4e16]: Security code
+                                        - textbox [ref=f4e17]
+                                        - generic [ref=f4e18]: Issue date (MM / YY)
+                                        - textbox [ref=f4e19]
+                                        - generic [ref=f4e20]: Issue number
+                                        - textbox [ref=f4e21]
+                                        - button [ref=f4e22]
+                                    - img [ref=e252]
+                                - generic [ref=e254]:
+                                  - generic [ref=e257]:
+                                    - generic:
+                                      - generic:
+                                        - generic: Data de expiração (MM/AA)
+                                    - iframe [ref=e260]:
+                                      - generic [ref=f5e2]:
+                                        - generic [ref=f5e3]: Credit Card Number
+                                        - textbox [ref=f5e4]
+                                        - generic [ref=f5e5]: Name on card
+                                        - textbox [ref=f5e6]
+                                        - generic [ref=f5e7]: Expiry month
+                                        - textbox [ref=f5e8]
+                                        - generic [ref=f5e9]: Expiry year
+                                        - textbox [ref=f5e10]
+                                        - generic [ref=f5e11]:
+                                          - generic [ref=f5e12]: Data de expiração (MM/AA)
+                                          - textbox "Data de expiração (MM/AA)" [ref=f5e13]
+                                        - generic [ref=f5e16]: Security code
+                                        - textbox [ref=f5e17]
+                                        - generic [ref=f5e18]: Issue date (MM / YY)
+                                        - textbox [ref=f5e19]
+                                        - generic [ref=f5e20]: Issue number
+                                        - textbox [ref=f5e21]
+                                        - button [ref=f5e22]
+                                  - generic [ref=e263]:
+                                    - generic:
+                                      - generic:
+                                        - generic: Código de segurança
+                                    - generic [ref=e264]:
+                                      - iframe [ref=e266]:
+                                        - generic [ref=f6e2]:
+                                          - generic [ref=f6e3]: Credit Card Number
+                                          - textbox [ref=f6e4]
+                                          - generic [ref=f6e5]: Name on card
+                                          - textbox [ref=f6e6]
+                                          - generic [ref=f6e7]: Expiry month
+                                          - textbox [ref=f6e8]
+                                          - generic [ref=f6e9]: Expiry year
+                                          - textbox [ref=f6e10]
+                                          - generic [ref=f6e11]: Expiry date (MM / YY)
+                                          - textbox [ref=f6e12]
+                                          - generic [ref=f6e13]:
+                                            - generic [ref=f6e14]: Código de segurança
+                                            - textbox "Código de segurança" [ref=f6e15]
+                                          - generic [ref=f6e18]: Issue date (MM / YY)
+                                          - textbox [ref=f6e19]
+                                          - generic [ref=f6e20]: Issue number
+                                          - textbox [ref=f6e21]
+                                          - button [ref=f6e22]
+                                      - button "Mais informações sobre Código de segurança" [ref=e268] [cursor=pointer]:
+                                        - img [ref=e270]
+                                - generic [ref=e277]:
+                                  - generic:
+                                    - generic:
+                                      - generic: Nome no cartão
+                                  - iframe [ref=e280]:
+                                    - generic [ref=f9e2]:
+                                      - generic [ref=f9e3]: Credit Card Number
+                                      - textbox [ref=f9e4]
+                                      - generic [ref=f9e5]:
+                                        - generic [ref=f9e6]: Nome no cartão
+                                        - textbox "Nome no cartão" [ref=f9e7]
+                                      - generic [ref=f9e10]: Expiry month
+                                      - textbox [ref=f9e11]
+                                      - generic [ref=f9e12]: Expiry year
+                                      - textbox [ref=f9e13]
+                                      - generic [ref=f9e14]: Expiry date (MM / YY)
+                                      - textbox [ref=f9e15]
+                                      - generic [ref=f9e16]: Security code
+                                      - textbox [ref=f9e17]
+                                      - generic [ref=f9e18]: Issue date (MM / YY)
+                                      - textbox [ref=f9e19]
+                                      - generic [ref=f9e20]: Issue number
+                                      - textbox [ref=f9e21]
+                                      - button [ref=f9e22]
+                              - generic [ref=e283]:
+                                - generic [ref=e284]:
+                                  - checkbox "Utilizar o endereço de envio como endereço de faturação" [checked] [ref=e285] [cursor=pointer]
+                                  - generic:
+                                    - generic:
+                                      - img
+                                - generic [ref=e286] [cursor=pointer]: Utilizar o endereço de envio como endereço de faturação
+                          - generic [ref=e288] [cursor=pointer]:
+                            - generic [ref=e289]:
+                              - radio "PayPal" [ref=e291]
+                              - generic [ref=e292]: PayPal
+                            - img "PayPal" [ref=e294]
+                          - generic [ref=e296] [cursor=pointer]:
+                            - generic [ref=e297]:
+                              - radio "Klarna" [ref=e299]
+                              - generic [ref=e300]: Klarna
+                            - img "klarna" [ref=e304]
+                          - generic [ref=e306] [cursor=pointer]:
+                            - radio "Depósito bancário" [ref=e308]
+                            - generic [ref=e310]: Depósito bancário
+                        - generic [ref=e313]:
+                          - generic [ref=e316]: Guardar as minhas informações para uma finalização da compra mais rápida
+                          - generic [ref=e318]:
+                            - generic:
+                              - generic:
+                                - generic: Dispositivo móvel (opcional)
+                            - img [ref=e321]
+                            - textbox "Dispositivo móvel (opcional)" [ref=e323]: "+34"
+                          - generic [ref=e325]:
+                            - text: Ao fornecer o seu número de telefone, concorda em criar uma conta na Shop, sujeita aos
+                            - link "Termos" [ref=e326] [cursor=pointer]:
+                              - /url: https://www.shopify.com/legal/privacy/app-users
+                            - text: e
+                            - link "Política de privacidade" [ref=e327] [cursor=pointer]:
+                              - /url: https://shop.app/terms-of-service
+                            - text: da Shop.
+                        - button "Adicionar desconto" [ref=e329] [cursor=pointer]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: Adicionar desconto
+                    - generic [ref=e336]:
+                      - heading "Finalizar encomenda" [level=2] [ref=e337]
+                      - button "Pagar agora" [ref=e341] [cursor=pointer]:
+                        - generic:
+                          - generic: Pagar agora
+                - button [ref=e343] [cursor=pointer]: Enviar
+            - contentinfo [ref=e344]:
+              - list [ref=e348]:
+                - listitem [ref=e349]:
+                  - button "Política de devoluções" [ref=e350] [cursor=pointer]:
+                    - generic: Política de devoluções
+                - listitem [ref=e351]:
+                  - button "Política de envios" [ref=e352] [cursor=pointer]:
+                    - generic: Política de envios
+                - listitem [ref=e353]:
+                  - button "Política de privacidade" [ref=e354] [cursor=pointer]:
+                    - generic: Política de privacidade
+                - listitem [ref=e355]:
+                  - button "Termos de serviço" [ref=e356] [cursor=pointer]:
+                    - generic: Termos de serviço
+                - listitem [ref=e357]:
+                  - button "Cookies" [ref=e358] [cursor=pointer]:
+                    - generic: Cookies
+          - complementary [ref=e361]:
+            - generic [ref=e364]:
+              - heading "Resumo da encomenda" [level=2] [ref=e365]
+              - generic [ref=e368]:
+                - region "Carrinho de compras" [ref=e369]:
+                  - heading "Carrinho de compras" [level=3] [ref=e371]
+                  - table "Carrinho de compras" [ref=e372]:
+                    - rowgroup [ref=e373]:
+                      - row "Imagem de produto Descrição Quantidade Preço":
+                        - columnheader "Imagem de produto" [ref=e374]
+                        - columnheader "Descrição" [ref=e375]
+                        - columnheader "Quantidade" [ref=e376]
+                        - columnheader "Preço" [ref=e377]
+                    - rowgroup [ref=e378]:
+                      - row "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers Quantidade 1 Kit de fragrâncias de verão 1 34,90 €" [ref=e379]:
+                        - cell "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers Quantidade 1" [ref=e380]:
+                          - generic [ref=e381]:
+                            - img "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers" [ref=e382]
+                            - generic [ref=e384]:
+                              - generic [ref=e385]: Quantidade
+                              - text: "1"
+                        - cell "Kit de fragrâncias de verão" [ref=e386]:
+                          - paragraph [ref=e388]: Kit de fragrâncias de verão
+                        - cell "1":
+                          - generic [ref=e389]: "1"
+                        - cell "34,90 €" [ref=e390]:
+                          - generic [ref=e392]: 34,90 €
+                - generic:
+                  - generic:
+                    - generic:
+                      - text: Ver mais itens
+                      - generic:
+                        - img
+              - generic [ref=e395]:
+                - heading "Desconto" [level=3] [ref=e396]
+                - generic [ref=e397]:
+                  - generic [ref=e398]:
+                    - generic [ref=e400]:
+                      - generic [ref=e402]:
+                        - generic [ref=e404]:
+                          - generic:
+                            - generic:
+                              - generic: Código de desconto
+                          - textbox "Código de desconto" [ref=e405]
+                        - button "Aplicar código de desconto" [disabled]:
+                          - generic: Aplicar
+                      - button [ref=e407] [cursor=pointer]: Enviar
+                    - generic:
+                      - generic:
+                        - generic:
+                          - list "Código de desconto ou cartão de oferta"
+                  - button "Voltar para finalizar encomenda" [ref=e408] [cursor=pointer]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                        - generic: Voltar para finalizar encomenda
+              - generic [ref=e409]:
+                - heading "Resumo dos custos" [level=3] [ref=e411]
+                - table "Resumo dos custos" [ref=e412]:
+                  - rowgroup [ref=e413]:
+                    - row "Item Valor" [ref=e414]:
+                      - columnheader "Item" [ref=e415]
+                      - columnheader "Valor" [ref=e416]
+                  - rowgroup [ref=e417]:
+                    - row "Subtotal 34,90 €" [ref=e418]:
+                      - rowheader "Subtotal" [ref=e419]
+                      - cell "34,90 €" [ref=e420]
+                    - row "Envio Política de envios Introduzir o endereço de envio" [ref=e421]:
+                      - rowheader "Envio Política de envios" [ref=e422]:
+                        - generic [ref=e423]:
+                          - generic [ref=e424]: Envio
+                          - button "Política de envios" [ref=e425] [cursor=pointer]:
+                            - img [ref=e427]
+                      - cell "Introduzir o endereço de envio" [ref=e432]
+                    - row "Total EUR 34,90 €" [ref=e433]:
+                      - rowheader "Total" [ref=e434]:
+                        - strong [ref=e435]: Total
+                      - cell "EUR 34,90 €" [ref=e436]:
+                        - generic [ref=e437]:
+                          - generic [ref=e438]: EUR
+                          - strong [ref=e439]: 34,90 €
+                    - row "A incluir 6,06 € em impostos" [ref=e440]:
+                      - rowheader "A incluir 6,06 € em impostos" [ref=e441]:
+                        - paragraph [ref=e442]:
+                          - generic [ref=e443]: A incluir 6,06 € em impostos
+                      - cell
+    - generic:
+      - progressbar
+  - generic [ref=e444]: Abrirá uma página externa numa nova janela.
+  - generic [ref=e445]: Abrirá numa nova janela.
+  - generic [ref=e446]: Abrirá uma página externa.
+  - status [ref=e447]
+  - alert [ref=e448]

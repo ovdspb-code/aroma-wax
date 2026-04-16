@@ -1,0 +1,432 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 Unid" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 Unid
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - link "comprar tudo" [ref=e91] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e92]: /
+      - link "novidades" [ref=e93] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e94]: /
+      - link "tudo" [ref=e95] [cursor=pointer]:
+        - /url: /pt/collections/all-new-arrivals
+      - generic [ref=e96]: /
+      - generic [ref=e97]: Óleo de fragrância cardamomo verde e eucalipto
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e105]:
+          - img "Green Cardamom & Eucalyptus Fragrance Oil for Candle and Home Fragrances Making" [ref=e107]
+          - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e109]
+        - generic [ref=e111]:
+          - button "Ir para o item 1" [ref=e112] [cursor=pointer]:
+            - img "Green Cardamom & Eucalyptus Fragrance Oil for Candle and Home Fragrances Making" [ref=e113]
+          - button "Ir para o item 2" [ref=e114] [cursor=pointer]:
+            - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e115]
+      - generic [ref=e116]:
+        - heading "Óleo de fragrância cardamomo verde e eucalipto" [level=1] [ref=e118]
+        - generic [ref=e122] [cursor=pointer]:
+          - button "4.00 stars" [ref=e123]:
+            - generic [ref=e124]: 
+            - generic [ref=e125]: 
+            - generic [ref=e126]: 
+            - generic [ref=e127]: 
+            - generic [ref=e128]: 
+          - text: 1 avaliação
+        - separator [ref=e130]
+        - paragraph [ref=e134]: Óleo de fragrância cardamomo verde e eucalipto coloca o cardamomo em primeiro plano - luminoso, vivo e claramente aromático, com uma faceta verde cintilante e uma elevação limpa e apimentada. O eucalipto e a casca de laranja funcionam como ar fresco à sua volta, afinando os contornos sem roubar o protagonismo, enquanto o conjunto mantém uma sensação claramente perfumada e refinada. À medida que assenta, o cardamomo torna-se mais quente e arredondado sobre sândalo e vetiver branco, deixando um rasto suave e moderno com um sussurro de almíscar.
+        - group [ref=e138]:
+          - generic [ref=e140]:
+            - generic [ref=e141]: Peso
+            - generic [ref=e142]: 10g
+          - generic [ref=e144]:
+            - radio "10g" [checked] [ref=e145] [cursor=pointer]
+            - generic [ref=e147] [cursor=pointer]: 10g
+            - radio "50g" [ref=e148] [cursor=pointer]
+            - generic [ref=e150] [cursor=pointer]: 50g
+            - radio "120g" [ref=e151] [cursor=pointer]
+            - generic [ref=e153] [cursor=pointer]: 120g
+            - radio "450g" [ref=e154] [cursor=pointer]
+            - generic [ref=e156] [cursor=pointer]: 450g
+            - radio "2 kg" [ref=e157] [cursor=pointer]
+            - generic [ref=e159] [cursor=pointer]: 2 kg
+        - link "Contacte-nos para encomendar mais de 2 kg" [ref=e162] [cursor=pointer]:
+          - /url: /pt/pages/grossista
+        - generic [ref=e165]:
+          - generic [ref=e166] [cursor=pointer]: Quantidade
+          - generic [ref=e167]:
+            - button "Diminuir quantidade" [ref=e168] [cursor=pointer]
+            - spinbutton "Quantidade" [ref=e170]: "1"
+            - button "Aumentar quantidade" [ref=e171] [cursor=pointer]
+        - generic [ref=e177]:
+          - generic [ref=e178]: Preço de venda
+          - generic [ref=e180]: €3,38 EUR
+        - button "Adicionar ao carrinho" [ref=e186] [cursor=pointer]:
+          - generic [ref=e187]: Adicionar ao carrinho
+        - generic [ref=e189]:
+          - generic [ref=e190]: Detalhes ecológicos e de segurança
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - img [ref=e193]
+              - text: Transporte terrestre
+            - generic [ref=e194]:
+              - img [ref=e195]
+              - text: Sem carcinogéneos
+            - generic [ref=e196]:
+              - img [ref=e197]
+              - text: Produto vegano
+            - generic [ref=e198]:
+              - img [ref=e199]
+              - text: Sem ftalatos
+            - generic [ref=e200]:
+              - img [ref=e201]
+              - text: Sem parabenos
+            - generic [ref=e202]:
+              - img [ref=e203]
+              - text: Não testado em animais
+        - generic [ref=e206]:
+          - heading "Detalhes do produto" [level=3] [ref=e207]
+          - generic [ref=e208]:
+            - paragraph [ref=e209]:
+              - link "Ficha de Dados de Segurança" [ref=e210] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/FO-146_GREEN_CARDAMOM_EUCALYPTUS_English.pdf?v=1772029569
+            - paragraph [ref=e211]:
+              - link "Ficha IFRA" [ref=e212] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/IFRA_FO-146_GREEN_CARDAMOM_EUCALYPTUS.pdf?v=1772029568
+            - paragraph [ref=e213]:
+              - link "Declaração de alergénios" [ref=e214] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/AR_FO-146_GREEN_CARDAMOM_EUCALYPTUS_FRAGRANCE_OIL.pdf?v=1771451866
+        - generic [ref=e217]:
+          - generic [ref=e218]: Fragrance Notes
+          - list [ref=e219]:
+            - listitem [ref=e220]:
+              - generic [ref=e221]: Notas de topo
+              - generic [ref=e222]: Blue leaved eucalyptus e casca de laranja
+            - listitem [ref=e223]:
+              - generic [ref=e224]: Notas de coração
+              - generic [ref=e225]: Green cardamom, cinnamon stick e lily of the valley
+            - listitem [ref=e226]:
+              - generic [ref=e227]: Notas de fundo
+              - generic [ref=e228]: Vetiver, musk e sândalo
+        - generic [ref=e231]:
+          - generic [ref=e232]: Propriedades
+          - list [ref=e233]:
+            - listitem [ref=e234]:
+              - generic [ref=e235]: Categoria
+              - generic [ref=e236]: Amadeirado, fresco, verde
+            - listitem [ref=e237]:
+              - generic [ref=e238]: Estação
+              - generic [ref=e239]: Todo o ano, verão, outono, inverno, primavera
+            - listitem [ref=e240]:
+              - generic [ref=e241]: Ponto de inflamação
+              - generic [ref=e242]: 89°C
+            - listitem [ref=e243]:
+              - generic [ref=e244]: Óleos essenciais
+              - generic [ref=e245]: óleo de eucalipto, óleo de cardamomo
+        - generic [ref=e248]:
+          - generic [ref=e249]: Utilização recomendada
+          - list [ref=e250]:
+            - listitem [ref=e251]:
+              - generic [ref=e252]: Vela
+              - generic [ref=e253]: 6-12%
+            - listitem [ref=e254]:
+              - generic [ref=e255]: Difusor de varetas
+              - generic [ref=e256]: Up tp 25%
+            - listitem [ref=e257]:
+              - generic [ref=e258]: Spray de ambiente
+              - generic [ref=e259]: Up tp 15%
+            - listitem [ref=e260]:
+              - generic [ref=e261]: Spray para almofadas
+              - generic [ref=e262]: Até 5%
+            - listitem [ref=e263]:
+              - generic [ref=e264]: Sabonete em barra
+              - generic [ref=e265]: Até 5%
+            - listitem [ref=e266]:
+              - generic [ref=e267]: Sabonete líquido
+              - generic [ref=e268]: Até 5%
+            - listitem [ref=e269]:
+              - generic [ref=e270]: Perfume sólido em cera
+              - generic [ref=e271]: Até 12%
+            - listitem [ref=e272]:
+              - generic [ref=e273]: Cores para embalagem
+              - generic [ref=e274]:
+                - text: "Eucalyptus Green (Pantone 5565 C or #6A8E83))"
+                - text: "Fresh Cardamom (Pantone 5777 C or #8A9A5B)"
+                - text: "Herbal Sage (Pantone 624 C or #96A48C))"
+                - text: "Deep Forest Green (Pantone 5535 C or #214437)"
+        - heading "Guias Práticos" [level=3] [ref=e278]
+    - generic [ref=e284]:
+      - generic [ref=e285]:
+        - heading "Avaliações de clientes" [level=2] [ref=e286]
+        - generic [ref=e287]:
+          - generic [ref=e289]:
+            - img "A classificação média é de 4.00 estrelas" [ref=e290]:
+              - generic [ref=e291]: 
+              - generic [ref=e292]: 
+              - generic [ref=e293]: 
+              - generic [ref=e294]: 
+              - generic [ref=e295]: 
+              - text: 4.00 de 5
+            - generic [ref=e296]:
+              - text: Com base em 1 avaliação
+              - img "Verified Checkmark" [ref=e297]
+          - generic [ref=e298]:
+            - generic:
+              - button "0% (0) avaliações com classificação de 5 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic [ref=e299] [cursor=pointer]:
+              - button "100% (1) avaliações com classificação de 4 estrelas" [ref=e300]:
+                - generic [ref=e301]: 
+                - generic [ref=e302]: 
+                - generic [ref=e303]: 
+                - generic [ref=e304]: 
+                - generic [ref=e305]: 
+              - generic [ref=e308]: "1"
+            - generic:
+              - button "0% (0) avaliações com classificação de 3 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 2 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 1 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+        - generic [ref=e311]:
+          - textbox "Pesquisa" [ref=e312]
+          - text: 
+      - generic [ref=e315]:
+        - combobox "Sort dropdown" [ref=e316] [cursor=pointer]:
+          - option "Mais recentes" [selected]
+          - option "Classificação mais alta"
+          - option "Classificação mais baixa"
+          - option "Apenas fotografias"
+          - option "Fotos Primeiro"
+          - option "Vídeos Primeiro"
+          - option "Mais úteis"
+        - generic [ref=e317]: 
+      - generic [ref=e319]:
+        - heading "Avaliações noutros idiomas" [level=3] [ref=e320]
+        - generic [ref=e323]:
+          - generic [ref=e324]:
+            - generic [ref=e325]:
+              - img "avaliação de 4 estrelas" [ref=e326]:
+                - generic [ref=e327]: 
+                - generic [ref=e328]: 
+                - generic [ref=e329]: 
+                - generic [ref=e330]: 
+                - generic [ref=e331]: 
+              - generic [ref=e332]: 17/03/2026
+            - generic [ref=e333]:
+              - generic [ref=e334]:  
+              - generic [ref=e335]:
+                - text: Aina
+                - generic [ref=e337]: Verificado
+          - generic [ref=e339]:
+            - paragraph [ref=e341]: No es lo que esperaba pero no es por calidad. La calidad sigue siendo buena
+            - link "Link to user picture 1" [ref=e343] [cursor=pointer]:
+              - /url: https://judgeme.imgix.net/aroma-wax/1773734307__1773734302119-img_20260317_085134__original.jpg?auto=format&w=1024
+          - button "Traduzir avaliação para português europeu" [ref=e346] [cursor=pointer]
+    - generic [ref=e351]:
+      - heading "Ver produtos semelhantes Ver produtos semelhantes" [level=2] [ref=e352]:
+        - text: Ver produtos semelhantes
+        - generic [ref=e354]: Ver produtos semelhantes
+      - paragraph [ref=e355]: Explore os nossos produtos para fabrico de velas e difusores, cuidadosamente escolhidos pela sua performance excecional e fiabilidade.
+    - generic [ref=e359]:
+      - generic [ref=e360]:
+        - generic [ref=e362]:
+          - paragraph [ref=e363]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e365]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e367]:
+            - generic [ref=e368]:
+              - textbox "E-mail" [ref=e369]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e371] [cursor=pointer]:
+              - generic [ref=e372]: Subscrever
+        - generic [ref=e373]:
+          - paragraph [ref=e374]: ajuda e informações
+          - list [ref=e375]:
+            - listitem [ref=e376]:
+              - link "contacte-nos" [ref=e377] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e378]:
+              - link "estado da encomenda" [ref=e379] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e380]:
+              - link "apoio ao cliente" [ref=e381] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e382]:
+              - link "aprendizagem" [ref=e383] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e384]:
+              - link "FAQ e ajuda" [ref=e385] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e386]:
+          - paragraph [ref=e387]: as nossas lojas
+          - list [ref=e388]:
+            - listitem [ref=e389]:
+              - link "comprar em Espanha" [ref=e390] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e391]:
+              - link "loja UE em inglês" [ref=e392] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e393]:
+              - link "loja UE em francês" [ref=e394] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e395]:
+              - link "Loja UE em alemão" [ref=e396] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e397]:
+          - paragraph [ref=e398]: políticas da loja
+          - list [ref=e399]:
+            - listitem [ref=e400]:
+              - link "sobre nós" [ref=e401] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e402]:
+              - link "política de privacidade" [ref=e403] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e404]:
+              - link "política de envios e devoluções" [ref=e405] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e406]:
+              - link "termos de serviço" [ref=e407] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e409]:
+        - list [ref=e410]:
+          - listitem [ref=e411]:
+            - img "American Express" [ref=e412]
+          - listitem [ref=e421]:
+            - img "Apple Pay" [ref=e422]
+          - listitem [ref=e433]:
+            - img "Bancontact" [ref=e434]
+          - listitem [ref=e441]:
+            - img "Google Pay" [ref=e442]
+          - listitem [ref=e450]:
+            - img "iDEAL Wero" [ref=e451]
+          - listitem [ref=e466]:
+            - img "Klarna" [ref=e467]
+          - listitem [ref=e471]:
+            - img "Maestro" [ref=e472]
+          - listitem [ref=e478]:
+            - img "Mastercard" [ref=e479]
+          - listitem [ref=e485]:
+            - img "PayPal" [ref=e486]
+          - listitem [ref=e492]:
+            - img "Shop Pay" [ref=e493]
+          - listitem [ref=e497]:
+            - img "Union Pay" [ref=e498]
+          - listitem [ref=e504]:
+            - img "Visa" [ref=e505]
+        - generic [ref=e509]:
+          - paragraph [ref=e510]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e511] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e512]:
+            - listitem [ref=e513]:
+              - link "Política de privacidade" [ref=e514] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e515]:
+              - text: •
+              - link "Política de devoluções" [ref=e516] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e517]:
+              - text: •
+              - link "Termos de serviço" [ref=e518] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e519]:
+              - text: •
+              - link "Política de envios" [ref=e520] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e521]:
+              - text: •
+              - link "Preferências de cookies" [ref=e522] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

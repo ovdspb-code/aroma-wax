@@ -1,0 +1,447 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: Iniciar sessão
+    - button [ref=e7] [cursor=pointer]
+  - alertdialog "Consentimento de cookies" [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - heading "Consentimento de cookies" [level=2] [ref=e12]
+        - paragraph [ref=e13]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e14] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e15]:
+        - button "Gerir preferências" [ref=e16] [cursor=pointer]
+        - button "Aceitar" [ref=e17] [cursor=pointer]
+        - button "Rejeitar" [ref=e18] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e19] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e20]:
+    - paragraph [ref=e26]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e27]:
+    - generic [ref=e30]:
+      - navigation [ref=e33]:
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - group [ref=e36]:
+              - generic "comprar tudo" [ref=e37] [cursor=pointer]: comprar tudo
+          - listitem [ref=e39]:
+            - group [ref=e40]:
+              - generic "fabrico de velas" [ref=e41] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e43]:
+            - group [ref=e44]:
+              - generic "fragrâncias" [ref=e45] [cursor=pointer]: fragrâncias
+          - listitem [ref=e47]:
+            - group [ref=e48]:
+              - generic "fabrico de difusores" [ref=e49] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e51]:
+            - group [ref=e52]:
+              - generic "fabrico de sprays de ambiente" [ref=e53] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e55]:
+            - group [ref=e56]:
+              - generic "aprendizagem" [ref=e57] [cursor=pointer]: aprendizagem
+          - listitem [ref=e59]:
+            - link "grossista" [ref=e60] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e61] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e62]: Aroma + Wax
+      - list [ref=e64]:
+        - listitem [ref=e65]:
+          - link "Pesquisar" [ref=e66] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e67]: Pesquisar
+        - listitem [ref=e70]:
+          - link "Iniciar sessão" [ref=e71] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e72]: Iniciar sessão
+        - listitem [ref=e75]:
+          - link "Abrir lista de desejos" [ref=e76] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e77]: Abrir lista de desejos
+            - generic [ref=e81]: "0"
+        - listitem [ref=e82]:
+          - link "Carrinho 0 unidades" [ref=e83] [cursor=pointer]:
+            - /url: /cart?locale_override=pt&cart_build=20260415a
+            - generic [ref=e84]: Carrinho
+            - img [ref=e85]
+            - generic [ref=e89]:
+              - generic:
+                - generic [ref=e90]: 0 unidades
+                - text: "0"
+  - main [ref=e91]:
+    - navigation "breadcrumbs" [ref=e95]:
+      - link "Início" [ref=e96] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e97]: /
+      - link "comprar tudo" [ref=e98] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e99]: /
+      - link "novidades" [ref=e100] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e101]: /
+      - link "materiais para fabrico de difusores" [ref=e102] [cursor=pointer]:
+        - /url: /pt/collections/diffuser-making-supplies
+      - generic [ref=e103]: /
+      - generic [ref=e104]: Base para difusor Augeo
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e112]:
+          - img "Augéo diffuser base for reed diffuser making" [ref=e114]
+          - img "Augéo Clean Multi diffuser base liquid in bottles" [ref=e116]
+        - generic [ref=e118]:
+          - button "Ir para o item 1" [ref=e119] [cursor=pointer]:
+            - img "Augéo diffuser base for reed diffuser making" [ref=e120]
+          - button "Ir para o item 2" [ref=e121] [cursor=pointer]:
+            - img "Augéo Clean Multi diffuser base liquid in bottles" [ref=e122]
+      - generic [ref=e123]:
+        - heading "Base para difusor Augeo" [level=1] [ref=e125]
+        - generic [ref=e129] [cursor=pointer]:
+          - button "5.00 stars" [ref=e130]:
+            - generic [ref=e131]: 
+            - generic [ref=e132]: 
+            - generic [ref=e133]: 
+            - generic [ref=e134]: 
+            - generic [ref=e135]: 
+          - text: 9 avaliações
+        - separator [ref=e137]
+        - paragraph [ref=e141]: Augeo Clean Multi destaca-se como uma base sustentável e de elevado desempenho para difusores de varetas e sprays de ambiente, oferecendo excelente solubilidade, baixo odor e uma taxa de evaporação equilibrada que prolonga a durabilidade da fragrância sem notas metálicas. Este solvente biodegradável e não tóxico, com uma pegada de carbono reduzida em comparação com éteres glicólicos tradicionais, combina responsabilidade ambiental com uma difusão superior do aroma, tornando-se uma escolha fiável para artesãos que procuram soluções de perfumaria para a casa de qualidade e ambientalmente conscientes.
+        - group [ref=e145]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: Tamanho
+            - generic [ref=e149]: 5kg
+          - generic [ref=e151]:
+            - radio "1 quilograma" [ref=e152] [cursor=pointer]
+            - generic [ref=e154] [cursor=pointer]: 1 quilograma
+            - radio "5kg" [checked] [ref=e155] [cursor=pointer]
+            - generic [ref=e157] [cursor=pointer]: 5kg
+        - generic [ref=e160]:
+          - generic [ref=e161] [cursor=pointer]: Quantidade
+          - generic [ref=e162]:
+            - button "Diminuir quantidade" [ref=e163] [cursor=pointer]
+            - spinbutton "Quantidade" [ref=e165]: "1"
+            - button "Aumentar quantidade" [ref=e166] [cursor=pointer]
+        - generic [ref=e172]:
+          - generic [ref=e173]: Preço de venda
+          - generic [ref=e176]:
+            - generic [ref=e177]: €68,67 EUR IVA incl.
+            - generic [ref=e178]: €56,75 EUR IVA excl.
+        - button "Adicionar ao carrinho" [ref=e184] [cursor=pointer]:
+          - generic [ref=e185]: Adicionar ao carrinho
+        - generic [ref=e188]: Detalhes ecológicos e de segurança
+        - generic [ref=e191]:
+          - heading "Detalhes do produto" [level=3] [ref=e192]
+          - generic [ref=e193]:
+            - paragraph [ref=e194]:
+              - link "Ficha de Dados de Segurança" [ref=e195] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/SDS_ACM_EN.PDF?v=1747935879
+            - paragraph [ref=e196]:
+              - link "Ficha técnica do produto" [ref=e197] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/TDS_ACM_2024.pdf?v=1747935876
+        - generic [ref=e200]:
+          - generic [ref=e201]: Propriedades
+          - list [ref=e202]:
+            - listitem [ref=e203]:
+              - generic [ref=e204]: Odor
+              - generic [ref=e205]: Slight
+            - listitem [ref=e206]:
+              - generic [ref=e207]: Origem
+              - generic [ref=e208]: Renewable (Glycerin-based)
+            - listitem [ref=e209]:
+              - generic [ref=e210]: Flash Point
+              - generic [ref=e211]: 91°C
+            - listitem [ref=e212]:
+              - generic [ref=e213]: Pegada de carbono
+              - generic [ref=e214]: 1.64 kg CO₂/kg
+            - listitem [ref=e215]:
+              - generic [ref=e216]: Carga máxima de base em difusores
+            - listitem [ref=e217]:
+              - generic [ref=e218]: Carga máxima de base em sprays de ambiente
+            - listitem [ref=e219]:
+              - generic [ref=e220]: Carga máxima de fragrância
+              - generic [ref=e221]: 25%
+            - listitem [ref=e222]:
+              - generic [ref=e223]: Evaporação
+              - generic [ref=e224]: 90% after 45 days
+    - generic [ref=e230]:
+      - generic [ref=e231]:
+        - heading "Avaliações de clientes Avaliações de clientes" [level=2] [ref=e232]
+        - generic [ref=e233]:
+          - generic [ref=e235]:
+            - img "A classificação média é de 5.00 estrelas" [ref=e236]:
+              - generic [ref=e237]: 
+              - generic [ref=e238]: 
+              - generic [ref=e239]: 
+              - generic [ref=e240]: 
+              - generic [ref=e241]: 
+              - text: 5.00 de 5
+            - generic [ref=e242]:
+              - text: Com base em 9 avaliações
+              - img "Verified Checkmark" [ref=e243]
+          - generic [ref=e244]:
+            - generic [ref=e245] [cursor=pointer]:
+              - button "100% (9) avaliações com classificação de 5 estrelas" [ref=e246]:
+                - generic [ref=e247]: 
+                - generic [ref=e248]: 
+                - generic [ref=e249]: 
+                - generic [ref=e250]: 
+                - generic [ref=e251]: 
+              - generic [ref=e254]: "9"
+            - generic:
+              - button "0% (0) avaliações com classificação de 4 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 3 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 2 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 1 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+        - generic [ref=e257]:
+          - textbox "Pesquisa" [ref=e258]
+          - text: 
+      - generic [ref=e261]:
+        - combobox "Sort dropdown" [ref=e262] [cursor=pointer]:
+          - option "Mais recentes" [selected]
+          - option "Classificação mais alta"
+          - option "Classificação mais baixa"
+          - option "Apenas fotografias"
+          - option "Fotografias primeiro"
+          - option "Vídeos Primeiro"
+          - option "Mais úteis"
+        - generic [ref=e263]: 
+      - generic [ref=e264]:
+        - generic [ref=e267]:
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - img "avaliação de 5 estrelas" [ref=e271]:
+                - generic [ref=e272]: 
+                - generic [ref=e273]: 
+                - generic [ref=e274]: 
+                - generic [ref=e275]: 
+                - generic [ref=e276]: 
+              - generic [ref=e277]: 10/04/2026
+            - generic [ref=e278]:
+              - generic [ref=e279]:  
+              - generic [ref=e280]:
+                - text: mse
+                - generic [ref=e282]: Verificado
+          - generic [ref=e284]:
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - img "avaliação de 5 estrelas" [ref=e287]:
+                  - generic [ref=e288]: 
+                  - generic [ref=e289]: 
+                  - generic [ref=e290]: 
+                  - generic [ref=e291]: 
+                  - generic [ref=e292]: 
+                - generic [ref=e293]: 11/03/2026
+              - generic [ref=e294]:
+                - generic [ref=e295]:  
+                - generic [ref=e296]:
+                  - text: Robert Cristian
+                  - generic [ref=e298]: Verificado
+            - generic [ref=e300]:
+              - paragraph [ref=e302]: Best one yet
+              - link "Link to user picture 1" [ref=e304] [cursor=pointer]:
+                - /url: https://judgeme.imgix.net/aroma-wax/1773210450__1773210442304-image__original.jpg?auto=format&w=1024
+            - button "Traduzir avaliação para português europeu" [ref=e307] [cursor=pointer]
+        - generic [ref=e308]:
+          - heading "Avaliações noutros idiomas" [level=3] [ref=e309]
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - generic [ref=e312]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]:
+                    - img "avaliação de 5 estrelas" [ref=e315]:
+                      - generic [ref=e316]: 
+                      - generic [ref=e317]: 
+                      - generic [ref=e318]: 
+                      - generic [ref=e319]: 
+                      - generic [ref=e320]: 
+                    - generic [ref=e321]: 07/04/2026
+                  - generic [ref=e322]:
+                    - generic [ref=e323]:  
+                    - generic [ref=e324]:
+                      - text: Aiga Cīrule
+                      - generic [ref=e326]: Verificado
+                - paragraph [ref=e330]: Very easy to use! Love it 👍
+                - button "Traduzir avaliação para português europeu" [ref=e333] [cursor=pointer]
+              - generic [ref=e334]:
+                - generic [ref=e335]:
+                  - generic [ref=e336]:
+                    - img "avaliação de 5 estrelas" [ref=e337]:
+                      - generic [ref=e338]: 
+                      - generic [ref=e339]: 
+                      - generic [ref=e340]: 
+                      - generic [ref=e341]: 
+                      - generic [ref=e342]: 
+                    - generic [ref=e343]: 03/02/2026
+                  - generic [ref=e344]:
+                    - generic [ref=e345]:  
+                    - generic [ref=e346]:
+                      - text: Marta
+                      - generic [ref=e348]: Verificado
+                - paragraph [ref=e352]: Genial! comprare mas seguro!
+                - button "Traduzir avaliação para português europeu" [ref=e355] [cursor=pointer]
+              - generic [ref=e356]:
+                - generic [ref=e357]:
+                  - generic [ref=e358]:
+                    - img "avaliação de 5 estrelas" [ref=e359]:
+                      - generic [ref=e360]: 
+                      - generic [ref=e361]: 
+                      - generic [ref=e362]: 
+                      - generic [ref=e363]: 
+                      - generic [ref=e364]: 
+                    - generic [ref=e365]: 23/01/2026
+                  - generic [ref=e366]:
+                    - generic [ref=e367]:  
+                    - generic [ref=e368]:
+                      - text: Anônimo
+                      - generic [ref=e370]: Verificado
+                - paragraph [ref=e374]: Productos de calidad, servicio y atención de diez.
+                - button "Traduzir avaliação para português europeu" [ref=e377] [cursor=pointer]
+            - generic [ref=e378]:
+              - button "Page 1": "1"
+              - button "Page 2" [ref=e379] [cursor=pointer]: "2"
+              - button "Page 3" [ref=e380] [cursor=pointer]: "3"
+              - button "Page 2" [ref=e381] [cursor=pointer]: 
+              - button "Page 3" [ref=e382] [cursor=pointer]: 
+    - generic [ref=e387]:
+      - heading "Ver produtos semelhantes Ver produtos semelhantes" [level=2] [ref=e388]:
+        - text: Ver produtos semelhantes
+        - generic [ref=e390]: Ver produtos semelhantes
+      - paragraph [ref=e391]: Explore os nossos produtos para fabrico de velas e difusores, cuidadosamente escolhidos pela sua performance excecional e fiabilidade.
+    - generic [ref=e395]:
+      - generic [ref=e396]:
+        - generic [ref=e398]:
+          - paragraph [ref=e399]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e401]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e403]:
+            - generic [ref=e404]:
+              - textbox "E-mail" [ref=e405]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e407] [cursor=pointer]:
+              - generic [ref=e408]: Subscrever
+        - generic [ref=e409]:
+          - paragraph [ref=e410]: ajuda e informações
+          - list [ref=e411]:
+            - listitem [ref=e412]:
+              - link "contacte-nos" [ref=e413] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e414]:
+              - link "estado da encomenda" [ref=e415] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e416]:
+              - link "apoio ao cliente" [ref=e417] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e418]:
+              - link "aprendizagem" [ref=e419] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e420]:
+              - link "FAQ e ajuda" [ref=e421] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e422]:
+          - paragraph [ref=e423]: as nossas lojas
+          - list [ref=e424]:
+            - listitem [ref=e425]:
+              - link "comprar em Espanha" [ref=e426] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e427]:
+              - link "loja UE em inglês" [ref=e428] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e429]:
+              - link "loja UE em francês" [ref=e430] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e431]:
+              - link "Loja UE em alemão" [ref=e432] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e433]:
+          - paragraph [ref=e434]: políticas da loja
+          - list [ref=e435]:
+            - listitem [ref=e436]:
+              - link "sobre nós" [ref=e437] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e438]:
+              - link "política de privacidade" [ref=e439] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e440]:
+              - link "política de envios e devoluções" [ref=e441] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e442]:
+              - link "termos de serviço" [ref=e443] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e445]:
+        - list [ref=e446]:
+          - listitem [ref=e447]:
+            - img "American Express" [ref=e448]
+          - listitem [ref=e457]:
+            - img "Apple Pay" [ref=e458]
+          - listitem [ref=e469]:
+            - img "Bancontact" [ref=e470]
+          - listitem [ref=e477]:
+            - img "Google Pay" [ref=e478]
+          - listitem [ref=e486]:
+            - img "iDEAL Wero" [ref=e487]
+          - listitem [ref=e502]:
+            - img "Klarna" [ref=e503]
+          - listitem [ref=e507]:
+            - img "Maestro" [ref=e508]
+          - listitem [ref=e514]:
+            - img "Mastercard" [ref=e515]
+          - listitem [ref=e521]:
+            - img "PayPal" [ref=e522]
+          - listitem [ref=e528]:
+            - img "Shop Pay" [ref=e529]
+          - listitem [ref=e533]:
+            - img "Union Pay" [ref=e534]
+          - listitem [ref=e540]:
+            - img "Visa" [ref=e541]
+        - generic [ref=e545]:
+          - paragraph [ref=e546]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e547] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e548]:
+            - listitem [ref=e549]:
+              - link "Política de privacidade" [ref=e550] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e551]:
+              - text: •
+              - link "Política de devoluções" [ref=e552] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e553]:
+              - text: •
+              - link "Termos de serviço" [ref=e554] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e555]:
+              - text: •
+              - link "Política de envios" [ref=e556] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e557]:
+              - text: •
+              - link "Preferências de cookies" [ref=e558] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

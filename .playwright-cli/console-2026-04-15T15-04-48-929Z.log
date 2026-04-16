@@ -1,0 +1,177 @@
+[     776ms] Identifier 'remainingFormatted' has already been declared
+[     801ms] [WARNING] An import map rule for specifier '@app/main' was removed, as it conflicted with an existing rule. @ https://aromawax.eu/pt/cart:0
+[     814ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:5927
+[     814ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:5927
+[     814ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:5927
+[     814ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:5927
+[     856ms] [LOG] %cCustomer Accounts Deluxe font-size: 18px; font-weight: bold; color: #fff; background: linear-gradient(90deg, #007bff, #00c6ff); padding: 6px 12px; border-radius: 5px; text-align: center; @ webpack://customer-account-deluxe/./extensions/customer-page/assets/cad_base.js?:39
+[     857ms] [LOG] 
+ 🔵 Seamless Shopify Integration
+
+ 🔵 Enhance Customer Experience with Custom Features
+
+ 🔵 Loyalty, Rewards, Social Login, Wishlist, Returns & Exchanges, Store Credits and Much More
+
+
+ Learn more at: https://apps.shopify.com/customer-account-deluxe
+
+ @ webpack://customer-account-deluxe/./extensions/customer-page/assets/cad_base.js?:40
+[     882ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[     882ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[     882ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[     882ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[     885ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[     885ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[     885ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[     885ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[     922ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[     922ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[     922ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[     922ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[     922ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[     922ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[     957ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[     957ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[     957ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[     957ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[     957ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[     957ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[     961ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[     961ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[     961ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[     961ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[     961ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[     961ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[     961ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[     961ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[     979ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[     979ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[     979ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[     979ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[     979ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[     979ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[     979ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[     979ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[    1253ms] [LOG] existingToggle null @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1202
+[    1253ms] [LOG] existingToggle null @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1202
+[    2180ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2180ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2180ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2180ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2180ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2180ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2180ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2180ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2387ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2387ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2387ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2387ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2387ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2387ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2387ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2388ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    2389ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[    2389ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[    2389ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[    2389ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[    2389ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[    2389ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[    2389ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[    2389ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[    2534ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[    2534ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[    2534ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[    2534ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[    2534ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[    2534ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[    2534ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[    2534ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[    2716ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[    2716ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[    2716ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[    2716ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[    2717ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[    2717ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[    2717ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[    2717ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[    8391ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[    8391ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[    8391ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[    8391ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[    8391ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[    8391ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[    8391ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[    8391ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[    8527ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[    8527ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[    8527ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[    8527ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[    8527ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[    8527ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[    8527ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[    8527ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[    8565ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8565ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8565ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8565ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8565ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8565ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8565ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8565ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/frame-modern.711a00cc.js:0
+[    8576ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[    8576ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[    8576ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[    8576ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[    8576ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[    8576ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[    8576ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[    8576ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[    8585ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8585ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8585ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8585ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8585ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8585ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8585ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8585ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[    8599ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[    8599ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[    8599ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[    8599ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[    8599ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[    8599ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[    8599ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[    8599ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[    8992ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[    8992ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[    8992ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[    8992ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[    8992ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[    8992ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[    8992ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[    8992ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[   14443ms] [WARNING] The resource https://aromawax.eu/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://aromawax.eu/pt/cart:0
+[   15390ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15390ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15390ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15390ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15390ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15390ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15390ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15390ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://js.intercomcdn.com/launcher-discovery-modern.f70b47a5.js:14
+[   15391ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[   15391ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[   15391ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[   15391ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[   15391ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[   15391ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[   15391ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[   15391ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0
+[   15796ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/cart:0
+[   15796ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/cart:0
+[   15796ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/cart:0
+[   15796ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/cart:0
+[   15796ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/cart:0
+[   15796ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/cart:0
+[   15796ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/cart:0
+[   15796ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/cart:0

@@ -1,0 +1,132 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: Iniciar sessão
+    - button [ref=e7] [cursor=pointer]
+  - alertdialog "Consentimento de cookies" [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - heading "Consentimento de cookies" [level=2] [ref=e12]
+        - paragraph [ref=e13]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e14] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e15]:
+        - button "Gerir preferências" [ref=e16] [cursor=pointer]
+        - button "Aceitar" [ref=e17] [cursor=pointer]
+        - button "Rejeitar" [ref=e18] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e19] [cursor=pointer]:
+    - /url: /pt#main
+  - main [ref=e20]:
+    - navigation "breadcrumbs" [ref=e24]:
+      - link "Home" [ref=e25] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e26]: /
+      - generic [ref=e27]: como fazer velas
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading "learning learning" [level=2] [ref=e33]:
+          - text: learning
+          - generic [ref=e35]: learning
+        - link "View all" [ref=e36] [cursor=pointer]:
+          - /url: /pt
+          - generic [ref=e37]: View all
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - 'link "como fazer velas Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e42] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+            - generic [ref=e43]: como fazer velas
+            - 'img "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e44]'
+          - generic "page|como fazer velas" [ref=e45]:
+            - generic [ref=e46]:
+              - generic [ref=e47]:
+                - paragraph [ref=e48]:
+                  - 'link "Comparação das melhores ceras para velas: soja vs coco vs parafina" [ref=e49] [cursor=pointer]':
+                    - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+                - paragraph [ref=e50]: “Não existe uma única cera “ideal” para todas as utilizações — cada tipo de cera (soja, coco, parafina) tem os seus pontos fortes e fracos”, afirma Anna Linde, da AROMA + WAX, empresa que fornece m...
+              - generic [ref=e56]: 28/01/2026
+        - generic [ref=e57]:
+          - link "como fazer velas como fazer velas" [ref=e58] [cursor=pointer]:
+            - /url: /pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use
+            - generic [ref=e59]: como fazer velas
+            - img "como fazer velas" [ref=e60]
+          - generic "page|como fazer velas" [ref=e61]:
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - paragraph [ref=e64]:
+                  - 'link "Carga de fragrância em velas explicada: quanto óleo deve usar?" [ref=e65] [cursor=pointer]':
+                    - /url: /pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use
+                - paragraph [ref=e66]: "1. O que é a carga de fragrância (e porque é importante) Definição: A carga de fragrância é a proporção (em peso) de óleo de fragrância adicionada à cera da vela. Por exemplo, se tiver 100 g de ce..."
+              - generic [ref=e72]: 20/11/2025
+        - generic [ref=e73]:
+          - link "como fazer velas como fazer velas" [ref=e74] [cursor=pointer]:
+            - /url: /pt/blogs/how-to-make-candles/how-to-make-your-first-candle-collection-key-steps-to-success
+            - generic [ref=e75]: como fazer velas
+            - img "como fazer velas" [ref=e76]
+          - generic "page|como fazer velas" [ref=e77]:
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - paragraph [ref=e80]:
+                  - 'link "Como criar a sua primeira coleção de velas: passos-chave para o sucesso" [ref=e81] [cursor=pointer]':
+                    - /url: /pt/blogs/how-to-make-candles/how-to-make-your-first-candle-collection-key-steps-to-success
+                - paragraph [ref=e82]: Quando decide criar a sua primeira coleção de velas, dá um passo emocionante na construção da sua marca. Neste artigo, não falaremos sobre... orçamento ou custos A duração de um projeto como este d...
+              - generic [ref=e88]: 11/11/2025
+        - generic [ref=e89]:
+          - link "como fazer velas como fazer velas" [ref=e90] [cursor=pointer]:
+            - /url: /pt/blogs/how-to-make-candles/how-to-choose-the-perfect-wick-for-your-candle
+            - generic [ref=e91]: como fazer velas
+            - img "como fazer velas" [ref=e92]
+          - generic "page|como fazer velas" [ref=e93]:
+            - generic [ref=e94]:
+              - generic [ref=e95]:
+                - paragraph [ref=e96]:
+                  - link "Como escolher o pavio perfeito para a sua vela" [ref=e97] [cursor=pointer]:
+                    - /url: /pt/blogs/how-to-make-candles/how-to-choose-the-perfect-wick-for-your-candle
+                - paragraph [ref=e98]: Escolher o pavio certo é fundamental para criar velas de alta qualidade que queimem de forma limpa e uniforme. Os pavimentos premium, como o TCR e o STABILO, são oferecidos para garantir o melhor d...
+              - generic [ref=e104]: 10/06/2025
+        - generic [ref=e105]:
+          - link "como fazer velas How to Make Container Candles - Candle Making Guide" [ref=e106] [cursor=pointer]:
+            - /url: /pt/blogs/how-to-make-candles/how-to-make-container-candles-candle-making-guide
+            - generic [ref=e107]: como fazer velas
+            - img "How to Make Container Candles - Candle Making Guide" [ref=e108]
+          - generic "page|como fazer velas" [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - paragraph [ref=e112]:
+                  - link "Como fazer velas em recipiente - guia de fabrico de velas" [ref=e113] [cursor=pointer]:
+                    - /url: /pt/blogs/how-to-make-candles/how-to-make-container-candles-candle-making-guide
+                - paragraph [ref=e114]: As velas em recipientes trazem aconchego e charme a qualquer divisão, e fazê-las em casa é gratificante. Este guia oferece um passo a passo para criar velas em recipientes com cera, pavios e fragrâ...
+              - generic [ref=e120]: 10/06/2025
+        - generic [ref=e121]:
+          - 'link "como fazer velas How to Make Candles: A Practical Guide for Beginners" [ref=e122] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-candles/how-to-make-candles-a-practical-guide-for-beginners
+            - generic [ref=e123]: como fazer velas
+            - 'img "How to Make Candles: A Practical Guide for Beginners" [ref=e124]'
+          - generic "page|como fazer velas" [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - paragraph [ref=e128]:
+                  - 'link "Como fazer velas: guia prático para principiantes" [ref=e129] [cursor=pointer]':
+                    - /url: /pt/blogs/how-to-make-candles/how-to-make-candles-a-practical-guide-for-beginners
+                - paragraph [ref=e130]: O fabrico de velas transforma materiais simples em criações brilhantes que iluminam casas e corações. Este artesanato "faça você mesmo" oferece uma saída criativa, perfeita para fazer presentes art...
+              - generic [ref=e136]: 10/05/2025
+  - iframe [ref=e138]:
+    - generic [ref=f1e4]:
+      - button [ref=f1e7] [cursor=pointer]:
+        - img [ref=f1e9]
+        - img [ref=f1e12]
+      - generic [ref=f1e15]:
+        - generic [ref=f1e18]:
+          - link "Logo" [ref=f1e19] [cursor=pointer]:
+            - /url: https://admin.shopify.com/store/3rcue2-me
+            - img "Logo" [ref=f1e20]
+          - generic [ref=f1e22]:
+            - generic [ref=f1e23]: pt-fresh-clone-2026-04-15T12-42-06
+            - generic [ref=f1e24]: Draft
+        - generic [ref=f1e26]:
+          - button "Hide bar" [ref=f1e28] [cursor=pointer]:
+            - generic [ref=f1e29]: Hide bar
+          - button "Exit preview" [ref=f1e31] [cursor=pointer]:
+            - generic [ref=f1e32]: Exit preview
+          - button "Copy link" [ref=f1e35] [cursor=pointer]:
+            - img [ref=f1e39]
+            - generic [ref=f1e41]: Copy link

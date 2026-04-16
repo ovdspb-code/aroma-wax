@@ -1,0 +1,96 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "totals": {
+          "type": "totals",
+          "settings": {
+            "show_order_weight": false,
+            "show_shipping_text": true
+          }
+        },
+        "cart_note": {
+          "type": "cart_note",
+          "settings": {}
+        },
+        "text_D6WwDh": {
+          "type": "text",
+          "settings": {
+            "content": "<p><strong>If you are an EU business</strong>: Enter your VAT number to remove VAT at checkout. Leave it blank if not applicable.</p>"
+          }
+        },
+        "sample_products_try_buy_sample_products_VF9VPp": {
+          "type": "shopify://apps/sample-products-try-buy/blocks/Sample_Products/3632215c-93d9-4dff-975f-c2aaaa474c03",
+          "settings": {
+            "redirect_event": "redirect_cart",
+            "btn_txt": "Choose your free sample now",
+            "btn_bgClr": "#bebdb9",
+            "btn_txtClr": "",
+            "msgWithBtn": "0",
+            "getSelectMsg": "Select Any",
+            "getSampleMsg": "<p>Add items worth XX to get YY product sample!</p>",
+            "unlockedMsg": "<p>🎉 Congratulations, <strong>X</strong> Samples Unlocked!</p>",
+            "upsellMsg": "<p>Add items worth <strong>XX</strong> to claim total <strong>YY</strong> sample(s)!</p>",
+            "show_custom_text": "yes",
+            "custom_text": "<p>🎁 Spend <strong>XX</strong> more to unlock your <strong>YY</strong> free sample product(s)</p>",
+            "popupTitle": "Select Sample Products",
+            "a2c_text": "Select Sample Products",
+            "a2cBtn_bgClr": "",
+            "a2cTxt_bgClr": "",
+            "selectedText": "<p>XX out of YY selected</p>"
+          }
+        },
+        "f_eu_vat_automation_vat_validator_ftDnxx": {
+          "type": "shopify://apps/f-eu-vat-automation/blocks/vat-validator/28d57e01-5418-470e-bf31-d06bdf42be7b",
+          "settings": {
+            "custom_css": ".f-vat-validator-form .input-wrapper:first-child {\n  display: none !important;\n}\n\n.f-vat-validator-form {\n  max-width: 420px !important;\n  padding: 10px !important;\n  margin: 10px 0 !important;\n  font-size: 14px !important;\n}\n\n.f-vat-validator-form input {\n  height: 36px !important;\n  font-size: 14px !important;\n  padding: 6px 8px !important;\n}\n\n.f-vat-validator-form button {\n  height: 36px !important;\n  font-size: 14px !important;\n  padding: 6px 12px !important;\n}"
+          }
+        },
+        "checkout_button": {
+          "type": "checkout_button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "totals",
+        "cart_note",
+        "text_D6WwDh",
+        "sample_products_try_buy_sample_products_VF9VPp",
+        "f_eu_vat_automation_vat_validator_ftDnxx",
+        "checkout_button"
+      ],
+      "custom_css": [],
+      "settings": {
+        "show_shipping_estimator": false,
+        "show_payment_icons": true
+      }
+    },
+    "custom_liquid_KXxAMA": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"discount-message\" style=\"background: #f8f9fa; padding: 20px; margin: 15px 0; border-radius: 10px; border: 2px solid #e9ecef; text-align: center;\">\n  <script>\n    (function() {\n      const cartTotal = {{ cart.total_price | divided_by: 100.0 }};\n      const tiers = [\n        { min: 0, max: 250, discount: 0, next: 250, nextDiscount: 5 },\n        { min: 250, max: 500, discount: 5, next: 500, nextDiscount: 7 },\n        { min: 500, max: 750, discount: 7, next: 750, nextDiscount: 10 },\n        { min: 750, max: Infinity, discount: 10, next: null, nextDiscount: null }\n      ];\n      \n      let currentTier = tiers.find(t => cartTotal >= t.min && cartTotal < t.max);\n      let remaining = currentTier.next ? (currentTier.next - cartTotal).toFixed(2) : 0;\n      \n      let message = '';\n      if (currentTier.next) {\n        message = `Add €${remaining} more to get ${currentTier.nextDiscount}% off!`;\n      } else {\n        message = `🎉 Congratulations! You get the maximum ${currentTier.discount}% discount`;\n      }\n      \n      document.write(`<p style=\"margin: 0; font-weight: bold; color: #333; font-size: 16px;\">${message}</p>`);\n    })();\n  </script>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_KXxAMA"
+  ]
+}

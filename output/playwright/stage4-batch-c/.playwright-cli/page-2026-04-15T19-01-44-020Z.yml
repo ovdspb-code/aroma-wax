@@ -1,0 +1,416 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: Iniciar sessão
+      - button [ref=e7] [cursor=pointer]
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: Enviaremos um código único (OTP) para o seu e-mail para um início de sessão seguro.
+      - generic [ref=e12]:
+        - textbox "E-mail" [ref=e13]
+        - generic: E-mail
+      - button "Continuar" [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]: Continuar
+      - link "Criar conta" [ref=e16] [cursor=pointer]:
+        - /url: /pt/apps/deluxe/account/register
+  - alertdialog "Consentimento de cookies" [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Consentimento de cookies" [level=2] [ref=e20]
+        - paragraph [ref=e21]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e22] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e23]:
+        - button "Gerir preferências" [ref=e24] [cursor=pointer]
+        - button "Aceitar" [ref=e25] [cursor=pointer]
+        - button "Rejeitar" [ref=e26] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e27] [cursor=pointer]:
+    - /url: /pt#main
+  - main [ref=e28]:
+    - region [ref=e31]:
+      - group [ref=e32]:
+        - generic [ref=e36]:
+          - paragraph [ref=e37]: Meet Summer 2026!
+          - paragraph [ref=e38]: "Juicy berries, matcha tea breezes, sunlit florals, soft musks and bold green woods — the new summer collection captures everything this season is about: green nuance, quiet luxury and textured freshness. Every scent is crafted to shine in diffusers, candles, room sprays and soaps, so your whole summer line can feel cohesive, modern and truly premium."
+          - link "Shop the collection" [ref=e39] [cursor=pointer]:
+            - /url: /pt/collections/summer-fragrances
+      - generic [ref=e41]:
+        - button "1" [ref=e42] [cursor=pointer]:
+          - img [ref=e43]
+          - generic [ref=e46]: "1"
+        - button "2" [ref=e47] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: "2"
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - heading "Popular categories Popular categories" [level=2] [ref=e57]:
+          - text: Popular categories
+          - generic [ref=e59]: Popular categories
+        - paragraph [ref=e60]: Explore our quality candle and diffuser-making products, carefully selected for their exceptional performance and reliability.
+      - generic [ref=e63]:
+        - link "Óleos de fragrância" [ref=e64] [cursor=pointer]:
+          - /url: /pt/collections/fragrance-oils-for-spray-making
+          - paragraph [ref=e68]: Óleos de fragrância
+        - link "Dyes" [ref=e69] [cursor=pointer]:
+          - /url: /pt/collections/corantes
+          - paragraph [ref=e73]: Dyes
+        - link "Waxes" [ref=e74] [cursor=pointer]:
+          - /url: /pt/collections/ceras-1
+          - paragraph [ref=e78]: Waxes
+        - link "Jars and Lids" [ref=e79] [cursor=pointer]:
+          - /url: /pt/collections/jars-and-lids
+          - paragraph [ref=e83]: Jars and Lids
+        - link "Wicks" [ref=e84] [cursor=pointer]:
+          - /url: /pt/collections/pavios
+          - paragraph [ref=e88]: Wicks
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - heading "Top selling products Top selling products" [level=2] [ref=e94]:
+          - text: Top selling products
+          - generic [ref=e96]: Top selling products
+        - link "View all" [ref=e97] [cursor=pointer]:
+          - /url: /pt/collections/top-selling
+          - generic [ref=e98]: View all
+      - generic [ref=e101]:
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - link "Óleo de fragrância matcha de Quioto e nuvem de coco Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e107] [cursor=pointer]:
+                - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil
+                - img "Óleo de fragrância matcha de Quioto e nuvem de coco" [ref=e108]
+                - img "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e109]
+              - checkbox "Add to wishlist button" [ref=e110] [cursor=pointer]:
+                - img [ref=e111]
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - link "Óleo de fragrância matcha de Quioto e nuvem de coco" [ref=e117] [cursor=pointer]:
+                  - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e118] [cursor=pointer]:
+                  - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil#shopify-product-reviews
+                  - generic [ref=e119]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e120]
+              - generic [ref=e124]:
+                - generic [ref=e125]: Preço de venda
+                - text: A partir de
+                - generic [ref=e127]: €3,55 EUR
+          - generic [ref=e128]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e129]:
+              - link "Óleo de fragrância morango silvestre, creme e seda Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e130] [cursor=pointer]:
+                - /url: /pt/products/wild-strawberry-cream-silk
+                - img "Óleo de fragrância morango silvestre, creme e seda" [ref=e131]
+                - img "Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e132]
+              - checkbox "Add to wishlist button" [ref=e133] [cursor=pointer]:
+                - img [ref=e134]
+            - generic [ref=e137]:
+              - generic [ref=e138]:
+                - link "Óleo de fragrância morango silvestre, creme e seda" [ref=e140] [cursor=pointer]:
+                  - /url: /pt/products/wild-strawberry-cream-silk
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e141] [cursor=pointer]:
+                  - /url: /pt/products/wild-strawberry-cream-silk#shopify-product-reviews
+                  - generic [ref=e142]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e143]
+              - generic [ref=e147]:
+                - generic [ref=e148]: Preço de venda
+                - text: A partir de
+                - generic [ref=e150]: €3,05 EUR
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - link "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e153] [cursor=pointer]:
+                - /url: /pt/products/summer-2026-fragrance-oils-kit
+                - img "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers" [ref=e154]
+                - img "Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e155]
+              - checkbox "Add to wishlist button" [ref=e156] [cursor=pointer]:
+                - img [ref=e157]
+            - generic [ref=e160]:
+              - generic [ref=e161]:
+                - link "Kit de fragrâncias de verão" [ref=e163] [cursor=pointer]:
+                  - /url: /pt/products/summer-2026-fragrance-oils-kit
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e164] [cursor=pointer]:
+                  - /url: /pt/products/summer-2026-fragrance-oils-kit#shopify-product-reviews
+                  - generic [ref=e165]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e166]
+              - generic [ref=e170]:
+                - generic [ref=e171]: Preço de venda
+                - generic [ref=e173]: €34,90 EUR
+          - generic [ref=e174]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e175]:
+              - link "Suede Leather and Orris fragrance oil for candles, wax melts and home fragrance making Óleo de fragrância couro de camurça e orris" [ref=e176] [cursor=pointer]:
+                - /url: /pt/products/suede-leather-orris-fragrance-oil
+                - img "Suede Leather and Orris fragrance oil for candles, wax melts and home fragrance making" [ref=e177]
+                - img "Óleo de fragrância couro de camurça e orris" [ref=e178]
+              - checkbox "Add to wishlist button" [ref=e179] [cursor=pointer]:
+                - img [ref=e180]
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - link "Óleo de fragrância couro de camurça e orris" [ref=e186] [cursor=pointer]:
+                  - /url: /pt/products/suede-leather-orris-fragrance-oil
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e187] [cursor=pointer]:
+                  - /url: /pt/products/suede-leather-orris-fragrance-oil#shopify-product-reviews
+                  - generic [ref=e188]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e189]
+              - generic [ref=e193]:
+                - generic [ref=e194]: Preço de venda
+                - text: A partir de
+                - generic [ref=e196]: €3,55 EUR
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - link "Very Mango Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making Very Mango Fragrance Oil for Professional Candle, Soap, Perfume and Spray Making" [ref=e199] [cursor=pointer]:
+                - /url: /pt/products/mango-fragrance-oil
+                - img "Very Mango Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making" [ref=e200]
+                - img "Very Mango Fragrance Oil for Professional Candle, Soap, Perfume and Spray Making" [ref=e201]
+              - checkbox "Add to wishlist button" [ref=e202] [cursor=pointer]:
+                - img [ref=e203]
+            - generic [ref=e206]:
+              - generic [ref=e207]:
+                - link "Óleo de fragrância manga intensa" [ref=e209] [cursor=pointer]:
+                  - /url: /pt/products/mango-fragrance-oil
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e210] [cursor=pointer]:
+                  - /url: /pt/products/mango-fragrance-oil#shopify-product-reviews
+                  - generic [ref=e211]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e212]
+              - generic [ref=e216]:
+                - generic [ref=e217]: Preço de venda
+                - text: A partir de
+                - generic [ref=e219]: €3,70 EUR
+          - generic [ref=e220]:
+            - generic [ref=e221]:
+              - link "Black Pepper & Velvet Orchid Fragrance Oil for Candle, Diffusor, Soap and Spray Making Óleo de fragrância pimenta-preta e orquídea aveludada" [ref=e222] [cursor=pointer]:
+                - /url: /pt/products/black-pepper-and-velvet-orchid-fragrance-oil
+                - img "Black Pepper & Velvet Orchid Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e223]
+                - img "Óleo de fragrância pimenta-preta e orquídea aveludada" [ref=e224]
+              - checkbox "Add to wishlist button" [ref=e225] [cursor=pointer]:
+                - img [ref=e226]
+            - generic [ref=e229]:
+              - generic [ref=e230]:
+                - link "Óleo de fragrância pimenta-preta e orquídea aveludada" [ref=e232] [cursor=pointer]:
+                  - /url: /pt/products/black-pepper-and-velvet-orchid-fragrance-oil
+                - link "4.9 4.9 fora de 5.0 estrelas" [ref=e233] [cursor=pointer]:
+                  - /url: /pt/products/black-pepper-and-velvet-orchid-fragrance-oil#shopify-product-reviews
+                  - generic [ref=e234]: "4.9"
+                  - img "4.9 fora de 5.0 estrelas" [ref=e235]
+              - generic [ref=e239]:
+                - generic [ref=e240]: Preço de venda
+                - text: A partir de
+                - generic [ref=e242]: €3,92 EUR
+          - generic [ref=e243]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e244]:
+              - link "Óleo de fragrância fougère de cavalheiro moderno Óleo de fragrância fougère de cavalheiro moderno" [ref=e245] [cursor=pointer]:
+                - /url: /pt/products/modern-gentleman-fougere-fragrance-oil
+                - img "Óleo de fragrância fougère de cavalheiro moderno" [ref=e246]
+                - img "Óleo de fragrância fougère de cavalheiro moderno" [ref=e247]
+              - checkbox "Add to wishlist button" [ref=e248] [cursor=pointer]:
+                - img [ref=e249]
+            - generic [ref=e252]:
+              - generic [ref=e253]:
+                - link "Óleo de fragrância fougère de cavalheiro moderno" [ref=e255] [cursor=pointer]:
+                  - /url: /pt/products/modern-gentleman-fougere-fragrance-oil
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e256] [cursor=pointer]:
+                  - /url: /pt/products/modern-gentleman-fougere-fragrance-oil#shopify-product-reviews
+                  - generic [ref=e257]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e258]
+              - generic [ref=e262]:
+                - generic [ref=e263]: Preço de venda
+                - text: A partir de
+                - generic [ref=e265]: €3,70 EUR
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - link "Golden Wax 464 soy wax pellets for container candles Golden Wax 464 soy wax pellets package" [ref=e268] [cursor=pointer]:
+                - /url: /pt/products/golden-waxtm-464-container-soy-wax
+                - img "Golden Wax 464 soy wax pellets for container candles" [ref=e269]
+                - img "Golden Wax 464 soy wax pellets package" [ref=e270]
+              - checkbox "Add to wishlist button" [ref=e271] [cursor=pointer]:
+                - img [ref=e272]
+            - generic [ref=e275]:
+              - generic [ref=e276]:
+                - link "Cera Golden Wax™ 464 para velas em recipiente" [ref=e278] [cursor=pointer]:
+                  - /url: /pt/products/golden-waxtm-464-container-soy-wax
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e279] [cursor=pointer]:
+                  - /url: /pt/products/golden-waxtm-464-container-soy-wax#shopify-product-reviews
+                  - generic [ref=e280]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e281]
+              - generic [ref=e285]:
+                - generic [ref=e286]: Preço de venda
+                - text: A partir de
+                - generic [ref=e288]: €8,23 EUR
+          - generic [ref=e289]:
+            - generic [ref=e290]:
+              - link "Amber Room Spray PET Classic Bottle with a Trigger Sprayer 250 ml Amber Room Spray PET Classic Bottle with a Sprayer 125 ml" [ref=e291] [cursor=pointer]:
+                - /url: /pt/products/room-spray-classic-bottle-125-ml
+                - img "Amber Room Spray PET Classic Bottle with a Trigger Sprayer 250 ml" [ref=e292]
+                - img "Amber Room Spray PET Classic Bottle with a Sprayer 125 ml" [ref=e293]
+              - checkbox "Add to wishlist button" [ref=e294] [cursor=pointer]:
+                - img [ref=e295]
+            - generic [ref=e298]:
+              - generic [ref=e299]:
+                - link "Frasco clássico para spray de ambiente, 125 ml" [ref=e301] [cursor=pointer]:
+                  - /url: /pt/products/room-spray-classic-bottle-125-ml
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e302] [cursor=pointer]:
+                  - /url: /pt/products/room-spray-classic-bottle-125-ml#shopify-product-reviews
+                  - generic [ref=e303]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e304]
+              - generic [ref=e308]:
+                - generic [ref=e309]: Preço de venda
+                - generic [ref=e311]: €1,63 EUR
+          - generic [ref=e312]:
+            - generic [ref=e313]:
+              - link "Golden Wax™ R45+ Rapeseed Сontainer Wax pastilles for professional candle making Golden Wax™ R45+ Rapeseed Сontainer Wax packaging" [ref=e314] [cursor=pointer]:
+                - /url: /pt/products/golden-wax%E2%84%A2-r45-%D1%81ontainer-wax
+                - img "Golden Wax™ R45+ Rapeseed Сontainer Wax pastilles for professional candle making" [ref=e315]
+                - img "Golden Wax™ R45+ Rapeseed Сontainer Wax packaging" [ref=e316]
+              - checkbox "Add to wishlist button" [ref=e317] [cursor=pointer]:
+                - img [ref=e318]
+            - generic [ref=e321]:
+              - link "Cera de colza Golden Wax™ R45+ para velas em recipiente" [ref=e324] [cursor=pointer]:
+                - /url: /pt/products/golden-wax%E2%84%A2-r45-%D1%81ontainer-wax
+              - generic [ref=e327]:
+                - generic [ref=e328]: Preço de venda
+                - text: A partir de
+                - generic [ref=e330]: €8,23 EUR
+          - generic [ref=e331]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e332]:
+              - link "Óleo de fragrância noz-moscada, gengibre e especiarias Óleo de fragrância noz-moscada, gengibre e especiarias" [ref=e333] [cursor=pointer]:
+                - /url: /pt/products/nutmeg-ginger-spice-fragrance-oil
+                - img "Óleo de fragrância noz-moscada, gengibre e especiarias" [ref=e334]
+                - img "Óleo de fragrância noz-moscada, gengibre e especiarias" [ref=e335]
+              - checkbox "Add to wishlist button" [ref=e336] [cursor=pointer]:
+                - img [ref=e337]
+            - generic [ref=e340]:
+              - link "Óleo de fragrância noz-moscada, gengibre e especiarias" [ref=e343] [cursor=pointer]:
+                - /url: /pt/products/nutmeg-ginger-spice-fragrance-oil
+              - generic [ref=e346]:
+                - generic [ref=e347]: Preço de venda
+                - text: A partir de
+                - generic [ref=e349]: €4,09 EUR
+          - generic [ref=e350]:
+            - generic [ref=e351]:
+              - link "Simply Delicious fragrance oil test kit with 10 dessert-inspired scents for candles and home fragrance making Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e352] [cursor=pointer]:
+                - /url: /pt/products/simply-delicious-fragrances-kit
+                - img "Simply Delicious fragrance oil test kit with 10 dessert-inspired scents for candles and home fragrance making" [ref=e353]
+                - img "Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e354]
+              - checkbox "Add to wishlist button" [ref=e355] [cursor=pointer]:
+                - img [ref=e356]
+            - generic [ref=e359]:
+              - generic [ref=e360]:
+                - link "Kit de fragrâncias deliciosas" [ref=e362] [cursor=pointer]:
+                  - /url: /pt/products/simply-delicious-fragrances-kit
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e363] [cursor=pointer]:
+                  - /url: /pt/products/simply-delicious-fragrances-kit#shopify-product-reviews
+                  - generic [ref=e364]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e365]
+              - generic [ref=e369]:
+                - generic [ref=e370]: Preço de venda
+                - generic [ref=e372]: €39,91 EUR
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - link "Varetas de rattan para difusor Varetas de rattan para difusor" [ref=e375] [cursor=pointer]:
+                - /url: /pt/products/rattan-diffuser-reeds
+                - img "Varetas de rattan para difusor" [ref=e376]
+                - img "Varetas de rattan para difusor" [ref=e377]
+              - checkbox "Add to wishlist button" [ref=e378] [cursor=pointer]:
+                - img [ref=e379]
+            - generic [ref=e381]:
+              - generic [ref=e382]:
+                - generic [ref=e383]:
+                  - link "Varetas de rattan para difusor" [ref=e385] [cursor=pointer]:
+                    - /url: /pt/products/rattan-diffuser-reeds
+                  - link "5.0 5.0 fora de 5.0 estrelas" [ref=e386] [cursor=pointer]:
+                    - /url: /pt/products/rattan-diffuser-reeds#shopify-product-reviews
+                    - generic [ref=e387]: "5.0"
+                    - img "5.0 fora de 5.0 estrelas" [ref=e388]
+                - generic [ref=e392]:
+                  - generic [ref=e393]: Preço de venda
+                  - text: A partir de
+                  - generic [ref=e395]: €13,92 EUR
+              - paragraph [ref=e397]: 1 cor disponível
+          - generic [ref=e398]:
+            - generic [ref=e399]:
+              - link "Ácido esteárico Tefacid® Ácido esteárico Tefacid®" [ref=e400] [cursor=pointer]:
+                - /url: /pt/products/tefacid%C2%AE-stearic-acid
+                - img "Ácido esteárico Tefacid®" [ref=e401]
+                - img "Ácido esteárico Tefacid®" [ref=e402]
+              - checkbox "Add to wishlist button" [ref=e403] [cursor=pointer]:
+                - img [ref=e404]
+            - generic [ref=e407]:
+              - link "Ácido esteárico Tefacid®" [ref=e410] [cursor=pointer]:
+                - /url: /pt/products/tefacid%C2%AE-stearic-acid
+              - generic [ref=e413]:
+                - generic [ref=e414]: Preço de venda
+                - text: A partir de
+                - generic [ref=e416]: €6,35 EUR
+          - generic [ref=e417]:
+            - generic [ref=e418]:
+              - link "My First Collection fragrance oil kit with 10 scents for candle and home fragrance makers Ten fragrance oils from the My First Collection kit for candles, wax melts, sprays and diffusers" [ref=e419] [cursor=pointer]:
+                - /url: /pt/products/my-first-collection-fragrance-oils-kit
+                - img "My First Collection fragrance oil kit with 10 scents for candle and home fragrance makers" [ref=e420]
+                - img "Ten fragrance oils from the My First Collection kit for candles, wax melts, sprays and diffusers" [ref=e421]
+              - checkbox "Add to wishlist button" [ref=e422] [cursor=pointer]:
+                - img [ref=e423]
+            - generic [ref=e426]:
+              - generic [ref=e427]:
+                - link "Kit de fragrâncias da minha primeira coleção" [ref=e429] [cursor=pointer]:
+                  - /url: /pt/products/my-first-collection-fragrance-oils-kit
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e430] [cursor=pointer]:
+                  - /url: /pt/products/my-first-collection-fragrance-oils-kit#shopify-product-reviews
+                  - generic [ref=e431]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e432]
+              - generic [ref=e436]:
+                - generic [ref=e437]: Preço de venda
+                - generic [ref=e439]: €34,90 EUR
+          - generic [ref=e440]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e441]:
+              - link "Óleo de fragrância agarwood e incenso nobre Óleo de fragrância agarwood e incenso nobre" [ref=e442] [cursor=pointer]:
+                - /url: /pt/products/agarwood-noble-incense-fragrance-oil
+                - img "Óleo de fragrância agarwood e incenso nobre" [ref=e443]
+                - img "Óleo de fragrância agarwood e incenso nobre" [ref=e444]
+              - checkbox "Add to wishlist button" [ref=e445] [cursor=pointer]:
+                - img [ref=e446]
+            - generic [ref=e449]:
+              - link "Óleo de fragrância agarwood e incenso nobre" [ref=e452] [cursor=pointer]:
+                - /url: /pt/products/agarwood-noble-incense-fragrance-oil
+              - generic [ref=e455]:
+                - generic [ref=e456]: Preço de venda
+                - text: A partir de
+                - generic [ref=e458]: €3,92 EUR
+        - generic [ref=e461]:
+          - button "Anterior" [disabled]:
+            - generic: Anterior
+          - button "Seguinte" [ref=e462] [cursor=pointer]:
+            - generic [ref=e463]: Seguinte
+    - generic [ref=e470]:
+      - paragraph [ref=e471]:
+        - text: About us
+        - generic [ref=e473]: About us
+      - paragraph [ref=e474]: We have over a decade of experience in producing candles, diffusers, and room sprays for private labels.
+      - paragraph [ref=e475]: "Our customers receive the same high-quality ingredients we use ourselves, ensuring consistent, reliable results. This is our primary advantage: eco-friendly waxes, unique and layered aromatic oils, popular containers and wicks, as well as trusted bases for diffusers."
+      - paragraph [ref=e476]: We offer fast worldwide shipping across Europe and beyond. Orders placed before 3 PM on working days are dispatched the same day. We understand the importance of having a dependable supplier who ensures seamless collaboration.
+  - iframe [ref=e478]:
+    - generic [ref=f1e4]:
+      - button [ref=f1e7] [cursor=pointer]:
+        - img [ref=f1e9]
+        - img [ref=f1e12]
+      - generic [ref=f1e15]:
+        - generic [ref=f1e18]:
+          - link "Logo" [ref=f1e19] [cursor=pointer]:
+            - /url: https://admin.shopify.com/store/3rcue2-me
+            - img "Logo" [ref=f1e20]
+          - generic [ref=f1e22]:
+            - generic [ref=f1e23]: pt-fresh-clone-2026-04-15T12-42-06
+            - generic [ref=f1e24]: Draft
+        - generic [ref=f1e26]:
+          - button "Hide bar" [ref=f1e28] [cursor=pointer]:
+            - generic [ref=f1e29]: Hide bar
+          - button "Exit preview" [ref=f1e31] [cursor=pointer]:
+            - generic [ref=f1e32]: Exit preview
+          - button "Copy link" [ref=f1e35] [cursor=pointer]:
+            - img [ref=f1e39]
+            - generic [ref=f1e41]: Copy link

@@ -1,0 +1,352 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 unidades" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 unidades
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - link "comprar tudo" [ref=e91] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e92]: /
+      - link "novidades" [ref=e93] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e94]: /
+      - link "tudo" [ref=e95] [cursor=pointer]:
+        - /url: /pt/collections/all-new-arrivals
+      - generic [ref=e96]: /
+      - generic [ref=e97]: Óleo de fragrância agarwood e incenso nobre
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e105]:
+          - img "Agarwood & Noble Incense Fragrance Oil for Professional Candle and Home Fragrances Making" [ref=e107]
+          - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e109]
+        - generic [ref=e111]:
+          - button "Ir para o item 1" [ref=e112] [cursor=pointer]:
+            - img "Agarwood & Noble Incense Fragrance Oil for Professional Candle and Home Fragrances Making" [ref=e113]
+          - button "Ir para o item 2" [ref=e114] [cursor=pointer]:
+            - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e115]
+      - generic [ref=e116]:
+        - heading "Óleo de fragrância agarwood e incenso nobre" [level=1] [ref=e118]
+        - generic:
+          - generic: 
+        - separator [ref=e120]
+        - paragraph [ref=e124]: "Óleo de fragrância agarwood e incenso nobre é uma composição amadeirada de alta perfumaria, com carácter ritual: uma abertura fresca e aromática dá rapidamente lugar a um coração luminoso de tabaco e incenso. À medida que assenta, o aroma torna-se mais escuro e mais nobre - a profundidade do oud envolta em madeiras musgosas, suavizada por um calor tipo camurça e um brilho resinoso. Elegante, atmosférica e claramente premium, é o tipo de fragrância que faz um espaço parecer cuidadosamente pensado, e não apenas perfumado."
+        - group [ref=e128]:
+          - generic [ref=e130]:
+            - generic [ref=e131]: Peso
+            - generic [ref=e132]: 10g
+          - generic [ref=e134]:
+            - radio "10g" [checked] [ref=e135] [cursor=pointer]
+            - generic [ref=e137] [cursor=pointer]: 10g
+            - radio "50g" [ref=e138] [cursor=pointer]
+            - generic [ref=e140] [cursor=pointer]: 50g
+            - radio "120g" [ref=e141] [cursor=pointer]
+            - generic [ref=e143] [cursor=pointer]: 120g
+            - radio "450g" [ref=e144] [cursor=pointer]
+            - generic [ref=e146] [cursor=pointer]: 450g
+            - radio "2 kg" [ref=e147] [cursor=pointer]
+            - generic [ref=e149] [cursor=pointer]: 2 kg
+        - link "Contacte-nos para encomendar mais de 2 kg" [ref=e152] [cursor=pointer]:
+          - /url: /pt/pages/grossista
+        - generic [ref=e155]:
+          - generic [ref=e156] [cursor=pointer]: Quantidade
+          - generic [ref=e157]:
+            - button "Diminuir quantidade" [ref=e158] [cursor=pointer]
+            - spinbutton "Quantidade" [ref=e160]: "1"
+            - button "Aumentar quantidade" [ref=e161] [cursor=pointer]
+        - generic [ref=e167]:
+          - generic [ref=e168]: Preço de venda
+          - generic [ref=e171]:
+            - generic [ref=e172]: €3,92 EUR IVA incl.
+            - generic [ref=e173]: €3,24 EUR IVA excl.
+        - button "Adicionar ao carrinho" [ref=e179] [cursor=pointer]:
+          - generic [ref=e180]: Adicionar ao carrinho
+        - generic [ref=e182]:
+          - generic [ref=e183]: Detalhes ecológicos e de segurança
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - img [ref=e186]
+              - text: Transporte terrestre
+            - generic [ref=e187]:
+              - img [ref=e188]
+              - text: Sem carcinogéneos
+            - generic [ref=e189]:
+              - img [ref=e190]
+              - text: Produto vegano
+            - generic [ref=e191]:
+              - img [ref=e192]
+              - text: Sem ftalatos
+            - generic [ref=e193]:
+              - img [ref=e194]
+              - text: Sem parabenos
+            - generic [ref=e195]:
+              - img [ref=e196]
+              - text: Não testado em animais
+        - generic [ref=e199]:
+          - heading "Detalhes do produto" [level=3] [ref=e200]
+          - generic [ref=e201]:
+            - paragraph [ref=e202]:
+              - link "Ficha de Dados de Segurança" [ref=e203] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/FO-145_AGARWOOD_NOBLE_INCENSE_English.pdf?v=1771508171
+            - paragraph [ref=e204]:
+              - link "Ficha IFRA" [ref=e205] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/IFRA_FO-145_AGARWOOD_NOBLE_INCENSE.pdf?v=1771507882
+            - paragraph [ref=e206]:
+              - link "Declaração de alergénios" [ref=e207] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/AR_FO-145_AGARWOOD_NOBLE_INCENSE.pdf?v=1771451865
+        - generic [ref=e210]:
+          - generic [ref=e211]: Notas olfativas
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - generic [ref=e214]: Notas de topo
+              - generic [ref=e215]: agulhas de pinheiro e citrinos, eucalipto e frésia
+            - listitem [ref=e216]:
+              - generic [ref=e217]: Notas de coração
+              - generic [ref=e218]: tabaco e incenso quente, tomilho e gerânio
+            - listitem [ref=e219]:
+              - generic [ref=e220]: Notas de fundo
+              - generic [ref=e221]: agarwood e musgo de carvalho, almíscar e cedro, couro acamurçado e resina
+        - generic [ref=e224]:
+          - generic [ref=e225]: Propriedades
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - generic [ref=e228]: Categoria
+              - generic [ref=e229]: Woody, oriental, leather
+            - listitem [ref=e230]:
+              - generic [ref=e231]: Estação
+              - generic [ref=e232]: All-season, summer, spring, winter, autumn
+            - listitem [ref=e233]:
+              - generic [ref=e234]: Ponto de inflamação
+              - generic [ref=e235]: 93°C
+            - listitem [ref=e236]:
+              - generic [ref=e237]: Óleos essenciais
+              - generic [ref=e238]: Citrus medica limonum (lemon) peel oil
+        - generic [ref=e241]:
+          - generic [ref=e242]: Utilização recomendada
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - generic [ref=e245]: Vela
+              - generic [ref=e246]: 8-12%
+            - listitem [ref=e247]:
+              - generic [ref=e248]: Difusor de varetas
+              - generic [ref=e249]: Até 25%
+            - listitem [ref=e250]:
+              - generic [ref=e251]: Spray de ambiente
+              - generic [ref=e252]: Até 15%
+            - listitem [ref=e253]:
+              - generic [ref=e254]: Spray para almofadas
+              - generic [ref=e255]: Não recomendado
+            - listitem [ref=e256]:
+              - generic [ref=e257]: Sabonete em barra
+              - generic [ref=e258]: Até 5%
+            - listitem [ref=e259]:
+              - generic [ref=e260]: Sabonete líquido
+              - generic [ref=e261]: Até 5%
+            - listitem [ref=e262]:
+              - generic [ref=e263]: Perfume sólido em cera
+              - generic [ref=e264]: Até 25%
+            - listitem [ref=e265]:
+              - generic [ref=e266]: Cores para embalagem
+              - generic [ref=e267]:
+                - text: "castanho oud profundo (Pantone 476 C ou #4B2E2B)"
+                - text: "âmbar fumado (Pantone 7554 C ou #7A4E2D)"
+                - text: "preto carvão (Pantone Black 7 C ou #2B2B2B)"
+                - text: "dourado antigo (Pantone 871 C ou #85754E)"
+        - heading "Guias Práticos" [level=3] [ref=e271]
+    - generic [ref=e277]:
+      - generic [ref=e278]:
+        - heading "Avaliações de clientes Avaliações de clientes" [level=2] [ref=e279]
+        - generic [ref=e280]:
+          - generic [ref=e282]:
+            - img "A classificação média é de 0.00 estrelas" [ref=e283]:
+              - generic [ref=e284]: 
+              - generic [ref=e285]: 
+              - generic [ref=e286]: 
+              - generic [ref=e287]: 
+              - generic [ref=e288]: 
+            - generic [ref=e289]: Seja o primeiro a escrever uma avaliação
+          - text:     
+        - text: 
+      - text: 
+    - generic [ref=e295]:
+      - heading "Ver produtos semelhantes Ver produtos semelhantes" [level=2] [ref=e296]:
+        - text: Ver produtos semelhantes
+        - generic [ref=e298]: Ver produtos semelhantes
+      - paragraph [ref=e299]: Explore os nossos produtos para fabrico de velas e difusores, cuidadosamente escolhidos pela sua performance excecional e fiabilidade.
+    - generic [ref=e303]:
+      - generic [ref=e304]:
+        - generic [ref=e306]:
+          - paragraph [ref=e307]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e309]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e311]:
+            - generic [ref=e312]:
+              - textbox "E-mail" [ref=e313]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e315] [cursor=pointer]:
+              - generic [ref=e316]: Subscrever
+        - generic [ref=e317]:
+          - paragraph [ref=e318]: ajuda e informações
+          - list [ref=e319]:
+            - listitem [ref=e320]:
+              - link "contacte-nos" [ref=e321] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e322]:
+              - link "estado da encomenda" [ref=e323] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e324]:
+              - link "apoio ao cliente" [ref=e325] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e326]:
+              - link "aprendizagem" [ref=e327] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e328]:
+              - link "FAQ e ajuda" [ref=e329] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e330]:
+          - paragraph [ref=e331]: as nossas lojas
+          - list [ref=e332]:
+            - listitem [ref=e333]:
+              - link "comprar em Espanha" [ref=e334] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e335]:
+              - link "loja UE em inglês" [ref=e336] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e337]:
+              - link "loja UE em francês" [ref=e338] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e339]:
+              - link "Loja UE em alemão" [ref=e340] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e341]:
+          - paragraph [ref=e342]: políticas da loja
+          - list [ref=e343]:
+            - listitem [ref=e344]:
+              - link "sobre nós" [ref=e345] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e346]:
+              - link "política de privacidade" [ref=e347] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e348]:
+              - link "política de envios e devoluções" [ref=e349] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e350]:
+              - link "termos de serviço" [ref=e351] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e353]:
+        - list [ref=e354]:
+          - listitem [ref=e355]:
+            - img "American Express" [ref=e356]
+          - listitem [ref=e365]:
+            - img "Apple Pay" [ref=e366]
+          - listitem [ref=e377]:
+            - img "Bancontact" [ref=e378]
+          - listitem [ref=e385]:
+            - img "Google Pay" [ref=e386]
+          - listitem [ref=e394]:
+            - img "iDEAL Wero" [ref=e395]
+          - listitem [ref=e410]:
+            - img "Klarna" [ref=e411]
+          - listitem [ref=e415]:
+            - img "Maestro" [ref=e416]
+          - listitem [ref=e422]:
+            - img "Mastercard" [ref=e423]
+          - listitem [ref=e429]:
+            - img "PayPal" [ref=e430]
+          - listitem [ref=e436]:
+            - img "Shop Pay" [ref=e437]
+          - listitem [ref=e441]:
+            - img "Union Pay" [ref=e442]
+          - listitem [ref=e448]:
+            - img "Visa" [ref=e449]
+        - generic [ref=e453]:
+          - paragraph [ref=e454]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e455] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e456]:
+            - listitem [ref=e457]:
+              - link "Política de privacidade" [ref=e458] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e459]:
+              - text: •
+              - link "Política de devoluções" [ref=e460] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e461]:
+              - text: •
+              - link "Termos de serviço" [ref=e462] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e463]:
+              - text: •
+              - link "Política de envios" [ref=e464] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e465]:
+              - text: •
+              - link "Preferências de cookies" [ref=e466] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

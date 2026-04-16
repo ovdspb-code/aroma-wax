@@ -1,5 +1,17 @@
 # CLP Label Tool: Colleague Handoff
 
+## Browser Automation Safety
+
+- Never leave Playwright, headless Chrome, or browser daemons running after a task.
+- Before browser checks, verify the target dev server is already up and responding.
+- If the server crashes, restarts, or returns connection-refused, stop the browser run immediately.
+- Never run more than one browser-check per project unless the user explicitly asks for parallel runs.
+- Store browser runtime logs and temp artifacts outside sync folders like Documents/Desktop/iCloud/Dropbox.
+- Do not write `.playwright-cli`, `output/playwright`, `.tmp`, or `.tmp.driveupload` into synced project folders.
+- After every browser task, always run cleanup, even on failure or interruption.
+- Required cleanup: `pkill -f 'playwright_chromiumdev_profile' || true; pkill -f 'playwright-core/lib/entry/cliDaemon.js' || true`
+- A browser task is not complete until cleanup has succeeded.
+
 ## 1. Что это за проект
 
 Это внутренний генератор CLP-этикеток для `AROMA + WAX`.
@@ -76,6 +88,22 @@
 
 - `read_products`
 - `write_products`
+
+Важно: этого достаточно для CLP-инструмента, но недостаточно для pt-PT translation import. Для перевода см.:
+
+```text
+docs/PT_PT_SHOPIFY_TRANSLATION_SCOPES.md
+```
+
+Дополнительные scopes для workflow перевода:
+
+- `read_translations`
+- `write_translations`
+- `read_locales`
+- `write_locales`
+- `read_content`
+- `read_legal_policies`
+- `read_themes`
 
 ## 6. Какие переменные окружения нужны
 

@@ -1,0 +1,409 @@
+- generic [active] [ref=e1]:
+  - link "Ir para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e3]:
+    - paragraph [ref=e9]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e10]:
+    - generic [ref=e13]:
+      - navigation [ref=e16]:
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - group [ref=e19]:
+              - generic "comprar tudo" [ref=e20] [cursor=pointer]: comprar tudo
+          - listitem [ref=e22]:
+            - group [ref=e23]:
+              - generic "fabrico de velas" [ref=e24] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e26]:
+            - group [ref=e27]:
+              - generic "fragrâncias" [ref=e28] [cursor=pointer]: fragrâncias
+          - listitem [ref=e30]:
+            - group [ref=e31]:
+              - generic "fabrico de difusores" [ref=e32] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e34]:
+            - group [ref=e35]:
+              - generic "fabrico de sprays de ambiente" [ref=e36] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e38]:
+            - group [ref=e39]:
+              - generic "aprendizagem" [ref=e40] [cursor=pointer]: aprendizagem
+          - listitem [ref=e42]:
+            - link "grossista" [ref=e43] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e44] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e45]: Aroma + Wax
+      - list [ref=e47]:
+        - listitem [ref=e48]:
+          - link "Pesquisar" [ref=e49] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e50]: Pesquisar
+        - listitem [ref=e53]:
+          - link "Iniciar sessão" [ref=e54] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e55]: Iniciar sessão
+        - listitem [ref=e58]:
+          - link "Abrir lista de desejos" [ref=e59] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e60]: Abrir lista de desejos
+            - generic [ref=e64]: "0"
+        - listitem [ref=e65]:
+          - link "Carrinho 0 unidades" [ref=e66] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e67]: Carrinho
+            - img [ref=e68]
+            - generic [ref=e72]:
+              - generic:
+                - generic [ref=e73]: 0 unidades
+                - text: "0"
+  - main [ref=e74]:
+    - navigation "breadcrumbs" [ref=e78]:
+      - link "Início" [ref=e79] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e80]: /
+      - link "como fazer velas" [ref=e81] [cursor=pointer]:
+        - /url: /pt/blogs/how-to-make-candles
+      - generic [ref=e82]: /
+      - generic [ref=e83]: "Carga de fragrância em velas explicada: quanto óleo deve usar?"
+    - generic [ref=e85]:
+      - generic [ref=e87]:
+        - 'heading "Carga de fragrância em velas explicada: quanto óleo deve usar?" [level=1] [ref=e88]'
+        - paragraph [ref=e90]:
+          - time [ref=e94]: 20/11/2025
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - heading [level=3] [ref=e98]
+          - heading "1. O que é a carga de fragrância (e porque é importante)" [level=3] [ref=e99]
+          - paragraph [ref=e100]:
+            - strong [ref=e101]: "Definição:"
+            - text: A carga de fragrância é a proporção (em peso) de óleo de fragrância adicionada à cera da vela. Por exemplo, se tiver 100 g de cera e adicionar 8 g de óleo de fragrância, a carga de fragrância será de 8%.
+          - paragraph [ref=e102]: Isto é diferente de "conteúdo de fragrância" (que por vezes é expresso como % do peso da vela acabada).
+          - paragraph [ref=e103]:
+            - strong [ref=e104]: "Porque é que isso é importante:"
+          - list [ref=e105]:
+            - listitem [ref=e106]: A cera só consegue reter uma determinada quantidade de óleo antes de surgirem problemas estruturais ou de desempenho (sangramento, fuga de óleo, queima fraca, fuligem excessiva).
+            - listitem [ref=e107]: A quantidade de fragrância afeta tanto a difusão a frio (o aroma que se sente quando a vela está apagada) como a difusão a quente (quando a vela está acesa). Pouco óleo resulta em aroma fraco. O excesso de óleo pode prejudicar o desempenho do pavio, controlar a formação de cera derretida e causar problemas de segurança.
+            - listitem [ref=e108]:
+              - text: Obter uma carga consistente é fundamental para uma produção repetível.
+              - generic [ref=e109]: ct de qualidade, especialmente no fabrico de velas em pequenos lotes ou por profissionais.
+          - heading [level=3] [ref=e110]
+          - heading "2. Como é que a composição química e o tipo de cera afetam a carga de fragrância" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Diferentes ceras (soja, coco, parafina, misturas) têm capacidades distintas de reter óleos de fragrância, devido a diferenças na estrutura molecular, ponto de fusão, viscosidade, comportamento de cristalização, adesão aos recipientes, etc.
+          - paragraph [ref=e113]:
+            - strong [ref=e114]: Um guia para as ceras de soja
+            - text: "Geralmente, a concentração de fragrância recomendada é de 6 a 10% para um desempenho ideal. Como a cera de soja tende a ter um ponto de fusão mais baixo e um comportamento de cristalização específico, uma elevada concentração de fragrância pode causar migração ou manchas húmidas nos recipientes com maior facilidade. Exemplo: a cera de soja para recipientes AAK “Golden Wax 464” especifica uma concentração máxima de fragrância de cerca de 10%, com algumas sugestões a partir dos 6% para melhores resultados."
+          - paragraph [ref=e115]:
+            - strong [ref=e116]: Geralmente, outras ceras naturais, como misturas de coco ou azeite.
+            - text: "São consideradas capazes de suportar uma maior concentração de perfume (até 12%). Exemplo: a cera Kerax Olive™ Pillar Wax (azeitona + aditivos naturais) indica que pode suportar até 12% de fragrância."
+          - paragraph [ref=e118]:
+            - strong [ref=e119]: Para parafina e misturas
+            - text: A capacidade tende a variar, mas muitas fontes sugerem 8 a 12% para determinadas misturas. No entanto, o volume, o desempenho da queima e o tamanho do pavio podem limitar a quantidade de fragrância que pode ser libertada, mesmo que tecnicamente seja possível.
+          - paragraph [ref=e120]:
+            - text: "Não existe um número único que sirva para todos os casos. A quantidade máxima de fragrância possível depende de: formulação da cera, tamanho/formato do recipiente, escolha do pavio, propriedades do óleo de fragrância (densidade, compatibilidade), tempo de cura, temperatura de vazamento, etc. Siga sempre as orientações do fabricante da cera como ponto de partida. No nosso site, pode encontrá-las na secção [inserir número da secção aqui]."
+            - strong [ref=e121]: Propriedades
+            - text: tabela em cada um dos
+            - link "páginas de cera" [ref=e122] [cursor=pointer]:
+              - /url: https://aromawax.eu/collections/waxes
+            - text: .
+          - heading [level=3] [ref=e123]
+          - heading "3. Cálculo passo a passo e rotulagem da carga de fragrância" [level=3] [ref=e124]
+          - paragraph [ref=e125]:
+            - strong [ref=e127]: A. Fórmula básica
+          - paragraph [ref=e128]: "Peso do óleo de fragrância, g = Peso total da vela acabada (cera + óleo de fragrância), g X (carga de fragrância desejada, % : 100)"
+          - paragraph [ref=e129]: (Certifique-se de que utiliza pesos, não volumes)
+          - paragraph [ref=e130]: e depois,
+          - paragraph [ref=e131]: Peso da cera, g = Peso total da vela pronta (cera + óleo de fragrância), g - Peso do óleo de fragrância, g
+          - paragraph [ref=e132]:
+            - strong [ref=e134]: B. Exemplo de cálculo
+          - paragraph [ref=e135]:
+            - strong [ref=e136]: Planeia fazer uma vela de 200 g com 8% de óleo essencial (em peso total).
+          - list [ref=e137]:
+            - listitem [ref=e138]: F (Peso do óleo de fragrância, g) = 200 x (8:100) = 16 g
+            - listitem [ref=e139]: Peso da cera (em gramas) = 200 − 16 = 184 g
+          - paragraph [ref=e140]: "Esta versão é mais fácil de utilizar para principiantes:"
+          - list [ref=e141]:
+            - listitem [ref=e142]: Selecione o peso total da vela.
+            - listitem [ref=e143]: Multiplique pela percentagem desejada para obter o óleo de fragrância.
+            - listitem [ref=e144]: Subtraia para obter a cera.
+          - paragraph [ref=e145]:
+            - strong [ref=e146]: Dica prática para o fabrico
+          - list [ref=e147]:
+            - listitem [ref=e148]: Arredonde sempre os pesos para 1 casa decimal ou para o grama mais próximo, dependendo do tamanho do lote.
+            - listitem [ref=e149]: Mantenha um registo da quantidade de fragrância, cera derretida, temperatura de vazamento, tamanho do pavio e tempo de cura — para correlacionar com o desempenho.
+            - listitem [ref=e150]: "Para produtos com múltiplos SKU: mantenha uma “carga de fragrância padrão” (por exemplo, 8%), mas teste cada óleo de fragrância individualmente (consulte a secção 5)."
+            - listitem [ref=e151]: "Mesmo que o fabricante da cera indique \"até 10%\", pode ser necessário reduzir a quantidade de fragrância devido a fatores do processo/produção. Abaixo estão as variáveis críticas:"
+          - paragraph [ref=e152]
+          - heading "4.º Fatores práticos do processo que afetam a quantidade de óleo de fragrância que pode utilizar em segurança." [level=3] [ref=e153]
+          - list [ref=e154]:
+            - listitem [ref=e155]: "Algumas fragrâncias são mais densas, têm pontos de inflamação mais elevados ou contêm aditivos que não se misturam bem com a cera. Por exemplo: adicionar fragrância quando a cera está demasiado quente pode provocar a perda ou migração do aroma."
+            - listitem [ref=e156]: Se a fragrância for "densa" (por exemplo, notas de fundo como patchuli/oud), pode diminuir o ponto de fusão da cera ou aumentar a produção de fuligem a cargas mais elevadas.
+            - listitem [ref=e157]: Despejar a cera demasiado fria ou demasiado quente influencia a aderência, a formação de poros, a congelação e pode exigir a redução da quantidade de fragrância. Por exemplo, a AAK Golden Wax 464 (UE) sugere o despejo da cera a uma temperatura de 55-65 °C.
+            - listitem [ref=e158]: O arrefecimento lento é benéfico para a adesão; o arrefecimento rápido pode causar "manchas húmidas" ou separação se a concentração de fragrância for elevada.
+            - listitem [ref=e159]: Uma maior concentração de fragrância aumenta a volatilidade do fumo quente, mas também exige mais do pavio para fornecer calor suficiente. Se o pavio não suportar esta exigência, podem ocorrer manchas em forma de túnel, fusão incompleta da cera ou baixa difusão do aroma.
+            - listitem [ref=e160]: Algumas fontes sugerem que ceras mais densas ou concentrações mais elevadas de fragrância requerem pavios maiores.
+          - paragraph [ref=e161]:
+            - strong [ref=e162]: Tamanho, formato e ventilação do recipiente
+          - paragraph [ref=e163]: Os recipientes maiores requerem uma difusão de fragrância mais intensa, o que pode significar uma maior concentração de perfume ou uma combinação mais eficiente de cera e fragrância. No entanto, com um volume mais elevado, a cera pode derreter mais lentamente e a fragrância pode ser difundida de forma menos eficiente, pelo que, mesmo com um aumento da concentração de perfume, o efeito pode não ser proporcional.
+          - paragraph [ref=e164]:
+            - strong [ref=e165]: Tempo de cura
+          - paragraph [ref=e166]: A dispersão e a fixação da fragrância na matriz de cera são demoradas; uma cura insuficiente pode fazer com que até a quantidade correta de fragrância tenha um desempenho fraco. (Consulte a secção 6) Uma concentração elevada de fragrância pode apresentar maior hemorragia ou migração se a cura for insuficiente.
+          - paragraph [ref=e167]:
+            - strong [ref=e168]: Interações entre ingredientes (corantes, aditivos, misturas de ceras)
+          - list [ref=e169]:
+            - listitem [ref=e170]: Os corantes podem ser absorvidos ou reagir com os óleos de fragrância, afetando a difusão do aroma.
+            - listitem [ref=e171]: "Os aditivos (ex.: ácido esteárico, intensificadores de cera) podem alterar a carga máxima segura de fragrância."
+            - listitem [ref=e172]: Se misturar ceras (por exemplo, soja + parafina), a quantidade segura de fragrância pode sofrer alterações.
+          - heading [level=3] [ref=e173]
+          - heading "5. Teste, cura e otimização da carga de fragrância" [level=3] [ref=e174]
+          - paragraph [ref=e175]:
+            - strong [ref=e177]: A. Metodologia de teste em lote
+          - list [ref=e178]:
+            - listitem [ref=e179]: Selecione a cera e o óleo de fragrância.
+            - listitem [ref=e180]: Determine uma concentração mínima de fragrância (por exemplo, 6% para a soja).
+            - listitem [ref=e181]: Faça pequenos lotes de teste com diferentes concentrações (por exemplo, 6%, 8%, 10%).
+            - listitem [ref=e182]: Utilize o mesmo recipiente, o mesmo tamanho de pavio e as mesmas condições de despejo e cura.
+            - listitem [ref=e183]: Meça o alcance a frio (após a solidificação), o alcance a quente (após a formação da poça de fusão), o acabamento visual, o tamanho da poça de fusão, o comportamento do pavio e qualquer separação de óleo ou entupimento do pavio.
+            - listitem [ref=e184]: Anote os resultados e escolha a carga ideal para esta combinação de óleo/cera.
+          - paragraph [ref=e185]:
+            - strong [ref=e187]: B. Tempo de cura
+          - list [ref=e188]:
+            - listitem [ref=e189]: Para a cera de soja AAK 464, um teste indicou um tempo de cura de 2 semanas para uma difusão ideal do aroma.
+            - listitem [ref=e190]: Para misturas de coco/soja, recomenda-se um período mínimo de 48 horas, mas até 1 a 2 semanas é benéfico para uma boa projeção de aroma.
+            - listitem [ref=e191]: Uma cura insuficiente pode fazer com que o seu produto tenha um desempenho inferior, mesmo que a concentração de fragrância esteja dentro das especificações.
+          - paragraph [ref=e192]:
+            - strong [ref=e194]: C. Pontos de verificação visual/de desempenho
+          - list [ref=e195]:
+            - listitem [ref=e196]: Na primeira queima, observe se a chama está completamente fundida, sem formação de túnel e com estabilidade.
+            - listitem [ref=e197]: "Intensidade do aroma: projeção a frio em ambiente escuro, projeção a quente em sala de tamanho standard."
+            - listitem [ref=e198]: "Aspeto da superfície: sem manchas húmidas, geadas ou eflorescências (especialmente para a cera de soja)."
+            - listitem [ref=e199]: "Tempo de queima: Certifique-se de que a quantidade de fragrância aplicada não reduziu significativamente o tempo de queima esperado."
+            - listitem [ref=e200]: "Feedback do cliente: O perfume dura muito tempo ou desaparece muito rapidamente?"
+          - paragraph [ref=e201]:
+            - strong [ref=e203]: D. Decisões de otimização
+          - list [ref=e204]:
+            - listitem [ref=e205]: "Se o desempenho inicial for fraco: aumente a concentração da fragrância em pequenos incrementos (por exemplo, +1%) e repita o teste."
+            - listitem [ref=e206]: Se atingir a carga máxima recomendada pelo fabricante (por exemplo, 10%) e a dispersão da cera ainda for fraca, considere a troca da cera ou do óleo, ou a otimização do tamanho do pavio/recipiente.
+            - listitem [ref=e207]: "Caso observe efeitos negativos (sujidade, fuga de óleo, manchas húmidas): reduza a quantidade de fragrância."
+          - heading [level=3] [ref=e208]
+          - 'heading "6. Resolução de problemas: problemas comuns quando a concentração de fragrância é demasiado elevada ou demasiado baixa" [level=3] [ref=e209]'
+          - paragraph [ref=e210]:
+            - strong [ref=e212]: A. Carga de fragrância muito baixa
+          - paragraph [ref=e213]: "Os sintomas podem incluir:"
+          - list [ref=e214]:
+            - listitem [ref=e215]: Fraca projeção a frio e/ou a quente (os clientes comentam "Não consigo sentir o cheiro").
+            - listitem [ref=e216]: A vela até pode arder bem, mas não tem apelo.
+          - paragraph [ref=e217]:
+            - strong [ref=e218]: "Solução:"
+            - text: Aumente gradualmente a quantidade de fragrância, teste novamente; verifique se o óleo de fragrância é de qualidade e compatível.
+          - paragraph [ref=e219]:
+            - strong [ref=e221]: B. Carga de fragrância muito elevada
+          - paragraph [ref=e222]: "Os sintomas podem incluir:"
+          - list [ref=e223]:
+            - listitem [ref=e224]: Película oleosa na superfície, separação da cera ou acumulação de óleo na parte superior da vela.
+            - listitem [ref=e225]: Fuligem, chama grande, queima irregular, acumulação de carvão no pavio, cera a ser sugada para baixo, em redor do pavio.
+            - listitem [ref=e226]: Manchas de humidade (especialmente em recipientes de vidro) ou fraca aderência/descolamento da cera do recipiente.
+            - listitem [ref=e227]: Tempo de combustão reduzido, chama instável.
+          - paragraph [ref=e228]:
+            - strong [ref=e229]: "Solução:"
+            - text: Reduzir a quantidade de fragrância; garantir o tamanho correto do pavio; verificar os parâmetros de fuga/cura; garantir que o ponto de inflamação do óleo de fragrância é superior à temperatura de vazamento/solidificação; testar a compatibilidade do óleo de fragrância com a cera.
+          - heading [level=3] [ref=e230]
+          - heading "7. Considerações comerciais/regulamentares para a carga de fragrâncias" [level=3] [ref=e231]
+          - list [ref=e232]:
+            - listitem [ref=e233]: Para a produção comercial, é necessário documentar a concentração de fragrância, os resultados dos testes, o tempo de queima, os dados de segurança e as declarações dos componentes.
+            - listitem [ref=e234]: Por exemplo, as calculadoras de fragrâncias fornecem ponderação e orientação regulamentar para a conformidade com o CLP/IFRA.
+            - listitem [ref=e235]: "Preços: os óleos de fragrância são mais caros por grama do que a cera; utilizar uma quantidade maior aumenta o custo por vela, pelo que a solução ideal pode ser um equilíbrio entre custo e desempenho."
+            - listitem [ref=e236]: "Rotulagem: Algumas jurisdições exigem a indicação do nome dos óleos de fragrância ou a declaração \"contém óleo de fragrância\", além de garantir uma queima segura."
+            - listitem [ref=e237]: "Registos de lote: É recomendável manter registos do lote de cera, lote de fragrância, percentagem de carga, temperaturas do forno/fuga, tempo de cura e resultados do teste de combustão para rastreabilidade e garantia de qualidade."
+          - heading [level=3] [ref=e238]
+          - heading "8. Lista de verificação resumida para fabricantes de velas" [level=3] [ref=e239]
+          - list [ref=e240]:
+            - listitem [ref=e241]: Escolha a cera e observe a quantidade de fragrância recomendada (e a quantidade máxima) pelo fabricante.
+            - listitem [ref=e242]: "Utilize a fórmula de concentração de fragrância:"
+          - paragraph [ref=e243]: "Peso do óleo de fragrância, g = Peso total da vela acabada (cera + óleo de fragrância), g X (carga de fragrância desejada, % : 100)"
+          - paragraph [ref=e244]: Peso da cera, g = Peso total da vela pronta (cera + óleo de fragrância), g - Peso do óleo de fragrância, g
+          - list [ref=e245]:
+            - listitem [ref=e246]: Selecione a carga inicial de fragrância (comece com uma carga inferior à máxima, por exemplo, soja = ~6%).
+            - listitem [ref=e247]: Pese tudo com precisão (balança digital).
+            - listitem [ref=e248]: Derreta a cera até à temperatura recomendada, adicione o óleo de fragrância à temperatura correta e mexa bem.
+            - listitem [ref=e249]: Deite à temperatura correta num recipiente previamente condicionado.
+            - listitem [ref=e250]: Deixe as velas em repouso durante o tempo recomendado (por exemplo, 48 horas a 2 semanas, dependendo do tipo de cera).
+            - listitem [ref=e251]: "Ensaio de queima e avaliação: projeção a frio, projeção a quente, formação de poça de fusão, acabamento superficial, comportamento do pavio."
+            - listitem [ref=e252]: Ajuste a quantidade de fragrância para mais ou para menos, conforme necessário, com base nos resultados dos testes.
+            - listitem [ref=e253]: Documentar as métricas de lote e garantir a conformidade regulamentar.
+            - listitem [ref=e254]: Para cada novo lote de óleo de fragrância ou cera, repita os testes – nunca assuma que os resultados serão exatamente iguais aos lotes anteriores.
+        - generic [ref=e255]:
+          - generic [ref=e256]: Partilhar
+          - list [ref=e257]:
+            - listitem [ref=e258]:
+              - link "Compartilhar em Facebook" [ref=e259] [cursor=pointer]:
+                - /url: "https://www.facebook.com/sharer.php?u=https://aromawax.eu/pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use\n"
+            - listitem [ref=e261]:
+              - link "Compartilhar em Twitter" [ref=e262] [cursor=pointer]:
+                - /url: "https://twitter.com/intent/tweet?text=Carga%20de%20fragr%C3%A2ncia%20em%20velas%20explicada:%20quanto%20%C3%B3leo%20deve%20usar?&url=https://aromawax.eu/pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use\n"
+            - listitem [ref=e264]:
+              - link "Compartilhar em Pinterest" [ref=e265] [cursor=pointer]:
+                - /url: "https://pinterest.com/pin/create/button/?url=https://aromawax.eu/pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use&media=https://aromawax.eu/cdn/shop/articles/C8AF06C3-E8A2-4856-A9E6-3A4E0A9030D9_43350f36-925b-40f8-813a-65870913bcde.png?v=1774367165&width=800&description=\n"
+            - listitem [ref=e267]:
+              - link "Compartilhar por e-mail" [ref=e268] [cursor=pointer]:
+                - /url: "mailto:?&subject=Carga de fragrância em velas explicada: quanto óleo deve usar?&body=https://aromawax.eu/pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use\n"
+    - generic [ref=e273]:
+      - generic [ref=e274]:
+        - generic [ref=e275]: como fazer velas
+        - generic [ref=e276]:
+          - 'link "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e277] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+            - 'img "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e278]'
+          - 'heading "Comparação das melhores ceras para velas: soja vs coco vs parafina" [level=3] [ref=e279]':
+            - 'link "Comparação das melhores ceras para velas: soja vs coco vs parafina" [ref=e280] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+          - paragraph [ref=e281]: “Não existe uma única cera “ideal” para todas as utilizações — cada tipo de cera (soja, coco, par...
+        - list [ref=e282]:
+          - listitem [ref=e283]:
+            - 'link "Carga de fragrância em velas explicada: quanto óleo deve usar?" [ref=e284] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use
+          - listitem [ref=e285]:
+            - 'link "Como criar a sua primeira coleção de velas: passos-chave para o sucesso" [ref=e286] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-your-first-candle-collection-key-steps-to-success
+          - listitem [ref=e287]:
+            - link "Como escolher o pavio perfeito para a sua vela" [ref=e288] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-candles/how-to-choose-the-perfect-wick-for-your-candle
+          - listitem [ref=e289]:
+            - link "Como fazer velas em recipiente - guia de fabrico de velas" [ref=e290] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-container-candles-candle-making-guide
+          - listitem [ref=e291]:
+            - 'link "Como fazer velas: guia prático para principiantes" [ref=e292] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-candles-a-practical-guide-for-beginners
+        - link "Ver tudo >" [ref=e293] [cursor=pointer]:
+          - /url: /pt/blogs/how-to-make-candles
+      - generic [ref=e294]:
+        - generic [ref=e295]: como fazer difusores de varetas e sprays de ambiente
+        - generic [ref=e296]:
+          - 'link "Room Spray Guide: Ratios, Bases, and Fragrance Oils" [ref=e297] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils
+            - 'img "Room Spray Guide: Ratios, Bases, and Fragrance Oils" [ref=e298]'
+          - 'heading "Guia de sprays de ambiente: proporções, bases e fragrâncias" [level=3] [ref=e299]':
+            - 'link "Guia de sprays de ambiente: proporções, bases e fragrâncias" [ref=e300] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils
+          - paragraph [ref=e301]: 1. O que é realmente um spray de ambiente (e o que não é) Em termos formais, um de pulverização ...
+        - list [ref=e302]:
+          - listitem [ref=e303]:
+            - link "Como escolher recipientes para difusores de varetas e sprays de ambiente" [ref=e304] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-vessels-for-reed-diffusers-and-room-sprays
+          - listitem [ref=e305]:
+            - link "Como escolher bases para difusores e sprays de ambiente" [ref=e306] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-bases-for-diffusers-and-room-sprays
+        - link "Ver tudo >" [ref=e307] [cursor=pointer]:
+          - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays
+      - generic [ref=e308]:
+        - list
+        - link "Ver tudo >" [ref=e309] [cursor=pointer]:
+          - /url: /pt/blogs/news
+    - generic [ref=e313]:
+      - generic [ref=e314]:
+        - generic [ref=e316]:
+          - paragraph [ref=e317]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e319]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e321]:
+            - generic [ref=e322]:
+              - textbox "E-mail" [ref=e323]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e325] [cursor=pointer]:
+              - generic [ref=e326]: Subscrever
+        - generic [ref=e327]:
+          - paragraph [ref=e328]: ajuda e informações
+          - list [ref=e329]:
+            - listitem [ref=e330]:
+              - link "contacte-nos" [ref=e331] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e332]:
+              - link "estado da encomenda" [ref=e333] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e334]:
+              - link "apoio ao cliente" [ref=e335] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e336]:
+              - link "aprendizagem" [ref=e337] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e338]:
+              - link "FAQ e ajuda" [ref=e339] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e340]:
+          - paragraph [ref=e341]: as nossas lojas
+          - list [ref=e342]:
+            - listitem [ref=e343]:
+              - link "comprar em Espanha" [ref=e344] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e345]:
+              - link "loja UE em inglês" [ref=e346] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e347]:
+              - link "loja UE em francês" [ref=e348] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e349]:
+              - link "Loja UE em alemão" [ref=e350] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e351]:
+          - paragraph [ref=e352]: políticas da loja
+          - list [ref=e353]:
+            - listitem [ref=e354]:
+              - link "sobre nós" [ref=e355] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e356]:
+              - link "política de privacidade" [ref=e357] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e358]:
+              - link "política de envios e devoluções" [ref=e359] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e360]:
+              - link "termos de serviço" [ref=e361] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e363]:
+        - list [ref=e364]:
+          - listitem [ref=e365]:
+            - img "American Express" [ref=e366]
+          - listitem [ref=e375]:
+            - img "Apple Pay" [ref=e376]
+          - listitem [ref=e387]:
+            - img "Bancontact" [ref=e388]
+          - listitem [ref=e395]:
+            - img "Google Pay" [ref=e396]
+          - listitem [ref=e404]:
+            - img "iDEAL Wero" [ref=e405]
+          - listitem [ref=e420]:
+            - img "Klarna" [ref=e421]
+          - listitem [ref=e425]:
+            - img "Maestro" [ref=e426]
+          - listitem [ref=e432]:
+            - img "Mastercard" [ref=e433]
+          - listitem [ref=e439]:
+            - img "PayPal" [ref=e440]
+          - listitem [ref=e446]:
+            - img "Shop Pay" [ref=e447]
+          - listitem [ref=e451]:
+            - img "Union Pay" [ref=e452]
+          - listitem [ref=e458]:
+            - img "Visa" [ref=e459]
+        - generic [ref=e463]:
+          - paragraph [ref=e464]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e465] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e466]:
+            - listitem [ref=e467]:
+              - link "Política de privacidade" [ref=e468] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e469]:
+              - text: •
+              - link "Política de devoluções" [ref=e470] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e471]:
+              - text: •
+              - link "Termos de serviço" [ref=e472] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e473]:
+              - text: •
+              - link "Política de envios" [ref=e474] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e475]:
+              - text: •
+              - link "Preferências de cookies" [ref=e476] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

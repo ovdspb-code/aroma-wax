@@ -1,0 +1,240 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 unidades" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 unidades
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - generic [ref=e91]: Sobre nós
+    - generic [ref=e95]:
+      - heading "Sobre nós" [level=1] [ref=e96]
+      - generic [ref=e97]:
+        - heading "Experiência e conhecimento especializado" [level=3] [ref=e98]
+        - paragraph [ref=e99]: Trazemos mais de uma década de experiência na produção de velas, difusores e ambientadores para marcas próprias. Os nossos clientes recebem exatamente os mesmos ingredientes de alta qualidade que utilizamos nas nossas próprias coleções — garantindo resultados consistentes, fiáveis e profissionais sempre.
+        - heading "Localização e logística" [level=3] [ref=e100]
+        - paragraph [ref=e101]:
+          - generic [ref=e102]:
+            - text: Nosso
+            - strong [ref=e103]: O escritório, o laboratório e o armazém estão localizados em Barcelona, Espanha.
+            - text: ", onde testamos e selecionamos novas fragrâncias, montamos e embalamos encomendas e gerimos envios para toda a Europa. A partir daqui,"
+            - strong [ref=e104]: Enviamos encomendas nacionais e internacionais, tanto de pequena como de grande dimensão. Sim, trabalhamos com clientes fora da UE.
+            - text: Apoiamos fabricantes e marcas em todo o mundo. Os pedidos feitos antes das 12h00 em dias úteis são enviados no próprio dia. As encomendas grandes que exigem documentação adicional são processadas e enviadas sem demora — consideramos que este é um compromisso fundamental.
+        - heading "Produtos e Filosofia" [level=3] [ref=e105]
+        - paragraph [ref=e106]: As nossas ceras e óleos de fragrância são fiáveis e utilizados por profissionais da área das velas em toda a Europa e noutros continentes. Criámos as nossas coleções de fragrâncias para ir ao encontro das diversas expectativas dos diferentes mercados — desde aromas frescos e vibrantes, ideais para climas mais quentes, até fragrâncias ricas e complexas, apreciadas no norte da Europa.
+        - paragraph [ref=e107]:
+          - generic [ref=e108]:
+            - text: Trabalhamos em estreita colaboração com
+            - strong [ref=e109]: Principais fornecedores de óleos de fragrância, ceras, recipientes e pavios de França, Alemanha, Itália, Suíça e EUA.
+            - text: Estes são alguns dos produtores mais conceituados do mundo, conhecidos pela sua consistente elevada qualidade e, principalmente, pela estabilidade. Isto garante que os nossos clientes recebem sempre materiais fiáveis e de nível profissional para as suas criações.
+        - paragraph [ref=e110]: "Nós defendemos:"
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - strong [ref=e113]: Excelente qualidade da cera
+            - generic [ref=e114]: que proporciona uma superfície de vela bonita e uma queima limpa.
+          - listitem [ref=e115]:
+            - strong [ref=e116]: Fragrâncias duradouras e cuidadosamente selecionadas.
+            - generic [ref=e117]:
+              - strong
+              - text: Sem notas dissonantes ou nuances indesejadas.
+          - listitem [ref=e118]:
+            - strong [ref=e119]: Soluções ecologicamente conscientes
+            - generic [ref=e120]:
+              - strong
+              - text: que combinam prazer, segurança e sustentabilidade.
+        - heading "Desenvolvimento de Fragrâncias" [level=3] [ref=e121]
+        - paragraph [ref=e122]: "Os nossos óleos de fragrância são atualizados diversas vezes por ano com base em:"
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - strong [ref=e125]: Tendências de perfumes
+            - generic [ref=e126]: mundialmente.
+          - listitem [ref=e127]:
+            - strong [ref=e128]: preferências sazonais
+            - generic [ref=e129]: Para outono-inverno ou primavera-verão.
+          - listitem [ref=e130]:
+            - text: Um equilíbrio entre
+            - strong [ref=e131]: Favoritos universais e acordes de nicho exclusivos
+            - generic [ref=e132]: .
+        - paragraph [ref=e133]:
+          - text: Cada fragrância passa por um processo de
+          - generic [ref=e134]: processo de seleção em várias fases
+          - generic [ref=e135]: Para garantir pureza, equilíbrio e autenticidade — sem concessões.
+        - heading "Servico de atendimento ao Consumidor" [level=3] [ref=e136]
+        - paragraph [ref=e137]: Acreditamos que a qualidade vai além dos produtos em si, abrangendo a embalagem, a entrega e o serviço ao cliente. O nosso objetivo é proporcionar uma experiência tranquila e fiável, para que os nossos clientes se possam concentrar na criação, enquanto nós garantimos o fornecimento e o suporte contínuos. Pode sempre entrar em contacto com a nossa equipa de vendas através do chatbot do site ou da página de contacto para fazer encomendas e esclarecer dúvidas.
+        - paragraph [ref=e139]
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e146]:
+          - paragraph [ref=e147]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e149]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - textbox "E-mail" [ref=e153]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: Subscrever
+        - generic [ref=e157]:
+          - paragraph [ref=e158]: ajuda e informações
+          - list [ref=e159]:
+            - listitem [ref=e160]:
+              - link "contacte-nos" [ref=e161] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e162]:
+              - link "estado da encomenda" [ref=e163] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e164]:
+              - link "apoio ao cliente" [ref=e165] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e166]:
+              - link "aprendizagem" [ref=e167] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e168]:
+              - link "FAQ e ajuda" [ref=e169] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e170]:
+          - paragraph [ref=e171]: as nossas lojas
+          - list [ref=e172]:
+            - listitem [ref=e173]:
+              - link "comprar em Espanha" [ref=e174] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e175]:
+              - link "loja UE em inglês" [ref=e176] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e177]:
+              - link "loja UE em francês" [ref=e178] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e179]:
+              - link "Loja UE em alemão" [ref=e180] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e181]:
+          - paragraph [ref=e182]: políticas da loja
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - link "sobre nós" [ref=e185] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e186]:
+              - link "política de privacidade" [ref=e187] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e188]:
+              - link "política de envios e devoluções" [ref=e189] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e190]:
+              - link "termos de serviço" [ref=e191] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e193]:
+        - list [ref=e194]:
+          - listitem [ref=e195]:
+            - img "American Express" [ref=e196]
+          - listitem [ref=e205]:
+            - img "Apple Pay" [ref=e206]
+          - listitem [ref=e217]:
+            - img "Bancontact" [ref=e218]
+          - listitem [ref=e225]:
+            - img "Google Pay" [ref=e226]
+          - listitem [ref=e234]:
+            - img "iDEAL Wero" [ref=e235]
+          - listitem [ref=e250]:
+            - img "Klarna" [ref=e251]
+          - listitem [ref=e255]:
+            - img "Maestro" [ref=e256]
+          - listitem [ref=e262]:
+            - img "Mastercard" [ref=e263]
+          - listitem [ref=e269]:
+            - img "PayPal" [ref=e270]
+          - listitem [ref=e276]:
+            - img "Shop Pay" [ref=e277]
+          - listitem [ref=e281]:
+            - img "Union Pay" [ref=e282]
+          - listitem [ref=e288]:
+            - img "Visa" [ref=e289]
+        - generic [ref=e293]:
+          - paragraph [ref=e294]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e295] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e296]:
+            - listitem [ref=e297]:
+              - link "Política de privacidade" [ref=e298] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e299]:
+              - text: •
+              - link "Política de devoluções" [ref=e300] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e301]:
+              - text: •
+              - link "Termos de serviço" [ref=e302] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e303]:
+              - text: •
+              - link "Política de envios" [ref=e304] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e305]:
+              - text: •
+              - link "Preferências de cookies" [ref=e306] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

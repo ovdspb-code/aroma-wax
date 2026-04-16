@@ -1,0 +1,806 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: /pt#main
+  - main [ref=e13]:
+    - navigation "breadcrumbs" [ref=e17]:
+      - link "Home" [ref=e18] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e19]: /
+      - link "fabrico de sprays de ambiente" [ref=e20] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e21]: /
+      - generic [ref=e22]: fragrâncias
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - heading "Popular Products Popular Products" [level=2] [ref=e28]:
+          - text: Popular Products
+          - generic [ref=e30]: Popular Products
+        - link "View all" [ref=e31] [cursor=pointer]:
+          - /url: /pt
+          - generic [ref=e32]: View all
+      - generic [ref=e35]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e40]:
+              - link "Suede Leather and Orris fragrance oil for candles, wax melts and home fragrance making Suede Leather and Orris fragrance oil for candles, wax melts and home fragrance making" [ref=e41] [cursor=pointer]:
+                - /url: /pt/products/suede-leather-orris-fragrance-oil
+                - img "Suede Leather and Orris fragrance oil for candles, wax melts and home fragrance making" [ref=e42]
+                - img "Suede Leather and Orris fragrance oil for candles, wax melts and home fragrance making" [ref=e43]
+              - checkbox "Add to wishlist button" [ref=e44] [cursor=pointer]:
+                - img [ref=e45]
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - link "Óleo de fragrância couro de camurça e orris" [ref=e51] [cursor=pointer]:
+                  - /url: /pt/products/suede-leather-orris-fragrance-oil
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e52] [cursor=pointer]:
+                  - /url: /pt/products/suede-leather-orris-fragrance-oil#shopify-product-reviews
+                  - generic [ref=e53]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e54]
+              - generic [ref=e58]:
+                - generic [ref=e59]: Preço de venda
+                - text: A partir de
+                - generic [ref=e62]:
+                  - generic [ref=e63]: €3,55 EUR VAT incl.
+                  - generic [ref=e64]: €2,93 EUR VAT excl.
+          - generic [ref=e65]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e66]:
+              - link "Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e67] [cursor=pointer]:
+                - /url: /pt/products/wild-strawberry-cream-silk
+                - img "Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e68]
+                - img "Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e69]
+              - checkbox [ref=e70]
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - link "Óleo de fragrância morango silvestre, creme e seda" [ref=e75] [cursor=pointer]:
+                  - /url: /pt/products/wild-strawberry-cream-silk
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e76] [cursor=pointer]:
+                  - /url: /pt/products/wild-strawberry-cream-silk#shopify-product-reviews
+                  - generic [ref=e77]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e78]
+              - generic [ref=e82]:
+                - generic [ref=e83]: Preço de venda
+                - text: A partir de
+                - generic [ref=e86]:
+                  - generic [ref=e87]: €3,05 EUR IVA incl.
+                  - generic [ref=e88]: €2,52 EUR IVA excl.
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - link "Fresh Cut Peony Fragrance Oil for Candle, Soap, Perfume and Spray Making Fresh Cut Peony Fragrance Oil for Professional Candle, Soap, Perfume and Spray Making" [ref=e91] [cursor=pointer]:
+                - /url: /pt/products/fresh-cut-peony-fragrance-oil
+                - img "Fresh Cut Peony Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e92]
+                - img "Fresh Cut Peony Fragrance Oil for Professional Candle, Soap, Perfume and Spray Making" [ref=e93]
+              - checkbox "Add to wishlist button" [ref=e94] [cursor=pointer]:
+                - img [ref=e95]
+            - generic [ref=e98]:
+              - generic [ref=e99]:
+                - link "Óleo de fragrância peónia recém-cortada" [ref=e101] [cursor=pointer]:
+                  - /url: /pt/products/fresh-cut-peony-fragrance-oil
+                - link "4.9 4.9 fora de 5.0 estrelas" [ref=e102] [cursor=pointer]:
+                  - /url: /pt/products/fresh-cut-peony-fragrance-oil#shopify-product-reviews
+                  - generic [ref=e103]: "4.9"
+                  - img "4.9 fora de 5.0 estrelas" [ref=e104]
+              - generic [ref=e108]:
+                - generic [ref=e109]: Preço de venda
+                - text: A partir de
+                - generic [ref=e112]:
+                  - generic [ref=e113]: €3,38 EUR IVA incl.
+                  - generic [ref=e114]: €2,79 EUR IVA excl.
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - link "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e117] [cursor=pointer]:
+                - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil
+                - img "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e118]
+                - img "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e119]
+              - checkbox "Add to wishlist button" [ref=e120] [cursor=pointer]:
+                - img [ref=e121]
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - link "Óleo de fragrância matcha de Quioto e nuvem de coco" [ref=e127] [cursor=pointer]:
+                  - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e128] [cursor=pointer]:
+                  - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil#shopify-product-reviews
+                  - generic [ref=e129]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e130]
+              - generic [ref=e134]:
+                - generic [ref=e135]: Preço de venda
+                - text: A partir de
+                - generic [ref=e138]:
+                  - generic [ref=e139]: €3,55 EUR IVA incl.
+                  - generic [ref=e140]: €2,93 EUR IVA excl.
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - link "Lemongrass & Honey Fragrance Oil for Candle, Soap and Spray Making Lemongrass & Honey Fragrance Oil for Candle, Soap and Spray Making" [ref=e143] [cursor=pointer]:
+                - /url: /pt/products/lemongrass-and-honey-fragrance-oil
+                - img "Lemongrass & Honey Fragrance Oil for Candle, Soap and Spray Making" [ref=e144]
+                - img "Lemongrass & Honey Fragrance Oil for Candle, Soap and Spray Making" [ref=e145]
+              - checkbox [ref=e146]
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - link "Óleo de fragrância erva-príncipe e mel" [ref=e151] [cursor=pointer]:
+                  - /url: /pt/products/lemongrass-and-honey-fragrance-oil
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e152] [cursor=pointer]:
+                  - /url: /pt/products/lemongrass-and-honey-fragrance-oil#shopify-product-reviews
+                  - generic [ref=e153]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e154]
+              - generic [ref=e158]:
+                - generic [ref=e159]: Preço de venda
+                - text: A partir de
+                - generic [ref=e161]: €3,22 EUR
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - link "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e164] [cursor=pointer]:
+                - /url: /pt/products/rose-champagne-fragrance-oil
+                - img "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e165]
+                - img "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e166]
+              - checkbox [ref=e167]
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - link "Óleo de fragrância rosa e champanhe" [ref=e172] [cursor=pointer]:
+                  - /url: /pt/products/rose-champagne-fragrance-oil
+                - link "4.8 4.8 fora de 5.0 estrelas" [ref=e173] [cursor=pointer]:
+                  - /url: /pt/products/rose-champagne-fragrance-oil#shopify-product-reviews
+                  - generic [ref=e174]: "4.8"
+                  - img "4.8 fora de 5.0 estrelas" [ref=e175]
+              - generic [ref=e179]:
+                - generic [ref=e180]: Preço de venda
+                - text: A partir de
+                - generic [ref=e183]:
+                  - generic [ref=e184]: €3,70 EUR IVA incl.
+                  - generic [ref=e185]: €3,06 EUR IVA excl.
+          - generic [ref=e186]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e187]:
+              - link "Óleo de fragrância agarwood e incenso nobre Óleo de fragrância agarwood e incenso nobre" [ref=e188] [cursor=pointer]:
+                - /url: /pt/products/agarwood-noble-incense-fragrance-oil
+                - img "Óleo de fragrância agarwood e incenso nobre" [ref=e189]
+                - img "Óleo de fragrância agarwood e incenso nobre" [ref=e190]
+              - checkbox [ref=e191]
+            - generic [ref=e193]:
+              - link "Óleo de fragrância agarwood e incenso nobre" [ref=e196] [cursor=pointer]:
+                - /url: /pt/products/agarwood-noble-incense-fragrance-oil
+              - generic [ref=e199]:
+                - generic [ref=e200]: Preço de venda
+                - text: A partir de
+                - generic [ref=e202]: €3,92 EUR
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - link "Very Mango Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making Very Mango Fragrance Oil for Professional Candle, Soap, Perfume and Spray Making" [ref=e205] [cursor=pointer]:
+                - /url: /pt/products/mango-fragrance-oil
+                - img "Very Mango Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making" [ref=e206]
+                - img "Very Mango Fragrance Oil for Professional Candle, Soap, Perfume and Spray Making" [ref=e207]
+              - checkbox "Add to wishlist button" [ref=e208] [cursor=pointer]:
+                - img [ref=e209]
+            - generic [ref=e212]:
+              - generic [ref=e213]:
+                - link "Óleo de fragrância manga intensa" [ref=e215] [cursor=pointer]:
+                  - /url: /pt/products/mango-fragrance-oil
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e216] [cursor=pointer]:
+                  - /url: /pt/products/mango-fragrance-oil#shopify-product-reviews
+                  - generic [ref=e217]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e218]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Preço de venda
+                - text: A partir de
+                - generic [ref=e226]:
+                  - generic [ref=e227]: €3,70 EUR IVA incl.
+                  - generic [ref=e228]: €3,06 EUR IVA excl.
+        - generic [ref=e231]:
+          - button "Anterior" [disabled]:
+            - generic: Anterior
+          - button "Seguinte" [ref=e232] [cursor=pointer]:
+            - generic [ref=e233]: Seguinte
+    - generic [ref=e236]:
+      - generic [ref=e237]:
+        - generic [ref=e238]: Filtros
+        - generic [ref=e246]:
+          - generic [ref=e247]: "Ordenar por:"
+          - 'button "Ordenar por: Em destaque" [ref=e248] [cursor=pointer]':
+            - generic [ref=e249]: Em destaque
+      - generic [ref=e254]:
+        - generic [ref=e256]:
+          - generic [ref=e257] [cursor=pointer]: Apenas em stock
+          - checkbox "Apenas em stock" [ref=e258] [cursor=pointer]
+        - group [ref=e259]:
+          - generic "Preço" [ref=e260] [cursor=pointer]:
+            - generic [ref=e262]: Preço
+        - group [ref=e265]:
+          - generic "Uso" [ref=e266] [cursor=pointer]:
+            - generic [ref=e268]: Uso
+        - group [ref=e271]:
+          - generic "Volume" [ref=e272] [cursor=pointer]:
+            - generic [ref=e274]: Volume
+        - group [ref=e277]:
+          - generic "Estações" [ref=e278] [cursor=pointer]:
+            - generic [ref=e280]: Estações
+        - group [ref=e283]:
+          - generic "Notas olfativas" [ref=e284] [cursor=pointer]:
+            - generic [ref=e286]: Notas olfativas
+        - group [ref=e289]:
+          - generic "Categorias" [ref=e290] [cursor=pointer]:
+            - generic [ref=e292]: Categorias
+      - region [ref=e298]:
+        - generic [ref=e299]:
+          - generic:
+            - generic: Novo!
+          - generic [ref=e300]:
+            - link "Óleo de fragrância cardamomo verde e eucalipto Óleo de fragrância cardamomo verde e eucalipto" [ref=e301] [cursor=pointer]:
+              - /url: /pt/products/green-cardamom-eucalyptus-fragrance-oil
+              - img "Óleo de fragrância cardamomo verde e eucalipto" [ref=e302]
+              - img "Óleo de fragrância cardamomo verde e eucalipto" [ref=e303]
+            - checkbox [ref=e304]
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - link "Óleo de fragrância cardamomo verde e eucalipto" [ref=e309] [cursor=pointer]:
+                - /url: /pt/products/green-cardamom-eucalyptus-fragrance-oil
+              - link "4.0 4.0 fora de 5.0 estrelas" [ref=e310] [cursor=pointer]:
+                - /url: /pt/products/green-cardamom-eucalyptus-fragrance-oil#shopify-product-reviews
+                - generic [ref=e311]: "4.0"
+                - img "4.0 fora de 5.0 estrelas" [ref=e312]
+            - generic [ref=e316]:
+              - generic [ref=e317]: Preço de venda
+              - text: A partir de
+              - generic [ref=e319]: €3,38 EUR
+        - generic [ref=e320]:
+          - generic:
+            - generic: Novo!
+          - generic [ref=e321]:
+            - link "Óleo de fragrância néroli siciliano e caxemira Óleo de fragrância néroli siciliano e caxemira" [ref=e322] [cursor=pointer]:
+              - /url: /pt/products/sicilian-neroli-cashmere-fragrance-oil
+              - img "Óleo de fragrância néroli siciliano e caxemira" [ref=e323]
+              - img "Óleo de fragrância néroli siciliano e caxemira" [ref=e324]
+            - checkbox [ref=e325]
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - link "Óleo de fragrância néroli siciliano e caxemira" [ref=e330] [cursor=pointer]:
+                - /url: /pt/products/sicilian-neroli-cashmere-fragrance-oil
+              - link "4.8 4.8 fora de 5.0 estrelas" [ref=e331] [cursor=pointer]:
+                - /url: /pt/products/sicilian-neroli-cashmere-fragrance-oil#shopify-product-reviews
+                - generic [ref=e332]: "4.8"
+                - img "4.8 fora de 5.0 estrelas" [ref=e333]
+            - generic [ref=e337]:
+              - generic [ref=e338]: Preço de venda
+              - text: A partir de
+              - generic [ref=e341]:
+                - generic [ref=e342]: €3,22 EUR IVA incl.
+                - generic [ref=e343]: €2,66 EUR IVA excl.
+        - generic [ref=e344]:
+          - generic:
+            - generic: Novo!
+          - generic [ref=e345]:
+            - link "Óleo de fragrância agarwood e incenso nobre Óleo de fragrância agarwood e incenso nobre" [ref=e346] [cursor=pointer]:
+              - /url: /pt/products/agarwood-noble-incense-fragrance-oil
+              - img "Óleo de fragrância agarwood e incenso nobre" [ref=e347]
+              - img "Óleo de fragrância agarwood e incenso nobre" [ref=e348]
+            - checkbox [ref=e349]
+          - generic [ref=e351]:
+            - link "Óleo de fragrância agarwood e incenso nobre" [ref=e354] [cursor=pointer]:
+              - /url: /pt/products/agarwood-noble-incense-fragrance-oil
+            - generic [ref=e357]:
+              - generic [ref=e358]: Preço de venda
+              - text: A partir de
+              - generic [ref=e360]: €3,92 EUR
+        - generic [ref=e361]:
+          - generic:
+            - generic: Novo!
+          - generic [ref=e362]:
+            - link "Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e363] [cursor=pointer]:
+              - /url: /pt/products/wild-strawberry-cream-silk
+              - img "Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e364]
+              - img "Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e365]
+            - checkbox [ref=e366]
+          - generic [ref=e368]:
+            - generic [ref=e369]:
+              - link "Óleo de fragrância morango silvestre, creme e seda" [ref=e371] [cursor=pointer]:
+                - /url: /pt/products/wild-strawberry-cream-silk
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e372] [cursor=pointer]:
+                - /url: /pt/products/wild-strawberry-cream-silk#shopify-product-reviews
+                - generic [ref=e373]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e374]
+            - generic [ref=e378]:
+              - generic [ref=e379]: Preço de venda
+              - text: A partir de
+              - generic [ref=e382]:
+                - generic [ref=e383]: €3,05 EUR IVA incl.
+                - generic [ref=e384]: €2,52 EUR IVA excl.
+        - generic [ref=e385]:
+          - generic:
+            - generic: Novo!
+          - generic [ref=e386]:
+            - link "Óleo de fragrância noz-moscada, gengibre e especiarias Óleo de fragrância noz-moscada, gengibre e especiarias" [ref=e387] [cursor=pointer]:
+              - /url: /pt/products/nutmeg-ginger-spice-fragrance-oil
+              - img "Óleo de fragrância noz-moscada, gengibre e especiarias" [ref=e388]
+              - img "Óleo de fragrância noz-moscada, gengibre e especiarias" [ref=e389]
+            - checkbox "Add to wishlist button" [ref=e390] [cursor=pointer]:
+              - img [ref=e391]
+          - generic [ref=e394]:
+            - link "Óleo de fragrância noz-moscada, gengibre e especiarias" [ref=e397] [cursor=pointer]:
+              - /url: /pt/products/nutmeg-ginger-spice-fragrance-oil
+            - generic [ref=e400]:
+              - generic [ref=e401]: Preço de venda
+              - text: A partir de
+              - generic [ref=e404]:
+                - generic [ref=e405]: €4,09 EUR IVA incl.
+                - generic [ref=e406]: €3,38 EUR IVA excl.
+        - generic [ref=e407]:
+          - generic:
+            - generic: Novo!
+          - generic [ref=e408]:
+            - link "Suede Leather and Orris fragrance oil for candles, wax melts and home fragrance making Suede Leather and Orris fragrance oil for candles, wax melts and home fragrance making" [ref=e409] [cursor=pointer]:
+              - /url: /pt/products/suede-leather-orris-fragrance-oil
+              - img "Suede Leather and Orris fragrance oil for candles, wax melts and home fragrance making" [ref=e410]
+              - img "Suede Leather and Orris fragrance oil for candles, wax melts and home fragrance making" [ref=e411]
+            - checkbox [ref=e412]
+          - generic [ref=e414]:
+            - generic [ref=e415]:
+              - link "Óleo de fragrância couro de camurça e orris" [ref=e417] [cursor=pointer]:
+                - /url: /pt/products/suede-leather-orris-fragrance-oil
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e418] [cursor=pointer]:
+                - /url: /pt/products/suede-leather-orris-fragrance-oil#shopify-product-reviews
+                - generic [ref=e419]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e420]
+            - generic [ref=e424]:
+              - generic [ref=e425]: Preço de venda
+              - text: A partir de
+              - generic [ref=e428]:
+                - generic [ref=e429]: €3,55 EUR VAT incl.
+                - generic [ref=e430]: €2,93 EUR VAT excl.
+        - generic [ref=e431]:
+          - generic:
+            - generic: Novo!
+          - generic [ref=e432]:
+            - link "Óleo de fragrância fougère de cavalheiro moderno Óleo de fragrância fougère de cavalheiro moderno" [ref=e433] [cursor=pointer]:
+              - /url: /pt/products/modern-gentleman-fougere-fragrance-oil
+              - img "Óleo de fragrância fougère de cavalheiro moderno" [ref=e434]
+              - img "Óleo de fragrância fougère de cavalheiro moderno" [ref=e435]
+            - checkbox [ref=e436]
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - link "Óleo de fragrância fougère de cavalheiro moderno" [ref=e441] [cursor=pointer]:
+                - /url: /pt/products/modern-gentleman-fougere-fragrance-oil
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e442] [cursor=pointer]:
+                - /url: /pt/products/modern-gentleman-fougere-fragrance-oil#shopify-product-reviews
+                - generic [ref=e443]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e444]
+            - generic [ref=e448]:
+              - generic [ref=e449]: Preço de venda
+              - text: A partir de
+              - generic [ref=e452]:
+                - generic [ref=e453]: €3,70 EUR IVA incl.
+                - generic [ref=e454]: €3,06 EUR IVA excl.
+        - generic [ref=e455]:
+          - generic [ref=e456]:
+            - link "Óleo de fragrância cereja preta e amêndoa da Córsega Óleo de fragrância cereja preta e amêndoa da Córsega" [ref=e457] [cursor=pointer]:
+              - /url: /pt/products/black-cherry-and-corsican-almond-fragrance-oil-1
+              - img "Óleo de fragrância cereja preta e amêndoa da Córsega" [ref=e458]
+              - img "Óleo de fragrância cereja preta e amêndoa da Córsega" [ref=e459]
+            - checkbox "Add to wishlist button" [ref=e460] [cursor=pointer]:
+              - img [ref=e461]
+          - generic [ref=e464]:
+            - generic [ref=e465]:
+              - link "Óleo de fragrância cereja preta e amêndoa da Córsega" [ref=e467] [cursor=pointer]:
+                - /url: /pt/products/black-cherry-and-corsican-almond-fragrance-oil-1
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e468] [cursor=pointer]:
+                - /url: /pt/products/black-cherry-and-corsican-almond-fragrance-oil-1#shopify-product-reviews
+                - generic [ref=e469]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e470]
+            - generic [ref=e474]:
+              - generic [ref=e475]: Preço de venda
+              - text: A partir de
+              - generic [ref=e478]:
+                - generic [ref=e479]: €3,55 EUR VAT incl.
+                - generic [ref=e480]: €2,93 EUR VAT excl.
+        - generic [ref=e481]:
+          - generic [ref=e482]:
+            - link "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e483] [cursor=pointer]:
+              - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil
+              - img "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e484]
+              - img "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e485]
+            - checkbox [ref=e486]
+          - generic [ref=e488]:
+            - generic [ref=e489]:
+              - link "Óleo de fragrância matcha de Quioto e nuvem de coco" [ref=e491] [cursor=pointer]:
+                - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e492] [cursor=pointer]:
+                - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil#shopify-product-reviews
+                - generic [ref=e493]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e494]
+            - generic [ref=e498]:
+              - generic [ref=e499]: Preço de venda
+              - text: A partir de
+              - generic [ref=e502]:
+                - generic [ref=e503]: €3,55 EUR IVA incl.
+                - generic [ref=e504]: €2,93 EUR IVA excl.
+        - generic [ref=e505]:
+          - generic [ref=e506]:
+            - link "Green Fig and Wild Mushroom Fragrance Oil for Candle, Diffusor and Spray Making Green Fig and Wild Mushroom Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e507] [cursor=pointer]:
+              - /url: /pt/products/green-fig-and-wild-mushroom
+              - img "Green Fig and Wild Mushroom Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e508]
+              - img "Green Fig and Wild Mushroom Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e509]
+            - checkbox [ref=e510]
+          - generic [ref=e512]:
+            - generic [ref=e513]:
+              - link "Óleo de fragrância figo verde e cogumelo selvagem" [ref=e515] [cursor=pointer]:
+                - /url: /pt/products/green-fig-and-wild-mushroom
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e516] [cursor=pointer]:
+                - /url: /pt/products/green-fig-and-wild-mushroom#shopify-product-reviews
+                - generic [ref=e517]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e518]
+            - generic [ref=e522]:
+              - generic [ref=e523]: Preço de venda
+              - text: A partir de
+              - generic [ref=e526]:
+                - generic [ref=e527]: €3,92 EUR IVA incl.
+                - generic [ref=e528]: €3,24 EUR IVA excl.
+        - generic [ref=e529]:
+          - generic [ref=e530]:
+            - link "Winter Pines & Velvet Petals Fragrance Oil for Candle, Diffusor, Soap and Spray Making Winter Pines & Velvet Petals Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e531] [cursor=pointer]:
+              - /url: /pt/products/winter-pines-velvet-petals
+              - img "Winter Pines & Velvet Petals Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e532]
+              - img "Winter Pines & Velvet Petals Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e533]
+            - checkbox [ref=e534]
+          - generic [ref=e536]:
+            - generic [ref=e537]:
+              - link "Óleo de fragrância pinheiros de inverno e pétalas aveludadas" [ref=e539] [cursor=pointer]:
+                - /url: /pt/products/winter-pines-velvet-petals
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e540] [cursor=pointer]:
+                - /url: /pt/products/winter-pines-velvet-petals#shopify-product-reviews
+                - generic [ref=e541]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e542]
+            - generic [ref=e546]:
+              - generic [ref=e547]: Preço de venda
+              - text: A partir de
+              - generic [ref=e550]:
+                - generic [ref=e551]: €3,70 EUR IVA incl.
+                - generic [ref=e552]: €3,06 EUR IVA excl.
+        - generic [ref=e553]:
+          - generic [ref=e554]:
+            - link "Dubai Pistachio Cream Fragrance Oil for Candle, Diffusor, Soap and Spray Making Dubai Pistachio Cream Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e555] [cursor=pointer]:
+              - /url: /pt/products/dubai-pistachio-cream-fragrance-oil
+              - img "Dubai Pistachio Cream Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e556]
+              - img "Dubai Pistachio Cream Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e557]
+            - checkbox [ref=e558]
+          - generic [ref=e560]:
+            - generic [ref=e561]:
+              - link "Óleo de fragrância creme de pistácio do Dubai" [ref=e563] [cursor=pointer]:
+                - /url: /pt/products/dubai-pistachio-cream-fragrance-oil
+              - link "4.9 4.9 fora de 5.0 estrelas" [ref=e564] [cursor=pointer]:
+                - /url: /pt/products/dubai-pistachio-cream-fragrance-oil#shopify-product-reviews
+                - generic [ref=e565]: "4.9"
+                - img "4.9 fora de 5.0 estrelas" [ref=e566]
+            - generic [ref=e570]:
+              - generic [ref=e571]: Preço de venda
+              - text: A partir de
+              - generic [ref=e574]:
+                - generic [ref=e575]: €3,38 EUR IVA incl.
+                - generic [ref=e576]: €2,79 EUR IVA excl.
+        - generic [ref=e577]:
+          - generic [ref=e578]:
+            - link "Magnolia & Peach Blossom Fragrance Oil for Candle, Soap and Spray Making Magnolia & Peach Blossom Fragrance Oil for Candle, Soap and Spray Making" [ref=e579] [cursor=pointer]:
+              - /url: /pt/products/magnolia-and-peach-blossom-fragrance-oil
+              - img "Magnolia & Peach Blossom Fragrance Oil for Candle, Soap and Spray Making" [ref=e580]
+              - img "Magnolia & Peach Blossom Fragrance Oil for Candle, Soap and Spray Making" [ref=e581]
+            - checkbox "Add to wishlist button" [ref=e582] [cursor=pointer]:
+              - img [ref=e583]
+          - generic [ref=e586]:
+            - generic [ref=e587]:
+              - link "Óleo de fragrância magnólia e flor de pessegueiro" [ref=e589] [cursor=pointer]:
+                - /url: /pt/products/magnolia-and-peach-blossom-fragrance-oil
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e590] [cursor=pointer]:
+                - /url: /pt/products/magnolia-and-peach-blossom-fragrance-oil#shopify-product-reviews
+                - generic [ref=e591]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e592]
+            - generic [ref=e596]:
+              - generic [ref=e597]: Preço de venda
+              - text: A partir de
+              - generic [ref=e600]:
+                - generic [ref=e601]: €4,09 EUR IVA incl.
+                - generic [ref=e602]: €3,38 EUR IVA excl.
+        - generic [ref=e603]:
+          - generic [ref=e604]:
+            - link "Black Pepper & Velvet Orchid Fragrance Oil for Candle, Diffusor, Soap and Spray Making Black Pepper & Velvet Orchid Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e605] [cursor=pointer]:
+              - /url: /pt/products/black-pepper-and-velvet-orchid-fragrance-oil
+              - img "Black Pepper & Velvet Orchid Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e606]
+              - img "Black Pepper & Velvet Orchid Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e607]
+            - checkbox "Add to wishlist button" [ref=e608] [cursor=pointer]:
+              - img [ref=e609]
+          - generic [ref=e612]:
+            - generic [ref=e613]:
+              - link "Óleo de fragrância pimenta-preta e orquídea aveludada" [ref=e615] [cursor=pointer]:
+                - /url: /pt/products/black-pepper-and-velvet-orchid-fragrance-oil
+              - link "4.9 4.9 fora de 5.0 estrelas" [ref=e616] [cursor=pointer]:
+                - /url: /pt/products/black-pepper-and-velvet-orchid-fragrance-oil#shopify-product-reviews
+                - generic [ref=e617]: "4.9"
+                - img "4.9 fora de 5.0 estrelas" [ref=e618]
+            - generic [ref=e622]:
+              - generic [ref=e623]: Preço de venda
+              - text: A partir de
+              - generic [ref=e626]:
+                - generic [ref=e627]: €3,92 EUR IVA incl.
+                - generic [ref=e628]: €3,24 EUR IVA excl.
+        - generic [ref=e629]:
+          - generic [ref=e630]:
+            - link "Vanilla & Patchouli Fragrance Oil for Candle, Diffusor, Soap and Spray Making Vanilla & Patchouli Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e631] [cursor=pointer]:
+              - /url: /pt/products/vanilla-and-patchouli-fragrance-oil
+              - img "Vanilla & Patchouli Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e632]
+              - img "Vanilla & Patchouli Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e633]
+            - checkbox [ref=e634]
+          - generic [ref=e636]:
+            - generic [ref=e637]:
+              - link "Óleo de fragrância baunilha e patchouli" [ref=e639] [cursor=pointer]:
+                - /url: /pt/products/vanilla-and-patchouli-fragrance-oil
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e640] [cursor=pointer]:
+                - /url: /pt/products/vanilla-and-patchouli-fragrance-oil#shopify-product-reviews
+                - generic [ref=e641]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e642]
+            - generic [ref=e646]:
+              - generic [ref=e647]: Preço de venda
+              - text: A partir de
+              - generic [ref=e650]:
+                - generic [ref=e651]: €3,92 EUR IVA incl.
+                - generic [ref=e652]: €3,24 EUR IVA excl.
+        - generic [ref=e653]:
+          - generic [ref=e654]:
+            - link "By the Fireplace Fragrance Oil for Candle, Diffusor, Soap and Spray Making By the Fireplace Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e655] [cursor=pointer]:
+              - /url: /pt/products/by-the-fireside-fragrance-oil
+              - img "By the Fireplace Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e656]
+              - img "By the Fireplace Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e657]
+            - checkbox [ref=e658]
+          - generic [ref=e660]:
+            - generic [ref=e661]:
+              - link "Óleo de fragrância junto à lareira" [ref=e663] [cursor=pointer]:
+                - /url: /pt/products/by-the-fireside-fragrance-oil
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e664] [cursor=pointer]:
+                - /url: /pt/products/by-the-fireside-fragrance-oil#shopify-product-reviews
+                - generic [ref=e665]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e666]
+            - generic [ref=e670]:
+              - generic [ref=e671]: Preço de venda
+              - text: A partir de
+              - generic [ref=e674]:
+                - generic [ref=e675]: €3,38 EUR IVA incl.
+                - generic [ref=e676]: €2,79 EUR IVA excl.
+        - generic [ref=e677]:
+          - generic [ref=e678]:
+            - link "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e679] [cursor=pointer]:
+              - /url: /pt/products/rose-champagne-fragrance-oil
+              - img "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e680]
+              - img "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e681]
+            - checkbox [ref=e682]
+          - generic [ref=e684]:
+            - generic [ref=e685]:
+              - link "Óleo de fragrância rosa e champanhe" [ref=e687] [cursor=pointer]:
+                - /url: /pt/products/rose-champagne-fragrance-oil
+              - link "4.8 4.8 fora de 5.0 estrelas" [ref=e688] [cursor=pointer]:
+                - /url: /pt/products/rose-champagne-fragrance-oil#shopify-product-reviews
+                - generic [ref=e689]: "4.8"
+                - img "4.8 fora de 5.0 estrelas" [ref=e690]
+            - generic [ref=e694]:
+              - generic [ref=e695]: Preço de venda
+              - text: A partir de
+              - generic [ref=e698]:
+                - generic [ref=e699]: €3,70 EUR IVA incl.
+                - generic [ref=e700]: €3,06 EUR IVA excl.
+        - generic [ref=e701]:
+          - generic [ref=e702]:
+            - link "Christmas Hearth Fragrance Oil for Candle, Diffusor, Soap and Spray Making Christmas Hearth Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e703] [cursor=pointer]:
+              - /url: /pt/products/christmas-hearth-fragrance-oil
+              - img "Christmas Hearth Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e704]
+              - img "Christmas Hearth Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e705]
+            - checkbox [ref=e706]
+          - generic [ref=e708]:
+            - generic [ref=e709]:
+              - link "Óleo de fragrância lareira de Natal" [ref=e711] [cursor=pointer]:
+                - /url: /pt/products/christmas-hearth-fragrance-oil
+              - link "4.9 4.9 fora de 5.0 estrelas" [ref=e712] [cursor=pointer]:
+                - /url: /pt/products/christmas-hearth-fragrance-oil#shopify-product-reviews
+                - generic [ref=e713]: "4.9"
+                - img "4.9 fora de 5.0 estrelas" [ref=e714]
+            - generic [ref=e718]:
+              - generic [ref=e719]: Preço de venda
+              - text: A partir de
+              - generic [ref=e721]: €3,05 EUR
+        - generic [ref=e722]:
+          - generic [ref=e723]:
+            - link "Muscat & Fig Fragrance Oil for Candle, Soap and Spray Making Muscat & Fig Fragrance Oil for Candle, Soap and Spray Making" [ref=e724] [cursor=pointer]:
+              - /url: /pt/products/muscat-and-fig-fragrance-oil
+              - img "Muscat & Fig Fragrance Oil for Candle, Soap and Spray Making" [ref=e725]
+              - img "Muscat & Fig Fragrance Oil for Candle, Soap and Spray Making" [ref=e726]
+            - checkbox [ref=e727]
+          - generic [ref=e729]:
+            - generic [ref=e730]:
+              - link "Óleo de fragrância moscatel e figo" [ref=e732] [cursor=pointer]:
+                - /url: /pt/products/muscat-and-fig-fragrance-oil
+              - link "4.9 4.9 fora de 5.0 estrelas" [ref=e733] [cursor=pointer]:
+                - /url: /pt/products/muscat-and-fig-fragrance-oil#shopify-product-reviews
+                - generic [ref=e734]: "4.9"
+                - img "4.9 fora de 5.0 estrelas" [ref=e735]
+            - generic [ref=e739]:
+              - generic [ref=e740]: Preço de venda
+              - text: A partir de
+              - generic [ref=e743]:
+                - generic [ref=e744]: €4,09 EUR IVA incl.
+                - generic [ref=e745]: €3,38 EUR IVA excl.
+        - generic [ref=e746]:
+          - generic [ref=e747]:
+            - link "Oud Wood & Sweet Jasmin Fragrance Oil for Candle, Soap, Perfume and Spray Making Oud Wood & Sweet Jasmin Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e748] [cursor=pointer]:
+              - /url: /pt/products/oud-wood-and-sweet-jasmin-fragrance-oil
+              - img "Oud Wood & Sweet Jasmin Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e749]
+              - img "Oud Wood & Sweet Jasmin Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e750]
+            - checkbox [ref=e751]
+          - generic [ref=e753]:
+            - generic [ref=e754]:
+              - link "Óleo de fragrância madeira de oud e jasmim doce" [ref=e756] [cursor=pointer]:
+                - /url: /pt/products/oud-wood-and-sweet-jasmin-fragrance-oil
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e757] [cursor=pointer]:
+                - /url: /pt/products/oud-wood-and-sweet-jasmin-fragrance-oil#shopify-product-reviews
+                - generic [ref=e758]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e759]
+            - generic [ref=e763]:
+              - generic [ref=e764]: Preço de venda
+              - text: A partir de
+              - generic [ref=e767]:
+                - generic [ref=e768]: €3,92 EUR IVA incl.
+                - generic [ref=e769]: €3,24 EUR IVA excl.
+        - generic [ref=e770]:
+          - generic [ref=e771]:
+            - link "Moroccan Cedar & Saffron Fragrance Oil for Candle, Soap, Perfume and Spray Making Moroccan Cedar & Saffron Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e772] [cursor=pointer]:
+              - /url: /pt/products/moroccan-cedar-and-saffron-fragrance-oil
+              - img "Moroccan Cedar & Saffron Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e773]
+              - img "Moroccan Cedar & Saffron Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e774]
+            - checkbox [ref=e775]
+          - generic [ref=e777]:
+            - generic [ref=e778]:
+              - link "Óleo de fragrância cedro marroquino e açafrão" [ref=e780] [cursor=pointer]:
+                - /url: /pt/products/moroccan-cedar-and-saffron-fragrance-oil
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e781] [cursor=pointer]:
+                - /url: /pt/products/moroccan-cedar-and-saffron-fragrance-oil#shopify-product-reviews
+                - generic [ref=e782]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e783]
+            - generic [ref=e787]:
+              - generic [ref=e788]: Preço de venda
+              - text: A partir de
+              - generic [ref=e790]: €3,55 EUR
+        - generic [ref=e791]:
+          - generic [ref=e792]:
+            - link "Fresh Cut Grass Fragrance Oil for Candle, Soap, Perfume and Spray Making Fresh Cut Grass Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e793] [cursor=pointer]:
+              - /url: /pt/products/fresh-cut-grass-fragrance-oil
+              - img "Fresh Cut Grass Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e794]
+              - img "Fresh Cut Grass Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e795]
+            - checkbox [ref=e796]
+          - generic [ref=e798]:
+            - generic [ref=e799]:
+              - link "Óleo de fragrância relva acabada de cortar" [ref=e801] [cursor=pointer]:
+                - /url: /pt/products/fresh-cut-grass-fragrance-oil
+              - link "5.0 5.0 fora de 5.0 estrelas" [ref=e802] [cursor=pointer]:
+                - /url: /pt/products/fresh-cut-grass-fragrance-oil#shopify-product-reviews
+                - generic [ref=e803]: "5.0"
+                - img "5.0 fora de 5.0 estrelas" [ref=e804]
+            - generic [ref=e808]:
+              - generic [ref=e809]: Preço de venda
+              - text: A partir de
+              - generic [ref=e812]:
+                - generic [ref=e813]: €3,22 EUR IVA incl.
+                - generic [ref=e814]: €2,66 EUR IVA excl.
+        - generic [ref=e815]:
+          - generic [ref=e816]:
+            - link "Sweet Amber & Smoke Fragrance Oil for Candle, Soap, Perfume and Spray Making Sweet Amber & Smoke Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e817] [cursor=pointer]:
+              - /url: /pt/products/sweet-amber-and-smoke-fragrance-oil
+              - img "Sweet Amber & Smoke Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e818]
+              - img "Sweet Amber & Smoke Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e819]
+            - checkbox [ref=e820]
+          - generic [ref=e822]:
+            - generic [ref=e823]:
+              - link "Óleo de fragrância âmbar doce e fumo" [ref=e825] [cursor=pointer]:
+                - /url: /pt/products/sweet-amber-and-smoke-fragrance-oil
+              - link "4.9 4.9 fora de 5.0 estrelas" [ref=e826] [cursor=pointer]:
+                - /url: /pt/products/sweet-amber-and-smoke-fragrance-oil#shopify-product-reviews
+                - generic [ref=e827]: "4.9"
+                - img "4.9 fora de 5.0 estrelas" [ref=e828]
+            - generic [ref=e832]:
+              - generic [ref=e833]: Preço de venda
+              - text: A partir de
+              - generic [ref=e836]:
+                - generic [ref=e837]: €4,09 EUR IVA incl.
+                - generic [ref=e838]: €3,38 EUR IVA excl.
+        - generic [ref=e839]:
+          - generic [ref=e840]:
+            - link "Wild Fern & Moss Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making Wild Fern & Moss Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making" [ref=e841] [cursor=pointer]:
+              - /url: /pt/products/wild-fern-moss-fragrance-oil
+              - img "Wild Fern & Moss Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making" [ref=e842]
+              - img "Wild Fern & Moss Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making" [ref=e843]
+            - checkbox [ref=e844]
+          - generic [ref=e846]:
+            - generic [ref=e847]:
+              - link "Óleo de fragrância feto selvagem e musgo" [ref=e849] [cursor=pointer]:
+                - /url: /pt/products/wild-fern-moss-fragrance-oil
+              - link "4.9 4.9 fora de 5.0 estrelas" [ref=e850] [cursor=pointer]:
+                - /url: /pt/products/wild-fern-moss-fragrance-oil#shopify-product-reviews
+                - generic [ref=e851]: "4.9"
+                - img "4.9 fora de 5.0 estrelas" [ref=e852]
+            - generic [ref=e856]:
+              - generic [ref=e857]: Preço de venda
+              - text: A partir de
+              - generic [ref=e859]: €4,09 EUR
+      - navigation "navegação de paginação" [ref=e860]:
+        - generic [ref=e862]: 1 / 2
+        - link "Ir para a página 2" [ref=e863] [cursor=pointer]:
+          - /url: /pt/collections/fragrance-oils-for-spray-making?page=2
+    - paragraph [ref=e869]: Difusão do aroma excecional, tanto a quente como a frio. Estas fragrâncias de elevada qualidade foram desenvolvidas especialmente para velas e difusores, misturando-se facilmente com ceras de origem vegetal e bases para difusor. São certificadas segundo as normas REACH e IFRA, sem ftalatos nem parabenos, e seguras do ponto de vista ambiental.
+    - generic [ref=e873]:
+      - generic [ref=e874]:
+        - generic [ref=e875]:
+          - generic [ref=e876]:
+            - generic [ref=e877]: 
+            - generic [ref=e878]: 
+            - generic [ref=e879]: 
+            - generic [ref=e880]: 
+            - generic [ref=e881]: 
+          - text: 566 avaliações
+        - generic [ref=e882]:
+          - generic [ref=e883]: Verificado por
+          - img "Judge.me Logo" [ref=e885]
+      - generic [ref=e888]:
+        - generic "Platinum Verificado Reviews Shop. Obtained at least 500 reviews submitted by genuine customers with proof of purchase history" [ref=e889]:
+          - link "Judge.me Platinum Verified Reviews Shop medal 566" [ref=e890] [cursor=pointer]:
+            - /url: https://app.judge.me/reviews/medals
+            - img "Judge.me Platinum Verified Reviews Shop medal" [ref=e892]
+            - generic [ref=e893]: "566"
+        - generic "Gold Monthly Record Shop. Achieved an all-time record of 87 published verified reviews within one calendar month." [ref=e894]:
+          - link "Judge.me Gold Monthly Record Shop medal 87" [ref=e895] [cursor=pointer]:
+            - /url: https://app.judge.me/reviews/medals
+            - img "Judge.me Gold Monthly Record Shop medal" [ref=e897]
+            - generic [ref=e898]: "87"
+        - generic "Silver Authentic Shop. At least 90% of published reviews are verified reviews" [ref=e899]:
+          - link "Judge.me Silver Authentic Shop medal" [ref=e900] [cursor=pointer]:
+            - /url: https://app.judge.me/reviews/medals
+            - img "Judge.me Silver Authentic Shop medal" [ref=e902]
+        - generic "Silver Transparent Shop. Published at least 90% of verified reviews received in total" [ref=e903]:
+          - link "Judge.me Silver Transparent Shop medal" [ref=e904] [cursor=pointer]:
+            - /url: https://app.judge.me/reviews/medals
+            - img "Judge.me Silver Transparent Shop medal" [ref=e906]
+        - generic "Top 1% Trending Shops. Top 1% trending shops that obtained and published the most verified reviews in the last 30 days" [ref=e907]:
+          - link "Judge.me Top 1% Trending Shops medal" [ref=e908] [cursor=pointer]:
+            - /url: https://app.judge.me/reviews/medals
+            - img "Judge.me Top 1% Trending Shops medal" [ref=e910]
+        - generic "Top 5% Shops. Top 5% shops that obtained and published the most verified reviews of all time" [ref=e911]:
+          - link "Judge.me Top 5% Shops medal" [ref=e912] [cursor=pointer]:
+            - /url: https://app.judge.me/reviews/medals
+            - img "Judge.me Top 5% Shops medal" [ref=e914]
+  - iframe [ref=e916]:
+    - generic [ref=f5e4]:
+      - button [ref=f5e7] [cursor=pointer]:
+        - img [ref=f5e9]
+        - img [ref=f5e12]
+      - generic [ref=f5e15]:
+        - generic [ref=f5e18]:
+          - link "Logo" [ref=f5e19] [cursor=pointer]:
+            - /url: https://admin.shopify.com/store/3rcue2-me
+            - img "Logo" [ref=f5e20]
+          - generic [ref=f5e22]:
+            - generic [ref=f5e23]: pt-fresh-clone-2026-04-15T12-42-06
+            - generic [ref=f5e24]: Draft
+        - generic [ref=f5e26]:
+          - button "Hide bar" [ref=f5e28] [cursor=pointer]:
+            - generic [ref=f5e29]: Hide bar
+          - button "Exit preview" [ref=f5e31] [cursor=pointer]:
+            - generic [ref=f5e32]: Exit preview
+          - button "Copy link" [ref=f5e35] [cursor=pointer]:
+            - img [ref=f5e39]
+            - generic [ref=f5e41]: Copy link

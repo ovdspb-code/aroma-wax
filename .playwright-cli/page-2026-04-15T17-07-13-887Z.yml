@@ -1,0 +1,352 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 unidades" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 unidades
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - generic [ref=e91]: "Pesquisa: 8 resultados encontrados para \"rose\""
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - heading "8 resultados para \"rose\"" [level=1] [ref=e96]
+        - search [ref=e97]:
+          - generic [ref=e99]:
+            - searchbox "Pesquisar" [ref=e100]: rose
+            - button [ref=e101] [cursor=pointer]
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e106]: Filtros
+          - generic [ref=e114]:
+            - generic [ref=e115]: "Ordenar por:"
+            - 'button "Ordenar por: Relevância" [ref=e116] [cursor=pointer]':
+              - generic [ref=e117]: Relevância
+        - generic [ref=e122]:
+          - generic [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]: Apenas em stock
+            - checkbox "Apenas em stock" [ref=e126] [cursor=pointer]
+          - group [ref=e127]:
+            - generic "Preço" [ref=e128] [cursor=pointer]:
+              - generic [ref=e130]: Preço
+          - group [ref=e133]:
+            - generic "Uso" [ref=e134] [cursor=pointer]:
+              - generic [ref=e136]: Uso
+          - group [ref=e139]:
+            - generic "Volume" [ref=e140] [cursor=pointer]:
+              - generic [ref=e142]: Volume
+          - group [ref=e145]:
+            - generic "Estações" [ref=e146] [cursor=pointer]:
+              - generic [ref=e148]: Estações
+          - group [ref=e151]:
+            - generic "Notas olfativas" [ref=e152] [cursor=pointer]:
+              - generic [ref=e154]: Notas olfativas
+          - group [ref=e157]:
+            - generic "Categorias" [ref=e158] [cursor=pointer]:
+              - generic [ref=e160]: Categorias
+        - region [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - link "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e169] [cursor=pointer]:
+                - /url: /pt/products/rose-champagne-fragrance-oil?_pos=1&_sid=34efcb3ae&_ss=r
+                - img "Rose & Champagne Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e170]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e171]
+              - checkbox [ref=e172]
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - link "Óleo de fragrância rosa e champanhe" [ref=e177] [cursor=pointer]:
+                  - /url: /pt/products/rose-champagne-fragrance-oil?_pos=1&_sid=34efcb3ae&_ss=r
+                - link "4.8 4.8 fora de 5.0 estrelas" [ref=e178] [cursor=pointer]:
+                  - /url: /pt/products/rose-champagne-fragrance-oil?_pos=1&_sid=34efcb3ae&_ss=r#shopify-product-reviews
+                  - generic [ref=e179]: "4.8"
+                  - img "4.8 fora de 5.0 estrelas" [ref=e180]
+              - generic [ref=e184]:
+                - generic [ref=e185]: Preço de venda
+                - text: A partir de
+                - generic [ref=e187]: €3,70 EUR
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - link "All Seasons Classics fragrance oil test kit with 10 scents for candle and home fragrance makers Ten fragrance oils from the All Seasons Classics test kit for candles, wax melts and diffusers" [ref=e190] [cursor=pointer]:
+                - /url: /pt/products/all-seasons-classics-fragrance-oils-kit?_pos=2&_sid=34efcb3ae&_ss=r
+                - img "All Seasons Classics fragrance oil test kit with 10 scents for candle and home fragrance makers" [ref=e191]
+                - img "Ten fragrance oils from the All Seasons Classics test kit for candles, wax melts and diffusers" [ref=e192]
+              - checkbox [ref=e193]
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - link "Kit de fragrâncias clássicas para todas as estações" [ref=e198] [cursor=pointer]:
+                  - /url: /pt/products/all-seasons-classics-fragrance-oils-kit?_pos=2&_sid=34efcb3ae&_ss=r
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e199] [cursor=pointer]:
+                  - /url: /pt/products/all-seasons-classics-fragrance-oils-kit?_pos=2&_sid=34efcb3ae&_ss=r#shopify-product-reviews
+                  - generic [ref=e200]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e201]
+              - generic [ref=e205]:
+                - generic [ref=e206]: Preço de venda
+                - generic [ref=e208]: €34,90 EUR
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - link "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e211] [cursor=pointer]:
+                - /url: /pt/products/summer-2026-fragrance-oils-kit?_pos=3&_sid=34efcb3ae&_ss=r
+                - img "Summer 2026 fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers" [ref=e212]
+                - img "Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e213]
+              - checkbox [ref=e214]
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - link "Kit de fragrâncias de verão" [ref=e219] [cursor=pointer]:
+                  - /url: /pt/products/summer-2026-fragrance-oils-kit?_pos=3&_sid=34efcb3ae&_ss=r
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e220] [cursor=pointer]:
+                  - /url: /pt/products/summer-2026-fragrance-oils-kit?_pos=3&_sid=34efcb3ae&_ss=r#shopify-product-reviews
+                  - generic [ref=e221]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e222]
+              - generic [ref=e226]:
+                - generic [ref=e227]: Preço de venda
+                - generic [ref=e229]: €34,90 EUR
+          - generic [ref=e230]:
+            - generic [ref=e231]:
+              - link "Wild Fern & Moss Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e232] [cursor=pointer]:
+                - /url: /pt/products/wild-fern-moss-fragrance-oil?_pos=4&_sid=34efcb3ae&_ss=r
+                - img "Wild Fern & Moss Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making" [ref=e233]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e234]
+              - checkbox [ref=e235]
+            - generic [ref=e237]:
+              - generic [ref=e238]:
+                - link "Óleo de fragrância feto selvagem e musgo" [ref=e240] [cursor=pointer]:
+                  - /url: /pt/products/wild-fern-moss-fragrance-oil?_pos=4&_sid=34efcb3ae&_ss=r
+                - link "4.9 4.9 fora de 5.0 estrelas" [ref=e241] [cursor=pointer]:
+                  - /url: /pt/products/wild-fern-moss-fragrance-oil?_pos=4&_sid=34efcb3ae&_ss=r#shopify-product-reviews
+                  - generic [ref=e242]: "4.9"
+                  - img "4.9 fora de 5.0 estrelas" [ref=e243]
+              - generic [ref=e247]:
+                - generic [ref=e248]: Preço de venda
+                - text: A partir de
+                - generic [ref=e250]: €4,09 EUR
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - link "Winter fragrance oil test kit with seasonal scents for candle and home fragrance makers Winter-themed fragrance oils from the test kit for candles, sprays and diffusers" [ref=e253] [cursor=pointer]:
+                - /url: /pt/products/winter-fragrances-kit?_pos=5&_sid=34efcb3ae&_ss=r
+                - img "Winter fragrance oil test kit with seasonal scents for candle and home fragrance makers" [ref=e254]
+                - img "Winter-themed fragrance oils from the test kit for candles, sprays and diffusers" [ref=e255]
+              - checkbox [ref=e256]
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - link "Kit de fragrâncias de inverno" [ref=e261] [cursor=pointer]:
+                  - /url: /pt/products/winter-fragrances-kit?_pos=5&_sid=34efcb3ae&_ss=r
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e262] [cursor=pointer]:
+                  - /url: /pt/products/winter-fragrances-kit?_pos=5&_sid=34efcb3ae&_ss=r#shopify-product-reviews
+                  - generic [ref=e263]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e264]
+              - generic [ref=e268]:
+                - generic [ref=e269]: Preço de venda
+                - generic [ref=e271]: €39,91 EUR
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - link "Vibrant Burgundy liquid candle dye Vibrant Burgundy liquid candle dye in bottles of different sizes" [ref=e274] [cursor=pointer]:
+                - /url: /pt/products/vibrant-burgundy-liquid-dye?_pos=6&_sid=34efcb3ae&_ss=r
+                - img "Vibrant Burgundy liquid candle dye" [ref=e275]
+                - img "Vibrant Burgundy liquid candle dye in bottles of different sizes" [ref=e276]
+              - checkbox [ref=e277]
+            - generic [ref=e279]:
+              - generic [ref=e280]:
+                - link "Corante líquido Vibrant bordeaux" [ref=e282] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-burgundy-liquid-dye?_pos=6&_sid=34efcb3ae&_ss=r
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e283] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-burgundy-liquid-dye?_pos=6&_sid=34efcb3ae&_ss=r#shopify-product-reviews
+                  - generic [ref=e284]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e285]
+              - generic [ref=e289]:
+                - generic [ref=e290]: Preço de venda
+                - text: A partir de
+                - generic [ref=e292]: €6,66 EUR
+          - generic [ref=e293]:
+            - generic [ref=e294]:
+              - link "By the Fireplace Fragrance Oil for Candle, Diffusor, Soap and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e295] [cursor=pointer]:
+                - /url: /pt/products/by-the-fireside-fragrance-oil?_pos=7&_sid=34efcb3ae&_ss=r
+                - img "By the Fireplace Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e296]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e297]
+              - checkbox [ref=e298]
+            - generic [ref=e300]:
+              - generic [ref=e301]:
+                - link "Óleo de fragrância junto à lareira" [ref=e303] [cursor=pointer]:
+                  - /url: /pt/products/by-the-fireside-fragrance-oil?_pos=7&_sid=34efcb3ae&_ss=r
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e304] [cursor=pointer]:
+                  - /url: /pt/products/by-the-fireside-fragrance-oil?_pos=7&_sid=34efcb3ae&_ss=r#shopify-product-reviews
+                  - generic [ref=e305]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e306]
+              - generic [ref=e310]:
+                - generic [ref=e311]: Preço de venda
+                - text: A partir de
+                - generic [ref=e313]: €3,38 EUR
+    - generic [ref=e317]:
+      - generic [ref=e318]:
+        - generic [ref=e320]:
+          - paragraph [ref=e321]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e323]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e325]:
+            - generic [ref=e326]:
+              - textbox "E-mail" [ref=e327]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e329] [cursor=pointer]:
+              - generic [ref=e330]: Subscrever
+        - generic [ref=e331]:
+          - paragraph [ref=e332]: ajuda e informações
+          - list [ref=e333]:
+            - listitem [ref=e334]:
+              - link "contacte-nos" [ref=e335] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e336]:
+              - link "estado da encomenda" [ref=e337] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e338]:
+              - link "apoio ao cliente" [ref=e339] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e340]:
+              - link "aprendizagem" [ref=e341] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e342]:
+              - link "FAQ e ajuda" [ref=e343] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e344]:
+          - paragraph [ref=e345]: as nossas lojas
+          - list [ref=e346]:
+            - listitem [ref=e347]:
+              - link "comprar em Espanha" [ref=e348] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e349]:
+              - link "loja UE em inglês" [ref=e350] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e351]:
+              - link "loja UE em francês" [ref=e352] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e353]:
+              - link "loja UE em alemão" [ref=e354] [cursor=pointer]:
+                - /url: https://aromawax.eu/de
+        - generic [ref=e355]:
+          - paragraph [ref=e356]: políticas da loja
+          - list [ref=e357]:
+            - listitem [ref=e358]:
+              - link "sobre nós" [ref=e359] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e360]:
+              - link "política de privacidade" [ref=e361] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e362]:
+              - link "política de envios" [ref=e363] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e364]:
+              - link "termos de serviço" [ref=e365] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e367]:
+        - list [ref=e368]:
+          - listitem [ref=e369]:
+            - img "American Express" [ref=e370]
+          - listitem [ref=e379]:
+            - img "Apple Pay" [ref=e380]
+          - listitem [ref=e391]:
+            - img "Bancontact" [ref=e392]
+          - listitem [ref=e399]:
+            - img "Google Pay" [ref=e400]
+          - listitem [ref=e408]:
+            - img "iDEAL Wero" [ref=e409]
+          - listitem [ref=e424]:
+            - img "Klarna" [ref=e425]
+          - listitem [ref=e429]:
+            - img "Maestro" [ref=e430]
+          - listitem [ref=e436]:
+            - img "Mastercard" [ref=e437]
+          - listitem [ref=e443]:
+            - img "PayPal" [ref=e444]
+          - listitem [ref=e450]:
+            - img "Shop Pay" [ref=e451]
+          - listitem [ref=e455]:
+            - img "Union Pay" [ref=e456]
+          - listitem [ref=e462]:
+            - img "Visa" [ref=e463]
+        - generic [ref=e467]:
+          - paragraph [ref=e468]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e469] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e470]:
+            - listitem [ref=e471]:
+              - link "Política de privacidade" [ref=e472] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e473]:
+              - text: •
+              - link "Política de devoluções" [ref=e474] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e475]:
+              - text: •
+              - link "Termos de serviço" [ref=e476] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e477]:
+              - text: •
+              - link "Política de envios" [ref=e478] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e479]:
+              - text: •
+              - link "Preferências de cookies" [ref=e480] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

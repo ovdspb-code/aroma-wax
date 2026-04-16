@@ -1,0 +1,646 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: Iniciar sessão
+      - button [ref=e7] [cursor=pointer]
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: Enviaremos um código único (OTP) para o seu e-mail para um início de sessão seguro.
+      - generic [ref=e12]:
+        - textbox "E-mail" [ref=e13]
+        - generic: E-mail
+      - button "Continuar" [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]: Continuar
+      - link "Criar conta" [ref=e16] [cursor=pointer]:
+        - /url: /pt/apps/deluxe/account/register
+  - alertdialog "Consentimento de cookies" [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Consentimento de cookies" [level=2] [ref=e20]
+        - paragraph [ref=e21]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e22] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e23]:
+        - button "Gerir preferências" [ref=e24] [cursor=pointer]
+        - button "Aceitar" [ref=e25] [cursor=pointer]
+        - button "Rejeitar" [ref=e26] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e27] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e28]:
+    - paragraph [ref=e34]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e35]:
+    - generic [ref=e38]:
+      - navigation [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - group [ref=e44]:
+              - generic "comprar tudo" [ref=e45] [cursor=pointer]: comprar tudo
+          - listitem [ref=e47]:
+            - group [ref=e48]:
+              - generic "fabrico de velas" [ref=e49] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e51]:
+            - group [ref=e52]:
+              - generic "fragrâncias" [ref=e53] [cursor=pointer]: fragrâncias
+          - listitem [ref=e55]:
+            - group [ref=e56]:
+              - generic "fabrico de difusores" [ref=e57] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e59]:
+            - group [ref=e60]:
+              - generic "fabrico de sprays de ambiente" [ref=e61] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e63]:
+            - group [ref=e64]:
+              - generic "aprendizagem" [ref=e65] [cursor=pointer]: aprendizagem
+          - listitem [ref=e67]:
+            - link "grossista" [ref=e68] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e69] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e70]: Aroma + Wax
+      - list [ref=e72]:
+        - listitem [ref=e73]:
+          - link "Pesquisar" [ref=e74] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e75]: Pesquisar
+        - listitem [ref=e78]:
+          - link "Iniciar sessão" [ref=e79] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e80]: Iniciar sessão
+        - listitem [ref=e83]:
+          - link "Abrir lista de desejos" [ref=e84] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e85]: Abrir lista de desejos
+            - generic [ref=e89]: "0"
+        - listitem [ref=e90]:
+          - link "Carrinho 0 unidades" [ref=e91] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e92]: Carrinho
+            - img [ref=e93]
+            - generic [ref=e97]:
+              - generic:
+                - generic [ref=e98]: 0 unidades
+                - text: "0"
+  - main [ref=e99]:
+    - navigation "breadcrumbs" [ref=e103]:
+      - link "Início" [ref=e104] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e105]: /
+      - link "comprar tudo" [ref=e106] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e107]: /
+      - link "novidades" [ref=e108] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e109]: /
+      - link "materiais para fabrico de difusores" [ref=e110] [cursor=pointer]:
+        - /url: /pt/collections/diffuser-making-supplies
+      - generic [ref=e111]: /
+      - generic [ref=e112]: Base para difusor Augeo
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e120]:
+          - img "Augéo diffuser base for reed diffuser making" [ref=e122]
+          - img "Augéo Clean Multi diffuser base liquid in bottles" [ref=e124]
+        - generic [ref=e126]:
+          - button "Ir para o item 1" [ref=e127] [cursor=pointer]:
+            - img "Augéo diffuser base for reed diffuser making" [ref=e128]
+          - button "Ir para o item 2" [ref=e129] [cursor=pointer]:
+            - img "Augéo Clean Multi diffuser base liquid in bottles" [ref=e130]
+      - generic [ref=e131]:
+        - heading "Base para difusor Augeo" [level=1] [ref=e133]
+        - generic [ref=e137] [cursor=pointer]:
+          - button "5.00 stars" [ref=e138]:
+            - generic [ref=e139]: 
+            - generic [ref=e140]: 
+            - generic [ref=e141]: 
+            - generic [ref=e142]: 
+            - generic [ref=e143]: 
+          - text: 9 avaliações
+        - separator [ref=e145]
+        - paragraph [ref=e149]: Augeo Clean Multi destaca-se como uma base sustentável e de elevado desempenho para difusores de varetas e sprays de ambiente, oferecendo excelente solubilidade, baixo odor e uma taxa de evaporação equilibrada que prolonga a durabilidade da fragrância sem notas metálicas. Este solvente biodegradável e não tóxico, com uma pegada de carbono reduzida em comparação com éteres glicólicos tradicionais, combina responsabilidade ambiental com uma difusão superior do aroma, tornando-se uma escolha fiável para artesãos que procuram soluções de perfumaria para a casa de qualidade e ambientalmente conscientes.
+        - group [ref=e153]:
+          - generic [ref=e155]:
+            - generic [ref=e156]: Tamanho
+            - generic [ref=e157]: 5kg
+          - generic [ref=e159]:
+            - radio "1 quilograma" [ref=e160] [cursor=pointer]
+            - generic [ref=e162] [cursor=pointer]: 1 quilograma
+            - radio "5kg" [checked] [ref=e163] [cursor=pointer]
+            - generic [ref=e165] [cursor=pointer]: 5kg
+        - generic [ref=e168]:
+          - generic [ref=e169] [cursor=pointer]: Quantidade
+          - generic [ref=e170]:
+            - button "Diminuir quantidade" [ref=e171] [cursor=pointer]
+            - spinbutton "Quantidade" [ref=e173]: "1"
+            - button "Aumentar quantidade" [ref=e174] [cursor=pointer]
+        - generic [ref=e180]:
+          - generic [ref=e181]: Preço de venda
+          - generic [ref=e184]:
+            - generic [ref=e185]: €68,67 EUR IVA incl.
+            - generic [ref=e186]: €56,75 EUR IVA excl.
+        - button "Adicionar ao carrinho" [ref=e192] [cursor=pointer]:
+          - generic [ref=e193]: Adicionar ao carrinho
+        - generic [ref=e196]: Detalhes ecológicos e de segurança
+        - generic [ref=e199]:
+          - heading "Detalhes do produto" [level=3] [ref=e200]
+          - generic [ref=e201]:
+            - paragraph [ref=e202]:
+              - link "Ficha de Dados de Segurança" [ref=e203] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/SDS_ACM_EN.PDF?v=1747935879
+            - paragraph [ref=e204]:
+              - link "Ficha técnica do produto" [ref=e205] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/TDS_ACM_2024.pdf?v=1747935876
+        - generic [ref=e208]:
+          - generic [ref=e209]: Propriedades
+          - list [ref=e210]:
+            - listitem [ref=e211]:
+              - generic [ref=e212]: Odor
+              - generic [ref=e213]: Slight
+            - listitem [ref=e214]:
+              - generic [ref=e215]: Origem
+              - generic [ref=e216]: Renewable (Glycerin-based)
+            - listitem [ref=e217]:
+              - generic [ref=e218]: Flash Point
+              - generic [ref=e219]: 91°C
+            - listitem [ref=e220]:
+              - generic [ref=e221]: Pegada de carbono
+              - generic [ref=e222]: 1.64 kg CO₂/kg
+            - listitem [ref=e223]:
+              - generic [ref=e224]: Carga máxima de base em difusores
+            - listitem [ref=e225]:
+              - generic [ref=e226]: Carga máxima de base em sprays de ambiente
+            - listitem [ref=e227]:
+              - generic [ref=e228]: Carga máxima de fragrância
+              - generic [ref=e229]: 25%
+            - listitem [ref=e230]:
+              - generic [ref=e231]: Evaporação
+              - generic [ref=e232]: 90% after 45 days
+    - generic [ref=e238]:
+      - generic [ref=e239]:
+        - heading "Avaliações de clientes Avaliações de clientes" [level=2] [ref=e240]
+        - generic [ref=e241]:
+          - generic [ref=e243]:
+            - img "A classificação média é de 5.00 estrelas" [ref=e244]:
+              - generic [ref=e245]: 
+              - generic [ref=e246]: 
+              - generic [ref=e247]: 
+              - generic [ref=e248]: 
+              - generic [ref=e249]: 
+              - text: 5.00 de 5
+            - generic [ref=e250]:
+              - text: Com base em 9 avaliações
+              - img "Verified Checkmark" [ref=e251]
+          - generic [ref=e252]:
+            - generic [ref=e253] [cursor=pointer]:
+              - button "100% (9) avaliações com classificação de 5 estrelas" [ref=e254]:
+                - generic [ref=e255]: 
+                - generic [ref=e256]: 
+                - generic [ref=e257]: 
+                - generic [ref=e258]: 
+                - generic [ref=e259]: 
+              - generic [ref=e262]: "9"
+            - generic:
+              - button "0% (0) avaliações com classificação de 4 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 3 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 2 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 1 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+        - generic [ref=e265]:
+          - textbox "Pesquisa" [ref=e266]
+          - text: 
+      - generic [ref=e269]:
+        - combobox "Sort dropdown" [ref=e270] [cursor=pointer]:
+          - option "Mais recentes" [selected]
+          - option "Classificação mais alta"
+          - option "Classificação mais baixa"
+          - option "Apenas fotografias"
+          - option "Fotografias primeiro"
+          - option "Vídeos Primeiro"
+          - option "Mais úteis"
+        - generic [ref=e271]: 
+      - generic [ref=e272]:
+        - generic [ref=e275]:
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - img "avaliação de 5 estrelas" [ref=e279]:
+                - generic [ref=e280]: 
+                - generic [ref=e281]: 
+                - generic [ref=e282]: 
+                - generic [ref=e283]: 
+                - generic [ref=e284]: 
+              - generic [ref=e285]: 10/04/2026
+            - generic [ref=e286]:
+              - generic [ref=e287]:  
+              - generic [ref=e288]:
+                - text: mse
+                - generic [ref=e290]: Verificado
+          - generic [ref=e292]:
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - img "avaliação de 5 estrelas" [ref=e295]:
+                  - generic [ref=e296]: 
+                  - generic [ref=e297]: 
+                  - generic [ref=e298]: 
+                  - generic [ref=e299]: 
+                  - generic [ref=e300]: 
+                - generic [ref=e301]: 11/03/2026
+              - generic [ref=e302]:
+                - generic [ref=e303]:  
+                - generic [ref=e304]:
+                  - text: Robert Cristian
+                  - generic [ref=e306]: Verificado
+            - generic [ref=e308]:
+              - paragraph [ref=e310]: Best one yet
+              - link "Link to user picture 1" [ref=e312] [cursor=pointer]:
+                - /url: https://judgeme.imgix.net/aroma-wax/1773210450__1773210442304-image__original.jpg?auto=format&w=1024
+            - button "Traduzir avaliação para português europeu" [ref=e315] [cursor=pointer]
+        - generic [ref=e316]:
+          - heading "Avaliações noutros idiomas" [level=3] [ref=e317]
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - generic [ref=e320]:
+                - generic [ref=e321]:
+                  - generic [ref=e322]:
+                    - img "avaliação de 5 estrelas" [ref=e323]:
+                      - generic [ref=e324]: 
+                      - generic [ref=e325]: 
+                      - generic [ref=e326]: 
+                      - generic [ref=e327]: 
+                      - generic [ref=e328]: 
+                    - generic [ref=e329]: 07/04/2026
+                  - generic [ref=e330]:
+                    - generic [ref=e331]:  
+                    - generic [ref=e332]:
+                      - text: Aiga Cīrule
+                      - generic [ref=e334]: Verificado
+                - paragraph [ref=e338]: Very easy to use! Love it 👍
+                - button "Traduzir avaliação para português europeu" [ref=e341] [cursor=pointer]
+              - generic [ref=e342]:
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - img "avaliação de 5 estrelas" [ref=e345]:
+                      - generic [ref=e346]: 
+                      - generic [ref=e347]: 
+                      - generic [ref=e348]: 
+                      - generic [ref=e349]: 
+                      - generic [ref=e350]: 
+                    - generic [ref=e351]: 03/02/2026
+                  - generic [ref=e352]:
+                    - generic [ref=e353]:  
+                    - generic [ref=e354]:
+                      - text: Marta
+                      - generic [ref=e356]: Verificado
+                - paragraph [ref=e360]: Genial! comprare mas seguro!
+                - button "Traduzir avaliação para português europeu" [ref=e363] [cursor=pointer]
+              - generic [ref=e364]:
+                - generic [ref=e365]:
+                  - generic [ref=e366]:
+                    - img "avaliação de 5 estrelas" [ref=e367]:
+                      - generic [ref=e368]: 
+                      - generic [ref=e369]: 
+                      - generic [ref=e370]: 
+                      - generic [ref=e371]: 
+                      - generic [ref=e372]: 
+                    - generic [ref=e373]: 23/01/2026
+                  - generic [ref=e374]:
+                    - generic [ref=e375]:  
+                    - generic [ref=e376]:
+                      - text: Anônimo
+                      - generic [ref=e378]: Verificado
+                - paragraph [ref=e382]: Productos de calidad, servicio y atención de diez.
+                - button "Traduzir avaliação para português europeu" [ref=e385] [cursor=pointer]
+            - generic [ref=e386]:
+              - button "Page 1": "1"
+              - button "Page 2" [ref=e387] [cursor=pointer]: "2"
+              - button "Page 3" [ref=e388] [cursor=pointer]: "3"
+              - button "Page 2" [ref=e389] [cursor=pointer]: 
+              - button "Page 3" [ref=e390] [cursor=pointer]: 
+    - generic [ref=e393]:
+      - generic [ref=e395]:
+        - heading "Ver produtos semelhantes Ver produtos semelhantes" [level=2] [ref=e396]:
+          - text: Ver produtos semelhantes
+          - generic [ref=e398]: Ver produtos semelhantes
+        - paragraph [ref=e399]: Explore os nossos produtos para fabrico de velas e difusores, cuidadosamente escolhidos pela sua performance excecional e fiabilidade.
+      - generic [ref=e401]:
+        - generic [ref=e404]:
+          - generic [ref=e405]:
+            - generic [ref=e406]:
+              - link "Sets of colored fibre reed sticks for fragrance diffusers Multi-colored fibre reed diffuser sticks for fragrance diffusers" [ref=e407] [cursor=pointer]:
+                - /url: /pt/products/fiber-diffuser-reeds?pr_prod_strat=jac&pr_rec_id=07fa9ab11&pr_rec_pid=10628607574347&pr_ref_pid=10628530569547&pr_seq=uniform
+                - img "Sets of colored fibre reed sticks for fragrance diffusers" [ref=e408]
+                - img "Multi-colored fibre reed diffuser sticks for fragrance diffusers" [ref=e409]
+              - checkbox [ref=e410]
+            - generic [ref=e411]:
+              - generic [ref=e412]:
+                - generic [ref=e413]:
+                  - link "Varetas de fibra para difusor" [ref=e415] [cursor=pointer]:
+                    - /url: /pt/products/fiber-diffuser-reeds?pr_prod_strat=jac&pr_rec_id=07fa9ab11&pr_rec_pid=10628607574347&pr_ref_pid=10628530569547&pr_seq=uniform
+                  - link "5.0 5.0 fora de 5.0 estrelas" [ref=e416] [cursor=pointer]:
+                    - /url: /pt/products/fiber-diffuser-reeds?pr_prod_strat=jac&pr_rec_id=07fa9ab11&pr_rec_pid=10628607574347&pr_ref_pid=10628530569547&pr_seq=uniform#shopify-product-reviews
+                    - generic [ref=e417]: "5.0"
+                    - img "5.0 fora de 5.0 estrelas" [ref=e418]
+                - generic [ref=e422]:
+                  - generic [ref=e423]: Preço de venda
+                  - text: A partir de
+                  - generic [ref=e425]: €16,34 EUR
+              - paragraph [ref=e427]: 5 cores disponíveis
+          - generic [ref=e428]:
+            - generic [ref=e429]:
+              - link "Beige rattan reed diffuser sticks for fragrance diffusers Beige natural reed diffuser sticks for fragrance diffusers" [ref=e430] [cursor=pointer]:
+                - /url: /pt/products/rattan-diffuser-reeds?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=10818333540683&pr_ref_pid=10628530569547&pr_seq=uniform
+                - img "Beige rattan reed diffuser sticks for fragrance diffusers" [ref=e431]
+                - img "Beige natural reed diffuser sticks for fragrance diffusers" [ref=e432]
+              - checkbox [ref=e433]
+            - generic [ref=e434]:
+              - generic [ref=e435]:
+                - generic [ref=e436]:
+                  - link "Varetas de rattan para difusor" [ref=e438] [cursor=pointer]:
+                    - /url: /pt/products/rattan-diffuser-reeds?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=10818333540683&pr_ref_pid=10628530569547&pr_seq=uniform
+                  - link "5.0 5.0 fora de 5.0 estrelas" [ref=e439] [cursor=pointer]:
+                    - /url: /pt/products/rattan-diffuser-reeds?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=10818333540683&pr_ref_pid=10628530569547&pr_seq=uniform#shopify-product-reviews
+                    - generic [ref=e440]: "5.0"
+                    - img "5.0 fora de 5.0 estrelas" [ref=e441]
+                - generic [ref=e445]:
+                  - generic [ref=e446]: Preço de venda
+                  - text: A partir de
+                  - generic [ref=e448]: €13,92 EUR
+              - paragraph [ref=e450]: 1 cor disponível
+          - generic [ref=e451]:
+            - generic [ref=e452]:
+              - link "Classic Transparent Glass Reed Diffuser Bottles with Cork and Cap, 50 and 100 ml Classic Transparent Glass Reed Diffuser Bottles 50 and 100 ml" [ref=e453] [cursor=pointer]:
+                - /url: /pt/products/classic-reed-diffuser-bottles-100-ml?pr_prod_strat=jac&pr_rec_id=07fa9ab11&pr_rec_pid=10627882025291&pr_ref_pid=10628530569547&pr_seq=uniform
+                - img "Classic Transparent Glass Reed Diffuser Bottles with Cork and Cap, 50 and 100 ml" [ref=e454]
+                - img "Classic Transparent Glass Reed Diffuser Bottles 50 and 100 ml" [ref=e455]
+              - checkbox [ref=e456]
+            - generic [ref=e457]:
+              - generic [ref=e458]:
+                - generic [ref=e459]:
+                  - link "Frasco clássico para difusor de varetas com rolha e tampa, 100 ml" [ref=e461] [cursor=pointer]:
+                    - /url: /pt/products/classic-reed-diffuser-bottles-100-ml?pr_prod_strat=jac&pr_rec_id=07fa9ab11&pr_rec_pid=10627882025291&pr_ref_pid=10628530569547&pr_seq=uniform
+                  - link "5.0 5.0 fora de 5.0 estrelas" [ref=e462] [cursor=pointer]:
+                    - /url: /pt/products/classic-reed-diffuser-bottles-100-ml?pr_prod_strat=jac&pr_rec_id=07fa9ab11&pr_rec_pid=10627882025291&pr_ref_pid=10628530569547&pr_seq=uniform#shopify-product-reviews
+                    - generic [ref=e463]: "5.0"
+                    - img "5.0 fora de 5.0 estrelas" [ref=e464]
+                - generic [ref=e468]:
+                  - generic [ref=e469]: Preço de venda
+                  - text: A partir de
+                  - generic [ref=e471]: €1,88 EUR
+              - paragraph [ref=e473]: 2 cores disponíveis
+          - generic [ref=e474]:
+            - generic [ref=e475]:
+              - link "Kit de arranque para negócio de perfumaria para a casa Golden Wax 464 soy wax pellets package" [ref=e476] [cursor=pointer]:
+                - /url: /pt/products/home-fragrances-business-starter-kit?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=15631459254603&pr_ref_pid=10628530569547&pr_seq=uniform
+                - img "Kit de arranque para negócio de perfumaria para a casa" [ref=e477]
+                - img "Golden Wax 464 soy wax pellets package" [ref=e478]
+              - checkbox [ref=e479]
+            - generic [ref=e481]:
+              - link "Kit de arranque para negócio de perfumaria para a casa" [ref=e484] [cursor=pointer]:
+                - /url: /pt/products/home-fragrances-business-starter-kit?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=15631459254603&pr_ref_pid=10628530569547&pr_seq=uniform
+              - generic [ref=e487]:
+                - generic [ref=e488]: Preço de venda
+                - generic [ref=e490]: €131,89 EUR
+          - generic [ref=e491]:
+            - generic [ref=e492]:
+              - link "Bottle of Polysorbate 20 solubilizer for fragrance oils and room sprays 500 gr cosmetic grade polysorbate 20 solubilizer for fragrance and home fragrance formulations" [ref=e493] [cursor=pointer]:
+                - /url: /pt/products/solubilizer-polysorbate-20?pr_prod_strat=jac&pr_rec_id=07fa9ab11&pr_rec_pid=14819490005323&pr_ref_pid=10628530569547&pr_seq=uniform
+                - img "Bottle of Polysorbate 20 solubilizer for fragrance oils and room sprays 500 gr" [ref=e494]
+                - img "cosmetic grade polysorbate 20 solubilizer for fragrance and home fragrance formulations" [ref=e495]
+              - checkbox [ref=e496]
+            - generic [ref=e498]:
+              - generic [ref=e499]:
+                - link "Solubilizante Polysorbate 20" [ref=e501] [cursor=pointer]:
+                  - /url: /pt/products/solubilizer-polysorbate-20?pr_prod_strat=jac&pr_rec_id=07fa9ab11&pr_rec_pid=14819490005323&pr_ref_pid=10628530569547&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e502] [cursor=pointer]:
+                  - /url: /pt/products/solubilizer-polysorbate-20?pr_prod_strat=jac&pr_rec_id=07fa9ab11&pr_rec_pid=14819490005323&pr_ref_pid=10628530569547&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e503]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e504]
+              - generic [ref=e508]:
+                - generic [ref=e509]: Preço de venda
+                - generic [ref=e511]: €12,87 EUR
+          - generic [ref=e512]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e513]:
+              - link "Agarwood & Noble Incense Fragrance Oil for Professional Candle and Home Fragrances Making Fragrance Oil Bottles in Multiple Sizes" [ref=e514] [cursor=pointer]:
+                - /url: /pt/products/agarwood-noble-incense-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=15537781014859&pr_ref_pid=10628530569547&pr_seq=uniform
+                - img "Agarwood & Noble Incense Fragrance Oil for Professional Candle and Home Fragrances Making" [ref=e515]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e516]
+              - checkbox [ref=e517]
+            - generic [ref=e519]:
+              - link "Óleo de fragrância agarwood e incenso nobre" [ref=e522] [cursor=pointer]:
+                - /url: /pt/products/agarwood-noble-incense-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=15537781014859&pr_ref_pid=10628530569547&pr_seq=uniform
+              - generic [ref=e525]:
+                - generic [ref=e526]: Preço de venda
+                - text: A partir de
+                - generic [ref=e528]: €3,92 EUR
+          - generic [ref=e529]:
+            - generic [ref=e530]:
+              - link "amber and clear glass apothecary room spray bottles with sprayers 125 ml apothecary amber and clear glass room spray bottles with sprayers 125 ml" [ref=e531] [cursor=pointer]:
+                - /url: /pt/products/apothecary-room-spray-bottle-and-sprayer-125-ml?pr_prod_strat=jac&pr_rec_id=07fa9ab11&pr_rec_pid=15470017544523&pr_ref_pid=10628530569547&pr_seq=uniform
+                - img "amber and clear glass apothecary room spray bottles with sprayers 125 ml" [ref=e532]
+                - img "apothecary amber and clear glass room spray bottles with sprayers 125 ml" [ref=e533]
+              - checkbox [ref=e534]
+            - generic [ref=e536]:
+              - link "Frasco Apothecary para spray de ambiente com pulverizador, 125 ml" [ref=e539] [cursor=pointer]:
+                - /url: /pt/products/apothecary-room-spray-bottle-and-sprayer-125-ml?pr_prod_strat=jac&pr_rec_id=07fa9ab11&pr_rec_pid=15470017544523&pr_ref_pid=10628530569547&pr_seq=uniform
+              - generic [ref=e542]:
+                - generic [ref=e543]: Preço de venda
+                - text: A partir de
+                - generic [ref=e545]: €1,95 EUR
+          - generic [ref=e546]:
+            - generic [ref=e547]:
+              - link "Classic Amber Glass Reed Diffuser Bottles with Cork and Cap, 50 and 100 ml Classic Glass Reed Diffuser Bottles with Cork and Cap, 50 and 100 ml" [ref=e548] [cursor=pointer]:
+                - /url: /pt/products/classic-reed-diffuser-bottles-50-ml?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=10627872129355&pr_ref_pid=10628530569547&pr_seq=uniform
+                - img "Classic Amber Glass Reed Diffuser Bottles with Cork and Cap, 50 and 100 ml" [ref=e549]
+                - img "Classic Glass Reed Diffuser Bottles with Cork and Cap, 50 and 100 ml" [ref=e550]
+              - checkbox [ref=e551]
+            - generic [ref=e552]:
+              - generic [ref=e553]:
+                - generic [ref=e554]:
+                  - link "Frasco clássico para difusor de varetas com rolha e tampa, 50 ml" [ref=e556] [cursor=pointer]:
+                    - /url: /pt/products/classic-reed-diffuser-bottles-50-ml?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=10627872129355&pr_ref_pid=10628530569547&pr_seq=uniform
+                  - link "5.0 5.0 fora de 5.0 estrelas" [ref=e557] [cursor=pointer]:
+                    - /url: /pt/products/classic-reed-diffuser-bottles-50-ml?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=10627872129355&pr_ref_pid=10628530569547&pr_seq=uniform#shopify-product-reviews
+                    - generic [ref=e558]: "5.0"
+                    - img "5.0 fora de 5.0 estrelas" [ref=e559]
+                - generic [ref=e563]:
+                  - generic [ref=e564]: Preço de venda
+                  - text: A partir de
+                  - generic [ref=e566]: €1,75 EUR
+              - paragraph [ref=e568]: 2 cores disponíveis
+          - generic [ref=e569]:
+            - generic [ref=e570]:
+              - link "Simply Delicious fragrance oil test kit with 10 dessert-inspired scents for candles and home fragrance making Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e571] [cursor=pointer]:
+                - /url: /pt/products/simply-delicious-fragrances-kit?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=14833955602763&pr_ref_pid=10628530569547&pr_seq=uniform
+                - img "Simply Delicious fragrance oil test kit with 10 dessert-inspired scents for candles and home fragrance making" [ref=e572]
+                - img "Ten summer fragrance oils from the Summer 2026 test kit for candles, wax melts and diffusers" [ref=e573]
+              - checkbox [ref=e574]
+            - generic [ref=e576]:
+              - generic [ref=e577]:
+                - link "Kit de fragrâncias deliciosas" [ref=e579] [cursor=pointer]:
+                  - /url: /pt/products/simply-delicious-fragrances-kit?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=14833955602763&pr_ref_pid=10628530569547&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e580] [cursor=pointer]:
+                  - /url: /pt/products/simply-delicious-fragrances-kit?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=14833955602763&pr_ref_pid=10628530569547&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e581]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e582]
+              - generic [ref=e586]:
+                - generic [ref=e587]: Preço de venda
+                - generic [ref=e589]: €39,91 EUR
+          - generic [ref=e590]:
+            - generic [ref=e591]:
+              - link "Autumn and Holidays fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers Ten autumn and holiday fragrance oils from the seasonal test kit for candles, wax melts and diffusers" [ref=e592] [cursor=pointer]:
+                - /url: /pt/products/autumn-and-holidays-fragrance-oils-2025-kit?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=10627766387019&pr_ref_pid=10628530569547&pr_seq=uniform
+                - img "Autumn and Holidays fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers" [ref=e593]
+                - img "Ten autumn and holiday fragrance oils from the seasonal test kit for candles, wax melts and diffusers" [ref=e594]
+              - checkbox [ref=e595]
+            - generic [ref=e597]:
+              - generic [ref=e598]:
+                - link "Kit de fragrâncias de outono e festas" [ref=e600] [cursor=pointer]:
+                  - /url: /pt/products/autumn-and-holidays-fragrance-oils-2025-kit?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=10627766387019&pr_ref_pid=10628530569547&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e601] [cursor=pointer]:
+                  - /url: /pt/products/autumn-and-holidays-fragrance-oils-2025-kit?pr_prod_strat=e5_desc&pr_rec_id=07fa9ab11&pr_rec_pid=10627766387019&pr_ref_pid=10628530569547&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e602]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e603]
+              - generic [ref=e607]:
+                - generic [ref=e608]: Preço de venda
+                - generic [ref=e610]: €34,90 EUR
+        - generic [ref=e613]:
+          - button "Anterior" [disabled]:
+            - generic: Anterior
+          - button "Seguinte" [ref=e614] [cursor=pointer]:
+            - generic [ref=e615]: Seguinte
+    - generic [ref=e619]:
+      - generic [ref=e620]:
+        - generic [ref=e622]:
+          - paragraph [ref=e623]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e625]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e627]:
+            - generic [ref=e628]:
+              - textbox "E-mail" [ref=e629]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e631] [cursor=pointer]:
+              - generic [ref=e632]: Subscrever
+        - generic [ref=e633]:
+          - paragraph [ref=e634]: ajuda e informações
+          - list [ref=e635]:
+            - listitem [ref=e636]:
+              - link "contacte-nos" [ref=e637] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e638]:
+              - link "estado da encomenda" [ref=e639] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e640]:
+              - link "apoio ao cliente" [ref=e641] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e642]:
+              - link "aprendizagem" [ref=e643] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e644]:
+              - link "FAQ e ajuda" [ref=e645] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e646]:
+          - paragraph [ref=e647]: as nossas lojas
+          - list [ref=e648]:
+            - listitem [ref=e649]:
+              - link "comprar em Espanha" [ref=e650] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e651]:
+              - link "loja UE em inglês" [ref=e652] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e653]:
+              - link "loja UE em francês" [ref=e654] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e655]:
+              - link "Loja UE em alemão" [ref=e656] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e657]:
+          - paragraph [ref=e658]: políticas da loja
+          - list [ref=e659]:
+            - listitem [ref=e660]:
+              - link "sobre nós" [ref=e661] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e662]:
+              - link "política de privacidade" [ref=e663] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e664]:
+              - link "política de envios e devoluções" [ref=e665] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e666]:
+              - link "termos de serviço" [ref=e667] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e669]:
+        - list [ref=e670]:
+          - listitem [ref=e671]:
+            - img "American Express" [ref=e672]
+          - listitem [ref=e681]:
+            - img "Apple Pay" [ref=e682]
+          - listitem [ref=e693]:
+            - img "Bancontact" [ref=e694]
+          - listitem [ref=e701]:
+            - img "Google Pay" [ref=e702]
+          - listitem [ref=e710]:
+            - img "iDEAL Wero" [ref=e711]
+          - listitem [ref=e726]:
+            - img "Klarna" [ref=e727]
+          - listitem [ref=e731]:
+            - img "Maestro" [ref=e732]
+          - listitem [ref=e738]:
+            - img "Mastercard" [ref=e739]
+          - listitem [ref=e745]:
+            - img "PayPal" [ref=e746]
+          - listitem [ref=e752]:
+            - img "Shop Pay" [ref=e753]
+          - listitem [ref=e757]:
+            - img "Union Pay" [ref=e758]
+          - listitem [ref=e764]:
+            - img "Visa" [ref=e765]
+        - generic [ref=e769]:
+          - paragraph [ref=e770]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e771] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e772]:
+            - listitem [ref=e773]:
+              - link "Política de privacidade" [ref=e774] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e775]:
+              - text: •
+              - link "Política de devoluções" [ref=e776] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e777]:
+              - text: •
+              - link "Termos de serviço" [ref=e778] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e779]:
+              - text: •
+              - link "Política de envios" [ref=e780] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e781]:
+              - text: •
+              - link "Preferências de cookies" [ref=e782] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

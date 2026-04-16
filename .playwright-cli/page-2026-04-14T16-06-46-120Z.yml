@@ -1,0 +1,652 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 Unid" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 Unid
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - link "comprar tudo" [ref=e91] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e92]: /
+      - link "novidades" [ref=e93] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e94]: /
+      - link "tudo" [ref=e95] [cursor=pointer]:
+        - /url: /pt/collections/all-new-arrivals
+      - generic [ref=e96]: /
+      - generic [ref=e97]: Óleo de fragrância morango silvestre, creme e seda
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e105]:
+          - img "Wild Strawberry, Cream & Silk Fragrance Oil for Candle and Home Fragrances Making" [ref=e107]
+          - img "Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e109]
+          - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e111]
+        - generic [ref=e113]:
+          - button "Ir para o item 1" [ref=e114] [cursor=pointer]:
+            - img "Wild Strawberry, Cream & Silk Fragrance Oil for Candle and Home Fragrances Making" [ref=e115]
+          - button "Ir para o item 2" [ref=e116] [cursor=pointer]:
+            - img "Wild Strawberry, Cream & Silk Fragrance Oil for Candle, Diffusor, Soap and Spray Making" [ref=e117]
+          - button "Ir para o item 3" [ref=e118] [cursor=pointer]:
+            - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e119]
+      - generic [ref=e120]:
+        - heading "Óleo de fragrância morango silvestre, creme e seda" [level=1] [ref=e122]
+        - generic [ref=e126] [cursor=pointer]:
+          - button "5.00 stars" [ref=e127]:
+            - generic [ref=e128]: 
+            - generic [ref=e129]: 
+            - generic [ref=e130]: 
+            - generic [ref=e131]: 
+            - generic [ref=e132]: 
+          - text: 2 avaliações
+        - separator [ref=e134]
+        - paragraph [ref=e138]: Uma fragrância luminosa centrada no aroma autêntico de morangos silvestres maduros. Abre com um acorde frutado vivo e suculento, onde as bagas assumem o protagonismo, suavemente arredondadas pela doçura delicada da flor de amendoeira e de maçãs frescas. Um véu leve de peónia arejada introduz uma nuance floral delicada, que amplifica a fruta e torna a composição ainda mais vibrante e aromática. Almíscar e seda criam uma base suave e limpa, acrescentando profundidade e maciez duradoura sem diminuir a frescura das bagas.
+        - group [ref=e142]:
+          - generic [ref=e144]:
+            - generic [ref=e145]: Peso
+            - generic [ref=e146]: 10g
+          - generic [ref=e148]:
+            - radio "10g" [checked] [ref=e149] [cursor=pointer]
+            - generic [ref=e151] [cursor=pointer]: 10g
+            - radio "50g" [ref=e152] [cursor=pointer]
+            - generic [ref=e154] [cursor=pointer]: 50g
+            - radio "120g" [ref=e155] [cursor=pointer]
+            - generic [ref=e157] [cursor=pointer]: 120g
+            - radio "450g" [ref=e158] [cursor=pointer]
+            - generic [ref=e160] [cursor=pointer]: 450g
+            - radio "2 kg" [ref=e161] [cursor=pointer]
+            - generic [ref=e163] [cursor=pointer]: 2 kg
+        - link "Contacte-nos para encomendar mais de 2 kg" [ref=e166] [cursor=pointer]:
+          - /url: /pt/pages/grossista
+        - generic [ref=e169]:
+          - generic [ref=e170] [cursor=pointer]: Quantidade
+          - generic [ref=e171]:
+            - button "Diminuir quantidade" [ref=e172] [cursor=pointer]
+            - spinbutton "Quantidade" [ref=e174]: "1"
+            - button "Aumentar quantidade" [ref=e175] [cursor=pointer]
+        - generic [ref=e181]:
+          - generic [ref=e182]: Preço de venda
+          - generic [ref=e185]:
+            - generic [ref=e186]: €3,05 EUR IVA incl.
+            - generic [ref=e187]: €2,52 EUR IVA excl.
+        - button "Adicionar ao carrinho" [ref=e193] [cursor=pointer]:
+          - generic [ref=e194]: Adicionar ao carrinho
+        - generic [ref=e196]:
+          - generic [ref=e197]: Detalhes ecológicos e de segurança
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - img [ref=e200]
+              - text: Transporte terrestre
+            - generic [ref=e201]:
+              - img [ref=e202]
+              - text: Sem carcinogéneos
+            - generic [ref=e203]:
+              - img [ref=e204]
+              - text: Produto vegano
+            - generic [ref=e205]:
+              - img [ref=e206]
+              - text: Sem ftalatos
+            - generic [ref=e207]:
+              - img [ref=e208]
+              - text: Sem parabenos
+            - generic [ref=e209]:
+              - img [ref=e210]
+              - text: Não testado em animais
+        - generic [ref=e213]:
+          - heading "Detalhes do produto" [level=3] [ref=e214]
+          - generic [ref=e215]:
+            - paragraph [ref=e216]:
+              - link "Ficha de Dados de Segurança" [ref=e217] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/FO-140_WILD_STRAWBERRY_CREAM_SILK_English.pdf?v=1771452991
+            - paragraph [ref=e218]:
+              - link "Ficha IFRA" [ref=e219] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/IFRA_FO-140_WILD_STRAWBERRY_CREAM_SILK.pdf?v=1771453049
+            - paragraph [ref=e220]:
+              - link "Declaração de alergénios" [ref=e221] [cursor=pointer]:
+                - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/AR_FO-140_WILD_STRAWBERRY_CREAM_SILK.pdf?v=1771451866
+        - generic [ref=e224]:
+          - generic [ref=e225]: Notas olfativas
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - generic [ref=e228]: Notas de topo
+              - generic [ref=e229]: Almond blossom e pink apples
+            - listitem [ref=e230]:
+              - generic [ref=e231]: Notas de coração
+              - generic [ref=e232]: Wild strawberries and peony blossom
+            - listitem [ref=e233]:
+              - generic [ref=e234]: Notas de fundo
+              - generic [ref=e235]: Vanilla, almíscar e silk
+        - generic [ref=e238]:
+          - generic [ref=e239]: Propriedades
+          - list [ref=e240]:
+            - listitem [ref=e241]:
+              - generic [ref=e242]: Categoria
+              - generic [ref=e243]: Gourmand
+            - listitem [ref=e244]:
+              - generic [ref=e245]: Estação
+              - generic [ref=e246]: Todo o ano, verão, primavera
+            - listitem [ref=e247]:
+              - generic [ref=e248]: Ponto de inflamação
+              - generic [ref=e249]: 89°C
+            - listitem [ref=e250]:
+              - generic [ref=e251]: Óleos essenciais
+              - generic [ref=e252]: Nenhum
+        - generic [ref=e255]:
+          - generic [ref=e256]: Utilização recomendada
+          - list [ref=e257]:
+            - listitem [ref=e258]:
+              - generic [ref=e259]: Vela
+              - generic [ref=e260]: 8-12%
+            - listitem [ref=e261]:
+              - generic [ref=e262]: Difusor de varetas
+              - generic [ref=e263]: Até 30%
+            - listitem [ref=e264]:
+              - generic [ref=e265]: Spray de ambiente
+              - generic [ref=e266]: Até 5%
+            - listitem [ref=e267]:
+              - generic [ref=e268]: Spray para almofadas
+              - generic [ref=e269]: Não recomendado
+            - listitem [ref=e270]:
+              - generic [ref=e271]: Sabonete em barra
+              - generic [ref=e272]: 5%
+            - listitem [ref=e273]:
+              - generic [ref=e274]: Sabonete líquido
+              - generic [ref=e275]: 5%
+            - listitem [ref=e276]:
+              - generic [ref=e277]: Perfume sólido em cera
+              - generic [ref=e278]: Até 12%
+            - listitem [ref=e279]:
+              - generic [ref=e280]: Cores para embalagem
+              - generic [ref=e281]:
+                - text: "Strawberry Red (Pantone 200 C ou #C41E3A)"
+                - text: "Soft Cream (Pantone 7499 C ou #F6E7D7)"
+                - text: "Blush Pink (Pantone 705 C ou #F4C2C2)"
+                - text: "Silk Ivory (Pantone 7527 C ou #D8CFC4)"
+        - heading "Guias Práticos" [level=3] [ref=e285]
+    - generic [ref=e291]:
+      - generic [ref=e292]:
+        - heading "Avaliações de clientes" [level=2] [ref=e293]
+        - generic [ref=e294]:
+          - generic [ref=e296]:
+            - img "A classificação média é de 5.00 estrelas" [ref=e297]:
+              - generic [ref=e298]: 
+              - generic [ref=e299]: 
+              - generic [ref=e300]: 
+              - generic [ref=e301]: 
+              - generic [ref=e302]: 
+              - text: 5.00 de 5
+            - generic [ref=e303]:
+              - text: Com base em 2 avaliações
+              - img "Verified Checkmark" [ref=e304]
+          - generic [ref=e305]:
+            - generic [ref=e306] [cursor=pointer]:
+              - button "100% (2) avaliações com classificação de 5 estrelas" [ref=e307]:
+                - generic [ref=e308]: 
+                - generic [ref=e309]: 
+                - generic [ref=e310]: 
+                - generic [ref=e311]: 
+                - generic [ref=e312]: 
+              - generic [ref=e315]: "2"
+            - generic:
+              - button "0% (0) avaliações com classificação de 4 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 3 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 2 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 1 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+        - generic [ref=e318]:
+          - textbox "Pesquisa" [ref=e319]
+          - text: 
+      - generic [ref=e322]:
+        - combobox "Sort dropdown" [ref=e323] [cursor=pointer]:
+          - option "Mais recentes" [selected]
+          - option "Classificação mais alta"
+          - option "Classificação mais baixa"
+          - option "Apenas fotografias"
+          - option "Fotografias primeiro"
+          - option "Vídeos Primeiro"
+          - option "Mais úteis"
+        - generic [ref=e324]: 
+      - generic [ref=e325]:
+        - generic [ref=e330]:
+          - generic [ref=e331]:
+            - img "avaliação de 5 estrelas" [ref=e332]:
+              - generic [ref=e333]: 
+              - generic [ref=e334]: 
+              - generic [ref=e335]: 
+              - generic [ref=e336]: 
+              - generic [ref=e337]: 
+            - generic [ref=e338]: 31/03/2026
+          - generic [ref=e339]:
+            - generic [ref=e340]:  
+            - generic [ref=e341]:
+              - text: Pilar Navas atencia
+              - generic [ref=e343]: Verificado
+        - generic [ref=e345]:
+          - heading "Avaliações noutros idiomas" [level=3] [ref=e346]
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - generic [ref=e351]:
+                - img "avaliação de 5 estrelas" [ref=e352]:
+                  - generic [ref=e353]: 
+                  - generic [ref=e354]: 
+                  - generic [ref=e355]: 
+                  - generic [ref=e356]: 
+                  - generic [ref=e357]: 
+                - generic [ref=e358]: 12/04/2026
+              - generic [ref=e359]:
+                - generic [ref=e360]:  
+                - generic [ref=e361]:
+                  - text: Daniela
+                  - generic [ref=e363]: Verificado
+            - paragraph [ref=e367]: Deliciosa fragancia
+            - button "Traduzir avaliação para português europeu" [ref=e370] [cursor=pointer]
+    - generic [ref=e373]:
+      - generic [ref=e375]:
+        - heading "Ver produtos semelhantes Ver produtos semelhantes" [level=2] [ref=e376]:
+          - text: Ver produtos semelhantes
+          - generic [ref=e378]: Ver produtos semelhantes
+        - paragraph [ref=e379]: Explore os nossos produtos para fabrico de velas e difusores, cuidadosamente escolhidos pela sua performance excecional e fiabilidade.
+      - generic [ref=e381]:
+        - generic [ref=e384]:
+          - generic [ref=e385]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e386]:
+              - link "Sicilian Neroli and Cashmere fragrance oil for candles, wax melts and home fragrance making Fragrance Oil Bottles in Multiple Sizes" [ref=e387] [cursor=pointer]:
+                - /url: /pt/products/sicilian-neroli-cashmere-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=15537688904011&pr_ref_pid=15536623321419&pr_seq=uniform
+                - img "Sicilian Neroli and Cashmere fragrance oil for candles, wax melts and home fragrance making" [ref=e388]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e389]
+              - checkbox [ref=e390]
+            - generic [ref=e392]:
+              - generic [ref=e393]:
+                - link "Óleo de fragrância néroli siciliano e caxemira" [ref=e395] [cursor=pointer]:
+                  - /url: /pt/products/sicilian-neroli-cashmere-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=15537688904011&pr_ref_pid=15536623321419&pr_seq=uniform
+                - link "4.8 4.8 fora de 5.0 estrelas" [ref=e396] [cursor=pointer]:
+                  - /url: /pt/products/sicilian-neroli-cashmere-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=15537688904011&pr_ref_pid=15536623321419&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e397]: "4.8"
+                  - img "4.8 fora de 5.0 estrelas" [ref=e398]
+              - generic [ref=e402]:
+                - generic [ref=e403]: Preço de venda
+                - text: A partir de
+                - generic [ref=e405]: €3,22 EUR
+          - generic [ref=e406]:
+            - generic [ref=e407]:
+              - link "Wild Fern & Moss Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e408] [cursor=pointer]:
+                - /url: /pt/products/wild-fern-moss-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10627462660427&pr_ref_pid=15536623321419&pr_seq=uniform
+                - img "Wild Fern & Moss Fragrance Oil for Candle, Diffusor, Soap, Perfume and Spray Making" [ref=e409]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e410]
+              - checkbox [ref=e411]
+            - generic [ref=e413]:
+              - generic [ref=e414]:
+                - link "Óleo de fragrância feto selvagem e musgo" [ref=e416] [cursor=pointer]:
+                  - /url: /pt/products/wild-fern-moss-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10627462660427&pr_ref_pid=15536623321419&pr_seq=uniform
+                - link "4.9 4.9 fora de 5.0 estrelas" [ref=e417] [cursor=pointer]:
+                  - /url: /pt/products/wild-fern-moss-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10627462660427&pr_ref_pid=15536623321419&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e418]: "4.9"
+                  - img "4.9 fora de 5.0 estrelas" [ref=e419]
+              - generic [ref=e423]:
+                - generic [ref=e424]: Preço de venda
+                - text: A partir de
+                - generic [ref=e426]: €4,09 EUR
+          - generic [ref=e427]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e428]:
+              - link "Green Cardamom & Eucalyptus Fragrance Oil for Candle and Home Fragrances Making Fragrance Oil Bottles in Multiple Sizes" [ref=e429] [cursor=pointer]:
+                - /url: /pt/products/green-cardamom-eucalyptus-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=15537937449291&pr_ref_pid=15536623321419&pr_seq=uniform
+                - img "Green Cardamom & Eucalyptus Fragrance Oil for Candle and Home Fragrances Making" [ref=e430]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e431]
+              - checkbox [ref=e432]
+            - generic [ref=e434]:
+              - generic [ref=e435]:
+                - link "Óleo de fragrância cardamomo verde e eucalipto" [ref=e437] [cursor=pointer]:
+                  - /url: /pt/products/green-cardamom-eucalyptus-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=15537937449291&pr_ref_pid=15536623321419&pr_seq=uniform
+                - link "4.0 4.0 fora de 5.0 estrelas" [ref=e438] [cursor=pointer]:
+                  - /url: /pt/products/green-cardamom-eucalyptus-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=15537937449291&pr_ref_pid=15536623321419&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e439]: "4.0"
+                  - img "4.0 fora de 5.0 estrelas" [ref=e440]
+              - generic [ref=e444]:
+                - generic [ref=e445]: Preço de venda
+                - text: A partir de
+                - generic [ref=e447]: €3,38 EUR
+          - generic [ref=e448]:
+            - generic [ref=e449]:
+              - link "Muscat & Fig Fragrance Oil for Candle, Soap and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e450] [cursor=pointer]:
+                - /url: /pt/products/muscat-and-fig-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10627628171595&pr_ref_pid=15536623321419&pr_seq=uniform
+                - img "Muscat & Fig Fragrance Oil for Candle, Soap and Spray Making" [ref=e451]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e452]
+              - checkbox [ref=e453]
+            - generic [ref=e455]:
+              - generic [ref=e456]:
+                - link "Óleo de fragrância moscatel e figo" [ref=e458] [cursor=pointer]:
+                  - /url: /pt/products/muscat-and-fig-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10627628171595&pr_ref_pid=15536623321419&pr_seq=uniform
+                - link "4.9 4.9 fora de 5.0 estrelas" [ref=e459] [cursor=pointer]:
+                  - /url: /pt/products/muscat-and-fig-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10627628171595&pr_ref_pid=15536623321419&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e460]: "4.9"
+                  - img "4.9 fora de 5.0 estrelas" [ref=e461]
+              - generic [ref=e465]:
+                - generic [ref=e466]: Preço de venda
+                - text: A partir de
+                - generic [ref=e468]: €4,09 EUR
+          - generic [ref=e469]:
+            - generic [ref=e470]:
+              - link "Pineapple & Creamy Coconut Fragrance Oil for Candle, Soap, Perfume and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e471] [cursor=pointer]:
+                - /url: /pt/products/pineapple-creamy-coconut-fragrance-oil-2?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=10627444867403&pr_ref_pid=15536623321419&pr_seq=uniform
+                - img "Pineapple & Creamy Coconut Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e472]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e473]
+              - checkbox [ref=e474]
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - link "Óleo de fragrância ananás e coco cremoso" [ref=e479] [cursor=pointer]:
+                  - /url: /pt/products/pineapple-creamy-coconut-fragrance-oil-2?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=10627444867403&pr_ref_pid=15536623321419&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e480] [cursor=pointer]:
+                  - /url: /pt/products/pineapple-creamy-coconut-fragrance-oil-2?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=10627444867403&pr_ref_pid=15536623321419&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e481]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e482]
+              - generic [ref=e486]:
+                - generic [ref=e487]: Preço de venda
+                - text: A partir de
+                - generic [ref=e489]: €3,22 EUR
+          - generic [ref=e490]:
+            - generic [ref=e491]:
+              - link "Green Fig and Wild Mushroom Fragrance Oil for Candle and Home Fragrances Making Green Fig and Wild Mushroom Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e492] [cursor=pointer]:
+                - /url: /pt/products/green-fig-and-wild-mushroom?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=14774412181835&pr_ref_pid=15536623321419&pr_seq=uniform
+                - img "Green Fig and Wild Mushroom Fragrance Oil for Candle and Home Fragrances Making" [ref=e493]
+                - img "Green Fig and Wild Mushroom Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e494]
+              - checkbox [ref=e495]
+            - generic [ref=e497]:
+              - generic [ref=e498]:
+                - link "Óleo de fragrância figo verde e cogumelo selvagem" [ref=e500] [cursor=pointer]:
+                  - /url: /pt/products/green-fig-and-wild-mushroom?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=14774412181835&pr_ref_pid=15536623321419&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e501] [cursor=pointer]:
+                  - /url: /pt/products/green-fig-and-wild-mushroom?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=14774412181835&pr_ref_pid=15536623321419&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e502]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e503]
+              - generic [ref=e507]:
+                - generic [ref=e508]: Preço de venda
+                - text: A partir de
+                - generic [ref=e510]: €3,92 EUR
+          - generic [ref=e511]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e512]:
+              - link "Fragrance Oil for Candle and Home Fragrances Making Fragrance Oil Bottles in Multiple Sizes" [ref=e513] [cursor=pointer]:
+                - /url: /pt/products/modern-gentleman-fougere-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=15537706041675&pr_ref_pid=15536623321419&pr_seq=uniform
+                - img "Fragrance Oil for Candle and Home Fragrances Making" [ref=e514]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e515]
+              - checkbox [ref=e516]
+            - generic [ref=e518]:
+              - generic [ref=e519]:
+                - link "Óleo de fragrância fougère de cavalheiro moderno" [ref=e521] [cursor=pointer]:
+                  - /url: /pt/products/modern-gentleman-fougere-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=15537706041675&pr_ref_pid=15536623321419&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e522] [cursor=pointer]:
+                  - /url: /pt/products/modern-gentleman-fougere-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=15537706041675&pr_ref_pid=15536623321419&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e523]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e524]
+              - generic [ref=e528]:
+                - generic [ref=e529]: Preço de venda
+                - text: A partir de
+                - generic [ref=e531]: €3,70 EUR
+          - generic [ref=e532]:
+            - generic [ref=e533]:
+              - link "Opium & Musk Fragrance Oil for Candle, Soap, Perfume and Spray Making Fragrance Oil Bottles in Multiple Sizes" [ref=e534] [cursor=pointer]:
+                - /url: /pt/products/opium-and-musk-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10625467875659&pr_ref_pid=15536623321419&pr_seq=uniform
+                - img "Opium & Musk Fragrance Oil for Candle, Soap, Perfume and Spray Making" [ref=e535]
+                - img "Fragrance Oil Bottles in Multiple Sizes" [ref=e536]
+              - checkbox [ref=e537]
+            - generic [ref=e539]:
+              - generic [ref=e540]:
+                - link "Óleo de fragrância ópio e almíscar" [ref=e542] [cursor=pointer]:
+                  - /url: /pt/products/opium-and-musk-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10625467875659&pr_ref_pid=15536623321419&pr_seq=uniform
+                - link "4.7 4.7 fora de 5.0 estrelas" [ref=e543] [cursor=pointer]:
+                  - /url: /pt/products/opium-and-musk-fragrance-oil?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10625467875659&pr_ref_pid=15536623321419&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e544]: "4.7"
+                  - img "4.7 fora de 5.0 estrelas" [ref=e545]
+              - generic [ref=e549]:
+                - generic [ref=e550]: Preço de venda
+                - text: A partir de
+                - generic [ref=e552]: €3,55 EUR
+          - generic [ref=e553]:
+            - generic [ref=e554]:
+              - link "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle and Home Fragrances Making Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e555] [cursor=pointer]:
+                - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=14774443606347&pr_ref_pid=15536623321419&pr_seq=uniform
+                - img "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle and Home Fragrances Making" [ref=e556]
+                - img "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e557]
+              - checkbox [ref=e558]
+            - generic [ref=e560]:
+              - generic [ref=e561]:
+                - link "Óleo de fragrância matcha de Quioto e nuvem de coco" [ref=e563] [cursor=pointer]:
+                  - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=14774443606347&pr_ref_pid=15536623321419&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e564] [cursor=pointer]:
+                  - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil?pr_prod_strat=jac&pr_rec_id=13c9b04ed&pr_rec_pid=14774443606347&pr_ref_pid=15536623321419&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e565]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e566]
+              - generic [ref=e570]:
+                - generic [ref=e571]: Preço de venda
+                - text: A partir de
+                - generic [ref=e573]: €3,55 EUR
+          - generic [ref=e574]:
+            - generic [ref=e575]:
+              - link "Autumn and Holidays fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers Ten autumn and holiday fragrance oils from the seasonal test kit for candles, wax melts and diffusers" [ref=e576] [cursor=pointer]:
+                - /url: /pt/products/autumn-and-holidays-fragrance-oils-2025-kit?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10627766387019&pr_ref_pid=15536623321419&pr_seq=uniform
+                - img "Autumn and Holidays fragrance oil test kit with 10 seasonal scents for candle and home fragrance makers" [ref=e577]
+                - img "Ten autumn and holiday fragrance oils from the seasonal test kit for candles, wax melts and diffusers" [ref=e578]
+              - checkbox [ref=e579]
+            - generic [ref=e581]:
+              - generic [ref=e582]:
+                - link "Kit de fragrâncias de outono e festas" [ref=e584] [cursor=pointer]:
+                  - /url: /pt/products/autumn-and-holidays-fragrance-oils-2025-kit?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10627766387019&pr_ref_pid=15536623321419&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e585] [cursor=pointer]:
+                  - /url: /pt/products/autumn-and-holidays-fragrance-oils-2025-kit?pr_prod_strat=e5_desc&pr_rec_id=13c9b04ed&pr_rec_pid=10627766387019&pr_ref_pid=15536623321419&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e586]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e587]
+              - generic [ref=e591]:
+                - generic [ref=e592]: Preço de venda
+                - generic [ref=e594]: €34,90 EUR
+        - generic [ref=e597]:
+          - button "Anterior" [disabled]:
+            - generic: Anterior
+          - button "Seguinte" [ref=e598] [cursor=pointer]:
+            - generic [ref=e599]: Seguinte
+    - generic [ref=e603]:
+      - generic [ref=e604]:
+        - generic [ref=e606]:
+          - paragraph [ref=e607]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e609]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e611]:
+            - generic [ref=e612]:
+              - textbox "E-mail" [ref=e613]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e615] [cursor=pointer]:
+              - generic [ref=e616]: Subscrever
+        - generic [ref=e617]:
+          - paragraph [ref=e618]: ajuda e informações
+          - list [ref=e619]:
+            - listitem [ref=e620]:
+              - link "contacte-nos" [ref=e621] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e622]:
+              - link "estado da encomenda" [ref=e623] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e624]:
+              - link "apoio ao cliente" [ref=e625] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e626]:
+              - link "aprendizagem" [ref=e627] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e628]:
+              - link "FAQ e ajuda" [ref=e629] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e630]:
+          - paragraph [ref=e631]: as nossas lojas
+          - list [ref=e632]:
+            - listitem [ref=e633]:
+              - link "comprar em Espanha" [ref=e634] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e635]:
+              - link "loja UE em inglês" [ref=e636] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e637]:
+              - link "loja UE em francês" [ref=e638] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e639]:
+              - link "Loja UE em alemão" [ref=e640] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e641]:
+          - paragraph [ref=e642]: políticas da loja
+          - list [ref=e643]:
+            - listitem [ref=e644]:
+              - link "sobre nós" [ref=e645] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e646]:
+              - link "política de privacidade" [ref=e647] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e648]:
+              - link "política de envios e devoluções" [ref=e649] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e650]:
+              - link "termos de serviço" [ref=e651] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e653]:
+        - list [ref=e654]:
+          - listitem [ref=e655]:
+            - img "American Express" [ref=e656]
+          - listitem [ref=e665]:
+            - img "Apple Pay" [ref=e666]
+          - listitem [ref=e677]:
+            - img "Bancontact" [ref=e678]
+          - listitem [ref=e685]:
+            - img "Google Pay" [ref=e686]
+          - listitem [ref=e694]:
+            - img "iDEAL Wero" [ref=e695]
+          - listitem [ref=e710]:
+            - img "Klarna" [ref=e711]
+          - listitem [ref=e715]:
+            - img "Maestro" [ref=e716]
+          - listitem [ref=e722]:
+            - img "Mastercard" [ref=e723]
+          - listitem [ref=e729]:
+            - img "PayPal" [ref=e730]
+          - listitem [ref=e736]:
+            - img "Shop Pay" [ref=e737]
+          - listitem [ref=e741]:
+            - img "Union Pay" [ref=e742]
+          - listitem [ref=e748]:
+            - img "Visa" [ref=e749]
+        - generic [ref=e753]:
+          - paragraph [ref=e754]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e755] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e756]:
+            - listitem [ref=e757]:
+              - link "Política de privacidade" [ref=e758] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e759]:
+              - text: •
+              - link "Política de devoluções" [ref=e760] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e761]:
+              - text: •
+              - link "Termos de serviço" [ref=e762] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e763]:
+              - text: •
+              - link "Política de envios" [ref=e764] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e765]:
+              - text: •
+              - link "Preferências de cookies" [ref=e766] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

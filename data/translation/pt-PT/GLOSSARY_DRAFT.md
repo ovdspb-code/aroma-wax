@@ -2,7 +2,7 @@
 
 ## Keep in English
 - AROMA + WAX
-- Product and fragrance names
+- Product handles and SKU/search handles
 - CLP
 - UFI
 - SDS
@@ -19,7 +19,7 @@ See also:
 - candle making -> fabrico de velas
 - diffuser making -> fabrico de difusores
 - room spray making -> fabrico de sprays de ambiente
-- fragrance oils -> óleos aromáticos
+- fragrance oils -> fragrâncias / óleos de fragrância
 - sample kits -> kits de amostras
 - starter kits -> kits de arranque
 - business starter kits -> kits de arranque para negócio
@@ -52,9 +52,9 @@ See also:
 - stable flame -> chama estável
 - even burn -> queima uniforme
 - soot -> fuligem
-- fragrance load -> percentagem de fragrância / carga aromática
+- fragrance load -> percentagem de fragrância / carga de fragrância
 - cure time -> tempo de cura
-- pour temperature -> temperatura de vazamento
+- pour temperature -> temperatura de vertimento
 - about us -> sobre nós
 - contact us -> contacte-nos
 - order status -> estado da encomenda
@@ -75,5 +75,5 @@ See also:
 - Target locale: pt-PT
 - Keep tone premium but direct.
 - Avoid Brazilian wording where pt-PT has a natural equivalent.
-- Do not over-translate technical fragrance names or product names.
+- Localize storefront product and fragrance names into pt-PT where approved; keep handles, SKUs and recognised marks in English.
 - Do not use Langwill auto-translation as source of truth.

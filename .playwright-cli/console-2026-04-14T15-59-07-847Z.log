@@ -1,0 +1,119 @@
+[     821ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:3838
+[     821ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:3838
+[     826ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:3838
+[     826ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:3838
+[     827ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:3838
+[     827ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:3838
+[     834ms] [WARNING] An import map rule for specifier '@app/main' was removed, as it conflicted with an existing rule. @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[     839ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:6292
+[     839ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:6292
+[     848ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:6292
+[     848ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:6292
+[     849ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:6292
+[     849ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:6292
+[     849ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:6292
+[     849ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:6292
+[     849ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:6292
+[     849ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:6292
+[     873ms] [LOG] %cCustomer Accounts Deluxe font-size: 18px; font-weight: bold; color: #fff; background: linear-gradient(90deg, #007bff, #00c6ff); padding: 6px 12px; border-radius: 5px; text-align: center; @ webpack://customer-account-deluxe/./extensions/customer-page/assets/cad_base.js?:39
+[     873ms] [LOG] 
+ 🔵 Seamless Shopify Integration
+
+ 🔵 Enhance Customer Experience with Custom Features
+
+ 🔵 Loyalty, Rewards, Social Login, Wishlist, Returns & Exchanges, Store Credits and Much More
+
+
+ Learn more at: https://apps.shopify.com/customer-account-deluxe
+
+ @ webpack://customer-account-deluxe/./extensions/customer-page/assets/cad_base.js?:40
+[     877ms] [WARNING] [JM Loader] Data mismatch - Liquid hasRevamp: false JS sees: true {number_of_reviews: 7, average_rating: 5.00, review_translations: Object} @ https://cdn.shopify.com/extensions/019d8c1b-980b-774c-b13e-de3a1bd96ef8/judgeme-460/assets/loader.js:0
+[     879ms] [LOG] existingToggle null @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1202
+[     879ms] [LOG] existingToggle null @ https://cdn.shopify.com/extensions/019d67a4-5b06-743b-9c60-09feb0784e3c/final-price-72/assets/price-display.js:1202
+[    1068ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1068ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1068ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1068ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1068ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1068ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1068ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1068ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1105ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1105ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1105ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1105ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1105ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1105ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1105ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1105ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1118ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff2?v=151369584661543143081771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1118ms] [WARNING] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1118ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff2?v=151369584661543143081771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1118ms] [WARNING] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1118ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff2?v=151369584661543143081771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1118ms] [WARNING] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1118ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff2?v=151369584661543143081771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1118ms] [WARNING] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1124ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff?v=77020652039345579431771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1124ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1124ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff?v=77020652039345579431771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1124ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1124ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff?v=77020652039345579431771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1124ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1124ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff?v=77020652039345579431771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1124ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1131ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.ttf?v=168653738910245139531771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1131ms] [WARNING] OTS parsing error: FFTM: invalid table offset @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1131ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.ttf?v=168653738910245139531771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1131ms] [WARNING] OTS parsing error: FFTM: invalid table offset @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1131ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.ttf?v=168653738910245139531771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1131ms] [WARNING] OTS parsing error: FFTM: invalid table offset @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1131ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.ttf?v=168653738910245139531771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1131ms] [WARNING] OTS parsing error: FFTM: invalid table offset @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff2?v=151369584661543143081771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff?v=77020652039345579431771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.ttf?v=168653738910245139531771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] OTS parsing error: FFTM: invalid table offset @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1140ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://aromawax.eu/pt/products/vibrant-red-liquid-dye:0
+[    1169ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff2?v=151369584661543143081771850553 @ :2
+[    1169ms] [WARNING] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size @ :2
+[    1169ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff?v=77020652039345579431771850553 @ :2
+[    1169ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ :2
+[    1169ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.ttf?v=168653738910245139531771850553 @ :2
+[    1169ms] [WARNING] OTS parsing error: FFTM: invalid table offset @ :2
+[    1169ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ :2
+[    1169ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ :2
+[    1169ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ :2
+[    1169ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ :2
+[    1169ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ :2
+[    1169ms] [WARNING] OTS parsing error: BASE: misaligned table @ :2
+[    1169ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ :2
+[    1169ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ :2
+[    1717ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors 'self' https://shop.app https://admin.shopify.com". The request has been blocked.
+ @ :0
+[    1711ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ chrome-error://chromewebdata/:0
+[    2600ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff2?v=151369584661543143081771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.woff?v=77020652039345579431771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Roman.ttf?v=168653738910245139531771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] OTS parsing error: FFTM: invalid table offset @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff2?v=100181975222566383851771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] OTS parsing error: Failed to convert WOFF 2.0 font to SFNT @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.woff?v=49196535620247681531771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] OTS parsing error: incorrect file size in WOFF header @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Heavy.ttf?v=161065316383412791401771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] OTS parsing error: BASE: misaligned table @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] Failed to decode downloaded font: https://aromawax.eu/cdn/shop/t/29/assets/AvenirLTStd-Black.eot?v=61293692641208295061771850553 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    2600ms] [WARNING] OTS parsing error: invalid sfntVersion: -272646794 @ https://cdn.shopify.com/extensions/019d8a13-ee60-75d7-ae0f-514ac36f9789/localizing-254/assets/floating-selector.js:0
+[    4148ms] [LOG] Intercom whoami never became available @ :32
+[    4666ms] [LOG] Intercom whoami never became available @ :32

@@ -1,0 +1,245 @@
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing this theme as much as we did for
+  developing it. We have put a lot of work to make this theme as developer friendly as possible by offering you
+  hooks to integrate into critical parts of the theme. You will find the complete technical documentation (including
+  all events, dependencies...) in the "documentation.txt" file, located in the Assets folder.
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<!doctype html>
+
+<html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="{{ settings.header_background }}">
+
+<!-- TrustBox script -->
+<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+<!-- End TrustBox script -->
+    
+    <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
+    <meta name="google-site-verification" content="RoVMiuVBXuwzgz54Do7S275CXVAOMXPEu0efev7ssPQ" />
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
+      <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
+    {%- endif -%}
+
+    {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
+    <link rel="preconnect" href="https://cdn.shopify.com">
+    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
+
+    {%- unless settings.heading_font.system? -%}
+      <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- unless settings.text_font.system? -%}
+      <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- render 'social-meta-tags' -%}
+    {%- render 'microdata-schema' -%}
+    {%- render 'css-variables' -%}
+    {%- render 'js-variables' -%}
+
+    <script type="importmap">
+      {%- comment -%}On Safari 16.3 and lower, a polyfill is used to load importmap{%- endcomment -%}
+      {
+        "imports": {
+          "vendor": "{{ 'vendor.min.js' | asset_url }}",
+          "theme": "{{ 'theme.js' | asset_url }}",
+          "photoswipe": "{{ 'photoswipe.min.js' | asset_url }}"
+        }
+      }
+    </script>
+
+    <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+
+    {{ content_for_header }}
+
+    {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+
+    <!-- Sample products App css start -->
+    {% if product.type == "SAMPLE PRODUCT" %}
+<script>window.location.href = `https://`+Shopify.shop; </script>
+     {% endif %}
+<style>
+ button.btn.button.sampleProductsBtn {
+    padding: 10px 40px;
+    font-size: 14px !important;
+    width: 100%;
+    background-color: #7a8a63;
+    color: #fff;
+    }
+      button.btn.addToCartBtn.button {
+        background: #7a8a63 !important;
+    }
+      .productZs {
+            border-radius: 10px !important;
+    }
+      .productImage img {
+        min-width: 100%;
+      max-width:unset;
+    }
+    @media screen and (min-width:900px){
+      .zspopup-content {
+        max-width: 1200px !important;
+        }
+      .productZs {
+        width: calc(18.6% - 0px) !important;
+        }
+    }
+</style>
+    
+  {% render 'wsg-custom' %}
+</head>
+
+  <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
+    {%- render 'shadow-dom-templates' -%}
+
+    <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+    {%- if request.page_type != 'password' -%}
+      {%- sections 'header-group' -%}
+      {%- sections 'overlay-group' -%}
+
+      {%- if settings.cart_type == 'popover' -%}
+        <cart-notification-drawer open-from="bottom" class="quick-buy-drawer drawer"></cart-notification-drawer>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if request.page_type == 'customers/account' or request.page_type == 'customers/order' or request.page_type == 'customers/addresses' -%}
+      {%- section 'account-banner' -%}
+    {%- endif -%}
+
+    <main role="main" id="main" class="anchor">
+      {%- unless template == 'index' or template == 'list-collections' or template == '404' -%}
+    {%- assign t = template | split: '.' | first -%}
+      {%- comment -%}
+    <div class="shopify-section section breadcrumbs-section">
+    <nav
+            class="breadcrumbs{% if t == 'product' and next_prev %} d-flex flex-nowrap gap-10 space-between align-center{% endif %}"
+            role="navigation"
+            aria-label="breadcrumbs"
+    >
+        <ol class="bls__breadcrumb-list p-0 list-none my-0">
+            <li class="bls__breadcrumb-item d-inline">
+                <a class="bls__breadcrumb-link" href="/">Home</a>
+                <span aria-hidden="true" class="bls__breadcrumb-separator pr-4">/</span>
+            </li>
+            {%- case t -%}
+                {%- when 'page' -%}
+                    <li class="bls__breadcrumb-item d-inline">
+                        <span class="bls__breadcrumb-link" aria-current="page">{{ page.title }}</span>
+                    </li>
+                {%- when 'product' -%}
+                    {%- if collection.url -%}
+                        <li class="bls__breadcrumb-item d-inline">
+                            {{ collection.title | link_to: collection.url }}
+                            <span aria-hidden="true" class="bls__breadcrumb-separator pr-4">/</span>
+                        </li>
+                    {%- endif -%}
+                    <li class="bls__breadcrumb-item d-inline">
+                        <span class="bls__breadcrumb-link" aria-current="page">{{ product.title }}</span>
+                    </li>
+                {%- when 'collection' and collection.handle -%}
+                    {%- if current_tags -%}
+                        <li class="bls__breadcrumb-item d-inline">
+                            {{ collection.title | link_to: collection.url }}
+                        </li>
+                        <li class="bls__breadcrumb-item d-inline">
+                            {%- capture tag_url -%}{{ collection.url }}/{{ current_tags | join: '+' }}{%- endcapture -%}
+                            <span aria-hidden="true" class="bls__breadcrumb-separator px-4">/</span>
+                            <span class="bls__breadcrumb-link" aria-current="page">
+                {{- current_tags | join: ' + ' -}}
+              </span>
+                        </li>
+                    {%- else -%}
+                        <li class="bls__breadcrumb-item d-inline">
+              <span class="bls__breadcrumb-link" aria-current="page">
+                {{- collection.title -}}
+              </span>
+                        </li>
+                    {%- endif -%}
+                {%- when 'blog' -%}
+                    {%- if current_tags -%}
+                        <li class="bls__breadcrumb-item d-inline">
+                            {{ blog.title | link_to: blog.url }}
+                        </li>
+                        <li class="bls__breadcrumb-item d-inline">
+                            {%- capture tag_url -%}{{ blog.url }}/tagged/{{ current_tags | join: '+' }}{%- endcapture -%}
+                            <span aria-hidden="true" class="bls__breadcrumb-separator px-4">/</span>
+                            <span class="bls__breadcrumb-link" aria-current="page">
+                {{- current_tags | join: ' + ' -}}
+              </span>
+                        </li>
+                    {%- else -%}
+                        <li class="bls__breadcrumb-item d-inline">
+                            <span class="bls__breadcrumb-link" aria-current="page">{{ blog.title }}</span>
+                        </li>
+                    {%- endif -%}
+                {%- when 'article' -%}
+                    <li class="bls__breadcrumb-item d-inline">
+                        {{ blog.title | link_to: blog.url }}
+                    </li>
+                    <li class="bls__breadcrumb-item d-inline">
+                        <span aria-hidden="true" class="bls__breadcrumb-separator px-4">/</span>
+                        <span class="bls__breadcrumb-link" aria-current="page">{{ article.title }}</span>
+                    </li>
+                {%- else -%}
+                    <li class="bls__breadcrumb-item d-inline">
+                        <span class="bls__breadcrumb-link" aria-current="page">{{ page_title }}</span>
+                    </li>
+            {%- endcase -%}
+        </ol>
+    </nav>
+      </div>
+{%- endcomment -%}
+      
+{%- endunless -%}
+      {{ content_for_layout }}
+
+      {%- comment -%}
+      IMPLEMENTATION NOTE: due to the very complex logic of margin/padding collapsing in Impact, the footer group is
+      added into the main element to ensure that dynamic sections added into the footer group are properly laid out.
+      {%- endcomment -%}
+      {%- if request.page_type != 'password' -%}
+        {%- sections 'footer-group' -%}
+      {%- endif -%}
+    </main>
+  <!-- WPD Start -->
+                {% if customer.tags.size > 0 and template != 'cart' %}
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      let checkoutbtninterval = setInterval(function(){
+                        var x=document.querySelectorAll("input[name='checkout'], button[name='checkout'], input[name='goto_pp'], button[name='goto_pp'], input[name='goto_gc'], button[name='goto_gc'], [href$='checkout']");
+                        var WPD_RedirectToCart = function(e) {
+                          	e.stopPropagation();
+                            e.preventDefault();
+                            window.location = '/cart';
+                            };
+                            for (var i = 0; i < x.length; i++) {
+                                x[i].addEventListener('click', WPD_RedirectToCart, false);
+                            }
+                        },500)
+                });
+              </script>
+               {% endif %}
+         
+
+               {% if customer.tags.size > 0 and template == 'cart' %}
+                 {% include 'wcp_cart' %}
+               {% endif %}
+               <!-- WPD End -->
+  </body>
+</html>

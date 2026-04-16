@@ -7,10 +7,13 @@
 - About us page core copy
 
 ## Homepage SEO
-- Title:
+**Title**
+- Ingredients for Candles from €2.74 — Wax, Scents & More | AROMA + WAX
   Ingredientes para velas desde 2,74 € — ceras, fragrâncias e mais | AROMA + WAX
-- Meta description:
-  Compre ingredientes para fabrico de velas: cera de soja, óleos aromáticos, pavios, corantes e moldes. Perfeitos para velas perfumadas artesanais. Preços desde 2,74 €. Entrega rápida na UE.
+
+**SEO description**
+- Buy ingredients for candle making: soy wax, fragrance oils, wicks, dyes, and molds. Perfect for homemade scented candles. Prices from €2.74. Fast EU delivery.
+  Compre ingredientes para fabrico de velas: cera de soja, fragrâncias, pavios, corantes e moldes. Perfeitos para velas perfumadas artesanais. Preços desde 2,74 €. Entrega rápida na UE.
 
 ## Homepage
 
@@ -46,7 +49,7 @@
 
 ### Category labels
 - Fragrance oils
-  Óleos aromáticos
+  Fragrâncias
 - Dyes
   Corantes
 - Waxes
@@ -62,7 +65,7 @@
 - We have over a decade of experience in producing candles, diffusers, and room sprays for private labels.
   Temos mais de uma década de experiência na produção de velas, difusores e sprays de ambiente para marcas próprias.
 - Our customers receive the same high-quality ingredients we use ourselves, ensuring consistent, reliable results. This is our primary advantage: eco-friendly waxes, unique and layered aromatic oils, popular containers and wicks, as well as trusted bases for diffusers.
-  Os nossos clientes recebem os mesmos ingredientes de elevada qualidade que utilizamos nas nossas próprias coleções, garantindo resultados consistentes e fiáveis. Esta é a nossa principal vantagem: ceras ecológicas, óleos aromáticos únicos e em camadas, recipientes e pavios populares, bem como bases de difusor de confiança.
+  Os nossos clientes recebem os mesmos ingredientes de elevada qualidade que utilizamos nas nossas próprias coleções, garantindo resultados consistentes e fiáveis. Esta é a nossa principal vantagem: ceras ecológicas, fragrâncias únicas e em camadas, recipientes e pavios populares, bem como bases de difusor de confiança.
 - We offer fast worldwide shipping across Europe and beyond. Orders placed before 3 PM on working days are dispatched the same day. We understand the importance of having a dependable supplier who ensures seamless collaboration.
   Oferecemos envios rápidos para toda a Europa e para o resto do mundo. As encomendas efetuadas antes das 15h em dias úteis são expedidas no próprio dia. Sabemos como é importante contar com um fornecedor fiável que garanta uma colaboração sem falhas.
 
@@ -80,13 +83,13 @@
 - Search
   Pesquisar
 - fragrance oils sample kits
-  kits de amostras de óleos aromáticos
+  kits de amostras de fragrâncias
 - business starter kits
   kits de arranque para negócio
 - all
   tudo
 - fragrance oils
-  óleos aromáticos
+  fragrâncias
 - candle making supplies
   materiais para fabrico de velas
 - diffuser making supplies
@@ -96,7 +99,7 @@
 - best selling fragrances
   fragrâncias mais vendidas
 - all fragrance oils
-  todos os óleos aromáticos
+  todas as fragrâncias
 - seasonal collections
   coleções sazonais
 - functional oils
@@ -158,7 +161,7 @@
 - shop eu in french
   loja UE em francês
 - shop eu in german
-  loja UE em alemão
+  Loja UE em alemão
 - about us
   sobre nós
 - privacy policy
@@ -196,9 +199,9 @@
 - Our office, laboratory, and warehouse are located in Barcelona, Spain, where we test and curate new fragrances, assemble and package orders, and manage dispatches across Europe. From here, we ship both small and large domestic and international orders. Yes, we work with clients beyond the EU, supporting makers and brands worldwide. Orders placed before 12 a.m. on working days are dispatched the very same day. Large orders requiring additional documentation are processed and shipped without delay — we consider it a core commitment.
   O nosso escritório, laboratório e armazém estão localizados em Barcelona, Espanha, onde testamos e selecionamos novas fragrâncias, preparamos e embalamos encomendas e gerimos expedições para toda a Europa. A partir daqui enviamos tanto encomendas pequenas como grandes, nacionais e internacionais. Sim, trabalhamos com clientes fora da UE, apoiando criadores e marcas em todo o mundo. As encomendas efetuadas antes do meio-dia em dias úteis são expedidas no próprio dia. As encomendas de grande volume que exigem documentação adicional são processadas e enviadas sem demora — para nós, isso é um compromisso essencial.
 - Our waxes and fragrance oils are trusted by professional chandlers across Europe and beyond. We design our fragrance collections to meet the diverse expectations of different markets — from fresh, bright scents that appeal in warmer climates, to rich, layered aromas appreciated in Northern Europe.
-  As nossas ceras e os nossos óleos aromáticos merecem a confiança de fabricantes profissionais de velas em toda a Europa e além. Criamos as nossas coleções de fragrâncias para responder às expectativas de diferentes mercados — desde aromas frescos e luminosos, que agradam em climas mais quentes, até fragrâncias ricas e em camadas, apreciadas no norte da Europa.
+  As nossas ceras e as nossas fragrâncias merecem a confiança de fabricantes profissionais de velas em toda a Europa e além. Criamos as nossas coleções de fragrâncias para responder às expectativas de diferentes mercados — desde aromas frescos e luminosos, que agradam em climas mais quentes, até fragrâncias ricas e em camadas, apreciadas no norte da Europa.
 - We work closely with leading suppliers of fragrance oils, waxes, containers, and wicks from France, Germany, Italy, Switzerland, and the USA. These are among the most reputable producers worldwide, known for consistently high and — most importantly — stable quality. This ensures that our customers always receive reliable, professional-grade materials for their creations.
-  Trabalhamos em estreita colaboração com fornecedores de referência de óleos aromáticos, ceras, recipientes e pavios de França, Alemanha, Itália, Suíça e Estados Unidos. Estão entre os produtores mais reputados do mundo, reconhecidos por uma qualidade consistentemente elevada e — mais importante ainda — estável. Isto garante que os nossos clientes recebem sempre materiais fiáveis e de nível profissional para as suas criações.
+  Trabalhamos em estreita colaboração com fornecedores de referência de fragrâncias, ceras, recipientes e pavios de França, Alemanha, Itália, Suíça e Estados Unidos. Estão entre os produtores mais reputados do mundo, reconhecidos por uma qualidade consistentemente elevada e — mais importante ainda — estável. Isto garante que os nossos clientes recebem sempre materiais fiáveis e de nível profissional para as suas criações.
 - We stand for:
   Defendemos:
 - Excellent wax quality that delivers a beautiful candle surface and clean burn.
@@ -208,7 +211,7 @@
 - Eco-conscious solutions that combine pleasure, safety, and sustainability.
   Soluções ambientalmente conscientes que combinam prazer, segurança e sustentabilidade.
 - Our fragrance oils are updated several times a year based on:
-  Os nossos óleos aromáticos são atualizados várias vezes por ano com base em:
+  As nossas fragrâncias são atualizadas várias vezes por ano com base em:
 - Perfume trends worldwide.
   Tendências de perfumaria em todo o mundo.
 - Seasonal preferences for autumn–winter or spring–summer.
@@ -220,7 +223,3 @@
 - We believe quality extends beyond the products themselves to packaging, delivery, and client service. Our aim is to provide a smooth, dependable experience — so our customers can focus on creating, while we ensure reliable supply and support. You can always reach our sales team via the website chatbot or the contact page to place orders and discuss details.
   Acreditamos que a qualidade vai além dos próprios produtos e se estende à embalagem, à entrega e ao apoio ao cliente. O nosso objetivo é proporcionar uma experiência fluida e fiável — para que os nossos clientes se possam concentrar em criar, enquanto nós garantimos fornecimento e apoio consistentes. Pode sempre contactar a nossa equipa comercial através do chatbot do site ou da página de contacto para fazer encomendas e discutir detalhes.
 
-## Open review points
-- Confirm whether "learning" should remain a navigation label or become a more explicit wording such as "guias e aprendizagem".
-- Confirm whether "wholesale" should stay in English for B2B familiarity or switch fully to "grossista".
-- Decide whether "private label" should remain bilingual in some contexts: "marca própria / private label".

@@ -1,0 +1,654 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 Unid" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 Unid
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - link "comprar tudo" [ref=e91] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e92]: /
+      - link "novidades" [ref=e93] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e94]: /
+      - link "materiais para fabrico de velas" [ref=e95] [cursor=pointer]:
+        - /url: /pt/collections/candle-making-supplies
+      - generic [ref=e96]: /
+      - generic [ref=e97]: Lata metálica com tampa de rosca, 100 ml
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e105]:
+          - img "Black and Silver Metal Screw-cap Tin, 100 ml" [ref=e107]
+          - img "Open Black and Silver Metal Screw-cap Tins, 100 ml" [ref=e109]
+          - img "Top view of Black and Silver Metal Screw-cap Tins, 100 ml" [ref=e111]
+          - img "Small-size metal screw-cap tins for container candles 10 ml" [ref=e113]
+        - generic [ref=e115]:
+          - button "Ir para o item 1" [ref=e116] [cursor=pointer]:
+            - img "Black and Silver Metal Screw-cap Tin, 100 ml" [ref=e117]
+          - button "Ir para o item 2" [ref=e118] [cursor=pointer]:
+            - img "Open Black and Silver Metal Screw-cap Tins, 100 ml" [ref=e119]
+          - button "Ir para o item 3" [ref=e120] [cursor=pointer]:
+            - img "Top view of Black and Silver Metal Screw-cap Tins, 100 ml" [ref=e121]
+          - button "Ir para o item 4" [ref=e122] [cursor=pointer]:
+            - img "Small-size metal screw-cap tins for container candles 10 ml" [ref=e123]
+      - generic [ref=e124]:
+        - heading "Lata metálica com tampa de rosca, 100 ml" [level=1] [ref=e126]
+        - generic [ref=e130] [cursor=pointer]:
+          - button "5.00 stars" [ref=e131]:
+            - generic [ref=e132]: 
+            - generic [ref=e133]: 
+            - generic [ref=e134]: 
+            - generic [ref=e135]: 
+            - generic [ref=e136]: 
+          - text: 4 avaliações
+        - separator [ref=e138]
+        - paragraph [ref=e142]: Estas latas com tampa de rosca, produzidas em alumínio resistente à ferrugem e com lacado protetor incolor no interior e no exterior, são recipientes clássicos ideais para velas. Têm um design pequeno e redondo, perfeito para embalar velas, e uma abertura ampla que facilita a remoção de resíduos. Aptas para contacto alimentar e equipadas com tampa de rosca com liner EPE colado para maior estanquidade, ajudam a manter as suas criações impecáveis e sem aderir à tampa, combinando durabilidade com um aspeto elegante e intemporal. Fornecidas completas com tampas de rosca, estas latas estão disponíveis em prateado e preto e oferecem uma solução fiável e sofisticada para fabricantes de velas que procuram qualidade e praticidade.
+        - group [ref=e146]:
+          - generic [ref=e148]:
+            - generic [ref=e149]: Cor
+            - generic [ref=e150]: prata
+          - generic [ref=e152]:
+            - radio "prata" [checked] [ref=e153] [cursor=pointer]
+            - generic [ref=e156] [cursor=pointer]: prata
+            - radio "Preto" [ref=e157] [cursor=pointer]
+            - generic [ref=e160] [cursor=pointer]: Preto
+        - generic [ref=e163]:
+          - generic [ref=e164] [cursor=pointer]: Quantidade
+          - generic [ref=e165]:
+            - button "Diminuir quantidade" [ref=e166] [cursor=pointer]
+            - spinbutton "Quantidade" [ref=e168]: "1"
+            - button "Aumentar quantidade" [ref=e169] [cursor=pointer]
+        - generic [ref=e172]:
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - generic [ref=e176]: Preço de venda
+              - generic [ref=e179]:
+                - generic [ref=e180]: €1,75 EUR IVA incl.
+                - generic [ref=e181]: €1,45 EUR IVA excl.
+            - generic [ref=e182]:
+              - generic [ref=e183]: Preço regular
+              - generic [ref=e186]:
+                - generic [ref=e187]: €2,12 EUR IVA incl.
+                - generic [ref=e188]: €1,75 EUR IVA excl.
+          - generic [ref=e190]: Salvar 17%
+        - button "Adicionar ao carrinho" [ref=e196] [cursor=pointer]:
+          - generic [ref=e197]: Adicionar ao carrinho
+        - generic [ref=e200]:
+          - generic [ref=e201]: Utilização recomendada
+          - list [ref=e202]:
+            - listitem [ref=e203]:
+              - generic [ref=e204]: Material
+              - generic [ref=e205]: Metal
+            - listitem [ref=e206]:
+              - generic [ref=e207]: Aplicação
+              - generic [ref=e208]: Velas
+            - listitem [ref=e209]:
+              - generic [ref=e210]: Volume
+              - generic [ref=e211]: 100 ml
+            - listitem [ref=e212]:
+              - generic [ref=e213]: Cor
+              - generic [ref=e214]: prateado, preto
+            - listitem [ref=e215]:
+              - generic [ref=e216]: Verniz exterior
+              - text: Revestimento protetor
+            - listitem [ref=e217]:
+              - generic [ref=e218]: Verniz interior
+              - generic [ref=e219]: Revestimento protetor
+            - listitem [ref=e220]:
+              - generic [ref=e221]: Diâmetro
+              - generic [ref=e222]: 75 mm
+            - listitem [ref=e223]:
+              - generic [ref=e224]: Abertura
+              - generic [ref=e225]: 73 mm
+            - listitem [ref=e226]:
+              - generic [ref=e227]: Altura
+              - generic [ref=e228]: 24 mm
+            - listitem [ref=e229]:
+              - generic [ref=e230]: Apto para contacto alimentar
+              - generic [ref=e231]: Sim
+            - listitem [ref=e232]:
+              - generic [ref=e233]: Aprovação para mercadorias perigosas
+              - generic [ref=e234]: Não
+            - listitem [ref=e235]:
+              - generic [ref=e236]: Empilhável
+              - generic [ref=e237]: Não
+            - listitem [ref=e238]:
+              - generic [ref=e239]: Códigos de reciclagem
+              - generic [ref=e240]: "ALU41 (Liner: LDPE04)"
+        - heading "Guias Práticos" [level=3] [ref=e244]
+    - generic [ref=e250]:
+      - generic [ref=e251]:
+        - heading "Avaliações de clientes" [level=2] [ref=e252]
+        - generic [ref=e253]:
+          - generic [ref=e255]:
+            - img "A classificação média é de 5.00 estrelas" [ref=e256]:
+              - generic [ref=e257]: 
+              - generic [ref=e258]: 
+              - generic [ref=e259]: 
+              - generic [ref=e260]: 
+              - generic [ref=e261]: 
+              - text: 5.00 de 5
+            - generic [ref=e262]:
+              - text: Com base em 4 avaliações
+              - img "Verified Checkmark" [ref=e263]
+          - generic [ref=e264]:
+            - generic [ref=e265] [cursor=pointer]:
+              - button "100% (4) avaliações com classificação de 5 estrelas" [ref=e266]:
+                - generic [ref=e267]: 
+                - generic [ref=e268]: 
+                - generic [ref=e269]: 
+                - generic [ref=e270]: 
+                - generic [ref=e271]: 
+              - generic [ref=e274]: "4"
+            - generic:
+              - button "0% (0) avaliações com classificação de 4 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 3 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 2 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 1 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+        - generic [ref=e277]:
+          - textbox "Pesquisa" [ref=e278]
+          - text: 
+      - generic [ref=e281]:
+        - combobox "Sort dropdown" [ref=e282] [cursor=pointer]:
+          - option "Mais recentes" [selected]
+          - option "Classificação mais alta"
+          - option "Classificação mais baixa"
+          - option "Apenas fotografias"
+          - option "Fotografias primeiro"
+          - option "Vídeos Primeiro"
+          - option "Mais úteis"
+        - generic [ref=e283]: 
+      - generic [ref=e285]:
+        - heading "Avaliações noutros idiomas" [level=3] [ref=e286]
+        - generic [ref=e287]:
+          - generic [ref=e288]:
+            - generic [ref=e289]:
+              - generic [ref=e290]:
+                - generic [ref=e291]:
+                  - img "avaliação de 5 estrelas" [ref=e292]:
+                    - generic [ref=e293]: 
+                    - generic [ref=e294]: 
+                    - generic [ref=e295]: 
+                    - generic [ref=e296]: 
+                    - generic [ref=e297]: 
+                  - generic [ref=e298]: 08/02/2026
+                - generic [ref=e299]:
+                  - generic [ref=e300]:  
+                  - generic [ref=e301]:
+                    - text: Marianna
+                    - generic [ref=e303]: Verificado
+              - generic [ref=e305]:
+                - paragraph [ref=e307]: В них гарно виглядають свічки.
+                - link "Link to user picture 1" [ref=e309] [cursor=pointer]:
+                  - /url: https://judgeme.imgix.net/aroma-wax/1770580312__img_1885__original.jpeg?auto=format&w=1024
+              - button "Traduzir avaliação para português europeu" [ref=e312] [cursor=pointer]
+            - generic [ref=e313]:
+              - generic [ref=e314]:
+                - generic [ref=e315]:
+                  - img "avaliação de 5 estrelas" [ref=e316]:
+                    - generic [ref=e317]: 
+                    - generic [ref=e318]: 
+                    - generic [ref=e319]: 
+                    - generic [ref=e320]: 
+                    - generic [ref=e321]: 
+                  - generic [ref=e322]: 16/12/2025
+                - generic [ref=e323]:
+                  - generic [ref=e324]:  
+                  - generic [ref=e325]:
+                    - text: Agnes
+                    - generic [ref=e327]: Verificado
+              - paragraph [ref=e331]:
+                - text: "El formato en lata me gusta mucho: es práctico, resistente y estéticamente muy cuidado. La rosca es de buena calidad y cierra correctamente, lo que transmite sensación de solidez."
+                - text: El acabado mate es un gran acierto, aporta un aspecto elegante y actual, y encaja muy bien con líneas de velas más minimalistas.
+              - button "Traduzir avaliação para português europeu" [ref=e334] [cursor=pointer]
+            - generic [ref=e335]:
+              - generic [ref=e336]:
+                - generic [ref=e337]:
+                  - img "avaliação de 5 estrelas" [ref=e338]:
+                    - generic [ref=e339]: 
+                    - generic [ref=e340]: 
+                    - generic [ref=e341]: 
+                    - generic [ref=e342]: 
+                    - generic [ref=e343]: 
+                  - generic [ref=e344]: 08/08/2025
+                - generic [ref=e345]:
+                  - generic [ref=e346]:  
+                  - generic [ref=e347]:
+                    - text: Karla Schmitt
+                    - generic [ref=e349]: Verificado
+              - paragraph [ref=e353]:
+                - text: Ich mag diese Größe total.
+                - text: Ich mache Kerzen für mehrere Läden, die Souvenirs verkaufen, und dieses Format läuft einfach super.
+                - text: Die Lieferung kam echt schnell. Vielen Dank!
+              - button "Traduzir avaliação para português europeu" [ref=e356] [cursor=pointer]
+          - generic [ref=e357]:
+            - button "Page 1": "1"
+            - button "Page 2" [ref=e358] [cursor=pointer]: "2"
+            - button "Page 2" [ref=e359] [cursor=pointer]: 
+            - button "Page 2" [ref=e360] [cursor=pointer]: 
+    - generic [ref=e363]:
+      - generic [ref=e365]:
+        - heading "Ver produtos semelhantes Ver produtos semelhantes" [level=2] [ref=e366]:
+          - text: Ver produtos semelhantes
+          - generic [ref=e368]: Ver produtos semelhantes
+        - paragraph [ref=e369]: Explore os nossos produtos para fabrico de velas e difusores, cuidadosamente escolhidos pela sua performance excecional e fiabilidade.
+      - generic [ref=e371]:
+        - generic [ref=e374]:
+          - generic [ref=e375]:
+            - generic:
+              - generic: Novo!
+            - generic [ref=e376]:
+              - link "silver metal screw-cap tins for container candles 10 ml Small-size metal screw-cap tins for container candles 10 ml" [ref=e377] [cursor=pointer]:
+                - /url: /pt/products/metal-screw-cap-tin-10-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=15468425347403&pr_ref_pid=10624495452491&pr_seq=uniform
+                - img "silver metal screw-cap tins for container candles 10 ml" [ref=e378]
+                - img "Small-size metal screw-cap tins for container candles 10 ml" [ref=e379]
+              - checkbox "Add to wishlist button" [ref=e380] [cursor=pointer]:
+                - img [ref=e381]
+            - generic [ref=e383]:
+              - generic [ref=e384]:
+                - link "Lata metálica com tampa de rosca, 10 ml" [ref=e387] [cursor=pointer]:
+                  - /url: /pt/products/metal-screw-cap-tin-10-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=15468425347403&pr_ref_pid=10624495452491&pr_seq=uniform
+                - generic [ref=e390]:
+                  - generic [ref=e391]: Preço de venda
+                  - text: A partir de
+                  - generic [ref=e394]:
+                    - generic [ref=e395]: €39,45 EUR IVA incl.
+                    - generic [ref=e396]: €32,60 EUR IVA excl.
+              - paragraph [ref=e398]: 1 cor disponível
+          - generic [ref=e399]:
+            - generic [ref=e400]:
+              - link "silver metal candle tin with lid for container candles 200 ml 200 ml black metal candle tin with lid for container candle making" [ref=e401] [cursor=pointer]:
+                - /url: /pt/products/metal-can-lid-200-ml?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=10626496430411&pr_ref_pid=10624495452491&pr_seq=uniform
+                - img "silver metal candle tin with lid for container candles 200 ml" [ref=e402]
+                - img "200 ml black metal candle tin with lid for container candle making" [ref=e403]
+              - checkbox "Add to wishlist button" [ref=e404] [cursor=pointer]:
+                - img [ref=e405]
+            - generic [ref=e407]:
+              - generic [ref=e408]:
+                - generic [ref=e409]:
+                  - link "Lata metálica com tampa, 200 ml" [ref=e411] [cursor=pointer]:
+                    - /url: /pt/products/metal-can-lid-200-ml?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=10626496430411&pr_ref_pid=10624495452491&pr_seq=uniform
+                  - link "5.0 5.0 fora de 5.0 estrelas" [ref=e412] [cursor=pointer]:
+                    - /url: /pt/products/metal-can-lid-200-ml?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=10626496430411&pr_ref_pid=10624495452491&pr_seq=uniform#shopify-product-reviews
+                    - generic [ref=e413]: "5.0"
+                    - img "5.0 fora de 5.0 estrelas" [ref=e414]
+                - generic [ref=e418]:
+                  - generic [ref=e419]: Preço de venda
+                  - generic [ref=e421]: €1,90 EUR
+              - paragraph [ref=e423]: 2 cores disponíveis
+          - generic [ref=e424]:
+            - generic [ref=e425]:
+              - link "Metal Screw Caps in multiple colors for candle jars 70mm Metal Screw Caps in multiple colors on glass candle jars 70mm" [ref=e426] [cursor=pointer]:
+                - /url: /pt/products/metal-screw-cap-70mm?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=10626373255499&pr_ref_pid=10624495452491&pr_seq=uniform
+                - img "Metal Screw Caps in multiple colors for candle jars 70mm" [ref=e427]
+                - img "Metal Screw Caps in multiple colors on glass candle jars 70mm" [ref=e428]
+              - checkbox [ref=e429]
+            - generic [ref=e430]:
+              - generic [ref=e431]:
+                - generic [ref=e432]:
+                  - link "Tampa metálica de rosca, 70 mm" [ref=e434] [cursor=pointer]:
+                    - /url: /pt/products/metal-screw-cap-70mm?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=10626373255499&pr_ref_pid=10624495452491&pr_seq=uniform
+                  - link "5.0 5.0 fora de 5.0 estrelas" [ref=e435] [cursor=pointer]:
+                    - /url: /pt/products/metal-screw-cap-70mm?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=10626373255499&pr_ref_pid=10624495452491&pr_seq=uniform#shopify-product-reviews
+                    - generic [ref=e436]: "5.0"
+                    - img "5.0 fora de 5.0 estrelas" [ref=e437]
+                - generic [ref=e441]:
+                  - generic [ref=e442]: Preço de venda
+                  - generic [ref=e445]:
+                    - generic [ref=e446]: €0,98 EUR VAT incl.
+                    - generic [ref=e447]: €0,81 EUR VAT excl.
+              - paragraph [ref=e449]: 5 cores disponíveis
+          - generic [ref=e450]:
+            - generic [ref=e451]:
+              - link "EcoOlive™ Pillar Wax pastilles EcoOlive™ Pillar Wax packaging" [ref=e452] [cursor=pointer]:
+                - /url: /pt/products/ecoolive%E2%84%A2-pillar-wax?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=10626334261579&pr_ref_pid=10624495452491&pr_seq=uniform
+                - img "EcoOlive™ Pillar Wax pastilles" [ref=e453]
+                - img "EcoOlive™ Pillar Wax packaging" [ref=e454]
+              - checkbox "Add to wishlist button" [ref=e455] [cursor=pointer]:
+                - img [ref=e456]
+            - generic [ref=e459]:
+              - generic [ref=e460]:
+                - link "Cera EcoOlive™ para velas pilar" [ref=e462] [cursor=pointer]:
+                  - /url: /pt/products/ecoolive%E2%84%A2-pillar-wax?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=10626334261579&pr_ref_pid=10624495452491&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e463] [cursor=pointer]:
+                  - /url: /pt/products/ecoolive%E2%84%A2-pillar-wax?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=10626334261579&pr_ref_pid=10624495452491&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e464]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e465]
+              - generic [ref=e469]:
+                - generic [ref=e470]: Preço de venda
+                - text: A partir de
+                - generic [ref=e473]:
+                  - generic [ref=e474]: €10,68 EUR VAT incl.
+                  - generic [ref=e475]: €8,83 EUR VAT excl.
+          - generic [ref=e476]:
+            - generic [ref=e477]:
+              - link "Amber and transparent glass candle jars and lids for container candles Clear glass candle jar and lid for candle making" [ref=e478] [cursor=pointer]:
+                - /url: /pt/products/glass-jar-metal-screw-cap-200-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=10626447868235&pr_ref_pid=10624495452491&pr_seq=uniform
+                - img "Amber and transparent glass candle jars and lids for container candles" [ref=e479]
+                - img "Clear glass candle jar and lid for candle making" [ref=e480]
+              - checkbox "Add to wishlist button" [ref=e481] [cursor=pointer]:
+                - img [ref=e482]
+            - generic [ref=e484]:
+              - generic [ref=e485]:
+                - generic [ref=e486]:
+                  - link "Recipiente de vidro com tampa metálica de rosca, 200 ml" [ref=e488] [cursor=pointer]:
+                    - /url: /pt/products/glass-jar-metal-screw-cap-200-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=10626447868235&pr_ref_pid=10624495452491&pr_seq=uniform
+                  - link "5.0 5.0 fora de 5.0 estrelas" [ref=e489] [cursor=pointer]:
+                    - /url: /pt/products/glass-jar-metal-screw-cap-200-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=10626447868235&pr_ref_pid=10624495452491&pr_seq=uniform#shopify-product-reviews
+                    - generic [ref=e490]: "5.0"
+                    - img "5.0 fora de 5.0 estrelas" [ref=e491]
+                - generic [ref=e495]:
+                  - generic [ref=e496]: Preço de venda
+                  - text: A partir de
+                  - generic [ref=e499]:
+                    - generic [ref=e500]: €2,25 EUR IVA incl.
+                    - generic [ref=e501]: €1,86 EUR IVA excl.
+              - paragraph [ref=e503]: 2 cores disponíveis
+          - generic [ref=e504]:
+            - generic [ref=e505]:
+              - link "silver Metal Lever-lid Can for container candles 250 ml Open Silver Metal Lever-lid Can for container candles 250 ml" [ref=e506] [cursor=pointer]:
+                - /url: /pt/products/metal-lever-lid-can-250-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=10626538209611&pr_ref_pid=10624495452491&pr_seq=uniform
+                - img "silver Metal Lever-lid Can for container candles 250 ml" [ref=e507]
+                - img "Open Silver Metal Lever-lid Can for container candles 250 ml" [ref=e508]
+              - checkbox [ref=e509]
+            - generic [ref=e511]:
+              - generic [ref=e512]:
+                - link "Lata metálica com tampa de alavanca, 250 ml" [ref=e514] [cursor=pointer]:
+                  - /url: /pt/products/metal-lever-lid-can-250-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=10626538209611&pr_ref_pid=10624495452491&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e515] [cursor=pointer]:
+                  - /url: /pt/products/metal-lever-lid-can-250-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=10626538209611&pr_ref_pid=10624495452491&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e516]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e517]
+              - generic [ref=e521]:
+                - generic [ref=e522]: Preço de venda
+                - generic [ref=e525]:
+                  - generic [ref=e526]: €2,00 EUR VAT incl.
+                  - generic [ref=e527]: €1,65 EUR VAT excl.
+          - generic [ref=e528]:
+            - generic [ref=e529]:
+              - link "Vibrant Green liquid candle dye Vibrant Green liquid candle dye in bottles of different sizes" [ref=e530] [cursor=pointer]:
+                - /url: /pt/products/vibrant-green-liquid-dye?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=10626569666891&pr_ref_pid=10624495452491&pr_seq=uniform
+                - img "Vibrant Green liquid candle dye" [ref=e531]
+                - img "Vibrant Green liquid candle dye in bottles of different sizes" [ref=e532]
+              - checkbox "Add to wishlist button" [ref=e533] [cursor=pointer]:
+                - img [ref=e534]
+            - generic [ref=e537]:
+              - generic [ref=e538]:
+                - link "Corante líquido Vibrant verde" [ref=e540] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-green-liquid-dye?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=10626569666891&pr_ref_pid=10624495452491&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e541] [cursor=pointer]:
+                  - /url: /pt/products/vibrant-green-liquid-dye?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=10626569666891&pr_ref_pid=10624495452491&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e542]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e543]
+              - generic [ref=e547]:
+                - generic [ref=e548]: Preço de venda
+                - text: A partir de
+                - generic [ref=e551]:
+                  - generic [ref=e552]: €6,66 EUR IVA incl.
+                  - generic [ref=e553]: €5,50 EUR IVA excl.
+          - generic [ref=e554]:
+            - generic [ref=e555]:
+              - link "apothecary amber and clear glass diffuser bottles with metal caps 60 and 125 ml metal caps for apothecary amber and clear glass diffuser bottles of 60 and 125 ml" [ref=e556] [cursor=pointer]:
+                - /url: /pt/products/diffuser-bottle-and-metal-screw-cap-125-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=15350537322827&pr_ref_pid=10624495452491&pr_seq=uniform
+                - img "apothecary amber and clear glass diffuser bottles with metal caps 60 and 125 ml" [ref=e557]
+                - img "metal caps for apothecary amber and clear glass diffuser bottles of 60 and 125 ml" [ref=e558]
+              - checkbox [ref=e559]
+            - generic [ref=e561]:
+              - generic [ref=e562]:
+                - link "Frasco Apothecary para difusor com tampa metálica de rosca, 125 ml" [ref=e564] [cursor=pointer]:
+                  - /url: /pt/products/diffuser-bottle-and-metal-screw-cap-125-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=15350537322827&pr_ref_pid=10624495452491&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e565] [cursor=pointer]:
+                  - /url: /pt/products/diffuser-bottle-and-metal-screw-cap-125-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=15350537322827&pr_ref_pid=10624495452491&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e566]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e567]
+              - generic [ref=e571]:
+                - generic [ref=e572]: Preço de venda
+                - text: A partir de
+                - generic [ref=e574]: €1,95 EUR
+          - generic [ref=e575]:
+            - generic [ref=e576]:
+              - link "amber and clear glass reed diffuser bottles with metal caps 60 and 125 ml 60 ml apothecary glass diffuser bottle with metal screw cap for reed diffusers" [ref=e577] [cursor=pointer]:
+                - /url: /pt/products/apothecary-diffuser-bottle-and-metal-screw-cap-60-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=15473867981131&pr_ref_pid=10624495452491&pr_seq=uniform
+                - img "amber and clear glass reed diffuser bottles with metal caps 60 and 125 ml" [ref=e578]
+                - img "60 ml apothecary glass diffuser bottle with metal screw cap for reed diffusers" [ref=e579]
+              - checkbox [ref=e580]
+            - generic [ref=e582]:
+              - link "Frasco Apothecary para difusor com tampa metálica de rosca, 60 ml" [ref=e585] [cursor=pointer]:
+                - /url: /pt/products/apothecary-diffuser-bottle-and-metal-screw-cap-60-ml?pr_prod_strat=e5_desc&pr_rec_id=cf17aecaf&pr_rec_pid=15473867981131&pr_ref_pid=10624495452491&pr_seq=uniform
+              - generic [ref=e588]:
+                - generic [ref=e589]: Preço de venda
+                - text: A partir de
+                - generic [ref=e592]:
+                  - generic [ref=e593]: €1,75 EUR VAT incl.
+                  - generic [ref=e594]: €1,45 EUR VAT excl.
+          - generic [ref=e595]:
+            - generic [ref=e596]:
+              - link "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle and Home Fragrances Making Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e597] [cursor=pointer]:
+                - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=14774443606347&pr_ref_pid=10624495452491&pr_seq=uniform
+                - img "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle and Home Fragrances Making" [ref=e598]
+                - img "Kyoto Matcha & Coconut Cloud Fragrance Oil for Candle, Diffusor and Spray Making" [ref=e599]
+              - checkbox "Add to wishlist button" [ref=e600] [cursor=pointer]:
+                - img [ref=e601]
+            - generic [ref=e604]:
+              - generic [ref=e605]:
+                - link "Óleo de fragrância matcha de Quioto e nuvem de coco" [ref=e607] [cursor=pointer]:
+                  - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=14774443606347&pr_ref_pid=10624495452491&pr_seq=uniform
+                - link "5.0 5.0 fora de 5.0 estrelas" [ref=e608] [cursor=pointer]:
+                  - /url: /pt/products/kyoto-matcha-and-coconut-cloud-fragrance-oil?pr_prod_strat=jac&pr_rec_id=cf17aecaf&pr_rec_pid=14774443606347&pr_ref_pid=10624495452491&pr_seq=uniform#shopify-product-reviews
+                  - generic [ref=e609]: "5.0"
+                  - img "5.0 fora de 5.0 estrelas" [ref=e610]
+              - generic [ref=e614]:
+                - generic [ref=e615]: Preço de venda
+                - text: A partir de
+                - generic [ref=e618]:
+                  - generic [ref=e619]: €3,55 EUR IVA incl.
+                  - generic [ref=e620]: €2,93 EUR IVA excl.
+        - generic [ref=e623]:
+          - button "Anterior" [disabled]:
+            - generic: Anterior
+          - button "Seguinte" [ref=e624] [cursor=pointer]:
+            - generic [ref=e625]: Seguinte
+    - generic [ref=e629]:
+      - generic [ref=e630]:
+        - generic [ref=e632]:
+          - paragraph [ref=e633]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e635]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e637]:
+            - generic [ref=e638]:
+              - textbox "E-mail" [ref=e639]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e641] [cursor=pointer]:
+              - generic [ref=e642]: Subscrever
+        - generic [ref=e643]:
+          - paragraph [ref=e644]: ajuda e informações
+          - list [ref=e645]:
+            - listitem [ref=e646]:
+              - link "contacte-nos" [ref=e647] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e648]:
+              - link "estado da encomenda" [ref=e649] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e650]:
+              - link "apoio ao cliente" [ref=e651] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e652]:
+              - link "aprendizagem" [ref=e653] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e654]:
+              - link "FAQ e ajuda" [ref=e655] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e656]:
+          - paragraph [ref=e657]: as nossas lojas
+          - list [ref=e658]:
+            - listitem [ref=e659]:
+              - link "comprar em Espanha" [ref=e660] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e661]:
+              - link "loja UE em inglês" [ref=e662] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e663]:
+              - link "loja UE em francês" [ref=e664] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e665]:
+              - link "Loja UE em alemão" [ref=e666] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e667]:
+          - paragraph [ref=e668]: políticas da loja
+          - list [ref=e669]:
+            - listitem [ref=e670]:
+              - link "sobre nós" [ref=e671] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e672]:
+              - link "política de privacidade" [ref=e673] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e674]:
+              - link "política de envios e devoluções" [ref=e675] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e676]:
+              - link "termos de serviço" [ref=e677] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e679]:
+        - list [ref=e680]:
+          - listitem [ref=e681]:
+            - img "American Express" [ref=e682]
+          - listitem [ref=e691]:
+            - img "Apple Pay" [ref=e692]
+          - listitem [ref=e703]:
+            - img "Bancontact" [ref=e704]
+          - listitem [ref=e711]:
+            - img "Google Pay" [ref=e712]
+          - listitem [ref=e720]:
+            - img "iDEAL Wero" [ref=e721]
+          - listitem [ref=e736]:
+            - img "Klarna" [ref=e737]
+          - listitem [ref=e741]:
+            - img "Maestro" [ref=e742]
+          - listitem [ref=e748]:
+            - img "Mastercard" [ref=e749]
+          - listitem [ref=e755]:
+            - img "PayPal" [ref=e756]
+          - listitem [ref=e762]:
+            - img "Shop Pay" [ref=e763]
+          - listitem [ref=e767]:
+            - img "Union Pay" [ref=e768]
+          - listitem [ref=e774]:
+            - img "Visa" [ref=e775]
+        - generic [ref=e779]:
+          - paragraph [ref=e780]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e781] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e782]:
+            - listitem [ref=e783]:
+              - link "Política de privacidade" [ref=e784] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e785]:
+              - text: •
+              - link "Política de devoluções" [ref=e786] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e787]:
+              - text: •
+              - link "Termos de serviço" [ref=e788] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e789]:
+              - text: •
+              - link "Política de envios" [ref=e790] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e791]:
+              - text: •
+              - link "Preferências de cookies" [ref=e792] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

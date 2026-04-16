@@ -1,0 +1,396 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 unidades" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 unidades
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - link "como começar e gerir um negócio de velas e difusores" [ref=e91] [cursor=pointer]:
+        - /url: /pt/blogs/how-to-start-and-run-candles-and-diffusor-business
+      - generic [ref=e92]: /
+      - generic [ref=e93]: "Retenção de clientes em perfumaria para a casa: porque os clientes voltam"
+    - generic [ref=e95]:
+      - generic [ref=e97]:
+        - 'heading "Retenção de clientes em perfumaria para a casa: porque os clientes voltam" [level=1] [ref=e98]'
+        - paragraph [ref=e100]:
+          - time [ref=e104]: 19/12/2025
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - paragraph [ref=e108]:
+            - generic [ref=e109]: "Para uma marca de velas, difusores de varetas ou aromatizadores de ambiente, a fidelização de clientes é simples de definir, mas difícil de alcançar: é a percentagem de pessoas que voltam a comprar após a primeira compra. No setor das fragrâncias para o lar, esta segunda compra quase nunca acontece por acaso. Só ocorre se o produto tiver um desempenho excecional numa casa real, e não apenas na prateleira."
+          - paragraph [ref=e110]: "Um cliente fiel é alguém que termina de usar a sua vela e procura deliberadamente a sua marca novamente — online, numa florista ou numa loja de decoração. Esta fidelidade constrói-se sobre um princípio fundamental: a qualidade da fragrância."
+          - heading "1. A embalagem garante a primeira venda. A fragrância garante a segunda." [level=4] [ref=e111]:
+            - generic [ref=e112]: 1. A embalagem garante a primeira venda. A fragrância garante a segunda.
+          - paragraph [ref=e113]: "Bonitos potes, frascos difusores e rótulos são essenciais. Em lojas de decoração, presentes ou floristas, embalagens apelativas e uma bela exposição são perfeitas para compras por impulso: o cliente vê a vela, gosta do aspeto, sente o aroma rapidamente — e compra."
+          - paragraph [ref=e114]: Mas se, em casa, o cheiro for
+          - list [ref=e115]:
+            - listitem [ref=e116]: fraco,
+            - listitem [ref=e117]: plano e “químico”, ou
+            - listitem [ref=e118]: Superficiais e aborrecidos, não se tornarão compradores recorrentes.
+          - paragraph [ref=e119]: O design vende a primeira unidade. A fragrância vende a segunda, a terceira e a décima.
+          - 'heading "2.º O que o seu cliente realmente avalia: o desempenho da fragrância." [level=4] [ref=e120]':
+            - strong [ref=e121]: "2.º O que o seu cliente realmente avalia: o desempenho da fragrância."
+          - paragraph [ref=e122]: O seu cliente não conhece os termos "disparo a frio" e "disparo a quente", mas sente a diferença sempre.
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - generic [ref=e125]: Arremesso frio – quão intenso é o aroma do produto quando apagado ou em repouso (vela numa prateleira, difusor fechado, primeira pulverização no ar).
+            - listitem [ref=e126]:
+              - generic [ref=e127]: Dispersão intensa / difusão ativa – como o aroma preenche o ambiente quando a vela arde, as varetas estão completamente saturadas ou o spray se deposita nos tecidos e nas superfícies.
+          - paragraph [ref=e128]: "Os clientes regressam quando:"
+          - list [ref=e129]:
+            - listitem [ref=e130]: O aroma é claramente perceptível, não apenas um ligeiro toque.
+            - listitem [ref=e131]: vai para além da área imediata do produto, e
+            - listitem [ref=e132]: Permanece presente durante um período de tempo razoável.
+          - paragraph [ref=e133]: "Isto aplica-se igualmente a velas, difusores e aromatizadores de ambiente. Bases diferentes — mesma expectativa: o ambiente deve realmente ter um cheiro agradável."
+          - 'heading "3. Profundidade e Qualidade: Porque é que as fragrâncias com múltiplas camadas fidelizam os clientes" [level=4] [ref=e134]':
+            - generic [ref=e135]: "3. Profundidade e Qualidade: Porque é que as fragrâncias com múltiplas camadas fidelizam os clientes"
+          - paragraph [ref=e136]: Os óleos de fragrância de alta qualidade são concebidos para oferecer uma difusão de aroma forte e estável, além de funcionarem de forma previsível com ceras, bases e varetas. Não está a comprar apenas um "cheiro agradável"; está a comprar uma estrutura.
+          - paragraph [ref=e137]: "Uma fragrância que favorece a retenção de líquidos é, geralmente:"
+          - list [ref=e138]:
+            - listitem [ref=e139]:
+              - generic [ref=e140]: Multicamadas – notas agudas, graves e de coração nítidas que se modificam ao longo do tempo.
+            - listitem [ref=e141]:
+              - generic [ref=e142]: Sensação natural – Sem plástico, sem o efeito agressivo de "ambientador barato".
+            - listitem [ref=e143]:
+              - generic [ref=e144]: Consistente – mesmas características e resistência de lote para lote.
+          - paragraph [ref=e145]: Quanto mais cuidadosamente forem construídas estas notas, mais "sofisticado" e interessante parecerá o aroma no ambiente. Os óleos finos e de baixa qualidade têm geralmente um cheiro forte ou desaparecem rapidamente. O seu cliente pode não saber porquê, mas sente que algo está "estranho" — e muda discretamente para outra marca.
+          - 'heading "4. Vendas em lojas de presentes, flores e decoração: O seu produto = O seu vendedor" [level=4] [ref=e146]':
+            - generic [ref=e147]: "4. Vendas em lojas de presentes, flores e decoração: O seu produto = O seu vendedor"
+          - paragraph [ref=e148]: Se vende através de lojas de mobiliário, boutiques de decoração ou lojas de presentes de luxo, geralmente nunca encontra o cliente final. A decisão de comprar — e de voltar a comprar — é tomada inteiramente com base no próprio produto.
+          - paragraph [ref=e149]: "Neste modelo, o seu produto deve:"
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - generic [ref=e152]: Tenha uma aparência premium. – Cera limpa, rótulos impecáveis, garrafas elegantes.
+            - listitem [ref=e153]:
+              - generic [ref=e154]: Cause uma primeira impressão clara – Projeção a frio forte, mas não agressiva, na prateleira.
+            - listitem [ref=e155]:
+              - generic [ref=e156]: Trabalhe de forma fiável em casa. – Excelente dispersão de aromas quentes para velas, difusão estável para difusores de varetas, presença duradoura para sprays de ambiente.
+            - listitem [ref=e157]:
+              - generic [ref=e158]: Mantenha a consistência – o mesmo perfil e intensidade de fragrância sempre que a loja faz uma nova encomenda.
+          - paragraph [ref=e159]: Se o produto desiludir, perde tanto o cliente final como a confiança da loja.
+          - heading "5. Como medir a retenção numa pequena empresa de fragrâncias para o lar" [level=4] [ref=e160]:
+            - generic [ref=e161]: 5. Como medir a retenção numa pequena empresa de fragrâncias para o lar
+          - paragraph [ref=e162]: "Não precisa de um CRM complexo para compreender a sua taxa de retenção. Comece com métricas simples e específicas para cada vela:"
+          - paragraph [ref=e163]:
+            - strong [ref=e164]: Taxa de recompra
+          - paragraph [ref=e165]: "Fórmula (por mês ou trimestre): Clientes recorrentes ÷ Total de clientes que compraram nesse período"
+          - paragraph [ref=e166]: "Exemplo: 30 compradores recorrentes num total de 120 compradores → taxa de recompra de 25%."
+          - paragraph [ref=e167]:
+            - strong [ref=e168]: Percentagem de encomendas de clientes recorrentes (online)
+          - paragraph [ref=e169]: "Analise as estatísticas da sua loja online: Encomendas de clientes recorrentes ÷ Total de encomendas"
+          - paragraph [ref=e170]: Se isto aumentar com o tempo, o seu produto e experiência estão a funcionar.
+          - paragraph [ref=e171]:
+            - generic [ref=e172]: Reposições de contas por grosso
+          - list [ref=e173]:
+            - listitem [ref=e174]: Acompanhe a frequência com que cada loja repõe o mesmo perfume ou coleção.
+            - listitem [ref=e175]: Se experimentarem o perfume apenas uma vez e nunca mais encomendarem esta fragrância, há um problema com o produto ou com o seu desempenho.
+          - paragraph [ref=e176]:
+            - generic [ref=e177]: Verificação simples de coorte
+          - list [ref=e178]:
+            - listitem [ref=e179]: Selecione um mês de novos clientes e veja quantos deles voltam a comprar dentro de 3 a 6 meses.
+            - listitem [ref=e180]: Faça-o algumas vezes por ano para ver se está a melhorar.
+          - paragraph [ref=e181]: Mantenha estes números numa planilha simples. A retenção não precisa de ser perfeita, mas deve ser visível e aumentar constantemente à medida que melhora o produto.
+          - paragraph [ref=e182]:
+            - generic [ref=e183]: 6. O que fazer com os seus dados de retenção
+          - paragraph [ref=e184]: "Depois de acompanhar estes números, poderá usá-los:"
+          - paragraph [ref=e185]:
+            - generic [ref=e186]:
+              - text: Melhore ou elimine os aromas fracos.
+              - text: Se uma fragrância aparece sempre nos primeiros pedidos, mas raramente nos pedidos seguintes, provavelmente o aroma não é suficientemente bom. Reformule ou descontinue.
+          - paragraph [ref=e187]:
+            - generic [ref=e188]:
+              - text: Fortaleça os seus produtos mais vendidos.
+              - text: "Os aromas que aparecem repetidamente nos pedidos são a sua linha principal. Proteja-os: garanta o fornecimento de óleos, uniformize as receitas e assegure-se de que estão sempre em stock."
+          - paragraph [ref=e189]:
+            - generic [ref=e190]:
+              - text: Ajuste a sua estratégia de canal.
+              - text: Se a retenção de clientes for elevada online, mas baixa em algumas lojas físicas, o problema pode estar na exposição dos produtos, no público-alvo errado ou em explicações deficientes por parte dos colaboradores. Trabalhe em conjunto com o retalhista ou transfira estas fragrâncias para outro local.
+          - paragraph [ref=e191]:
+            - generic [ref=e192]:
+              - text: Meça o impacto de qualquer alteração.
+              - text: Mudou de fornecedor de cera, pavios ou fragrâncias? Observe a retenção de clientes e as reclamações durante 1 a 2 ciclos. Se os pedidos recorrentes diminuírem, a "melhoria" não foi realmente uma melhoria.
+          - paragraph [ref=e193]:
+            - generic [ref=e194]: 7.º Demonstrando lealdade ao seu cliente
+          - paragraph [ref=e195]: A fidelização não se resume apenas à qualidade da fragrância. Também envolve demonstrar lealdade ao cliente para que este se sinta leal à sua marca.
+          - paragraph [ref=e196]: "Ideias concretas para uma marca de velas/difusores/aromatizadores de ambiente:"
+          - paragraph [ref=e197]:
+            - generic [ref=e198]: Facilite o retorno.
+          - list [ref=e199]:
+            - listitem [ref=e200]: Coloque nomes de fragrâncias claros e notas sobre a queima/difusão nos rótulos.
+            - listitem [ref=e201]: Inclua um pequeno cartão ou postal com aroma na caixa para que as pessoas se lembrem do que compraram e possam voltar a encontrar o produto.
+          - paragraph [ref=e202]:
+            - generic [ref=e203]: Recompense os compradores que regressam.
+          - list [ref=e204]:
+            - listitem [ref=e205]: "Códigos de fidelização simples: “10% de desconto no seu segundo pedido do mesmo perfume”."
+            - listitem [ref=e206]: Uma pequena vela tealight ou mini pastilha de cera derretida grátis com uma nova fragrância a cada dois ou três pedidos.
+          - paragraph [ref=e207]:
+            - generic [ref=e208]: Assuma a responsabilidade quando algo corre mal.
+          - list [ref=e209]:
+            - listitem [ref=e210]: Se o cliente disser "Não consigo sentir o cheiro" ou "A vela arde muito mal", ofereça uma substituição, um desconto no próximo pedido ou um guia personalizado para resolver o problema.
+            - listitem [ref=e211]: Uma solução generosa é mais barata do que perder um cliente para sempre.
+          - paragraph [ref=e212]:
+            - generic [ref=e213]: Lembre-se das suas preferências.
+          - list [ref=e214]:
+            - listitem [ref=e215]: "Repare no que cada cliente grossista vende melhor: \"Adoram aromas amadeirados e âmbar; os aromas gourmet não são muito populares.\""
+            - listitem [ref=e216]: "Para clientes diretos, segmente as listas de e-mail por preferência: fresco, floral, gourmand, amadeirado, etc., e recomende novas fragrâncias de acordo com essa preferência."
+          - paragraph [ref=e217]:
+            - generic [ref=e218]: Criar um sentimento de pertença.
+          - list [ref=e219]:
+            - listitem [ref=e220]: "Partilhe os bastidores: como testa fragrâncias, porque escolhe certos óleos, como rejeita fórmulas fracas."
+            - listitem [ref=e221]: Deixe que os clientes fiéis testem primeiro as novas fragrâncias e peça a sua opinião. As pessoas são mais fiéis àquilo que ajudaram a criar.
+          - paragraph [ref=e222]:
+            - generic [ref=e223]: Considerações Finais
+          - paragraph [ref=e224]:
+            - generic [ref=e225]:
+              - text: "A fidelização de clientes em produtos de fragrâncias para o lar assenta numa questão fundamental:"
+              - text: "\"Viveria feliz com este aroma vezes sem conta?\""
+          - paragraph [ref=e226]: "Se o seu produto:"
+          - list [ref=e227]:
+            - listitem [ref=e228]: Parece atraente,
+            - listitem [ref=e229]: preenche o espaço com uma fragrância profunda, complexa e de aroma natural, e
+            - listitem [ref=e230]: é apoiada por uma marca que trata os clientes de forma justa e personalizada,
+          - paragraph [ref=e231]: Então, os seus compradores regressarão exatamente por essa sensação — um aroma interessante, duradouro e autêntico nas suas casas.
+        - generic [ref=e232]:
+          - generic [ref=e233]: Partilhar
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "Compartilhar em Facebook" [ref=e236] [cursor=pointer]:
+                - /url: "https://www.facebook.com/sharer.php?u=https://aromawax.eu/pt/blogs/how-to-start-and-run-candles-and-diffusor-business/customer-retention-in-home-fragrance-why-clients-come-back-or-don-t\n"
+            - listitem [ref=e238]:
+              - link "Compartilhar em Twitter" [ref=e239] [cursor=pointer]:
+                - /url: "https://twitter.com/intent/tweet?text=Reten%C3%A7%C3%A3o%20de%20clientes%20em%20perfumaria%20para%20a%20casa:%20porque%20os%20clientes%20voltam&url=https://aromawax.eu/pt/blogs/how-to-start-and-run-candles-and-diffusor-business/customer-retention-in-home-fragrance-why-clients-come-back-or-don-t\n"
+            - listitem [ref=e241]:
+              - link "Compartilhar em Pinterest" [ref=e242] [cursor=pointer]:
+                - /url: "https://pinterest.com/pin/create/button/?url=https://aromawax.eu/pt/blogs/how-to-start-and-run-candles-and-diffusor-business/customer-retention-in-home-fragrance-why-clients-come-back-or-don-t&media=https://aromawax.eu/cdn/shop/articles/5_8ac09c3b-b41d-4022-a42c-057d7f00e9c7.png?v=1774362680&width=800&description=\n"
+            - listitem [ref=e244]:
+              - link "Compartilhar por e-mail" [ref=e245] [cursor=pointer]:
+                - /url: "mailto:?&subject=Retenção de clientes em perfumaria para a casa: porque os clientes voltam&body=https://aromawax.eu/pt/blogs/how-to-start-and-run-candles-and-diffusor-business/customer-retention-in-home-fragrance-why-clients-come-back-or-don-t\n"
+    - generic [ref=e250]:
+      - generic [ref=e251]:
+        - generic [ref=e252]: como fazer velas
+        - generic [ref=e253]:
+          - 'link "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e254] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+            - 'img "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e255]'
+          - 'heading "Comparação das melhores ceras para velas: soja vs coco vs parafina" [level=3] [ref=e256]':
+            - 'link "Comparação das melhores ceras para velas: soja vs coco vs parafina" [ref=e257] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+          - paragraph [ref=e258]: “Não existe uma única cera “ideal” para todas as utilizações — cada tipo de cera (soja, coco, par...
+        - list [ref=e259]:
+          - listitem [ref=e260]:
+            - 'link "Carga de fragrância em velas explicada: quanto óleo deve usar?" [ref=e261] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use
+          - listitem [ref=e262]:
+            - 'link "Como criar a sua primeira coleção de velas: passos-chave para o sucesso" [ref=e263] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-your-first-candle-collection-key-steps-to-success
+          - listitem [ref=e264]:
+            - link "Como escolher o pavio perfeito para a sua vela" [ref=e265] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-candles/how-to-choose-the-perfect-wick-for-your-candle
+          - listitem [ref=e266]:
+            - link "Como fazer velas em recipiente - guia de fabrico de velas" [ref=e267] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-container-candles-candle-making-guide
+          - listitem [ref=e268]:
+            - 'link "Como fazer velas: guia prático para principiantes" [ref=e269] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-candles-a-practical-guide-for-beginners
+        - link "Ver tudo >" [ref=e270] [cursor=pointer]:
+          - /url: /pt/blogs/how-to-make-candles
+      - generic [ref=e271]:
+        - generic [ref=e272]: como fazer difusores de varetas e sprays de ambiente
+        - generic [ref=e273]:
+          - 'link "Room Spray Guide: Ratios, Bases, and Fragrance Oils" [ref=e274] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils
+            - 'img "Room Spray Guide: Ratios, Bases, and Fragrance Oils" [ref=e275]'
+          - 'heading "Guia de sprays de ambiente: proporções, bases e fragrâncias" [level=3] [ref=e276]':
+            - 'link "Guia de sprays de ambiente: proporções, bases e fragrâncias" [ref=e277] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils
+          - paragraph [ref=e278]: 1. O que é realmente um spray de ambiente (e o que não é) Em termos formais, um de pulverização ...
+        - list [ref=e279]:
+          - listitem [ref=e280]:
+            - link "Como escolher recipientes para difusores de varetas e sprays de ambiente" [ref=e281] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-vessels-for-reed-diffusers-and-room-sprays
+          - listitem [ref=e282]:
+            - link "Como escolher bases para difusores e sprays de ambiente" [ref=e283] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-bases-for-diffusers-and-room-sprays
+        - link "Ver tudo >" [ref=e284] [cursor=pointer]:
+          - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays
+      - generic [ref=e285]:
+        - list
+        - link "Ver tudo >" [ref=e286] [cursor=pointer]:
+          - /url: /pt/blogs/news
+    - generic [ref=e290]:
+      - generic [ref=e291]:
+        - generic [ref=e293]:
+          - paragraph [ref=e294]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e296]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - textbox "E-mail" [ref=e300]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e302] [cursor=pointer]:
+              - generic [ref=e303]: Subscrever
+        - generic [ref=e304]:
+          - paragraph [ref=e305]: ajuda e informações
+          - list [ref=e306]:
+            - listitem [ref=e307]:
+              - link "contacte-nos" [ref=e308] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e309]:
+              - link "estado da encomenda" [ref=e310] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e311]:
+              - link "apoio ao cliente" [ref=e312] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e313]:
+              - link "aprendizagem" [ref=e314] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e315]:
+              - link "FAQ e ajuda" [ref=e316] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e317]:
+          - paragraph [ref=e318]: as nossas lojas
+          - list [ref=e319]:
+            - listitem [ref=e320]:
+              - link "comprar em Espanha" [ref=e321] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e322]:
+              - link "loja UE em inglês" [ref=e323] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e324]:
+              - link "loja UE em francês" [ref=e325] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e326]:
+              - link "Loja UE em alemão" [ref=e327] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e328]:
+          - paragraph [ref=e329]: políticas da loja
+          - list [ref=e330]:
+            - listitem [ref=e331]:
+              - link "sobre nós" [ref=e332] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e333]:
+              - link "política de privacidade" [ref=e334] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e335]:
+              - link "política de envios e devoluções" [ref=e336] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e337]:
+              - link "termos de serviço" [ref=e338] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e340]:
+        - list [ref=e341]:
+          - listitem [ref=e342]:
+            - img "American Express" [ref=e343]
+          - listitem [ref=e352]:
+            - img "Apple Pay" [ref=e353]
+          - listitem [ref=e364]:
+            - img "Bancontact" [ref=e365]
+          - listitem [ref=e372]:
+            - img "Google Pay" [ref=e373]
+          - listitem [ref=e381]:
+            - img "iDEAL Wero" [ref=e382]
+          - listitem [ref=e397]:
+            - img "Klarna" [ref=e398]
+          - listitem [ref=e402]:
+            - img "Maestro" [ref=e403]
+          - listitem [ref=e409]:
+            - img "Mastercard" [ref=e410]
+          - listitem [ref=e416]:
+            - img "PayPal" [ref=e417]
+          - listitem [ref=e423]:
+            - img "Shop Pay" [ref=e424]
+          - listitem [ref=e428]:
+            - img "Union Pay" [ref=e429]
+          - listitem [ref=e435]:
+            - img "Visa" [ref=e436]
+        - generic [ref=e440]:
+          - paragraph [ref=e441]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e442] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e443]:
+            - listitem [ref=e444]:
+              - link "Política de privacidade" [ref=e445] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e446]:
+              - text: •
+              - link "Política de devoluções" [ref=e447] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e448]:
+              - text: •
+              - link "Termos de serviço" [ref=e449] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e450]:
+              - text: •
+              - link "Política de envios" [ref=e451] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e452]:
+              - text: •
+              - link "Preferências de cookies" [ref=e453] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

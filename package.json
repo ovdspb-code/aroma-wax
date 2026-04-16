@@ -8,6 +8,8 @@
     "start": "next start",
     "shopify:bootstrap": "tsx scripts/bootstrap-metafields.ts",
     "i18n:export": "tsx scripts/export-storefront-translation-pack.ts",
+    "i18n:plan-import": "tsx scripts/plan-pt-pt-translation-import.ts",
+    "i18n:import-pt-pt": "tsx scripts/import-pt-pt-translations.ts",
     "clp:export": "tsx scripts/export-clp-table.ts",
     "clp:refresh": "tsx scripts/refresh-clp-table.ts",
     "clp:import": "tsx scripts/import-clp-table.ts",

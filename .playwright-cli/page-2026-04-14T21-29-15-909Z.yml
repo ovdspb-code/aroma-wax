@@ -1,0 +1,348 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 unidades" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 unidades
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - link "como fazer difusores de varetas e sprays de ambiente" [ref=e91] [cursor=pointer]:
+        - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays
+      - generic [ref=e92]: /
+      - generic [ref=e93]: Como escolher bases para difusores e sprays de ambiente
+    - generic [ref=e95]:
+      - generic [ref=e97]:
+        - heading "Como escolher bases para difusores e sprays de ambiente" [level=1] [ref=e98]
+        - paragraph [ref=e100]:
+          - time [ref=e104]: 10/07/2025
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - paragraph [ref=e108]: A escolha da base correta é essencial no fabrico de difusores de varetas ou aromatizadores de ambiente, influenciando significativamente a dispersão da fragrância, o desempenho do produto e a satisfação do cliente. Este guia fornece instruções claras para o ajudar a fazer a escolha ideal para o seu projeto específico.
+          - paragraph [ref=e109]
+          - heading "Papel de uma base" [level=3] [ref=e110]
+          - paragraph [ref=e111]: Uma base é um líquido utilizado para diluir os óleos de fragrância, facilitando a difusão eficaz do aroma e garantindo a segurança do produto. Escolher a base correta afeta diretamente a durabilidade e a capacidade de difusão da sua fragrância.
+          - strong [ref=e112]: "Para difusores de varetas:"
+          - generic [ref=e113]: Selecione uma base com baixa viscosidade para garantir que os óleos de fragrância sobem suavemente pelas varetas, resultando numa evaporação uniforme e constante.
+          - strong [ref=e114]: "Para sprays de ambiente:"
+          - generic [ref=e115]: Opte por uma base que evapore rapidamente, não deixando resíduos nas superfícies ou tecidos.
+          - heading "Principais tipos de bases" [level=3] [ref=e116]
+          - paragraph [ref=e117]:
+            - generic [ref=e118]:
+              - text: "1."
+              - strong [ref=e119]: DPM (Éter Monometílico de Dipropilenoglicol)
+          - generic [ref=e120]:
+            - strong [ref=e121]: "Prós:"
+            - text: c
+          - generic [ref=e122]: Mais eficaz, de fácil acesso e com boas propriedades solventes.
+          - generic [ref=e123]:
+            - strong [ref=e124]: "Contras:"
+            - text: Olá viscosidade mais elevada; pode dificultar a difusão da palheta, r risco de entupimento das canas, p possível resíduo e acabamento oleoso.
+          - strong [ref=e125]: "Ideal para:"
+          - generic [ref=e126]:
+            - strong
+            - text: Projetos com restrições orçamentais e requisitos de difusão menos rigorosos.
+          - generic:
+            - strong
+          - generic [ref=e127]: 2. Álcool dos perfumistas
+          - generic [ref=e128]:
+            - strong [ref=e129]: "Prós:"
+            - text: r evaporação rápida, s forte impacto inicial da fragrância, e Excelente para aromatizar ambientes.
+          - generic [ref=e130]:
+            - strong [ref=e131]: "Contras:"
+            - text: h altamente inflamável, n cheiro a álcool perceptível, c manuseamento cuidadoso, m Podem ser necessários solubilizantes (por exemplo, polissorbato, PEG-40) para uma mistura adequada de fragrâncias.
+          - strong [ref=e132]: "Ideal para:"
+          - generic [ref=e133]:
+            - strong
+            - text: Aromatizadores de ambiente que requerem uma secagem rápida e explosões de fragrância impactantes.
+          - paragraph [ref=e134]:
+            - generic [ref=e135]:
+              - text: "3."
+              - strong [ref=e136]:
+                - text: Base de COV, por exemplo
+                - link "Augeo Clean Multi" [ref=e137] [cursor=pointer]:
+                  - /url: https://aromawax.eu/products/augeo-diffuser-base
+          - generic [ref=e138]:
+            - strong [ref=e139]: "Prós:"
+            - text: l Sem odor; não compete com as fragrâncias, e ecologicamente correto, de base biológica, biodegradável, e difusão eficiente tanto em difusores de varetas como em sprays de ambiente, n Não são necessários solubilizantes adicionais.
+          - generic [ref=e140]:
+            - strong [ref=e141]: "Contras:"
+            - text: s ligeiramente mais caro.
+          - strong [ref=e142]: "Ideal para:"
+          - generic [ref=e143]:
+            - strong
+            - text: Produtos de alta qualidade, marcas ecologicamente conscientes ou necessidades de produção versáteis.
+          - heading "Guia prático passo a passo para escolher a base certa" [level=3] [ref=e144]
+          - paragraph [ref=e145]: "Considere os seguintes passos detalhados para determinar a base ideal:"
+          - paragraph [ref=e146]:
+            - strong [ref=e147]: "Passo 1: Defina o seu tipo de produto"
+          - strong [ref=e149]: "Difusores de varetas:"
+          - generic [ref=e150]: Certifique-se de que a base tem uma baixa viscosidade (consistência fluida) para uma absorção ideal pelas palhetas e uma evaporação constante.
+          - strong [ref=e152]: "Sprays de ambiente:"
+          - generic [ref=e153]: Escolha uma base desenvolvida para uma evaporação rápida, evitando resíduos ou manchas.
+          - strong [ref=e155]: "Utilização de múltiplos produtos:"
+          - generic [ref=e156]: A escolha de uma base versátil simplifica a produção para múltiplas linhas de produtos.
+          - paragraph [ref=e157]:
+            - strong [ref=e158]: "Passo 2: Avalie a compatibilidade com os seus óleos de fragrância."
+          - text: Verifique o quão bem os óleos de fragrância se misturam com a base escolhida. As bases à base de álcool requerem, geralmente, solubilizantes adicionais; bases não alcoólicas como o Augeo Clean Multi geralmente misturam-se bem por si só.
+          - paragraph [ref=e159]:
+            - strong [ref=e160]: "Passo 3: Determine a experiência desejada pelo cliente"
+          - text: Para uma fragrância doméstica mais segura e limpa, selecione bases com o mínimo de compostos orgânicos voláteis (COV).
+          - generic [ref=e161]: Decida se dá prioridade a um aroma inicial forte ou a uma fragrância subtil e duradoura.
+          - paragraph [ref=e162]:
+            - strong [ref=e163]: "Passo 4: Considere a sustentabilidade e a segurança"
+          - text: As bases tradicionais como o DPM contêm normalmente derivados de petróleo.
+          - generic [ref=e164]: Pode optar por alternativas ecológicas para uma formulação sustentável e segura.
+          - generic [ref=e165]: Siga sempre as normas de rotulagem, especialmente no que diz respeito a ingredientes inflamáveis ou alergénicos.
+          - heading "Dicas essenciais para trabalhar eficazmente com bases" [level=3] [ref=e166]
+          - paragraph [ref=e167]: "Testes: Realize sempre primeiro testes em pequena escala para avaliar a intensidade da fragrância, as taxas de evaporação e o potencial de resíduos."
+          - heading "Proporções recomendadas:" [level=4] [ref=e168]
+          - paragraph [ref=e169]:
+            - generic [ref=e170]: "Difusores de varetas: Aproximadamente 70–80% de base para 20–30% de óleo de fragrância."
+          - paragraph [ref=e171]:
+            - generic [ref=e172]: "Sprays de ambiente: Normalmente, a concentração de óleo de fragrância ronda os 10 a 20%, seguindo as diretrizes da IFRA."
+          - paragraph [ref=e173]:
+            - generic [ref=e174]: "Segurança e rotulagem: Rotule os seus produtos de forma clara com informações de segurança, instruções de utilização e lista de ingredientes."
+          - paragraph [ref=e175]
+        - generic [ref=e176]:
+          - generic [ref=e177]: Partilhar
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - link "Compartilhar em Facebook" [ref=e180] [cursor=pointer]:
+                - /url: "https://www.facebook.com/sharer.php?u=https://aromawax.eu/pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-bases-for-diffusers-and-room-sprays\n"
+            - listitem [ref=e182]:
+              - link "Compartilhar em Twitter" [ref=e183] [cursor=pointer]:
+                - /url: "https://twitter.com/intent/tweet?text=Como%20escolher%20bases%20para%20difusores%20e%20sprays%20de%20ambiente&url=https://aromawax.eu/pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-bases-for-diffusers-and-room-sprays\n"
+            - listitem [ref=e185]:
+              - link "Compartilhar em Pinterest" [ref=e186] [cursor=pointer]:
+                - /url: "https://pinterest.com/pin/create/button/?url=https://aromawax.eu/pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-bases-for-diffusers-and-room-sprays&media=https://aromawax.eu/cdn/shop/articles/Untitled_design_-_3_72decd26-cd12-4449-8ea5-6ce5f3e9d7fb.png?v=1774363112&width=800&description=\n"
+            - listitem [ref=e188]:
+              - link "Compartilhar por e-mail" [ref=e189] [cursor=pointer]:
+                - /url: "mailto:?&subject=Como escolher bases para difusores e sprays de ambiente&body=https://aromawax.eu/pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-bases-for-diffusers-and-room-sprays\n"
+    - generic [ref=e194]:
+      - generic [ref=e195]:
+        - generic [ref=e196]: como fazer velas
+        - generic [ref=e197]:
+          - 'link "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e198] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+            - 'img "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e199]'
+          - 'heading "Comparação das melhores ceras para velas: soja vs coco vs parafina" [level=3] [ref=e200]':
+            - 'link "Comparação das melhores ceras para velas: soja vs coco vs parafina" [ref=e201] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+          - paragraph [ref=e202]: “Não existe uma única cera “ideal” para todas as utilizações — cada tipo de cera (soja, coco, par...
+        - list [ref=e203]:
+          - listitem [ref=e204]:
+            - 'link "Carga de fragrância em velas explicada: quanto óleo deve usar?" [ref=e205] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use
+          - listitem [ref=e206]:
+            - 'link "Como criar a sua primeira coleção de velas: passos-chave para o sucesso" [ref=e207] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-your-first-candle-collection-key-steps-to-success
+          - listitem [ref=e208]:
+            - link "Como escolher o pavio perfeito para a sua vela" [ref=e209] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-candles/how-to-choose-the-perfect-wick-for-your-candle
+          - listitem [ref=e210]:
+            - link "Como fazer velas em recipiente - guia de fabrico de velas" [ref=e211] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-container-candles-candle-making-guide
+          - listitem [ref=e212]:
+            - 'link "Como fazer velas: guia prático para principiantes" [ref=e213] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-candles-a-practical-guide-for-beginners
+        - link "View all >" [ref=e214] [cursor=pointer]:
+          - /url: /pt/blogs/how-to-make-candles
+      - generic [ref=e215]:
+        - generic [ref=e216]: como fazer difusores de varetas e sprays de ambiente
+        - generic [ref=e217]:
+          - 'link "Room Spray Guide: Ratios, Bases, and Fragrance Oils" [ref=e218] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils
+            - 'img "Room Spray Guide: Ratios, Bases, and Fragrance Oils" [ref=e219]'
+          - 'heading "Guia de sprays de ambiente: proporções, bases e fragrâncias" [level=3] [ref=e220]':
+            - 'link "Guia de sprays de ambiente: proporções, bases e fragrâncias" [ref=e221] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils
+          - paragraph [ref=e222]: 1. O que é realmente um spray de ambiente (e o que não é) Em termos formais, um de pulverização ...
+        - list [ref=e223]:
+          - listitem [ref=e224]:
+            - link "Como escolher recipientes para difusores de varetas e sprays de ambiente" [ref=e225] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-vessels-for-reed-diffusers-and-room-sprays
+          - listitem [ref=e226]:
+            - link "Como escolher bases para difusores e sprays de ambiente" [ref=e227] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-bases-for-diffusers-and-room-sprays
+        - link "View all >" [ref=e228] [cursor=pointer]:
+          - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays
+      - generic [ref=e229]:
+        - list
+        - link "View all >" [ref=e230] [cursor=pointer]:
+          - /url: /pt/blogs/news
+    - generic [ref=e234]:
+      - generic [ref=e235]:
+        - generic [ref=e237]:
+          - paragraph [ref=e238]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e240]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e242]:
+            - generic [ref=e243]:
+              - textbox "E-mail" [ref=e244]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e246] [cursor=pointer]:
+              - generic [ref=e247]: Subscrever
+        - generic [ref=e248]:
+          - paragraph [ref=e249]: ajuda e informações
+          - list [ref=e250]:
+            - listitem [ref=e251]:
+              - link "contacte-nos" [ref=e252] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e253]:
+              - link "estado da encomenda" [ref=e254] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e255]:
+              - link "apoio ao cliente" [ref=e256] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e257]:
+              - link "aprendizagem" [ref=e258] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e259]:
+              - link "FAQ e ajuda" [ref=e260] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e261]:
+          - paragraph [ref=e262]: as nossas lojas
+          - list [ref=e263]:
+            - listitem [ref=e264]:
+              - link "comprar em Espanha" [ref=e265] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e266]:
+              - link "loja UE em inglês" [ref=e267] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e268]:
+              - link "loja UE em francês" [ref=e269] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e270]:
+              - link "Loja UE em alemão" [ref=e271] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e272]:
+          - paragraph [ref=e273]: políticas da loja
+          - list [ref=e274]:
+            - listitem [ref=e275]:
+              - link "sobre nós" [ref=e276] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e277]:
+              - link "política de privacidade" [ref=e278] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e279]:
+              - link "política de envios e devoluções" [ref=e280] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e281]:
+              - link "termos de serviço" [ref=e282] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e284]:
+        - list [ref=e285]:
+          - listitem [ref=e286]:
+            - img "American Express" [ref=e287]
+          - listitem [ref=e296]:
+            - img "Apple Pay" [ref=e297]
+          - listitem [ref=e308]:
+            - img "Bancontact" [ref=e309]
+          - listitem [ref=e316]:
+            - img "Google Pay" [ref=e317]
+          - listitem [ref=e325]:
+            - img "iDEAL Wero" [ref=e326]
+          - listitem [ref=e341]:
+            - img "Klarna" [ref=e342]
+          - listitem [ref=e346]:
+            - img "Maestro" [ref=e347]
+          - listitem [ref=e353]:
+            - img "Mastercard" [ref=e354]
+          - listitem [ref=e360]:
+            - img "PayPal" [ref=e361]
+          - listitem [ref=e367]:
+            - img "Shop Pay" [ref=e368]
+          - listitem [ref=e372]:
+            - img "Union Pay" [ref=e373]
+          - listitem [ref=e379]:
+            - img "Visa" [ref=e380]
+        - generic [ref=e384]:
+          - paragraph [ref=e385]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e386] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e387]:
+            - listitem [ref=e388]:
+              - link "Política de privacidade" [ref=e389] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e390]:
+              - text: •
+              - link "Política de devoluções" [ref=e391] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e392]:
+              - text: •
+              - link "Termos de serviço" [ref=e393] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e394]:
+              - text: •
+              - link "Política de envios" [ref=e395] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e396]:
+              - text: •
+              - link "Preferências de cookies" [ref=e397] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

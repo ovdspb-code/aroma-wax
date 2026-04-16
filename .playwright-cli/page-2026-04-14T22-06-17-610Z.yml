@@ -1,0 +1,251 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 unidades" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 unidades
+                - text: "0"
+  - main [ref=e84]:
+    - generic [ref=e85]:
+      - heading "Política de envios" [level=1] [ref=e87]
+      - generic [ref=e89]:
+        - paragraph [ref=e90]: "Last Updated: 02, April 2025"
+        - paragraph [ref=e91]: At AROMA AND WAX, we aim to deliver your candle-making and diffuser ingredients efficiently. This Shipping Policy outlines how we calculate shipping costs, estimated delivery times, and options available to you based on your location.
+        - heading "Shipping Costs" [level=5] [ref=e92]
+        - paragraph [ref=e93]: O custo de envio depende da sua localização, do peso total da encomenda e do número de volumes necessários para enviar os seus artigos. Para o ajudar a planear, disponibilizamos uma calculadora de custos de envio no carrinho e antes de finalizar a compra, permitindo-lhe consultar os custos antes da finalização da compra.
+        - heading "Deliveries within the EU" [level=5] [ref=e94]
+        - paragraph [ref=e95]: Para clientes localizados na União Europeia, a sua encomenda não terá direitos aduaneiros nem taxas de desalfandegamento adicionais. Se tiver um número de IVA, inclua-o na finalização da compra para que possamos deduzir o IVA do total. Para encomendas efetuadas fora da UE, tenha em conta que poderão aplicar-se custos aduaneiros ou de desalfandegamento adicionais, consoante a legislação do seu país.
+        - heading "Shipping to Spain and Europe" [level=5] [ref=e96]
+        - paragraph [ref=e97]: We partner with trusted carriers such as Seur, Correos, FedEx and UPS to ship orders across Spain and Europe.
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - text: Spain
+            - generic [ref=e100]: ": Delivery typically takes"
+            - generic [ref=e101]: 1-2 working days
+            - generic [ref=e102]: from the time your order is dispatched.
+          - listitem [ref=e103]:
+            - text: Rest of Europe
+            - generic [ref=e104]: ": Delivery usually takes"
+            - generic [ref=e105]: 2-4 working days
+            - generic [ref=e106]: from dispatch.
+        - paragraph [ref=e107]:
+          - text: You also have the option to pick up your order directly from our warehouse in Barcelona. Contact us at
+          - link "support@aromawax.eu" [ref=e108] [cursor=pointer]:
+            - /url: support@aromawax.eu
+          - generic [ref=e109]: for details on how to arrange this.
+        - heading "International Shipping" [level=5] [ref=e110]
+        - paragraph [ref=e111]:
+          - text: We proudly ship worldwide! Delivery times vary depending on your location. Our online store suggests shipping providers and estimated delivery timing. For an estimated delivery timeline tailored to your destination or other conditions, please reach out to our customer service team at
+          - link "support@aromawax.eu" [ref=e112] [cursor=pointer]:
+            - /url: support@aromawax.eu
+        - heading "Wholesale Orders" [level=5] [ref=e113]
+        - paragraph [ref=e114]:
+          - text: Para compras em volume ou encomendas grossistas, pode usar a sua transportadora preferida para tratar do envio. Para combinar esta opção, envie-nos um e-mail para
+          - link "support@aromawax.eu" [ref=e115] [cursor=pointer]:
+            - /url: mailto:support@aromawax.eu
+          - text: com os seus requisitos. A nossa equipa coordenará consigo a logística. Assim que a sua encomenda estiver preparada, enviaremos a fatura e, depois de a encomenda ser recolhida internamente, verificada e embalada, receberá um e-mail com as dimensões e o peso do volume. Estas informações permitir-lhe-ão agendar a recolha com a transportadora escolhida.
+        - heading "Return Policy" [level=5] [ref=e116]
+        - paragraph [ref=e117]: We are committed to ensuring your satisfaction with every purchase of candle-making and diffuser ingredients. Our Return Policy explains your rights and our processes for cancellations, returns, and refunds, in line with European Union consumer protection laws and Spanish consumer regulations. Please review this policy carefully before purchasing.
+        - heading "Returning Products" [level=5] [ref=e118]
+        - paragraph [ref=e119]:
+          - text: Pode cancelar a sua encomenda e devolver os bens no prazo de 14 dias de calendário a contar da data em que os recebe. Para iniciar o cancelamento e a devolução, envie-nos um e-mail para
+          - link "support@aromawax.eu" [ref=e120] [cursor=pointer]:
+            - /url: mailto:support@aromawax.eu
+          - text: e a nossa equipa irá orientá-lo durante o processo.
+        - paragraph [ref=e121]:
+          - text: The goods must be unused, in perfect condition, and packaged either in its original packaging or, if not available, in adequate protective wrapping to prevent damage during transit. The returned item must reach us within
+          - generic [ref=e122]: 28 days
+          - generic [ref=e123]: from the date of the original delivery. You are responsible for return shipping costs, and we cannot credit items that arrive damaged or are lost in transit.
+        - paragraph [ref=e124]: For fragrance oils, other liquid-based products (such as Augeo) and wicks, returns are not accepted under any circumstances due to hygiene, safety, and tampering concerns. We advise purchasing sample sizes to ensure you are satisfied with these products before ordering larger quantities.
+        - heading "Refund Procedure" [level=5] [ref=e125]
+        - paragraph [ref=e126]:
+          - text: Once received, the returned goods are inspected by the customer service team.
+          - generic [ref=e127]: If
+          - generic [ref=e128]: approved, your refund will be processed within
+          - generic [ref=e129]: 14 days
+          - generic [ref=e130]: and credited back to your original payment method, minus any delivery charges, as permitted by EU and Spanish law. If the return is due to an error on our part (e.g., a defective product), we will cover return shipping costs and waive the delivery charge deduction.
+        - heading "Handling Damaged Goods" [level=5] [ref=e131]
+        - paragraph [ref=e132]:
+          - text: If your order arrives damaged, including fragrance oils, Augeo, or other liquids, please notify us within
+          - generic [ref=e133]: three days
+          - generic [ref=e134]: of receipt by emailing
+          - link "support@aromawax.eu" [ref=e135] [cursor=pointer]:
+            - /url: support@aromawax.eu
+          - generic [ref=e136]: .
+          - generic [ref=e137]: We strongly suggest inspecting the package and the goods when receiving them. In this case, if damage is detected, you can send the damaged package back to us with the same courier.
+          - generic [ref=e138]: "For liquids, do not open bottles. Instead, weigh it on a digital scale, take photographs showing any damage or leakage, and send these to us. We will evaluate the situation and, at our discretion, offer a refund or replacement. Please note:"
+        - list [ref=e139]:
+          - listitem [ref=e140]: We cannot issue a refund or replacement for any liquid product if the seal is broken.
+          - listitem [ref=e141]: For fragile items like glass jars (sold in packs of six), we may opt to refund rather than replace, and refunds will only apply to the damaged items within the pack.
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e148]:
+          - paragraph [ref=e149]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e151]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - textbox "E-mail" [ref=e155]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e157] [cursor=pointer]:
+              - generic [ref=e158]: Subscrever
+        - generic [ref=e159]:
+          - paragraph [ref=e160]: ajuda e informações
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - link "contacte-nos" [ref=e163] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e164]:
+              - link "estado da encomenda" [ref=e165] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e166]:
+              - link "apoio ao cliente" [ref=e167] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e168]:
+              - link "aprendizagem" [ref=e169] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e170]:
+              - link "FAQ e ajuda" [ref=e171] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e172]:
+          - paragraph [ref=e173]: as nossas lojas
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - link "comprar em Espanha" [ref=e176] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e177]:
+              - link "loja UE em inglês" [ref=e178] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e179]:
+              - link "loja UE em francês" [ref=e180] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e181]:
+              - link "Loja UE em alemão" [ref=e182] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e183]:
+          - paragraph [ref=e184]: políticas da loja
+          - list [ref=e185]:
+            - listitem [ref=e186]:
+              - link "sobre nós" [ref=e187] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e188]:
+              - link "política de privacidade" [ref=e189] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e190]:
+              - link "política de envios e devoluções" [ref=e191] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e192]:
+              - link "termos de serviço" [ref=e193] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e195]:
+        - list [ref=e196]:
+          - listitem [ref=e197]:
+            - img "American Express" [ref=e198]
+          - listitem [ref=e207]:
+            - img "Apple Pay" [ref=e208]
+          - listitem [ref=e219]:
+            - img "Bancontact" [ref=e220]
+          - listitem [ref=e227]:
+            - img "Google Pay" [ref=e228]
+          - listitem [ref=e236]:
+            - img "iDEAL Wero" [ref=e237]
+          - listitem [ref=e252]:
+            - img "Klarna" [ref=e253]
+          - listitem [ref=e257]:
+            - img "Maestro" [ref=e258]
+          - listitem [ref=e264]:
+            - img "Mastercard" [ref=e265]
+          - listitem [ref=e271]:
+            - img "PayPal" [ref=e272]
+          - listitem [ref=e278]:
+            - img "Shop Pay" [ref=e279]
+          - listitem [ref=e283]:
+            - img "Union Pay" [ref=e284]
+          - listitem [ref=e290]:
+            - img "Visa" [ref=e291]
+        - generic [ref=e295]:
+          - paragraph [ref=e296]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e297] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e298]:
+            - listitem [ref=e299]:
+              - link "Política de privacidade" [ref=e300] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e301]:
+              - text: •
+              - link "Política de devoluções" [ref=e302] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e303]:
+              - text: •
+              - link "Termos de serviço" [ref=e304] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e305]:
+              - text: •
+              - link "Política de envios" [ref=e306] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e307]:
+              - text: •
+              - link "Preferências de cookies" [ref=e308] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

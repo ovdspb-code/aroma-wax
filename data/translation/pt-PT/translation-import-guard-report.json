@@ -1,0 +1,1266 @@
+{
+  "generatedAt": "2026-04-14T22:05:23.657Z",
+  "locale": "pt-PT",
+  "mode": "apply",
+  "candidateFile": "data/translation/pt-PT/import-candidates.json",
+  "totalCandidates": 2171,
+  "eligibleCandidates": 134,
+  "skippedCandidates": 2037,
+  "groupedResourceCount": 134,
+  "options": {
+    "apply": true,
+    "yes": true,
+    "includeRisky": true,
+    "resourceTypes": [
+      "ARTICLE",
+      "BLOG",
+      "COLLECTION",
+      "LINK",
+      "MENU",
+      "METAFIELD",
+      "ONLINE_STORE_THEME",
+      "ONLINE_STORE_THEME_JSON_TEMPLATE",
+      "ONLINE_STORE_THEME_LOCALE_CONTENT",
+      "ONLINE_STORE_THEME_SECTION_GROUP",
+      "PAGE",
+      "PRODUCT",
+      "SHOP"
+    ],
+    "excludeKeys": [
+      "handle"
+    ],
+    "skipSourceHtml": false,
+    "htmlTargetMode": "wrap-paragraph",
+    "sourceHtmlProfile": "all"
+  },
+  "eligibleByResourceType": [
+    {
+      "resourceType": "METAFIELD",
+      "count": 134
+    }
+  ],
+  "skippedRiskyByResourceType": [
+    {
+      "resourceType": "ONLINE_STORE_THEME",
+      "count": 442
+    },
+    {
+      "resourceType": "ONLINE_STORE_THEME_JSON_TEMPLATE",
+      "count": 208
+    },
+    {
+      "resourceType": "ONLINE_STORE_THEME_LOCALE_CONTENT",
+      "count": 224
+    },
+    {
+      "resourceType": "ONLINE_STORE_THEME_SECTION_GROUP",
+      "count": 10
+    },
+    {
+      "resourceType": "PAGE",
+      "count": 56
+    }
+  ],
+  "sampleEligible": [
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52286143955275",
+      "key": "value",
+      "digest": "e896e3806d8ecf6142a99cc2d011e7e4b2c9c42d0075ab620ac4f327fe6e6e44",
+      "source": "<ul>\n<li><b>Top</b><span>\nRed and green apples, strawberry and bergamot</span></li>\n<li><b>Middle</b><span>\nCinnamon, clove bud and peach</span></li>\n<li><b>Base</b><span>\nCedar and tonka, honey and vanilla</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Notas de topo</b><span>\nRed and green apples, strawberry and bergamot</span></li>\n<li><b>Notas de coração</b><span>\nCinnamon, clove bud and peach</span></li>\n<li><b>Notas de fundo</b><span>\nCedar and tonka, honey and vanilla</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 256,
+      "existingValue": "<ul>\n<li><b>Notas de topo</b><span>\nmaçãs vermelhas e verdes, morango e bergamota</span></li>\n<li><b>Notas de coração</b><span>\ncanela, botão de cravinho e pêssego</span></li>\n<li><b>Notas de fundo</b><span>\nCedro e fava-tonka, mel e baunilha</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52286248517963",
+      "key": "value",
+      "digest": "a76b7fb2bc533ea860459e71beb0cf419ecc9a1ba35940e0b33be21c3c0a728e",
+      "source": "<ul>\n<li><b>Category</b><span>Gourmand, fruity, Christmas</span></li>\n<li><b>Season</b><span>All-season, autumn, winter</span></li>\n<li><b>Flash point</b><span>93°C</span></li>\n<li><b>Essential oils</b><span>Eucalyptus oil, clove leaf oil</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Categoria</b><span>Gourmand, fruity, Christmas</span></li>\n<li><b>Estação</b><span>All-season, autumn, winter</span></li>\n<li><b>Ponto de inflamação</b><span>93°C</span></li>\n<li><b>Óleos essenciais</b><span>Eucalyptus oil, clove leaf oil</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 276,
+      "existingValue": "<ul>\n<li><b>Categoria</b><span>Gourmand, frutado, Natal</span></li>\n<li><b>Estação</b><span>Todo o ano, outono, inverno</span></li>\n<li><b>Ponto de inflamação</b><span>93°C</span></li>\n<li><b>Óleos essenciais</b><span>óleo de eucalipto, óleo de folha de cravinho</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52286281974091",
+      "key": "value",
+      "digest": "935f12237ff07676df2c36d70bbbef9dfaa4da56884cb82b2480fea4444f69f1",
+      "source": "<ul>\n<li><b>Candles</b><span>\n6-12%</span></li>\n<li><b>Reed Diffusers</b><span>\nNot recommended</span></li>\n<li><b>Room Spray</b><span>\nUp to 5%</span></li>\n<li><b>Pillow Spray</b><span>\nNot recommended</span></li>\n<li><b>Bar Soap</b><span>\n2-5%</span></li>\n<li><b>Liquid Soap</b><span>\n1-2%</span></li>\n<li><b>Solid wax perfume</b><span>\nUp to 11%</span></li>\n<li><b>Colours for packaging</b><span>\nDark red/burgundy (Pantone 209 C or #75151E)<br>\nPumpkin orange (Pantone 1585 C or #FF6A13)<br>\nGolden honey (Pantone 1245 C or #C69214)\n</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Velas</b><span>\n6-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nNão recomendado</span></li>\n<li><b>Spray de ambiente</b><span>\nAté 5%</span></li>\n<li><b>Spray para almofadas</b><span>\nNão recomendado</span></li>\n<li><b>Sabonete em barra</b><span>\n2-5%</span></li>\n<li><b>Sabonete líquido</b><span>\n1-2%</span></li>\n<li><b>Perfume sólido em cera</b><span>\nAté 11%</span></li>\n<li><b>Cores para embalagem</b><span>\nDark red/burgundy (Pantone 209 C or #75151E)<br>\nPumpkin orange (Pantone 1585 C or #FF6A13)<br>\nGolden honey (Pantone 1245 C or #C69214)\n</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 304,
+      "existingValue": "<ul>\n<li><b>Velas</b><span>\n6-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nNão recomendado</span></li>\n<li><b>Spray de ambiente</b><span>\nAté 5%</span></li>\n<li><b>Spray para almofadas</b><span>\nNão recomendado</span></li>\n<li><b>Sabonete em barra</b><span>\n2-5%</span></li>\n<li><b>Sabonete líquido</b><span>\n1-2%</span></li>\n<li><b>Perfume sólido em cera</b><span>\nAté 11%</span></li>\n<li><b>Cores para embalagem</b><span>\nvermelho-escuro/bordeaux (Pantone 209 C or #75151E)<br>\nlaranja abóbora (Pantone 1585 C or #FF6A13)<br>\nmel dourado (Pantone 1245 C or #C69214)\n</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52384701776203",
+      "key": "value",
+      "digest": "bfaa5329971321349ab97ddac432d12b167e355e938bed8e0ea938c21220ae9b",
+      "source": "<ul>\n<li><b>Category</b><span>Woody, green, citrus, Christmas</span></li>\n<li><b>Season</b><span>All-season, winter </span></li>\n<li><b>Flash point</b><span>83°C</span></li>\n<li><b>Essential oils</b><span>Siberian fir needle oil,\ncedar leaf oil\n</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Categoria</b><span>Woody, green, citrus, Christmas</span></li>\n<li><b>Estação</b><span>All-season, winter </span></li>\n<li><b>Ponto de inflamação</b><span>83°C</span></li>\n<li><b>Óleos essenciais</b><span>Siberian fir needle oil,\ncedar leaf oil\n</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 276,
+      "existingValue": "<ul>\n<li><b>Categoria</b><span>Amadeirado, verde, cítrico, Natal</span></li>\n<li><b>Estação</b><span>Todo o ano, inverno </span></li>\n<li><b>Ponto de inflamação</b><span>83°C</span></li>\n<li><b>Óleos essenciais</b><span>óleo de agulha de abeto siberiano, óleo de folha de cedro\n</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52384701808971",
+      "key": "value",
+      "digest": "0b089b311bfb31339712bdb805350efa9021509c95aab24d542e5cf46e517f53",
+      "source": "<ul>\n<li><b>Candles</b><span>\n9-12%</span></li>\n<li><b>Reed Diffusers</b><span>\nUp to 25%</span></li>\n<li><b>Room Spray</b><span>\n2-5%</span></li>\n<li><b>Pillow Spray</b><span>\nUp to 2%</span></li>\n<li><b>Bar Soap</b><span>\n2-5%</span></li>\n<li><b>Liquid Soap</b><span>\n1-2%</span></li>\n<li><b>Solid wax perfume</b><span>\nUp to 12%</span></li>\n<li><b>Colours for packaging</b><span>\nSiberian green (Pantone 554 C or #007A53)<br>\nCedarwood brown (Pantone 4975 C or #4A2C2A)<br>\nPine needle green (Pantone 5535 C or #1C3F34)\n</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Velas</b><span>\n9-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nAté 25%</span></li>\n<li><b>Spray de ambiente</b><span>\n2-5%</span></li>\n<li><b>Spray para almofadas</b><span>\nAté 2%</span></li>\n<li><b>Sabonete em barra</b><span>\n2-5%</span></li>\n<li><b>Sabonete líquido</b><span>\n1-2%</span></li>\n<li><b>Perfume sólido em cera</b><span>\nAté 12%</span></li>\n<li><b>Cores para embalagem</b><span>\nSiberian green (Pantone 554 C or #007A53)<br>\nCedarwood brown (Pantone 4975 C or #4A2C2A)<br>\nPine needle green (Pantone 5535 C or #1C3F34)\n</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 304,
+      "existingValue": "<ul>\n<li><b>Velas</b><span>\n9-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nAté 25%</span></li>\n<li><b>Spray de ambiente</b><span>\n2-5%</span></li>\n<li><b>Spray para almofadas</b><span>\nAté 2%</span></li>\n<li><b>Sabonete em barra</b><span>\n2-5%</span></li>\n<li><b>Sabonete líquido</b><span>\n1-2%</span></li>\n<li><b>Perfume sólido em cera</b><span>\nAté 12%</span></li>\n<li><b>Cores para embalagem</b><span>\nverde siberiano (Pantone 554 C or #007A53)<br>\ncastanho madeira de cedro (Pantone 4975 C or #4A2C2A)<br>\nverde agulha de pinheiro (Pantone 5535 C or #1C3F34)\n</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52384701841739",
+      "key": "value",
+      "digest": "b4e5ac0fd41d4e258febfa5a63bbc97021328e7a95f89c5c2f2a47c8e369b6ee",
+      "source": "<ul>\n<li><b>Top</b><span>\nCrisp bergamot, orange peel and pine needle</span></li>\n<li><b>Middle</b><span>\nDark berries, magnolia and violet leaf</span></li>\n<li><b>Base</b><span>\nSiberian cedar needle, fir, and cashmere musk</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Notas de topo</b><span>\nCrisp bergamot, orange peel and pine needle</span></li>\n<li><b>Notas de coração</b><span>\nDark berries, magnolia and violet leaf</span></li>\n<li><b>Notas de fundo</b><span>\nSiberian cedar needle, fir, and cashmere musk</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 256,
+      "existingValue": "<ul>\n<li><b>Notas de topo</b><span>\nbergamota fresca, casca de laranja e agulha de pinheiro</span></li>\n<li><b>Notas de coração</b><span>\nfrutos silvestres escuros, magnólia e folha de violeta</span></li>\n<li><b>Notas de fundo</b><span>\nagulha de cedro siberiano, abeto, and cashmere musk</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52387903603019",
+      "key": "value",
+      "digest": "6c998539c71c222ca063e845d20bedc2a5434c777d75a24ada9bc89e021a65c9",
+      "source": "<ul>\n<li><b>Category</b><span>Woody, oriental</span></li>\n<li><b>Season</b><span>All-season, autumn</span></li>\n<li><b>Flash point</b><span>93°C</span></li>\n<li><b>Essential oils</b><span>Tangerine oil, grapefruit oil, orange oil, black pepper oil, lime oil distilled, patchouli oil, vetiver oil, ocimum basilicum flower/leaf/stem extract\n</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Categoria</b><span>Woody, oriental</span></li>\n<li><b>Estação</b><span>All-season, autumn</span></li>\n<li><b>Ponto de inflamação</b><span>93°C</span></li>\n<li><b>Óleos essenciais</b><span>Tangerine oil, grapefruit oil, orange oil, black pepper oil, lime oil distilled, patchouli oil, vetiver oil, ocimum basilicum flower/leaf/stem extract\n</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 276,
+      "existingValue": "<ul>\n<li><b>Categoria</b><span>Amadeirado, oriental</span></li>\n<li><b>Estação</b><span>Todo o ano, outono</span></li>\n<li><b>Ponto de inflamação</b><span>93°C</span></li>\n<li><b>Óleos essenciais</b><span>óleo de tangerina, óleo de toranja, óleo de laranja, óleo de pimenta-preta, óleo destilado de lima, óleo de patchouli, óleo de vetiver, extrato de flor/folha/caule de ocimum basilicum\n</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52387903635787",
+      "key": "value",
+      "digest": "fe43100d6f07f2447faafd81f2625513a7a3318e7bf5eb4ac9fd5f492a191c9e",
+      "source": "<ul>\n<li><b>Candles</b><span>\n6-12%</span></li>\n<li><b>Reed Diffusers</b><span>\nNot recommended</span></li>\n<li><b>Room Spray</b><span>\nUp to 5%</span></li>\n<li><b>Pillow Spray</b><span>\nNot recommended</span></li>\n<li><b>Bar Soap</b><span>\nUp to 3%</span></li>\n<li><b>Liquid Soap</b><span>\n1-2%</span></li>\n<li><b>Solid wax perfume</b><span>\nUp to 7%</span></li>\n<li><b>Colours for packaging</b><span>\nDeep wood brown (Pantone 4975 C or #4A2C2A)<br>\nAsh grey (Pantone Cool Gray 8 C or #888B8D)<br>\nOlive green (Pantone 5743 C, #4A5335)\n</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Velas</b><span>\n6-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nNão recomendado</span></li>\n<li><b>Spray de ambiente</b><span>\nAté 5%</span></li>\n<li><b>Spray para almofadas</b><span>\nNão recomendado</span></li>\n<li><b>Sabonete em barra</b><span>\nAté 3%</span></li>\n<li><b>Sabonete líquido</b><span>\n1-2%</span></li>\n<li><b>Perfume sólido em cera</b><span>\nAté 7%</span></li>\n<li><b>Cores para embalagem</b><span>\nDeep wood brown (Pantone 4975 C or #4A2C2A)<br>\nAsh grey (Pantone Cool Gray 8 C or #888B8D)<br>\nOlive green (Pantone 5743 C, #4A5335)\n</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 304,
+      "existingValue": "<ul>\n<li><b>Velas</b><span>\n6-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nNão recomendado</span></li>\n<li><b>Spray de ambiente</b><span>\nAté 5%</span></li>\n<li><b>Spray para almofadas</b><span>\nNão recomendado</span></li>\n<li><b>Sabonete em barra</b><span>\nAté 3%</span></li>\n<li><b>Sabonete líquido</b><span>\n1-2%</span></li>\n<li><b>Perfume sólido em cera</b><span>\nAté 7%</span></li>\n<li><b>Cores para embalagem</b><span>\ncastanho madeira profundo (Pantone 4975 C or #4A2C2A)<br>\ncinzento-cinza (Pantone Cool Gray 8 C or #888B8D)<br>\nverde azeitona (Pantone 5743 C, #4A5335)\n</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52387903668555",
+      "key": "value",
+      "digest": "e896e3806d8ecf6142a99cc2d011e7e4b2c9c42d0075ab620ac4f327fe6e6e44",
+      "source": "<ul>\n<li><b>Top</b><span>\nRed and green apples, strawberry and bergamot</span></li>\n<li><b>Middle</b><span>\nCinnamon, clove bud and peach</span></li>\n<li><b>Base</b><span>\nCedar and tonka, honey and vanilla</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Notas de topo</b><span>\nRed and green apples, strawberry and bergamot</span></li>\n<li><b>Notas de coração</b><span>\nCinnamon, clove bud and peach</span></li>\n<li><b>Notas de fundo</b><span>\nCedar and tonka, honey and vanilla</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 256,
+      "existingValue": "<ul>\n<li><b>Notas de topo</b><span>\nmaçãs vermelhas e verdes, morango e bergamota</span></li>\n<li><b>Notas de coração</b><span>\ncanela, botão de cravinho e pêssego</span></li>\n<li><b>Notas de fundo</b><span>\nCedro e fava-tonka, mel e baunilha</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52399974580555",
+      "key": "value",
+      "digest": "b710867c799a71208edee04402d0a162160d58926f048360e9c3dbfcb598ab1c",
+      "source": "<ul> <li><b>Material</b><span> Metal</span></li> <li><b>Application</b><span> Candles</span></li> <li><b>Volume</b><span> 100 ml</span></li> <li><b>Colour</b><span> Silver, black</span></li> <li><b>Exterior varnish</b>Protective coating<Protective coating</span></li> <li><b>Interior varnish</b><span>Protective coating</span></li> <li><b>Diameter</b><span> 75 mm</span></li> <li><b>Opening</b><span> 73 mm </span></li> <li><b>Height</b><span> 24 mm </span></li><li><b>Food safe</b><span> Yes </span></li><li><b>Dangerous goods approval</b><span> No </span></li><li><b>Stackable</b><span> No </span></li><li><b>Recycling codes</b><span> ALU41 (Liner: LDPE04) </span></li></ul>",
+      "target": "<ul> <li><b>Material</b><span> Metal</span></li> <li><b>Aplicação</b><span> Velas</span></li> <li><b>Volume</b><span> 100 ml</span></li> <li><b>Cor</b><span> Silver, black</span></li> <li><b>Verniz exterior</b>Revestimento protetor<Protective coating</span></li> <li><b>Verniz interior</b><span>Revestimento protetor</span></li> <li><b>Diâmetro</b><span> 75 mm</span></li> <li><b>Abertura</b><span> 73 mm </span></li> <li><b>Altura</b><span> 24 mm </span></li><li><b>Apto para contacto alimentar</b><span> Sim </span></li><li><b>Aprovação para mercadorias perigosas</b><span> Não </span></li><li><b>Empilhável</b><span> Não </span></li><li><b>Códigos de reciclagem</b><span> ALU41 (Liner: LDPE04) </span></li></ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 364,
+      "existingValue": "<ul> <li><b>Material</b><span> Metal</span></li> <li><b>Aplicação</b><span> Velas</span></li> <li><b>Volume</b><span> 100 ml</span></li> <li><b>Cor</b><span> prateado, preto</span></li> <li><b>Verniz exterior</b>Revestimento protetor<protective coating<=\"\" span=\"\"></protective></li> <li><b>Verniz interior</b><span>Revestimento protetor</span></li> <li><b>Diâmetro</b><span> 75 mm</span></li> <li><b>Abertura</b><span> 73 mm </span></li> <li><b>Altura</b><span> 24 mm </span></li><li><b>Apto para contacto alimentar</b><span> Sim </span></li><li><b>Aprovação para mercadorias perigosas</b><span> Não </span></li><li><b>Empilhável</b><span> Não </span></li><li><b>Códigos de reciclagem</b><span> ALU41 (Liner: LDPE04) </span></li></ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52428554109259",
+      "key": "value",
+      "digest": "e95ca5074f4a4a264c416b437a1c6f4130e1fbfe94fdda18df2561f10204f0f4",
+      "source": "<ul>\n<li><b>Category</b><span>Woody, gourmand</span></li>\n<li><b>Season</b><span>All-season, autumn, winter, spring </span></li>\n<li><b>Flash point</b><span>93°C</span></li>\n<li><b>Essential oils</b><span>Orange oil, sandal mysore core, bergamot oil, citrus medica limonum (lemon) peel oil, cupressus funebris wood oil, vetiver oil, opoponax resinoid, cistus oil (labdanum oil)</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Categoria</b><span>Woody, gourmand</span></li>\n<li><b>Estação</b><span>All-season, autumn, winter, spring </span></li>\n<li><b>Ponto de inflamação</b><span>93°C</span></li>\n<li><b>Óleos essenciais</b><span>Orange oil, sandal mysore core, bergamot oil, citrus medica limonum (lemon) peel oil, cupressus funebris wood oil, vetiver oil, opoponax resinoid, cistus oil (labdanum oil)</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 276,
+      "existingValue": "<ul>\n<li><b>Categoria</b><span>Amadeirado, gourmand</span></li>\n<li><b>Estação</b><span>Todo o ano, outono, inverno, primavera </span></li>\n<li><b>Ponto de inflamação</b><span>93°C</span></li>\n<li><b>Óleos essenciais</b><span>óleo de laranja, madeira de sândalo de Mysore, óleo de bergamota, óleo de casca de Citrus medica limonum (limão), óleo de madeira de cupressus funebris, óleo de vetiver, resinoide de opopónax, óleo de cisto (óleo de labdanum)</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52428554142027",
+      "key": "value",
+      "digest": "9a3e6415fa123ca08e3df3313dad57074a40ae855b4ff3dc8bb40678f477becf",
+      "source": "<ul>\n<li><b>Candles</b><span>\n6-12%</span></li>\n<li><b>Reed Diffusers</b><span>\nNot recommended</span></li>\n<li><b>Room Spray</b><span>\nUp to 5%</span></li>\n<li><b>Pillow Spray</b><span>\nNot recommended</span></li>\n<li><b>Bar Soap</b><span>\n2-4%</span></li>\n<li><b>Liquid Soap</b><span>\n1-2%</span></li>\n<li><b>Solid wax perfume</b><span>\nUp to 10%</span></li>\n<li><b>Colours for packaging</b><span>\nTobacco brown (Pantone 4625 C or #4A2E19)<br>\nCreamy vanilla (Pantone 7401 C or #F6E27F)<br>\nWarm ivory (Pantone 7499 C or #F8ECD4)\n</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Velas</b><span>\n6-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nNão recomendado</span></li>\n<li><b>Spray de ambiente</b><span>\nAté 5%</span></li>\n<li><b>Spray para almofadas</b><span>\nNão recomendado</span></li>\n<li><b>Sabonete em barra</b><span>\n2-4%</span></li>\n<li><b>Sabonete líquido</b><span>\n1-2%</span></li>\n<li><b>Perfume sólido em cera</b><span>\nAté 10%</span></li>\n<li><b>Cores para embalagem</b><span>\nTobacco brown (Pantone 4625 C or #4A2E19)<br>\nCreamy vanilla (Pantone 7401 C or #F6E27F)<br>\nWarm ivory (Pantone 7499 C or #F8ECD4)\n</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 304,
+      "existingValue": "<ul>\n<li><b>Velas</b><span>\n6-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nNão recomendado</span></li>\n<li><b>Spray de ambiente</b><span>\nAté 5%</span></li>\n<li><b>Spray para almofadas</b><span>\nNão recomendado</span></li>\n<li><b>Sabonete em barra</b><span>\n2-4%</span></li>\n<li><b>Sabonete líquido</b><span>\n1-2%</span></li>\n<li><b>Perfume sólido em cera</b><span>\nAté 10%</span></li>\n<li><b>Cores para embalagem</b><span>\ncastanho tabaco (Pantone 4625 C or #4A2E19)<br>\nbaunilha cremosa (Pantone 7401 C or #F6E27F)<br>\nmarfim quente (Pantone 7499 C or #F8ECD4)\n</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52428554174795",
+      "key": "value",
+      "digest": "eb385644d57e5685baa49dac5607caf552129e2932aeed7f6e3d28bd24040116",
+      "source": "<ul>\n<li><b>Top</b><span>\nBergamot, valencia orange and davana blossom</span></li>\n<li><b>Middle</b><span>\nPerique tobacco and neroli, vetiver and vanilla husk</span></li>\n<li><b>Base</b><span>\nMysore sandalwood and vetiver, labdanum, crystallized amber and opoponax</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Notas de topo</b><span>\nBergamot, valencia orange and davana blossom</span></li>\n<li><b>Notas de coração</b><span>\nPerique tobacco and neroli, vetiver and vanilla husk</span></li>\n<li><b>Notas de fundo</b><span>\nMysore sandalwood and vetiver, labdanum, crystallized amber and opoponax</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 256,
+      "existingValue": "<ul>\n<li><b>Notas de topo</b><span>\nBergamot, valencia orange and davana blossom</span></li>\n<li><b>Notas de coração</b><span>\ntabaco Perique e néroli, vetiver e vagem de baunilha</span></li>\n<li><b>Notas de fundo</b><span>\nsândalo de Mysore e vetiver, labdanum, âmbar cristalizado e opopónax</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52428705399115",
+      "key": "value",
+      "digest": "9781be4bac805d5725e76cbaca6a1441f67cb58003b95e9760cc3ac55e426a34",
+      "source": "<ul>\n<li><b>Category</b><span>Aquatic, green, fresh, herby</span></li>\n<li><b>Season</b><span>All-season, summer</span></li>\n<li><b>Flash point</b><span>93 °C</span></li>\n<li><b>Essential oils</b><span>Elemi oil, pine needle oil, patchouli oil, cedrambr, cupressus funebris wood oil</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Categoria</b><span>Aquatic, green, fresh, herby</span></li>\n<li><b>Estação</b><span>All-season, summer</span></li>\n<li><b>Ponto de inflamação</b><span>93 °C</span></li>\n<li><b>Óleos essenciais</b><span>Elemi oil, pine needle oil, patchouli oil, cedrambr, cupressus funebris wood oil</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 276,
+      "existingValue": "<ul>\n<li><b>Categoria</b><span>Aquático, verde, fresco, herbal</span></li>\n<li><b>Estação</b><span>Todo o ano, verão</span></li>\n<li><b>Ponto de inflamação</b><span>93 °C</span></li>\n<li><b>Óleos essenciais</b><span>óleo de elemi, óleo de agulha de pinheiro, óleo de patchouli, cedrambr, óleo de madeira de cupressus funebris</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52428705431883",
+      "key": "value",
+      "digest": "92f0879fc12fc06a635bd30b4f7af7c9b1f2b137b406cf242bdb0a4d33986722",
+      "source": "<ul>\n<li><b>Candles</b><span>\n8-12%</span></li>\n<li><b>Reed Diffusers</b><span>\nNot recommended</span></li>\n<li><b>Room Spray</b><span>\nUp to 5%</span></li>\n<li><b>Pillow Spray</b><span>\nNot recommended</span></li>\n<li><b>Bar Soap</b><span>\nUp to 5%</span></li>\n<li><b>Liquid Soap</b><span>\nUp to 3%</span></li>\n<li><b>Solid wax perfume</b><span>\n10-12%</span></li>\n<li><b>Colours for packaging</b><span>\nSage green (Pantone 5565 C or #7A8F6D)<br>\nSeasalt grey (Pantone 428 C or #D1D3D4)<br>\nAqua mist (Pantone 625 С, #3D6F5C)\n</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Velas</b><span>\n8-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nNão recomendado</span></li>\n<li><b>Spray de ambiente</b><span>\nAté 5%</span></li>\n<li><b>Spray para almofadas</b><span>\nNão recomendado</span></li>\n<li><b>Sabonete em barra</b><span>\nAté 5%</span></li>\n<li><b>Sabonete líquido</b><span>\nAté 3%</span></li>\n<li><b>Perfume sólido em cera</b><span>\n10-12%</span></li>\n<li><b>Cores para embalagem</b><span>\nSage green (Pantone 5565 C or #7A8F6D)<br>\nSeasalt grey (Pantone 428 C or #D1D3D4)<br>\nAqua mist (Pantone 625 С, #3D6F5C)\n</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 304,
+      "existingValue": "<ul>\n<li><b>Velas</b><span>\n8-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nNão recomendado</span></li>\n<li><b>Spray de ambiente</b><span>\nAté 5%</span></li>\n<li><b>Spray para almofadas</b><span>\nNão recomendado</span></li>\n<li><b>Sabonete em barra</b><span>\nAté 5%</span></li>\n<li><b>Sabonete líquido</b><span>\nAté 3%</span></li>\n<li><b>Perfume sólido em cera</b><span>\n10-12%</span></li>\n<li><b>Cores para embalagem</b><span>\nverde sálvia (Pantone 5565 C or #7A8F6D)<br>\ncinzento sal marinho (Pantone 428 C or #D1D3D4)<br>\nnévoa aqua (Pantone 625 С, #3D6F5C)\n</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52428705464651",
+      "key": "value",
+      "digest": "2a2996d2c8219ddc281ee6b59431d26c2fbb8c0bcfc316fd95c1006f1b3022b2",
+      "source": "<ul>\n<li><b>Top</b><span>\nSage leaves, pine needle and grapefruit</span></li>\n<li><b>Middle</b><span>\nRed algae, thyme and ozone marine</span></li>\n<li><b>Base</b><span>\nSandalwood and ambrette seed, guaiac wood and patchouli</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Notas de topo</b><span>\nSage leaves, pine needle and grapefruit</span></li>\n<li><b>Notas de coração</b><span>\nRed algae, thyme and ozone marine</span></li>\n<li><b>Notas de fundo</b><span>\nSandalwood and ambrette seed, guaiac wood and patchouli</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 256,
+      "existingValue": "<ul>\n<li><b>Notas de topo</b><span>\nfolhas de sálvia, agulha de pinheiro e toranja</span></li>\n<li><b>Notas de coração</b><span>\nalgas vermelhas, tomilho e ozono marinho</span></li>\n<li><b>Notas de fundo</b><span>\nSândalo e semente de ambreta, madeira de guáiaco e patchouli</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52428758679883",
+      "key": "value",
+      "digest": "22e85a56472b0b611f24fdc17df8a989e2b925c637607a4a5e76becd9cdf356f",
+      "source": "<ul>\n<li><b>Category</b><span>Citrus, green, fresh, fruity</span></li>\n<li><b>Season</b><span>All-season, summer, spring</span></li>\n<li><b>Flash point</b><span>83°C</span></li>\n<li><b>Essential oils</b><span>Tangerine oil, grapefruit oil, orange oil, black pepper oil, lime oil distilled, patchouli oil, vetiver oil, ocimum basilicum flower/leaf/stem extract</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Categoria</b><span>Citrus, green, fresh, fruity</span></li>\n<li><b>Estação</b><span>All-season, summer, spring</span></li>\n<li><b>Ponto de inflamação</b><span>83°C</span></li>\n<li><b>Óleos essenciais</b><span>Tangerine oil, grapefruit oil, orange oil, black pepper oil, lime oil distilled, patchouli oil, vetiver oil, ocimum basilicum flower/leaf/stem extract</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 276,
+      "existingValue": "<ul>\n<li><b>Categoria</b><span>Citrus, verde, fresco, frutado</span></li>\n<li><b>Estação</b><span>Todo o ano, verão, primavera</span></li>\n<li><b>Ponto de inflamação</b><span>83°C</span></li>\n<li><b>Óleos essenciais</b><span>óleo de tangerina, óleo de toranja, óleo de laranja, óleo de pimenta-preta, óleo destilado de lima, óleo de patchouli, óleo de vetiver, extrato de flor/folha/caule de ocimum basilicum</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52428758712651",
+      "key": "value",
+      "digest": "797226a876abac1964aaa56740e957cf7409beb83280909890bd93256b0d0ef2",
+      "source": "<ul>\n<li><b>Candles</b><span>\n6-12%</span></li>\n<li><b>Reed Diffusers</b><span>\nNot recommended</span></li>\n<li><b>Room Spray</b><span>\nUp to 5%</span></li>\n<li><b>Pillow Spray</b><span>\n1-2%</span></li>\n<li><b>Bar Soap</b><span>\n2-4%</span></li>\n<li><b>Liquid Soap</b><span>\n1-2%</span></li>\n<li><b>Solid wax perfume</b><span>\nUp to 12%</span></li>\n<li><b>Colours for packaging</b><span>\nZesty Lime Green (Pantone 375 C or #84BD00)<br>\nFresh Basil Green (Pantone 348 C or #009639)<br>\nHerbal Olive (Pantone 5753 C or #788343)\n</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Velas</b><span>\n6-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nNão recomendado</span></li>\n<li><b>Spray de ambiente</b><span>\nAté 5%</span></li>\n<li><b>Spray para almofadas</b><span>\n1-2%</span></li>\n<li><b>Sabonete em barra</b><span>\n2-4%</span></li>\n<li><b>Sabonete líquido</b><span>\n1-2%</span></li>\n<li><b>Perfume sólido em cera</b><span>\nAté 12%</span></li>\n<li><b>Cores para embalagem</b><span>\nZesty Lime Green (Pantone 375 C or #84BD00)<br>\nFresh Basil Green (Pantone 348 C or #009639)<br>\nHerbal Olive (Pantone 5753 C or #788343)\n</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 304,
+      "existingValue": "<ul>\n<li><b>Velas</b><span>\n6-12%</span></li>\n<li><b>Difusores de varetas</b><span>\nNão recomendado</span></li>\n<li><b>Spray de ambiente</b><span>\nAté 5%</span></li>\n<li><b>Spray para almofadas</b><span>\n1-2%</span></li>\n<li><b>Sabonete em barra</b><span>\n2-4%</span></li>\n<li><b>Sabonete líquido</b><span>\n1-2%</span></li>\n<li><b>Perfume sólido em cera</b><span>\nAté 12%</span></li>\n<li><b>Cores para embalagem</b><span>\nverde lima vibrante (Pantone 375 C or #84BD00)<br>\nverde manjericão fresco (Pantone 348 C or #009639)<br>\nazeitona herbal (Pantone 5753 C or #788343)\n</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52428758745419",
+      "key": "value",
+      "digest": "15aa87b288bdba64ffa9ed7ed4b8a34e61e8c7ae8c3b635c873bcee340915c5a",
+      "source": "<ul>\n<li><b>Top</b><span>\nKaffir lime, fresh breeze and mandarin blossom</span></li>\n<li><b>Middle</b><span>\nGarden basil, vetiver and white thyme</span></li>\n<li><b>Base</b><span>\nBlack pepper, patchouli and sheer woods</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Notas de topo</b><span>\nKaffir lime, fresh breeze and mandarin blossom</span></li>\n<li><b>Notas de coração</b><span>\nGarden basil, vetiver and white thyme</span></li>\n<li><b>Notas de fundo</b><span>\nBlack pepper, patchouli and sheer woods</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 256,
+      "existingValue": "<ul>\n<li><b>Notas de topo</b><span>\nlima kaffir, brisa fresca e flor de tangerineira</span></li>\n<li><b>Notas de coração</b><span>\nmanjericão de jardim, vetiver e tomilho branco</span></li>\n<li><b>Notas de fundo</b><span>\npimenta-preta, patchouli e madeiras leves</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    },
+    {
+      "resourceType": "METAFIELD",
+      "resourceId": "gid://shopify/Metafield/52428844335435",
+      "key": "value",
+      "digest": "493f8d49b75267a1a690e5fcc726a9f2b82b6f54d3732d859a46b24ae94efff5",
+      "source": "<ul>\n<li><b>Category</b><span>Oriental, woody, spicy</span></li>\n<li><b>Season</b><span>All-season, autumn, spring</span></li>\n<li><b>Flash point</b><span>91°C</span></li>\n<li><b>Essential oils</b><span>Citrus medica limonum (lemon) peel oil, rosemary oil, tangerine oil, sage oil, patchouli oil, cedarwood, anise oil, vetiver oil</span></li>\n</ul>",
+      "target": "<ul>\n<li><b>Categoria</b><span>Oriental, woody, spicy</span></li>\n<li><b>Estação</b><span>All-season, autumn, spring</span></li>\n<li><b>Ponto de inflamação</b><span>91°C</span></li>\n<li><b>Óleos essenciais</b><span>Citrus medica limonum (lemon) peel oil, rosemary oil, tangerine oil, sage oil, patchouli oil, cedarwood, anise oil, vetiver oil</span></li>\n</ul>",
+      "packet": "packet-06-theme-ui-pt-PT.md",
+      "packetLine": 276,
+      "existingValue": "<ul>\n<li><b>Categoria</b><span>Oriental, amadeirado, especiado</span></li>\n<li><b>Estação</b><span>Todo o ano, outono, primavera</span></li>\n<li><b>Ponto de inflamação</b><span>91°C</span></li>\n<li><b>Óleos essenciais</b><span>óleo de casca de Citrus medica limonum (limão), óleo de alecrim, óleo de tangerina, óleo de sálvia, óleo de patchouli, cedarwood, óleo de anis, óleo de vetiver</span></li>\n</ul>",
+      "existingOutdated": false,
+      "matchMode": "structured"
+    }
+  ],
+  "applyResults": [
+    {
+      "resourceId": "gid://shopify/Metafield/52286143955275",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52286248517963",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52286281974091",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52384701776203",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52384701808971",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52384701841739",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52387903603019",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52387903635787",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52387903668555",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52399974580555",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428554109259",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428554142027",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428554174795",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428705399115",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428705431883",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428705464651",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428758679883",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428758712651",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428758745419",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428844335435",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428844368203",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52428844400971",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52429050544459",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52429050577227",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52429050609995",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52431033499979",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52431033532747",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52431033565515",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52431470035275",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52431470068043",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52431470100811",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52435244974411",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52435400982859",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52448350306635",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52449855078731",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52450633253195",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52450725790027",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52451533259083",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52451533291851",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52451533324619",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52451841966411",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52451841999179",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52451842031947",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52452074553675",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52452074586443",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52452074619211",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52452935008587",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52452935041355",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52452935074123",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453304762699",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453304795467",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453304828235",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453460017483",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453460050251",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453460083019",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453478695243",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453478728011",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453478760779",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453528535371",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453528568139",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453528600907",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453563924811",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453563957579",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453563990347",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453604688203",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453604720971",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52453604753739",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52469621129547",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52469621162315",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52469621195083",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52469685911883",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52469685944651",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52469685977419",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52470299165003",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52470299230539",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52470343336267",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52470343401803",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52470356312395",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52470356377931",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52470859956555",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52470860022091",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52470958621003",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52470958686539",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471312810315",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471312908619",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471470752075",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471470817611",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471636984139",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471637049675",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471829201227",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471829266763",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471862985035",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471863050571",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471908860235",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471908925771",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471941955915",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52471942021451",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52507440316747",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/52507487043915",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182672992141643",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182672992174411",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182672992305483",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182673268146507",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182673268310347",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182673449386315",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182673449419083",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182673449550155",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182674537611595",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182674537644363",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182674537775435",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182729808773451",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/182729808937291",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/184029593633099",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/188138087317835",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/188833350549835",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189491329892683",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189491329925451",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189491330056523",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189527962616139",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189527962779979",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189528239997259",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189528240030027",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189528240161099",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189528714445131",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189528714477899",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189528714608971",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189529150849355",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189529151078731",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189529401852235",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189529401885003",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189529402016075",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189562836091211",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189562836123979",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    },
+    {
+      "resourceId": "gid://shopify/Metafield/189562836386123",
+      "resourceType": "METAFIELD",
+      "attempted": 1,
+      "registered": 1,
+      "userErrors": []
+    }
+  ]
+}

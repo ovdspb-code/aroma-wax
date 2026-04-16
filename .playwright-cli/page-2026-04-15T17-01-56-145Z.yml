@@ -1,0 +1,272 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 unidades" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 unidades
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - generic [ref=e91]: como fazer velas
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - heading "aprendizagem aprendizagem" [level=2] [ref=e97]:
+          - text: aprendizagem
+          - generic [ref=e99]: aprendizagem
+        - link "Ver tudo" [ref=e100] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e101]: Ver tudo
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - 'link "como fazer velas Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e106] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+            - generic [ref=e107]: como fazer velas
+            - 'img "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e108]'
+          - generic "page|como fazer velas" [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - paragraph [ref=e112]:
+                  - 'link "Comparação das melhores ceras para velas: soja vs coco vs parafina" [ref=e113] [cursor=pointer]':
+                    - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+                - paragraph [ref=e114]: “Não existe uma única cera “ideal” para todas as utilizações — cada tipo de cera (soja, coco, parafina) tem os seus pontos fortes e fracos”, afirma Anna Linde, da AROMA + WAX, empresa que fornece m...
+              - generic [ref=e120]: 28/01/2026
+        - generic [ref=e121]:
+          - 'link "como fazer velas Candle Fragrance Load Explained: How Much Oil Should You Use?" [ref=e122] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use
+            - generic [ref=e123]: como fazer velas
+            - 'img "Candle Fragrance Load Explained: How Much Oil Should You Use?" [ref=e124]'
+          - generic "page|como fazer velas" [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - paragraph [ref=e128]:
+                  - 'link "Carga de fragrância em velas explicada: quanto óleo deve usar?" [ref=e129] [cursor=pointer]':
+                    - /url: /pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use
+                - paragraph [ref=e130]: "1. O que é a carga de fragrância (e porque é importante) Definição: A carga de fragrância é a proporção (em peso) de óleo de fragrância adicionada à cera da vela. Por exemplo, se tiver 100 g de ce..."
+              - generic [ref=e136]: 20/11/2025
+        - generic [ref=e137]:
+          - 'link "como fazer velas How to Make Your First Candle Collection: Key Steps to Success" [ref=e138] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-candles/how-to-make-your-first-candle-collection-key-steps-to-success
+            - generic [ref=e139]: como fazer velas
+            - 'img "How to Make Your First Candle Collection: Key Steps to Success" [ref=e140]'
+          - generic "page|como fazer velas" [ref=e141]:
+            - generic [ref=e142]:
+              - generic [ref=e143]:
+                - paragraph [ref=e144]:
+                  - 'link "Como criar a sua primeira coleção de velas: passos-chave para o sucesso" [ref=e145] [cursor=pointer]':
+                    - /url: /pt/blogs/how-to-make-candles/how-to-make-your-first-candle-collection-key-steps-to-success
+                - paragraph [ref=e146]: Quando decide criar a sua primeira coleção de velas, dá um passo emocionante na construção da sua marca. Neste artigo, não falaremos sobre... orçamento ou custos A duração de um projeto como este d...
+              - generic [ref=e152]: 11/11/2025
+        - generic [ref=e153]:
+          - link "como fazer velas How to Choose the Perfect Wick for Your Candle" [ref=e154] [cursor=pointer]:
+            - /url: /pt/blogs/how-to-make-candles/how-to-choose-the-perfect-wick-for-your-candle
+            - generic [ref=e155]: como fazer velas
+            - img "How to Choose the Perfect Wick for Your Candle" [ref=e156]
+          - generic "page|como fazer velas" [ref=e157]:
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - paragraph [ref=e160]:
+                  - link "Como escolher o pavio perfeito para a sua vela" [ref=e161] [cursor=pointer]:
+                    - /url: /pt/blogs/how-to-make-candles/how-to-choose-the-perfect-wick-for-your-candle
+                - paragraph [ref=e162]: Escolher o pavio certo é fundamental para criar velas de alta qualidade que queimem de forma limpa e uniforme. Os pavimentos premium, como o TCR e o STABILO, são oferecidos para garantir o melhor d...
+              - generic [ref=e168]: 10/06/2025
+        - generic [ref=e169]:
+          - link "como fazer velas How to Make Container Candles - Candle Making Guide" [ref=e170] [cursor=pointer]:
+            - /url: /pt/blogs/how-to-make-candles/how-to-make-container-candles-candle-making-guide
+            - generic [ref=e171]: como fazer velas
+            - img "How to Make Container Candles - Candle Making Guide" [ref=e172]
+          - generic "page|como fazer velas" [ref=e173]:
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - paragraph [ref=e176]:
+                  - link "Como fazer velas em recipiente - guia de fabrico de velas" [ref=e177] [cursor=pointer]:
+                    - /url: /pt/blogs/how-to-make-candles/how-to-make-container-candles-candle-making-guide
+                - paragraph [ref=e178]: As velas em recipientes trazem aconchego e charme a qualquer divisão, e fazê-las em casa é gratificante. Este guia oferece um passo a passo para criar velas em recipientes com cera, pavios e fragrâ...
+              - generic [ref=e184]: 10/06/2025
+        - generic [ref=e185]:
+          - 'link "como fazer velas How to Make Candles: A Practical Guide for Beginners" [ref=e186] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-candles/how-to-make-candles-a-practical-guide-for-beginners
+            - generic [ref=e187]: como fazer velas
+            - 'img "How to Make Candles: A Practical Guide for Beginners" [ref=e188]'
+          - generic "page|como fazer velas" [ref=e189]:
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - paragraph [ref=e192]:
+                  - 'link "Como fazer velas: guia prático para principiantes" [ref=e193] [cursor=pointer]':
+                    - /url: /pt/blogs/how-to-make-candles/how-to-make-candles-a-practical-guide-for-beginners
+                - paragraph [ref=e194]: O fabrico de velas transforma materiais simples em criações brilhantes que iluminam casas e corações. Este artesanato "faça você mesmo" oferece uma saída criativa, perfeita para fazer presentes art...
+              - generic [ref=e200]: 10/05/2025
+    - generic [ref=e204]:
+      - generic [ref=e205]:
+        - generic [ref=e207]:
+          - paragraph [ref=e208]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e210]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - textbox "E-mail" [ref=e214]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e216] [cursor=pointer]:
+              - generic [ref=e217]: Subscrever
+        - generic [ref=e218]:
+          - paragraph [ref=e219]: ajuda e informações
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "contacte-nos" [ref=e222] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e223]:
+              - link "estado da encomenda" [ref=e224] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e225]:
+              - link "apoio ao cliente" [ref=e226] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e227]:
+              - link "aprendizagem" [ref=e228] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e229]:
+              - link "FAQ e ajuda" [ref=e230] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e231]:
+          - paragraph [ref=e232]: as nossas lojas
+          - list [ref=e233]:
+            - listitem [ref=e234]:
+              - link "comprar em Espanha" [ref=e235] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e236]:
+              - link "loja UE em inglês" [ref=e237] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e238]:
+              - link "loja UE em francês" [ref=e239] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e240]:
+              - link "loja UE em alemão" [ref=e241] [cursor=pointer]:
+                - /url: https://aromawax.eu/de
+        - generic [ref=e242]:
+          - paragraph [ref=e243]: políticas da loja
+          - list [ref=e244]:
+            - listitem [ref=e245]:
+              - link "sobre nós" [ref=e246] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e247]:
+              - link "política de privacidade" [ref=e248] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e249]:
+              - link "política de envios" [ref=e250] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e251]:
+              - link "termos de serviço" [ref=e252] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e254]:
+        - list [ref=e255]:
+          - listitem [ref=e256]:
+            - img "American Express" [ref=e257]
+          - listitem [ref=e266]:
+            - img "Apple Pay" [ref=e267]
+          - listitem [ref=e278]:
+            - img "Bancontact" [ref=e279]
+          - listitem [ref=e286]:
+            - img "Google Pay" [ref=e287]
+          - listitem [ref=e295]:
+            - img "iDEAL Wero" [ref=e296]
+          - listitem [ref=e311]:
+            - img "Klarna" [ref=e312]
+          - listitem [ref=e316]:
+            - img "Maestro" [ref=e317]
+          - listitem [ref=e323]:
+            - img "Mastercard" [ref=e324]
+          - listitem [ref=e330]:
+            - img "PayPal" [ref=e331]
+          - listitem [ref=e337]:
+            - img "Shop Pay" [ref=e338]
+          - listitem [ref=e342]:
+            - img "Union Pay" [ref=e343]
+          - listitem [ref=e349]:
+            - img "Visa" [ref=e350]
+        - generic [ref=e354]:
+          - paragraph [ref=e355]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e356] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e357]:
+            - listitem [ref=e358]:
+              - link "Política de privacidade" [ref=e359] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e360]:
+              - text: •
+              - link "Política de devoluções" [ref=e361] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e362]:
+              - text: •
+              - link "Termos de serviço" [ref=e363] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e364]:
+              - text: •
+              - link "Política de envios" [ref=e365] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e366]:
+              - text: •
+              - link "Preferências de cookies" [ref=e367] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

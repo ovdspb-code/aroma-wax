@@ -1,0 +1,202 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: Iniciar sessão
+      - button [ref=e7] [cursor=pointer]
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: Enviaremos um código único (OTP) para o seu e-mail para um início de sessão seguro.
+      - generic [ref=e12]:
+        - textbox "E-mail" [ref=e13]
+        - generic: E-mail
+      - button "Continuar" [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]: Continuar
+      - link "Criar conta" [ref=e16] [cursor=pointer]:
+        - /url: /pt/apps/deluxe/account/register
+  - alertdialog "Consentimento de cookies" [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Consentimento de cookies" [level=2] [ref=e20]
+        - paragraph [ref=e21]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e22] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e23]:
+        - button "Gerir preferências" [ref=e24] [cursor=pointer]
+        - button "Aceitar" [ref=e25] [cursor=pointer]
+        - button "Rejeitar" [ref=e26] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e27] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e28]:
+    - paragraph [ref=e34]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e35]:
+    - generic [ref=e38]:
+      - navigation [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - group [ref=e44]:
+              - generic "comprar tudo" [ref=e45] [cursor=pointer]: comprar tudo
+          - listitem [ref=e47]:
+            - group [ref=e48]:
+              - generic "fabrico de velas" [ref=e49] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e51]:
+            - group [ref=e52]:
+              - generic "fragrâncias" [ref=e53] [cursor=pointer]: fragrâncias
+          - listitem [ref=e55]:
+            - group [ref=e56]:
+              - generic "fabrico de difusores" [ref=e57] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e59]:
+            - group [ref=e60]:
+              - generic "fabrico de sprays de ambiente" [ref=e61] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e63]:
+            - group [ref=e64]:
+              - generic "aprendizagem" [ref=e65] [cursor=pointer]: aprendizagem
+          - listitem [ref=e67]:
+            - link "grossista" [ref=e68] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e69] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e70]: Aroma + Wax
+      - list [ref=e72]:
+        - listitem [ref=e73]:
+          - link "Pesquisar" [ref=e74] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e75]: Pesquisar
+        - listitem [ref=e78]:
+          - link "Iniciar sessão" [ref=e79] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e80]: Iniciar sessão
+        - listitem [ref=e83]:
+          - link "Abrir lista de desejos" [ref=e84] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e85]: Abrir lista de desejos
+            - generic [ref=e89]: "0"
+        - listitem [ref=e90]:
+          - link "Carrinho 0 Unid" [ref=e91] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e92]: Carrinho
+            - img [ref=e93]
+            - generic [ref=e97]:
+              - generic:
+                - generic [ref=e98]: 0 Unid
+                - text: "0"
+  - main [ref=e99]:
+    - paragraph [ref=e103]: Faltam 250,00 € para obter 5% de desconto!
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - img [ref=e108]
+        - generic [ref=e110]: "0"
+      - generic [ref=e111]:
+        - paragraph [ref=e112]: O seu carrinho está vazio.
+        - link "Continuar a comprar" [ref=e113] [cursor=pointer]:
+          - /url: /pt/collections/all
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - generic [ref=e120]:
+          - paragraph [ref=e121]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e123]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - textbox "E-mail" [ref=e127]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e129] [cursor=pointer]:
+              - generic [ref=e130]: Subscrever
+        - generic [ref=e131]:
+          - paragraph [ref=e132]: ajuda e informações
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - link "contacte-nos" [ref=e135] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e136]:
+              - link "estado da encomenda" [ref=e137] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e138]:
+              - link "apoio ao cliente" [ref=e139] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e140]:
+              - link "aprendizagem" [ref=e141] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e142]:
+              - link "FAQ e ajuda" [ref=e143] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: as nossas lojas
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "comprar em Espanha" [ref=e148] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e149]:
+              - link "loja UE em inglês" [ref=e150] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e151]:
+              - link "loja UE em francês" [ref=e152] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e153]:
+              - link "Loja UE em alemão" [ref=e154] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e155]:
+          - paragraph [ref=e156]: políticas da loja
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - link "sobre nós" [ref=e159] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e160]:
+              - link "política de privacidade" [ref=e161] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e162]:
+              - link "política de envios e devoluções" [ref=e163] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e164]:
+              - link "termos de serviço" [ref=e165] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e167]:
+        - list [ref=e168]:
+          - listitem [ref=e169]:
+            - img "American Express" [ref=e170]
+          - listitem [ref=e179]:
+            - img "Apple Pay" [ref=e180]
+          - listitem [ref=e191]:
+            - img "Bancontact" [ref=e192]
+          - listitem [ref=e199]:
+            - img "Google Pay" [ref=e200]
+          - listitem [ref=e208]:
+            - img "iDEAL Wero" [ref=e209]
+          - listitem [ref=e224]:
+            - img "Klarna" [ref=e225]
+          - listitem [ref=e229]:
+            - img "Maestro" [ref=e230]
+          - listitem [ref=e236]:
+            - img "Mastercard" [ref=e237]
+          - listitem [ref=e243]:
+            - img "PayPal" [ref=e244]
+          - listitem [ref=e250]:
+            - img "Shop Pay" [ref=e251]
+          - listitem [ref=e255]:
+            - img "Union Pay" [ref=e256]
+          - listitem [ref=e262]:
+            - img "Visa" [ref=e263]
+        - generic [ref=e267]:
+          - paragraph [ref=e268]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e269] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e270]:
+            - listitem [ref=e271]:
+              - link "Política de privacidade" [ref=e272] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e273]:
+              - text: •
+              - link "Política de devoluções" [ref=e274] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e275]:
+              - text: •
+              - link "Termos de serviço" [ref=e276] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e277]:
+              - text: •
+              - link "Política de envios" [ref=e278] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e279]:
+              - text: •
+              - link "Preferências de cookies" [ref=e280] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

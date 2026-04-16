@@ -1,0 +1,125 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: /pt#main
+  - main [ref=e13]:
+    - navigation "breadcrumbs" [ref=e17]:
+      - link "Home" [ref=e18] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e19]: /
+      - generic [ref=e20]: Contacto
+    - generic [ref=e31]:
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - paragraph [ref=e37]: Estamos aqui para ajudar!
+          - paragraph [ref=e38]
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - text: Envie-nos uma mensagem para
+              - link "+34 614 410 662" [ref=e41] [cursor=pointer]:
+                - /url: +34 614 410 662
+              - text: para obter a resposta mais rápida.
+            - listitem [ref=e42]:
+              - text: Envie-nos um e-mail para
+              - link "support@aromawax.eu" [ref=e43] [cursor=pointer]:
+                - /url: mailto:support@aromawax.eu
+              - text: e responderemos no prazo de 24 horas.
+            - listitem [ref=e44]: Utilize o nosso chat online no canto inferior direito do site para obter ajuda rápida sobre políticas da loja, produtos, a sua encomenda ou qualquer outra questão.
+            - listitem [ref=e45]:
+              - text: Pode acompanhar a sua encomenda a qualquer momento iniciando sessão na sua conta
+              - link "aqui" [ref=e46] [cursor=pointer]:
+                - /url: /pt/apps/deluxe/account/login
+              - text: .
+          - paragraph [ref=e47]: Não encontrou o que procura? Preencha o nosso formulário online e responderemos o mais rapidamente possível.
+        - generic [ref=e49]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Nome *
+          - textbox "Nome *" [ref=e50]:
+            - /placeholder: ""
+        - generic [ref=e52]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Apelido *
+          - textbox "Apelido *" [ref=e53]:
+            - /placeholder: ""
+        - generic [ref=e55]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Número da encomenda (se aplicável)
+          - textbox "Número da encomenda (se aplicável)" [ref=e56]:
+            - /placeholder: ""
+        - generic [ref=e58]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Endereço de e-mail (o mesmo que utiliza para iniciar sessão na Aroma+Wax) *
+          - textbox "Endereço de e-mail (o mesmo que utiliza para iniciar sessão na Aroma+Wax) *" [ref=e59]:
+            - /placeholder: ""
+        - generic [ref=e61]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Motivo do contacto
+          - combobox "Motivo do contacto" [ref=e62]:
+            - option "Selecione uma opção" [disabled] [selected]
+            - option "Ajuda com encomendas"
+            - option "Faturação"
+            - option "Alteração de envio"
+            - option "Informações sobre produtos"
+            - option "Devolução"
+            - option "Outros motivos"
+        - generic [ref=e64]:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Como podemos ajudar?
+          - textbox "Como podemos ajudar?" [ref=e65]:
+            - /placeholder: ""
+        - generic [ref=e66]:
+          - generic "Procurar ficheiro" [ref=e67] [cursor=pointer]: Ficheiros anexos
+          - generic [ref=e71]:
+            - generic [ref=e72]: Escolha um ficheiro ou arraste-o para aqui.
+            - generic [ref=e73]: "Formatos suportados: PDF, JPG, JPEG, PNG, GIF, SVG"
+            - button "Procurar ficheiro" [ref=e74] [cursor=pointer]
+        - paragraph [ref=e77]: Esperamos falar consigo em breve!
+      - generic [ref=e78]:
+        - generic:
+          - paragraph
+        - button "Enviar" [ref=e79] [cursor=pointer]: Enviar
+        - paragraph
+  - iframe [ref=e81]:
+    - generic [ref=f1e4]:
+      - button [ref=f1e7] [cursor=pointer]:
+        - img [ref=f1e9]
+        - img [ref=f1e12]
+      - generic [ref=f1e15]:
+        - generic [ref=f1e18]:
+          - link "Logo" [ref=f1e19] [cursor=pointer]:
+            - /url: https://admin.shopify.com/store/3rcue2-me
+            - img "Logo" [ref=f1e20]
+          - generic [ref=f1e22]:
+            - generic [ref=f1e23]: pt-fresh-clone-2026-04-15T12-42-06
+            - generic [ref=f1e24]: Draft
+        - generic [ref=f1e26]:
+          - button "Hide bar" [ref=f1e28] [cursor=pointer]:
+            - generic [ref=f1e29]: Hide bar
+          - button "Exit preview" [ref=f1e31] [cursor=pointer]:
+            - generic [ref=f1e32]: Exit preview
+          - button "Copy link" [ref=f1e35] [cursor=pointer]:
+            - img [ref=f1e39]
+            - generic [ref=f1e41]: Copy link

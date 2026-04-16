@@ -1,0 +1,697 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 unidades" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 unidades
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - link "como fazer difusores de varetas e sprays de ambiente" [ref=e91] [cursor=pointer]:
+        - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays
+      - generic [ref=e92]: /
+      - generic [ref=e93]: "Guia de sprays de ambiente: proporções, bases e fragrâncias"
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e97]:
+          - 'heading "Guia de sprays de ambiente: proporções, bases e fragrâncias" [level=1] [ref=e98]'
+          - paragraph [ref=e100]:
+            - time [ref=e104]: 3/12/2025
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - paragraph [ref=e108]
+            - heading "1. O que é realmente um spray de ambiente (e o que não é)" [level=3] [ref=e109]
+            - paragraph [ref=e110]:
+              - text: Em termos formais, um de pulverização
+              - strong [ref=e111]:
+                - text: ambiente é um produto de fragrância não para a pele, concebido para ser pulverizado no ar ou em têxteis e superfícies selecionados. Os quadros regulamentares normalmente colocam os sprays para ambientes na
+                - strong [ref=e112]: Categoria
+                - text: 9 da IFRA (ambientadores e alguns sprays para tecidos), que determina a percentagem máxima
+                - strong [ref=e113]: permitida de fragrância
+                - text: para cada fragrância específica.
+            - strong [ref=e114]:
+              - paragraph [ref=e115]:
+                - strong [ref=e117]: "Um spray ambiente básico tem quatro componentes funcionais:"
+              - strong [ref=e118]: 1. Fase de fragrância
+              - list [ref=e119]:
+                - listitem [ref=e120]: Óleos perfumados, óleos essenciais ou misturas.
+              - strong [ref=e121]: 2. Porta-aviões/base
+              - list [ref=e122]: Álcool (etanol/álcool de perfumista), Base solvente (por exemplo, Augeo® Clean Multi ou comercial "base de pulverização para ambientes"), Água (com solubilizante).
+              - paragraph
+              - strong [ref=e123]: 3. Solubilizante/emulsificante (se necessário)
+              - list [ref=e124]: Comumente Polissorbato-20 ou semelhante.
+              - strong [ref=e125]: 4. Extras funcionais opcionais
+              - list [ref=e126]: Conservante (se houver água presente), Ajustador de pH, Humecante ou outros ativos (para vapores de linho/almofada).
+              - paragraph [ref=e127]
+              - heading "2. Escolher a sua estratégia geral de formulação" [level=3] [ref=e128]
+              - paragraph [ref=e129]:
+                - strong [ref=e131]: "Existem três estratégias principais que os makers sérios utilizam:"
+              - paragraph [ref=e132]:
+                - strong [ref=e133]: 1. Sprays à base de álcool (névoa fina clássica, evaporação rápida)
+              - list [ref=e134]: "Suporte: etanol de alta graduação ou álcool comercial para spray ambiente. Prós: soluções transparentes, secagem rápida, impacto inicial forte, baixo resíduo. Contras: inflamável, mais restrições regulatórias para transporte e armazenamento."
+              - paragraph [ref=e135]
+              - strong [ref=e136]: 2. Sprays à base de solvente (por exemplo, eco-solventes como o Augeo Clean Multi)
+              - list [ref=e137]: "Transportador: solventes especiais otimizados para fragrâncias domésticas. Prós: transparente, não inflamável (para algumas bases), muito boa solubilidade, cheiro forte, demora mais longa. Contras: pode parecer \"mais oleoso\" em algumas superfícies, nem sempre adequado para a pele."
+              - paragraph [ref=e138]
+              - paragraph
+              - strong [ref=e139]: 3. Sprays à base de água com solubilizante (frequentemente para linho e tecido)
+              - list [ref=e140]: "Transportador: água desmineralizada + solubilizante (por exemplo, Polissorbato-20) + uma pequena fração de álcool. Vantagens: menos inflamável, perfil mais macio para têxteis, perceção mais fácil como \"natural\". Contras: precisa de conservantes, pode ser turvo/leitoso, pode deixar um ligeiro resíduo se for usado em excesso."
+              - paragraph [ref=e141]
+              - heading "Quando desenhar uma fórmula, decida primeiro:" [level=3] [ref=e142]:
+                - strong [ref=e144]: "Quando desenhar uma fórmula, decida primeiro:"
+              - list [ref=e145]:
+                - listitem [ref=e146]:
+                  - generic [ref=e147]:
+                    - strong [ref=e148]: "Alvo:"
+                    - text: apenas ar, ar + têxteis, ou multisuperfície.
+                - listitem [ref=e149]:
+                  - generic [ref=e150]:
+                    - strong [ref=e151]: "Posição da marca:"
+                    - text: eco/solvente, fragrância fina ao estilo alcoólico, ou industrial de alto impacto.
+                - listitem [ref=e152]:
+                  - generic [ref=e153]:
+                    - strong [ref=e154]: "Restrições legais:"
+                    - text: limites IFRA, rotulagem CLP/GHS (EU/UK), regulamentos de VOC (por exemplo, CARB nos EUA).
+              - heading [level=3] [ref=e155]
+              - 'heading "3. Carga de fragrância: quanto óleo de fragrância deve usar?" [level=3] [ref=e156]':
+                - generic [ref=e157]: "3. Carga de fragrância: quanto óleo de fragrância deve usar?"
+              - paragraph [ref=e158]:
+                - generic [ref=e161]: 3.1 Intervalos típicos
+              - heading "A maioria dos fornecedores profissionais recomenda óleo de fragrância 3–10% em sprays para ambiente:" [level=3] [ref=e162]
+              - list [ref=e163]: 3–5% para névoas subtis, óleos delicados ou fortes. 5–8% para pulverizações gerais de ambiente. 8–10% para um impacto mais forte, desde que o limite IFRA para essa fragrância permita.
+              - paragraph [ref=e164]:
+                - text: Para certas bases solventes como o Augeo® Clean Multi, algumas fórmulas de difusores usam até 15–25% de fragrância, principalmente para difusores de palheta.
+                - generic [ref=e165]: Para sprays de ambiente, normalmente não é preciso ir tão alto; 3–10% é normalmente suficiente.
+              - paragraph [ref=e166]:
+                - strong [ref=e167]: 3.2 Verifique sempre os limites da IFRA
+              - paragraph [ref=e168]:
+                - text: Cada óleo perfumado vem acompanhado de um
+                - strong [ref=e169]: certificado IFRA
+                - generic [ref=e170]: indicando a percentagem máxima permitida para cada categoria (Categoria 9 = ambientadores, alguns sprays para tecidos). Guias profissionais recomendam vivamente respeitar estes limites ao escolher a sua carga.
+              - paragraph [ref=e171]: Se o seu objetivo for 8% mas o máximo IFRA Categoria 9 for 3%, deve manter-se em ou abaixo dos 3%.
+              - paragraph [ref=e172]
+              - 'heading "4. Bases: etanol, bases solventes e sistemas de água" [level=3] [ref=e173]'
+              - paragraph [ref=e174]:
+                - strong [ref=e175]: 4.1 Bases alcoólicas (etanol / álcool de perfumista)
+              - paragraph [ref=e176]:
+                - text: Várias receitas profissionais de sprays para ambiente/linho usam uma percentagem
+                - strong [ref=e177]: pequena de álcool + água + solubilizante
+                - generic [ref=e178]: ", mas num sistema de álcool puro podes manter tudo muito simples: álcool + fragrância."
+              - paragraph [ref=e179]:
+                - strong [ref=e180]: "Por que usá-lo:"
+              - list [ref=e181]: Evaporação muito rápida → acabamento crocante e não pegajoso. Geralmente é transparente se a sua fragrância for compatível. Experiência clássica, semelhante a um perfume.
+              - paragraph [ref=e182]:
+                - strong [ref=e183]: "Pontos de observação:"
+              - list [ref=e184]: A inflamabilidade → afeta o transporte e a rotulagem. Alguns clientes não gostam do cheiro a etanol no spray (normalmente desaparece em segundos).
+              - heading [level=3] [ref=e185]:
+                - generic:
+                  - strong
+              - heading "Fórmula inicial prática (lotes de 100 g / 100 ml)" [level=3] [ref=e186]:
+                - strong [ref=e188]: Fórmula inicial prática (lotes de 100 g / 100 ml)
+              - paragraph [ref=e189]:
+                - generic [ref=e190]:
+                  - strong [ref=e191]: "Alvo:"
+                  - text: spray para ambientes de ar (sem uso direto de tecido em têxteis delicados).
+              - paragraph [ref=e192]:
+                - strong [ref=e193]: "Fórmula (100 g):"
+              - list [ref=e194]: Óleo perfumado 5% (5 g) Álcool de perfumista 95% (95 g)
+              - paragraph [ref=e195]:
+                - strong [ref=e196]: "Passos:"
+              - list [ref=e197]: Pese óleo perfumado num béquer. Adicione o álcool do perfumista, mexa até estar completamente limpo. Deixe repousar 24–48 horas (ou mais) para permitir que as microbolhas escapem e o cheiro "se apanhe". Filtre se necessário e depois engarrafe atomizadores de névoa fina.
+              - paragraph [ref=e198]:
+                - strong [ref=e199]: "Pontos de observação:"
+              - list [ref=e200]:
+                - text: Para um aroma mais forte, aumente até 8–10% de fragrância, se permitido pela IFRA Categoria 9 e pelas considerações de flashpoint.
+                - generic [ref=e201]: Para um spray de linho mais macio, reduza para 3–4% e teste nos tecidos.
+              - paragraph [ref=e202]
+              - paragraph [ref=e203]:
+                - generic [ref=e205]:
+                  - strong [ref=e206]: 4,2
+                  - strong [ref=e207]: Bases Eco-solventes (Ágeo® e bases em spray de sala comercial)
+              - paragraph [ref=e208]:
+                - strong [ref=e210]: "O Augeo Clean Multi é um solvente de base biológica amplamente utilizado em difusores de palhetas e sprays para sala/linho. Tem:"
+              - list [ref=e211]:
+                - listitem [ref=e212]:
+                  - strong [ref=e213]: Muito bom poder solubilizante para óleos perfumados.
+                - listitem [ref=e214]:
+                  - strong [ref=e215]: Perfil de baixo odor.
+                - listitem [ref=e216]:
+                  - strong [ref=e217]: Classificação de não inflamáveis em muitos mercados.
+                - listitem [ref=e218]:
+                  - strong [ref=e219]: Estado compatível com COV em várias jurisdições (por exemplo, carregamento de cheiro compatível com CARB).
+              - paragraph [ref=e220]: "Para sprays de ambiente, 3–10% de fragrância numa base do tipo Augeo é geralmente suficiente. Muitas \"bases de pulverização ecológicas\" dos fornecedores de velas são construídas com lógica semelhante: biosolvente + modificadores, concebidos para 3–10% de fragrância."
+              - paragraph [ref=e221]:
+                - strong [ref=e223]: "Por que usá-lo:"
+              - list [ref=e224]:
+                - listitem [ref=e225]:
+                  - strong [ref=e226]: Excelente clareza e estabilidade com fragrância.
+                - listitem [ref=e227]:
+                  - strong [ref=e228]: Frequentemente não perigosa ou de baixo risco, por vezes sem necessidade de rotulagem CLP em cargas baixas.
+                - listitem [ref=e229]:
+                  - strong [ref=e230]: Bom aroma duradouro e evaporação lenta e uniforme.
+              - paragraph [ref=e231]:
+                - strong [ref=e233]: "Pontos de observação:"
+              - list [ref=e234]:
+                - listitem [ref=e235]:
+                  - strong [ref=e236]: Sente-se um pouco menos "seco" do que álcool puro em têxteis.
+                - listitem [ref=e237]:
+                  - strong [ref=e238]: Ainda requer avaliação CLP/IFRA com cargas mais elevadas de fragrância.
+              - paragraph [ref=e239]
+              - heading "Fórmula inicial prática (lotes de 100 g / 100 ml)" [level=3] [ref=e240]:
+                - strong [ref=e241]: Fórmula inicial prática (lotes de 100 g / 100 ml)
+              - paragraph [ref=e242]:
+                - generic [ref=e243]:
+                  - strong [ref=e244]: "Alvo:"
+                  - text: Spray têxtil leve e ambiente com base não inflamável.
+              - paragraph [ref=e245]:
+                - strong [ref=e246]: "Fórmula (100 g):"
+              - list [ref=e247]:
+                - listitem [ref=e248]: 7% de óleo perfumado (7 g)
+                - listitem [ref=e249]: 93% Eco Room Spray base ou Augeo Clean Multi (93 g)
+              - paragraph [ref=e250]:
+                - strong [ref=e251]: "Passos:"
+              - list [ref=e252]:
+                - listitem [ref=e253]: Pese o óleo perfumado.
+                - listitem [ref=e254]: Adicione à base ecológica (Augeo ou similar), mexa lentamente até a mistura ficar homogénea e clara.
+                - listitem [ref=e255]: Descanse entre 24 e 72 horas para verificar se há separação ou turbulência.
+                - listitem [ref=e256]: Embotellar sprays de gatilho ou pulverizadores finos.
+              - paragraph [ref=e257]:
+                - strong [ref=e258]: "Pontos de observação:"
+              - list [ref=e259]:
+                - listitem [ref=e260]: Podes escalar fragrâncias entre 3-10%; Para fragrâncias domésticas, cargas mais elevadas (15–20%) são típicas dos difusores, não sendo necessárias para sprays.
+                - listitem [ref=e261]:
+                  - generic [ref=e262]: Verifica sempre novamente a classificação CLP quando mudares a percentagem.
+              - paragraph [ref=e263]
+              - paragraph [ref=e264]:
+                - strong [ref=e266]: 4.3 Sistemas à base de água com solubilizador
+              - paragraph [ref=e267]:
+                - strong [ref=e268]: "Os sprays à base de água combinam:"
+              - list [ref=e269]: Água (geralmente desmineralizada ou destilada). Óleo perfumado. Solubilizante/emulsificante (frequentemente Polissorbato-20). Conservante opcional (por exemplo, benzoato de sódio) quando há água presente.
+              - paragraph [ref=e270]:
+                - text: "Prós: Menor teor alcoólico."
+                - generic [ref=e271]: Posicionamento mais suave e amigo dos têxteis (dependendo da fragrância).
+              - paragraph [ref=e272]:
+                - text: "Pontos de observação: Alguns perfumistas notam que grandes frações de água aumentam os problemas de solubilidade; Muitos ingredientes de fragrância não são solúveis em água, e os resíduos de solubilizantes podem parecer pegajosos ou escorregadios em superfícies e pavimentos."
+                - generic [ref=e273]: Teste sempre nos tecidos para evitar manchas ou resíduos.
+              - paragraph [ref=e274]
+              - heading "Fórmula inicial prática (lotes de 100 g / 100 ml)" [level=3] [ref=e275]:
+                - strong [ref=e277]: Fórmula inicial prática (lotes de 100 g / 100 ml)
+              - paragraph [ref=e278]:
+                - generic [ref=e279]:
+                  - strong [ref=e280]: "Alvo:"
+                  - text: "Linho e névoa de ambiente com menos álcool. Muitos fornecedores recomendam conservante 1:2:4: Polissorbato-20: Óleo perfumado em peso para obter uma solução clara ou quase transparente."
+              - paragraph [ref=e281]: Primeiro, precisa de decidir que percentagem de óleo perfumado quer adicionar — normalmente entre 3–10%. Depois, determine o peso total do seu sistema, que normalmente é igual ao volume da sua garrafa.
+              - list [ref=e282]:
+                - listitem [ref=e283]:
+                  - generic [ref=e284]:
+                    - strong [ref=e285]: Polissorbato-20
+                    - text: = FO,g x 0,5
+                - listitem [ref=e286]:
+                  - generic [ref=e287]:
+                    - strong [ref=e288]: Conservante
+                    - text: = FO,g x 0,5
+                - listitem [ref=e289]:
+                  - generic [ref=e290]:
+                    - strong [ref=e291]: Água
+                    - text: = 100 - (FO,g + Polissorbato-20,g + Conservante,g)
+              - paragraph [ref=e292]:
+                - strong [ref=e293]: "Fórmula (100 g):"
+              - list [ref=e294]:
+                - listitem [ref=e295]: 4g de óleo perfumado (4%)
+                - listitem [ref=e296]: 2g Polissorbato-20 (2%)
+                - listitem [ref=e297]: 1g de conservante (1%)
+                - listitem [ref=e298]: 93g de água destilada (93%)
+              - paragraph [ref=e299]:
+                - strong [ref=e300]: "Passos:"
+              - list [ref=e301]:
+                - listitem [ref=e302]: Misturar óleo perfumado e Polissorbato-20; Mexa até que a mistura fique uniforme e o mais clara possível.
+                - listitem [ref=e303]: Adicione o conservante conforme as instruções do fornecedor.
+                - listitem [ref=e304]: Adicione água lentamente enquanto mexe.
+              - paragraph [ref=e305]:
+                - strong [ref=e306]: "Pontos de observação:"
+              - list [ref=e307]:
+                - listitem [ref=e308]: Espere um aspeto ligeiramente leitoso; isto é normal em muitos sistemas de polissorbato e é frequentemente escondido por frascos opacos ou com fosco.
+              - list [ref=e309]:
+                - listitem [ref=e310]: Realiza sempre testes de estabilidade e um teste de tecido. (O teste deve ser realizado em tecido branco)
+              - heading [level=3] [ref=e311]
+              - 'heading "5. Trabalhar com óleos perfumados: compatibilidade, resistência e segurança" [level=3] [ref=e312]'
+              - paragraph [ref=e313]:
+                - strong [ref=e315]: 5.1 Verificação da IFRA e das taxas de utilização
+              - paragraph [ref=e316]:
+                - strong [ref=e317]: "Para cada fragrância:"
+              - list [ref=e318]:
+                - listitem [ref=e319]:
+                  - text: Obtenha o
+                  - strong [ref=e320]: certificado IFRA
+                  - text: junto do seu fornecedor.
+                - listitem [ref=e321]:
+                  - text: Encontre o limite para
+                  - strong [ref=e322]: Categoria 9
+                  - text: (sprays para ambientes, ambientadores).
+                - listitem [ref=e323]: Certifica-te de que a percentagem escolhida está dentro ou abaixo desse limite.
+              - paragraph [ref=e324]:
+                - strong [ref=e326]: 5.2 Solubilidade e clareza
+              - list [ref=e327]:
+                - listitem [ref=e328]: Alguns óleos de fragrância contêm ingredientes altamente polares e os emulsionantes → mais fáceis de solubilizar.
+                - listitem [ref=e329]: Outros são ricos em notas de base intensas (por exemplo, resinas, ouds, patchouli) → mais difíceis de solubilizar e mais propensos a fazer neblina.
+              - paragraph [ref=e330]:
+                - strong [ref=e332]: "Se notar turvação / separação:"
+              - strong [ref=e333]: "No álcool:"
+              - list [ref=e334]: Reduzir o teor de água (se houver), Aumentar a graduação alcoólica, Reduz ligeiramente a carga de fragrância.
+              - strong [ref=e335]: "Na água + Polisorbato:"
+              - list [ref=e336]: Aumentar o Polissorbato, Reduzir a carga de fragrância, Experimenta um solubilizante ou fragrância diferente.
+              - strong [ref=e337]: "Em bases eco-solventes:"
+              - list [ref=e338]: Verifique a carga máxima recomendada pelo fornecedor, Experimenta uma eco-base ou família de fragrâncias diferente.
+              - paragraph [ref=e339]
+              - 'heading "6. Processo e testes: obtenção de resultados fiáveis" [level=3] [ref=e340]'
+              - paragraph [ref=e341]:
+                - strong [ref=e343]: 6.1 Ordem e técnica de mistura
+              - paragraph [ref=e344]:
+                - generic [ref=e345]:
+                  - strong [ref=e346]: "Fase A: fragrância"
+                  - strong [ref=e347]: + solubilizante (se utilizado)
+              - list [ref=e348]:
+                - listitem [ref=e349]: Misture até ficar claro e uniforme.
+              - paragraph [ref=e350]:
+                - generic [ref=e351]:
+                  - strong [ref=e352]: "Fase B:"
+                  - strong [ref=e353]: solvente/base
+              - list [ref=e354]:
+                - listitem [ref=e355]: Adicione lentamente enquanto mexe suavemente para evitar espuma excessiva.
+              - paragraph [ref=e356]:
+                - strong [ref=e358]: "Fase C:"
+                - strong [ref=e359]: de água (se aplicável)
+              - list [ref=e360]:
+                - listitem [ref=e361]: Adicione várias porções, misturando bem.
+              - paragraph [ref=e362]:
+                - generic [ref=e363]:
+                  - strong [ref=e364]: "Fase D:"
+                  - strong [ref=e365]: aditivos/conservantes
+              - list [ref=e366]:
+                - listitem [ref=e367]: Adicione no final, de acordo com as diretrizes do fornecedor.
+              - paragraph [ref=e368]:
+                - text: O que mais é importante?
+                - strong [ref=e369]: Mistura lenta, tempo de descanso e pequenos lotes piloto
+                - generic [ref=e370]: antes de aumentar a escala.
+              - paragraph [ref=e371]:
+                - strong [ref=e373]: 6.2 Verificações de estabilidade
+              - paragraph [ref=e374]:
+                - strong [ref=e375]: "Antes de considerares uma fórmula \"final\", faz testes básicos:"
+              - list [ref=e376]:
+                - listitem [ref=e377]:
+                  - generic [ref=e378]:
+                    - strong [ref=e379]: Verificação de claridade de 24–72 horas
+                    - text: à temperatura ambiente.
+                - listitem [ref=e380]:
+                  - strong [ref=e381]: "Teste de congelação-descongelação:"
+                  - generic [ref=e382]: 24 horas no frigorífico/congelador, depois volta à temperatura ambiente. Observe se há separação, sedimentos ou neblina permanente.
+                - listitem [ref=e383]:
+                  - generic [ref=e384]:
+                    - strong [ref=e385]: "Teste de agitação:"
+                    - text: Sacode vigorosamente, deixe de pé. A espuma persistente após várias horas pode incomodar os utilizadores.
+              - paragraph [ref=e386]:
+                - strong [ref=e388]: 6.3 Testes de desempenho
+              - paragraph [ref=e389]:
+                - strong [ref=e390]: "Teste numa sala de tamanho realista:"
+              - strong [ref=e391]: 1–2 pulverizações à distância padrão (30–50 cm do ar ou dos têxteis).
+              - strong [ref=e392]: "O que é importante:"
+              - list [ref=e393]: Impacto inicial (notas agudas), Desenvolvimento após 5, 15, 30 minutos, Cheiro residual após 2–4 horas.
+              - paragraph [ref=e394]:
+                - strong [ref=e395]: "Sobre têxteis:"
+              - list [ref=e396]: Pulverize à distância (30–50 cm) sobre uma amostra branca de algodão.
+              - strong [ref=e397]: "Verifique por:"
+              - list [ref=e398]: Manchas/descoloração, Marcas oleosas, Resíduo ou pegajosidade após a secagem.
+              - heading [level=3] [ref=e399]
+              - heading "7. Considerações de segurança, CLP/IFRA e COV" [level=3] [ref=e400]
+              - paragraph [ref=e401]:
+                - strong [ref=e403]: 7.1 CLP/GHS e rotulagem (UE/Reino Unido)
+              - paragraph [ref=e404]:
+                - text: Para a UE/Reino Unido, se o seu produto for classificado como perigoso (por exemplo, devido a perigos de fragrância), poderá precisar de uma etiqueta
+                - strong [ref=e405]: CLP
+                - generic [ref=e406]:
+                  - strong [ref=e407]: .
+                  - text: Por exemplo, guias para trabalhar com
+                - strong [ref=e408]: Augeo + fragrância (até 25%)
+                - generic [ref=e409]: mostram como as classificações de perigo mudam com a carga e fornecem modelos de etiquetas.
+              - paragraph [ref=e410]:
+                - text: Algumas bases comerciais de spray para ambientes e bases de linho são formuladas para serem
+                - strong [ref=e411]: não perigosas a cargas típicas de fragrância
+                - generic [ref=e412]: ", o que significa que podem não necessitar de um rótulo CLP por si só, mas deve sempre reavaliar após adicionar fragrância."
+              - paragraph [ref=e413]:
+                - strong [ref=e414]: 7.2 Conformidade com a IFRA
+              - paragraph [ref=e415]:
+                - text: Os sprays para ambientes normalmente enquadram-se
+                - generic [ref=e416]:
+                  - text: IFRA
+                  - strong [ref=e417]: Categoria 9
+                - generic [ref=e418]: ":"
+              - list [ref=e419]:
+                - text: O limite IFRA para cada fragrância (Categoria 9) é o
+                - strong [ref=e420]: teto absoluto
+                - generic [ref=e421]: para a sua percentagem de fragrância na fórmula.
+                - text: Se vender internacionalmente, guarde documentação compatível com IFRA (Formula, certificações IFRA, SDS) nos seus ficheiros de lote.
+              - paragraph [ref=e422]:
+                - strong [ref=e424]: 7.3 COV e inflamabilidade
+              - paragraph [ref=e425]:
+                - text: Os sprays à base de álcool são
+                - strong
+                - text: inflamáveis e sujeitos às regras de transporte (ADR, IATA). Bases ecosolventes como o Augeo Clean Multi são concebidas como
+                - strong [ref=e426]: opções de
+                - text: não inflamáveis e com baixo teor de COV que cumprem as regulamentações de COV (por exemplo, CARB), permitindo ainda assim cargas fragrativas relativamente elevadas nos produtos de cuidado do ar.
+              - heading [level=3] [ref=e427]
+              - 'heading "8. Resolução de problemas: problemas com sprays na sala comum" [level=3] [ref=e428]'
+              - paragraph [ref=e429]:
+                - strong [ref=e431]: 8.1 Aparência nublada ou leitosa
+              - paragraph [ref=e432]:
+                - strong [ref=e433]: "Causas possíveis:"
+              - list [ref=e434]: Solubilizante insuficiente para a carga de fragrância. Componentes de fragrância incompatíveis (especialmente resinas/notas de base). Demasiada água num sistema com ingredientes lipofílicos.
+              - paragraph [ref=e435]:
+                - strong [ref=e436]: "Correção:"
+              - list [ref=e437]: Aumente gradualmente o solubilizador (por exemplo, de 4% para 5–6%). Reduza ligeiramente a percentagem de fragrância (por exemplo, de 5% para 3–4%). Muda para uma base diferente (por exemplo, eco-solvente) ou para uma fragrância diferente.
+              - paragraph [ref=e438]:
+                - strong [ref=e440]: 8.2 Separação / "camada de óleo" por cima
+              - paragraph [ref=e441]:
+                - strong [ref=e442]: "Causas possíveis:"
+              - list [ref=e443]: Fragrância não totalmente solubilizada. Ordem de mistura incorreta ou tempo de mistura insuficiente.
+              - paragraph [ref=e444]:
+                - strong [ref=e445]: "Correção:"
+              - list [ref=e446]:
+                - listitem [ref=e447]:
+                  - generic [ref=e448]: Pré-misture fragrância + solubilizante cuidadosamente antes de adicionar água ou base principal.
+                - listitem [ref=e449]: Permita um período de descanso mais longo e volte a testar.
+                - listitem [ref=e450]: Se a separação persistir após 48–72 horas, ajuste as proporções ou altere solubilizador/base.
+              - paragraph [ref=e451]:
+                - strong [ref=e453]: 8.3 Chão pegajoso ou resíduos
+              - paragraph [ref=e454]:
+                - text: Os perfumistas notam que
+                - strong [ref=e455]: pulverizações pesadas em água com solubilizantes não voláteis
+                - generic [ref=e456]:
+                  - strong
+                  - text: podem deixar resíduos pegajosos/escorregadios nas superfícies, pois o solubilizante fica quando a água evapora.
+              - paragraph [ref=e457]:
+                - strong [ref=e458]: "Correção:"
+              - list [ref=e459]:
+                - listitem [ref=e460]:
+                  - generic [ref=e461]: Reduza o solubilizador total.
+                - listitem [ref=e462]: Use mais transportadores voláteis (etanol ou eco-solvente).
+                - listitem [ref=e463]:
+                  - generic [ref=e464]: Ajuste as instruções ("pulverize no ar, não diretamente no chão").
+              - paragraph [ref=e465]:
+                - strong [ref=e467]: 8.4 Cheiro fraco
+              - paragraph [ref=e468]:
+                - strong [ref=e469]: "Causas possíveis:"
+              - list [ref=e470]:
+                - listitem [ref=e471]: A percentagem de fragrância é demasiado baixa.
+                - listitem [ref=e472]: A fragrância em si tem baixa difusão no ar.
+                - listitem [ref=e473]: Base demasiado "pesada", baixa evaporação.
+              - paragraph [ref=e474]:
+                - strong [ref=e475]: "Correção:"
+              - list [ref=e476]:
+                - listitem [ref=e477]: Aumentar a carga de fragrância dentro dos limites IFRA (por exemplo, de 3% → 5% → 7%).
+                - listitem [ref=e478]: Experimenta uma base diferente (mais volátil).
+                - listitem [ref=e479]: Mude para famílias de fragrâncias mais difusas (cítricos, aromáticos, notas aldehidicas).
+              - paragraph [ref=e480]
+              - heading "9. Exemplo de fluxo de trabalho de desenvolvimento para um novo spray para ambientes" [level=3] [ref=e481]
+              - strong [ref=e483]: Defina o briefing
+              - list [ref=e484]:
+                - listitem [ref=e485]:
+                  - text: "Alvo: \"Citrinos – spray de cozinha herbal, forte mas não avassalador, à base de álcool.\""
+                  - generic:
+                    - strong
+              - paragraph [ref=e486]:
+                - strong [ref=e488]: Consulte o limite da Categoria 9 da IFRA para a fragrância escolhida
+              - list [ref=e489]:
+                - text: Suponha que o IFRA máximo é 8%.
+                - generic:
+                  - strong
+              - paragraph [ref=e490]:
+                - strong [ref=e492]: Escolha a estratégia base
+              - list [ref=e493]: Álcool do perfumista, gama de teste de fragrância 5–7%.
+              - paragraph [ref=e494]:
+                - strong [ref=e496]: Ensaios iniciais de conceção (pequenos lotes, 50–100 g)
+              - list [ref=e497]: "Ensaio A: 5% fragrância, 95% álcool. Ensaio B: 7% fragrância, 93% álcool."
+              - paragraph [ref=e498]:
+                - strong [ref=e500]: Misturar, descansar 48 horas, avaliar
+              - list [ref=e501]: Verifica a clareza, sem separação, sem sedimentos. Faz testes de desempenho numa sala real.
+              - paragraph [ref=e502]:
+                - strong [ref=e504]: Ajustar
+              - list [ref=e505]:
+                - listitem [ref=e506]: Se o Teste A for demasiado fraco e o Teste B for perfeito, ficas com 7%.
+                - listitem [ref=e507]: Se ambos forem agressivos, desça para 4–5% e/ou ajuste a escolha de fragrância (perfil mais suave).
+              - strong [ref=e509]: Fórmula do documento + dados de lote
+              - list [ref=e510]:
+                - text: "Regista: pesos, temperaturas, passos de mistura, observações."
+                - generic:
+                  - strong
+              - paragraph [ref=e511]:
+                - strong [ref=e513]: Prepare a documentação CLP/label e IFRA
+              - list [ref=e514]: Calcule os riscos para a percentagem escolhida usando dados do fornecedor e quaisquer calculadoras CLP para o seu sistema base.
+          - strong [ref=e516]:
+            - text: Partilhar
+            - list [ref=e517]:
+              - listitem [ref=e518]:
+                - link "Compartilhar em Facebook" [ref=e519] [cursor=pointer]:
+                  - /url: "https://www.facebook.com/sharer.php?u=https://aromawax.eu/pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils\n"
+              - listitem [ref=e521]:
+                - link "Compartilhar em Twitter" [ref=e522] [cursor=pointer]:
+                  - /url: "https://twitter.com/intent/tweet?text=Guia%20de%20sprays%20de%20ambiente:%20propor%C3%A7%C3%B5es,%20bases%20e%20fragr%C3%A2ncias&url=https://aromawax.eu/pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils\n"
+              - listitem [ref=e524]:
+                - link "Compartilhar em Pinterest" [ref=e525] [cursor=pointer]:
+                  - /url: "https://pinterest.com/pin/create/button/?url=https://aromawax.eu/pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils&media=https://aromawax.eu/cdn/shop/articles/IMG_6412_f02928b2-7bcf-4572-9d2f-3db40c208c94.jpg?v=1774367016&width=800&description=\n"
+              - listitem [ref=e527]:
+                - link "Compartilhar por e-mail" [ref=e528] [cursor=pointer]:
+                  - /url: "mailto:?&subject=Guia de sprays de ambiente: proporções, bases e fragrâncias&body=https://aromawax.eu/pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils\n"
+        - strong
+      - strong
+    - generic [ref=e531]:
+      - strong [ref=e533]:
+        - generic [ref=e534]:
+          - generic [ref=e535]:
+            - generic [ref=e536]: como fazer velas
+            - generic [ref=e537]:
+              - 'link "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e538] [cursor=pointer]':
+                - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+                - 'img "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e539]'
+              - 'heading "Comparação das melhores ceras para velas: soja vs coco vs parafina" [level=3] [ref=e540]':
+                - 'link "Comparação das melhores ceras para velas: soja vs coco vs parafina" [ref=e541] [cursor=pointer]':
+                  - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+              - paragraph [ref=e542]: “Não existe uma única cera “ideal” para todas as utilizações — cada tipo de cera (soja, coco, par...
+            - list [ref=e543]:
+              - listitem [ref=e544]:
+                - 'link "Carga de fragrância em velas explicada: quanto óleo deve usar?" [ref=e545] [cursor=pointer]':
+                  - /url: /pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use
+              - listitem [ref=e546]:
+                - 'link "Como criar a sua primeira coleção de velas: passos-chave para o sucesso" [ref=e547] [cursor=pointer]':
+                  - /url: /pt/blogs/how-to-make-candles/how-to-make-your-first-candle-collection-key-steps-to-success
+              - listitem [ref=e548]:
+                - link "Como escolher o pavio perfeito para a sua vela" [ref=e549] [cursor=pointer]:
+                  - /url: /pt/blogs/how-to-make-candles/how-to-choose-the-perfect-wick-for-your-candle
+              - listitem [ref=e550]:
+                - link "Como fazer velas em recipiente - guia de fabrico de velas" [ref=e551] [cursor=pointer]:
+                  - /url: /pt/blogs/how-to-make-candles/how-to-make-container-candles-candle-making-guide
+              - listitem [ref=e552]:
+                - 'link "Como fazer velas: guia prático para principiantes" [ref=e553] [cursor=pointer]':
+                  - /url: /pt/blogs/how-to-make-candles/how-to-make-candles-a-practical-guide-for-beginners
+            - link "Ver tudo >" [ref=e554] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-candles
+          - generic [ref=e555]:
+            - generic [ref=e556]: como fazer difusores de varetas e sprays de ambiente
+            - generic [ref=e557]:
+              - 'link "Room Spray Guide: Ratios, Bases, and Fragrance Oils" [ref=e558] [cursor=pointer]':
+                - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils
+                - 'img "Room Spray Guide: Ratios, Bases, and Fragrance Oils" [ref=e559]'
+              - 'heading "Guia de sprays de ambiente: proporções, bases e fragrâncias" [level=3] [ref=e560]':
+                - 'link "Guia de sprays de ambiente: proporções, bases e fragrâncias" [ref=e561] [cursor=pointer]':
+                  - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils
+              - paragraph [ref=e562]: 1. O que é realmente um spray de ambiente (e o que não é) Em termos formais, um de pulverização ...
+            - list [ref=e563]:
+              - listitem [ref=e564]:
+                - link "Como escolher recipientes para difusores de varetas e sprays de ambiente" [ref=e565] [cursor=pointer]:
+                  - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-vessels-for-reed-diffusers-and-room-sprays
+              - listitem [ref=e566]:
+                - link "Como escolher bases para difusores e sprays de ambiente" [ref=e567] [cursor=pointer]:
+                  - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-bases-for-diffusers-and-room-sprays
+            - link "Ver tudo >" [ref=e568] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays
+          - generic [ref=e569]:
+            - list
+            - link "Ver tudo >" [ref=e570] [cursor=pointer]:
+              - /url: /pt/blogs/news
+      - strong
+    - strong [ref=e571]:
+      - generic [ref=e575]:
+        - generic [ref=e576]:
+          - generic [ref=e578]:
+            - paragraph [ref=e579]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+            - paragraph [ref=e581]: Subscreva a nossa newsletter e receba as melhores ofertas.
+            - generic [ref=e583]:
+              - generic [ref=e584]:
+                - textbox "E-mail" [ref=e585]:
+                  - /placeholder: " "
+                - generic: E-mail
+              - button "Subscrever" [ref=e587] [cursor=pointer]:
+                - generic [ref=e588]: Subscrever
+          - generic [ref=e589]:
+            - paragraph [ref=e590]: ajuda e informações
+            - list [ref=e591]:
+              - listitem [ref=e592]:
+                - link "contacte-nos" [ref=e593] [cursor=pointer]:
+                  - /url: /pt/pages/contact
+              - listitem [ref=e594]:
+                - link "estado da encomenda" [ref=e595] [cursor=pointer]:
+                  - /url: /pt/pages/order-status
+              - listitem [ref=e596]:
+                - link "apoio ao cliente" [ref=e597] [cursor=pointer]:
+                  - /url: /pt/pages/customer-support
+              - listitem [ref=e598]:
+                - link "aprendizagem" [ref=e599] [cursor=pointer]:
+                  - /url: /pt/blogs/how-to-make-candles
+              - listitem [ref=e600]:
+                - link "FAQ e ajuda" [ref=e601] [cursor=pointer]:
+                  - /url: /pt/pages/faqs
+          - generic [ref=e602]:
+            - paragraph [ref=e603]: as nossas lojas
+            - list [ref=e604]:
+              - listitem [ref=e605]:
+                - link "comprar em Espanha" [ref=e606] [cursor=pointer]:
+                  - /url: https://aromawax.eu/es
+              - listitem [ref=e607]:
+                - link "loja UE em inglês" [ref=e608] [cursor=pointer]:
+                  - /url: https://aromawax.eu/
+              - listitem [ref=e609]:
+                - link "loja UE em francês" [ref=e610] [cursor=pointer]:
+                  - /url: https://aromawax.eu/fr
+              - listitem [ref=e611]:
+                - link "Loja UE em alemão" [ref=e612] [cursor=pointer]:
+                  - /url: http://aromawax.eu/de
+          - generic [ref=e613]:
+            - paragraph [ref=e614]: políticas da loja
+            - list [ref=e615]:
+              - listitem [ref=e616]:
+                - link "sobre nós" [ref=e617] [cursor=pointer]:
+                  - /url: /pt/pages/about-us
+              - listitem [ref=e618]:
+                - link "política de privacidade" [ref=e619] [cursor=pointer]:
+                  - /url: /pt/policies/privacy-policy
+              - listitem [ref=e620]:
+                - link "política de envios e devoluções" [ref=e621] [cursor=pointer]:
+                  - /url: /pt/policies/shipping-policy
+              - listitem [ref=e622]:
+                - link "termos de serviço" [ref=e623] [cursor=pointer]:
+                  - /url: /pt/policies/terms-of-service
+        - generic [ref=e625]:
+          - list [ref=e626]:
+            - listitem [ref=e627]:
+              - img "American Express" [ref=e628]
+            - listitem [ref=e637]:
+              - img "Apple Pay" [ref=e638]
+            - listitem [ref=e649]:
+              - img "Bancontact" [ref=e650]
+            - listitem [ref=e657]:
+              - img "Google Pay" [ref=e658]
+            - listitem [ref=e666]:
+              - img "iDEAL Wero" [ref=e667]
+            - listitem [ref=e682]:
+              - img "Klarna" [ref=e683]
+            - listitem [ref=e687]:
+              - img "Maestro" [ref=e688]
+            - listitem [ref=e694]:
+              - img "Mastercard" [ref=e695]
+            - listitem [ref=e701]:
+              - img "PayPal" [ref=e702]
+            - listitem [ref=e708]:
+              - img "Shop Pay" [ref=e709]
+            - listitem [ref=e713]:
+              - img "Union Pay" [ref=e714]
+            - listitem [ref=e720]:
+              - img "Visa" [ref=e721]
+          - generic [ref=e725]:
+            - paragraph [ref=e726]:
+              - text: © 2026, Aroma + Wax.
+              - link "Com tecnologia Shopify" [ref=e727] [cursor=pointer]:
+                - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+            - list [ref=e728]:
+              - listitem [ref=e729]:
+                - link "Política de privacidade" [ref=e730] [cursor=pointer]:
+                  - /url: /pt/policies/privacy-policy
+              - listitem [ref=e731]:
+                - text: •
+                - link "Política de devoluções" [ref=e732] [cursor=pointer]:
+                  - /url: /pt/policies/refund-policy
+              - listitem [ref=e733]:
+                - text: •
+                - link "Termos de serviço" [ref=e734] [cursor=pointer]:
+                  - /url: /pt/policies/terms-of-service
+              - listitem [ref=e735]:
+                - text: •
+                - link "Política de envios" [ref=e736] [cursor=pointer]:
+                  - /url: /pt/policies/shipping-policy
+              - listitem [ref=e737]:
+                - text: •
+                - link "Preferências de cookies" [ref=e738] [cursor=pointer]:
+                  - /url: /pt/policies/#shopifyReshowConsentBanner
+  - strong

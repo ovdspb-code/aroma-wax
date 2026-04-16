@@ -1,0 +1,189 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Cookie consent" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Cookie consent" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: We and our partners, including Shopify, use cookies and other technologies to personalize your experience, show you ads, and perform analytics, and we will not use cookies or other technologies for these purposes unless you accept them. Learn more in our
+          - link "Privacy Policy" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Manage preferences" [ref=e9] [cursor=pointer]
+        - button "Accept" [ref=e10] [cursor=pointer]
+        - button "Decline" [ref=e11] [cursor=pointer]
+  - link "Skip to content" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Over €2,000 our sales team will prepare a custom quote for you!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "shop all" [ref=e30] [cursor=pointer]: shop all
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "candle making" [ref=e34] [cursor=pointer]: candle making
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrance oils" [ref=e38] [cursor=pointer]: fragrance oils
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "diffuser making" [ref=e42] [cursor=pointer]: diffuser making
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "room spray making" [ref=e46] [cursor=pointer]: room spray making
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "learning" [ref=e50] [cursor=pointer]: learning
+          - listitem [ref=e52]:
+            - link "wholesale" [ref=e53] [cursor=pointer]:
+              - /url: /pages/wholesale
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Search" [ref=e59] [cursor=pointer]:
+            - /url: /search
+            - generic [ref=e60]: Search
+        - listitem [ref=e63]:
+          - link "Login" [ref=e64] [cursor=pointer]:
+            - /url: /apps/deluxe/account/login
+            - generic: Login
+        - listitem [ref=e65]:
+          - link "Open wishlist" [ref=e66] [cursor=pointer]:
+            - /url: /pages/wishlist
+            - generic [ref=e67]: Open wishlist
+            - generic [ref=e71]: "0"
+        - listitem [ref=e72]:
+          - link "Cart 0 items" [ref=e73] [cursor=pointer]:
+            - /url: /cart?cart_build=20260415a
+            - generic [ref=e74]: Cart
+            - img [ref=e75]
+            - generic [ref=e79]:
+              - generic:
+                - generic [ref=e80]: 0 items
+                - text: "0"
+  - main [ref=e81]:
+    - paragraph [ref=e85]: Faltam 250,0 € para obter 5% de desconto!
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - img [ref=e90]
+        - generic [ref=e92]: "0"
+      - generic [ref=e93]:
+        - paragraph [ref=e94]: Your cart is empty
+        - link "Continue shopping" [ref=e95] [cursor=pointer]:
+          - /url: /collections/all
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - generic [ref=e102]:
+          - paragraph [ref=e103]: Be the first to find out about our new arrivals, get craft and business advice!
+          - paragraph [ref=e105]: Sign up to our newsletter and get the best deals!
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - textbox "E-mail" [ref=e109]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscribe" [ref=e111] [cursor=pointer]:
+              - generic [ref=e112]: Subscribe
+        - generic [ref=e113]:
+          - paragraph [ref=e114]: help and information
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - link "contact us" [ref=e117] [cursor=pointer]:
+                - /url: /pages/contact
+            - listitem [ref=e118]:
+              - link "order status" [ref=e119] [cursor=pointer]:
+                - /url: /pages/order-status
+            - listitem [ref=e120]:
+              - link "customer support" [ref=e121] [cursor=pointer]:
+                - /url: /pages/customer-support
+            - listitem [ref=e122]:
+              - link "learning" [ref=e123] [cursor=pointer]:
+                - /url: /blogs/how-to-make-candles
+            - listitem [ref=e124]:
+              - link "faq and help" [ref=e125] [cursor=pointer]:
+                - /url: /pages/faqs
+        - generic [ref=e126]:
+          - paragraph [ref=e127]: our stores
+          - list [ref=e128]:
+            - listitem [ref=e129]:
+              - link "shop from spain" [ref=e130] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e131]:
+              - link "shop eu in english" [ref=e132] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e133]:
+              - link "shop eu in french" [ref=e134] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e135]:
+              - link "shop eu in german" [ref=e136] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e137]:
+          - paragraph [ref=e138]: store policies
+          - list [ref=e139]:
+            - listitem [ref=e140]:
+              - link "about us" [ref=e141] [cursor=pointer]:
+                - /url: /pages/about-us
+            - listitem [ref=e142]:
+              - link "privacy policy" [ref=e143] [cursor=pointer]:
+                - /url: /policies/privacy-policy
+            - listitem [ref=e144]:
+              - link "shipping and return policy" [ref=e145] [cursor=pointer]:
+                - /url: /policies/shipping-policy
+            - listitem [ref=e146]:
+              - link "terms of service" [ref=e147] [cursor=pointer]:
+                - /url: /policies/terms-of-service
+      - generic [ref=e149]:
+        - list [ref=e150]:
+          - listitem [ref=e151]:
+            - img "American Express" [ref=e152]
+          - listitem [ref=e161]:
+            - img "Apple Pay" [ref=e162]
+          - listitem [ref=e173]:
+            - img "Bancontact" [ref=e174]
+          - listitem [ref=e181]:
+            - img "Google Pay" [ref=e182]
+          - listitem [ref=e190]:
+            - img "iDEAL Wero" [ref=e191]
+          - listitem [ref=e206]:
+            - img "Klarna" [ref=e207]
+          - listitem [ref=e211]:
+            - img "Maestro" [ref=e212]
+          - listitem [ref=e218]:
+            - img "Mastercard" [ref=e219]
+          - listitem [ref=e225]:
+            - img "PayPal" [ref=e226]
+          - listitem [ref=e232]:
+            - img "Shop Pay" [ref=e233]
+          - listitem [ref=e237]:
+            - img "Union Pay" [ref=e238]
+          - listitem [ref=e244]:
+            - img "Visa" [ref=e245]
+        - generic [ref=e249]:
+          - paragraph [ref=e250]:
+            - text: © 2026, Aroma + Wax.
+            - link "Powered by Shopify" [ref=e251] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e252]:
+            - listitem [ref=e253]:
+              - link "Privacy policy" [ref=e254] [cursor=pointer]:
+                - /url: /policies/privacy-policy
+            - listitem [ref=e255]:
+              - text: •
+              - link "Return policy" [ref=e256] [cursor=pointer]:
+                - /url: /policies/refund-policy
+            - listitem [ref=e257]:
+              - text: •
+              - link "Terms of service" [ref=e258] [cursor=pointer]:
+                - /url: /policies/terms-of-service
+            - listitem [ref=e259]:
+              - text: •
+              - link "Shipping policy" [ref=e260] [cursor=pointer]:
+                - /url: /policies/shipping-policy
+            - listitem [ref=e261]:
+              - text: •
+              - link "Cookie preferences" [ref=e262] [cursor=pointer]:
+                - /url: /policies/#shopifyReshowConsentBanner

@@ -1,0 +1,1533 @@
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing this theme as much as we did for
+  developing it. We have put a lot of work to make this theme as developer friendly as possible by offering you
+  hooks to integrate into critical parts of the theme. You will find the complete technical documentation (including
+  all events, dependencies...) in the "documentation.txt" file, located in the Assets folder.
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<!doctype html>
+
+<html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
+  <head>
+ {%- if content_for_header contains 'tapita-seo-script-tags' -%}{%- include 'tapita-seo-schema' -%}{%- endif -%} 
+
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="{{ settings.header_background }}">
+
+<!-- TrustBox script -->
+<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+<!-- End TrustBox script -->
+    
+    <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
+    <meta name="google-site-verification" content="RoVMiuVBXuwzgz54Do7S275CXVAOMXPEu0efev7ssPQ" />
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
+      <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
+    {%- endif -%}
+
+    {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
+    <link rel="preconnect" href="https://cdn.shopify.com">
+    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
+
+    {%- unless settings.heading_font.system? -%}
+      <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- unless settings.text_font.system? -%}
+      <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- render 'social-meta-tags' -%}
+    {%- render 'microdata-schema' -%}
+    {%- render 'css-variables' -%}
+    {%- render 'js-variables' -%}
+
+    <!-- pt-pt-runtime-hotfix-prelude:start -->
+<script data-cfasync='false'>
+(() => {
+  const locale = ((window.Shopify && window.Shopify.locale) || document.documentElement.lang || '').toLowerCase();
+  const pathname = window.location.pathname || '';
+  const isCartPage = pathname === '/cart' || /\/cart$/.test(pathname);
+  const cartCacheKey = 'cart_build';
+  const cartCacheValue = '20260415g';
+  const portugueseCartPath = '/pt/cart?' + cartCacheKey + '=' + cartCacheValue;
+  const isPortuguesePage = locale === 'pt' || locale === 'pt-pt' || pathname === '/pt' || pathname.startsWith('/pt/');
+  const isFacetPage = pathname.startsWith('/pt/collections/') || pathname === '/pt/search' || pathname.startsWith('/pt/search?');
+  const ptFacetTextReplacementPairs = [["Lily of the Valley","Lírio-do-vale"],["Solid wax perfume","Perfume sólido em cera"],["Almond Blossom","Flor de amendoeira"],["Cashmere woods","Madeiras de caxemira"],["Orange Blossom","Flor de laranjeira"],["Orange blossom","Flor de laranjeira"],["Reed diffuser","Difusor de varetas"],["Pillow spray","Spray para almofadas"],["Pillow Spray","Spray para almofadas"],["Black pepper","Pimenta-preta"],["Liquid soap","Sabonete líquido"],["Guaiac wood","Madeira de guáiaco"],["Orange Peel","Casca de laranja"],["Orange peel","Casca de laranja"],["Sheer woods","Madeiras leves"],["Room spray","Spray de ambiente"],["All-season","Todo o ano"],["Eucalyptus","Eucalipto"],["Grapefruit","Toranja"],["Heliotrope","Heliotrópio"],["Lemongrass","Erva-príncipe"],["Sandalwood","Sândalo"],["Strawberry","Morango"],["Christmas","Natal"],["Cedarwood","Madeira de cedro"],["Champagne","Champanhe"],["Coriander","Coentro"],["Fenugreek","Feno-grego"],["Osmanthus","Osmanto"],["Pineapple","Ananás"],["Raspberry","Framboesa"],["Tangerine","Tangerina"],["Bar soap","Sabonete em barra"],["Cristmas","Natal"],["Bergamot","Bergamota"],["Cardamom","Cardamomo"],["Cherries","Cerejas"],["Cinnamon","Canela"],["Cyclamen","Ciclame"],["Fig leaf","Folha de figueira"],["Gardenia","Gardénia"],["Geranium","Gerânio"],["Lavandin","Lavandim"],["Lavender","Lavanda"],["Magnolia","Magnólia"],["Mandarin","Tangerina"],["Molasses","Melaço"],["Mushroom","Cogumelo"],["Olibanum","Olíbano"],["Rosemary","Alecrim"],["Aquatic","Aquático"],["Leather","Couro"],["Powdery","Atalcado"],["Berries","Frutos silvestres"],["Caramel","Caramelo"],["Coconut","Coco"],["Currant","Groselha"],["Freesia","Frésia"],["Jasmine","Jasmim"],["Oakmoss","Musgo de carvalho"],["Tobacco","Tabaco"],["Vanilla","Baunilha"],["Candle","Vela"],["Autumn","Outono"],["Spring","Primavera"],["Summer","Verão"],["Winter","Inverno"],["Citrus","Cítrico"],["Fruity","Frutado"],["Almond","Amêndoa"],["Butter","Manteiga"],["Cherry","Cereja"],["Ginger","Gengibre"],["Greens","Notas verdes"],["Marine","Marinho"],["Muscat","Moscatel"],["Myrrhe","Mirra"],["Neroli","Néroli"],["Nutmeg","Noz-moscada"],["Orange","Laranja"],["Orchid","Orquídea"],["Pepper","Pimenta"],["Violet","Violeta"],["Fresh","Fresco"],["Green","Verde"],["Herby","Herbal"],["Spicy","Especiado"],["Sweet","Doce"],["Woody","Amadeirado"],["Amber","Âmbar"],["Anise","Anis"],["Apple","Maçã"],["Basil","Manjericão"],["Cedar","Cedro"],["Clove","Cravinho"],["Cream","Creme"],["Guava","Goiaba"],["Honey","Mel"],["Lemon","Limão"],["Linen","Linho"],["Mango","Manga"],["Peach","Pêssego"],["Sugar","Açúcar"],["Thyme","Tomilho"],["Tonka","Fava-tonka"],["Warm","Quente"],["Lily","Lírio"],["Lime","Lima"],["Milk","Leite"],["Mint","Hortelã"],["Moss","Musgo"],["Musk","Almíscar"],["Pine","Pinheiro"],["Rose","Rosa"],["Sage","Sálvia"],["Fig","Figo"]];
+  const needsRuntimeHotfix = [
+    '/pt/pages/wishlist',
+    '/pt/pages/contact',
+    '/pt/pages/customer-support',
+    '/pt/pages/discounts-and-rewards',
+    '/pt/policies/shipping-policy',
+    '/pt/policies/refund-policy',
+  ].some((targetPath) => pathname === targetPath || pathname.startsWith(targetPath + '/'));
+
+  if (isCartPage && isPortuguesePage) {
+    document.documentElement.setAttribute('data-pt-cart-page', 'true');
+
+    if (!document.getElementById('pt-cart-overlay-guard')) {
+      const style = document.createElement('style');
+      style.id = 'pt-cart-overlay-guard';
+      style.textContent = [
+        'html[data-pt-cart-page="true"] cad-overlay,',
+        'html[data-pt-cart-page="true"] cad-fast-login-snippet,',
+        'html[data-pt-cart-page="true"] .cad-overlay__container,',
+        'html[data-pt-cart-page="true"] #AutoLoginForm,',
+        'html[data-pt-cart-page="true"] #loginUI1 {',
+        '  display: none !important;',
+        '  visibility: hidden !important;',
+        '  opacity: 0 !important;',
+        '  pointer-events: none !important;',
+        '}',
+      ].join('\n');
+      document.head.appendChild(style);
+    }
+  }
+
+  const withCartCacheBuster = (rawHref) => {
+    try {
+      const url = new URL(rawHref, window.location.origin);
+
+      if (!/\/cart$/.test(url.pathname)) {
+        return null;
+      }
+
+      if (url.pathname === '/cart' || url.pathname === '/pt/cart') {
+        return portugueseCartPath + url.hash;
+      }
+
+      url.searchParams.set(cartCacheKey, cartCacheValue);
+      return url.pathname + url.search + url.hash;
+    } catch (error) {
+      return null;
+    }
+  };
+
+  const rewriteCartLinks = (root = document) => {
+    root.querySelectorAll?.('a[href], form[action]').forEach((element) => {
+      if (element instanceof HTMLAnchorElement) {
+        const nextHref = withCartCacheBuster(element.getAttribute('href') || '');
+
+        if (nextHref && (element.getAttribute('href') || '') !== nextHref) {
+          element.setAttribute('href', nextHref);
+        }
+
+        return;
+      }
+
+      if (element instanceof HTMLFormElement) {
+        const nextAction = withCartCacheBuster(element.getAttribute('action') || '');
+
+        if (nextAction && (element.getAttribute('action') || '') !== nextAction) {
+          element.setAttribute('action', nextAction);
+        }
+      }
+    });
+  };
+
+  const localizePortugueseLinks = (root = document) => {
+    root.querySelectorAll?.('a[href]').forEach((element) => {
+      const currentHref = element.getAttribute('href') || '';
+
+      try {
+        const url = new URL(currentHref, window.location.origin);
+
+        if (url.origin !== window.location.origin || url.pathname.startsWith('/pt/')) {
+          return;
+        }
+
+        if (url.pathname === '/') {
+          url.pathname = '/pt';
+        } else if (url.pathname === '/search') {
+          url.pathname = '/pt/search';
+        } else if (url.pathname === '/collections/all') {
+          url.pathname = '/pt/collections/all';
+        } else if (url.pathname === '/blogs/how-to-make-candles') {
+          url.pathname = '/pt/blogs/how-to-make-candles';
+        } else if (url.pathname === '/cart') {
+          url.pathname = '/pt/cart';
+          url.searchParams.set(cartCacheKey, cartCacheValue);
+        } else if (
+          url.pathname.startsWith('/pages/') ||
+          url.pathname.startsWith('/policies/') ||
+          url.pathname.startsWith('/collections/') ||
+          url.pathname.startsWith('/blogs/') ||
+          url.pathname.startsWith('/apps/deluxe/account/')
+        ) {
+          url.pathname = '/pt' + url.pathname;
+        } else {
+          return;
+        }
+
+        const nextHref = url.pathname + url.search + url.hash;
+        if (nextHref !== currentHref) {
+          element.setAttribute('href', nextHref);
+        }
+      } catch (error) {
+      }
+    });
+  };
+
+  const replaceFacetText = (value) => {
+    let updated = value || '';
+
+    ptFacetTextReplacementPairs.forEach(([source, target]) => {
+      if (updated.includes(source)) {
+        updated = updated.split(source).join(target);
+      }
+    });
+
+    return updated;
+  };
+
+  const translateFacetLabels = (root = document) => {
+    root.querySelectorAll?.('.facets-vertical label, .active-facets .removable-facet').forEach((element) => {
+      const text = element.textContent || '';
+      const updated = replaceFacetText(text);
+
+      if (updated !== text) {
+        element.textContent = updated;
+      }
+    });
+  };
+
+  const resolveCartSectionId = (element) => {
+    const shopifySection = element?.closest?.('.shopify-section');
+    const rawId = shopifySection?.id || '';
+
+    if (rawId.startsWith('shopify-section-')) {
+      return rawId.replace('shopify-section-', '');
+    }
+
+    return 'cart-drawer';
+  };
+
+  const refreshCartDrawerFromEndpoint = async (drawer) => {
+    const sectionId = resolveCartSectionId(drawer);
+    const response = await fetch((window.Shopify?.routes?.root || '/') + '?section_id=' + sectionId, {
+      credentials: 'same-origin',
+      headers: { 'X-Requested-With': 'XMLHttpRequest' },
+    });
+
+    if (!response.ok) {
+      throw new Error('Cart drawer refresh failed with ' + response.status);
+    }
+
+    const html = await response.text();
+    const container = document.createElement('div');
+    container.innerHTML = html;
+
+    const nextDrawer = container.querySelector('#cart-drawer') || container.querySelector('cart-drawer');
+
+    if (!nextDrawer) {
+      throw new Error('Cart drawer refresh response did not contain cart drawer markup');
+    }
+
+    drawer.replaceChildren(...nextDrawer.children);
+
+    if (typeof drawer.show === 'function') {
+      try {
+        drawer.show();
+      } catch (error) {
+      }
+    }
+  };
+
+  const installCartDrawerRecoveryPatch = () => {
+    const patch = () => {
+      const CartDrawer = window.customElements.get('cart-drawer');
+
+      if (!CartDrawer || window.__ptPtCartDrawerRecoveryInstalled) {
+        return;
+      }
+
+      window.__ptPtCartDrawerRecoveryInstalled = true;
+
+      const originalOnCartChanged = CartDrawer.prototype._onCartChanged;
+      const originalOnCartRefresh = CartDrawer.prototype._onCartRefresh;
+
+      CartDrawer.prototype._onCartChanged = async function(event) {
+        try {
+          const sectionId = resolveCartSectionId(this);
+          const sectionHtml = event?.detail?.cart?.sections?.[sectionId];
+
+          if (!sectionHtml) {
+            await refreshCartDrawerFromEndpoint(this);
+            return;
+          }
+
+          const updatedDrawerContent = new DOMParser().parseFromString(sectionHtml, 'text/html');
+          const updatedRoot = updatedDrawerContent.querySelector('.cart-drawer') || updatedDrawerContent.querySelector('cart-drawer');
+          const updatedInner = updatedDrawerContent.querySelector('.cart-drawer__inner');
+          const updatedFooter = updatedDrawerContent.querySelector('[slot="footer"]');
+          const currentInner = this.querySelector('.cart-drawer__inner');
+          const currentFooter = this.querySelector('[slot="footer"]');
+
+          if (event?.detail?.cart?.item_count > 0) {
+            if (!updatedInner || !updatedFooter || !currentInner || !currentFooter) {
+              await refreshCartDrawerFromEndpoint(this);
+              return;
+            }
+
+            setTimeout(() => {
+              try {
+                currentInner.innerHTML = updatedInner.innerHTML;
+              } catch (error) {
+              }
+            }, event?.detail?.baseEvent === 'variant:add' ? 0 : 1250);
+
+            currentFooter.replaceChildren(...updatedFooter.childNodes);
+            return;
+          }
+
+          if (updatedRoot) {
+            this.replaceChildren(...updatedRoot.childNodes);
+            return;
+          }
+
+          await refreshCartDrawerFromEndpoint(this);
+        } catch (error) {
+          window.__ptPtCartDrawerRecoveryError = String(error && error.stack ? error.stack : error);
+
+          try {
+            await refreshCartDrawerFromEndpoint(this);
+          } catch (refreshError) {
+            if (typeof originalOnCartChanged === 'function') {
+              return originalOnCartChanged.call(this, event);
+            }
+
+            throw refreshError;
+          }
+        }
+      };
+
+      CartDrawer.prototype._onCartRefresh = async function() {
+        try {
+          await refreshCartDrawerFromEndpoint(this);
+        } catch (error) {
+          if (typeof originalOnCartRefresh === 'function') {
+            return originalOnCartRefresh.call(this);
+          }
+
+          throw error;
+        }
+      };
+    };
+
+    if (window.customElements.get('cart-drawer')) {
+      patch();
+    } else if (window.customElements?.whenDefined) {
+      window.customElements.whenDefined('cart-drawer').then(patch).catch(() => {});
+    }
+  };
+
+  if (isCartPage && !window.__cartDocumentWriteGuardInstalled) {
+    window.__cartDocumentWriteGuardInstalled = true;
+    const originalWrite = document.write.bind(document);
+
+    document.write = (...parts) => {
+      const html = parts.join('');
+      const currentScript = document.currentScript;
+
+      if (currentScript && currentScript.parentElement) {
+        currentScript.insertAdjacentHTML('beforebegin', html);
+        return;
+      }
+
+      if (document.body) {
+        document.body.insertAdjacentHTML('afterbegin', html);
+        return;
+      }
+
+      return originalWrite(...parts);
+    };
+  }
+
+  rewriteCartLinks();
+  if (isPortuguesePage) {
+    localizePortugueseLinks();
+  }
+  if (isPortuguesePage && isFacetPage) {
+    const runFacetTranslations = () => translateFacetLabels(document);
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', runFacetTranslations, { once: true });
+    } else {
+      runFacetTranslations();
+    }
+
+    window.addEventListener('load', runFacetTranslations, { once: true });
+    [250, 1200].forEach((delay) => {
+      window.setTimeout(runFacetTranslations, delay);
+    });
+  }
+
+  installCartDrawerRecoveryPatch();
+
+  if (!window.__ptPtCartNavigationGuardInstalled) {
+    window.__ptPtCartNavigationGuardInstalled = true;
+
+    document.addEventListener(
+      'click',
+      (event) => {
+        if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+          return;
+        }
+
+        const target = event.target;
+        const link = target && target.closest ? target.closest('a[href]') : null;
+
+        if (!link) {
+          return;
+        }
+
+        const nextHref = withCartCacheBuster(link.getAttribute('href') || '');
+
+        if (!nextHref) {
+          return;
+        }
+
+        if ((link.getAttribute('href') || '') !== nextHref) {
+          link.setAttribute('href', nextHref);
+        }
+
+        event.preventDefault();
+        window.location.assign(new URL(nextHref, window.location.origin).toString());
+      },
+      true,
+    );
+
+    document.addEventListener(
+      'submit',
+      (event) => {
+        const form = event.target;
+
+        if (!(form instanceof HTMLFormElement)) {
+          return;
+        }
+
+        const nextAction = withCartCacheBuster(form.getAttribute('action') || '');
+
+        if (!nextAction) {
+          return;
+        }
+
+        if ((form.getAttribute('action') || '') !== nextAction) {
+          form.setAttribute('action', nextAction);
+        }
+      },
+      true,
+    );
+
+  }
+
+  if (isCartPage) {
+    const currentUrl = new URL(window.location.href);
+
+    if (pathname === '/cart' && currentUrl.searchParams.get('locale_override') === 'pt') {
+      currentUrl.pathname = '/pt/cart';
+      currentUrl.searchParams.delete('locale_override');
+      currentUrl.searchParams.set(cartCacheKey, cartCacheValue);
+      window.location.replace(currentUrl.toString());
+      return;
+    }
+
+    if (pathname === '/pt/cart' && currentUrl.searchParams.get(cartCacheKey) !== cartCacheValue) {
+      currentUrl.searchParams.set(cartCacheKey, cartCacheValue);
+      window.location.replace(currentUrl.toString());
+      return;
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    rewriteCartLinks();
+    if (isPortuguesePage) {
+      localizePortugueseLinks();
+    }
+  }, { once: true });
+  window.addEventListener('load', () => {
+    rewriteCartLinks();
+    if (isPortuguesePage) {
+      localizePortugueseLinks();
+    }
+  }, { once: true });
+
+  if (isPortuguesePage && !needsRuntimeHotfix) {
+    window.__ptPtRuntimeHotfixInitialized = true;
+    window.__ptPtRuntimeHotfixSkipped = pathname || 'path-not-targeted';
+    window.__ptPtRuntimeHotfixBlockedBeforeAssets = true;
+  }
+})();
+</script>
+<!-- pt-pt-runtime-hotfix-prelude:end -->
+<script type="importmap">
+      {%- comment -%}On Safari 16.3 and lower, a polyfill is used to load importmap{%- endcomment -%}
+      {
+        "imports": {
+          "vendor": "{{ 'vendor.min.js' | asset_url }}",
+          "theme": "{{ 'theme.js' | asset_url }}",
+          "photoswipe": "{{ 'photoswipe.min.js' | asset_url }}"
+        }
+      }
+    </script>
+
+    <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+
+    {{ content_for_header }}
+
+    {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+
+    <!-- Sample products App css start -->
+    {% if product.type == "SAMPLE PRODUCT" %}
+<script>window.location.href = `https://`+Shopify.shop; </script>
+     {% endif %}
+<style>
+ button.btn.button.sampleProductsBtn {
+    padding: 10px 40px;
+    font-size: 14px !important;
+    width: 100%;
+    background-color: #7a8a63;
+    color: #fff;
+    }
+      button.btn.addToCartBtn.button {
+        background: #7a8a63 !important;
+    }
+      .productZs {
+            border-radius: 10px !important;
+    }
+      .productImage img {
+        min-width: 100%;
+      max-width:unset;
+    }
+    @media screen and (min-width:900px){
+      .zspopup-content {
+        max-width: 1200px !important;
+        }
+      .productZs {
+        width: calc(18.6% - 0px) !important;
+        }
+    }
+</style>
+    
+  {% render 'wsg-custom' %}
+<!-- pt-pt-judgeme-title-style:start -->
+<style>
+  html[lang='pt-PT'] .jdgm-rev-widg__title,
+  html[lang='pt'] .jdgm-rev-widg__title {
+    color: transparent !important;
+    position: relative !important;
+  }
+
+  html[lang='pt-PT'] .jdgm-rev-widg__title::after,
+  html[lang='pt'] .jdgm-rev-widg__title::after {
+    content: 'Avaliações de clientes';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--jdgm-primary-color, #3E3A37);
+  }
+</style>
+<!-- pt-pt-judgeme-title-style:end -->
+</head>
+
+  <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
+    {%- render 'shadow-dom-templates' -%}
+
+    <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+    {%- if request.page_type != 'password' -%}
+      {%- sections 'header-group' -%}
+      {%- sections 'overlay-group' -%}
+
+      {%- if settings.cart_type == 'popover' -%}
+        <cart-notification-drawer open-from="bottom" class="quick-buy-drawer drawer"></cart-notification-drawer>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if request.page_type == 'customers/account' or request.page_type == 'customers/order' or request.page_type == 'customers/addresses' -%}
+      {%- section 'account-banner' -%}
+    {%- endif -%}
+
+    <main role="main" id="main" class="anchor">
+      {%- unless template == 'index' or template == 'list-collections' or template == '404' -%}
+    {%- assign t = template | split: '.' | first -%}
+      {%- comment -%}
+    <div class="shopify-section section breadcrumbs-section">
+    <nav
+            class="breadcrumbs{% if t == 'product' and next_prev %} d-flex flex-nowrap gap-10 space-between align-center{% endif %}"
+            role="navigation"
+            aria-label="breadcrumbs"
+    >
+        <ol class="bls__breadcrumb-list p-0 list-none my-0">
+            <li class="bls__breadcrumb-item d-inline">
+                <a class="bls__breadcrumb-link" href="/">Home</a>
+                <span aria-hidden="true" class="bls__breadcrumb-separator pr-4">/</span>
+            </li>
+            {%- case t -%}
+                {%- when 'page' -%}
+                    <li class="bls__breadcrumb-item d-inline">
+                        <span class="bls__breadcrumb-link" aria-current="page">{{ page.title }}</span>
+                    </li>
+                {%- when 'product' -%}
+                    {%- if collection.url -%}
+                        <li class="bls__breadcrumb-item d-inline">
+                            {{ collection.title | link_to: collection.url }}
+                            <span aria-hidden="true" class="bls__breadcrumb-separator pr-4">/</span>
+                        </li>
+                    {%- endif -%}
+                    <li class="bls__breadcrumb-item d-inline">
+                        <span class="bls__breadcrumb-link" aria-current="page">{{ product.title }}</span>
+                    </li>
+                {%- when 'collection' and collection.handle -%}
+                    {%- if current_tags -%}
+                        <li class="bls__breadcrumb-item d-inline">
+                            {{ collection.title | link_to: collection.url }}
+                        </li>
+                        <li class="bls__breadcrumb-item d-inline">
+                            {%- capture tag_url -%}{{ collection.url }}/{{ current_tags | join: '+' }}{%- endcapture -%}
+                            <span aria-hidden="true" class="bls__breadcrumb-separator px-4">/</span>
+                            <span class="bls__breadcrumb-link" aria-current="page">
+                {{- current_tags | join: ' + ' -}}
+              </span>
+                        </li>
+                    {%- else -%}
+                        <li class="bls__breadcrumb-item d-inline">
+              <span class="bls__breadcrumb-link" aria-current="page">
+                {{- collection.title -}}
+              </span>
+                        </li>
+                    {%- endif -%}
+                {%- when 'blog' -%}
+                    {%- if current_tags -%}
+                        <li class="bls__breadcrumb-item d-inline">
+                            {{ blog.title | link_to: blog.url }}
+                        </li>
+                        <li class="bls__breadcrumb-item d-inline">
+                            {%- capture tag_url -%}{{ blog.url }}/tagged/{{ current_tags | join: '+' }}{%- endcapture -%}
+                            <span aria-hidden="true" class="bls__breadcrumb-separator px-4">/</span>
+                            <span class="bls__breadcrumb-link" aria-current="page">
+                {{- current_tags | join: ' + ' -}}
+              </span>
+                        </li>
+                    {%- else -%}
+                        <li class="bls__breadcrumb-item d-inline">
+                            <span class="bls__breadcrumb-link" aria-current="page">{{ blog.title }}</span>
+                        </li>
+                    {%- endif -%}
+                {%- when 'article' -%}
+                    <li class="bls__breadcrumb-item d-inline">
+                        {{ blog.title | link_to: blog.url }}
+                    </li>
+                    <li class="bls__breadcrumb-item d-inline">
+                        <span aria-hidden="true" class="bls__breadcrumb-separator px-4">/</span>
+                        <span class="bls__breadcrumb-link" aria-current="page">{{ article.title }}</span>
+                    </li>
+                {%- else -%}
+                    <li class="bls__breadcrumb-item d-inline">
+                        <span class="bls__breadcrumb-link" aria-current="page">{{ page_title }}</span>
+                    </li>
+            {%- endcase -%}
+        </ol>
+    </nav>
+      </div>
+{%- endcomment -%}
+      
+{%- endunless -%}
+      {{ content_for_layout }}
+
+      {%- comment -%}
+      IMPLEMENTATION NOTE: due to the very complex logic of margin/padding collapsing in Impact, the footer group is
+      added into the main element to ensure that dynamic sections added into the footer group are properly laid out.
+      {%- endcomment -%}
+      {%- if request.page_type != 'password' -%}
+        {%- sections 'footer-group' -%}
+      {%- endif -%}
+    </main>
+  <!-- WPD Start -->
+                {% if customer.tags.size > 0 and template != 'cart' %}
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      let checkoutbtninterval = setInterval(function(){
+                        var x=document.querySelectorAll("input[name='checkout'], button[name='checkout'], input[name='goto_pp'], button[name='goto_pp'], input[name='goto_gc'], button[name='goto_gc'], [href$='checkout']");
+                        var WPD_RedirectToCart = function(e) {
+                          	e.stopPropagation();
+                            e.preventDefault();
+                            window.location = '/cart';
+                            };
+                            for (var i = 0; i < x.length; i++) {
+                                x[i].addEventListener('click', WPD_RedirectToCart, false);
+                            }
+                        },500)
+                });
+              </script>
+               {% endif %}
+         
+
+               {% if customer.tags.size > 0 and template == 'cart' %}
+                 {% include 'wcp_cart' %}
+               {% endif %}
+               <!-- WPD End -->
+  <!-- pt-pt-contact-form-localization:start -->
+{% if request.locale.iso_code == 'pt-PT' or request.locale.iso_code == 'pt' %}
+  <script data-cfasync='false'>
+    (() => {
+      window.__ptPtThemeFixesLoaded = (window.__ptPtThemeFixesLoaded || 0) + 1;
+
+      try {
+        const widgetTextReplacements = [["Customer Reviews","Avaliações de clientes"],["Avaliações de Clientes","Avaliações de clientes"],["Comentários de Clientes","Avaliações de clientes"],["Comentários de clientes","Avaliações de clientes"],["Write a review","Escrever uma avaliação"],["Escreva uma avaliação","Escrever uma avaliação"],["Reviews in Other Languages","Avaliações noutros idiomas"],["Avaliações em Outros Idiomas","Avaliações noutros idiomas"],["Read more","Ler mais"],["Leia mais","Ler mais"],["Load More","Carregar mais"],["No reviews","Sem avaliações"],["Be the first to write a review","Seja o primeiro a escrever uma avaliação"],["Most Recent","Mais recentes"],["Mais Recentes","Mais recentes"],["Highest Rating","Classificação mais alta"],["Maior Avaliação","Classificação mais alta"],["Lowest Rating","Classificação mais baixa"],["Menor Avaliação","Classificação mais baixa"],["Most Helpful","Mais úteis"],["Mais Úteis","Mais úteis"],["Only Pictures","Apenas fotografias"],["Apenas Fotos","Apenas fotografias"],["Ask a question","Fazer uma pergunta"],["Question","Pergunta"],["Answer","Resposta"],["Submit Review","Enviar avaliação"],["Enviar Avaliação","Enviar avaliação"],["Enviar Avaliação Verificada","Enviar avaliação verificada"],["Submit Question","Enviar pergunta"],["Enviar Pergunta","Enviar pergunta"],["Review Title","Título da avaliação"],["Título da Avaliação","Título da avaliação"],["Review content","Conteúdo da avaliação"],["Picture/Video (optional)","Fotografia/vídeo (opcional)"],["Foto/Vídeo (opcional)","Fotografia/vídeo (opcional)"],["Display name","Nome público"],["Nome de exibição","Nome público"],["Email address","Endereço de e-mail"],["Endereço de email","Endereço de e-mail"],["Seu endereço de email","O seu endereço de e-mail"],["Rating","Classificação"],["Start writing here...","Comece a escrever aqui..."],["Escreva sua pergunta aqui","Escreva a sua pergunta aqui"],["Verified buyer","Comprador verificado"],["Verified","Verificado"],["Login","Iniciar sessão"],["Previous","Anterior"],["Next","Seguinte"]];
+        const widgetRegexReplacements = [{"pattern":"Based on (\\d+) reviews","flags":"g","replacement":"Com base em $1 avaliações"},{"pattern":"Based on (\\d+) review(?!s)","flags":"g","replacement":"Com base em $1 avaliação"},{"pattern":"Baseado em (\\d+) avaliações","flags":"g","replacement":"Com base em $1 avaliações"},{"pattern":"Baseado em (\\d+) avaliação","flags":"g","replacement":"Com base em $1 avaliação"},{"pattern":"(\\d+) star review","flags":"g","replacement":"avaliação de $1 estrelas"},{"pattern":"(\\d+)% \\((\\d+)\\) reviews with (\\d+) star rating","flags":"g","replacement":"$1% ($2) avaliações com classificação de $3 estrelas"},{"pattern":"Average rating is ([\\d.]+) stars","flags":"g","replacement":"A classificação média é de $1 estrelas"}];
+        const themeTextReplacements = [["Fragrance Notes","Notas olfativas"],["VAT incl.","IVA incl."],["VAT excl.","IVA excl."],["New!","Novo!"],["Fotos Primeiro","Fotografias primeiro"],["Email","E-mail"],["Enviaremos um código único (OTP) para o seu email para um login seguro.","Enviaremos um código único (OTP) para o seu e-mail para um início de sessão seguro."],["Blue leaved eucalyptus and orange peel","eucalipto de folhas azuladas e casca de laranja"],["Green cardamom, cinnamon stick and lily of the valley","cardamomo verde, pau de canela e lírio-do-vale"],["Vetiver, musk and sandalwood","vetiver, almíscar e sândalo"],["Coconut and berries","coco e bagas frescas"],["Matcha and violet petals","matcha e pétalas de violeta"],["Cedarwood oil","óleo de madeira de cedro"],["carrot seed oil","óleo de semente de cenoura"],["Pine needles and citrus","agulhas de pinheiro e citrinos"],["eucalyptus and freesia","eucalipto e frésia"],["Tobacco and warm incense","tabaco e incenso quente"],["thyme and geranium","tomilho e gerânio"],["Agarwood and oakmoss","agarwood e musgo de carvalho"],["musk and cedar","almíscar e cedro"],["sueded leather and resin","couro acamurçado e resina"],["Almond blossom and pink apples","flor de amendoeira e maçãs rosadas"],["Wild strawberries and peony blossom","morangos silvestres e flor de peónia"],["Vanilla, musk and silk","baunilha, almíscar e seda"],["Vibrant Green","verde vibrante"],["Light Beige","bege claro"],["Teal","verde-petróleo"],["Deep Oud Brown","castanho oud profundo"],["Smoked Amber","âmbar fumado"],["Charcoal Black","preto carvão"],["Antique Gold","dourado antigo"],["Strawberry Red","vermelho morango"],["Soft Cream","creme suave"],["Blush Pink","rosa suave"],["Silk Ivory","marfim sedoso"],["Eucalyptus Green","verde eucalipto"],["Fresh Cardamom","cardamomo fresco"],["Herbal Sage","sálvia herbal"],["Deep Forest Green","verde floresta profundo"],["Charcoal Grey","cinzento carvão"],["Smoked Lavender","lavanda fumada"],["Antique Silver","prateado antigo"],["Choose your free sample now","Escolha já a sua amostra gratuita"],["Select Sample Products","Selecionar produtos de amostra"],["Select Any","Selecionar livremente"],["Fragrance oils","Óleos de fragrância"],["Fresh Cut Peony Fragrance Oil","Óleo de fragrância peónia recém-cortada"],["Ruby Grapefruit Fragrance Oil","Óleo de fragrância toranja rubi"],["Cashmere Wood & Tonka Fragrance Oil","Óleo de fragrância madeira de caxemira e fava-tonka"],["Black Pepper & Velvet Orchid Fragrance Oil","Óleo de fragrância pimenta-preta e orquídea aveludada"],["Tobacco & vanilla fragrance oil","Óleo de fragrância tabaco e baunilha"],["Very Gingerbread Fragrance Oil","Óleo de fragrância pão de gengibre intenso"],["Dubai Pistachio Cream Fragrance Oil","Óleo de fragrância creme de pistácio do Dubai"],["Pineapple & Creamy Coconut Fragrance Oil","Óleo de fragrância ananás e coco cremoso"],["Rose & Champagne Fragrance Oil","Óleo de fragrância rosa e champanhe"],["Green Fig and Wild Mushroom Fragrance Oil","Óleo de fragrância figo verde e cogumelo selvagem"],["Ruby grapefruit fragrance oil","Óleo de fragrância toranja rubi"],["Spiced Apple & Cinnamon Fragrance Oil","Óleo de fragrância maçã especiada e canela"],["Rose & champagne fragrance oil","Óleo de fragrância rosa e champanhe"],["Metal Lever-lid Can, 250 ml","Lata metálica com tampa de alavanca, 250 ml"],["Vibrant Yellow Liquid Dye","Corante líquido Vibrant amarelo"],["Augeo Diffuser Base","Base para difusor Augeo"],["TCR Series Cotton Wicks","Pavios de algodão da série TCR"],["Golden Wax™ 464 Сontainer Wax","Cera Golden Wax™ 464 para velas em recipiente"],["KeraSoy™ Pillar Wax 4120","Cera KeraSoy™ 4120 para velas pilar"],["Classic Reed Diffuser Bottle with Cork and Cap, 100 ml","Frasco clássico para difusor de varetas com rolha e tampa, 100 ml"],["Clear","Limpar"],["Enter your email","Introduza o seu e-mail"],["Enter VAT number","Introduza o número de IVA"],["Validate VAT number","Validar número de IVA"],["VAT number validated successfully!","Número de IVA validado com sucesso!"],["VAT number validated successfully.","Número de IVA validado com sucesso."],["Invalid VAT number, please try again.","Número de IVA inválido. Tente novamente."],["Invalid VAT number. Please check and enter a valid VAT.","Número de IVA inválido. Verifique e introduza um número de IVA válido."],["Please enter a VAT number","Introduza um número de IVA"],["View all >","Ver tudo >"],["Share your wishlist","Partilhe a sua lista de desejos"],["You must log in to share your wishlist","Tem de iniciar sessão para partilhar a sua lista de desejos"],["Empty wishlist","Esvaziar lista de desejos"],["You have no products in your wishlist","Não tem produtos na sua lista de desejos"],["Login","Iniciar sessão"],["E-mail us at support@aromawax.eu","Envie-nos um e-mail para support@aromawax.eu"],["Email us at support@aromawax.eu","Envie-nos um e-mail para support@aromawax.eu"],["durante o checkout.","durante a finalização da compra."],["no checkout:","na finalização da compra:"],["antes do checkout.","antes da finalização da compra."],["inclua-o no checkout","inclua-o na finalização da compra"],["Classic Reed Diffuser Bottle with Cork and Cap, 100 ml","Frasco clássico para difusor de varetas com rolha e tampa, 100 ml"],["Apothecary Diffuser Bottle and Metal Screw Cap, 125 ml","Frasco Apothecary para difusor com tampa metálica de rosca, 125 ml"],["Classic Reed Diffuser Bottle with Cork and Cap, 50 ml","Frasco clássico para difusor de varetas com rolha e tampa, 50 ml"],["Apothecary Diffuser Bottle and Metal Screw Cap, 60 ml","Frasco Apothecary para difusor com tampa metálica de rosca, 60 ml"],["Black Pepper, Sandalwood and Tonka Fragrance Oil","Óleo de fragrância pimenta-preta, sândalo e fava-tonka"],["Black pepper, sandalwood and tonka fragrance oil","Óleo de fragrância pimenta-preta, sândalo e fava-tonka"],["Apothecary Room Spray Bottle and Sprayer, 125 ml","Frasco Apothecary para spray de ambiente com pulverizador, 125 ml"],["Apothecary Room Spray Bottle and Sprayer, 60 ml","Frasco Apothecary para spray de ambiente com pulverizador, 60 ml"],["Black Cherry and Corsican Almond Fragrance Oil","Óleo de fragrância cereja preta e amêndoa da Córsega"],["Black cherry and corsican almond fragrance oil","Óleo de fragrância cereja preta e amêndoa da Córsega"],["Wild Strawberry, Cream & Silk Fragrance Oil","Óleo de fragrância morango silvestre, creme e seda"],["Wild strawberry, cream & silk fragrance oil","Óleo de fragrância morango silvestre, creme e seda"],["Black Pepper & Velvet Orchid Fragrance Oil","Óleo de fragrância pimenta-preta e orquídea aveludada"],["Black pepper & velvet orchid fragrance oil","Óleo de fragrância pimenta-preta e orquídea aveludada"],["Winter Pines & Velvet Petals Fragrance Oil","Óleo de fragrância pinheiros de inverno e pétalas aveludadas"],["Kyoto Matcha & Coconut Cloud Fragrance Oil","Óleo de fragrância matcha de Quioto e nuvem de coco"],["Kyoto matcha & coconut cloud fragrance oil","Óleo de fragrância matcha de Quioto e nuvem de coco"],["Winter pines & velvet petals fragrance oil","Óleo de fragrância pinheiros de inverno e pétalas aveludadas"],["Green Fig and Wild Mushroom Fragrance Oil","Óleo de fragrância figo verde e cogumelo selvagem"],["Green fig and wild mushroom fragrance oil","Óleo de fragrância figo verde e cogumelo selvagem"],["Green Cardamom & Eucalyptus Fragrance Oil","Óleo de fragrância cardamomo verde e eucalipto"],["Green cardamom & eucalyptus fragrance oil","Óleo de fragrância cardamomo verde e eucalipto"],["Pineapple & Creamy Coconut Fragrance Oil","Óleo de fragrância ananás e coco cremoso"],["Pineapple & creamy coconut fragrance oil","Óleo de fragrância ananás e coco cremoso"],["Sicilian neroli & cashmere fragrance oil","Óleo de fragrância néroli siciliano e caxemira"],["Sicilian Neroli & Cashmere Fragrance Oil","Óleo de fragrância néroli siciliano e caxemira"],["Siberian Cedar & Bergamot Fragrance Oil","Óleo de fragrância cedro siberiano e bergamota"],["All-Seasons Classics Fragrance Oils Kit","Kit de fragrâncias clássicas para todas as estações"],["Siberian cedar & bergamot fragrance oil","Óleo de fragrância cedro siberiano e bergamota"],["Fresh Cotton & Green Tea Fragrance Oil","Óleo de fragrância algodão fresco e chá verde"],["Moroccan Cedar & Saffron Fragrance Oil","Óleo de fragrância cedro marroquino e açafrão"],["Magnolia & Peach Blossom Fragrance Oil","Óleo de fragrância magnólia e flor de pessegueiro"],["Autumn and Holidays Fragrance Oils Kit","Kit de fragrâncias de outono e festas"],["My First Collection Fragrance Oils Kit","Kit de fragrâncias da minha primeira coleção"],["Fresh cotton & green tea fragrance oil","Óleo de fragrância algodão fresco e chá verde"],["Moroccan cedar & saffron fragrance oil","Óleo de fragrância cedro marroquino e açafrão"],["Magnolia & peach blossom fragrance oil","Óleo de fragrância magnólia e flor de pessegueiro"],["Modern Gentleman Fougère Fragrance Oil","Óleo de fragrância fougère de cavalheiro moderno"],["Agarwood & Noble Incense Fragrance Oil","Óleo de fragrância agarwood e incenso nobre"],["Modern gentleman fougère fragrance oil","Óleo de fragrância fougère de cavalheiro moderno"],["Agarwood & noble incense fragrance oil","Óleo de fragrância agarwood e incenso nobre"],["Spiced Apple & Cinnamon Fragrance Oil","Óleo de fragrância maçã especiada e canela"],["Glass Jar and Metal Screw Cap, 200 ml","Recipiente de vidro com tampa metálica de rosca, 200 ml"],["Oud Wood & Sweet Jasmin Fragrance Oil","Óleo de fragrância madeira de oud e jasmim doce"],["Oud wood & sweet jasmin fragrance oil","Óleo de fragrância madeira de oud e jasmim doce"],["Spiced apple & cinnamon fragrance oil","Óleo de fragrância maçã especiada e canela"],["Nutmeg, Ginger & Spice Fragrance Oil","Óleo de fragrância noz-moscada, gengibre e especiarias"],["Nutmeg, ginger & spice fragrance oil","Óleo de fragrância noz-moscada, gengibre e especiarias"],["Home Fragrances Business Starter Kit","Kit de arranque para negócio de perfumaria para a casa"],["Luscious Lime & Basil Fragrance Oil","Óleo de fragrância lima suculenta e manjericão"],["Lavender & Peppermint Fragrance Oil","Óleo de fragrância lavanda e hortelã-pimenta"],["Cashmere Wood & Tonka Fragrance Oil","Óleo de fragrância madeira de caxemira e fava-tonka"],["Lavender & peppermint fragrance oil","Óleo de fragrância lavanda e hortelã-pimenta"],["Cashmere wood & tonka fragrance oil","Óleo de fragrância madeira de caxemira e fava-tonka"],["Dubai Pistachio Cream Fragrance Oil","Óleo de fragrância creme de pistácio do Dubai"],["Luscious lime & basil fragrance oil","Óleo de fragrância lima suculenta e manjericão"],["Suede Leather & Orris Fragrance Oil","Óleo de fragrância couro de camurça e orris"],["Suede leather & orris fragrance oil","Óleo de fragrância couro de camurça e orris"],["Palo Santo de Marabi Fragrance Oil","Óleo de fragrância Palo Santo de Marabi"],["EcoSoya™ CB-Advanced Container Wax","Cera EcoSoya™ CB-Advanced para velas em recipiente"],["Palo santo de marabi fragrance oil","Óleo de fragrância Palo Santo de Marabi"],["Patchouli & Vetiver Fragrance Oil","Óleo de fragrância patchouli e vetiver"],["Sweet Amber & Smoke Fragrance Oil","Óleo de fragrância âmbar doce e fumo"],["Vanilla & Patchouli Fragrance Oil","Óleo de fragrância baunilha e patchouli"],["Room Spray Classic Bottle, 250 ml","Frasco clássico para spray de ambiente, 250 ml"],["Room Spray Classic Bottle, 125 ml","Frasco clássico para spray de ambiente, 125 ml"],["Patchouli & vetiver fragrance oil","Óleo de fragrância patchouli e vetiver"],["Sweet amber & smoke fragrance oil","Óleo de fragrância âmbar doce e fumo"],["Vanilla & patchouli fragrance oil","Óleo de fragrância baunilha e patchouli"],["NatureWax™ C-3 Container Soy Wax","Cera de soja NatureWax™ C-3 para velas em recipiente"],["Smoky Myrrh & Sage Fragrance Oil","Óleo de fragrância mirra fumada e sálvia"],["Lemongrass & Honey Fragrance Oil","Óleo de fragrância erva-príncipe e mel"],["Smoky myrrh & sage fragrance oil","Óleo de fragrância mirra fumada e sálvia"],["Lemongrass & honey fragrance oil","Óleo de fragrância erva-príncipe e mel"],["Tobacco & Vanilla Fragrance Oil","Óleo de fragrância tabaco e baunilha"],["Tobacco & vanilla fragrance oil","Óleo de fragrância tabaco e baunilha"],["Simply Delicious Fragrances Kit","Kit de fragrâncias deliciosas"],["Vibrant Olive Green Liquid Dye","Corante líquido Vibrant verde-oliva"],["Very Gingerbread Fragrance Oil","Óleo de fragrância pão de gengibre intenso"],["Wild Fern & Moss Fragrance Oil","Óleo de fragrância feto selvagem e musgo"],["Christmas Hearth Fragrance Oil","Óleo de fragrância lareira de Natal"],["Rose & Champagne Fragrance Oil","Óleo de fragrância rosa e champanhe"],["By The Fireplace Fragrance Oil","Óleo de fragrância junto à lareira"],["Very gingerbread fragrance oil","Óleo de fragrância pão de gengibre intenso"],["Wild fern & moss fragrance oil","Óleo de fragrância feto selvagem e musgo"],["Christmas hearth fragrance oil","Óleo de fragrância lareira de Natal"],["Rose & champagne fragrance oil","Óleo de fragrância rosa e champanhe"],["By the fireplace fragrance oil","Óleo de fragrância junto à lareira"],["Golden Wax™ R45+ Сontainer Wax","Cera de colza Golden Wax™ R45+ para velas em recipiente"],["Golden Wax™ 464 Сontainer Wax","Cera Golden Wax™ 464 para velas em recipiente"],["Fresh Cut Peony Fragrance Oil","Óleo de fragrância peónia recém-cortada"],["Ruby Grapefruit Fragrance Oil","Óleo de fragrância toranja rubi"],["Fresh Cut Grass Fragrance Oil","Óleo de fragrância relva acabada de cortar"],["Fresh cut peony fragrance oil","Óleo de fragrância peónia recém-cortada"],["Ruby grapefruit fragrance oil","Óleo de fragrância toranja rubi"],["Fresh cut grass fragrance oil","Óleo de fragrância relva acabada de cortar"],["Golden Wax™ Y50 Wax Melts Wax","Cera Golden Wax™ Y50 para wax melts"],["Sage & Seasalt Fragrance Oil","Óleo de fragrância sálvia e sal marinho"],["Sage & seasalt fragrance oil","Óleo de fragrância sálvia e sal marinho"],["Metal Screw-cap Tin, 100 ml","Lata metálica com tampa de rosca, 100 ml"],["Stabilo Series Cotton Wicks","Pavios de algodão da série Stabilo"],["Metal Lever-lid Can, 250 ml","Lata metálica com tampa de alavanca, 250 ml"],["Vibrant Burgundy Liquid Dye","Corante líquido Vibrant bordeaux"],["Vanilla Cream Fragrance Oil","Óleo de fragrância creme de baunilha"],["Vanilla cream fragrance oil","Óleo de fragrância creme de baunilha"],["Candle Business Starter Kit","Kit de arranque para negócio de velas"],["Opium & Musk Fragrance Oil","Óleo de fragrância ópio e almíscar"],["Vibrant Magenta Liquid Dye","Corante líquido Vibrant magenta"],["Pure Jasmine Fragrance Oil","Óleo de fragrância jasmim puro"],["Muscat & Fig Fragrance Oil","Óleo de fragrância moscatel e figo"],["Pure jasmine fragrance oil","Óleo de fragrância jasmim puro"],["Muscat & fig fragrance oil","Óleo de fragrância moscatel e figo"],["Opium & musk fragrance oil","Óleo de fragrância ópio e almíscar"],["Solubilizer Polysorbate 20","Solubilizante Polysorbate 20"],["Metal Screw-cap Tin, 10 ml","Lata metálica com tampa de rosca, 10 ml"],["Metal Can and Lid, 200 ml","Lata metálica com tampa, 200 ml"],["Metal Can and Lid, 500 ml","Lata metálica com tampa, 500 ml"],["Vibrant Yellow Liquid Dye","Corante líquido Vibrant amarelo"],["Vibrant Purple Liquid Dye","Corante líquido Vibrant roxo"],["Vibrant Orange Liquid Dye","Corante líquido Vibrant laranja"],["Tomato Leaf Fragrance Oil","Óleo de fragrância folha de tomate"],["Summer Fragrance Oils Kit","Kit de fragrâncias de verão"],["Tomato leaf fragrance oil","Óleo de fragrância folha de tomate"],["Winter Fragrance Oils Kit","Kit de fragrâncias de inverno"],["EcoSoya™ PillarBlend Wax","Cera EcoSoya™ PillarBlend para velas pilar"],["KeraSoy™ Pillar Wax 4120","Cera KeraSoy™ 4120 para velas pilar"],["Vibrant Green Liquid Dye","Corante líquido Vibrant verde"],["Vibrant Brown Liquid Dye","Corante líquido Vibrant castanho"],["Vibrant Black Liquid Dye","Corante líquido Vibrant preto"],["Very Mango Fragrance Oil","Óleo de fragrância manga intensa"],["Very mango fragrance oil","Óleo de fragrância manga intensa"],["Vibrant Navy Liquid Dye","Corante líquido Vibrant azul-marinho"],["Vibrant Blue Liquid Dye","Corante líquido Vibrant azul"],["TCR Series Cotton Wicks","Pavios de algodão da série TCR"],["Vibrant Red Liquid Dye","Corante líquido Vibrant vermelho"],["Metal Screw Cap, 70mm","Tampa metálica de rosca, 70 mm"],["Rattan Diffuser Reeds","Varetas de rattan para difusor"],["Tefacid® Stearic Acid","Ácido esteárico Tefacid®"],["EcoOlive™ Pillar Wax","Cera EcoOlive™ para velas pilar"],["Fiber Diffuser Reeds","Varetas de fibra para difusor"],["Augeo Diffuser Base","Base para difusor Augeo"],["Braded Cotton Wicks","Pavios entrançados de algodão"]];
+        const themeRegexReplacements = [{"pattern":"\\(Pantone([^)]*?) or ([^)]*?)\\)","flags":"g","replacement":"(Pantone$1 ou $2)"}];
+        const structuredValueReplacements = [{"label":"Notas de topo","contains":"Blue leaved eucalyptus","target":"eucalipto de folhas azuladas e casca de laranja"},{"label":"Notas de coração","contains":"Green cardamom","target":"cardamomo verde, pau de canela e lírio-do-vale"},{"label":"Notas de fundo","contains":"Vetiver, musk","target":"vetiver, almíscar e sândalo"},{"label":"Cores para embalagem","contains":"Eucalyptus Green","target":"verde eucalipto (Pantone 5565 C ou #6A8E83))\ncardamomo fresco (Pantone 5777 C ou #8A9A5B)\nsálvia herbal (Pantone 624 C ou #96A48C))\nverde floresta profundo (Pantone 5535 C ou #214437)"},{"label":"Notas de topo","contains":"Coconut","target":"coco e bagas frescas"},{"label":"Notas de coração","contains":"Matcha","target":"matcha e pétalas de violeta"},{"label":"Óleos essenciais","contains":"Cedarwood oil","target":"óleo de madeira de cedro, óleo de semente de cenoura"},{"label":"Cores para embalagem","contains":"Vibrant Green","target":"verde vibrante (Pantone 3546 C ou #00B140)\ncreme (Pantone 7499 C ou #F5E7C2)\nbege claro (Pantone 7534 C ou #E3D6C0)\nverde-petróleo (Pantone 326 C ou #00A59B)"},{"label":"Notas de topo","contains":"Pine needles","target":"agulhas de pinheiro e citrinos, eucalipto e frésia"},{"label":"Notas de coração","contains":"Tobacco","target":"tabaco e incenso quente, tomilho e gerânio"},{"label":"Notas de fundo","contains":"Agarwood","target":"agarwood e musgo de carvalho, almíscar e cedro, couro acamurçado e resina"},{"label":"Cores para embalagem","contains":"Deep Oud Brown","target":"castanho oud profundo (Pantone 476 C ou #4B2E2B)\nâmbar fumado (Pantone 7554 C ou #7A4E2D)\npreto carvão (Pantone Black 7 C ou #2B2B2B)\ndourado antigo (Pantone 871 C ou #85754E)"},{"label":"Notas de topo","contains":"Almond blossom","target":"flor de amendoeira e maçãs rosadas"},{"label":"Notas de coração","contains":"Wild strawberries","target":"morangos silvestres e flor de peónia"},{"label":"Notas de fundo","contains":"Vanilla, musk and silk","target":"baunilha, almíscar e seda"},{"label":"Cores para embalagem","contains":"Strawberry Red","target":"vermelho morango (Pantone 200 C ou #C41E3A)\ncreme suave (Pantone 7499 C ou #F6E7D7)\nrosa suave (Pantone 705 C ou #F4C2C2)\nmarfim sedoso (Pantone 7527 C ou #D8CFC4)"}];
+        const contactTextReplacements = [["We’re here to help you!","Estamos aqui para ajudar!"],["Text us at","Envie-nos uma mensagem para"],["+34 614 410 662 for the fastest response.","+34 614 410 662 para obter a resposta mais rápida."],["Email us at","Envie-nos um e-mail para"],["Write to us at","Escreva para"],["and we’ll get back to you within 24 hours.","e responderemos no prazo de 24 horas."],["Text us at +34 614 410 662 for the fastest response.","Envie-nos uma mensagem para +34 614 410 662 para obter a resposta mais rápida."],["Email us at support@aromawax.eu, and we’ll get back to you within 24 hours.","Envie-nos um e-mail para support@aromawax.eu e responderemos no prazo de 24 horas."],["Use our online chat on the bottom-right corner of our website for quick assistance with store policies, products, your order or any other question.","Utilize o nosso chat online no canto inferior direito do site para obter ajuda rápida sobre políticas da loja, produtos, a sua encomenda ou qualquer outra questão."],["Track your order anytime by logging into your account here.","Pode acompanhar a sua encomenda a qualquer momento iniciando sessão na sua conta aqui."],["Can’t find what you need? Fill out our online form, and we’ll respond as soon as possible.","Não encontrou o que procura? Preencha o nosso formulário online e responderemos o mais rapidamente possível."],["We look forward to assisting you!","Teremos todo o gosto em ajudá-lo."],["Looking forward to hearing from you!","Esperamos falar consigo em breve!"],["First Name","Nome"],["Last Name","Apelido"],["Order number (if applicable)","Número da encomenda (se aplicável)"],["Email address (the one, used for logging to Aroma+Wax)","Endereço de e-mail (o mesmo que utiliza para iniciar sessão na Aroma+Wax)"],["E-mail address (the one, used for logging to Aroma+Wax)","Endereço de e-mail (o mesmo que utiliza para iniciar sessão na Aroma+Wax)"],["Use our online chat on the bottom-right corner of our website for quick assistance with políticas da loja, products, your order or any other question.","Utilize o nosso chat online no canto inferior direito do site para obter ajuda rápida sobre políticas da loja, produtos, a sua encomenda ou qualquer outra questão."],["políticas da loja, products, your order or any other question.","políticas da loja, produtos, a sua encomenda ou qualquer outra questão."],["Desplegable","Motivo do contacto"],["Por favor, selecciona","Selecione uma opção"],["Order Help","Ajuda com encomendas"],["Billing","Faturação"],["Shipment change","Alteração de envio"],["Product information","Informações sobre produtos"],["Return","Devolução"],["Other reasons","Outros motivos"],["How can we help you?","Como podemos ajudar?"],["Archivos adjuntos","Ficheiros anexos"],["Elige un archivo o arrástralo aquí.","Escolha um ficheiro ou arraste-o para aqui."],["Supported format:","Formatos suportados:"],["Buscar archivo","Procurar ficheiro"],["Thanks for getting in touch!","Obrigado pelo seu contacto!"],["We appreciate you contacting us. One of our colleagues will get back in touch with you soon!","Agradecemos o seu contacto. Um dos nossos colegas responderá em breve."],["Have a great day!","Tenha um excelente dia!"],["Previous","Anterior"]];
+        const attributeNames = ['aria-label', 'title', 'placeholder', 'data-content', 'value'];
+
+        const replaceString = (input, textReplacements, regexReplacements = []) => {
+          let updated = input;
+
+          for (const [source, target] of textReplacements) {
+            if (updated.includes(source)) {
+              updated = updated.split(source).join(target);
+            }
+          }
+
+          for (const entry of regexReplacements) {
+            updated = updated.replace(new RegExp(entry.pattern, entry.flags), entry.replacement);
+          }
+
+          return updated;
+        };
+
+        if (typeof window.alert === 'function' && !window.__ptPtAlertWrapped) {
+          const originalAlert = window.alert.bind(window);
+          window.__ptPtAlertWrapped = true;
+          window.alert = (message) => {
+            if (typeof message === 'string') {
+              originalAlert(replaceString(message, themeTextReplacements, themeRegexReplacements));
+              return;
+            }
+
+            originalAlert(message);
+          };
+        }
+
+        const applyToRoot = (root, textReplacements, regexReplacements = []) => {
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+          let textNode = walker.nextNode();
+
+          while (textNode) {
+            const parentTagName = textNode.parentElement?.tagName;
+
+            if (parentTagName !== 'SCRIPT' && parentTagName !== 'STYLE') {
+              const updated = replaceString(textNode.nodeValue || '', textReplacements, regexReplacements);
+
+              if (updated !== textNode.nodeValue) {
+                textNode.nodeValue = updated;
+              }
+            }
+
+            textNode = walker.nextNode();
+          }
+
+          root.querySelectorAll('*').forEach((element) => {
+            attributeNames.forEach((attributeName) => {
+              const currentValue = element.getAttribute(attributeName);
+
+              if (!currentValue) {
+                return;
+              }
+
+              const updated = replaceString(currentValue, textReplacements, regexReplacements);
+
+              if (updated !== currentValue) {
+                element.setAttribute(attributeName, updated);
+              }
+            });
+          });
+        };
+
+        const applyReplacements = () => {
+          if (document.body) {
+            applyToRoot(document.body, themeTextReplacements, themeRegexReplacements);
+          }
+
+          document.querySelectorAll('li').forEach((item) => {
+            const label = item.querySelector('b')?.textContent?.trim();
+            const valueElement = item.querySelector('span');
+            const currentValue = valueElement?.textContent?.trim();
+
+            if (!label || !valueElement || !currentValue) {
+              return;
+            }
+
+            structuredValueReplacements.forEach((entry) => {
+              if (label === entry.label && currentValue.includes(entry.contains)) {
+                valueElement.textContent = entry.target;
+              }
+            });
+          });
+
+          document
+            .querySelectorAll('.jdgm-widget, .jdgm-rev-widg, .jdgm-all-reviews-widget, .ooo-wl-popup')
+            .forEach((root) => {
+              applyToRoot(root, widgetTextReplacements, widgetRegexReplacements);
+              applyToRoot(root, themeTextReplacements, themeRegexReplacements);
+            });
+
+          document.querySelectorAll('.jdgm-rev-widg__title').forEach((element) => {
+            element.textContent = 'Avaliações de clientes';
+          });
+
+          document.querySelectorAll('.jdgm-rev-widg__section-title').forEach((element) => {
+            const text = element.textContent?.trim() || '';
+
+            if (text.includes('Idiomas') || text.includes('Languages')) {
+              element.textContent = 'Avaliações noutros idiomas';
+            }
+          });
+
+          document.querySelectorAll('.jdgm-rev-widg__summary-text, .jdgm-write-rev-link').forEach((element) => {
+            const text = element.textContent || '';
+            const updated = replaceString(text, widgetTextReplacements, widgetRegexReplacements);
+
+            if (updated !== text) {
+              element.textContent = updated;
+            }
+          });
+
+          if (window.location.pathname.includes('/contact')) {
+            applyToRoot(document.body, contactTextReplacements);
+            document
+              .querySelectorAll('.globo-form-app')
+              .forEach((root) => applyToRoot(root, contactTextReplacements));
+          }
+
+          document.querySelectorAll('.cart-order .prose.text-subdued p').forEach((element) => {
+            const text = (element.textContent || '').replace(/\s+/g, ' ').trim();
+
+            if (text.includes('EU business') || text.includes('empresa da UE')) {
+              element.innerHTML =
+                '<strong>Se é uma empresa da UE</strong>: introduza o seu número de IVA para remover o IVA na finalização da compra. Deixe em branco se não se aplicar.';
+            }
+          });
+
+          document.querySelectorAll('.f-vat-validator-form input[type="email"]').forEach((element) => {
+            if (element.getAttribute('placeholder') === 'Enter your email') {
+              element.setAttribute('placeholder', 'Introduza o seu e-mail');
+            }
+          });
+
+          document.querySelectorAll('.sampleProductsBtn').forEach((element) => {
+            element.textContent = 'Escolha já a sua amostra gratuita.';
+          });
+
+          document.querySelectorAll('.spTab.sampleTabs').forEach((element) => {
+            if ((element.textContent || '').trim() === 'Fragrance oils') {
+              element.textContent = 'Óleos de fragrância';
+            }
+          });
+
+          document.querySelectorAll('.sample-wrapper .sample-message p').forEach((element) => {
+            const strongValues = Array.from(element.querySelectorAll('strong')).map((strong) =>
+              (strong.textContent || '').trim(),
+            );
+            const text = (element.textContent || '').replace(/\s+/g, ' ').trim();
+
+            if ((text.includes('unlock') || text.includes('desbloquear')) && strongValues.length >= 2) {
+              let amount = strongValues[0].replace(/[^\d.,]/g, '');
+              const sampleCount = strongValues[1].replace(/[^\d]/g, '') || strongValues[1];
+
+              if (amount.includes('.')) {
+                amount = amount.replace('.', ',');
+              }
+
+              const sampleLabel =
+                sampleCount === '1'
+                  ? 'produto de amostra gratuito'
+                  : 'produtos de amostra gratuitos';
+
+              element.textContent =
+                'Faltam ' + amount + ' € para desbloquear ' + sampleCount + ' ' + sampleLabel + '.';
+            }
+          });
+
+          if (window.location.pathname.includes('/pages/contact') || window.location.pathname.includes('/pages/customer-support')) {
+            document.querySelectorAll('p, li').forEach((element) => {
+              const html = element.innerHTML;
+              const updated = replaceString(html, [
+                ['Text us at ', 'Envie-nos uma mensagem para '],
+                ['E-mail us at ', 'Envie-nos um e-mail para '],
+                ['Email us at ', 'Envie-nos um e-mail para '],
+                ['Email Us: Write to us at ', 'Envie-nos um e-mail para '],
+                ['Use our online chat on the bottom-right corner of our website for quick assistance with store policies, products, your order or any other question.', 'Utilize o nosso chat online no canto inferior direito do site para obter ajuda rápida sobre políticas da loja, produtos, a sua encomenda ou qualquer outra questão.'],
+                ['Use our online chat on the bottom-right corner of our website for quick assistance with políticas da loja, products, your order or any other question.', 'Utilize o nosso chat online no canto inferior direito do site para obter ajuda rápida sobre políticas da loja, produtos, a sua encomenda ou qualquer outra questão.'],
+                ['Track your order anytime by logging into your account ', 'Pode acompanhar a sua encomenda a qualquer momento iniciando sessão na sua conta '],
+                ['Can’t find what you need? Fill out our', 'Não encontrou o que procura? Preencha o nosso'],
+                [', and we’ll get back to you within 24 hours.', ' e responderemos no prazo de 24 horas.'],
+                [' and we’ll get back to you within 24 hours.', ' e responderemos no prazo de 24 horas.'],
+                [', and we’ll respond as soon as possible.', ' e responderemos o mais rapidamente possível.'],
+                [' and we’ll respond as soon as possible.', ' e responderemos o mais rapidamente possível.'],
+              ]);
+
+              if (updated !== html) {
+                element.innerHTML = updated;
+              }
+            });
+          }
+
+          /* pt-pt-stage4-batch-a-contact-list-fix:start */
+          if (window.location.pathname.includes('/pages/contact') || window.location.pathname.includes('/pages/customer-support')) {
+            const normalizeContactText = (input) =>
+              String(input || '')
+                .replaceAll('\n', ' ')
+                .replaceAll('\t', ' ')
+                .replaceAll('\u00a0', ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+
+            document.querySelectorAll('main li, main p').forEach((element) => {
+              const text = normalizeContactText(element.textContent);
+
+              if (text === 'Text us at +34 614 410 662 for the fastest response.') {
+                const link = element.querySelector('a');
+                const href = link?.getAttribute('href') || '+34 614 410 662';
+                element.innerHTML =
+                  'Envie-nos uma mensagem para <a href="' + href + '">+34 614 410 662</a> para obter a resposta mais rápida.';
+              }
+
+              if (
+                text === 'Use our online chat on the bottom-right corner of our website for quick assistance with store policies, products, your order or any other question.' ||
+                text === 'Use our online chat on the bottom-right corner of our website for quick assistance with políticas da loja, produtos, a sua encomenda ou qualquer outra questão.'
+              ) {
+                element.textContent =
+                  'Utilize o nosso chat online no canto inferior direito do site para obter ajuda rápida sobre políticas da loja, produtos, a sua encomenda ou qualquer outra questão.';
+              }
+
+              if (text === 'Track your order anytime by logging into your account here.') {
+                const link = element.querySelector('a');
+                const href = link?.getAttribute('href') || '/pt/apps/deluxe/account/login';
+                element.innerHTML =
+                  'Pode acompanhar a sua encomenda a qualquer momento iniciando sessão na sua conta <a href="' + href + '">aqui</a>.';
+              }
+
+              if (
+                text === 'Can’t find what you need? Fill out our online form, and we’ll respond as soon as possible.' ||
+                text === 'Can’t find what you need? Fill out our online form e responderemos o mais rapidamente possível.'
+              ) {
+                element.textContent =
+                  'Não encontrou o que procura? Preencha o nosso formulário online e responderemos o mais rapidamente possível.';
+              }
+            });
+          }
+          /* pt-pt-stage4-batch-a-contact-list-fix:end */
+
+          if (window.location.pathname.includes('/pages/discounts-and-rewards')) {
+            document.querySelectorAll('p, li, div').forEach((element) => {
+              const text = normalize(element.textContent);
+
+              if (
+                text ===
+                'Descontos especiais Uma amostra grátis de óleo de fragrância acompanha as compras a partir de 50€. Basta fazer uma encomenda de pelo menos 50€ e poderá selecionar uma amostra grátis de óleo de fragrância durante o checkout.'
+              ) {
+                element.textContent =
+                  'Descontos especiais Uma amostra grátis de óleo de fragrância acompanha as compras a partir de 50€. Basta fazer uma encomenda de pelo menos 50€ e poderá selecionar uma amostra grátis de óleo de fragrância durante a finalização da compra.';
+              }
+
+              if (text === 'Resgate pontos e obtenha descontos. Troque os seus pontos por descontos instantâneos no checkout:') {
+                element.textContent =
+                  'Resgate pontos e obtenha descontos. Troque os seus pontos por descontos instantâneos na finalização da compra:';
+              }
+
+              if (text.includes('Faça login na sua conta e veja os seus pontos atuais')) {
+                element.textContent = text.replace('Faça login', 'Inicie sessão');
+              }
+            });
+          }
+
+          if (window.location.pathname.includes('/policies/shipping-policy')) {
+            document.querySelectorAll('.shopify-policy__body .rte p').forEach((element) => {
+              const text = normalize(element.textContent);
+
+              if (text.includes('The cost of shipping depends on your location')) {
+                element.innerHTML =
+                  'O custo de envio depende da sua localização, do peso total da encomenda e do número de volumes necessários para enviar os seus artigos. Para o ajudar a planear, disponibilizamos uma calculadora de custos de envio no carrinho e antes de finalizar a compra, permitindo-lhe consultar os custos antes da finalização da compra.';
+              }
+
+              if (
+                text.includes('For customers located in the European Union, your order will not incur additional customs duties') ||
+                text.includes('If you have a VAT number, please include it during checkout')
+              ) {
+                element.innerHTML =
+                  'Para clientes localizados na União Europeia, a sua encomenda não terá direitos aduaneiros nem taxas de desalfandegamento adicionais. Se tiver um número de IVA, inclua-o na finalização da compra para que possamos deduzir o IVA do total. Para encomendas efetuadas fora da UE, tenha em conta que poderão aplicar-se custos aduaneiros ou de desalfandegamento adicionais, consoante a legislação do seu país.';
+              }
+
+              if (text.includes('For bulk or wholesale purchases, you may use your preferred transport company')) {
+                element.innerHTML =
+                  'Para compras em volume ou encomendas grossistas, pode usar a sua transportadora preferida para tratar do envio. Para combinar esta opção, envie-nos um e-mail para <a href="mailto:support@aromawax.eu">support@aromawax.eu</a> com os seus requisitos. A nossa equipa coordenará consigo a logística. Assim que a sua encomenda estiver preparada, enviaremos a fatura e, depois de a encomenda ser recolhida internamente, verificada e embalada, receberá um e-mail com as dimensões e o peso do volume. Estas informações permitir-lhe-ão agendar a recolha com a transportadora escolhida.';
+              }
+
+              if (text.includes('You may cancel your order and return the goods within 14 calendar days')) {
+                element.innerHTML =
+                  'Pode cancelar a sua encomenda e devolver os bens no prazo de 14 dias de calendário a contar da data em que os recebe. Para iniciar o cancelamento e a devolução, envie-nos um e-mail para <a href="mailto:support@aromawax.eu">support@aromawax.eu</a> e a nossa equipa irá orientá-lo durante o processo.';
+              }
+            });
+          }
+
+          if (window.location.pathname.includes('/policies/refund-policy')) {
+            document.querySelectorAll('.shopify-policy__body .rte p').forEach((element) => {
+              const text = normalize(element.textContent);
+
+              if (text.includes('[INSERT RETURN ADDRESS]')) {
+                element.innerHTML =
+                  'Temos uma política de devolução de 14 dias, o que significa que dispõe de 14 dias após receber o artigo para solicitar uma devolução. Para ser elegível para devolução, o artigo deve estar nas mesmas condições em que o recebeu, sem uso, com etiquetas e na embalagem original. Também precisará do recibo ou comprovativo de compra. Para iniciar uma devolução, pode contactar-nos através de <a href="mailto:support@aromawax.eu">support@aromawax.eu</a>. Tenha em atenção que as devoluções têm de ser aprovadas previamente antes de qualquer artigo ser devolvido. Se a sua devolução for aceite, enviaremos instruções de devolução, incluindo a morada para onde deve enviar a encomenda e, quando aplicável, uma etiqueta de devolução. Artigos enviados de volta sem pedido prévio de devolução não serão aceites. Pode sempre contactar-nos para qualquer questão sobre devoluções através de <a href="mailto:support@aromawax.eu">support@aromawax.eu</a>.';
+              }
+            });
+          }
+        };
+
+        const runApplyReplacements = () => {
+          try {
+            applyReplacements();
+            window.__ptPtThemeFixesLastRun = Date.now();
+          } catch (error) {
+            window.__ptPtThemeFixesError = String(error && error.stack ? error.stack : error);
+          }
+        };
+
+        let scheduled = false;
+        const scheduleApply = () => {
+          if (scheduled) {
+            return;
+          }
+
+          scheduled = true;
+          requestAnimationFrame(() => {
+            scheduled = false;
+            runApplyReplacements();
+          });
+        };
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', scheduleApply, { once: true });
+        } else {
+          scheduleApply();
+        }
+
+        window.addEventListener('load', scheduleApply, { once: true });
+
+        const pathname = window.location.pathname || '';
+        const needsFollowupPasses =
+          pathname.includes('/products/') ||
+          pathname.includes('/pages/contact') ||
+          pathname.includes('/pages/wishlist') ||
+          pathname.includes('/pages/customer-support') ||
+          pathname.includes('/pages/discounts-and-rewards') ||
+          pathname.includes('/policies/shipping-policy') ||
+          pathname.includes('/policies/refund-policy');
+
+        if (needsFollowupPasses) {
+          [250, 1200, 3000].forEach((delay) => {
+            window.setTimeout(runApplyReplacements, delay);
+          });
+        }
+      } catch (error) {
+        window.__ptPtThemeFixesError = String(error && error.stack ? error.stack : error);
+      }
+    })();
+  </script>
+{% endif %}
+<!-- pt-pt-contact-form-localization:end -->
+<!-- pt-pt-runtime-hotfix:start -->
+<script data-cfasync='false'>
+(() => {
+    try {
+      window.__ptPtRuntimeHotfixBoot = Date.now();
+      if (window.__ptPtRuntimeHotfixAssetInitialized) {
+        return;
+      }
+
+      window.__ptPtRuntimeHotfixAssetInitialized = true;
+      const textReplacements = [["Cookie consent","Consentimento de cookies"],["We and our partners, including Shopify, use cookies and other technologies to personalize your experience, show you ads, and perform analytics, and we will not use cookies or other technologies for these purposes unless you accept them. Learn more in our","Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa"],["Privacy Policy","Política de privacidade"],["Manage preferences","Gerir preferências"],["Accept","Aceitar"],["Decline","Rejeitar"],["Skip to content","Ir para o conteúdo"],["Over €2,000 our sales team will prepare a custom quote for you!","Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!"],["shop all","comprar tudo"],["candle making","fabrico de velas"],["fragrance oils","fragrâncias"],["diffuser making","fabrico de difusores"],["room spray making","fabrico de sprays de ambiente"],["wholesale","grossista"],["Search","Pesquisar"],["Login","Iniciar sessão"],["Open wishlist","Abrir lista de desejos"],["Cart","Carrinho"],["items","unidades"],["item","unidade"],["View all >","Ver tudo >"],["Share your wishlist","Partilhe a sua lista de desejos"],["You must log in to share your wishlist","Tem de iniciar sessão para partilhar a sua lista de desejos"],["Empty wishlist","Esvaziar lista de desejos"],["You have no products in your wishlist","Não tem produtos na sua lista de desejos"],["Access your wishlist","Aceda à sua lista de desejos"],["Please log in to access your wishlist","Inicie sessão para aceder à sua lista de desejos"],["Start shopping","Começar a comprar"],["Add to cart ({{count}} items)","Adicionar ao carrinho ({{count}} artigos)"],["Add to cart","Adicionar ao carrinho"],["Sold out","Esgotado"],["Unavailable","Indisponível"],["Remove from wishlist","Remover da lista de desejos"],["Enviaremos um código único (OTP) para o seu email para um login seguro.","Enviaremos um código único (OTP) para o seu e-mail para um início de sessão seguro."],["E-mail us at support@aromawax.eu, e responderemos no prazo de 24 horas.","Envie-nos um e-mail para support@aromawax.eu e responderemos no prazo de 24 horas."],["Email us at support@aromawax.eu, and we’ll get back to you within 24 hours.","Envie-nos um e-mail para support@aromawax.eu e responderemos no prazo de 24 horas."],["Email us at ","Envie-nos um e-mail para "],["E-mail us at ","Envie-nos um e-mail para "],[", and we’ll get back to you within 24 hours."," e responderemos no prazo de 24 horas."],[" and we’ll get back to you within 24 hours."," e responderemos no prazo de 24 horas."],["durante o checkout.","durante a finalização da compra."],["no checkout:","na finalização da compra:"],["antes do checkout.","antes da finalização da compra."],["inclua-o no checkout","inclua-o na finalização da compra"],["Faça login","Inicie sessão"],["Your Shopping Cart","O seu carrinho de compras"],["Welcome to your Cart","Bem-vindo ao seu carrinho"],["Your cart is empty","O seu carrinho está vazio"],["Continue shopping","Continuar a comprar"],["Product","Produto"],["Quantity","Quantidade"],["Order note","Nota da encomenda"],["Remove","Remover"],["Tax included. Shipping calculated at checkout.","IVA incluído. Portes calculados na finalização da compra."],["If you are an EU business:","Se é uma empresa da UE:"],["Enter your VAT number to remove VAT at checkout. Leave it blank if not applicable.","Introduza o seu número de IVA para remover o IVA na finalização da compra. Deixe em branco se não se aplicar."],["Enter VAT number","Introduza o número de IVA"],["Validate VAT number","Validar número de IVA"],["VAT number validated successfully!","Número de IVA validado com sucesso!"],["Invalid VAT number, please try again.","Número de IVA inválido. Tente novamente."],["Be the first to find out about our new arrivals, get craft and business advice!","Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio."],["Sign up to our newsletter and get the best deals!","Subscreva a nossa newsletter e receba as melhores ofertas."],["Subscribe","Subscrever"],["help and information","ajuda e informações"],["contact us","contacte-nos"],["order status","estado da encomenda"],["customer support","apoio ao cliente"],["learning","aprendizagem"],["faq and help","FAQ e ajuda"],["our stores","as nossas lojas"],["shop from spain","comprar em Espanha"],["shop eu in english","loja UE em inglês"],["shop eu in french","loja UE em francês"],["shop eu in german","Loja UE em alemão"],["store policies","políticas da loja"],["about us","sobre nós"],["privacy policy","política de privacidade"],["shipping and return policy","política de envios e devoluções"],["terms of service","termos de serviço"],["Powered by Shopify","Com tecnologia Shopify"],["Return policy","Política de devoluções"],["Shipping policy","Política de envios"],["Cookie preferences","Preferências de cookies"],["Privacy policy","Política de privacidade"],["Terms of service","Termos de serviço"],["Clear","Limpar"],["Sign in","Iniciar sessão"],["Continue","Continuar"],["Create account","Criar conta"],["Classic Reed Diffuser Bottle with Cork and Cap, 100 ml","Frasco clássico para difusor de varetas com rolha e tampa, 100 ml"],["Apothecary Diffuser Bottle and Metal Screw Cap, 125 ml","Frasco Apothecary para difusor com tampa metálica de rosca, 125 ml"],["Classic Reed Diffuser Bottle with Cork and Cap, 50 ml","Frasco clássico para difusor de varetas com rolha e tampa, 50 ml"],["Apothecary Diffuser Bottle and Metal Screw Cap, 60 ml","Frasco Apothecary para difusor com tampa metálica de rosca, 60 ml"],["Black Pepper, Sandalwood and Tonka Fragrance Oil","Óleo de fragrância pimenta-preta, sândalo e fava-tonka"],["Black pepper, sandalwood and tonka fragrance oil","Óleo de fragrância pimenta-preta, sândalo e fava-tonka"],["Apothecary Room Spray Bottle and Sprayer, 125 ml","Frasco Apothecary para spray de ambiente com pulverizador, 125 ml"],["Apothecary Room Spray Bottle and Sprayer, 60 ml","Frasco Apothecary para spray de ambiente com pulverizador, 60 ml"],["Black Cherry and Corsican Almond Fragrance Oil","Óleo de fragrância cereja preta e amêndoa da Córsega"],["Black cherry and corsican almond fragrance oil","Óleo de fragrância cereja preta e amêndoa da Córsega"],["Wild Strawberry, Cream & Silk Fragrance Oil","Óleo de fragrância morango silvestre, creme e seda"],["Wild strawberry, cream & silk fragrance oil","Óleo de fragrância morango silvestre, creme e seda"],["Black Pepper & Velvet Orchid Fragrance Oil","Óleo de fragrância pimenta-preta e orquídea aveludada"],["Black pepper & velvet orchid fragrance oil","Óleo de fragrância pimenta-preta e orquídea aveludada"],["Winter Pines & Velvet Petals Fragrance Oil","Óleo de fragrância pinheiros de inverno e pétalas aveludadas"],["Kyoto Matcha & Coconut Cloud Fragrance Oil","Óleo de fragrância matcha de Quioto e nuvem de coco"],["Kyoto matcha & coconut cloud fragrance oil","Óleo de fragrância matcha de Quioto e nuvem de coco"],["Winter pines & velvet petals fragrance oil","Óleo de fragrância pinheiros de inverno e pétalas aveludadas"],["Green Fig and Wild Mushroom Fragrance Oil","Óleo de fragrância figo verde e cogumelo selvagem"],["Green fig and wild mushroom fragrance oil","Óleo de fragrância figo verde e cogumelo selvagem"],["Green Cardamom & Eucalyptus Fragrance Oil","Óleo de fragrância cardamomo verde e eucalipto"],["Green cardamom & eucalyptus fragrance oil","Óleo de fragrância cardamomo verde e eucalipto"],["Pineapple & Creamy Coconut Fragrance Oil","Óleo de fragrância ananás e coco cremoso"],["Pineapple & creamy coconut fragrance oil","Óleo de fragrância ananás e coco cremoso"],["Sicilian neroli & cashmere fragrance oil","Óleo de fragrância néroli siciliano e caxemira"],["Sicilian Neroli & Cashmere Fragrance Oil","Óleo de fragrância néroli siciliano e caxemira"],["Siberian Cedar & Bergamot Fragrance Oil","Óleo de fragrância cedro siberiano e bergamota"],["All-Seasons Classics Fragrance Oils Kit","Kit de fragrâncias clássicas para todas as estações"],["Siberian cedar & bergamot fragrance oil","Óleo de fragrância cedro siberiano e bergamota"],["Fresh Cotton & Green Tea Fragrance Oil","Óleo de fragrância algodão fresco e chá verde"],["Moroccan Cedar & Saffron Fragrance Oil","Óleo de fragrância cedro marroquino e açafrão"],["Magnolia & Peach Blossom Fragrance Oil","Óleo de fragrância magnólia e flor de pessegueiro"],["Autumn and Holidays Fragrance Oils Kit","Kit de fragrâncias de outono e festas"],["My First Collection Fragrance Oils Kit","Kit de fragrâncias da minha primeira coleção"],["Fresh cotton & green tea fragrance oil","Óleo de fragrância algodão fresco e chá verde"],["Moroccan cedar & saffron fragrance oil","Óleo de fragrância cedro marroquino e açafrão"],["Magnolia & peach blossom fragrance oil","Óleo de fragrância magnólia e flor de pessegueiro"],["Modern Gentleman Fougère Fragrance Oil","Óleo de fragrância fougère de cavalheiro moderno"],["Agarwood & Noble Incense Fragrance Oil","Óleo de fragrância agarwood e incenso nobre"],["Modern gentleman fougère fragrance oil","Óleo de fragrância fougère de cavalheiro moderno"],["Agarwood & noble incense fragrance oil","Óleo de fragrância agarwood e incenso nobre"],["Spiced Apple & Cinnamon Fragrance Oil","Óleo de fragrância maçã especiada e canela"],["Glass Jar and Metal Screw Cap, 200 ml","Recipiente de vidro com tampa metálica de rosca, 200 ml"],["Oud Wood & Sweet Jasmin Fragrance Oil","Óleo de fragrância madeira de oud e jasmim doce"],["Oud wood & sweet jasmin fragrance oil","Óleo de fragrância madeira de oud e jasmim doce"],["Spiced apple & cinnamon fragrance oil","Óleo de fragrância maçã especiada e canela"],["Nutmeg, Ginger & Spice Fragrance Oil","Óleo de fragrância noz-moscada, gengibre e especiarias"],["Nutmeg, ginger & spice fragrance oil","Óleo de fragrância noz-moscada, gengibre e especiarias"],["Home Fragrances Business Starter Kit","Kit de arranque para negócio de perfumaria para a casa"],["Luscious Lime & Basil Fragrance Oil","Óleo de fragrância lima suculenta e manjericão"],["Lavender & Peppermint Fragrance Oil","Óleo de fragrância lavanda e hortelã-pimenta"],["Cashmere Wood & Tonka Fragrance Oil","Óleo de fragrância madeira de caxemira e fava-tonka"],["Lavender & peppermint fragrance oil","Óleo de fragrância lavanda e hortelã-pimenta"],["Cashmere wood & tonka fragrance oil","Óleo de fragrância madeira de caxemira e fava-tonka"],["Dubai Pistachio Cream Fragrance Oil","Óleo de fragrância creme de pistácio do Dubai"],["Luscious lime & basil fragrance oil","Óleo de fragrância lima suculenta e manjericão"],["Suede Leather & Orris Fragrance Oil","Óleo de fragrância couro de camurça e orris"],["Suede leather & orris fragrance oil","Óleo de fragrância couro de camurça e orris"],["Palo Santo de Marabi Fragrance Oil","Óleo de fragrância Palo Santo de Marabi"],["EcoSoya™ CB-Advanced Container Wax","Cera EcoSoya™ CB-Advanced para velas em recipiente"],["Palo santo de marabi fragrance oil","Óleo de fragrância Palo Santo de Marabi"],["Patchouli & Vetiver Fragrance Oil","Óleo de fragrância patchouli e vetiver"],["Sweet Amber & Smoke Fragrance Oil","Óleo de fragrância âmbar doce e fumo"],["Vanilla & Patchouli Fragrance Oil","Óleo de fragrância baunilha e patchouli"],["Room Spray Classic Bottle, 250 ml","Frasco clássico para spray de ambiente, 250 ml"],["Room Spray Classic Bottle, 125 ml","Frasco clássico para spray de ambiente, 125 ml"],["Patchouli & vetiver fragrance oil","Óleo de fragrância patchouli e vetiver"],["Sweet amber & smoke fragrance oil","Óleo de fragrância âmbar doce e fumo"],["Vanilla & patchouli fragrance oil","Óleo de fragrância baunilha e patchouli"],["NatureWax™ C-3 Container Soy Wax","Cera de soja NatureWax™ C-3 para velas em recipiente"],["Smoky Myrrh & Sage Fragrance Oil","Óleo de fragrância mirra fumada e sálvia"],["Lemongrass & Honey Fragrance Oil","Óleo de fragrância erva-príncipe e mel"],["Smoky myrrh & sage fragrance oil","Óleo de fragrância mirra fumada e sálvia"],["Lemongrass & honey fragrance oil","Óleo de fragrância erva-príncipe e mel"],["Tobacco & Vanilla Fragrance Oil","Óleo de fragrância tabaco e baunilha"],["Tobacco & vanilla fragrance oil","Óleo de fragrância tabaco e baunilha"],["Simply Delicious Fragrances Kit","Kit de fragrâncias deliciosas"],["Vibrant Olive Green Liquid Dye","Corante líquido Vibrant verde-oliva"],["Very Gingerbread Fragrance Oil","Óleo de fragrância pão de gengibre intenso"],["Wild Fern & Moss Fragrance Oil","Óleo de fragrância feto selvagem e musgo"],["Christmas Hearth Fragrance Oil","Óleo de fragrância lareira de Natal"],["Rose & Champagne Fragrance Oil","Óleo de fragrância rosa e champanhe"],["By The Fireplace Fragrance Oil","Óleo de fragrância junto à lareira"],["Very gingerbread fragrance oil","Óleo de fragrância pão de gengibre intenso"],["Wild fern & moss fragrance oil","Óleo de fragrância feto selvagem e musgo"],["Christmas hearth fragrance oil","Óleo de fragrância lareira de Natal"],["Rose & champagne fragrance oil","Óleo de fragrância rosa e champanhe"],["By the fireplace fragrance oil","Óleo de fragrância junto à lareira"],["Golden Wax™ R45+ Сontainer Wax","Cera de colza Golden Wax™ R45+ para velas em recipiente"],["Golden Wax™ 464 Сontainer Wax","Cera Golden Wax™ 464 para velas em recipiente"],["Fresh Cut Peony Fragrance Oil","Óleo de fragrância peónia recém-cortada"],["Ruby Grapefruit Fragrance Oil","Óleo de fragrância toranja rubi"],["Fresh Cut Grass Fragrance Oil","Óleo de fragrância relva acabada de cortar"],["Fresh cut peony fragrance oil","Óleo de fragrância peónia recém-cortada"],["Ruby grapefruit fragrance oil","Óleo de fragrância toranja rubi"],["Fresh cut grass fragrance oil","Óleo de fragrância relva acabada de cortar"],["Golden Wax™ Y50 Wax Melts Wax","Cera Golden Wax™ Y50 para wax melts"],["Sage & Seasalt Fragrance Oil","Óleo de fragrância sálvia e sal marinho"],["Sage & seasalt fragrance oil","Óleo de fragrância sálvia e sal marinho"],["Metal Screw-cap Tin, 100 ml","Lata metálica com tampa de rosca, 100 ml"],["Stabilo Series Cotton Wicks","Pavios de algodão da série Stabilo"],["Metal Lever-lid Can, 250 ml","Lata metálica com tampa de alavanca, 250 ml"],["Vibrant Burgundy Liquid Dye","Corante líquido Vibrant bordeaux"],["Vanilla Cream Fragrance Oil","Óleo de fragrância creme de baunilha"],["Vanilla cream fragrance oil","Óleo de fragrância creme de baunilha"],["Candle Business Starter Kit","Kit de arranque para negócio de velas"],["Opium & Musk Fragrance Oil","Óleo de fragrância ópio e almíscar"],["Vibrant Magenta Liquid Dye","Corante líquido Vibrant magenta"],["Pure Jasmine Fragrance Oil","Óleo de fragrância jasmim puro"],["Muscat & Fig Fragrance Oil","Óleo de fragrância moscatel e figo"],["Pure jasmine fragrance oil","Óleo de fragrância jasmim puro"],["Muscat & fig fragrance oil","Óleo de fragrância moscatel e figo"],["Opium & musk fragrance oil","Óleo de fragrância ópio e almíscar"],["Solubilizer Polysorbate 20","Solubilizante Polysorbate 20"],["Metal Screw-cap Tin, 10 ml","Lata metálica com tampa de rosca, 10 ml"],["Metal Can and Lid, 200 ml","Lata metálica com tampa, 200 ml"],["Metal Can and Lid, 500 ml","Lata metálica com tampa, 500 ml"],["Vibrant Yellow Liquid Dye","Corante líquido Vibrant amarelo"],["Vibrant Purple Liquid Dye","Corante líquido Vibrant roxo"],["Vibrant Orange Liquid Dye","Corante líquido Vibrant laranja"],["Tomato Leaf Fragrance Oil","Óleo de fragrância folha de tomate"],["Summer Fragrance Oils Kit","Kit de fragrâncias de verão"],["Tomato leaf fragrance oil","Óleo de fragrância folha de tomate"],["Winter Fragrance Oils Kit","Kit de fragrâncias de inverno"],["EcoSoya™ PillarBlend Wax","Cera EcoSoya™ PillarBlend para velas pilar"],["KeraSoy™ Pillar Wax 4120","Cera KeraSoy™ 4120 para velas pilar"],["Vibrant Green Liquid Dye","Corante líquido Vibrant verde"],["Vibrant Brown Liquid Dye","Corante líquido Vibrant castanho"],["Vibrant Black Liquid Dye","Corante líquido Vibrant preto"],["Very Mango Fragrance Oil","Óleo de fragrância manga intensa"],["Very mango fragrance oil","Óleo de fragrância manga intensa"],["Vibrant Navy Liquid Dye","Corante líquido Vibrant azul-marinho"],["Vibrant Blue Liquid Dye","Corante líquido Vibrant azul"],["TCR Series Cotton Wicks","Pavios de algodão da série TCR"],["Vibrant Red Liquid Dye","Corante líquido Vibrant vermelho"],["Metal Screw Cap, 70mm","Tampa metálica de rosca, 70 mm"],["Rattan Diffuser Reeds","Varetas de rattan para difusor"],["Tefacid® Stearic Acid","Ácido esteárico Tefacid®"],["EcoOlive™ Pillar Wax","Cera EcoOlive™ para velas pilar"],["Fiber Diffuser Reeds","Varetas de fibra para difusor"],["Augeo Diffuser Base","Base para difusor Augeo"],["Braded Cotton Wicks","Pavios entrançados de algodão"]];
+      const attributeNames = ['aria-label', 'title', 'placeholder', 'data-content', 'alt', 'value'];
+      const getLocale = () => ((window.Shopify && window.Shopify.locale) || document.documentElement.lang || '').toLowerCase();
+      const getPathname = () => window.location.pathname || '';
+      const searchParams = new URLSearchParams(window.location.search || '');
+      const cartCacheKey = 'cart_build';
+      const cartCacheValue = '20260415g';
+      const portugueseCartPath = '/pt/cart?' + cartCacheKey + '=' + cartCacheValue;
+      const forcedPortugueseCart =
+        getPathname() === '/pt/cart' ||
+        (getPathname() === '/cart' && searchParams.get('locale_override') === 'pt');
+      const isPortuguesePage = () => {
+        const locale = getLocale();
+        const pathname = getPathname();
+        return forcedPortugueseCart || locale === 'pt' || locale === 'pt-pt' || pathname === '/pt' || pathname.startsWith('/pt/');
+      };
+      const needsRuntimeHotfix = () => {
+        const pathname = getPathname();
+
+        return [
+          '/pt/pages/wishlist',
+          '/pt/pages/contact',
+          '/pt/pages/customer-support',
+          '/pt/pages/discounts-and-rewards',
+          '/pt/policies/shipping-policy',
+          '/pt/policies/refund-policy',
+        ].some((targetPath) => pathname === targetPath || pathname.startsWith(targetPath + '/'));
+      };
+
+      if (!isPortuguesePage()) {
+        window.__ptPtRuntimeHotfixSkipped = getLocale() || 'unknown-locale';
+        return;
+      }
+
+      const withCartCacheBuster = (rawHref) => {
+        try {
+          const url = new URL(rawHref, window.location.origin);
+
+          if (!/\/cart$/.test(url.pathname)) {
+            return null;
+          }
+
+          if (url.pathname === '/cart' || url.pathname === '/pt/cart') {
+            return portugueseCartPath + url.hash;
+          }
+
+          url.searchParams.set(cartCacheKey, cartCacheValue);
+          return url.pathname + url.search + url.hash;
+        } catch (error) {
+          return null;
+        }
+      };
+
+      const localizePortugueseHref = (rawHref) => {
+        try {
+          const url = new URL(rawHref, window.location.origin);
+
+          if (url.origin !== window.location.origin || url.pathname.startsWith('/pt/')) {
+            return null;
+          }
+
+          let nextPathname = '';
+
+          if (url.pathname === '/') {
+            nextPathname = '/pt';
+          } else if (url.pathname === '/search') {
+            nextPathname = '/pt/search';
+          } else if (url.pathname === '/collections/all') {
+            nextPathname = '/pt/collections/all';
+          } else if (url.pathname === '/blogs/how-to-make-candles') {
+            nextPathname = '/pt/blogs/how-to-make-candles';
+          } else if (url.pathname === '/cart') {
+            nextPathname = '/pt/cart';
+          } else if (
+            url.pathname.startsWith('/pages/') ||
+            url.pathname.startsWith('/policies/') ||
+            url.pathname.startsWith('/collections/') ||
+            url.pathname.startsWith('/blogs/') ||
+            url.pathname.startsWith('/apps/deluxe/account/')
+          ) {
+            nextPathname = '/pt' + url.pathname;
+          }
+
+          if (!nextPathname) {
+            return null;
+          }
+
+          url.pathname = nextPathname;
+
+          if (url.pathname === '/pt/cart') {
+            url.searchParams.set(cartCacheKey, cartCacheValue);
+          }
+
+          return url.pathname + url.search + url.hash;
+        } catch (error) {
+          return null;
+        }
+      };
+
+      const rewriteCartTargets = (root = document) => {
+        root.querySelectorAll?.('a[href], form[action]').forEach((element) => {
+          if (element instanceof HTMLAnchorElement) {
+            const nextHref = withCartCacheBuster(element.getAttribute('href') || '');
+
+            if (nextHref) {
+              element.setAttribute('href', nextHref);
+            }
+
+            return;
+          }
+
+          if (element instanceof HTMLFormElement) {
+            const nextAction = withCartCacheBuster(element.getAttribute('action') || '');
+
+            if (nextAction) {
+              element.setAttribute('action', nextAction);
+            }
+          }
+        });
+      };
+
+      const rewritePortugueseLinks = (root = document) => {
+        root.querySelectorAll?.('a[href]').forEach((element) => {
+          const currentHref = element.getAttribute('href') || '';
+          const nextHref = localizePortugueseHref(currentHref);
+
+          if (nextHref && currentHref !== nextHref) {
+            element.setAttribute('href', nextHref);
+          }
+        });
+      };
+
+      const suppressCartAccountOverlay = () => {
+        document.querySelectorAll('cad-overlay, cad-fast-login-snippet, .cad-overlay__container, #AutoLoginForm, #loginUI1').forEach((element) => {
+          if (element instanceof HTMLElement) {
+            element.style.setProperty('display', 'none', 'important');
+            element.style.setProperty('visibility', 'hidden', 'important');
+            element.style.setProperty('opacity', '0', 'important');
+            element.setAttribute('aria-hidden', 'true');
+          }
+        });
+      };
+
+      const getAnchorFromEvent = (event) => {
+        const path = typeof event.composedPath === 'function' ? event.composedPath() : [];
+
+        for (const entry of path) {
+          if (entry instanceof HTMLAnchorElement && entry.hasAttribute('href')) {
+            return entry;
+          }
+        }
+
+        const target = event.target;
+        return target && target.closest ? target.closest('a[href]') : null;
+      };
+
+      const installCartNavigationGuard = () => {
+        rewriteCartTargets();
+
+        if (window.__ptPtCartNavigationGuardInstalled) {
+          return;
+        }
+
+        window.__ptPtCartNavigationGuardInstalled = true;
+
+        document.addEventListener(
+          'click',
+          (event) => {
+            if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+              return;
+            }
+
+            const link = getAnchorFromEvent(event);
+
+            if (!link) {
+              return;
+            }
+
+            const nextHref = withCartCacheBuster(link.getAttribute('href') || '');
+
+            if (!nextHref) {
+              return;
+            }
+
+            if ((link.getAttribute('href') || '') !== nextHref) {
+              link.setAttribute('href', nextHref);
+            }
+
+            event.preventDefault();
+            window.location.assign(new URL(nextHref, window.location.origin).toString());
+          },
+          true,
+        );
+
+        document.addEventListener(
+          'submit',
+          (event) => {
+            const form = event.target;
+
+            if (!(form instanceof HTMLFormElement)) {
+              return;
+            }
+
+            const nextAction = withCartCacheBuster(form.getAttribute('action') || '');
+
+            if (!nextAction) {
+              return;
+            }
+
+            if ((form.getAttribute('action') || '') !== nextAction) {
+              form.setAttribute('action', nextAction);
+            }
+          },
+          true,
+        );
+
+      };
+
+      installCartNavigationGuard();
+
+      if (getPathname() === '/cart' && searchParams.get('locale_override') === 'pt') {
+        window.location.replace(window.location.origin + portugueseCartPath + window.location.hash);
+        return;
+      }
+
+      if (!needsRuntimeHotfix() && !forcedPortugueseCart) {
+        window.__ptPtRuntimeHotfixSkipped = getPathname() || 'path-not-targeted';
+        return;
+      }
+
+      const replaceValue = (input) => {
+        let updated = input || '';
+
+        for (const [source, target] of textReplacements) {
+          if (updated.includes(source)) {
+            updated = updated.split(source).join(target);
+          }
+        }
+
+        return updated;
+      };
+
+      const normalize = (input) => {
+        let value = String(input || '').replaceAll('\n', ' ').replaceAll('\t', ' ').replaceAll('\u00a0', ' ').trim();
+
+        while (value.includes('  ')) {
+          value = value.split('  ').join(' ');
+        }
+
+        return value;
+      };
+
+      const applyToRoot = (root) => {
+        if (!root) {
+          return;
+        }
+
+        try {
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+          let textNode = walker.nextNode();
+
+          while (textNode) {
+            const parentTagName = textNode.parentElement?.tagName;
+
+            if (parentTagName !== 'SCRIPT' && parentTagName !== 'STYLE') {
+              const currentValue = textNode.nodeValue || '';
+              const updatedValue = replaceValue(currentValue);
+
+              if (updatedValue !== currentValue) {
+                textNode.nodeValue = updatedValue;
+              }
+            }
+
+            textNode = walker.nextNode();
+          }
+        } catch (error) {
+          window.__ptPtRuntimeHotfixError = String(error && error.stack ? error.stack : error);
+        }
+
+        root.querySelectorAll?.('*').forEach((element) => {
+          attributeNames.forEach((attributeName) => {
+            const currentValue = element.getAttribute(attributeName);
+
+            if (!currentValue) {
+              return;
+            }
+
+            const updatedValue = replaceValue(currentValue);
+
+            if (updatedValue !== currentValue) {
+              element.setAttribute(attributeName, updatedValue);
+            }
+          });
+
+          if ('value' in element && typeof element.value === 'string') {
+            const updatedValue = replaceValue(element.value);
+
+            if (updatedValue !== element.value) {
+              element.value = updatedValue;
+            }
+          }
+
+          if (element.tagName === 'TEMPLATE' && element.content) {
+            applyToRoot(element.content);
+          }
+
+          if (element.shadowRoot) {
+            applyToRoot(element.shadowRoot);
+          }
+        });
+      };
+
+      const applyPathSpecificFixes = () => {
+        if (
+          window.location.pathname.includes('/pages/contact') ||
+          window.location.pathname.includes('/pages/customer-support')
+        ) {
+          document.querySelectorAll('li, p').forEach((element) => {
+            const text = normalize(element.textContent);
+
+            if (
+              text.includes('support@aromawax.eu') &&
+              (text.includes('E-mail us at') || text.includes('Email us at'))
+            ) {
+              element.innerHTML =
+                'Envie-nos um e-mail para <a href="mailto:support@aromawax.eu" rel="noopener noreferrer" target="_blank"><u>support@aromawax.eu</u></a> e responderemos no prazo de 24 horas.';
+            }
+          });
+        }
+
+        if (window.location.pathname.includes('/pages/discounts-and-rewards')) {
+          document.querySelectorAll('p, li, div').forEach((element) => {
+            const text = normalize(element.textContent);
+
+            if (
+              text ===
+              'Descontos especiais Uma amostra grátis de óleo de fragrância acompanha as compras a partir de 50€. Basta fazer uma encomenda de pelo menos 50€ e poderá selecionar uma amostra grátis de óleo de fragrância durante o checkout.'
+            ) {
+              element.textContent =
+                'Descontos especiais Uma amostra grátis de óleo de fragrância acompanha as compras a partir de 50€. Basta fazer uma encomenda de pelo menos 50€ e poderá selecionar uma amostra grátis de óleo de fragrância durante a finalização da compra.';
+            }
+
+            if (text === 'Resgate pontos e obtenha descontos. Troque os seus pontos por descontos instantâneos no checkout:') {
+              element.textContent =
+                'Resgate pontos e obtenha descontos. Troque os seus pontos por descontos instantâneos na finalização da compra:';
+            }
+
+            if (text.includes('Faça login na sua conta e veja os seus pontos atuais')) {
+              element.textContent = text.replace('Faça login', 'Inicie sessão');
+            }
+          });
+        }
+
+        if (window.location.pathname.includes('/policies/shipping-policy')) {
+          document.querySelectorAll('.shopify-policy__body .rte p').forEach((element) => {
+            const text = normalize(element.textContent);
+
+            if (text.includes('The cost of shipping depends on your location')) {
+              element.innerHTML =
+                'O custo de envio depende da sua localização, do peso total da encomenda e do número de volumes necessários para enviar os seus artigos. Para o ajudar a planear, disponibilizamos uma calculadora de custos de envio no carrinho e antes de finalizar a compra, permitindo-lhe consultar os custos antes da finalização da compra.';
+            }
+
+            if (
+              text.includes('For customers located in the European Union, your order will not incur additional customs duties') ||
+              text.includes('If you have a VAT number, please include it during checkout')
+            ) {
+              element.innerHTML =
+                'Para clientes localizados na União Europeia, a sua encomenda não terá direitos aduaneiros nem taxas de desalfandegamento adicionais. Se tiver um número de IVA, inclua-o na finalização da compra para que possamos deduzir o IVA do total. Para encomendas efetuadas fora da UE, tenha em conta que poderão aplicar-se custos aduaneiros ou de desalfandegamento adicionais, consoante a legislação do seu país.';
+            }
+
+            if (text.includes('For bulk or wholesale purchases, you may use your preferred transport company')) {
+              element.innerHTML =
+                'Para compras em volume ou encomendas grossistas, pode usar a sua transportadora preferida para tratar do envio. Para combinar esta opção, envie-nos um e-mail para <a href="mailto:support@aromawax.eu">support@aromawax.eu</a> com os seus requisitos. A nossa equipa coordenará consigo a logística. Assim que a sua encomenda estiver preparada, enviaremos a fatura e, depois de a encomenda ser recolhida internamente, verificada e embalada, receberá um e-mail com as dimensões e o peso do volume. Estas informações permitir-lhe-ão agendar a recolha com a transportadora escolhida.';
+            }
+
+            if (text.includes('You may cancel your order and return the goods within 14 calendar days')) {
+              element.innerHTML =
+                'Pode cancelar a sua encomenda e devolver os bens no prazo de 14 dias de calendário a contar da data em que os recebe. Para iniciar o cancelamento e a devolução, envie-nos um e-mail para <a href="mailto:support@aromawax.eu">support@aromawax.eu</a> e a nossa equipa irá orientá-lo durante o processo.';
+            }
+          });
+        }
+
+        if (window.location.pathname.includes('/policies/refund-policy')) {
+          document.querySelectorAll('.shopify-policy__body .rte p').forEach((element) => {
+            const text = normalize(element.textContent);
+
+            if (text.includes('[INSERT RETURN ADDRESS]')) {
+              element.innerHTML =
+                'Temos uma política de devolução de 14 dias, o que significa que dispõe de 14 dias após receber o artigo para solicitar uma devolução. Para ser elegível para devolução, o artigo deve estar nas mesmas condições em que o recebeu, sem uso, com etiquetas e na embalagem original. Também precisará do recibo ou comprovativo de compra. Para iniciar uma devolução, pode contactar-nos através de <a href="mailto:support@aromawax.eu">support@aromawax.eu</a>. Tenha em atenção que as devoluções têm de ser aprovadas previamente antes de qualquer artigo ser devolvido. Se a sua devolução for aceite, enviaremos instruções de devolução, incluindo a morada para onde deve enviar a encomenda e, quando aplicável, uma etiqueta de devolução. Artigos enviados de volta sem pedido prévio de devolução não serão aceites. Pode sempre contactar-nos para qualquer questão sobre devoluções através de <a href="mailto:support@aromawax.eu">support@aromawax.eu</a>.';
+            }
+          });
+        }
+
+        if (forcedPortugueseCart) {
+          document.title = 'O seu carrinho de compras';
+
+          document.querySelectorAll('.discount-message p').forEach((element) => {
+            const text = normalize(element.textContent);
+            const discountMatch = text.match(/^Add €([\d.,]+) more to get (\d+)% off!?$/);
+            const maxMatch = text.match(/^Congratulations! You get the maximum (\d+)% discount$/);
+
+            if (discountMatch) {
+              element.textContent =
+                'Faltam ' + discountMatch[1].replace('.', ',') + ' € para obter ' + discountMatch[2] + '% de desconto!';
+            } else if (maxMatch) {
+              element.textContent = 'Parabéns! Recebe o desconto máximo de ' + maxMatch[1] + '%';
+            }
+          });
+
+          document.querySelectorAll('p, span, div').forEach((element) => {
+            const text = normalize(element.textContent);
+            const sampleMatch = text.match(/^Spend €([\d.,]+) more to unlock your (\d+) free sample product\(s\)$/);
+
+            if (sampleMatch) {
+              element.textContent =
+                'Faltam ' +
+                sampleMatch[1].replace('.', ',') +
+                ' € para desbloquear ' +
+                sampleMatch[2] +
+                ' produto(s) de amostra gratuito(s)';
+            }
+          });
+        }
+      };
+
+      const run = () => {
+        if (forcedPortugueseCart) {
+          suppressCartAccountOverlay();
+        }
+        applyToRoot(document.body);
+        rewritePortugueseLinks(document.body);
+        applyPathSpecificFixes();
+        window.__ptPtRuntimeHotfixLoaded = (window.__ptPtRuntimeHotfixLoaded || 0) + 1;
+        window.__ptPtRuntimeHotfixLastRun = Date.now();
+      };
+
+      let scheduled = false;
+      const scheduleRun = () => {
+        if (scheduled) {
+          return;
+        }
+
+        scheduled = true;
+        requestAnimationFrame(() => {
+          scheduled = false;
+          run();
+        });
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', scheduleRun, { once: true });
+      } else {
+        scheduleRun();
+      }
+
+      window.addEventListener('load', scheduleRun, { once: true });
+
+      if (forcedPortugueseCart) {
+        [250, 1200, 3000].forEach((delay) => {
+          window.setTimeout(run, delay);
+        });
+      }
+    } catch (error) {
+      window.__ptPtRuntimeHotfixError = String(error && error.stack ? error.stack : error);
+    }
+  })();
+
+</script>
+<!-- pt-pt-runtime-hotfix:end -->
+</body>
+</html>

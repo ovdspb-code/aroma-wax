@@ -11,9 +11,15 @@ Build a professional terminology base for translating the AROMA + WAX storefront
 
 ### Native / Portugal-oriented commercial sources
 
+- Aroma Portugal (primary linguistic benchmark for fragrance raw-material taxonomy): https://aromaportugal.pt/
+- Aroma Portugal about page: https://aromaportugal.pt/sobre-nos/
 - Aromatika Portugal: https://aromatika.pt/
 - Serafim Scented Candle: https://www.serafimscentedcandle.pt/products/difusor-de-varetas-bulgarian-rose-oud
 - Casa do Trono / Aromas com Arte: https://www.casadotrono.pt/product/aromatizador-de-varetas
+- Casa do Trono fragrance product benchmark: https://www.casadotrono.pt/product/smoothie-de-melancia
+- Casa do Trono diffuser-base benchmarks: https://www.casadotrono.pt/product/ecofusion-vegan-friendly-difusor-base and https://www.casadotrono.pt/product/augeo-r-multi-clean
+- AW Artisan Portugal fragrance-oils benchmark: https://www.awartisan.pt/homefragrance/fragrance-oils/ulfo
+- Castelbel finished home-fragrance benchmark: https://castelbel.com/produto/difusor-de-fragrancias-castelbel-verbena-250ml/
 - Marta Craft: https://martacraft.com/products/pavio-de-algodao-stabilo-encerado-2m-5m-10m
 - ECOLOVE FAQ: https://ecolove.pt/pages/faq
 - Murta Atitude Natural references from search result: https://www.murta.eco/
@@ -37,21 +43,37 @@ Build a professional terminology base for translating the AROMA + WAX storefront
 
 Use these choices:
 
-- `fragrance oil` -> `óleo aromático`
-- `fragrance oils` -> `óleos aromáticos`
+- `fragrance oil` -> `fragrância` in category/product copy; `óleo de fragrância` when the oil form is technically important
+- `fragrance oils` -> `fragrâncias` in category/product copy; `óleos de fragrância` when the oil form is technically important
+- `fragrance oil for candles` -> `fragrância para velas`
+- `fragrance oils for candles and diffusers` -> `fragrâncias para velas e difusores`
+- `universal fragrance oils for candles and soap` -> `fragrâncias universais para velas e sabão`
+- `ready-to-use diffuser fragrance oils` -> `fragrâncias para difusor prontas a usar`
 - `fragrance` as a scent profile -> `fragrância`
 - `scent` -> `aroma` or `fragrância`, depending on context
-- `scent throw` -> `difusão do aroma` or `projeção da fragrância`
+- `aroma` -> use for scent profile, not as the default noun for fragrance raw material
+- `scent throw` -> `difusão do aroma` or `difusão da fragrância`
 - `hot throw` -> `difusão a quente`
 - `cold throw` -> `difusão a frio`
+- `fragrance release` -> `libertação da fragrância`
+- `fragrance retention` -> `retenção de fragrância`
+- `fragrance load` -> `percentagem de fragrância` in formulas/CLP context; `carga de fragrância` in technical article prose if "load" must be explicit
+- `fragrance content` -> `teor de fragrância`
+- `fragrance concentration` -> `concentração de fragrância` or `concentração de perfume`, depending on source context
 - `essential oil` -> `óleo essencial`
+- `perfumed oil` -> `óleo perfumado`, only where the source means an already perfumed oil/concentrate rather than the general raw-material category
 - `fine fragrances` -> `fragrâncias finas`
+- `óleos aromáticos` -> avoid as the default translation for AROMA + WAX `fragrance oils`; reserve for diffuser/aroma-oil consumer contexts where the source clearly means "aroma oils"
+- `essências` / `essências aromáticas` -> recognised retail/tag language, but do not use as the main AROMA + WAX B2B/raw-material term unless the source itself is SEO/tag copy
 
 Rationale:
 
-- Portuguese commercial sources use `óleos aromáticos` for scented oils and `óleos essenciais` for essential oils.
-- `Essências` appears in retail category language, but for AROMA + WAX we should prefer `óleos aromáticos` because it is clearer, more professional, and closer to the product line.
-- Keep fragrance names and branded scent names in English unless the user explicitly asks to localize product names.
+- On accessible Aroma Portugal product pages, the visible taxonomy is `Aromas para difusor (prontas para uso)`, `Aromas para perfumes`, `Aromas para sabão`, `Aromas para velas`, `Aromas universais (velas e sabão)`, and `Fixador de Perfume`; footer/company copy says the company is `especializada em fragrâncias`. For AROMA + WAX, prefer the slightly more precise commercial noun `fragrâncias` in copy, while allowing `aromas` for taxonomy where it fits the source.
+- Casa do Trono uses `Fragrância [name]`, `fragrâncias para velas`, `fragrâncias para aromatizadores`, `fragrância para wax melts`, and `fragrância para sabonetes`; it also has `essências aromáticas` and `óleos aromáticos concentrados` mostly as tag/SEO language.
+- AW Artisan Portugal uses `Óleos de Fragrância` and `óleos de fragrância` for oil-form retail/B2B products; use this when the English `oil` needs to remain visible in the Portuguese term.
+- `Óleo aromático` is attested on consumer diffuser/home-decor sites for finished aroma-oil style products, but it is too broad for AROMA + WAX's professional fragrance raw-material category.
+- `Óleo essencial` remains separate from `fragrância` / `óleo de fragrância` and should never be used for synthetic or compound fragrance oils unless the source explicitly says essential oil.
+- For the current approved storefront pass, localize product and fragrance names into pt-PT while keeping handles, SKUs, and search keys in English.
 
 ## 2. Diffuser terminology
 
@@ -61,8 +83,10 @@ Use these choices:
 - `reed diffusers` -> `difusores de varetas`
 - `reeds` -> `varetas`
 - `diffuser base` -> `base para difusor`
+- `diffuser base` where the product is a ready base for ambientadores -> `base para ambientadores` or `base difusora`, depending on product-page wording
 - `diffuser bottles` -> `frascos para difusor`
 - `room spray` -> `spray de ambiente`
+- `room spray` as finished consumer product -> `spray de ambiente` or `perfume para casa`, depending on source positioning
 - `room spray bottle` -> `frasco para spray de ambiente`
 - `home fragrance` -> `perfumaria para a casa` or `fragrâncias para a casa`
 - `ambientador` -> use only when the context is finished consumer products, not raw materials
@@ -71,6 +95,8 @@ Rationale:
 
 - Portuguese consumer and artisan sites consistently use `difusor de varetas` / `difusores de varetas`.
 - `Aromatizador de varetas` is also native, but it is better as a finished-product label than as a category for AROMA + WAX supplies.
+- Castelbel uses finished-product terms such as `Vela Aromática`, `Difusor de Fragrâncias`, `Recarga de Difusor`, `Perfume para Casa`, and `pauzinhos`; for AROMA + WAX supply copy keep the more material/category-oriented `difusor de varetas`, `varetas`, `spray de ambiente`, and `fragrâncias para a casa`.
+- Casa do Trono uses `bases para fazer Aromatizadores`, `base líquida para difusores`, `base difusora`, `base para difusores`, `frascos com varetas`, `difusores de varetas`, `sprays de ambiente`, and `sprays para tecidos`. Prefer these patterns over invented calques.
 
 ## 3. Candle-making materials
 
@@ -84,7 +110,7 @@ Use these choices:
 - `vegetable wax` -> `cera vegetal`
 - `container candle wax` -> `cera para velas em recipiente`
 - `pillar candle wax` -> `cera para velas pilar`
-- `wax melts` -> keep `wax melts` in product/category names; optionally explain as `ceras aromáticas para derreter`
+- `wax melts` -> keep `wax melts` in AROMA + WAX product/category names; for explanatory consumer copy use `ceras perfumadas | wax melts` or `ceras perfumadas para derreter`
 - `wick` -> `pavio`
 - `wicks` -> `pavios`
 - `cotton wicks` -> `pavios de algodão`
@@ -116,14 +142,19 @@ Use these choices:
 - `tunnelling` -> `efeito túnel`
 - `mushrooming` -> `formação de cogumelo no pavio` or `carbonização excessiva do pavio`, depending on context
 - `soot` -> `fuligem`
-- `fragrance load` -> `percentagem de fragrância` or `carga aromática`
+- `fragrance load` -> `percentagem de fragrância` in formulas/CLP context; `carga de fragrância` in technical article prose if "load" must be explicit
+- `maximum fragrance load` -> `percentagem máxima de fragrância` or `carga máxima de fragrância`
+- `fragrance content` -> `teor de fragrância`
+- `fragrance percentage` -> `percentagem de fragrância`
 - `cure time` -> `tempo de cura`
-- `pour temperature` -> `temperatura de vazamento`
+- `pour temperature` -> `temperatura de vertimento`
 - `melting point` -> `ponto de fusão`
 
 Rationale:
 
 - ECOLOVE and Marta Craft use natural-sounding pt-PT copy around `queima limpa`, `fuligem`, `pavios`, and performance claims.
+- `Carga aromática` is not the preferred benchmark term after the Aroma Portugal / Casa do Trono / AW Artisan review; replace it in AROMA + WAX drafts with `percentagem de fragrância` or `carga de fragrância`, depending on context.
+- `Carga olfativa` is attested in supplier copy, but it reads less precise for AROMA + WAX technical translation. Prefer `percentagem de fragrância` / `carga de fragrância`.
 - For technical guides, use the more precise terms; for marketing, prefer shorter commercial phrasing.
 
 ## 5. B2B / wholesale terminology
@@ -132,7 +163,7 @@ Use these choices:
 
 - `wholesale` -> `grossista` or `venda grossista`, depending on noun/adjective context
 - `volume discounts` -> `descontos por volume`
-- `bulk fragrance oils` -> `óleos aromáticos em maior volume` or `óleos aromáticos para compra grossista`
+- `bulk fragrance oils` -> `fragrâncias em maior volume`, `fragrâncias para compra grossista`, or `óleos de fragrância a granel` where the oil form is important
 - `private label` -> `marca própria`
 - `private-label production` -> `produção para marca própria`
 - `supplier` -> `fornecedor`
@@ -184,7 +215,7 @@ Use this style:
 - clear B2B/creator language
 - avoid Brazilian pronouns and phrasing
 - keep AROMA + WAX as the brand name
-- keep product names and fragrance names in English for consistency and SKU searchability
+- localize storefront product and fragrance names into pt-PT; keep handles/SKUs in English for searchability
 
 Examples:
 
@@ -192,9 +223,21 @@ Examples:
 - `carefully selected for their exceptional performance and reliability` -> `cuidadosamente escolhidos pela sua performance excecional e fiabilidade`
 - `no chaos, no guesswork` -> `sem caos, sem adivinhas`
 
+## 8. Editorial audit flags after Aroma Portugal benchmark update
+
+Before any import or publication, audit existing pt-PT drafts for these terms:
+
+- Replace `óleo aromático` / `óleos aromáticos` when the English source is `fragrance oil(s)` for candle/diffuser/room-spray making. Use `fragrância(s)` in category/product copy and `óleo(s) de fragrância` where the oil-form technical noun is needed.
+- Replace `carga aromática` with `percentagem de fragrância` in formula/ratio/CLP contexts, and with `carga de fragrância` in technical articles where the "load" concept is central.
+- Replace `temperatura de vazamento` with `temperatura de vertimento`.
+- Keep `difusor de varetas`, `varetas`, `base para difusor`, `spray de ambiente`, and `frascos para difusor` for AROMA + WAX material/supply copy.
+- Use `perfume para casa`, `difusor de fragrâncias`, and `recarga de difusor` mainly for finished-product consumer copy, not for raw-material category names unless the source has that positioning.
+- Keep `wax melts` in AROMA + WAX product/category names; use `ceras perfumadas | wax melts` only in explanatory consumer copy.
+
 ## Decisions to Confirm
 
-- Whether to keep `wax melts` untranslated in all contexts, or use `wax melts (ceras aromáticas para derreter)` on first occurrence.
+- Whether to keep `wax melts` untranslated in all contexts, or use `wax melts (ceras perfumadas para derreter)` on first occurrence.
+- Whether to use `fragrâncias` or `aromas` for the main fragrance category labels. Current recommendation: `fragrâncias` in AROMA + WAX copy and `aromas` only where the source/category style requires it.
 - Whether to use `grossista` or `venda grossista` for the main nav label.
 - Whether to use `marca própria` everywhere, or `marca própria (private label)` on first occurrence.
-- Whether product names should remain fully English. Current recommendation: keep names in English.
+- Whether product names should be localized in storefront copy. Current approved rule: localize product and fragrance names into pt-PT while keeping handles/SKUs in English.

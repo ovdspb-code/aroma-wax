@@ -1,0 +1,433 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Consentimento de cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Consentimento de cookies" [level=2] [ref=e5]
+        - paragraph [ref=e6]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e7] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e8]:
+        - button "Gerir preferências" [ref=e9] [cursor=pointer]
+        - button "Aceitar" [ref=e10] [cursor=pointer]
+        - button "Rejeitar" [ref=e11] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e12] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e13]:
+    - paragraph [ref=e19]: Acima de 2 000 €, a nossa equipa comercial preparará um orçamento personalizado para si!
+  - banner [ref=e20]:
+    - generic [ref=e23]:
+      - navigation [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - group [ref=e29]:
+              - generic "comprar tudo" [ref=e30] [cursor=pointer]: comprar tudo
+          - listitem [ref=e32]:
+            - group [ref=e33]:
+              - generic "fabrico de velas" [ref=e34] [cursor=pointer]: fabrico de velas
+          - listitem [ref=e36]:
+            - group [ref=e37]:
+              - generic "fragrâncias" [ref=e38] [cursor=pointer]: fragrâncias
+          - listitem [ref=e40]:
+            - group [ref=e41]:
+              - generic "fabrico de difusores" [ref=e42] [cursor=pointer]: fabrico de difusores
+          - listitem [ref=e44]:
+            - group [ref=e45]:
+              - generic "fabrico de sprays de ambiente" [ref=e46] [cursor=pointer]: fabrico de sprays de ambiente
+          - listitem [ref=e48]:
+            - group [ref=e49]:
+              - generic "aprendizagem" [ref=e50] [cursor=pointer]: aprendizagem
+          - listitem [ref=e52]:
+            - link "grossista" [ref=e53] [cursor=pointer]:
+              - /url: /pt/pages/grossista
+      - link "Aroma + Wax" [ref=e54] [cursor=pointer]:
+        - /url: /pt
+        - generic [ref=e55]: Aroma + Wax
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link "Pesquisar" [ref=e59] [cursor=pointer]:
+            - /url: /pt/search
+            - generic [ref=e60]: Pesquisar
+        - listitem [ref=e63]:
+          - link "Iniciar sessão" [ref=e64] [cursor=pointer]:
+            - /url: /pt/apps/deluxe/account/login
+            - generic [ref=e65]: Iniciar sessão
+        - listitem [ref=e68]:
+          - link "Abrir lista de desejos" [ref=e69] [cursor=pointer]:
+            - /url: /pt/pages/wishlist
+            - generic [ref=e70]: Abrir lista de desejos
+            - generic [ref=e74]: "0"
+        - listitem [ref=e75]:
+          - link "Carrinho 0 Unid" [ref=e76] [cursor=pointer]:
+            - /url: /pt/cart
+            - generic [ref=e77]: Carrinho
+            - img [ref=e78]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: 0 Unid
+                - text: "0"
+  - main [ref=e84]:
+    - navigation "breadcrumbs" [ref=e88]:
+      - link "Início" [ref=e89] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e90]: /
+      - link "comprar tudo" [ref=e91] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e92]: /
+      - link "novidades" [ref=e93] [cursor=pointer]:
+        - /url: /pt#
+      - generic [ref=e94]: /
+      - link "materiais para fabrico de velas" [ref=e95] [cursor=pointer]:
+        - /url: /pt/collections/candle-making-supplies
+      - generic [ref=e96]: /
+      - generic [ref=e97]: Corante líquido Vibrant vermelho
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e105]:
+          - img "Vibrant Red liquid candle dye" [ref=e107]
+          - img "Corante líquido Vibrant vermelho" [ref=e109]
+        - generic [ref=e111]:
+          - button "Ir para o item 1" [ref=e112] [cursor=pointer]:
+            - img "Vibrant Red liquid candle dye" [ref=e113]
+          - button "Ir para o item 2" [ref=e114] [cursor=pointer]:
+            - img "Corante líquido Vibrant vermelho" [ref=e115]
+      - generic [ref=e116]:
+        - heading "Corante líquido Vibrant vermelho" [level=1] [ref=e118]
+        - generic [ref=e122] [cursor=pointer]:
+          - button "5.00 stars" [ref=e123]:
+            - generic [ref=e124]: 
+            - generic [ref=e125]: 
+            - generic [ref=e126]: 
+            - generic [ref=e127]: 
+            - generic [ref=e128]: 
+          - text: 7 avaliações
+        - separator [ref=e130]
+        - paragraph [ref=e134]: Este corante líquido Vibrant vermelho, solúvel em óleo, é produzido com um solvente natural e sustentável, permitindo uma mistura fácil em cera vegetal e parafina com apenas 0,1% de utilização. Cria uma variedade de tonalidades, de tons claros a vermelhos profundos, dependendo do tipo de cera e da quantidade de corante aplicada. Em cera de soja, normalmente alcança tons claros a médios, enquanto a parafina permite uma gama mais ampla, desde tons suaves até cores intensas. Recomendamos testar diferentes combinações para encontrar a cor perfeita.
+        - group [ref=e138]:
+          - generic [ref=e140]:
+            - generic [ref=e141]: Tamanho
+            - generic [ref=e142]: 30 gr
+          - generic [ref=e144]:
+            - radio "30 gr" [checked] [ref=e145] [cursor=pointer]
+            - generic [ref=e147] [cursor=pointer]: 30 gr
+            - radio "100g" [ref=e148] [cursor=pointer]
+            - generic [ref=e150] [cursor=pointer]: 100g
+        - generic [ref=e153]:
+          - generic [ref=e154] [cursor=pointer]: Quantidade
+          - generic [ref=e155]:
+            - button "Diminuir quantidade" [ref=e156] [cursor=pointer]
+            - spinbutton "Quantidade" [ref=e158]: "1"
+            - button "Aumentar quantidade" [ref=e159] [cursor=pointer]
+        - generic [ref=e165]:
+          - generic [ref=e166]: Preço de venda
+          - generic [ref=e169]:
+            - generic [ref=e170]: €6,66 EUR IVA incl.
+            - generic [ref=e171]: €5,50 EUR IVA excl.
+        - button "Adicionar ao carrinho" [ref=e177] [cursor=pointer]:
+          - generic [ref=e178]: Adicionar ao carrinho
+        - generic [ref=e180]:
+          - generic [ref=e181]: Detalhes ecológicos e de segurança
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - img [ref=e184]
+              - text: Transporte terrestre
+            - generic [ref=e185]:
+              - img [ref=e186]
+              - text: Sem carcinogéneos
+            - generic [ref=e187]:
+              - img [ref=e188]
+              - text: Sem OGM
+            - generic [ref=e189]:
+              - img [ref=e190]
+              - text: Vegan
+            - generic [ref=e191]:
+              - img [ref=e192]
+              - text: Sem ftalatos
+            - generic [ref=e193]:
+              - img [ref=e194]
+              - text: Não testado em animais
+            - generic [ref=e195]:
+              - img [ref=e196]
+              - text: Não tóxico
+        - generic [ref=e199]:
+          - heading "Detalhes do produto" [level=3] [ref=e200]
+          - paragraph [ref=e202]:
+            - link "Ficha de Dados de Segurança" [ref=e203] [cursor=pointer]:
+              - /url: https://cdn.shopify.com/s/files/1/0878/9986/5419/files/SDS_EU_VIBRANT_RED_LIQUID_DYE_DV-101.pdf?v=1748895346
+        - generic [ref=e206]:
+          - generic [ref=e207]: Propriedades
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - generic [ref=e210]: Norma de segurança
+              - generic [ref=e211]: REACH/RAL
+            - listitem [ref=e212]:
+              - generic [ref=e213]: Ponto de inflamação
+              - generic [ref=e214]: 93˚C
+            - listitem [ref=e215]:
+              - generic [ref=e216]: Nível de dificuldade
+              - generic [ref=e217]: Líquido fácil de usar
+            - listitem [ref=e218]:
+              - generic [ref=e219]: Capacidade de mistura
+              - generic [ref=e220]: Mistura simples para cores personalizadas
+        - generic [ref=e223]:
+          - generic [ref=e224]: Utilização recomendada
+          - list [ref=e225]:
+            - listitem [ref=e226]:
+              - generic [ref=e227]: Aplicação
+              - generic [ref=e228]: Velas, outros produtos de cera e difusores
+            - listitem [ref=e229]:
+              - generic [ref=e230]: Cera vegetal e parafina
+              - generic [ref=e231]: Cores esbranquiçadas e claras - 0,02% Cores médias - 0,1% Cores escuras - 0,3%
+            - listitem [ref=e232]:
+              - generic [ref=e233]: Revestimento por imersão
+              - generic [ref=e234]: Não recomendado
+            - listitem [ref=e235]:
+              - generic [ref=e236]: "Opacidade da cera e aditivos da cera (ex.: ácido esteárico, polímeros)"
+              - generic [ref=e237]: pode exigir percentagens diferentes de corante
+        - heading "Guias Práticos" [level=3] [ref=e241]
+    - generic [ref=e247]:
+      - generic [ref=e248]:
+        - heading "Avaliações de clientes" [level=2] [ref=e249]
+        - generic [ref=e250]:
+          - generic [ref=e252]:
+            - img "A classificação média é de 5.00 estrelas" [ref=e253]:
+              - generic [ref=e254]: 
+              - generic [ref=e255]: 
+              - generic [ref=e256]: 
+              - generic [ref=e257]: 
+              - generic [ref=e258]: 
+              - text: 5.00 de 5
+            - generic [ref=e259]:
+              - text: Com base em 7 avaliações
+              - img "Verified Checkmark" [ref=e260]
+          - generic [ref=e261]:
+            - generic [ref=e262] [cursor=pointer]:
+              - button "100% (7) avaliações com classificação de 5 estrelas" [ref=e263]:
+                - generic [ref=e264]: 
+                - generic [ref=e265]: 
+                - generic [ref=e266]: 
+                - generic [ref=e267]: 
+                - generic [ref=e268]: 
+              - generic [ref=e271]: "7"
+            - generic:
+              - button "0% (0) avaliações com classificação de 4 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 3 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 2 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+            - generic:
+              - button "0% (0) avaliações com classificação de 1 estrelas":
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+                - generic: 
+              - generic: "0"
+        - generic [ref=e274]:
+          - textbox "Pesquisa" [ref=e275]
+          - text: 
+      - generic [ref=e278]:
+        - combobox "Sort dropdown" [ref=e279] [cursor=pointer]:
+          - option "Mais recentes" [selected]
+          - option "Classificação mais alta"
+          - option "Classificação mais baixa"
+          - option "Apenas fotografias"
+          - option "Fotografias primeiro"
+          - option "Vídeos Primeiro"
+          - option "Mais úteis"
+        - generic [ref=e280]: 
+      - generic [ref=e282]:
+        - heading "Avaliações noutros idiomas" [level=3] [ref=e283]
+        - generic [ref=e284]:
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - generic [ref=e287]:
+                - generic [ref=e288]:
+                  - img "avaliação de 5 estrelas" [ref=e289]:
+                    - generic [ref=e290]: 
+                    - generic [ref=e291]: 
+                    - generic [ref=e292]: 
+                    - generic [ref=e293]: 
+                    - generic [ref=e294]: 
+                  - generic [ref=e295]: 17/02/2026
+                - generic [ref=e296]:
+                  - generic [ref=e297]:  
+                  - generic [ref=e298]:
+                    - text: Svitlana Melnychenko
+                    - generic [ref=e300]: Verificado
+              - paragraph [ref=e304]: Gute Farbe
+              - button "Traduzir avaliação para português europeu" [ref=e307] [cursor=pointer]
+            - generic [ref=e308]:
+              - generic [ref=e309]:
+                - generic [ref=e310]:
+                  - img "avaliação de 5 estrelas" [ref=e311]:
+                    - generic [ref=e312]: 
+                    - generic [ref=e313]: 
+                    - generic [ref=e314]: 
+                    - generic [ref=e315]: 
+                    - generic [ref=e316]: 
+                  - generic [ref=e317]: 04/02/2026
+                - generic [ref=e318]:
+                  - generic [ref=e319]:  
+                  - generic [ref=e320]:
+                    - text: Laura MR
+                    - generic [ref=e322]: Verificado
+              - paragraph [ref=e326]: Con este colorante por fin he conseguido el rojo que quería para mis flores
+              - button "Traduzir avaliação para português europeu" [ref=e329] [cursor=pointer]
+            - generic [ref=e330]:
+              - generic [ref=e331]:
+                - generic [ref=e332]:
+                  - img "avaliação de 5 estrelas" [ref=e333]:
+                    - generic [ref=e334]: 
+                    - generic [ref=e335]: 
+                    - generic [ref=e336]: 
+                    - generic [ref=e337]: 
+                    - generic [ref=e338]: 
+                  - generic [ref=e339]: 12/01/2026
+                - generic [ref=e340]:
+                  - generic [ref=e341]:  
+                  - generic [ref=e342]:
+                    - text: Graziella Cardona Mills
+                    - generic [ref=e344]: Verificado
+              - paragraph [ref=e348]: Nice color sure will buy again
+              - button "Traduzir avaliação para português europeu" [ref=e351] [cursor=pointer]
+          - generic [ref=e352]:
+            - button "Page 1": "1"
+            - button "Page 2" [ref=e353] [cursor=pointer]: "2"
+            - button "Page 3" [ref=e354] [cursor=pointer]: "3"
+            - button "Page 2" [ref=e355] [cursor=pointer]: 
+            - button "Page 3" [ref=e356] [cursor=pointer]: 
+    - generic [ref=e361]:
+      - heading "Ver produtos semelhantes Ver produtos semelhantes" [level=2] [ref=e362]:
+        - text: Ver produtos semelhantes
+        - generic [ref=e364]: Ver produtos semelhantes
+      - paragraph [ref=e365]: Explore os nossos produtos para fabrico de velas e difusores, cuidadosamente escolhidos pela sua performance excecional e fiabilidade.
+    - generic [ref=e369]:
+      - generic [ref=e370]:
+        - generic [ref=e372]:
+          - paragraph [ref=e373]: Seja o primeiro a saber das nossas novidades e a receber dicas de produção e de negócio.
+          - paragraph [ref=e375]: Subscreva a nossa newsletter e receba as melhores ofertas.
+          - generic [ref=e377]:
+            - generic [ref=e378]:
+              - textbox "E-mail" [ref=e379]:
+                - /placeholder: " "
+              - generic: E-mail
+            - button "Subscrever" [ref=e381] [cursor=pointer]:
+              - generic [ref=e382]: Subscrever
+        - generic [ref=e383]:
+          - paragraph [ref=e384]: ajuda e informações
+          - list [ref=e385]:
+            - listitem [ref=e386]:
+              - link "contacte-nos" [ref=e387] [cursor=pointer]:
+                - /url: /pt/pages/contact
+            - listitem [ref=e388]:
+              - link "estado da encomenda" [ref=e389] [cursor=pointer]:
+                - /url: /pt/pages/order-status
+            - listitem [ref=e390]:
+              - link "apoio ao cliente" [ref=e391] [cursor=pointer]:
+                - /url: /pt/pages/customer-support
+            - listitem [ref=e392]:
+              - link "aprendizagem" [ref=e393] [cursor=pointer]:
+                - /url: /pt/blogs/how-to-make-candles
+            - listitem [ref=e394]:
+              - link "FAQ e ajuda" [ref=e395] [cursor=pointer]:
+                - /url: /pt/pages/faqs
+        - generic [ref=e396]:
+          - paragraph [ref=e397]: as nossas lojas
+          - list [ref=e398]:
+            - listitem [ref=e399]:
+              - link "comprar em Espanha" [ref=e400] [cursor=pointer]:
+                - /url: https://aromawax.eu/es
+            - listitem [ref=e401]:
+              - link "loja UE em inglês" [ref=e402] [cursor=pointer]:
+                - /url: https://aromawax.eu/
+            - listitem [ref=e403]:
+              - link "loja UE em francês" [ref=e404] [cursor=pointer]:
+                - /url: https://aromawax.eu/fr
+            - listitem [ref=e405]:
+              - link "Loja UE em alemão" [ref=e406] [cursor=pointer]:
+                - /url: http://aromawax.eu/de
+        - generic [ref=e407]:
+          - paragraph [ref=e408]: políticas da loja
+          - list [ref=e409]:
+            - listitem [ref=e410]:
+              - link "sobre nós" [ref=e411] [cursor=pointer]:
+                - /url: /pt/pages/about-us
+            - listitem [ref=e412]:
+              - link "política de privacidade" [ref=e413] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e414]:
+              - link "política de envios e devoluções" [ref=e415] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e416]:
+              - link "termos de serviço" [ref=e417] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+      - generic [ref=e419]:
+        - list [ref=e420]:
+          - listitem [ref=e421]:
+            - img "American Express" [ref=e422]
+          - listitem [ref=e431]:
+            - img "Apple Pay" [ref=e432]
+          - listitem [ref=e443]:
+            - img "Bancontact" [ref=e444]
+          - listitem [ref=e451]:
+            - img "Google Pay" [ref=e452]
+          - listitem [ref=e460]:
+            - img "iDEAL Wero" [ref=e461]
+          - listitem [ref=e476]:
+            - img "Klarna" [ref=e477]
+          - listitem [ref=e481]:
+            - img "Maestro" [ref=e482]
+          - listitem [ref=e488]:
+            - img "Mastercard" [ref=e489]
+          - listitem [ref=e495]:
+            - img "PayPal" [ref=e496]
+          - listitem [ref=e502]:
+            - img "Shop Pay" [ref=e503]
+          - listitem [ref=e507]:
+            - img "Union Pay" [ref=e508]
+          - listitem [ref=e514]:
+            - img "Visa" [ref=e515]
+        - generic [ref=e519]:
+          - paragraph [ref=e520]:
+            - text: © 2026, Aroma + Wax.
+            - link "Com tecnologia Shopify" [ref=e521] [cursor=pointer]:
+              - /url: http://es.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - list [ref=e522]:
+            - listitem [ref=e523]:
+              - link "Política de privacidade" [ref=e524] [cursor=pointer]:
+                - /url: /pt/policies/privacy-policy
+            - listitem [ref=e525]:
+              - text: •
+              - link "Política de devoluções" [ref=e526] [cursor=pointer]:
+                - /url: /pt/policies/refund-policy
+            - listitem [ref=e527]:
+              - text: •
+              - link "Termos de serviço" [ref=e528] [cursor=pointer]:
+                - /url: /pt/policies/terms-of-service
+            - listitem [ref=e529]:
+              - text: •
+              - link "Política de envios" [ref=e530] [cursor=pointer]:
+                - /url: /pt/policies/shipping-policy
+            - listitem [ref=e531]:
+              - text: •
+              - link "Preferências de cookies" [ref=e532] [cursor=pointer]:
+                - /url: /pt/policies/#shopifyReshowConsentBanner

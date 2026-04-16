@@ -1,5 +1,17 @@
 # AROMA + WAX CLP Print Tool: Admin Handoff
 
+## Browser Automation Safety
+
+- Never leave Playwright, headless Chrome, or browser daemons running after a task.
+- Before browser checks, verify the target dev server is already up and responding.
+- If the server crashes, restarts, or returns connection-refused, stop the browser run immediately.
+- Never run more than one browser-check per project unless the user explicitly asks for parallel runs.
+- Store browser runtime logs and temp artifacts outside sync folders like Documents/Desktop/iCloud/Dropbox.
+- Do not write `.playwright-cli`, `output/playwright`, `.tmp`, or `.tmp.driveupload` into synced project folders.
+- After every browser task, always run cleanup, even on failure or interruption.
+- Required cleanup: `pkill -f 'playwright_chromiumdev_profile' || true; pkill -f 'playwright-core/lib/entry/cliDaemon.js' || true`
+- A browser task is not complete until cleanup has succeeded.
+
 ## What this is
 
 Private CLP label generator for AROMA + WAX.
@@ -113,6 +125,26 @@ Important:
 - `SHOPIFY_ACCESS_TOKEN` is not required anymore for production
 - production should work from `SHOPIFY_CLIENT_ID + SHOPIFY_CLIENT_SECRET`
 - do not store the Shopify client secret with a trailing newline
+
+## pt-PT Translation Import Scopes
+
+The original CLP workflow only needs product access, but the pt-PT translation import workflow needs broader Shopify access.
+
+Before running Shopify translation key/digest mapping, follow:
+
+```text
+docs/PT_PT_SHOPIFY_TRANSLATION_SCOPES.md
+```
+
+Current required additions for translation work:
+
+- `read_translations`
+- `write_translations`
+- `read_locales`
+- `write_locales`
+- `read_content`
+- `read_legal_policies`
+- `read_themes`
 
 ## Verified production auth state
 

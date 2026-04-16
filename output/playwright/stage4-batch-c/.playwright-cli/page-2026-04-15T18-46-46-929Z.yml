@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: Iniciar sessão
+      - button [ref=e7] [cursor=pointer]
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: Enviaremos um código único (OTP) para o seu e-mail para um início de sessão seguro.
+      - generic [ref=e12]:
+        - textbox "E-mail" [ref=e13]
+        - generic: E-mail
+      - button "Continuar" [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]: Continuar
+      - link "Criar conta" [ref=e16] [cursor=pointer]:
+        - /url: /pt/apps/deluxe/account/register
+  - alertdialog "Consentimento de cookies" [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Consentimento de cookies" [level=2] [ref=e20]
+        - paragraph [ref=e21]:
+          - text: Nós e os nossos parceiros, incluindo a Shopify, utilizamos cookies e outras tecnologias para personalizar a sua experiência, apresentar anúncios e efetuar análises de dados. Não utilizaremos cookies ou outras tecnologias para estas finalidades sem que o aceite. Saiba mais na nossa
+          - link "Política de privacidade" [ref=e22] [cursor=pointer]:
+            - /url: https://aromawax.eu/pt-PT/policies/privacy-policy
+      - generic [ref=e23]:
+        - button "Gerir preferências" [ref=e24] [cursor=pointer]
+        - button "Aceitar" [ref=e25] [cursor=pointer]
+        - button "Rejeitar" [ref=e26] [cursor=pointer]
+  - link "Ir para o conteúdo" [ref=e27] [cursor=pointer]:
+    - /url: /pt#main
+  - main [ref=e28]:
+    - navigation "breadcrumbs" [ref=e32]:
+      - link "Home" [ref=e33] [cursor=pointer]:
+        - /url: /pt
+      - generic [ref=e34]: /
+      - link "como fazer velas" [ref=e35] [cursor=pointer]:
+        - /url: /pt/blogs/how-to-make-candles
+      - generic [ref=e36]: /
+      - generic [ref=e37]: Como escolher a cera
+    - generic [ref=e39]:
+      - generic [ref=e41]:
+        - heading "Como escolher a cera" [level=1] [ref=e42]
+        - paragraph [ref=e44]:
+          - time [ref=e48]: 1/05/2025
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - paragraph [ref=e52]:
+            - generic [ref=e53]: Escolher a cera certa pode ser crucial para o sucesso de um projeto de velas. Determina a duração da queima, a intensidade da fragrância e até o aspeto da vela na prateleira. Com tantas opções disponíveis, é importante que o fabricante de velas compreenda as propriedades de cada tipo de cera para escolher a que melhor se adequa aos objetivos e valores do seu projeto. Os fatores-chave incluem o tipo de vela (em recipiente, pilar, etc.), se a cera é natural ou sintética, a estética desejada e as qualidades de cozedura necessárias. Este guia explica os princípios básicos dos tipos de cera, ajudando os principiantes e os entusiastas a criar velas incríveis.
+          - paragraph [ref=e54]
+          - heading "Visão geral das ceras de vela mais comuns" [level=4] [ref=e55]
+          - paragraph [ref=e56]: O mundo do fabrico de velas oferece uma variedade de ceras, cada uma com características distintas. Ceras naturais como a de soja, a de abelha e a de coco são populares pelos seus perfis ecológicos, enquanto opções sintéticas como a parafina continuam a ser amplamente utilizadas devido ao seu custo acessível em produções de grande escala, como a criação de velas aromáticas para eventos, equilibrando o custo e o desempenho de forma eficaz. As misturas de ceras, como as de soja e coco ou de parafina e soja, estão também a ganhar popularidade por combinarem as melhores características de múltiplas ceras. Algumas ceras destacam-se na retenção de fragrância, outras no tempo de queima ou na sustentabilidade. Conhecer estas opções permite aos fabricantes de velas alinhar as suas escolhas com objetivos específicos, seja dando prioridade ao aroma, à estética ou à responsabilidade ambiental.
+          - heading "Comparando ceras naturais e sintéticas" [level=4] [ref=e57]
+          - paragraph [ref=e58]: "As ceras naturais e sintéticas satisfazem necessidades diferentes no fabrico de velas. Aqui está um resumo das suas diferenças:"
+          - list [ref=e59]: As ceras naturais, como a de soja, a de abelha e a de coco, têm origem em plantas ou insetos, oferecendo recursos renováveis e menor impacto ambiental, com uma combustão mais limpa. A parafina sintética, à base de petróleo, proporciona uma textura consistente e uma forte difusão da fragrância, mas pode produzir mais fuligem durante a cozedura.
+          - 'heading "Cera de soja: vantagens, desvantagens e casos de utilização ideais" [level=4] [ref=e60]'
+          - paragraph [ref=e61]: A cera de soja, extraída do óleo de soja, é uma cera natural popular no fabrico de velas. É renovável e sustentável, o que a torna popular entre os consumidores com consciência ecológica. A cera de soja oferece um longo tempo de queima, uma excelente retenção de fragrância (até 10% de carga de fragrância) e uma textura cremosa ideal para velas em recipientes. Pode, por vezes, apresentar superfícies irregulares e ser sensível às alterações de temperatura.
+          - list [ref=e62]:
+            - listitem [ref=e63]: "Ponto de fusão: 46–54°C (115–130°F)"
+            - listitem [ref=e64]: "Temperatura de vazamento: 50–60°C (120–140°F)"
+            - listitem [ref=e65]: "Carga de fragrância: 6–10%"
+            - listitem [ref=e66]: "Exemplo de queima: Uma vela de soja típica de 200g queima durante aproximadamente 40 a 50 horas."
+          - paragraph [ref=e67]: "Os usos ideais incluem:"
+          - list [ref=e68]:
+            - listitem [ref=e69]: velas em recipientes
+            - listitem [ref=e70]: As velas de pilar, se misturadas com outras ceras
+            - listitem [ref=e71]: Velas de chá
+            - listitem [ref=e72]: Velas perfumadas
+          - 'heading "Cera de abelha: uma escolha clássica para uma queima limpa." [level=4] [ref=e73]'
+          - paragraph [ref=e74]: A cera de abelha é outra opção natural. Arde de forma limpa, com pouco fumo ou fuligem, conferindo às velas um aroma suave e agradável a mel. As velas de cera de abelha têm uma longa duração e uma bela cor natural. No entanto, a cera de abelha é frequentemente mais cara do que outras ceras, o que a torna menos adequada para a produção em grande escala. A sua limitada retenção de fragrância torna-a menos ideal para velas com aromas intensos. A cera de abelha destaca-se em aplicações que priorizam a qualidade do ar, como espaços de meditação ou ioga, onde as suas propriedades naturais contribuem para um ambiente puro, atraindo o mercado de produtos premium.
+          - list [ref=e75]:
+            - listitem [ref=e76]: "Ponto de fusão: 62–65°C (144–149°F)"
+            - listitem [ref=e77]: "Temperatura de vazamento: 65–75°C (149–167°F)"
+            - listitem [ref=e78]: "Teor de fragrância: até 6%"
+            - listitem [ref=e79]: "Exemplo de tempo de queima: Uma vela típica de cera de abelha de 200g queima durante aproximadamente 50 a 60 horas."
+          - paragraph [ref=e80]: "Aplicações recomendadas:"
+          - list [ref=e81]:
+            - listitem [ref=e82]: Velas de pilar
+            - listitem [ref=e83]: Velas cónicas
+            - listitem [ref=e84]: Velas decorativas especiais
+          - 'heading "Cera de parafina: versátil e económica" [level=4] [ref=e85]'
+          - paragraph [ref=e86]: A parafina é uma cera sintética derivada do petróleo. É acessível, versátil e fácil de trabalhar, o que a torna uma escolha popular tanto para principiantes como para fabricantes de velas em grande escala. As velas de parafina têm uma excelente difusão de aroma e um aspeto uniforme. A desvantagem é que a parafina pode produzir mais fuligem e é menos ecológica.
+          - list [ref=e87]:
+            - listitem [ref=e88]: "Ponto de fusão: 46–68 °C (115–154 °F), varia consoante o tipo."
+            - listitem [ref=e89]: "Temperatura de vazamento: 55–70°C (130–158°F)"
+            - listitem [ref=e90]: "Carga de fragrância: 8–12%"
+            - listitem [ref=e91]: "Exemplo de duração: Uma vela de parafina típica de 200g queima durante aproximadamente 35 a 45 horas."
+          - paragraph [ref=e92]: "A parafina é mais indicada para:"
+          - list [ref=e93]:
+            - listitem [ref=e94]: Velas votivas
+            - listitem [ref=e95]: velas moldadas
+            - listitem [ref=e96]: Grandes lotes de velas
+          - heading "Cera de coco e outras misturas explicadas" [level=4] [ref=e97]
+          - paragraph [ref=e98]: A cera de coco, derivada do óleo de coco, destaca-se como uma cera natural premium com um acabamento cremoso e brilhante e uma queima limpa. A cera de coco pura é macia e cara, por isso é geralmente utilizada em misturas. Mistura-se eficazmente com cera de soja ou de abelha para maior estabilidade, sendo vertida a uma temperatura de 54-66°C. As misturas de soja e coco combinam a durabilidade da soja com o requinte do coco, ideais para produtos sofisticados, como velas em lata com aroma de manga para presentes de spa.
+          - list [ref=e99]:
+            - listitem [ref=e100]: "Ponto de fusão: 35–40°C (95–104°F)"
+            - listitem [ref=e101]: "Temperatura de vazamento: 45–55°C (113–131°F)"
+            - listitem [ref=e102]: "Carga de fragrância: 8–12%"
+            - listitem [ref=e103]: "Exemplo de queima: Uma vela típica de 200g de cera de coco queima durante aproximadamente 45 a 55 horas."
+          - paragraph [ref=e104]: "As misturas comuns de cera de coco incluem:"
+          - list [ref=e105]:
+            - listitem [ref=e106]: Misturas de coco e soja para uma fragrância intensa.
+            - listitem [ref=e107]: Misturas de cera de coco e cera de abelha para uma queima suave.
+          - heading "Como a fragrância, o tempo de queima e a aparência afetam a sua escolha." [level=4] [ref=e108]
+          - paragraph [ref=e109]: Ao escolher a cera, considere a capacidade de absorção da fragrância — a quantidade de aroma que a cera consegue reter sem problemas. Ceras como a parafina são conhecidas pela sua excelente difusão de fragrâncias quando aquecidas, sendo ideais para aromas intensos, enquanto a cera de soja e a cera de abelha proporcionam um aroma mais subtil, perfeito para quem procura fragrâncias naturais ou notas mais delicadas. As misturas de cera de coco combinam um excelente desempenho de fragrância com uma estética luxuosa, perfeitas para velas sofisticadas.
+          - paragraph [ref=e110]: "O tempo de queima é outro fator importante; opções naturais como a cera de abelha e a soja queimam mais lentamente, tornando-as económicas para períodos mais longos. Por outro lado, a parafina pode arder mais rapidamente, mas produz uma chama brilhante e intensa. Aditivos como o Vybar (1-2%) endurecem a cera, prolongando o tempo de cozedura, e o ácido esteárico (3-5%) intensifica a libertação da fragrância, melhorando o desempenho global de acordo com as necessidades do projeto. Os fatores a considerar incluem:"
+          - paragraph [ref=e111]: 1. Capacidade máxima de carga de fragrância
+          - paragraph [ref=e112]: 2. Tempo de queima desejado
+          - paragraph [ref=e113]: 3.º Tamanho e formato da vela
+          - paragraph [ref=e114]: A aparência também importa. Os óleos de soja e coco produzem superfícies suaves e cremosas; a parafina proporciona um acabamento brilhante.
+          - heading "Fatores de Ecologicamente Correto e Sustentabilidade" [level=4] [ref=e115]
+          - paragraph [ref=e116]: A sustentabilidade desempenha um papel significativo na seleção da cera para o fabrico de velas. As ceras naturais, incluindo a de soja e a de abelha, são renováveis e biodegradáveis, apoiando os setores agrícola e apícola. A cera de soja reduz a pegada de carbono, enquanto a cera de abelha contribui para a saúde dos polinizadores, estando alinhada com os objetivos ecológicos. A parafina, derivada do petróleo, oferece opções menos sustentáveis, com maiores emissões. Optar por uma mistura de soja e coco promove um perfil ecológico, atraindo clientes que procuram produtos de velas sustentáveis.
+          - 'heading "Conclusão: Escolha o tipo de cera ideal para os seus objetivos com as velas." [level=4] [ref=e117]'
+          - paragraph [ref=e118]: Escolher o tipo de cera ideal para a sua produção de velas passa por equilibrar o custo, a qualidade da queima, a intensidade da fragrância, o aspeto e a sustentabilidade. Compreender estes fatores ajuda-o a criar velas que satisfaçam as suas necessidades específicas de forma eficaz e eficiente. Escolha a cera com cuidado, considerando as vantagens e limitações únicas de cada tipo para obter os melhores resultados no fabrico de velas.
+        - generic [ref=e119]:
+          - generic [ref=e120]: Partilhar
+          - list [ref=e121]:
+            - listitem [ref=e122]:
+              - link "Compartilhar em Facebook" [ref=e123] [cursor=pointer]:
+                - /url: "https://www.facebook.com/sharer.php?u=https://aromawax.eu/pt/blogs/how-to-make-candles/how-to-choose-wax\n"
+            - listitem [ref=e125]:
+              - link "Compartilhar em Twitter" [ref=e126] [cursor=pointer]:
+                - /url: "https://twitter.com/intent/tweet?text=Como%20escolher%20a%20cera&url=https://aromawax.eu/pt/blogs/how-to-make-candles/how-to-choose-wax\n"
+            - listitem [ref=e128]:
+              - link "Compartilhar em Pinterest" [ref=e129] [cursor=pointer]:
+                - /url: "https://pinterest.com/pin/create/button/?url=https://aromawax.eu/pt/blogs/how-to-make-candles/how-to-choose-wax&media=https://aromawax.eu/cdn/shop/articles/Untitled_design_10_71218377-84db-4ebb-b41f-de475e8b12da.png?v=1774363353&width=800&description=\n"
+            - listitem [ref=e131]:
+              - link "Compartilhar por e-mail" [ref=e132] [cursor=pointer]:
+                - /url: "mailto:?&subject=Como escolher a cera&body=https://aromawax.eu/pt/blogs/how-to-make-candles/how-to-choose-wax\n"
+    - generic [ref=e137]:
+      - generic [ref=e138]:
+        - generic [ref=e139]: como fazer velas
+        - generic [ref=e140]:
+          - 'link "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e141] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+            - 'img "Best Candle Waxes Compared: Soy vs Coconut vs Paraffin" [ref=e142]'
+          - 'heading "Comparação das melhores ceras para velas: soja vs coco vs parafina" [level=3] [ref=e143]':
+            - 'link "Comparação das melhores ceras para velas: soja vs coco vs parafina" [ref=e144] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/best-candle-waxes-compared-soy-vs-coconut-vs-paraffin
+          - paragraph [ref=e145]: “Não existe uma única cera “ideal” para todas as utilizações — cada tipo de cera (soja, coco, par...
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - 'link "Carga de fragrância em velas explicada: quanto óleo deve usar?" [ref=e148] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/candle-fragrance-load-explained-how-much-oil-should-you-use
+          - listitem [ref=e149]:
+            - 'link "Como criar a sua primeira coleção de velas: passos-chave para o sucesso" [ref=e150] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-your-first-candle-collection-key-steps-to-success
+          - listitem [ref=e151]:
+            - link "Como escolher o pavio perfeito para a sua vela" [ref=e152] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-candles/how-to-choose-the-perfect-wick-for-your-candle
+          - listitem [ref=e153]:
+            - link "Como fazer velas em recipiente - guia de fabrico de velas" [ref=e154] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-container-candles-candle-making-guide
+          - listitem [ref=e155]:
+            - 'link "Como fazer velas: guia prático para principiantes" [ref=e156] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-candles/how-to-make-candles-a-practical-guide-for-beginners
+        - link "Ver tudo >" [ref=e157] [cursor=pointer]:
+          - /url: /pt/blogs/how-to-make-candles
+      - generic [ref=e158]:
+        - generic [ref=e159]: como fazer difusores de varetas e sprays de ambiente
+        - generic [ref=e160]:
+          - 'link "Room Spray Guide: Ratios, Bases, and Fragrance Oils" [ref=e161] [cursor=pointer]':
+            - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils
+            - 'img "Room Spray Guide: Ratios, Bases, and Fragrance Oils" [ref=e162]'
+          - 'heading "Guia de sprays de ambiente: proporções, bases e fragrâncias" [level=3] [ref=e163]':
+            - 'link "Guia de sprays de ambiente: proporções, bases e fragrâncias" [ref=e164] [cursor=pointer]':
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/room-spray-guide-ratios-bases-and-fragrance-oils
+          - paragraph [ref=e165]: 1. O que é realmente um spray de ambiente (e o que não é) Em termos formais, um de pulverização ...
+        - list [ref=e166]:
+          - listitem [ref=e167]:
+            - link "Como escolher recipientes para difusores de varetas e sprays de ambiente" [ref=e168] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-vessels-for-reed-diffusers-and-room-sprays
+          - listitem [ref=e169]:
+            - link "Como escolher bases para difusores e sprays de ambiente" [ref=e170] [cursor=pointer]:
+              - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays/how-to-choose-bases-for-diffusers-and-room-sprays
+        - link "Ver tudo >" [ref=e171] [cursor=pointer]:
+          - /url: /pt/blogs/how-to-make-reed-diffusers-and-room-sprays
+      - generic [ref=e172]:
+        - list
+        - link "Ver tudo >" [ref=e173] [cursor=pointer]:
+          - /url: /pt/blogs/news
+  - iframe [ref=e175]:
+    - generic [ref=f1e4]:
+      - button [ref=f1e7] [cursor=pointer]:
+        - img [ref=f1e9]
+        - img [ref=f1e12]
+      - generic [ref=f1e15]:
+        - generic [ref=f1e18]:
+          - link "Logo" [ref=f1e19] [cursor=pointer]:
+            - /url: https://admin.shopify.com/store/3rcue2-me
+            - img "Logo" [ref=f1e20]
+          - generic [ref=f1e22]:
+            - generic [ref=f1e23]: pt-fresh-clone-2026-04-15T12-42-06
+            - generic [ref=f1e24]: Draft
+        - generic [ref=f1e26]:
+          - button "Hide bar" [ref=f1e28] [cursor=pointer]:
+            - generic [ref=f1e29]: Hide bar
+          - button "Exit preview" [ref=f1e31] [cursor=pointer]:
+            - generic [ref=f1e32]: Exit preview
+          - button "Copy link" [ref=f1e35] [cursor=pointer]:
+            - img [ref=f1e39]
+            - generic [ref=f1e41]: Copy link
